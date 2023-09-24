@@ -1,0 +1,23 @@
+{
+  "name": "updatemybrowser-v5",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "github:hongaar/updatemybrowser-v5",
+  "license": "MIT",
+  "author": "Joram van den Boezem <joram@vandenboezem.nl>",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "echo 'not implemented'",
+    "test": "echo 'not implemented'"
+  },
+  "devDependencies": {
+    "moker": "1.4.1"
+  },
+  "packageManager": "yarn@3.6.3",
+  "moker": {
+    "plugins": [],
+    "scoped": true
+  }
+}
