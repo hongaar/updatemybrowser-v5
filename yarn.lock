@@ -2279,9 +2279,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mokr/core@npm:1.6.0":
-  version: 1.6.0
-  resolution: "@mokr/core@npm:1.6.0"
+"@mokr/core@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@mokr/core@npm:1.7.0"
   dependencies:
     chalk: 5.3.0
     deepmerge: 4.3.1
@@ -2291,26 +2291,26 @@ __metadata:
     pkg-up: ^4.0.0
     sort-package-json: 2.5.1
     yaml: 2.3.2
-  checksum: e410cd816857a7bf7164728a22ec85604a408bdcd73dd3e2f778848ae929a0407aa5e4ca95f02137e815622ca3816819caf06f081440ceaf57579025f50581d9
+  checksum: dc94cb9b6bda0a42b2f931c59538fd03c4bdcdc785b00ff03b74f47e757b7362e20eff162a87130ca1841e7464e4613578e6de10f942ee432f8fe1b0362bc8c7
   languageName: node
   linkType: hard
 
-"@mokr/plugins@npm:1.6.0":
-  version: 1.6.0
-  resolution: "@mokr/plugins@npm:1.6.0"
+"@mokr/plugins@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@mokr/plugins@npm:1.7.0"
   dependencies:
-    "@mokr/core": 1.6.0
-  checksum: 44556b6bc8952f37cedcdfa29c4f178d3d10366d92dbdbfb5c06da159d0373bccccef97ece45543ea9dc208f816ec960cca7606b0848092806235d359af4b640
+    "@mokr/core": 1.7.0
+  checksum: 6365b9ae67e3f1d1983fa45a50d2edee41940b00f0691e67cbee1213d1825cd2687eb551c0498f5b1f3657d5967ad5d628cba2c8d2854ed319c12c964b955c3b
   languageName: node
   linkType: hard
 
-"@mokr/templates@npm:1.6.0":
-  version: 1.6.0
-  resolution: "@mokr/templates@npm:1.6.0"
+"@mokr/templates@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@mokr/templates@npm:1.7.0"
   dependencies:
-    "@mokr/core": 1.6.0
-    "@mokr/plugins": 1.6.0
-  checksum: d1af87d384a019c08876de9e394dc312958cc1962f0737e52b9a69f7b3b9bff4deccda04ecb6a870a0ce2151de0649ca23d25d8e550eac8ff10f532ce42b579e
+    "@mokr/core": 1.7.0
+    "@mokr/plugins": 1.7.0
+  checksum: 37f122e65c5f6304f633bf5fa80e8a2b40155f88dd9ea0c867e696601e495d1843c1993a2d6ae1d8181c482827210a739250e1152bc73a5841432cbee9570db8
   languageName: node
   linkType: hard
 
@@ -3654,12 +3654,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/yargs@npm:17.0.24":
-  version: 17.0.24
-  resolution: "@types/yargs@npm:17.0.24"
+"@types/yargs@npm:17.0.25":
+  version: 17.0.25
+  resolution: "@types/yargs@npm:17.0.25"
   dependencies:
     "@types/yargs-parser": "*"
-  checksum: 5f3ac4dc4f6e211c1627340160fbe2fd247ceba002190da6cf9155af1798450501d628c9165a183f30a224fc68fa5e700490d740ff4c73e2cdef95bc4e8ba7bf
+  checksum: ef57926de514f5eb0a182167a63930bd7d2eb33d89b6041760f690d50b2019d7901b30c33ab7d03b3fa66a5004f0f81e36186d8f9e5e583a27b9ce331d2a5276
   languageName: node
   linkType: hard
 
@@ -4481,16 +4481,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bandersnatch@npm:1.12.6":
-  version: 1.12.6
-  resolution: "bandersnatch@npm:1.12.6"
+"bandersnatch@npm:1.12.7":
+  version: 1.12.7
+  resolution: "bandersnatch@npm:1.12.7"
   dependencies:
-    "@types/yargs": 17.0.24
+    "@types/yargs": 17.0.25
     enquirer: ^2.3.6
     string-argv: ^0.3.1
     typed-emitter: ^2.1.0
     yargs: ^17.5.1
-  checksum: 07b364c93efe0293eeb5cf7eaea609160d2a2dd42af699ae586439d4bc056491accd58ccb371a227e910f0af818e722ab559d3f8389e05329438cbdac0f345e0
+  checksum: 1af7e00107947a5eea99e64dbafd46ef8cab8e0fc81278f222bbc2fc15df5a6a04bbf6430cef0c5fe6f003c2fce5c2cda298c873b0df4b977cad3f9f10467c9b
   languageName: node
   linkType: hard
 
@@ -8876,17 +8876,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"moker@npm:1.6.0":
-  version: 1.6.0
-  resolution: "moker@npm:1.6.0"
+"moker@npm:1.7.0":
+  version: 1.7.0
+  resolution: "moker@npm:1.7.0"
   dependencies:
-    "@mokr/core": 1.6.0
-    "@mokr/plugins": 1.6.0
-    "@mokr/templates": 1.6.0
-    bandersnatch: 1.12.6
+    "@mokr/core": 1.7.0
+    "@mokr/plugins": 1.7.0
+    "@mokr/templates": 1.7.0
+    bandersnatch: 1.12.7
   bin:
     moker: moker.js
-  checksum: 006db1b4d4337e7b403ab4b5889d4d4ab15ccbf253a177edcf589a3cee37bc04d2c887a327db5475ac80482d7ec0f5da327d9c731e229de7101052b7eda79aa2
+  checksum: bfb1c038e6192bbd2f5d2d4a262945f93192114d8d6736ef0b93bd4c20c8a1d796063265bfcdd1af2700fa283efa5333d7f83fef5d09879a298f53a55699b5d6
   languageName: node
   linkType: hard
 
@@ -12245,7 +12245,7 @@ __metadata:
     create-sanity: 3.16.7
     husky: 8.0.3
     lint-staged: 14.0.1
-    moker: 1.6.0
+    moker: 1.7.0
     prettier: 3.0.3
   languageName: unknown
   linkType: soft
