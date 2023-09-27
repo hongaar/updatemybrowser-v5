@@ -9,15 +9,39 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "echo 'not implemented'",
-    "test": "echo 'not implemented'"
+    "build": "yarn workspaces foreach --topological --verbose run build",
+    "build:watch": "yarn workspaces foreach --parallel --interlaced run build:watch",
+    "format": "prettier --write --ignore-unknown .",
+    "format:check": "prettier --check --ignore-unknown .",
+    "postinstall": "husky install",
+    "start:studio": "yarn workspace @updatemybrowser-v5/studio dev",
+    "start:web": "yarn workspace @updatemybrowser-v5/web dev",
+    "test": "yarn workspaces foreach --topological --verbose run test",
+    "test:watch": "yarn workspaces foreach --parallel --interlaced run test:watch"
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+    "create-sanity": "3.16.7"
   },
   "devDependencies": {
-    "moker": "1.4.1"
+    "@types/prettier": "^3",
+    "husky": "8.0.3",
+    "lint-staged": "14.0.1",
+    "moker": "1.6.0",
+    "prettier": "3.0.3"
   },
   "packageManager": "yarn@3.6.3",
   "moker": {
-    "plugins": [],
+    "plugins": [
+      "prettier",
+      "github-actions",
+      "lint-staged",
+      "husky",
+      "devcontainer",
+      "dependabot"
+    ],
     "scoped": true
   }
 }
