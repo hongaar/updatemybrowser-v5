@@ -10,14 +10,18 @@
   ],
   "scripts": {
     "build": "yarn workspaces foreach --topological --verbose run build",
+    "build:clean": "yarn workspaces foreach --topological --verbose run build:clean",
     "build:watch": "yarn workspaces foreach --parallel --interlaced run build:watch",
     "format": "prettier --write --ignore-unknown .",
     "format:check": "prettier --check --ignore-unknown .",
     "postinstall": "husky install",
+    "start": "run-p \"start:**\"",
     "start:studio": "yarn workspace @updatemybrowser-v5/studio dev",
     "start:web": "yarn workspace @updatemybrowser-v5/web dev",
     "test": "yarn workspaces foreach --topological --verbose run test",
-    "test:watch": "yarn workspaces foreach --parallel --interlaced run test:watch"
+    "test:watch": "yarn workspaces foreach --parallel --interlaced run test:watch",
+    "typescript": "yarn build:clean && tsc --build --force",
+    "typescript:watch": "tsc --build --watch"
   },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown"
@@ -30,7 +34,9 @@
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
     "moker": "1.6.0",
-    "prettier": "3.0.3"
+    "npm-run-all": "4.1.5",
+    "prettier": "3.0.3",
+    "typescript": "5.2.2"
   },
   "packageManager": "yarn@3.6.3",
   "moker": {

@@ -12,9 +12,6 @@ export const figure: ImageDefinition = {
       name: "caption",
       type: "string",
       title: "Caption",
-      options: {
-        isHighlighted: true,
-      },
     },
     {
       name: "alt",
@@ -23,9 +20,6 @@ export const figure: ImageDefinition = {
       description: "Important for SEO and accessiblity.",
       validation: (Rule) =>
         Rule.error("You have to fill out the alternative text.").required(),
-      options: {
-        isHighlighted: true,
-      },
     },
   ],
   preview: {
