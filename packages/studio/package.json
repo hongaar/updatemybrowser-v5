@@ -1,5 +1,5 @@
 {
-  "name": "@updatemybrowser-v5/studio",
+  "name": "@updatemybrowser/studio",
   "version": "0.0.0",
   "private": true,
   "keywords": [
@@ -20,7 +20,7 @@
     "@sanity/color-input": "3.1.0",
     "@sanity/language-filter": "3.2.1",
     "@sanity/vision": "^3.16.7",
-    "@updatemybrowser-v5/core": "workspace:*",
+    "@updatemybrowser/core": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",

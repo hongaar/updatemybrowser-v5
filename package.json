@@ -1,8 +1,8 @@
 {
-  "name": "updatemybrowser-v5",
+  "name": "updatemybrowser",
   "version": "0.0.0",
   "private": true,
-  "repository": "github:hongaar/updatemybrowser-v5",
+  "repository": "github:hongaar/updatemybrowser",
   "license": "MIT",
   "author": "Joram van den Boezem <joram@vandenboezem.nl>",
   "workspaces": [
@@ -16,8 +16,8 @@
     "format:check": "prettier --check --ignore-unknown .",
     "postinstall": "husky install",
     "start": "run-p \"start:**\"",
-    "start:studio": "yarn workspace @updatemybrowser-v5/studio dev",
-    "start:web": "yarn workspace @updatemybrowser-v5/web dev",
+    "start:studio": "yarn workspace @updatemybrowser/studio dev",
+    "start:web": "yarn workspace @updatemybrowser/web dev",
     "test": "yarn workspaces foreach --topological --verbose run test",
     "test:watch": "yarn workspaces foreach --parallel --interlaced run test:watch",
     "typescript": "yarn build:clean && tsc --build --force",
