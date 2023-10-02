@@ -12,9 +12,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@portabletext/react": "3.0.9",
+    "@sanity/image-url": "1.0.2",
     "next": "latest",
+    "next-sanity": "5.5.4",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "styled-components": "6.0.8"
   },
   "devDependencies": {
     "@types/node": "latest",
