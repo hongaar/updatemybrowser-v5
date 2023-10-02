@@ -1,5 +1,5 @@
 import { DocumentDefinition } from "sanity";
-import { slug } from "../mixins";
+import { slug } from "../mixins/index.js";
 
 export const site: DocumentDefinition = {
   name: "site",

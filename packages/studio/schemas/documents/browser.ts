@@ -7,9 +7,14 @@ export const browser: DocumentDefinition = {
   type: "document",
   fieldsets: [
     {
+      name: "i18n",
+      title: "i18n",
+      options: { collapsible: true, collapsed: true },
+    },
+    {
       name: "branding",
       title: "Branding",
-      options: { collapsible: true },
+      options: { collapsible: true, collapsed: true },
     },
   ],
   preview: {
@@ -60,8 +65,9 @@ export const browser: DocumentDefinition = {
     {
       name: "description",
       title: "Description",
-      type: "string",
+      type: "internationalizedArrayString",
       validation: (rule) => rule.required(),
+      fieldset: "i18n",
     },
     {
       name: "icon",

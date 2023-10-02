@@ -1,13 +1,16 @@
-import { Rule } from "sanity";
+import { FieldDefinition, Rule } from "sanity";
 
-export function slug(options = { source: "name" }) {
+export function slug({
+  source = "name",
+  description = "URL fragment of this object",
+} = {}): FieldDefinition {
   return {
     name: "slug",
     type: "slug",
     title: "Slug",
-    description: "URL fragment of this object",
+    description,
     options: {
-      source: options.source,
+      source,
       maxLength: 96,
     },
     validation: (rule: Rule) => rule.required(),

@@ -2106,7 +2106,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iconify/react@npm:^4.1.1":
+"@iconify/react@npm:4.1.1, @iconify/react@npm:^4.1.1":
   version: 4.1.1
   resolution: "@iconify/react@npm:4.1.1"
   dependencies:
@@ -2627,7 +2627,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/icons@npm:^2.0.0, @sanity/icons@npm:^2.4.0, @sanity/icons@npm:^2.4.1":
+"@sanity/icons@npm:^2.0.0, @sanity/icons@npm:^2.2.2, @sanity/icons@npm:^2.4.0, @sanity/icons@npm:^2.4.1":
   version: 2.4.1
   resolution: "@sanity/icons@npm:2.4.1"
   peerDependencies:
@@ -2682,7 +2682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/language-filter@npm:3.2.1":
+"@sanity/language-filter@npm:^3.1.2":
   version: 3.2.1
   resolution: "@sanity/language-filter@npm:3.2.1"
   dependencies:
@@ -2766,7 +2766,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/ui@npm:^1.0.0, @sanity/ui@npm:^1.7.2, @sanity/ui@npm:^1.7.9":
+"@sanity/ui@npm:^1.0.0, @sanity/ui@npm:^1.2.2, @sanity/ui@npm:^1.7.2, @sanity/ui@npm:^1.7.9":
   version: 1.8.2
   resolution: "@sanity/ui@npm:1.8.2"
   dependencies:
@@ -3411,9 +3411,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@updatemybrowser/studio@workspace:packages/studio"
   dependencies:
+    "@iconify/react": 4.1.1
     "@sanity/color-input": 3.1.0
     "@sanity/eslint-config-studio": ^3.0.1
-    "@sanity/language-filter": 3.2.1
     "@sanity/vision": ^3.16.7
     "@types/react": ^18.0.25
     "@types/styled-components": ^5.1.26
@@ -3425,6 +3425,7 @@ __metadata:
     react-is: ^18.2.0
     sanity: ^3.16.7
     sanity-plugin-icon-manager: 1.0.0
+    sanity-plugin-internationalized-array: 1.10.3
     styled-components: ^5.3.9
     typescript: ^5.1.6
   languageName: unknown
@@ -3437,6 +3438,7 @@ __metadata:
     "@types/node": latest
     "@types/react": latest
     "@types/react-dom": latest
+    "@updatemybrowser/core": "workspace:*"
     autoprefixer: latest
     eslint: latest
     eslint-config-next: latest
@@ -7632,6 +7634,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lodash.get@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "lodash.get@npm:4.4.2"
+  checksum: e403047ddb03181c9d0e92df9556570e2b67e0f0a930fcbbbd779370972368f5568e914f913e93f3b08f6d492abc71e14d4e9b7a18916c31fa04bd2306efe545
+  languageName: node
+  linkType: hard
+
 "lodash.isplainobject@npm:^4.0.6":
   version: 4.0.6
   resolution: "lodash.isplainobject@npm:4.0.6"
@@ -9757,6 +9766,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sanity-plugin-internationalized-array@npm:1.10.3":
+  version: 1.10.3
+  resolution: "sanity-plugin-internationalized-array@npm:1.10.3"
+  dependencies:
+    "@sanity/icons": ^2.2.2
+    "@sanity/incompatible-plugin": ^1.0.4
+    "@sanity/language-filter": ^3.1.2
+    "@sanity/ui": ^1.2.2
+    fast-deep-equal: ^3.1.3
+    lodash.get: ^4.4.2
+    suspend-react: ^0.0.8
+  peerDependencies:
+    "@sanity/ui": ^1.2.2
+    react: ^18
+    sanity: ^3.0.0
+    styled-components: ^5.3.6
+  checksum: 3aeb8673bfd616a19aeb61f0f89e5e7167ab72488d28b1e85694a1e9def4c936f98659b4819e4ae24ddf0c9935d627e9ff101d3e0881c13c34b53bd9c74d659e
+  languageName: node
+  linkType: hard
+
 "sanity@npm:^3.16.7":
   version: 3.16.7
   resolution: "sanity@npm:3.16.7"
@@ -10532,6 +10561,15 @@ __metadata:
   version: 1.0.0
   resolution: "supports-preserve-symlinks-flag@npm:1.0.0"
   checksum: 53b1e247e68e05db7b3808b99b892bd36fb096e6fba213a06da7fab22045e97597db425c724f2bbd6c99a3c295e1e73f3e4de78592289f38431049e1277ca0ae
+  languageName: node
+  linkType: hard
+
+"suspend-react@npm:^0.0.8":
+  version: 0.0.8
+  resolution: "suspend-react@npm:0.0.8"
+  peerDependencies:
+    react: ">=17.0"
+  checksum: 173a56c8df8f401098697b640567f80d756849bbee02928a5283f25b94e9aef74fa58c48c974a073e3a57f6f5c0d51dcf19f410bfe0a81cc70c232d759f25c93
   languageName: node
   linkType: hard
 

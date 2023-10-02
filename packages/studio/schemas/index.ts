@@ -1,5 +1,5 @@
-import * as documents from "./documents";
-import * as objects from "./objects";
+import * as documents from "./documents/index.js";
+import * as objects from "./objects/index.js";
 
 export const schemaTypes = [
   ...Object.values(documents),

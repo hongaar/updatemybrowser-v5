@@ -1,10 +1,11 @@
 import { colorInput } from "@sanity/color-input";
-import { languageFilter } from "@sanity/language-filter";
 import { visionTool } from "@sanity/vision";
+import { defaultLanguage } from "@updatemybrowser/core";
 import { defineConfig } from "sanity";
 import { IconManager } from "sanity-plugin-icon-manager";
+import { internationalizedArray } from "sanity-plugin-internationalized-array";
 import { deskTool } from "sanity/desk";
-import { schemaTypes } from "./schemas";
+import { schemaTypes } from "./schemas/index.js";
 
 export default defineConfig({
   name: "default",
@@ -17,23 +18,13 @@ export default defineConfig({
     deskTool(),
     colorInput(),
     IconManager(),
-    languageFilter({
-      supportedLanguages: [
-        { id: "nb", title: "Norwegian (Bokmål)" },
-        { id: "nn", title: "Norwegian (Nynorsk)" },
-        { id: "en", title: "English" },
-        { id: "es", title: "Spanish" },
-        { id: "arb", title: "Arabic" },
-        { id: "pt", title: "Portuguese" },
-        //...
-      ],
-      // Select Norwegian (Bokmål) by default
-      defaultLanguages: ["nb"],
-      // Only show language filter for document type `page` (schemaType.name)
-      documentTypes: ["page"],
-      filterField: (enclosingType, member, selectedLanguageIds) =>
-        !enclosingType.name.startsWith("locale") ||
-        selectedLanguageIds.includes(member.name),
+    internationalizedArray({
+      languages: (client) => {
+        return client.fetch(`*[_type == "language"]{ id, title }`);
+      },
+      defaultLanguages: [defaultLanguage],
+      fieldTypes: ["string"],
+      buttonAddAll: false,
     }),
     visionTool(),
   ],

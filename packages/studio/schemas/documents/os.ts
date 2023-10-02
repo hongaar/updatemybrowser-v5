@@ -1,5 +1,6 @@
 import { DocumentDefinition } from "sanity";
 import { mediaPreview } from "sanity-plugin-icon-manager";
+import { i18nString, slug } from "../mixins/index.js";
 
 export const os: DocumentDefinition = {
   name: "os",
@@ -35,16 +36,7 @@ export const os: DocumentDefinition = {
       type: "string",
       validation: (rule) => rule.required(),
     },
-    {
-      name: "slug",
-      title: "Slug",
-      description: "e.g. windows or ubuntu",
-      type: "slug",
-      options: {
-        source: "name",
-      },
-      validation: (rule) => rule.required(),
-    },
+    slug({ description: "e.g. windows or ubuntu" }),
     {
       name: "vendor",
       title: "Vendor",
@@ -59,12 +51,11 @@ export const os: DocumentDefinition = {
       type: "url",
       validation: (rule) => rule.required(),
     },
-    {
+    i18nString({
       name: "description",
       title: "Description",
-      type: "string",
-      validation: (rule) => rule.required(),
-    },
+      required: true,
+    }),
     {
       name: "icon",
       title: "Icon",
