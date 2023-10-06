@@ -1,0 +1,31 @@
+:root {
+  --background-color: #{$white};
+
+  // Texts colors
+  --color: #{$grey-700};
+  --h1-color: #{$grey-900};
+  --h2-color: #{mix($grey-900, $grey-800)};
+  --h3-color: #{$grey-800};
+
+  // Muted colors
+  --muted-color: #{$grey-500};
+  --muted-border-color: #{$grey-50};
+
+  // Primary colors
+  --primary: #{$primary-600};
+  --primary-hover: #{$primary-700};
+  --primary-focus: #{rgba($primary-600, 0.125)};
+  --primary-inverse: #{$white};
+
+  // Secondary colors
+  --secondary: #{$grey-600};
+  --secondary-hover: #{$grey-700};
+  --secondary-focus: #{rgba($grey-600, 0.125)};
+  --secondary-inverse: #{$white};
+
+  // Contrast colors
+  --contrast: #{$grey-900};
+  --contrast-hover: #{$black};
+  --contrast-focus: #{rgba($grey-600, 0.125)};
+  --contrast-inverse: #{$white};
+}

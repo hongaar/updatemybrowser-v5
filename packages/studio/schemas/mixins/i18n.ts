@@ -1,5 +1,5 @@
 import { capitalize } from "@updatemybrowser/core";
-import { FieldDefinition, Rule } from "sanity";
+import type { FieldDefinition, Rule } from "sanity";
 
 type Params = {
   name: string;

@@ -1,4 +1,4 @@
-import { FieldDefinition, Rule } from "sanity";
+import type { FieldDefinition, Rule } from "sanity";
 
 export function slug({
   source = "name",

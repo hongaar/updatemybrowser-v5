@@ -6,7 +6,11 @@
   "postCreateCommand": "yarn install",
   "customizations": {
     "vscode": {
-      "extensions": ["esbenp.prettier-vscode", "bradlc.vscode-tailwindcss"]
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "clinyong.vscode-css-modules",
+        "mrmlnc.vscode-scss"
+      ]
     }
   }
 }

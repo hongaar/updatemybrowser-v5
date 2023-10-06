@@ -1,4 +1,4 @@
-import { DocumentDefinition } from "sanity";
+import type { DocumentDefinition } from "sanity";
 import { mediaPreview } from "sanity-plugin-icon-manager";
 
 export const browser: DocumentDefinition = {

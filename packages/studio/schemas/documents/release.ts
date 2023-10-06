@@ -1,4 +1,4 @@
-import { DocumentDefinition } from "sanity";
+import type { DocumentDefinition } from "sanity";
 
 export const release: DocumentDefinition = {
   name: "release",

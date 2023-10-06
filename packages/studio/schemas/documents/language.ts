@@ -1,5 +1,5 @@
-import { Icon } from "@iconify/react";
-import { DocumentDefinition } from "sanity";
+import type { DocumentDefinition } from "sanity";
+import { mediaPreview } from "sanity-plugin-icon-manager";
 
 export const language: DocumentDefinition = {
   name: "language",
@@ -7,14 +7,14 @@ export const language: DocumentDefinition = {
   type: "document",
   preview: {
     select: {
-      title: "title",
+      title: "name",
       subtitle: "id",
       flag: "flag",
     },
-    prepare(attrs) {
+    prepare({ flag, ...rest }) {
       return {
-        ...attrs,
-        media: () => <Icon icon={`flag:${attrs.flag}-4x3`} />,
+        ...rest,
+        media: mediaPreview(flag),
       };
     },
   },
@@ -27,17 +27,16 @@ export const language: DocumentDefinition = {
       validation: (rule) => rule.required(),
     },
     {
-      name: "flag",
-      title: "Flag",
-      description: "e.g. gb or nl",
+      name: "name",
+      title: "Name",
+      description: "e.g. English or Dutch",
       type: "string",
       validation: (rule) => rule.required(),
     },
     {
-      name: "title",
-      title: "Title",
-      description: "e.g. English or Dutch",
-      type: "string",
+      name: "flag",
+      title: "Flag",
+      type: "icon.manager",
       validation: (rule) => rule.required(),
     },
   ],

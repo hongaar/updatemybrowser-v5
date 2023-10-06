@@ -1,0 +1,9 @@
+@import "./colors";
+@import "./styles";
+@import "./light";
+@import "./dark";
+
+body {
+  background-color: var(--background-color);
+  color: var(--color);
+}

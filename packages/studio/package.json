@@ -18,13 +18,14 @@
     "start": "sanity start"
   },
   "dependencies": {
-    "@iconify/react": "4.1.1",
+    "@sanity-typed/types": "^5.8.1",
     "@sanity/color-input": "3.1.0",
     "@sanity/vision": "^3.16.7",
     "@updatemybrowser/core": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-is": "^18.2.0",
+    "remove": "^0.1.5",
     "sanity": "^3.16.7",
     "sanity-plugin-icon-manager": "1.0.0",
     "sanity-plugin-internationalized-array": "1.10.3",

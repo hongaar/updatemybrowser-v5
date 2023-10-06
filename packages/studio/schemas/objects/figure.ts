@@ -1,4 +1,4 @@
-import { ImageDefinition } from "sanity";
+import type { ImageDefinition } from "sanity";
 
 export const figure: ImageDefinition = {
   name: "figure",

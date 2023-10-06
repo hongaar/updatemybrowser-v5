@@ -1,0 +1,33 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #{mix($black, $grey-900, 37.5%)};
+
+    // Texts colors
+    --color: #{$grey-200};
+    --h1-color: #{$grey-50};
+    --h2-color: #{mix($grey-100, $grey-50)};
+    --h3-color: #{$grey-100};
+
+    // Muted colors
+    --muted-color: #{$grey-500};
+    --muted-border-color: #{mix($grey-900, $grey-800, 75%)};
+
+    // Primary colors
+    --primary: #{$primary-600};
+    --primary-hover: #{$primary-500};
+    --primary-focus: #{rgba($primary-600, 0.25)};
+    --primary-inverse: #{$white};
+
+    // Secondary colors
+    --secondary: #{$grey-600};
+    --secondary-hover: #{$grey-500};
+    --secondary-focus: #{rgba($grey-500, 0.25)};
+    --secondary-inverse: #{$white};
+
+    // Contrast colors
+    --contrast: #{$grey-50};
+    --contrast-hover: #{$white};
+    --contrast-focus: #{rgba($grey-500, 0.25)};
+    --contrast-inverse: #{$black};
+  }
+}

@@ -1,4 +1,4 @@
-import { DocumentDefinition } from "sanity";
+import type { DocumentDefinition } from "sanity";
 import { mediaPreview } from "sanity-plugin-icon-manager";
 import { i18nString, slug } from "../mixins/index.js";
 
@@ -20,10 +20,11 @@ export const os: DocumentDefinition = {
     select: {
       title: "name",
       subtitle: "vendor",
-      media: "icon",
+      icon: "icon",
     },
-    prepare({ icon }) {
+    prepare({ icon, ...rest }) {
       return {
+        ...rest,
         media: mediaPreview(icon),
       };
     },
