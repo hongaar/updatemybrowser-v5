@@ -3907,7 +3907,7 @@ __metadata:
     react-is: ^18.2.0
     remove: ^0.1.5
     sanity: ^3.16.7
-    sanity-plugin-icon-manager: 1.0.0
+    sanity-plugin-icon-manager: 1.1.1
     sanity-plugin-internationalized-array: 1.10.3
     styled-components: ^5.3.9
     typescript: ^5.1.6
@@ -11168,9 +11168,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sanity-plugin-icon-manager@npm:1.0.0":
-  version: 1.0.0
-  resolution: "sanity-plugin-icon-manager@npm:1.0.0"
+"sanity-plugin-icon-manager@npm:1.1.1":
+  version: 1.1.1
+  resolution: "sanity-plugin-icon-manager@npm:1.1.1"
   dependencies:
     "@iconify/react": ^4.1.1
     "@iconify/utils": ^2.1.9
@@ -11182,7 +11182,7 @@ __metadata:
   peerDependencies:
     react: ^18
     sanity: ^3
-  checksum: 98a8e0fead086bf547c59c640d9b532418fb6077aca2556b73087075fe8bdde05fabd493063d2cb990d3a61ed8a9ec31396b0fb8c680300e39d93efa8c6bfa41
+  checksum: 11820a065a226468be093410e3cf1fe68f06d253911029257267ab76c0f07bfb80efae99f395c2de6d19102ff84c09bed324b7a2f94fe99b3165059117214545
   languageName: node
   linkType: hard
 

@@ -27,7 +27,7 @@
     "react-is": "^18.2.0",
     "remove": "^0.1.5",
     "sanity": "^3.16.7",
-    "sanity-plugin-icon-manager": "1.0.0",
+    "sanity-plugin-icon-manager": "1.1.1",
     "sanity-plugin-internationalized-array": "1.10.3",
     "styled-components": "^5.3.9"
   },
