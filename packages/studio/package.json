@@ -18,26 +18,25 @@
     "start": "sanity start"
   },
   "dependencies": {
-    "@sanity-typed/types": "^5.8.1",
     "@sanity/color-input": "3.1.0",
-    "@sanity/vision": "^3.16.7",
+    "@sanity/vision": "3.17.0",
     "@updatemybrowser/core": "workspace:*",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-is": "^18.2.0",
-    "remove": "^0.1.5",
-    "sanity": "^3.16.7",
-    "sanity-plugin-icon-manager": "1.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-is": "18.2.0",
+    "remove": "0.1.5",
+    "sanity": "3.17.0",
+    "sanity-plugin-icon-manager": "1.1.1",
     "sanity-plugin-internationalized-array": "1.10.3",
-    "styled-components": "^5.3.9"
+    "styled-components": "6.0.8"
   },
   "devDependencies": {
-    "@sanity/eslint-config-studio": "^3.0.1",
-    "@types/react": "^18.0.25",
-    "@types/styled-components": "^5.1.26",
-    "eslint": "^8.6.0",
-    "prettier": "^3.0.2",
-    "typescript": "^5.1.6"
+    "@sanity/eslint-config-studio": "3.0.1",
+    "@types/react": "18.2.25",
+    "@types/styled-components": "5.1.28",
+    "eslint": "8.51.0",
+    "prettier": "3.0.3",
+    "typescript": "5.2.2"
   },
   "moker": {
     "plugins": []
