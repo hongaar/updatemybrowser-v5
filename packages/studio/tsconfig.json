@@ -16,7 +16,7 @@
     "incremental": true,
     "verbatimModuleSyntax": true
   },
-  "references": [{ "path": "../core" }],
+  "references": [{ "path": "../core" }, { "path": "../updater" }],
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

@@ -45,16 +45,6 @@ export type SanityIcon = {
   };
 };
 
-export enum SanityDocType {
-  Language = "language",
-  Browser = "browser",
-}
-
-export type SanityDocs = {
-  [SanityDocType.Language]: SanityLanguage;
-  [SanityDocType.Browser]: SanityBrowser;
-};
-
 export type SanityLanguage = SanityDoc<{
   _type: "language";
   id: string;
@@ -75,6 +65,27 @@ export type SanityBrowser = SanityDoc<{
   logo: string;
   color: string;
 }>;
+
+export type SanityRelease = SanityDoc<{
+  _type: "release";
+  browser: { _ref: string; _type: "reference" };
+  oses: { _ref: string; _type: "reference" }[];
+  versionSource: { source: "caniuse" | "wikipedia"; caniuse_agent?: string }[];
+  currentVersion: string;
+  satisfies: unknown;
+}>;
+
+export enum SanityDocType {
+  Language = "language",
+  Browser = "browser",
+  Release = "release",
+}
+
+export type SanityDocs = {
+  [SanityDocType.Language]: SanityLanguage;
+  [SanityDocType.Browser]: SanityBrowser;
+  [SanityDocType.Release]: SanityRelease;
+};
 
 export const sanityConfig = {
   projectId: "0ydog342",

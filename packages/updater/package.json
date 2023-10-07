@@ -1,0 +1,40 @@
+{
+  "name": "@updatemybrowser/updater",
+  "version": "0.0.0",
+  "repository": "github:hongaar/updatemybrowser-v5",
+  "license": "MIT",
+  "author": "Joram van den Boezem <joram@vandenboezem.nl>",
+  "type": "module",
+  "exports": {
+    "import": "./dist/index.js",
+    "types": "./types/index.d.ts"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "build": "yarn build:clean && tsc --build --force",
+    "build:clean": "tsc --build --clean",
+    "build:watch": "tsc --build --watch",
+    "prepublish": "yarn build",
+    "test": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node --test test/*.test.ts",
+    "test:watch": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node --test --watch test/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.3",
+    "@types/semver": "^7",
+    "ts-node": "10.9.1",
+    "typescript": "5.2.2"
+  },
+  "moker": {
+    "plugins": [
+      "typescript",
+      "test"
+    ]
+  },
+  "dependencies": {
+    "cross-fetch": "4.0.0",
+    "semver": "7.5.4"
+  }
+}

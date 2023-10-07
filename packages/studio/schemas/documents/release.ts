@@ -1,5 +1,5 @@
 import type { DocumentDefinition } from "sanity";
-import { iconWithSubIcon } from "../../preview/IconWithSubIcon.jsx";
+import { iconWithSubIcon } from "../../components/index.js";
 
 export const release: DocumentDefinition = {
   name: "release",
@@ -10,18 +10,29 @@ export const release: DocumentDefinition = {
       title: "browser.name",
       icon: "browser.icon",
       subIcon: "oses.0.icon",
+      currentVersion: "currentVersion",
       os0: "oses.0.name",
       os1: "oses.1.name",
       os2: "oses.2.name",
       os3: "oses.3.name",
     },
-    prepare({ title, icon, subIcon, os0, os1, os2, os3, ...rest }) {
+    prepare({
+      title,
+      icon,
+      subIcon,
+      currentVersion,
+      os0,
+      os1,
+      os2,
+      os3,
+      ...rest
+    }) {
       const osNames = [os0, os1, os2].filter(Boolean);
       const subtitle = osNames.length ? osNames.join(", ") : "";
       const hasMore = Boolean(os3);
       return {
         ...rest,
-        title,
+        title: `${title}${currentVersion ? ` v${currentVersion}` : ""}`,
         subtitle: hasMore ? `${subtitle}…` : subtitle,
         media: iconWithSubIcon({ icon, subIcon }),
       };
@@ -48,18 +59,26 @@ export const release: DocumentDefinition = {
       validation: (rule) => rule.required(),
     },
     {
-      title: "Satisfies",
-      name: "satisfies",
-      type: "satisfies",
+      name: "versionSource",
+      title: "Version source",
+      description: "Configure automatic version updates",
+      type: "array",
+      of: [{ type: "versionSource" }],
       validation: (Rule) => Rule.required(),
     },
     {
       name: "currentVersion",
       title: "Current version",
-      description: "Will be set by a version source.",
+      description: "Set by the version source.",
       type: "string",
       readOnly: true,
       validation: (Rule) => Rule.regex(/^\d[\d.]*\d$/, { name: "version" }),
+    },
+    {
+      title: "Satisfies",
+      name: "satisfies",
+      type: "satisfies",
+      validation: (Rule) => Rule.required(),
     },
   ],
 };
