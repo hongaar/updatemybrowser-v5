@@ -9,11 +9,14 @@ pre,
 table,
 ul {
   margin-top: 0;
-  margin-bottom: var(--spacing);
   color: var(--color);
   font-style: normal;
   font-weight: var(--font-weight);
   font-size: var(--font-size);
+
+  &:not(:last-child) {
+    margin-bottom: calc(var(--line-height) * 1em);
+  }
 }
 
 a,
@@ -69,7 +72,10 @@ h2,
 h3 {
   margin-top: 0;
   font-weight: var(--font-weight-bold);
-  margin-bottom: calc(var(--line-height) * 0.5em);
+
+  &:not(:last-child) {
+    margin-bottom: calc(var(--line-height) * 0.5em);
+  }
 }
 
 h1 {

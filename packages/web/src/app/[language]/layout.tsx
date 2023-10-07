@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
+import Image from "next/image";
 import LanguageSwitcher from "../../components/LanguageSwitcher/LanguageSwitcher";
 import "../../styles/index.scss";
 import type { LanguageParams } from "./page";
@@ -29,11 +30,21 @@ export default function Layout({
     <html lang={language}>
       <body className={workSans.className}>
         <header>
-          <h1>Update My Browser</h1>
+          <div className="container">
+            <h1>
+              <Image src="/logo.png" width={25} height={33} alt="Logo" /> Update
+              My Browser
+            </h1>
+          </div>
         </header>
-        <main>{children}</main>
+        <main>
+          {" "}
+          <div className="container">{children}</div>
+        </main>
         <footer>
-          <LanguageSwitcher />
+          <div className="container">
+            <LanguageSwitcher />
+          </div>
         </footer>
       </body>
     </html>

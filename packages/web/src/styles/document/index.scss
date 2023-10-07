@@ -1,0 +1,22 @@
+@import "./container";
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+header {
+  background-color: var(--background-color);
+  border-bottom: 3px solid var(--muted-border-color);
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  border-top: 3px solid var(--muted-border-color);
+}
