@@ -1,12 +1,12 @@
 import {
-  DocType,
+  SanityDocType,
   defaultLanguage,
-  sanity,
-  type Docs,
+  sanityConfig,
+  type SanityDocs,
 } from "@updatemybrowser/core";
 import { createClient } from "next-sanity";
 
-const { dataset, projectId } = sanity;
+const { dataset, projectId } = sanityConfig;
 const apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2023-05-03";
 
 export const client = createClient({
@@ -21,7 +21,7 @@ type GetDocumentOptions = {
   i18nFields?: string[];
 };
 
-export async function getDocuments<T extends DocType>(
+export async function getDocuments<T extends SanityDocType>(
   type: T,
   { language = defaultLanguage, i18nFields = [] }: GetDocumentOptions = {},
 ) {
@@ -32,17 +32,17 @@ export async function getDocuments<T extends DocType>(
       ),
     )
     .join(",\n");
-  return await client.fetch<Docs[T][]>(`*[_type == "${type}"]{
+  return await client.fetch<SanityDocs[T][]>(`*[_type == "${type}"]{
     ${props}
   }`);
 }
 
 export async function getLanguages() {
-  return getDocuments(DocType.Language);
+  return getDocuments(SanityDocType.Language);
 }
 
 export async function getBrowsers({ language }: { language?: string } = {}) {
-  return getDocuments(DocType.Browser, {
+  return getDocuments(SanityDocType.Browser, {
     language,
     i18nFields: ["description"],
   });
