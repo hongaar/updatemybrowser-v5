@@ -1,7 +1,7 @@
 import type { DocumentDefinition } from "sanity";
-import { iconWithSubIcon } from "../../preview/IconWithSubIcon.jsx";
+import { iconWithSubIcon } from "../../preview/IconWithSubIcon.js";
 
-export const release: DocumentDefinition = {
+export const versionSource: DocumentDefinition = {
   name: "release",
   title: "Release",
   type: "document",
@@ -46,12 +46,6 @@ export const release: DocumentDefinition = {
         },
       ],
       validation: (rule) => rule.required(),
-    },
-    {
-      title: "Satisfies",
-      name: "satisfies",
-      type: "satisfies",
-      validation: (Rule) => Rule.required(),
     },
     {
       name: "currentVersion",

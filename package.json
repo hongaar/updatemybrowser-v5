@@ -2,7 +2,7 @@
   "name": "updatemybrowser",
   "version": "0.0.0",
   "private": true,
-  "repository": "github:hongaar/updatemybrowser",
+  "repository": "github:hongaar/updatemybrowser-v5",
   "license": "MIT",
   "author": "Joram van den Boezem <joram@vandenboezem.nl>",
   "workspaces": [

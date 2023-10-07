@@ -1,4 +1,4 @@
-import { capitalize } from "@updatemybrowser/core";
+import { capitalizeString } from "@updatemybrowser/core";
 import type { FieldDefinition, Rule } from "sanity";
 
 type Params = {
@@ -6,6 +6,7 @@ type Params = {
   title?: string;
   description?: string;
   required?: boolean;
+  fieldset?: string;
 };
 
 export function i18nString({
@@ -13,12 +14,14 @@ export function i18nString({
   title,
   description,
   required = false,
+  fieldset = "i18n",
 }: Params): FieldDefinition {
   return {
     name,
-    type: "string",
-    title: title ?? capitalize(name),
+    title: title ?? capitalizeString(name),
+    type: "internationalizedArrayString",
     description,
     validation: (rule: Rule) => (required ? rule.required() : undefined),
+    fieldset,
   };
 }

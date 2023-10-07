@@ -1,22 +1,12 @@
 import type { DocumentDefinition } from "sanity";
 import { mediaPreview } from "sanity-plugin-icon-manager";
+import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
 
 export const browser: DocumentDefinition = {
   name: "browser",
   title: "Browser",
   type: "document",
-  fieldsets: [
-    {
-      name: "i18n",
-      title: "i18n",
-      options: { collapsible: true, collapsed: true },
-    },
-    {
-      name: "branding",
-      title: "Branding",
-      options: { collapsible: true, collapsed: true },
-    },
-  ],
+  fieldsets: defaultFieldset,
   preview: {
     select: {
       title: "name",
@@ -38,16 +28,9 @@ export const browser: DocumentDefinition = {
       type: "string",
       validation: (rule) => rule.required(),
     },
-    {
-      name: "slug",
-      title: "Slug",
+    slug({
       description: "e.g. chrome or firefox",
-      type: "slug",
-      options: {
-        source: "name",
-      },
-      validation: (rule) => rule.required(),
-    },
+    }),
     {
       name: "vendor",
       title: "Vendor",
@@ -62,13 +45,9 @@ export const browser: DocumentDefinition = {
       type: "url",
       validation: (rule) => rule.required(),
     },
-    {
+    i18nString({
       name: "description",
-      title: "Description",
-      type: "internationalizedArrayString",
-      validation: (rule) => rule.required(),
-      fieldset: "i18n",
-    },
+    }),
     {
       name: "icon",
       title: "Icon",

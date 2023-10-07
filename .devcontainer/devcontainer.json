@@ -9,7 +9,8 @@
       "extensions": [
         "esbenp.prettier-vscode",
         "clinyong.vscode-css-modules",
-        "mrmlnc.vscode-scss"
+        "mrmlnc.vscode-scss",
+        "styled-components.vscode-styled-components"
       ]
     }
   }

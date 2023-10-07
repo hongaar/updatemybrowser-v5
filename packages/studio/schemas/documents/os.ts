@@ -1,21 +1,12 @@
 import type { DocumentDefinition } from "sanity";
 import { mediaPreview } from "sanity-plugin-icon-manager";
-import { i18nString, slug } from "../mixins/index.js";
+import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
 
 export const os: DocumentDefinition = {
   name: "os",
   title: "Operating system",
   type: "document",
-  fieldsets: [
-    {
-      name: "branding",
-      title: "Branding",
-      options: {
-        collapsible: true,
-        collapsed: false,
-      },
-    },
-  ],
+  fieldsets: defaultFieldset,
   preview: {
     select: {
       title: "name",
@@ -54,8 +45,6 @@ export const os: DocumentDefinition = {
     },
     i18nString({
       name: "description",
-      title: "Description",
-      required: true,
     }),
     {
       name: "icon",

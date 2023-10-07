@@ -1,13 +1,13 @@
 import { colorInput } from "@sanity/color-input";
 import { visionTool } from "@sanity/vision";
-import { defaultLanguage, sanity } from "@updatemybrowser/core";
+import { defaultLanguage, sanityConfig } from "@updatemybrowser/core";
 import { defineConfig } from "sanity";
 import { IconManager } from "sanity-plugin-icon-manager";
 import { internationalizedArray } from "sanity-plugin-internationalized-array";
 import { deskTool } from "sanity/desk";
 import { schemaTypes } from "./schemas/index.js";
 
-const { dataset, projectId } = sanity;
+const { dataset, projectId } = sanityConfig;
 
 export default defineConfig({
   name: "default",
@@ -21,8 +21,14 @@ export default defineConfig({
     colorInput(),
     IconManager(),
     internationalizedArray({
-      languages: (client) => {
-        return client.fetch(`*[_type == "language"]{ id, title }`);
+      languages: async (client) => {
+        return (
+          await client.fetch<{ id: string; name: string }[]>(
+            `*[_type == "language"]{ id, name }`,
+          )
+        )
+          .filter(({ id, name }) => id && name)
+          .map(({ id, name }) => ({ id, title: name }));
       },
       defaultLanguages: [defaultLanguage],
       fieldTypes: ["string"],
