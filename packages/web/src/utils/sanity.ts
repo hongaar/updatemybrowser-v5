@@ -38,7 +38,9 @@ export async function getDocuments<T extends SanityDocType>(
 }
 
 export async function getLanguages() {
-  return getDocuments(SanityDocType.Language);
+  return (await getDocuments(SanityDocType.Language)).sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
 }
 
 export async function getBrowsers({ language }: { language?: string } = {}) {

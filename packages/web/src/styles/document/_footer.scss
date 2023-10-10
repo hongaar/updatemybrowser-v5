@@ -1,0 +1,38 @@
+footer {
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    line-height: 2rem;
+  }
+
+  .languageSwitcher {
+    line-height: 2rem;
+
+    .selectWrapper {
+      display: inline-block;
+      height: 2rem;
+      padding: 0 0.5rem;
+      border: 1px solid var(--border-color);
+      background-color: var(--background-color);
+    }
+
+    img {
+      vertical-align: sub;
+      margin-right: 0.5rem;
+    }
+
+    select {
+      height: calc(2rem - 2px);
+      width: 8rem;
+      border: none;
+      outline: none;
+      background-color: var(--background-color);
+      color: var(--color);
+      font-family: unset;
+      font-size: unset;
+    }
+  }
+}

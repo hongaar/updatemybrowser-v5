@@ -1,5 +1,7 @@
 :root {
   --background-color: #{$white};
+  --border-color: #{$grey-300};
+  --shadow: 0 0 5px 5px #{$grey-300};
 
   // Texts colors
   --color: #{$grey-700};

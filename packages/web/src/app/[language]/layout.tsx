@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Work_Sans } from "next/font/google";
+import { Fira_Sans } from "next/font/google";
 import Image from "next/image";
 import LanguageSwitcher from "../../components/LanguageSwitcher/LanguageSwitcher";
 import "../../styles/index.scss";
 import type { LanguageParams } from "./page";
 
-const workSans = Work_Sans({ subsets: ["latin"], weight: ["400", "600"] });
+const fira = Fira_Sans({ subsets: ["latin"], weight: ["400", "600"] });
 
 const REVALIDATE_PRODUCTION = 3600 * 24; // 1 day
 const REVALIDATE_DEVELOPMENT = 60; // 1 minute
@@ -28,7 +28,7 @@ export default function Layout({
 }) {
   return (
     <html lang={language}>
-      <body className={workSans.className}>
+      <body className={fira.className}>
         <header>
           <div className="container">
             <h1>
@@ -38,12 +38,14 @@ export default function Layout({
           </div>
         </header>
         <main>
-          {" "}
           <div className="container">{children}</div>
         </main>
         <footer>
           <div className="container">
-            <LanguageSwitcher />
+            <div className="copyright">
+              &copy; {new Date().getFullYear()} UpdateMyBrowser.org
+            </div>
+            <LanguageSwitcher currentLanguage={language} />
           </div>
         </footer>
       </body>

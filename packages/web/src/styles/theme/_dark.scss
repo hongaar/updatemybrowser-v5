@@ -1,6 +1,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #{mix($black, $grey-900, 37.5%)};
+    --border-color: #{$grey-400};
 
     // Texts colors
     --color: #{$grey-200};

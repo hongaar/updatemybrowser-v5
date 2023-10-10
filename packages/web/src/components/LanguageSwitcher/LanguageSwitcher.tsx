@@ -1,27 +1,33 @@
+import { getDictionary } from "../../dictionaries";
 import { getLanguages } from "../../utils/sanity";
+import List from "./List";
 
-export default async function LanguageSwitcher() {
+export default async function LanguageSwitcher({
+  currentLanguage,
+}: {
+  currentLanguage: string;
+}) {
+  const dict = getDictionary(currentLanguage);
   const languages = await getLanguages();
 
   return (
-    <div>
-      <h2>Languages</h2>
-      <ul>
-        {languages.map((language) => (
-          <li key={language.id}>
-            <a href={`/${language.id}`}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={`data:image/svg+xml;utf8,${encodeURIComponent(
-                  language.flag.metadata.inlineSvg,
-                )}`}
-                alt="Flag"
-              />
-              {language.name}
-            </a>
-          </li>
-        ))}
-      </ul>
+    <div className="languageSwitcher">
+      {dict.Language}:{" "}
+      <span className="selectWrapper">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={`data:image/svg+xml;utf8,${encodeURIComponent(
+            languages.find((language) => language.id === currentLanguage)!.flag
+              .metadata.inlineSvg,
+          )}`}
+          alt="Flag"
+        />
+        <List
+          loadingText={dict.Loading}
+          currentLanguage={currentLanguage}
+          languages={languages}
+        />
+      </span>
     </div>
   );
 }
