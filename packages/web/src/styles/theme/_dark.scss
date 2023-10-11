@@ -1,7 +1,10 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background-color: #{mix($black, $grey-900, 37.5%)};
+
+    // Layout
     --border-color: #{$grey-400};
+    --box-shadow: 0 0.125rem 1rem 4px #{rgba($grey-300, 0.075)};
 
     // Texts colors
     --color: #{$grey-200};
@@ -18,6 +21,9 @@
     --primary-hover: #{$primary-500};
     --primary-focus: #{rgba($primary-600, 0.25)};
     --primary-inverse: #{$white};
+
+    // Support colors
+    --support-color: #{$green-300};
 
     // Secondary colors
     --secondary: #{$grey-600};

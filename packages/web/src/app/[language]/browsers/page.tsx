@@ -1,5 +1,6 @@
-import { getDictionary } from "../../dictionaries";
-import { getLanguageIds } from "../../utils/language";
+import { BrowserList } from "../../../components";
+import { getDictionary } from "../../../dictionaries";
+import { getLanguageIds } from "../../../utils/language";
 
 export type LanguageParams = {
   params: {
@@ -16,7 +17,8 @@ export default async function Home({ params: { language } }: LanguageParams) {
 
   return (
     <div>
-      <h2>{dict.BrowserCheck}</h2>
+      <h2>{dict.BrowserOverview}</h2>
+      <BrowserList language={language} />
     </div>
   );
 }

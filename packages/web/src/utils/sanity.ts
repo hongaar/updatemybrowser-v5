@@ -1,3 +1,5 @@
+import "server-only";
+
 import {
   SanityDocType,
   defaultLanguage,
@@ -8,12 +10,16 @@ import { createClient } from "next-sanity";
 
 const { dataset, projectId } = sanityConfig;
 const apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION || "2023-05-03";
+const token = process.env.SANITY_TOKEN;
 
 export const client = createClient({
   projectId,
   dataset,
   apiVersion, // https://www.sanity.io/docs/api-versioning
   useCdn: process.env.NODE_ENV === "production", // if you're using ISR or only static generation at build time then you can set this to `false` to guarantee no stale content
+  token,
+  perspective:
+    process.env.NODE_ENV === "production" ? "published" : "previewDrafts",
 });
 
 type GetDocumentOptions = {

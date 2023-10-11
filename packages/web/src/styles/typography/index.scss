@@ -13,6 +13,7 @@ ul {
   font-style: normal;
   font-weight: var(--font-weight);
   font-size: var(--font-size);
+  line-height: 1.4rem;
 
   &:not(:last-child) {
     margin-bottom: calc(var(--line-height) * 1em);
@@ -126,4 +127,15 @@ ul {
 
 ul li {
   list-style: square;
+}
+
+// Focus
+a,
+button,
+select,
+input,
+textarea {
+  &:is(:focus, :active) {
+    outline: 3px solid var(--support-color);
+  }
 }

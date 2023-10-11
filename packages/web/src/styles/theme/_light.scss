@@ -1,9 +1,11 @@
 :root {
   --background-color: #{$white};
-  --border-color: #{$grey-300};
-  --shadow: 0 0 5px 5px #{$grey-300};
 
-  // Texts colors
+  // Layout
+  --border-color: #{$grey-300};
+  --box-shadow: 0 0.125rem 1rem 4px #{rgba($grey-900, 0.075)};
+
+  // Text
   --color: #{$grey-700};
   --h1-color: #{$grey-900};
   --h2-color: #{mix($grey-900, $grey-800)};
@@ -18,6 +20,9 @@
   --primary-hover: #{$primary-700};
   --primary-focus: #{rgba($primary-600, 0.125)};
   --primary-inverse: #{$white};
+
+  // Support colors
+  --support-color: #{$green-300};
 
   // Secondary colors
   --secondary: #{$grey-600};

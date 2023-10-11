@@ -1,0 +1,24 @@
+@import "../../styles/theme";
+
+.nav {
+  background-color: var(--primary);
+}
+
+.container {
+  padding: 0 calc(var(--spacing) * 2);
+}
+
+.link {
+  display: inline-block;
+  padding: var(--spacing);
+  color: var(--primary-inverse);
+
+  &:is([aria-current], :hover, :active, :focus) {
+    background-color: var(--muted-border-color);
+    color: var(--contrast-hover);
+  }
+
+  &:focus {
+    background-color: var(--background-color);
+  }
+}

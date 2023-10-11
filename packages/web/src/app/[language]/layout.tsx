@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
 import { Fira_Sans } from "next/font/google";
-import Image from "next/image";
-import LanguageSwitcher from "../../components/LanguageSwitcher/LanguageSwitcher";
+import type { ReactNode } from "react";
+import { Container, Footer, Header, Nav } from "../../components";
 import "../../styles/index.scss";
 import type { LanguageParams } from "./page";
+
+type Props = LanguageParams & {
+  children: ReactNode;
+};
 
 const fira = Fira_Sans({ subsets: ["latin"], weight: ["400", "600"] });
 
@@ -17,37 +21,19 @@ export const revalidate =
 
 export const metadata: Metadata = {
   title: "Update My Browser",
-  description: "Update My Browser - Always stay up to date with your browser",
+  description: "Update My Browser - Always fresh",
 };
 
-export default function Layout({
-  children,
-  params: { language },
-}: LanguageParams & {
-  children: React.ReactNode;
-}) {
+export default function Layout({ children, params: { language } }: Props) {
   return (
     <html lang={language}>
       <body className={fira.className}>
-        <header>
-          <div className="container">
-            <h1>
-              <Image src="/logo.png" width={25} height={33} alt="Logo" /> Update
-              My Browser
-            </h1>
-          </div>
-        </header>
+        <Header language={language} />
+        <Nav language={language} />
         <main>
-          <div className="container">{children}</div>
+          <Container>{children}</Container>
         </main>
-        <footer>
-          <div className="container">
-            <div className="copyright">
-              &copy; {new Date().getFullYear()} UpdateMyBrowser.org
-            </div>
-            <LanguageSwitcher currentLanguage={language} />
-          </div>
-        </footer>
+        <Footer language={language} />
       </body>
     </html>
   );

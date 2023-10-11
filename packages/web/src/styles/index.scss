@@ -1,6 +1,15 @@
 @import "./reset.css";
-
-// Adapted from https://github.com/picocss/pico/blob/master/scss
 @import "./theme";
 @import "./typography";
-@import "./document";
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+main {
+  flex-grow: 1;
+}

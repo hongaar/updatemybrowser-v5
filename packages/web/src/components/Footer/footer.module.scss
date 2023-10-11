@@ -1,0 +1,15 @@
+@import "../../styles/theme";
+
+.footer {
+  background-color: var(--muted-border-color);
+}
+
+.container {
+  padding: var(--spacing) calc(var(--spacing) * 2);
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  line-height: 2rem;
+}

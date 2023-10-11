@@ -1,11 +1,13 @@
 import "server-only";
 
 import en from "./en";
+import id from "./id";
 import nl from "./nl";
 
 const dictionaries = {
   en,
   nl,
+  id,
 };
 
 export function getDictionary(language: string) {

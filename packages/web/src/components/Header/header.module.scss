@@ -1,0 +1,28 @@
+@import "../../styles/theme";
+
+.header {
+  background-color: var(--muted-border-color);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: var(--spacing);
+}
+
+.heading {
+  margin-right: var(--spacing);
+
+  &:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+.subHeading {
+  color: var(--primary);
+  font-size: 2rem;
+  margin: 0;
+}

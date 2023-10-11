@@ -1,0 +1,30 @@
+@import "../../styles/theme";
+
+.languageSwitcher {
+  line-height: 2rem;
+}
+
+.selectWrapper {
+  display: inline-block;
+  height: 2rem;
+  padding: 0 0.5rem;
+  border: var(--border-width) solid var(--border-color);
+  border-radius: var(--border-radius);
+  background-color: var(--background-color);
+}
+
+.img {
+  vertical-align: sub;
+  margin-right: 0.5rem;
+}
+
+.list {
+  height: calc(2rem - 2px);
+  width: 8rem;
+  border: none;
+  outline: none;
+  background-color: var(--background-color);
+  color: var(--color);
+  font-family: unset;
+  font-size: unset;
+}
