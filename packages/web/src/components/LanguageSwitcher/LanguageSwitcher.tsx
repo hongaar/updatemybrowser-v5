@@ -24,11 +24,7 @@ export async function LanguageSwitcher({ currentLanguage }: Props) {
           )}`}
           alt="Flag"
         />
-        <List
-          loadingText={dict.Loading}
-          currentLanguage={currentLanguage}
-          languages={languages}
-        />
+        <List currentLanguage={currentLanguage} languages={languages} />
       </span>
     </div>
   );

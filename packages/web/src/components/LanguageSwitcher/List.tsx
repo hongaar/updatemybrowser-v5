@@ -1,18 +1,15 @@
 "use client";
 
 import type { SanityLanguage } from "@updatemybrowser/core";
-import { useRouter } from "next/router";
-import { useState } from "react";
+import { useRouter } from "next/navigation";
 import styles from "./languageSwitcher.module.scss";
 
 type Props = {
-  loadingText: string;
   currentLanguage: string;
   languages: SanityLanguage[];
 };
 
-export function List({ loadingText, currentLanguage, languages }: Props) {
-  const [isLoading, setIsLoading] = useState(false);
+export function List({ currentLanguage, languages }: Props) {
   const router = useRouter();
 
   return (
@@ -20,19 +17,14 @@ export function List({ loadingText, currentLanguage, languages }: Props) {
       className={styles.list}
       value={currentLanguage}
       onChange={(e) => {
-        setIsLoading(true);
         router.push(`/${e.target.value}`);
       }}
     >
-      {isLoading ? (
-        <option>{loadingText}...</option>
-      ) : (
-        languages.map((language) => (
-          <option key={language.id} value={language.id}>
-            {language.name}
-          </option>
-        ))
-      )}
+      {languages.map((language) => (
+        <option key={language.id} value={language.id}>
+          {language.name}
+        </option>
+      ))}
     </select>
   );
 }
