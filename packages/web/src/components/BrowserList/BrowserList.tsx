@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getDictionary } from "../../dictionaries";
 import { getBrowsers } from "../../utils/sanity";
 import styles from "./browserList.module.scss";
@@ -14,7 +15,7 @@ export async function BrowserList({ language }: Props) {
     <ul className={styles.browserlist}>
       {browsers.map((browser) => (
         <li className={styles.listItem} key={browser._id}>
-          <a
+          <Link
             aria-current={
               browser.name === "Chrome" ? ("" as "true") : undefined
             }
@@ -34,7 +35,7 @@ export async function BrowserList({ language }: Props) {
               alt="Flag"
             />
             <p className={styles.description}>{browser.description}</p>
-          </a>
+          </Link>
         </li>
       ))}
       <li className={styles.clearFloat} />

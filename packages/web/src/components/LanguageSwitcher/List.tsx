@@ -1,6 +1,7 @@
 "use client";
 
 import type { SanityLanguage } from "@updatemybrowser/core";
+import { useRouter } from "next/router";
 import { useState } from "react";
 import styles from "./languageSwitcher.module.scss";
 
@@ -12,6 +13,7 @@ type Props = {
 
 export function List({ loadingText, currentLanguage, languages }: Props) {
   const [isLoading, setIsLoading] = useState(false);
+  const router = useRouter();
 
   return (
     <select
@@ -19,7 +21,7 @@ export function List({ loadingText, currentLanguage, languages }: Props) {
       value={currentLanguage}
       onChange={(e) => {
         setIsLoading(true);
-        window.location.href = `/${e.target.value}`;
+        router.push(`/${e.target.value}`);
       }}
     >
       {isLoading ? (
