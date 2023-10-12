@@ -6,6 +6,7 @@ const english = {
   Guides: "Guides",
   Language: "Language",
   Loading: "Loading",
+  ShowReleasesForAllOses: "Also show browsers not available for your platform",
 };
 
 export type Dict = typeof english;

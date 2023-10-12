@@ -1,1 +1,2 @@
-export * from "./sum.js";
+export * from "./detect.js";
+export * from "./enums.js";

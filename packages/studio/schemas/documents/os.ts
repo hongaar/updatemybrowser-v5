@@ -1,3 +1,4 @@
+import { oses } from "@updatemybrowser/client";
 import type { DocumentDefinition } from "sanity";
 import { mediaPreview } from "sanity-plugin-icon-manager";
 import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
@@ -42,6 +43,19 @@ export const os: DocumentDefinition = {
       description: "e.g. https://www.microsoft.com/windows",
       type: "url",
       validation: (rule) => rule.required(),
+    },
+
+    {
+      name: "matchOsName",
+      title: "Match operating system name",
+      description: "Match operating system name from @updatemybrowser/client",
+      type: "string",
+      options: {
+        list: Object.keys(oses).map((key) => ({
+          title: oses[key as keyof typeof oses],
+          value: oses[key as keyof typeof oses],
+        })),
+      },
     },
     i18nString({
       name: "description",

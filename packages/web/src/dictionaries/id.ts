@@ -8,6 +8,8 @@ const indonesian: Dict = {
   Guides: "Panduan",
   Language: "Bahasa",
   Loading: "Memuat",
+  ShowReleasesForAllOses:
+    "Tampilkan juga browser yang tidak tersedia untuk platform Anda",
 };
 
 export default indonesian;

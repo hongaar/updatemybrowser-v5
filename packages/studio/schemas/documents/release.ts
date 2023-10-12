@@ -72,13 +72,13 @@ export const release: DocumentDefinition = {
       description: "Set by the version source.",
       type: "string",
       readOnly: true,
-      validation: (Rule) => Rule.regex(/^\d[\d.]*\d$/, { name: "version" }),
     },
     {
-      title: "Satisfies",
-      name: "satisfies",
-      type: "satisfies",
-      validation: (Rule) => Rule.required(),
+      name: "currentUsage",
+      title: "Current usage",
+      description: "Set by the version source.",
+      type: "number",
+      readOnly: true,
     },
   ],
 };

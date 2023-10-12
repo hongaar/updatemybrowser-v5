@@ -8,6 +8,8 @@ const dutch: Dict = {
   Guides: "Gidsen",
   Language: "Taal",
   Loading: "Laden",
+  ShowReleasesForAllOses:
+    "Toon ook browsers die niet beschikbaar zijn voor jouw platform",
 };
 
 export default dutch;

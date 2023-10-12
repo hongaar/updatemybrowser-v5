@@ -4,16 +4,24 @@
     {
       "type": "typescript",
       "tsconfig": "tsconfig.json",
+      "problemMatcher": ["$tsc"],
       "option": "watch",
-      "group": "build",
-      "label": "tsc: watch - tsconfig.json"
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "label": "yarn typescript:watch",
+      "detail": "Watch all TypeScript files for problems"
     },
     {
-      "type": "typescript",
-      "tsconfig": "tsconfig.json",
-      "option": "watch",
-      "group": "build",
-      "label": "tsc: watch - tsconfig.json"
+      "type": "npm",
+      "script": "start",
+      "problemMatcher": [],
+      "label": "yarn start",
+      "detail": "Start all development servers",
+      "runOptions": {
+        "instanceLimit": 1
+      }
     }
   ]
 }

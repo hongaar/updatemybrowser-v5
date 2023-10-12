@@ -19,23 +19,29 @@ function isParams<T extends Params>(
 }
 
 export default async function update(params: Params) {
-  let version = "0";
+  let stats = { version: "0", usage: 0 };
 
   if (isParams<CanIUseParams>("caniuse", params)) {
     const { source, ...caniuseParams } = params;
-    version = await caniuse(caniuseParams);
+    stats = await caniuse(caniuseParams);
   }
 
   if (isParams<WikipediaParams>("wikipedia", params)) {
     const { source, ...wikipediaParams } = params;
-    version = await wikipedia(wikipediaParams);
+    stats = await wikipedia(wikipediaParams);
   }
 
-  return toSimpleVersionString(version);
+  return {
+    version: toSimpleVersionString(stats.version),
+    usage: stats.usage,
+  };
 }
 
 export async function updateFromMultiple(params: Params[]) {
-  const results = await Promise.all(params.map(update));
+  const stats = await Promise.all(params.map(update));
 
-  return highestVersion(results);
+  return {
+    version: highestVersion(stats.map(({ version }) => version)),
+    usage: Math.max(...stats.map(({ usage }) => usage)),
+  };
 }

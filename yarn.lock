@@ -3914,7 +3914,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@updatemybrowser/client@workspace:packages/client":
+"@updatemybrowser/client@workspace:*, @updatemybrowser/client@workspace:packages/client":
   version: 0.0.0-use.local
   resolution: "@updatemybrowser/client@workspace:packages/client"
   dependencies:
@@ -3922,7 +3922,7 @@ __metadata:
     "@types/ua-parser-js": 0.7.37
     ts-node: 10.9.1
     typescript: 5.2.2
-    ua-parser-js: 1.0.36
+    ua-parser-js: v2.0.0-beta.1
   languageName: unknown
   linkType: soft
 
@@ -3947,6 +3947,7 @@ __metadata:
     "@sanity/vision": 3.17.0
     "@types/react": 18.2.25
     "@types/styled-components": 5.1.28
+    "@updatemybrowser/client": "workspace:*"
     "@updatemybrowser/core": "workspace:*"
     "@updatemybrowser/updater": "workspace:*"
     eslint: 8.51.0
@@ -3987,6 +3988,7 @@ __metadata:
     "@types/node": 20.8.3
     "@types/react": 18.2.25
     "@types/react-dom": 18.2.11
+    "@updatemybrowser/client": "workspace:*"
     "@updatemybrowser/core": "workspace:*"
     cssnano: 6.0.1
     eslint: 8.51.0
@@ -12483,10 +12485,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ua-parser-js@npm:1.0.36":
-  version: 1.0.36
-  resolution: "ua-parser-js@npm:1.0.36"
-  checksum: 5b2c8a5e3443dfbba7624421805de946457c26ae167cb2275781a2729d1518f7067c9d5c74c3b0acac4b9ff3278cae4eace08ca6eecb63848bc3b2f6a63cc975
+"ua-parser-js@npm:v2.0.0-beta.1":
+  version: 2.0.0-beta.1
+  resolution: "ua-parser-js@npm:2.0.0-beta.1"
+  checksum: 44f1b3d165d3d555e7aa160e5fb5102922c24595dc453a87186e6954657e3c24b6491156298e87d3a2f3d7d1687ccab9fb3f2df6195863ae3485bc4e42a69023
   languageName: node
   linkType: hard
 

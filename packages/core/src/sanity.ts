@@ -6,6 +6,8 @@ export type SanityDoc<T> = T & {
   _updatedAt: string;
 };
 
+export type SanityReference = { _ref: string; _type: "reference" };
+
 export type SanityIcon = {
   _type: "icon.manager";
   icon: string;
@@ -60,6 +62,22 @@ export type SanityBrowser = SanityDoc<{
   };
   vendor: string;
   homepage: string;
+  matchBrowserName: string;
+  description: string;
+  icon: SanityIcon;
+  logo: string;
+  color: string;
+}>;
+
+export type SanityOS = SanityDoc<{
+  _type: "os";
+  name: string;
+  slug: {
+    current: string;
+  };
+  vendor: string;
+  homepage: string;
+  matchOsName: string;
   description: string;
   icon: SanityIcon;
   logo: string;
@@ -68,22 +86,24 @@ export type SanityBrowser = SanityDoc<{
 
 export type SanityRelease = SanityDoc<{
   _type: "release";
-  browser: { _ref: string; _type: "reference" };
-  oses: { _ref: string; _type: "reference" }[];
+  browser: SanityBrowser;
+  oses: SanityOS[];
   versionSource: { source: "caniuse" | "wikipedia"; caniuse_agent?: string }[];
   currentVersion: string;
-  satisfies: unknown;
+  currentUsage: number;
 }>;
 
 export enum SanityDocType {
   Language = "language",
   Browser = "browser",
+  OS = "os",
   Release = "release",
 }
 
 export type SanityDocs = {
   [SanityDocType.Language]: SanityLanguage;
   [SanityDocType.Browser]: SanityBrowser;
+  [SanityDocType.OS]: SanityOS;
   [SanityDocType.Release]: SanityRelease;
 };
 

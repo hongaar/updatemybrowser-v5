@@ -3,5 +3,6 @@
  */
 export async function wikipedia({ pageId }: { pageId: string }) {
   pageId = pageId;
-  return "0";
+
+  return { version: "0", usage: 0 };
 }

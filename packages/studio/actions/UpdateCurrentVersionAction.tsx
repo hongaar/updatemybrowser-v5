@@ -27,8 +27,6 @@ export const UpdateCurrentVersionAction: ActionComponent<
   async function handleUpdate() {
     setUpdating(true);
 
-    let newVersion: string;
-
     try {
       const sources = doc!.versionSource
         .map(({ source, ...rest }) => {
@@ -42,14 +40,12 @@ export const UpdateCurrentVersionAction: ActionComponent<
           return null;
         })
         .filter(notEmpty);
-      newVersion = await updateFromMultiple(sources);
+      const { version, usage } = await updateFromMultiple(sources);
+
+      patch.execute([{ set: { currentVersion: version } }]);
+      patch.execute([{ set: { currentUsage: usage } }]);
     } catch (error) {
       alert(String(error));
-    }
-
-    // @ts-ignore
-    if (newVersion) {
-      patch.execute([{ set: { currentVersion: newVersion } }]);
     }
 
     setUpdating(false);

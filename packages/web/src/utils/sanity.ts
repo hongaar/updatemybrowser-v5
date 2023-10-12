@@ -5,6 +5,7 @@ import {
   defaultLanguage,
   sanityConfig,
   type SanityDocs,
+  type SanityRelease,
 } from "@updatemybrowser/core";
 import { createClient } from "next-sanity";
 
@@ -38,6 +39,7 @@ export async function getDocuments<T extends SanityDocType>(
       ),
     )
     .join(",\n");
+
   return await client.fetch<SanityDocs[T][]>(`*[_type == "${type}"]{
     ${props}
   }`);
@@ -54,4 +56,20 @@ export async function getBrowsers({ language }: { language?: string } = {}) {
     language,
     i18nFields: ["description"],
   });
+}
+
+export async function getReleases({ language }: { language?: string } = {}) {
+  return await client.fetch<SanityRelease[]>(
+    `*[_type == "release"] | order(currentUsage desc) {
+      ...,
+      browser->{
+        ...,
+        "description": description[_key == "${language}"][0].value
+      },
+      oses[]->{
+        ...,
+        "description": description[_key == "${language}"][0].value
+      }
+    }`,
+  );
 }

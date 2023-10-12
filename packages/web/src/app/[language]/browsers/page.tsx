@@ -17,7 +17,6 @@ export default async function Home({ params: { language } }: LanguageParams) {
 
   return (
     <div>
-      <h2>{dict.BrowserOverview}</h2>
       <BrowserList language={language} />
     </div>
   );

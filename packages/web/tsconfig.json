@@ -20,7 +20,7 @@
       }
     ]
   },
-  "references": [{ "path": "../core" }],
+  "references": [{ "path": "../client" }, { "path": "../core" }],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

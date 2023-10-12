@@ -1,24 +1,32 @@
 import fetch from "cross-fetch";
 
 // See https://github.com/Fyrd/caniuse
-const dataUrl = "https://raw.githubusercontent.com/Fyrd/caniuse/main/data.json";
+const dataUrl =
+  "https://raw.githubusercontent.com/Fyrd/caniuse/main/fulldata-json/data-2.0.json";
 
 type CanIUseData = {
-  eras: any;
   agents: {
     [key: string]: {
       browser: string;
+      long_name: string;
       abbr: string;
       prefix: string;
-      type: "desktop" | "mobile";
-      usage_global: number[];
-      versions: Array<string | null>;
+      type: string;
+      usage_global: { [key: string]: number };
+      version_list: {
+        version: string;
+        global_usage: number;
+        release_date: number | null;
+        era: number;
+        prefix: string;
+      }[];
+      current_version: string;
     };
   };
-  statuses: any;
-  cats: any;
-  data: any;
-  updated: number;
+  statuses: unknown;
+  cats: unknown;
+  updated: unknown;
+  data: unknown;
 };
 
 async function fetchData(): Promise<CanIUseData> {
@@ -36,7 +44,15 @@ export async function caniuse({ agent }: { agent: string }) {
     );
   }
 
-  const versions = data.agents[agent]!.versions;
+  const usage = data.agents[agent]!.version_list.reduce(
+    (acc, { global_usage }) => {
+      return acc + global_usage;
+    },
+    0,
+  );
 
-  return versions.filter((item) => item !== null).reverse()[0] as string;
+  return {
+    version: data.agents[agent]!.current_version,
+    usage,
+  };
 }
