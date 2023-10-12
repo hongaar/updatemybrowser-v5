@@ -21,7 +21,7 @@
     "test": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node --test test/*.test.ts"
   },
   "devDependencies": {
-    "@types/node": "20.8.3",
+    "@types/node": "20.8.4",
     "ts-node": "10.9.1",
     "typescript": "5.2.2"
   },
