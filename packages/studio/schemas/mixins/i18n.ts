@@ -1,4 +1,4 @@
-import { capitalizeString } from "@updatemybrowser/core";
+import { capitalizeString } from "@updatemybrowser/client";
 import type { FieldDefinition, Rule } from "sanity";
 
 type Params = {

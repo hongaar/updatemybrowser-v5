@@ -1,8 +1,9 @@
 import { UAParser } from "ua-parser-js";
 
 export function detect() {
-  const parser = new UAParser();
-  const parserResults = parser.getResult();
+  const parserResults: ReturnType<UAParser["getResult"]> =
+    // @ts-ignore
+    UAParser().withFeatureCheck();
 
   return {
     browser: parserResults.browser.name

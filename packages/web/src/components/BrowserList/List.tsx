@@ -1,7 +1,6 @@
 "use client";
 
-import { detect } from "@updatemybrowser/client";
-import type { SanityRelease } from "@updatemybrowser/core";
+import { detect, type SanityRelease } from "@updatemybrowser/client";
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Dict } from "../../dictionaries/en";

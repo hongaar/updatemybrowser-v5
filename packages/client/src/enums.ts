@@ -1,5 +1,5 @@
 import { Browser, OS } from "ua-parser-js/enums";
 
-export const browsers = Browser;
+export const browserDetectionValues = Object.values(Browser);
 
-export const oses = OS;
+export const osDetectionValues = Object.values(OS);

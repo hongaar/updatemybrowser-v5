@@ -1,5 +1,5 @@
+import { getReleases } from "@updatemybrowser/client";
 import { getDictionary } from "../../dictionaries";
-import { getReleases } from "../../utils/sanity";
 import { List } from "./List";
 
 type Props = {

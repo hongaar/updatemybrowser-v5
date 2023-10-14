@@ -8,9 +8,6 @@
       "path": "./packages/studio"
     },
     {
-      "path": "./packages/core"
-    },
-    {
       "path": "./packages/updater"
     }
   ],

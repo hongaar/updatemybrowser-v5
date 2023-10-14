@@ -1,6 +1,6 @@
 "use client";
 
-import type { SanityLanguage } from "@updatemybrowser/core";
+import type { SanityLanguage } from "@updatemybrowser/client";
 import { useRouter } from "next/navigation";
 import styles from "./languageSwitcher.module.scss";
 

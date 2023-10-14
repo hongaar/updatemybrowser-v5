@@ -1,7 +1,11 @@
 import { match } from "@formatjs/intl-localematcher";
+import {
+  defaultLanguage,
+  disableCache,
+  getLanguageIds,
+} from "@updatemybrowser/client";
 import Negotiator from "negotiator";
 import { type NextMiddleware } from "next/server";
-import { getDefaultLanguageId, getLanguageIds } from "./utils/language";
 
 function getExtension(pathname: string) {
   const match = pathname.match(/\.[0-9a-z]+$/i);
@@ -12,10 +16,11 @@ async function getLanguage(request: Request) {
   const headers = Object.fromEntries(request.headers);
   const languages = new Negotiator({ headers }).languages();
 
-  return match(languages, await getLanguageIds(), await getDefaultLanguageId());
+  return match(languages, await getLanguageIds(), defaultLanguage);
 }
 
 export const middleware: NextMiddleware = async (request) => {
+  disableCache();
   const { pathname } = request.nextUrl;
   const extension = getExtension(pathname);
 

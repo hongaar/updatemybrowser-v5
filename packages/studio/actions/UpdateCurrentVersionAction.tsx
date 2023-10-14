@@ -1,5 +1,5 @@
 import { SyncIcon } from "@sanity/icons";
-import type { SanityRelease } from "@updatemybrowser/core";
+import type { SanityRelease } from "@updatemybrowser/client";
 import { updateFromMultiple } from "@updatemybrowser/updater";
 import { useState } from "react";
 import {

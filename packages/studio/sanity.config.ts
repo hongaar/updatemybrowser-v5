@@ -1,6 +1,6 @@
 import { colorInput } from "@sanity/color-input";
 import { visionTool } from "@sanity/vision";
-import { defaultLanguage, sanityConfig } from "@updatemybrowser/core";
+import { defaultLanguage, sanityConfig } from "@updatemybrowser/client";
 import { defineConfig } from "sanity";
 import { IconManager } from "sanity-plugin-icon-manager";
 import { internationalizedArray } from "sanity-plugin-internationalized-array";

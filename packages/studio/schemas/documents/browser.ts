@@ -1,4 +1,4 @@
-import { browsers } from "@updatemybrowser/client";
+import { browserDetectionValues } from "@updatemybrowser/client";
 import type { DocumentDefinition } from "sanity";
 import { mediaPreview } from "sanity-plugin-icon-manager";
 import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
@@ -52,9 +52,9 @@ export const browser: DocumentDefinition = {
       description: "Match browser name from @updatemybrowser/client",
       type: "string",
       options: {
-        list: Object.keys(browsers).map((key) => ({
-          title: browsers[key as keyof typeof browsers],
-          value: browsers[key as keyof typeof browsers],
+        list: browserDetectionValues.map((value) => ({
+          title: value,
+          value,
         })),
       },
     },
