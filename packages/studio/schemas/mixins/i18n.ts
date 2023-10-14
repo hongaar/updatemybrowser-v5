@@ -1,4 +1,3 @@
-import { capitalizeString } from "@updatemybrowser/client";
 import type { FieldDefinition, Rule } from "sanity";
 
 type Params = {
@@ -8,6 +7,10 @@ type Params = {
   required?: boolean;
   fieldset?: string;
 };
+
+function capitalizeString(str: string) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
 
 export function i18nString({
   name,

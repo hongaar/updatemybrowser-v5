@@ -38,5 +38,12 @@ export const versionSource: ObjectDefinition = {
       validation: (Rule) => Rule.required(),
       hidden: ({ parent }) => parent?.source !== "caniuse",
     },
+    {
+      name: "caniuse_contribute_usage",
+      title: "Contribute usage data",
+      type: "boolean",
+      initialValue: true,
+      hidden: ({ parent }) => parent?.source !== "caniuse",
+    },
   ],
 };

@@ -1,12 +1,12 @@
 "use client";
 
-import type { SanityLanguage } from "@updatemybrowser/client";
+import type { Language } from "@updatemybrowser/client";
 import { useRouter } from "next/navigation";
 import styles from "./languageSwitcher.module.scss";
 
 type Props = {
   currentLanguage: string;
-  languages: SanityLanguage[];
+  languages: Language[];
 };
 
 export function List({ currentLanguage, languages }: Props) {

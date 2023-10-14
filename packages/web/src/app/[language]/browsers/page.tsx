@@ -1,6 +1,6 @@
+import { getLanguageIds } from "@updatemybrowser/client";
 import { BrowserList } from "../../../components";
 import { getDictionary } from "../../../dictionaries";
-import { getLanguageIds } from "../../../utils/language";
 
 export type LanguageParams = {
   params: {

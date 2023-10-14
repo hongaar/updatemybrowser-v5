@@ -1,4 +1,4 @@
-import { osDetectionValues } from "@updatemybrowser/client";
+import { matches } from "@updatemybrowser/client";
 import type { DocumentDefinition } from "sanity";
 import { mediaPreview } from "sanity-plugin-icon-manager";
 import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
@@ -51,7 +51,7 @@ export const os: DocumentDefinition = {
       description: "Match operating system name from @updatemybrowser/client",
       type: "string",
       options: {
-        list: osDetectionValues.map((value) => ({
+        list: matches.oses.map((value) => ({
           title: value,
           value,
         })),

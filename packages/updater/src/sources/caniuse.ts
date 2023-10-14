@@ -33,7 +33,13 @@ async function fetchData(): Promise<CanIUseData> {
   return fetch(dataUrl).then((res) => res.json());
 }
 
-export async function caniuse({ agent }: { agent: string }) {
+export async function caniuse({
+  agent,
+  contributeUsage = true,
+}: {
+  agent: string;
+  contributeUsage: boolean;
+}) {
   const data = await fetchData();
 
   if (!data.agents[agent]) {
@@ -44,12 +50,11 @@ export async function caniuse({ agent }: { agent: string }) {
     );
   }
 
-  const usage = data.agents[agent]!.version_list.reduce(
-    (acc, { global_usage }) => {
-      return acc + global_usage;
-    },
-    0,
-  );
+  const usage = contributeUsage
+    ? data.agents[agent]!.version_list.reduce((acc, { global_usage }) => {
+        return acc + global_usage;
+      }, 0)
+    : undefined;
 
   return {
     version: data.agents[agent]!.current_version,

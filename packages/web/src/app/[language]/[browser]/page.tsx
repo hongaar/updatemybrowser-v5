@@ -1,4 +1,4 @@
-import { getBrowsers, getLanguages } from "../../../utils/sanity";
+import { getBrowsers, getLanguages } from "@updatemybrowser/client";
 import type { LanguageParams } from "../page";
 
 type BrowserParams = {

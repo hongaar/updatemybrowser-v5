@@ -3568,6 +3568,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:20.8.6":
+  version: 20.8.6
+  resolution: "@types/node@npm:20.8.6"
+  dependencies:
+    undici-types: ~5.25.1
+  checksum: ccfb7ac482c5a96edeb239893c5c099f5257fcc2ed9ae62fefdfbc782b79e16dbc2af9a85b379665237bf759904b44ca2be68e75d239e0297882aad42f61905c
+  languageName: node
+  linkType: hard
+
 "@types/normalize-package-data@npm:^2.4.0":
   version: 2.4.2
   resolution: "@types/normalize-package-data@npm:2.4.2"
@@ -3951,9 +3960,22 @@ __metadata:
     "@sanity/client": 6.6.0
     "@types/fs-extra": ^11
     "@types/node": 20.8.4
-    "@types/ua-parser-js": 0.7.37
     dotenv: 16.3.1
     fs-extra: 11.1.1
+    ts-node: 10.9.1
+    typescript: 5.2.2
+  languageName: unknown
+  linkType: soft
+
+"@updatemybrowser/detect@workspace:packages/detect":
+  version: 0.0.0-use.local
+  resolution: "@updatemybrowser/detect@workspace:packages/detect"
+  dependencies:
+    "@types/node": 20.8.6
+    "@types/semver": ^7
+    "@types/ua-parser-js": 0.7.37
+    "@updatemybrowser/client": "workspace:*"
+    semver: 7.5.4
     ts-node: 10.9.1
     typescript: 5.2.2
     ua-parser-js: v2.0.0-beta.1

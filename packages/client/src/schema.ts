@@ -1,8 +1,8 @@
-type SanityKeyed<T> = T & {
+type Keyed<T> = T & {
   _key: string;
 };
 
-export type SanityDoc<T> = T & {
+type Doc<T> = T & {
   _id: string;
   _originalId?: string;
   _rev: string;
@@ -11,18 +11,18 @@ export type SanityDoc<T> = T & {
   _updatedAt: string;
 };
 
-export type SanityReference = { _ref: string; _type: "reference" };
+type Reference = { _ref: string; _type: "reference" };
 
-export type SanityI18nField = {
+type I18nField = {
   [languageId: string]: string | null;
 };
 
-export type SanitySlug = {
+type Slug = {
   _type: "slug";
   current: string;
 };
 
-export type SanityColor = {
+type Color = {
   _type: "color";
   hex: string;
   hsv: {
@@ -49,7 +49,7 @@ export type SanityColor = {
   alpha: number;
 };
 
-export type SanityIcon = {
+type Icon = {
   _type: "icon.manager";
   icon: string;
   metadata: {
@@ -88,61 +88,67 @@ export type SanityIcon = {
   };
 };
 
-export type SanityImage = {
+type Image = {
   _type: "figure";
   caption: string;
-  asset: SanityReference;
+  asset: Reference;
 };
 
-export type SanityLanguage = SanityDoc<{
+export type Language = Doc<{
   _type: "language";
   id: string;
   name: string;
-  flag: SanityIcon;
+  flag: Icon;
 }>;
 
-export type SanityBrowser = SanityDoc<{
+export type Browser = Doc<{
   _type: "browser";
   name: string;
-  slug: SanitySlug;
+  slug: Slug;
   vendor: string;
   homepage: string;
   matchBrowserName: string;
-  description: SanityI18nField;
-  icon?: SanityIcon;
-  logo?: SanityImage;
-  color?: SanityColor;
+  description: I18nField;
+  icon?: Icon;
+  logo?: Image;
+  color?: Color;
 }>;
 
-export type SanityOS = SanityDoc<{
+export type OS = Doc<{
   _type: "os";
   name: string;
-  slug: SanitySlug;
+  slug: Slug;
   vendor: string;
   homepage: string;
   matchOsName: string;
-  description: SanityI18nField;
-  icon?: SanityIcon;
-  logo?: SanityImage;
-  color?: SanityColor;
+  description: I18nField;
+  icon?: Icon;
+  logo?: Image;
+  color?: Color;
 }>;
 
-export type SanityRelease<T extends "ref" | "expanded" = "ref"> = SanityDoc<{
+export type Release<T extends "ref" | "expanded" = "ref"> = Doc<{
   _type: "release";
-  browser: T extends "ref" ? SanityReference : SanityBrowser;
-  oses: T extends "ref"
-    ? SanityKeyed<SanityReference>[]
-    : SanityKeyed<SanityOS>[];
-  versionSource: SanityKeyed<{
+  browser: T extends "ref" ? Reference : Browser;
+  oses: T extends "ref" ? Keyed<Reference>[] : Keyed<OS>[];
+  versionSource: Keyed<{
     _type: "versionSource";
     source: "caniuse" | "wikipedia";
     caniuse_agent?: string;
+    caniuse_contribute_usage?: boolean;
   }>[];
   currentVersion: string;
   currentUsage: number;
+  match?: {
+    current: boolean;
+    os: boolean;
+    browser: boolean;
+    updateAvailable: boolean | undefined;
+    currentVersion: string | undefined;
+  };
 }>;
 
-export type SanityReleaseExpanded = SanityRelease<"expanded">;
+export type ReleaseExpanded = Release<"expanded">;
 
 export enum DocType {
   Language = "language",
@@ -151,9 +157,9 @@ export enum DocType {
   Release = "release",
 }
 
-export type SanityDocs = {
-  [DocType.Language]: SanityLanguage;
-  [DocType.Browser]: SanityBrowser;
-  [DocType.OS]: SanityOS;
-  [DocType.Release]: SanityRelease;
+export type Docs = {
+  [DocType.Language]: Language;
+  [DocType.Browser]: Browser;
+  [DocType.OS]: OS;
+  [DocType.Release]: Release;
 };

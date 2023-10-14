@@ -1,5 +1,5 @@
+import { getLanguage, getLanguages } from "@updatemybrowser/client";
 import { getDictionary } from "../../dictionaries";
-import { getLanguages } from "../../utils/sanity";
 import { List } from "./List";
 import styles from "./languageSwitcher.module.scss";
 
@@ -10,20 +10,24 @@ type Props = {
 export async function LanguageSwitcher({ currentLanguage }: Props) {
   const dict = getDictionary(currentLanguage);
   const languages = await getLanguages();
+  const language = await getLanguage(currentLanguage);
 
   return (
     <div className={styles.languageSwitcher}>
       {dict.Language}:{" "}
       <span className={styles.selectWrapper}>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          className={styles.img}
-          src={`data:image/svg+xml;utf8,${encodeURIComponent(
-            languages.find((language) => language.id === currentLanguage)!.flag
-              .metadata.inlineSvg,
-          )}`}
-          alt="Flag"
-        />
+        {language?.flag.metadata.inlineSvg ? (
+          <>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              className={styles.img}
+              src={`data:image/svg+xml;utf8,${encodeURIComponent(
+                language.flag.metadata.inlineSvg,
+              )}`}
+              alt="Flag"
+            />
+          </>
+        ) : null}
         <List currentLanguage={currentLanguage} languages={languages} />
       </span>
     </div>

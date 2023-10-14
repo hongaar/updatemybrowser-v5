@@ -1,5 +1,5 @@
 import { SyncIcon } from "@sanity/icons";
-import type { SanityRelease } from "@updatemybrowser/client";
+import type { Release } from "@updatemybrowser/client";
 import { updateFromMultiple } from "@updatemybrowser/updater";
 import { useState } from "react";
 import {
@@ -16,7 +16,7 @@ export const UpdateCurrentVersionAction: ActionComponent<
   DocumentActionProps
   // eslint-disable-next-line react/prop-types
 > = ({ id, type, published, draft, onComplete }) => {
-  const doc = (draft || published) as SanityRelease | null;
+  const doc = (draft || published) as Release | null;
   const [updating, setUpdating] = useState(false);
   const { patch } = useDocumentOperation(id, type);
 
@@ -34,6 +34,7 @@ export const UpdateCurrentVersionAction: ActionComponent<
             return {
               source,
               agent: rest.caniuse_agent,
+              contributeUsage: rest.caniuse_contribute_usage ?? true,
             };
           }
 
@@ -42,8 +43,8 @@ export const UpdateCurrentVersionAction: ActionComponent<
         .filter(notEmpty);
       const { version, usage } = await updateFromMultiple(sources);
 
-      patch.execute([{ set: { currentVersion: version } }]);
-      patch.execute([{ set: { currentUsage: usage } }]);
+      version && patch.execute([{ set: { currentVersion: version } }]);
+      usage && patch.execute([{ set: { currentUsage: usage } }]);
     } catch (error) {
       alert(String(error));
     }

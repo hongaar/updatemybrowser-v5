@@ -51,10 +51,10 @@ async function createDocsCache() {
     enableDrafts();
   }
 
-  await createCache("languages", "SanityLanguage", languages, getLanguages);
-  await createCache("oses", "SanityOS", languages, getOses);
-  await createCache("browsers", "SanityBrowser", languages, getBrowsers);
-  await createCache("releases", "SanityRelease", languages, getReleases);
+  await createCache("languages", "Language", languages, getLanguages);
+  await createCache("oses", "OS", languages, getOses);
+  await createCache("browsers", "Browser", languages, getBrowsers);
+  await createCache("releases", "Release", languages, getReleases);
 }
 
 createDocsCache();

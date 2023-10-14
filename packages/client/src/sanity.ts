@@ -1,6 +1,8 @@
 import { SanityClient, createClient } from "@sanity/client";
 import { sanityConfig } from "./config.js";
-import { DocType, type SanityDocs, type SanityRelease } from "./schema.js";
+import { DocType, type Docs, type Release } from "./schema.js";
+
+const USE_CDN = false;
 
 const { dataset, projectId } = sanityConfig;
 const apiVersion = "2023-05-03";
@@ -14,7 +16,7 @@ export function getClient() {
       projectId,
       dataset,
       apiVersion, // https://www.sanity.io/docs/api-versioning
-      useCdn: true,
+      useCdn: USE_CDN,
     }))
   );
 }
@@ -56,7 +58,7 @@ export async function getDocuments<T extends DocType>(
     .concat(languageOptions ? compileI18nFields(languageOptions) : [])
     .join(",\n");
 
-  return await getClient().fetch<SanityDocs[T][]>(`*[_type == "${type}"]{
+  return await getClient().fetch<Docs[T][]>(`*[_type == "${type}"]{
     ${props}
   }`);
 }
@@ -86,7 +88,7 @@ export async function getBrowsers({ language }: LanguageOptions) {
 }
 
 export async function getReleases({}: LanguageOptions) {
-  return await getClient().fetch<SanityRelease[]>(
+  return await getClient().fetch<Release[]>(
     `*[_type == "release"] | order(currentUsage desc)`,
   );
 }

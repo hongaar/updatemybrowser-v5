@@ -11,6 +11,8 @@ type WikipediaParams = {
 
 type Params = CanIUseParams | WikipediaParams;
 
+type Result = Awaited<ReturnType<typeof caniuse>>;
+
 function isParams<T extends Params>(
   source: string,
   params: Params,
@@ -19,7 +21,7 @@ function isParams<T extends Params>(
 }
 
 export default async function update(params: Params) {
-  let stats = { version: "0", usage: 0 };
+  let stats: Result = { version: "0", usage: 0 };
 
   if (isParams<CanIUseParams>("caniuse", params)) {
     const { source, ...caniuseParams } = params;
@@ -39,9 +41,12 @@ export default async function update(params: Params) {
 
 export async function updateFromMultiple(params: Params[]) {
   const stats = await Promise.all(params.map(update));
+  const usages = stats
+    .map(({ usage }) => usage)
+    .filter((item) => typeof item !== "undefined") as number[];
 
   return {
     version: highestVersion(stats.map(({ version }) => version)),
-    usage: Math.max(...stats.map(({ usage }) => usage)),
+    usage: usages.length > 0 ? Math.max(...usages) : undefined,
   };
 }

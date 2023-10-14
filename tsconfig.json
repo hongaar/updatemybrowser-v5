@@ -5,6 +5,9 @@
       "path": "./packages/web"
     },
     {
+      "path": "./packages/detect"
+    },
+    {
       "path": "./packages/studio"
     },
     {
