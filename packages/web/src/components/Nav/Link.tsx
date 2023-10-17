@@ -15,6 +15,7 @@ export function Link({ href, children }: Props) {
 
   return (
     <BaseLink
+      tabIndex={0}
       className={styles.link}
       href={href}
       aria-current={pathname === href ? ("" as "true") : undefined}

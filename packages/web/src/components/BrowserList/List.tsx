@@ -66,23 +66,18 @@ export function List({ dict, language, releases }: Props) {
         {releasesToShow.map((release) => (
           <li className={styles.listItem} key={release._id}>
             <Link
+              tabIndex={0}
               aria-current={release.match?.current ? ("" as "true") : undefined}
               className={styles.link}
               href={`/${language}/${release.browser.slug.current}`}
             >
               <h3 className={styles.itemHeading}>{release.browser.name}</h3>
-              <span className={styles.version}>
-                Latest version {release.currentVersion}
-              </span>
-              {release.match?.current && release.match.currentVersion ? (
-                <span className={styles.version}>
-                  Your version{" "}
-                  {toSimpleVersionString(release.match.currentVersion)}
-                </span>
-              ) : null}
-              {release.match?.updateAvailable ? (
-                <span className={styles.updateAvailable}>Update available</span>
-              ) : null}
+              <p className={styles.description}>
+                <small>
+                  {`${release.browser.description[language]} meer tekst meer
+                  tekst meer tekst tekst tekstmgqpl weuif wehufiwe hufiwe hfuiwe`}
+                </small>
+              </p>
               {release.browser.icon?.metadata?.inlineSvg ? (
                 <>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -97,9 +92,18 @@ export function List({ dict, language, releases }: Props) {
                   />
                 </>
               ) : null}
-              <p className={styles.description}>
-                {release.browser.description[language]}
-              </p>
+              <span className={styles.version}>
+                Latest version {release.currentVersion}
+              </span>
+              {release.match?.current && release.match.currentVersion ? (
+                <span className={styles.version}>
+                  Your version{" "}
+                  {toSimpleVersionString(release.match.currentVersion)}
+                </span>
+              ) : null}
+              {release.match?.updateAvailable ? (
+                <span className={styles.updateAvailable}>Update available</span>
+              ) : null}
             </Link>
           </li>
         ))}

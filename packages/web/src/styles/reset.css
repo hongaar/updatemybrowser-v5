@@ -87,8 +87,11 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
+  /**
+  Provided in theme, so commented out here
   font-size: 100%;
   font: inherit;
+  */
   vertical-align: baseline;
 }
 
@@ -108,7 +111,10 @@ section {
 }
 
 body {
+  /**
+  Provided in theme, so commented out here
   line-height: 1;
+  */
 }
 
 ol,

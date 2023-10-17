@@ -9,6 +9,8 @@
 }
 
 .link {
+  position: relative;
+  z-index: 1;
   display: inline-block;
   padding: var(--spacing);
   color: var(--primary-inverse);
@@ -18,7 +20,15 @@
     color: var(--contrast-hover);
   }
 
+  &:is(:focus, :active) {
+    z-index: 2;
+  }
+
   &:focus {
+    background-color: var(--background-color);
+  }
+
+  &[aria-current] {
     background-color: var(--background-color);
   }
 }

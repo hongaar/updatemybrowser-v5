@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Container } from "..";
+import { Container, LanguageSwitcher } from "..";
 import { getDictionary } from "../../dictionaries";
 import styles from "./header.module.scss";
 
@@ -13,15 +13,21 @@ export function Header({ language }: Props) {
   return (
     <header className={styles.header}>
       <Container className={styles.container}>
-        <Image
-          className={styles.logo}
-          src="/logo.png"
-          width={32}
-          height={44}
-          alt="Logo"
+        <div className={styles.leftPart}>
+          <Image
+            className={styles.logo}
+            src="/logo.png"
+            width={32}
+            height={44}
+            alt="Logo"
+          />
+          <h1 className={styles.heading}>Update My Browser</h1>
+          <h2 className={styles.subHeading}>{dict.SubHeading}</h2>
+        </div>
+        <LanguageSwitcher
+          className={styles.languageSwitcher}
+          currentLanguage={language}
         />
-        <h1 className={styles.heading}>Update My Browser</h1>
-        <h2 className={styles.subHeading}>{dict.SubHeading}</h2>
       </Container>
     </header>
   );

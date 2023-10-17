@@ -7,6 +7,12 @@
 .container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.leftPart {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -15,6 +21,8 @@
 
 .heading {
   margin-right: var(--spacing);
+  background-color: var(--muted-border-color);
+  z-index: 1;
 
   &:not(:last-child) {
     margin-bottom: 0;
@@ -22,7 +30,28 @@
 }
 
 .subHeading {
-  color: var(--primary);
-  font-size: 2rem;
-  margin: 0;
+  display: none;
+  color: var(--support-color);
+  font-size: var(--font-h1-size);
+  margin: 0 0 0 calc(var(--spacing) * -1 - var(--outline-width));
+
+  padding: 10px;
+  border: var(--outline-width) solid var(--support-color);
+  border-radius: var(--border-radius);
+
+  &:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    display: initial;
+  }
+}
+
+.languageSwitcher {
+  display: none;
+
+  @media (min-width: map-get($breakpoints, "md")) {
+    display: initial;
+  }
 }

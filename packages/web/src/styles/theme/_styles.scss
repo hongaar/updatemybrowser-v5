@@ -1,9 +1,8 @@
 :root {
   // Typography
-  --line-height: 1.5;
+  --line-height: 1.3em;
   --font-weight: 400;
   --font-weight-bold: 600;
-  --font-size: 16px;
 
   // Borders
   --border-radius: 0.5rem;
@@ -15,4 +14,43 @@
 
   // Transitions
   --transition: 0.2s ease-in-out;
+
+  // Responsive typography
+  @media (min-width: map-get($breakpoints, "xl")) {
+    --font-size: 17px;
+    --font-h1-size: 30px;
+    --font-h2-size: 27px;
+    --font-h3-size: 24px;
+    --font-small-size: 15px;
+  }
+
+  @media (min-width: map-get($breakpoints, "lg")) {
+    --font-size: 16px;
+    --font-h1-size: 27px;
+    --font-h2-size: 24px;
+    --font-h3-size: 21px;
+    --font-small-size: 15px;
+  }
+
+  @media (min-width: map-get($breakpoints, "md")) {
+    --font-size: 15px;
+    --font-h1-size: 25px;
+    --font-h2-size: 22px;
+    --font-h3-size: 19px;
+    --font-small-size: 14px;
+  }
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    --font-size: 14px;
+    --font-h1-size: 20px;
+    --font-h2-size: 18px;
+    --font-h3-size: 16px;
+    --font-small-size: 12px;
+  }
+
+  --font-size: 12px;
+  --font-h1-size: 18px;
+  --font-h2-size: 16px;
+  --font-h3-size: 14px;
+  --font-small-size: 10px;
 }

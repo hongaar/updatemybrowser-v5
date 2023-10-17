@@ -5,15 +5,16 @@ import styles from "./languageSwitcher.module.scss";
 
 type Props = {
   currentLanguage: string;
+  className?: string;
 };
 
-export async function LanguageSwitcher({ currentLanguage }: Props) {
+export async function LanguageSwitcher({ currentLanguage, className }: Props) {
   const dict = getDictionary(currentLanguage);
   const languages = await getLanguages();
   const language = await getLanguage(currentLanguage);
 
   return (
-    <div className={styles.languageSwitcher}>
+    <div className={`${styles.languageSwitcher} ${className}`}>
       {dict.Language}:{" "}
       <span className={styles.selectWrapper}>
         {language?.flag.metadata.inlineSvg ? (
