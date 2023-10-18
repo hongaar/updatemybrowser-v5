@@ -8,6 +8,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  padding: calc(var(--spacing) * 1) calc(var(--spacing) * 2);
 }
 
 .leftPart {

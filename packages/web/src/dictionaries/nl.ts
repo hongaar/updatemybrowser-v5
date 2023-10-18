@@ -10,6 +10,10 @@ const dutch: Dict = {
   Loading: "Laden",
   ShowReleasesForAllOses:
     "Toon ook browsers die niet beschikbaar zijn voor jouw platform",
+  NotFound: "Niet gevonden",
+  NotFoundDescription:
+    "Sorry, de pagina die je probeerde te bezoeken bestaat niet (meer).",
+  NotFoundButton: "Keer terug naar de homepage",
 };
 
 export default dutch;

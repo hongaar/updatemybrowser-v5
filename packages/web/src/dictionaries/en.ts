@@ -7,6 +7,10 @@ const english = {
   Language: "Language",
   Loading: "Loading",
   ShowReleasesForAllOses: "Also show browsers not available for your platform",
+  NotFound: "Not Found",
+  NotFoundDescription:
+    "Sorry, the page you tried to visit does not exist (anymore).",
+  NotFoundButton: "Return to the homepage",
 };
 
 export type Dict = typeof english;

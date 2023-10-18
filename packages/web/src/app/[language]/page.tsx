@@ -1,4 +1,3 @@
-import { getLanguageIds } from "@updatemybrowser/client";
 import { getDictionary } from "../../dictionaries";
 
 export type LanguageParams = {
@@ -6,10 +5,6 @@ export type LanguageParams = {
     language: string;
   };
 };
-
-export async function generateStaticParams() {
-  return (await getLanguageIds()).map((language) => ({ language }));
-}
 
 export default async function Home({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);

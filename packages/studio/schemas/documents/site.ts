@@ -44,7 +44,7 @@ export const site: DocumentDefinition = {
     {
       name: "icon",
       title: "Icon",
-      type: "icon.manager",
+      type: "icon",
       fieldset: "branding",
     },
     {

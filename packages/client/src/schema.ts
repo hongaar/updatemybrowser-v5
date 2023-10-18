@@ -49,7 +49,7 @@ type Color = {
   alpha: number;
 };
 
-type Icon = {
+type IconManager = {
   _type: "icon.manager";
   icon: string;
   metadata: {
@@ -88,6 +88,12 @@ type Icon = {
   };
 };
 
+type Icon = {
+  _type: "icon";
+  predefined?: IconManager;
+  custom_svg?: string;
+};
+
 type Image = {
   _type: "figure";
   caption: string;
@@ -98,7 +104,7 @@ export type Language = Doc<{
   _type: "language";
   id: string;
   name: string;
-  flag: Icon;
+  flag: IconManager;
 }>;
 
 export type Browser = Doc<{

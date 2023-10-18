@@ -1,5 +1,5 @@
 import type { DocumentDefinition } from "sanity";
-import { iconWithSubIcon } from "../../components/index.js";
+import { iconWithSubIconPreview } from "../../components/index.js";
 
 export const release: DocumentDefinition = {
   name: "release",
@@ -34,7 +34,7 @@ export const release: DocumentDefinition = {
         ...rest,
         title: `${title}${currentVersion ? ` v${currentVersion}` : ""}`,
         subtitle: hasMore ? `${subtitle}…` : subtitle,
-        media: iconWithSubIcon({ icon, subIcon }),
+        media: iconWithSubIconPreview({ icon, subIcon }),
       };
     },
   },

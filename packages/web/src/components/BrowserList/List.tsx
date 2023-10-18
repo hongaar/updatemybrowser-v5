@@ -33,7 +33,7 @@ export function List({ dict, language, releases }: Props) {
     <>
       <div className={styles.toolbar}>
         <h2 className={styles.heading}>{dict.BrowserOverview}</h2>
-        <label>
+        <label className={styles.showReleasesForAllOses}>
           <input
             type="checkbox"
             checked={showAllOses}
@@ -60,9 +60,13 @@ export function List({ dict, language, releases }: Props) {
               <div className={styles.browserInfo}>
                 <h3 className={styles.itemHeading}>{release.browser.name}</h3>
                 <p className={styles.description}>
-                  <small>{release.browser.description[language]}</small>
+                  <small>
+                    {release.browser.description[language] ??
+                      `Web browser by ${release.browser.vendor}`}
+                  </small>
                 </p>
-                {release.browser.icon?.metadata?.inlineSvg ? (
+                {release.browser.icon?.predefined?.metadata?.inlineSvg ||
+                release.browser.icon?.custom_svg ? (
                   <>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
@@ -70,7 +74,9 @@ export function List({ dict, language, releases }: Props) {
                       height={80}
                       width={80}
                       src={`data:image/svg+xml;utf8,${encodeURIComponent(
-                        release.browser.icon?.metadata.inlineSvg,
+                        release.browser.icon?.predefined?.metadata.inlineSvg ||
+                          release.browser.icon?.custom_svg ||
+                          "",
                       )}`}
                       alt="Flag"
                     />

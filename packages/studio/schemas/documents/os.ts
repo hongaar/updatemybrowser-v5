@@ -1,6 +1,6 @@
 import { matches } from "@updatemybrowser/client";
 import type { DocumentDefinition } from "sanity";
-import { mediaPreview } from "sanity-plugin-icon-manager";
+import { iconPreview } from "../../components/index.js";
 import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
 
 export const os: DocumentDefinition = {
@@ -17,7 +17,7 @@ export const os: DocumentDefinition = {
     prepare({ icon, ...rest }) {
       return {
         ...rest,
-        media: mediaPreview(icon),
+        media: iconPreview({ icon }),
       };
     },
   },
@@ -63,7 +63,7 @@ export const os: DocumentDefinition = {
     {
       name: "icon",
       title: "Icon",
-      type: "icon.manager",
+      type: "icon",
       fieldset: "branding",
     },
     {

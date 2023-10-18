@@ -32,3 +32,11 @@
     background-color: var(--background-color);
   }
 }
+
+.textBrowser {
+  display: none;
+
+  @media (min-width: map-get($breakpoints, "md")) {
+    display: initial;
+  }
+}

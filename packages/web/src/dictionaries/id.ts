@@ -10,6 +10,10 @@ const indonesian: Dict = {
   Loading: "Memuat",
   ShowReleasesForAllOses:
     "Tampilkan juga browser yang tidak tersedia untuk platform Anda",
+  NotFound: "Tidak ditemukan",
+  NotFoundDescription:
+    "Maaf, halaman yang Anda coba kunjungi tidak ada (lagi).",
+  NotFoundButton: "Kembali ke halaman utama",
 };
 
 export default indonesian;

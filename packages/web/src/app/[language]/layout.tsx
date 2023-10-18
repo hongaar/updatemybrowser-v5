@@ -1,7 +1,9 @@
+import { getLanguageIds } from "@updatemybrowser/client";
 import type { Metadata } from "next";
 import { Fira_Sans } from "next/font/google";
 import type { ReactNode } from "react";
 import { Container, Footer, Header, Nav } from "../../components";
+import { getDictionary } from "../../dictionaries";
 import "../../styles/index.scss";
 import type { LanguageParams } from "./page";
 
@@ -19,10 +21,17 @@ export const revalidate =
     ? REVALIDATE_PRODUCTION
     : REVALIDATE_DEVELOPMENT;
 
-export const metadata: Metadata = {
-  title: "Update My Browser",
-  description: "Update My Browser - Always fresh",
-};
+export function generateMetadata({ params: { language } }: Props) {
+  const dict = getDictionary(language);
+
+  return {
+    title: `Update My Browser - ${dict.SubHeading}`,
+  } as Metadata;
+}
+
+export async function generateStaticParams() {
+  return (await getLanguageIds()).map((language) => ({ language }));
+}
 
 export default function Layout({ children, params: { language } }: Props) {
   return (

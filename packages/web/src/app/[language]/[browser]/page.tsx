@@ -1,4 +1,6 @@
-import { getBrowsers, getLanguages } from "@updatemybrowser/client";
+import { getBrowsers } from "@updatemybrowser/client";
+import { notFound } from "next/navigation";
+import { getDictionary } from "../../../dictionaries";
 import type { LanguageParams } from "../page";
 
 type BrowserParams = {
@@ -14,12 +16,17 @@ export async function generateStaticParams() {
 export default async function Browser({
   params: { browser, language },
 }: LanguageParams & BrowserParams) {
-  const languages = await getLanguages();
+  const dict = getDictionary(language);
   const browsers = await getBrowsers();
+  const browserObj = browsers.find((item) => item.slug.current === browser);
+
+  if (!browserObj) {
+    throw notFound();
+  }
 
   return (
     <div>
-      <h2>Current browser: {browser}</h2>
+      <h2>{browserObj.name}</h2>
     </div>
   );
 }
