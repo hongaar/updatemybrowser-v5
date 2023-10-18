@@ -14,24 +14,6 @@ type Props = {
   releases: ReleaseExpanded[];
 };
 
-function toSimpleVersionString(version: string) {
-  const components = version.split(".").slice(0, 2).map(Number);
-
-  if (components.length === 0) {
-    return "0";
-  }
-
-  if (components[2] && components[2] !== 0) {
-    return components.join(".");
-  }
-
-  if (components[1] && components[1] !== 0) {
-    return `${components[0]}.${components[1]}`;
-  }
-
-  return components[0].toString();
-}
-
 export function List({ dict, language, releases }: Props) {
   const [showAllOses, setShowAllOses] = useState(false);
   const [hydratedReleases, setHydratedReleases] = useState(releases);
@@ -68,42 +50,52 @@ export function List({ dict, language, releases }: Props) {
             <Link
               tabIndex={0}
               aria-current={release.match?.current ? ("" as "true") : undefined}
-              className={styles.link}
+              className={`${styles.link} ${
+                release.match?.current && release.match.updateAvailable
+                  ? styles.linkUpdateAvailable
+                  : ""
+              }`}
               href={`/${language}/${release.browser.slug.current}`}
             >
-              <h3 className={styles.itemHeading}>{release.browser.name}</h3>
-              <p className={styles.description}>
-                <small>
-                  {`${release.browser.description[language]} meer tekst meer
-                  tekst meer tekst tekst tekstmgqpl weuif wehufiwe hufiwe hfuiwe`}
-                </small>
-              </p>
-              {release.browser.icon?.metadata?.inlineSvg ? (
-                <>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    className={styles.img}
-                    height={80}
-                    width={80}
-                    src={`data:image/svg+xml;utf8,${encodeURIComponent(
-                      release.browser.icon?.metadata.inlineSvg,
-                    )}`}
-                    alt="Flag"
-                  />
-                </>
-              ) : null}
-              <span className={styles.version}>
-                Latest version {release.currentVersion}
-              </span>
-              {release.match?.current && release.match.currentVersion ? (
+              <div className={styles.browserInfo}>
+                <h3 className={styles.itemHeading}>{release.browser.name}</h3>
+                <p className={styles.description}>
+                  <small>{release.browser.description[language]}</small>
+                </p>
+                {release.browser.icon?.metadata?.inlineSvg ? (
+                  <>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      className={styles.img}
+                      height={80}
+                      width={80}
+                      src={`data:image/svg+xml;utf8,${encodeURIComponent(
+                        release.browser.icon?.metadata.inlineSvg,
+                      )}`}
+                      alt="Flag"
+                    />
+                  </>
+                ) : null}
+              </div>
+              <span className={styles.spacer} />
+              {release.match?.current ? (
+                release.match?.updateAvailable ? (
+                  <span
+                    className={`${styles.version} ${styles.versionUpdateAvailable}`}
+                  >
+                    Update available to:{" "}
+                    <strong>{release.currentVersion}</strong>
+                  </span>
+                ) : (
+                  <span className={`${styles.version} ${styles.versionLatest}`}>
+                    You have the latest version
+                  </span>
+                )
+              ) : (
                 <span className={styles.version}>
-                  Your version{" "}
-                  {toSimpleVersionString(release.match.currentVersion)}
+                  Latest version: <strong>{release.currentVersion}</strong>
                 </span>
-              ) : null}
-              {release.match?.updateAvailable ? (
-                <span className={styles.updateAvailable}>Update available</span>
-              ) : null}
+              )}
             </Link>
           </li>
         ))}

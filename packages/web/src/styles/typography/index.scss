@@ -101,6 +101,12 @@ small {
   font-size: var(--font-small-size);
 }
 
+// Bold
+strong,
+b {
+  font-weight: var(--font-weight-bold);
+}
+
 // Lists
 dl,
 ol,
@@ -138,7 +144,7 @@ select,
 input,
 textarea {
   &:is(:focus, :active) {
-    outline: var(--outline-width) solid var(--support-color);
+    outline: var(--outline-width) solid var(--support);
     border-radius: var(--border-radius);
   }
 }

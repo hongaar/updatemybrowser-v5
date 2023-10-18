@@ -23,7 +23,12 @@
     --primary-inverse: #{$white};
 
     // Support colors
-    --support-color: #{$green-300};
+    --support: #{$green-300};
+    --support-inverse: #{$white};
+
+    // Warning colors
+    --warning: #{$amber-500};
+    --warning-inverse: #{$grey-800};
 
     // Secondary colors
     --secondary: #{$grey-600};

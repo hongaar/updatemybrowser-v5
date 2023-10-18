@@ -1,4 +1,5 @@
 import { UAParser } from "ua-parser-js";
+import { toSimpleVersionString } from "./version.js";
 
 export function detect() {
   const parserResults: ReturnType<UAParser["getResult"]> =
@@ -9,13 +10,13 @@ export function detect() {
     browser: parserResults.browser.name
       ? {
           name: parserResults.browser.name,
-          version: parserResults.browser.version,
+          version: toSimpleVersionString(parserResults.browser.version),
         }
       : undefined,
     os: parserResults.os.name
       ? {
           name: parserResults.os.name,
-          version: parserResults.os.version,
+          version: toSimpleVersionString(parserResults.os.version),
         }
       : undefined,
   };

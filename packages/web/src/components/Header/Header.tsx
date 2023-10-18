@@ -1,7 +1,12 @@
+import { Courgette } from "next/font/google";
 import Image from "next/image";
 import { Container, LanguageSwitcher } from "..";
 import { getDictionary } from "../../dictionaries";
 import styles from "./header.module.scss";
+
+const courgette = Courgette({ subsets: ["latin"], weight: ["400"] });
+
+const logoRatio = 73 / 100;
 
 type Props = {
   language: string;
@@ -17,12 +22,14 @@ export function Header({ language }: Props) {
           <Image
             className={styles.logo}
             src="/logo.png"
-            width={32}
-            height={44}
+            width={logoRatio * 30}
+            height={30}
             alt="Logo"
           />
           <h1 className={styles.heading}>Update My Browser</h1>
-          <h2 className={styles.subHeading}>{dict.SubHeading}</h2>
+          <h2 className={`${styles.subHeading} ${courgette.className}`}>
+            {dict.SubHeading}
+          </h2>
         </div>
         <LanguageSwitcher
           className={styles.languageSwitcher}
