@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
 
-  padding: calc(var(--spacing) * 1) calc(var(--spacing) * 2);
+  padding: calc(var(--spacing) * 1);
 }
 
 .leftPart {
@@ -46,7 +46,7 @@
 .languageSwitcher {
   display: none;
 
-  @media (min-width: map-get($breakpoints, "md")) {
+  @media (min-width: map-get($breakpoints, "lg")) {
     display: initial;
   }
 }

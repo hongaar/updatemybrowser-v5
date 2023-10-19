@@ -3967,7 +3967,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@updatemybrowser/detect@workspace:packages/detect":
+"@updatemybrowser/detect@workspace:*, @updatemybrowser/detect@workspace:packages/detect":
   version: 0.0.0-use.local
   resolution: "@updatemybrowser/detect@workspace:packages/detect"
   dependencies:
@@ -3994,6 +3994,7 @@ __metadata:
     "@types/react": 18.2.25
     "@types/styled-components": 5.1.28
     "@updatemybrowser/client": "workspace:*"
+    "@updatemybrowser/detect": "workspace:*"
     "@updatemybrowser/updater": "workspace:*"
     eslint: 8.51.0
     prettier: 3.0.3
@@ -4049,6 +4050,7 @@ __metadata:
     react-dom: 18.2.0
     sass: 1.69.0
     typescript: 5.2.2
+    usehooks-ts: 2.9.1
   languageName: unknown
   linkType: soft
 
@@ -12778,6 +12780,16 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: 5c639e0f8da3521d605f59ce5be9e094ca772bd44a4ce7322b055a6f58eeed8dda3c94cabd90c7a41fb6fa852210092008afe48f7038792fd47501f33299116a
+  languageName: node
+  linkType: hard
+
+"usehooks-ts@npm:2.9.1":
+  version: 2.9.1
+  resolution: "usehooks-ts@npm:2.9.1"
+  peerDependencies:
+    react: ^16.8.0  || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0  || ^17.0.0 || ^18.0.0
+  checksum: 36f1e4142ce23bc019b81d2e93aefd7f2c350abcf255598c21627114a69a2f2f116b35dc3a353375f09c6e4c9b704a04f104e3d10e98280545c097feca66c30a
   languageName: node
   linkType: hard
 

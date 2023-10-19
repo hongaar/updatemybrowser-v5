@@ -114,6 +114,7 @@ export type Browser = Doc<{
   vendor: string;
   homepage: string;
   matchBrowserName: string;
+  popularity?: number;
   description: I18nField;
   icon?: Icon;
   logo?: Image;

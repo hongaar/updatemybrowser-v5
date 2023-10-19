@@ -4,3 +4,4 @@ export * from "./Footer";
 export * from "./Header";
 export * from "./LanguageSwitcher";
 export * from "./Nav";
+export * from "./Tag";

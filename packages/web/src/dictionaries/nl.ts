@@ -14,6 +14,9 @@ const dutch: Dict = {
   NotFoundDescription:
     "Sorry, de pagina die je probeerde te bezoeken bestaat niet (meer).",
   NotFoundButton: "Keer terug naar de homepage",
+  UpdateAvailable: "Update beschikbaar",
+  YouHaveTheLatestVersion: "Je hebt de laatste versie",
+  LatestVersion: "Laatste versie",
 };
 
 export default dutch;

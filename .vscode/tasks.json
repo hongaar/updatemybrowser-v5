@@ -14,6 +14,17 @@
       "detail": "Watch all TypeScript files for problems"
     },
     {
+      "type": "typescript",
+      "tsconfig": "tsconfig.json",
+      "problemMatcher": ["$tsc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "label": "yarn typescript",
+      "detail": "Build all TypeScript files"
+    },
+    {
       "type": "npm",
       "script": "start",
       "problemMatcher": [],
@@ -22,6 +33,14 @@
       "runOptions": {
         "instanceLimit": 1
       }
+    },
+    {
+      "type": "npm",
+      "script": "cache-docs",
+      "path": "packages/client",
+      "problemMatcher": [],
+      "label": "yarn cache-docs",
+      "detail": "Create docs cache"
     }
   ]
 }

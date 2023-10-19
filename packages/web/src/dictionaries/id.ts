@@ -14,6 +14,9 @@ const indonesian: Dict = {
   NotFoundDescription:
     "Maaf, halaman yang Anda coba kunjungi tidak ada (lagi).",
   NotFoundButton: "Kembali ke halaman utama",
+  UpdateAvailable: "Pembaruan tersedia",
+  YouHaveTheLatestVersion: "Anda memiliki versi terbaru",
+  LatestVersion: "Versi terbaru",
 };
 
 export default indonesian;

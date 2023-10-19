@@ -16,7 +16,11 @@
     "incremental": true,
     "verbatimModuleSyntax": true
   },
-  "references": [{ "path": "../client" }, { "path": "../updater" }],
+  "references": [
+    { "path": "../client" },
+    { "path": "../detect" },
+    { "path": "../updater" }
+  ],
   "include": ["**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
 }

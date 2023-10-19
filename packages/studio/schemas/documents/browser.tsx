@@ -1,4 +1,4 @@
-import { matches } from "@updatemybrowser/client";
+import { browsers } from "@updatemybrowser/detect";
 import type { DocumentDefinition } from "sanity";
 import { iconPreview } from "../../components/index.js";
 import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
@@ -52,11 +52,28 @@ export const browser: DocumentDefinition = {
       description: "Match browser name from @updatemybrowser/client",
       type: "string",
       options: {
-        list: matches.browsers.map((value) => ({
+        list: browsers.map((value) => ({
           title: value,
           value,
         })),
       },
+    },
+    {
+      name: "popularity",
+      title: "Popularity",
+      description: (
+        <>
+          Source from likes at{" "}
+          <a
+            href="https://alternativeto.net/category/browsers/web-browser/?sort=likes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            alternativeto.net
+          </a>
+        </>
+      ),
+      type: "number",
     },
     i18nString({
       name: "description",

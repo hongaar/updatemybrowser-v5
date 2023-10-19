@@ -2,9 +2,9 @@
 
 import type { ReleaseExpanded } from "@updatemybrowser/client";
 import { hydrateExpandedReleases } from "@updatemybrowser/detect";
-
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { useLocalStorage } from "usehooks-ts";
 import type { Dict } from "../../dictionaries/en";
 import styles from "./browserList.module.scss";
 
@@ -15,7 +15,7 @@ type Props = {
 };
 
 export function List({ dict, language, releases }: Props) {
-  const [showAllOses, setShowAllOses] = useState(false);
+  const [showAllOses, setShowAllOses] = useLocalStorage("showAllOses", false);
   const [hydratedReleases, setHydratedReleases] = useState(releases);
 
   useEffect(
@@ -89,17 +89,18 @@ export function List({ dict, language, releases }: Props) {
                   <span
                     className={`${styles.version} ${styles.versionUpdateAvailable}`}
                   >
-                    Update available to:{" "}
+                    {dict.UpdateAvailable}:{" "}
                     <strong>{release.currentVersion}</strong>
                   </span>
                 ) : (
                   <span className={`${styles.version} ${styles.versionLatest}`}>
-                    You have the latest version
+                    {dict.YouHaveTheLatestVersion}
                   </span>
                 )
               ) : (
                 <span className={styles.version}>
-                  Latest version: <strong>{release.currentVersion}</strong>
+                  {dict.LatestVersion}:{" "}
+                  <strong>{release.currentVersion}</strong>
                 </span>
               )}
             </Link>

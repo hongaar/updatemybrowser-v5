@@ -1,4 +1,4 @@
-import { matches } from "@updatemybrowser/client";
+import { oses } from "@updatemybrowser/detect";
 import type { DocumentDefinition } from "sanity";
 import { iconPreview } from "../../components/index.js";
 import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
@@ -51,7 +51,7 @@ export const os: DocumentDefinition = {
       description: "Match operating system name from @updatemybrowser/client",
       type: "string",
       options: {
-        list: matches.oses.map((value) => ({
+        list: oses.map((value) => ({
           title: value,
           value,
         })),

@@ -22,7 +22,7 @@ export function Header({ language }: Props) {
           <Image
             className={styles.logo}
             src="/logo.png"
-            width={logoRatio * 30}
+            width={Math.round(logoRatio * 30)}
             height={30}
             alt="Logo"
           />

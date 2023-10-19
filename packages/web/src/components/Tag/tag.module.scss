@@ -1,0 +1,43 @@
+@import "../../styles/theme";
+
+.tag {
+  display: flex;
+  align-items: center;
+  line-height: 2;
+  background-color: var(--muted-border-color);
+  padding: 0 calc(var(--spacing) * 0.6);
+  border-radius: var(--border-radius);
+  font-size: var(--font-small-size);
+}
+
+.current {
+  background-color: var(--support);
+  color: var(--support-inverse);
+}
+
+.img {
+  width: 1em;
+  height: 1em;
+  margin-right: calc(var(--spacing) * 0.5);
+}
+
+.version {
+  background-color: var(--muted-border-color);
+  color: var(--muted-color);
+  border-left: 1px solid var(--background-color);
+  margin-left: calc(var(--spacing) * 0.5);
+  margin-right: calc(var(--spacing) * -0.7);
+  padding-left: calc(var(--spacing) * 0.5);
+  padding-right: calc(var(--spacing) * 0.6);
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.tagList {
+  padding: 0;
+}
+
+.tagListItem {
+  list-style: none;
+  display: inline-block;
+  margin: calc(var(--spacing) * 0.25) calc(var(--spacing) * 0.25);
+}

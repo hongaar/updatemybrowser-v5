@@ -3,7 +3,6 @@ import * as sanity from "./sanity.js";
 import type { ReleaseExpanded } from "./schema.js";
 
 export { defaultLanguage, sanityConfig } from "./config.js";
-export * as matches from "./matches.js";
 export type * from "./schema.js";
 
 type useCacheOption = {

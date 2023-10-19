@@ -10,7 +10,7 @@
   --outline-width: 3px;
 
   // Spacings
-  --spacing: 0.5rem;
+  --spacing: 1rem;
 
   // Transitions
   --transition: 0.2s ease-in-out;
@@ -34,7 +34,7 @@
   }
 
   @media (min-width: map-get($breakpoints, "lg")) {
-    --spacing: 0.8rem;
+    --spacing: 1rem;
 
     --font-size: 16px;
     --font-h1-size: 30px;
@@ -44,7 +44,7 @@
   }
 
   @media (min-width: map-get($breakpoints, "md")) {
-    --spacing: 0.7rem;
+    --spacing: 1rem;
 
     --font-size: 16px;
     --font-h1-size: 28px;
@@ -54,7 +54,7 @@
   }
 
   @media (min-width: map-get($breakpoints, "sm")) {
-    --spacing: 0.6rem;
+    --spacing: 1rem;
 
     --font-size: 16px;
     --font-h1-size: 26px;

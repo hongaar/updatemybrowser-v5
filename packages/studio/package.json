@@ -23,6 +23,7 @@
     "@sanity/ui": "^1.8.2",
     "@sanity/vision": "3.17.0",
     "@updatemybrowser/client": "workspace:*",
+    "@updatemybrowser/detect": "workspace:*",
     "@updatemybrowser/updater": "workspace:*",
     "react": "18.2.0",
     "react-dom": "18.2.0",
