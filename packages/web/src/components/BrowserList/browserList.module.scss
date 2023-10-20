@@ -166,7 +166,9 @@
 }
 
 .itemHeading {
-  height: 1em;
+  &:not(:last-child) {
+    margin-bottom: 0;
+  }
 }
 
 .description {

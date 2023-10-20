@@ -1,5 +1,5 @@
 {
-  "name": "@updatemybrowser/updater",
+  "name": "@updatemybrowser/core",
   "version": "0.0.0",
   "repository": "github:hongaar/updatemybrowser-v5",
   "license": "MIT",
@@ -21,13 +21,8 @@
     "test": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node --test test/*.test.ts",
     "test:watch": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node --test --watch test/*.test.ts"
   },
-  "dependencies": {
-    "@updatemybrowser/core": "workspace:*",
-    "cross-fetch": "4.0.0"
-  },
   "devDependencies": {
-    "@types/node": "20.8.3",
-    "@types/semver": "^7",
+    "@types/node": "20.8.7",
     "ts-node": "10.9.1",
     "typescript": "5.2.2"
   },

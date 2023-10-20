@@ -16,6 +16,7 @@
     "@portabletext/react": "3.0.9",
     "@sanity/image-url": "1.0.2",
     "@updatemybrowser/client": "workspace:*",
+    "@updatemybrowser/detect": "workspace:*",
     "negotiator": "0.6.3",
     "next": "13.5.4",
     "next-sanity": "5.5.5",

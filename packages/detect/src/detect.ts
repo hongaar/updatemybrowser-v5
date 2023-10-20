@@ -1,5 +1,5 @@
+import { toSimpleVersionString } from "@updatemybrowser/core";
 import { UAParser } from "ua-parser-js";
-import { toSimpleVersionString } from "./version.js";
 
 export function detect() {
   const parserResults: ReturnType<UAParser["getResult"]> =

@@ -107,7 +107,7 @@ export type Language = Doc<{
   flag: IconManager;
 }>;
 
-export type Browser = Doc<{
+export type Browser<T extends "plain" | "withFlatReleases" = "plain"> = Doc<{
   _type: "browser";
   name: string;
   slug: Slug;
@@ -119,7 +119,10 @@ export type Browser = Doc<{
   icon?: Icon;
   logo?: Image;
   color?: Color;
+  releases?: T extends "plain" ? undefined : ReleaseFlatExpanded[];
 }>;
+
+export type BrowserWithFlatReleases = Browser<"withFlatReleases">;
 
 export type OS = Doc<{
   _type: "os";
@@ -134,28 +137,29 @@ export type OS = Doc<{
   color?: Color;
 }>;
 
-export type Release<T extends "ref" | "expanded" = "ref"> = Doc<{
-  _type: "release";
-  browser: T extends "ref" ? Reference : Browser;
-  oses: T extends "ref" ? Keyed<Reference>[] : Keyed<OS>[];
-  versionSource: Keyed<{
-    _type: "versionSource";
-    source: "caniuse" | "wikipedia";
-    caniuse_agent?: string;
-    caniuse_contribute_usage?: boolean;
-  }>[];
-  currentVersion: string;
-  currentUsage: number;
-  match?: {
-    current: boolean;
-    os: boolean;
-    browser: boolean;
-    updateAvailable: boolean | undefined;
-    currentVersion: string | undefined;
-  };
-}>;
+export type Release<T extends "ref" | "expanded" | "flatExpanded" = "ref"> =
+  Doc<{
+    _type: "release";
+    browser: T extends "ref" ? Reference : Browser;
+    oses: T extends "ref"
+      ? Keyed<Reference>[]
+      : T extends "expanded"
+      ? OS[]
+      : undefined;
+    os?: T extends "flatExpanded" ? OS : undefined;
+    versionSource: Keyed<{
+      _type: "versionSource";
+      source: "caniuse" | "wikipedia";
+      caniuse_agent?: string;
+      caniuse_contribute_usage?: boolean;
+    }>[];
+    currentVersion: string;
+    currentUsage: number;
+  }>;
 
 export type ReleaseExpanded = Release<"expanded">;
+
+export type ReleaseFlatExpanded = Release<"flatExpanded">;
 
 export enum DocType {
   Language = "language",

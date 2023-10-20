@@ -1,5 +1,5 @@
+import { highestVersion, toSimpleVersionString } from "@updatemybrowser/core";
 import { caniuse, wikipedia } from "./sources/index.js";
-import { highestVersion, toSimpleVersionString } from "./version.js";
 
 type CanIUseParams = {
   source: "caniuse";
@@ -46,7 +46,11 @@ export async function updateFromMultiple(params: Params[]) {
     .filter((item) => typeof item !== "undefined") as number[];
 
   return {
-    version: highestVersion(stats.map(({ version }) => version)),
+    version: highestVersion(
+      stats
+        .map(({ version }) => version)
+        .filter((version) => typeof version !== "undefined") as string[],
+    ),
     usage: usages.length > 0 ? Math.max(...usages) : undefined,
   };
 }

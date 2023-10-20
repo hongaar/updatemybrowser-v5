@@ -5,6 +5,10 @@
     "outDir": "dist",
     "declarationDir": "types"
   },
-  "references": [],
+  "references": [
+    {
+      "path": "../core"
+    }
+  ],
   "include": ["src/**/*"]
 }

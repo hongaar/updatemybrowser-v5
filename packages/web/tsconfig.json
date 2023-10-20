@@ -20,7 +20,14 @@
       }
     ]
   },
-  "references": [{ "path": "../client" }, { "path": "../detect" }],
+  "references": [
+    {
+      "path": "../client"
+    },
+    {
+      "path": "../detect"
+    }
+  ],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

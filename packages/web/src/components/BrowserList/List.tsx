@@ -1,7 +1,10 @@
 "use client";
 
-import type { ReleaseExpanded } from "@updatemybrowser/client";
-import { hydrateExpandedReleases } from "@updatemybrowser/detect";
+import type { BrowserWithFlatReleases } from "@updatemybrowser/client";
+import {
+  hydrateBrowsersWithFlatReleases,
+  type MaybeHydratedBrowsersWithFlatReleases,
+} from "@updatemybrowser/detect";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useLocalStorage } from "usehooks-ts";
@@ -11,23 +14,28 @@ import styles from "./browserList.module.scss";
 type Props = {
   dict: Dict;
   language: string;
-  releases: ReleaseExpanded[];
+  browsers: BrowserWithFlatReleases[];
 };
 
-export function List({ dict, language, releases }: Props) {
+export function List({ dict, language, browsers }: Props) {
   const [showAllOses, setShowAllOses] = useLocalStorage("showAllOses", false);
-  const [hydratedReleases, setHydratedReleases] = useState(releases);
+  const [hydratedBrowsers, setHydratedBrowsers] =
+    useState<MaybeHydratedBrowsersWithFlatReleases[]>(browsers);
 
   useEffect(
-    () => setHydratedReleases(hydrateExpandedReleases(releases)),
-    [releases],
+    () => setHydratedBrowsers(hydrateBrowsersWithFlatReleases(browsers)),
+    [browsers],
   );
 
-  const releasesToShow = useMemo(() => {
+  const browsersToShow = useMemo(() => {
     return showAllOses
-      ? hydratedReleases
-      : hydratedReleases.filter((release) => release.match?.os);
-  }, [hydratedReleases, showAllOses]);
+      ? hydratedBrowsers
+      : hydratedBrowsers.filter(
+          (browsers) => browsers.match?.availableOnCurrentOs,
+        );
+  }, [hydratedBrowsers, showAllOses]);
+
+  console.log({ browsersToShow });
 
   return (
     <>
@@ -45,28 +53,30 @@ export function List({ dict, language, releases }: Props) {
         </label>
       </div>
       <ul className={styles.browserlist}>
-        {releasesToShow.map((release) => (
-          <li className={styles.listItem} key={release._id}>
+        {browsersToShow.map((browser) => (
+          <li className={styles.listItem} key={browser._id}>
             <Link
               tabIndex={0}
-              aria-current={release.match?.current ? ("" as "true") : undefined}
+              aria-current={
+                browser.match?.currentBrowser ? ("" as "true") : undefined
+              }
               className={`${styles.link} ${
-                release.match?.current && release.match.updateAvailable
+                browser.match?.currentBrowser && browser.match.updateAvailable
                   ? styles.linkUpdateAvailable
                   : ""
               }`}
-              href={`/${language}/${release.browser.slug.current}`}
+              href={`/${language}/${browser.slug.current}`}
             >
               <div className={styles.browserInfo}>
-                <h3 className={styles.itemHeading}>{release.browser.name}</h3>
+                <h3 className={styles.itemHeading}>{browser.name}</h3>
                 <p className={styles.description}>
                   <small>
-                    {release.browser.description[language] ??
-                      `Web browser by ${release.browser.vendor}`}
+                    {browser.description[language] ??
+                      `Web browser by ${browser.vendor}`}
                   </small>
                 </p>
-                {release.browser.icon?.predefined?.metadata?.inlineSvg ||
-                release.browser.icon?.custom_svg ? (
+                {browser.icon?.predefined?.metadata?.inlineSvg ||
+                browser.icon?.custom_svg ? (
                   <>
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
@@ -74,8 +84,8 @@ export function List({ dict, language, releases }: Props) {
                       height={80}
                       width={80}
                       src={`data:image/svg+xml;utf8,${encodeURIComponent(
-                        release.browser.icon?.predefined?.metadata.inlineSvg ||
-                          release.browser.icon?.custom_svg ||
+                        browser.icon?.predefined?.metadata.inlineSvg ||
+                          browser.icon?.custom_svg ||
                           "",
                       )}`}
                       alt="Flag"
@@ -84,13 +94,15 @@ export function List({ dict, language, releases }: Props) {
                 ) : null}
               </div>
               <span className={styles.spacer} />
-              {release.match?.current ? (
-                release.match?.updateAvailable ? (
+              {browser.match?.currentBrowser ? (
+                browser.match?.updateAvailable ? (
                   <span
                     className={`${styles.version} ${styles.versionUpdateAvailable}`}
                   >
                     {dict.UpdateAvailable}:{" "}
-                    <strong>{release.currentVersion}</strong>
+                    <strong>
+                      {browser.match.currentOsRelease.currentVersion}
+                    </strong>
                   </span>
                 ) : (
                   <span className={`${styles.version} ${styles.versionLatest}`}>
@@ -100,7 +112,7 @@ export function List({ dict, language, releases }: Props) {
               ) : (
                 <span className={styles.version}>
                   {dict.LatestVersion}:{" "}
-                  <strong>{release.currentVersion}</strong>
+                  <strong>{browser.match?.highestAvailableVersion}</strong>
                 </span>
               )}
             </Link>

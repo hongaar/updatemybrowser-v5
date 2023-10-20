@@ -1,6 +1,10 @@
 import * as cached from "./cached/index.js";
 import * as sanity from "./sanity.js";
-import type { ReleaseExpanded } from "./schema.js";
+import type {
+  BrowserWithFlatReleases,
+  ReleaseExpanded,
+  ReleaseFlatExpanded,
+} from "./schema.js";
 
 export { defaultLanguage, sanityConfig } from "./config.js";
 export type * from "./schema.js";
@@ -50,6 +54,22 @@ export async function getBrowsers({
     : await sanity.getBrowsers({ language: await sanity.getLanguageIds() });
 }
 
+export async function getBrowsersWithFlatReleases({
+  useCache = DEFAULT_USE_CACHE,
+}: useCacheOption = {}) {
+  const results = await getBrowsers({ useCache });
+  const releases = await getReleasesFlatExpanded({ useCache });
+
+  const expandedResults = results.map((browser) => {
+    return {
+      ...browser,
+      releases: releases.filter((item) => browser._id === item.browser._id),
+    };
+  }) as BrowserWithFlatReleases[];
+
+  return expandedResults;
+}
+
 export async function getReleases({
   useCache = DEFAULT_USE_CACHE,
 }: useCacheOption = {}) {
@@ -58,7 +78,7 @@ export async function getReleases({
     : await sanity.getReleases({ language: await sanity.getLanguageIds() });
 }
 
-export async function getExpandedReleases({
+export async function getReleasesExpanded({
   useCache = DEFAULT_USE_CACHE,
 }: useCacheOption = {}) {
   const results = await getReleases({ useCache });
@@ -74,6 +94,29 @@ export async function getExpandedReleases({
       ),
     };
   }) as ReleaseExpanded[];
+
+  return expandedResults;
+}
+
+export async function getReleasesFlatExpanded({
+  useCache = DEFAULT_USE_CACHE,
+}: useCacheOption = {}) {
+  const results = await getReleases({ useCache });
+  const osResults = await getOses({ useCache });
+  const browserResults = await getBrowsers({ useCache });
+
+  const expandedResults = results.flatMap((release) => {
+    return release.oses.map((os) => {
+      return {
+        ...release,
+        browser: browserResults.find(
+          (item) => release.browser._ref === item._id,
+        ),
+        os: osResults.find((item) => os._ref === item._id),
+        oses: undefined,
+      };
+    });
+  }) as ReleaseFlatExpanded[];
 
   return expandedResults;
 }
