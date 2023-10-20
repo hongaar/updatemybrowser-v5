@@ -3976,7 +3976,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@updatemybrowser/core@workspace:packages/core":
+"@updatemybrowser/core@workspace:*, @updatemybrowser/core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@updatemybrowser/core@workspace:packages/core"
   dependencies:
@@ -3994,7 +3994,7 @@ __metadata:
     "@types/semver": ^7
     "@types/ua-parser-js": 0.7.37
     "@updatemybrowser/client": "workspace:*"
-    semver: 7.5.4
+    "@updatemybrowser/core": "workspace:*"
     ts-node: 10.9.1
     typescript: 5.2.2
     ua-parser-js: v2.0.0-beta.1
@@ -4035,8 +4035,8 @@ __metadata:
   dependencies:
     "@types/node": 20.8.3
     "@types/semver": ^7
+    "@updatemybrowser/core": "workspace:*"
     cross-fetch: 4.0.0
-    semver: 7.5.4
     ts-node: 10.9.1
     typescript: 5.2.2
   languageName: unknown
@@ -4054,6 +4054,7 @@ __metadata:
     "@types/react": 18.2.25
     "@types/react-dom": 18.2.11
     "@updatemybrowser/client": "workspace:*"
+    "@updatemybrowser/detect": "workspace:*"
     cssnano: 6.0.1
     eslint: 8.51.0
     eslint-config-next: 13.5.4
@@ -11522,7 +11523,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.5.4, semver@npm:^7.3.5, semver@npm:^7.5.4":
+"semver@npm:^6.0.0, semver@npm:^6.3.0, semver@npm:^6.3.1":
+  version: 6.3.1
+  resolution: "semver@npm:6.3.1"
+  bin:
+    semver: bin/semver.js
+  checksum: ae47d06de28836adb9d3e25f22a92943477371292d9b665fb023fae278d345d508ca1958232af086d85e0155aee22e313e100971898bbb8d5d89b8b1d4054ca2
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.3.5, semver@npm:^7.5.4":
   version: 7.5.4
   resolution: "semver@npm:7.5.4"
   dependencies:
@@ -11530,15 +11540,6 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 12d8ad952fa353b0995bf180cdac205a4068b759a140e5d3c608317098b3575ac2f1e09182206bf2eb26120e1c0ed8fb92c48c592f6099680de56bb071423ca3
-  languageName: node
-  linkType: hard
-
-"semver@npm:^6.0.0, semver@npm:^6.3.0, semver@npm:^6.3.1":
-  version: 6.3.1
-  resolution: "semver@npm:6.3.1"
-  bin:
-    semver: bin/semver.js
-  checksum: ae47d06de28836adb9d3e25f22a92943477371292d9b665fb023fae278d345d508ca1958232af086d85e0155aee22e313e100971898bbb8d5d89b8b1d4054ca2
   languageName: node
   linkType: hard
 
