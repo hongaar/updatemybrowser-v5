@@ -1,5 +1,6 @@
 import { getLanguage, getLanguages } from "@updatemybrowser/client";
 import { getDictionary } from "../../dictionaries";
+import { Icon } from "../Icon";
 import { List } from "./List";
 import styles from "./languageSwitcher.module.scss";
 
@@ -18,16 +19,12 @@ export async function LanguageSwitcher({ currentLanguage, className }: Props) {
       {dict.Language}:{" "}
       <span className={styles.selectWrapper}>
         {language?.flag.metadata.inlineSvg ? (
-          <>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              className={styles.img}
-              src={`data:image/svg+xml;utf8,${encodeURIComponent(
-                language.flag.metadata.inlineSvg,
-              )}`}
-              alt="Flag"
-            />
-          </>
+          <Icon
+            size={20}
+            icon={{ _type: "icon", predefined: language.flag }}
+            alt="Flag"
+            className={styles.img}
+          />
         ) : null}
         <List currentLanguage={currentLanguage} languages={languages} />
       </span>

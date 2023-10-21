@@ -9,7 +9,8 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useLocalStorage } from "usehooks-ts";
 import type { Dict } from "../../dictionaries/en";
-import styles from "./browserList.module.scss";
+import { Icon } from "../Icon";
+import styles from "./browserGrid.module.scss";
 
 type Props = {
   dict: Dict;
@@ -35,8 +36,6 @@ export function List({ dict, language, browsers }: Props) {
         );
   }, [hydratedBrowsers, showAllOses]);
 
-  console.log({ browsersToShow });
-
   return (
     <>
       <div className={styles.toolbar}>
@@ -52,9 +51,9 @@ export function List({ dict, language, browsers }: Props) {
           {dict.ShowReleasesForAllOses}
         </label>
       </div>
-      <ul className={styles.browserlist}>
+      <ul className={styles.browserGrid}>
         {browsersToShow.map((browser) => (
-          <li className={styles.listItem} key={browser._id}>
+          <li className={styles.gridItem} key={browser._id}>
             <Link
               tabIndex={0}
               aria-current={
@@ -65,32 +64,15 @@ export function List({ dict, language, browsers }: Props) {
                   ? styles.linkUpdateAvailable
                   : ""
               }`}
-              href={`/${language}/${browser.slug.current}`}
+              href={`/${language}/browsers/${browser.slug.current}`}
             >
               <div className={styles.browserInfo}>
                 <h3 className={styles.itemHeading}>{browser.name}</h3>
                 <p className={styles.description}>
-                  <small>
-                    {browser.description[language] ??
-                      `Web browser by ${browser.vendor}`}
-                  </small>
+                  <small>{browser.description[language]}</small>
                 </p>
-                {browser.icon?.predefined?.metadata?.inlineSvg ||
-                browser.icon?.custom_svg ? (
-                  <>
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      className={styles.img}
-                      height={80}
-                      width={80}
-                      src={`data:image/svg+xml;utf8,${encodeURIComponent(
-                        browser.icon?.predefined?.metadata.inlineSvg ||
-                          browser.icon?.custom_svg ||
-                          "",
-                      )}`}
-                      alt="Flag"
-                    />
-                  </>
+                {browser.icon ? (
+                  <Icon icon={browser.icon} size={80} cssSize={"5rem"} />
                 ) : null}
               </div>
               <span className={styles.spacer} />
@@ -99,20 +81,28 @@ export function List({ dict, language, browsers }: Props) {
                   <span
                     className={`${styles.version} ${styles.versionUpdateAvailable}`}
                   >
-                    {dict.UpdateAvailable}:{" "}
-                    <strong>
+                    <span
+                      className={`${styles.label} ${styles.versionUpdateAvailable}`}
+                    >
+                      {dict.UpdateAvailable}
+                    </span>
+                    <strong className={styles.stat}>
                       {browser.match.currentOsRelease.currentVersion}
                     </strong>
                   </span>
                 ) : (
                   <span className={`${styles.version} ${styles.versionLatest}`}>
-                    {dict.YouHaveTheLatestVersion}
+                    <span className={`${styles.label} ${styles.versionLatest}`}>
+                      {dict.YouHaveTheLatestVersion}
+                    </span>
                   </span>
                 )
               ) : (
                 <span className={styles.version}>
-                  {dict.LatestVersion}:{" "}
-                  <strong>{browser.match?.highestAvailableVersion}</strong>
+                  <span className={styles.label}>{dict.LatestVersion}</span>
+                  <strong className={styles.stat}>
+                    {browser.match?.highestAvailableVersion}
+                  </strong>
                 </span>
               )}
             </Link>

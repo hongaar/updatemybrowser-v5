@@ -5,7 +5,9 @@
 }
 
 .container {
+  // !important due to bug with container padding from loading.tsx taking precedence
   padding: var(--spacing) calc(var(--spacing) * 2);
+
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;

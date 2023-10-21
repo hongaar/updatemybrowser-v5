@@ -5,11 +5,12 @@
 }
 
 .container {
+  // !important due to bug with container padding from loading.tsx taking precedence
+  padding: calc(var(--spacing) * 1) !important;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  padding: calc(var(--spacing) * 1);
 }
 
 .leftPart {

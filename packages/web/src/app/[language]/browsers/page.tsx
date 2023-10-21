@@ -1,4 +1,5 @@
-import { BrowserList } from "../../../components";
+import { BrowserGrid } from "../../../components/BrowserGrid";
+import { Container } from "../../../components/Container";
 import { getDictionary } from "../../../dictionaries";
 
 export type LanguageParams = {
@@ -11,8 +12,8 @@ export default async function Home({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);
 
   return (
-    <div>
-      <BrowserList language={language} />
-    </div>
+    <Container>
+      <BrowserGrid language={language} />
+    </Container>
   );
 }

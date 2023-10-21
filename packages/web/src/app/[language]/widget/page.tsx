@@ -1,4 +1,5 @@
 import { getLanguageIds } from "@updatemybrowser/client";
+import { Container } from "../../../components/Container";
 import { getDictionary } from "../../../dictionaries";
 
 export type LanguageParams = {
@@ -15,8 +16,8 @@ export default async function Widget({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);
 
   return (
-    <div>
+    <Container>
       <h2>{dict.Widget}</h2>
-    </div>
+    </Container>
   );
 }

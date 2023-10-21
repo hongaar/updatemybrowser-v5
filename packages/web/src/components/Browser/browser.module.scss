@@ -1,0 +1,35 @@
+@import "../../styles/theme";
+
+.metadataList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing);
+}
+
+.metadataItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing);
+
+  @media (min-width: map-get($breakpoints, "md")) {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.metadataLabel {
+  text-transform: uppercase;
+  font-size: var(--font-small-size);
+  color: var(--muted-color);
+  margin-right: var(--spacing);
+}
+
+.metadata {
+  display: flex;
+  align-items: center;
+}
+
+.stat {
+  font-size: var(--font-h3-size);
+  margin-right: var(--spacing);
+}

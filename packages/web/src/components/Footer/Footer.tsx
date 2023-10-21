@@ -1,4 +1,5 @@
-import { Container, LanguageSwitcher } from "..";
+import { Container } from "../Container";
+import { LanguageSwitcher } from "../LanguageSwitcher";
 import styles from "./footer.module.scss";
 
 type Props = {

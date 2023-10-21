@@ -7,12 +7,12 @@ export type LanguageParams = {
   };
 };
 
-export default async function Blog({ params: { language } }: LanguageParams) {
+export default async function Home({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);
 
   return (
     <Container>
-      <h2>{dict.Guides}</h2>
+      <h2>{dict.BrowserCheck}</h2>
     </Container>
   );
 }

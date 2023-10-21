@@ -18,7 +18,7 @@ export function Link({ href, children }: Props) {
       tabIndex={0}
       className={styles.link}
       href={href}
-      aria-current={pathname === href ? ("" as "true") : undefined}
+      aria-current={pathname.startsWith(href) ? ("" as "true") : undefined}
     >
       {children}
     </BaseLink>

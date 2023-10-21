@@ -1,21 +1,24 @@
 "use client";
 
-import type { OS, Release } from "@updatemybrowser/client";
+import type { ReleaseFlatExpanded } from "@updatemybrowser/client";
 import { detect } from "@updatemybrowser/detect";
 import { Tag } from ".";
 import styles from "./tag.module.scss";
 
 type Props = {
-  os: OS;
-  release: Release;
+  release: ReleaseFlatExpanded;
 };
 
-export function ReleaseTag({ os, release }: Props) {
+export function ReleaseTag({ release }: Props) {
   const { os: detectedOs } = detect();
-
   return (
-    <Tag className={os.matchOsName === detectedOs?.name ? styles.current : ""}>
-      {os.icon?.predefined?.metadata?.inlineSvg || os.icon?.custom_svg ? (
+    <Tag
+      className={
+        release.os.matchOsName === detectedOs?.name ? styles.current : ""
+      }
+    >
+      {release.os.icon?.predefined?.metadata?.inlineSvg ||
+      release.os.icon?.custom_svg ? (
         <>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -23,15 +26,15 @@ export function ReleaseTag({ os, release }: Props) {
             height={80}
             width={80}
             src={`data:image/svg+xml;utf8,${encodeURIComponent(
-              os.icon?.predefined?.metadata.inlineSvg ||
-                os.icon?.custom_svg ||
+              release.os.icon?.predefined?.metadata.inlineSvg ||
+                release.os.icon?.custom_svg ||
                 "",
             )}`}
             alt="Icon"
           />
         </>
       ) : null}
-      {os.name}
+      {release.os.name}
       <span className={styles.version}>{release.currentVersion}</span>
     </Tag>
   );

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useTimeout } from "usehooks-ts";
+import { Container } from "../../components/Container";
 
 export default function Loading() {
   const [visible, setVisible] = useState(false);
@@ -12,5 +13,5 @@ export default function Loading() {
 
   useTimeout(show, 500);
 
-  return visible ? "Loading" : null;
+  return visible ? <Container>Loading...</Container> : null;
 }

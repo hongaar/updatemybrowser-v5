@@ -36,6 +36,26 @@
     },
     {
       "type": "npm",
+      "script": "start:web",
+      "problemMatcher": [],
+      "label": "yarn start:web",
+      "detail": "Start web server",
+      "runOptions": {
+        "instanceLimit": 1
+      }
+    },
+    {
+      "type": "npm",
+      "script": "start:studio",
+      "problemMatcher": [],
+      "label": "yarn start:studio",
+      "detail": "Start studio server",
+      "runOptions": {
+        "instanceLimit": 1
+      }
+    },
+    {
+      "type": "npm",
       "script": "cache-docs",
       "path": "packages/client",
       "problemMatcher": [],

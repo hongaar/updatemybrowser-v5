@@ -1,4 +1,5 @@
 const english = {
+  Home: "Home",
   SubHeading: "Always fresh",
   BrowserCheck: "Browser Check",
   BrowserOverview: "Browser Overview",
@@ -14,6 +15,12 @@ const english = {
   UpdateAvailable: "Update available",
   YouHaveTheLatestVersion: "You have the latest version",
   LatestVersion: "Latest version",
+  AvailableOn: "Available on",
+  Popularity: "Popularity",
+  Source: "source",
+  GlobalUsage: "Global usage",
+  By: "by",
+  PopularAlternatives: "Popular alternatives",
 };
 
 export type Dict = typeof english;

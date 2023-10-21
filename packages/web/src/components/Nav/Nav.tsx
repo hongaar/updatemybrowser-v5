@@ -1,5 +1,5 @@
-import { Container } from "..";
 import { getDictionary } from "../../dictionaries";
+import { Container } from "../Container";
 import { Link } from "./Link";
 import styles from "./nav.module.scss";
 
@@ -23,8 +23,10 @@ export function Nav({ language }: Props) {
 
   return (
     <nav className={styles.nav}>
-      <Container className={styles.container}>
-        <Link href={`/${language}`}>{maybeHideBrowser(dict.BrowserCheck)}</Link>
+      <Container noPadding>
+        <Link href={`/${language}/check`}>
+          {maybeHideBrowser(dict.BrowserCheck)}
+        </Link>
         <Link href={`/${language}/browsers`}>
           {maybeHideBrowser(dict.BrowserOverview)}
         </Link>

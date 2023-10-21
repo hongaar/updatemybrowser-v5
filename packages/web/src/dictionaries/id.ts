@@ -1,6 +1,7 @@
 import type { Dict } from "./en";
 
 const indonesian: Dict = {
+  Home: "Rumah",
   SubHeading: "Selalu segar",
   BrowserCheck: "Browser Kontrol",
   BrowserOverview: "Browser Ikhtisar",
@@ -17,6 +18,12 @@ const indonesian: Dict = {
   UpdateAvailable: "Pembaruan tersedia",
   YouHaveTheLatestVersion: "Anda memiliki versi terbaru",
   LatestVersion: "Versi terbaru",
+  AvailableOn: "Tersedia di",
+  Popularity: "Popularitas",
+  Source: "sumber",
+  GlobalUsage: "Penggunaan global",
+  By: "oleh",
+  PopularAlternatives: "Alternatif populer",
 };
 
 export default indonesian;

@@ -23,7 +23,7 @@ export function hydrateBrowsersWithFlatReleases(
 
   return browsers.map((item) => {
     const currentOsRelease = item.releases?.find(
-      (release) => release.os?.matchOsName === os?.name,
+      (release) => release.os.matchOsName === os?.name,
     );
     const availableOnCurrentOs = !!currentOsRelease;
     const highestAvailableVersion = highestVersion(

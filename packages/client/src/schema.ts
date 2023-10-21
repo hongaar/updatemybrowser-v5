@@ -1,8 +1,8 @@
-type Keyed<T> = T & {
+export type Keyed<T> = T & {
   _key: string;
 };
 
-type Doc<T> = T & {
+export type Doc<T> = T & {
   _id: string;
   _originalId?: string;
   _rev: string;
@@ -11,18 +11,18 @@ type Doc<T> = T & {
   _updatedAt: string;
 };
 
-type Reference = { _ref: string; _type: "reference" };
+export type Reference = { _ref: string; _type: "reference" };
 
-type I18nField = {
+export type I18nField = {
   [languageId: string]: string | null;
 };
 
-type Slug = {
+export type Slug = {
   _type: "slug";
   current: string;
 };
 
-type Color = {
+export type Color = {
   _type: "color";
   hex: string;
   hsv: {
@@ -49,7 +49,7 @@ type Color = {
   alpha: number;
 };
 
-type IconManager = {
+export type IconManager = {
   _type: "icon.manager";
   icon: string;
   metadata: {
@@ -88,13 +88,13 @@ type IconManager = {
   };
 };
 
-type Icon = {
+export type Icon = {
   _type: "icon";
   predefined?: IconManager;
   custom_svg?: string;
 };
 
-type Image = {
+export type Image = {
   _type: "figure";
   caption: string;
   asset: Reference;
@@ -107,20 +107,24 @@ export type Language = Doc<{
   flag: IconManager;
 }>;
 
-export type Browser<T extends "plain" | "withFlatReleases" = "plain"> = Doc<{
-  _type: "browser";
-  name: string;
-  slug: Slug;
-  vendor: string;
-  homepage: string;
-  matchBrowserName: string;
-  popularity?: number;
-  description: I18nField;
-  icon?: Icon;
-  logo?: Image;
-  color?: Color;
-  releases?: T extends "plain" ? undefined : ReleaseFlatExpanded[];
-}>;
+export type Browser<T extends "plain" | "withFlatReleases" = "plain"> = Doc<
+  {
+    _type: "browser";
+    name: string;
+    slug: Slug;
+    vendor: string;
+    homepage: string;
+    matchBrowserName: string;
+    popularity?: number;
+    description: I18nField;
+    icon?: Icon;
+    logo?: Image;
+    color?: Color;
+  } & (T extends "plain"
+    ? {}
+    : // withFlatReleases
+      { releases: T extends "plain" ? undefined : ReleaseFlatExpanded[] })
+>;
 
 export type BrowserWithFlatReleases = Browser<"withFlatReleases">;
 
@@ -138,24 +142,33 @@ export type OS = Doc<{
 }>;
 
 export type Release<T extends "ref" | "expanded" | "flatExpanded" = "ref"> =
-  Doc<{
-    _type: "release";
-    browser: T extends "ref" ? Reference : Browser;
-    oses: T extends "ref"
-      ? Keyed<Reference>[]
+  Doc<
+    {
+      _type: "release";
+      versionSource: Keyed<{
+        _type: "versionSource";
+        source: "caniuse" | "wikipedia";
+        caniuse_agent?: string;
+        caniuse_contribute_usage?: boolean;
+      }>[];
+      currentVersion: string;
+      currentUsage: number;
+    } & (T extends "ref"
+      ? {
+          browser: Reference;
+          oses: Keyed<Reference>[];
+        }
       : T extends "expanded"
-      ? OS[]
-      : undefined;
-    os?: T extends "flatExpanded" ? OS : undefined;
-    versionSource: Keyed<{
-      _type: "versionSource";
-      source: "caniuse" | "wikipedia";
-      caniuse_agent?: string;
-      caniuse_contribute_usage?: boolean;
-    }>[];
-    currentVersion: string;
-    currentUsage: number;
-  }>;
+      ? {
+          browser: Browser;
+          oses: OS[];
+        }
+      : // flatExpanded
+        {
+          browser: Browser;
+          os: OS;
+        })
+  >;
 
 export type ReleaseExpanded = Release<"expanded">;
 

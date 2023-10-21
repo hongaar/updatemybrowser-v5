@@ -1,7 +1,8 @@
 import { Courgette } from "next/font/google";
 import Image from "next/image";
-import { Container, LanguageSwitcher } from "..";
 import { getDictionary } from "../../dictionaries";
+import { Container } from "../Container";
+import { LanguageSwitcher } from "../LanguageSwitcher";
 import styles from "./header.module.scss";
 
 const courgette = Courgette({ subsets: ["latin"], weight: ["400"] });

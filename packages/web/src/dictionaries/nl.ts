@@ -1,6 +1,7 @@
 import type { Dict } from "./en";
 
 const dutch: Dict = {
+  Home: "Home",
   SubHeading: "Altijd vers",
   BrowserCheck: "Browser Controle",
   BrowserOverview: "Browser Overzicht",
@@ -17,6 +18,12 @@ const dutch: Dict = {
   UpdateAvailable: "Update beschikbaar",
   YouHaveTheLatestVersion: "Je hebt de laatste versie",
   LatestVersion: "Laatste versie",
+  AvailableOn: "Beschikbaar op",
+  Popularity: "Populariteit",
+  Source: "bron",
+  GlobalUsage: "Wereldwijd gebruik",
+  By: "van",
+  PopularAlternatives: "Populaire alternatieven",
 };
 
 export default dutch;

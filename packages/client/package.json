@@ -36,5 +36,8 @@
       "typescript",
       "test"
     ]
+  },
+  "dependencies": {
+    "server-only": "0.0.1"
   }
 }

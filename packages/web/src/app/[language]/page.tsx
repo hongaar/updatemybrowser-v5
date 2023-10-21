@@ -1,4 +1,4 @@
-import { getDictionary } from "../../dictionaries";
+import { redirect } from "next/navigation";
 
 export type LanguageParams = {
   params: {
@@ -6,12 +6,6 @@ export type LanguageParams = {
   };
 };
 
-export default async function Home({ params: { language } }: LanguageParams) {
-  const dict = getDictionary(language);
-
-  return (
-    <div>
-      <h2>{dict.BrowserCheck}</h2>
-    </div>
-  );
+export default async function Check({ params: { language } }: LanguageParams) {
+  redirect(`/${language}/check`);
 }

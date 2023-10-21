@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Container } from "../../components/Container";
 import english from "../../dictionaries/en";
 
 // Global 404 page is not available for internationalization #50699
@@ -9,10 +10,10 @@ export default function NotFound(params: any) {
   const dict = english;
 
   return (
-    <div>
+    <Container>
       <h2>{dict.NotFound}</h2>
       <p>{dict.NotFoundDescription}</p>
       <Link href="/">{dict.NotFoundButton}</Link>
-    </div>
+    </Container>
   );
 }

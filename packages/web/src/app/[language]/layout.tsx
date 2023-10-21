@@ -2,7 +2,9 @@ import { getLanguageIds } from "@updatemybrowser/client";
 import type { Metadata } from "next";
 import { Fira_Sans } from "next/font/google";
 import type { ReactNode } from "react";
-import { Container, Footer, Header, Nav } from "../../components";
+import { Footer } from "../../components/Footer";
+import { Header } from "../../components/Header";
+import { Nav } from "../../components/Nav";
 import { getDictionary } from "../../dictionaries";
 import "../../styles/index.scss";
 import type { LanguageParams } from "./page";
@@ -39,9 +41,7 @@ export default function Layout({ children, params: { language } }: Props) {
       <body className={fira.className}>
         <Header language={language} />
         <Nav language={language} />
-        <main>
-          <Container>{children}</Container>
-        </main>
+        <main>{children}</main>
         <Footer language={language} />
       </body>
     </html>
