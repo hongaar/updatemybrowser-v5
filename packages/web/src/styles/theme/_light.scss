@@ -28,6 +28,8 @@
 
   // Warning colors
   --warning: #{$amber-500};
+  --warning-hover: #{$amber-600};
+  --warning-focus: #{rgba($amber-500, 0.125)};
   --warning-inverse: #{$grey-800};
 
   // Secondary colors

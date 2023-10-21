@@ -19,34 +19,42 @@ export type MaybeHydratedBrowsersWithFlatReleases = BrowserWithFlatReleases & {
 export function hydrateBrowsersWithFlatReleases(
   browsers: BrowserWithFlatReleases[],
 ) {
-  const { os, browser } = detect();
+  return browsers.map((item) => hydrateBrowserWithFlatReleases(item));
+}
 
-  return browsers.map((item) => {
-    const currentOsRelease = item.releases?.find(
-      (release) => release.os.matchOsName === os?.name,
-    );
-    const availableOnCurrentOs = !!currentOsRelease;
-    const highestAvailableVersion = highestVersion(
-      item.releases?.map((item) => item.currentVersion) || [],
-    );
-    const browserMatch = item.matchBrowserName === browser?.name;
+export function hydrateBrowserWithFlatReleases(
+  browser: BrowserWithFlatReleases,
+) {
+  const { os, browser: detectedBrowser } = detect();
+  const currentOsRelease = browser.releases?.find(
+    (release) => release.os.matchOsName === os?.name,
+  );
+  const availableOnCurrentOs = !!currentOsRelease;
+  const highestAvailableVersion = highestVersion(
+    browser.releases?.map((item) => item.currentVersion) || [],
+  );
+  const browserMatch = browser.matchBrowserName === detectedBrowser?.name;
 
-    return {
-      ...item,
-      match: {
-        currentBrowser: availableOnCurrentOs && browserMatch,
-        currentOsRelease,
-        availableOnCurrentOs,
-        highestAvailableVersion,
-        updateAvailable:
-          availableOnCurrentOs && browserMatch
-            ? gt(currentOsRelease.currentVersion || "0", browser.version || "0")
-            : undefined,
-        currentVersion:
-          availableOnCurrentOs && browserMatch ? browser.version : undefined,
-      },
-    };
-  }) as MaybeHydratedBrowsersWithFlatReleases[];
+  return {
+    ...browser,
+    match: {
+      currentBrowser: availableOnCurrentOs && browserMatch,
+      currentOsRelease,
+      availableOnCurrentOs,
+      highestAvailableVersion,
+      updateAvailable:
+        availableOnCurrentOs && browserMatch
+          ? gt(
+              currentOsRelease.currentVersion || "0",
+              detectedBrowser.version || "0",
+            )
+          : undefined,
+      currentVersion:
+        availableOnCurrentOs && browserMatch
+          ? detectedBrowser.version
+          : undefined,
+    },
+  } as MaybeHydratedBrowsersWithFlatReleases;
 }
 
 export function hydrateReleasesFlatExpanded(releases: ReleaseFlatExpanded[]) {

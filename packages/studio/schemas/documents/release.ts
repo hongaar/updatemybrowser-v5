@@ -59,6 +59,12 @@ export const release: DocumentDefinition = {
       validation: (rule) => rule.required(),
     },
     {
+      name: "downloadUrl",
+      title: "Download URL",
+      description: "Address to download release",
+      type: "url",
+    },
+    {
       name: "versionSource",
       title: "Version source",
       description: "Configure automatic version updates",

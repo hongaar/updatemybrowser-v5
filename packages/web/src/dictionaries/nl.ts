@@ -10,7 +10,7 @@ const dutch: Dict = {
   Language: "Taal",
   Loading: "Laden",
   ShowReleasesForAllOses:
-    "Toon ook browsers die niet beschikbaar zijn voor jouw platform",
+    "Toon ook browsers die niet beschikbaar zijn op jouw apparaat",
   NotFound: "Niet gevonden",
   NotFoundDescription:
     "Sorry, de pagina die je probeerde te bezoeken bestaat niet (meer).",
@@ -18,12 +18,26 @@ const dutch: Dict = {
   UpdateAvailable: "Update beschikbaar",
   YouHaveTheLatestVersion: "Je hebt de laatste versie",
   LatestVersion: "Laatste versie",
+  LatestVersionDescription:
+    "Gefeliciteerd, je gebruikt de laatste versie van %s.",
   AvailableOn: "Beschikbaar op",
   Popularity: "Populariteit",
   Source: "bron",
   GlobalUsage: "Wereldwijd gebruik",
   By: "van",
   PopularAlternatives: "Populaire alternatieven",
+  CurrentBrowserAndUpdateAvailable:
+    "Dit is je huidige browser en er is een update beschikbaar.",
+  PleaseClickButtonToUpdate:
+    "Klik op de knop hieronder om je browser bij te werken naar de laatste versie.",
+  UpdateNow: "Nu bijwerken",
+  AvailableOnYourOs: "Beschikbaar op jouw apparaat",
+  AvailableOnYourOsClickButtonToDownload:
+    "Klik op de knop hieronder om deze browser te downloaden.",
+  AvailableOnYourOsDescription:
+    "Je gebruikt momenteel geen %s, maar deze browser is beschikbaar op %s.",
+  DownloadNow: "Download nu",
+  Version: "Versie",
 };
 
 export default dutch;

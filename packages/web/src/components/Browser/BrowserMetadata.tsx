@@ -22,7 +22,7 @@ export function BrowserMetadata({ language, browser }: Props) {
         <div className={styles.metadata}>
           <TagList>
             {browser.releases.map((release, index) => (
-              <ReleaseTag key={index} release={release} />
+              <ReleaseTag key={index} dict={dict} release={release} />
             ))}
           </TagList>
         </div>
@@ -33,7 +33,7 @@ export function BrowserMetadata({ language, browser }: Props) {
         <div className={styles.metadata}>
           <strong className={styles.stat}>❤️ {browser.popularity}</strong>{" "}
           <ExternalLink href="https://alternativeto.net">
-            {dict.Source}
+            AlternativeTo
           </ExternalLink>
         </div>
       </div>
@@ -44,7 +44,7 @@ export function BrowserMetadata({ language, browser }: Props) {
           <strong className={styles.stat}>
             {averageUsage(browser).toFixed(2)} %
           </strong>{" "}
-          <ExternalLink href="https://caniuse.com">{dict.Source}</ExternalLink>
+          <ExternalLink href="https://caniuse.com">Can I Use</ExternalLink>
         </div>
       </div>
     </div>
