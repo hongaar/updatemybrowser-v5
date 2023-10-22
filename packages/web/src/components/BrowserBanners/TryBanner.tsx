@@ -9,7 +9,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { sprintf } from "sprintf-js";
 import type { Dict } from "../../dictionaries/en";
-import styles from "./browser.module.scss";
+import styles from "./browserBanners.module.scss";
 
 type Props = {
   language: string;

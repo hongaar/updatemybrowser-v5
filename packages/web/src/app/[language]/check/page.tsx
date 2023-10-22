@@ -1,18 +1,15 @@
-import { Container } from "../../../components/Container";
+import { getBrowsersWithFlatReleases } from "@updatemybrowser/client";
 import { getDictionary } from "../../../dictionaries";
+import type { LanguageParams } from "../page";
+import ClientCheck from "./_client";
 
-export type LanguageParams = {
-  params: {
-    language: string;
-  };
-};
-
-export default async function Home({ params: { language } }: LanguageParams) {
+export default async function Check({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);
+  const browsers = await getBrowsersWithFlatReleases();
 
   return (
-    <Container>
-      <h2>{dict.BrowserCheck}</h2>
-    </Container>
+    <>
+      <ClientCheck language={language} dict={dict} browsers={browsers} />
+    </>
   );
 }

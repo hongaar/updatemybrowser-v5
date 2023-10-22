@@ -28,3 +28,37 @@ export function i18nString({
     fieldset,
   };
 }
+
+export function i18nUrl({
+  name,
+  title,
+  description,
+  required = false,
+  fieldset = "i18n",
+}: Params): FieldDefinition {
+  return {
+    name,
+    title: title ?? capitalizeString(name),
+    type: "internationalizedArrayUrl",
+    description,
+    validation: (rule: Rule) => (required ? rule.required() : undefined),
+    fieldset,
+  };
+}
+
+export function i18nText({
+  name,
+  title,
+  description,
+  required = false,
+  fieldset = "i18n",
+}: Params): FieldDefinition {
+  return {
+    name,
+    title: title ?? capitalizeString(name),
+    type: "internationalizedArrayText",
+    description,
+    validation: (rule: Rule) => (required ? rule.required() : undefined),
+    fieldset,
+  };
+}

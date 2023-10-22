@@ -75,13 +75,13 @@ export const release: DocumentDefinition = {
     {
       name: "currentVersion",
       title: "Current version",
-      description: "Set by the version source, not normally updated by hand",
+      description: "Set by the version source, don't edit",
       type: "string",
     },
     {
       name: "currentUsage",
       title: "Current usage",
-      description: "Set by the version source, not normally updated by hand",
+      description: "Set by the version source, don't edit",
       type: "number",
     },
   ],

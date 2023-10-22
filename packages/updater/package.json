@@ -22,6 +22,7 @@
     "test:watch": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node --test --watch test/*.test.ts"
   },
   "dependencies": {
+    "@updatemybrowser/client": "workspace:*",
     "@updatemybrowser/core": "workspace:*",
     "cross-fetch": "4.0.0"
   },

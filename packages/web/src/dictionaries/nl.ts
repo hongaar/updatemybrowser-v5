@@ -4,6 +4,7 @@ const dutch: Dict = {
   Home: "Home",
   SubHeading: "Altijd vers",
   BrowserCheck: "Browser Controle",
+  YouAreUsing: "Je gebruikt",
   BrowserOverview: "Browser Overzicht",
   Widget: "Widget",
   Guides: "Gidsen",
@@ -38,6 +39,7 @@ const dutch: Dict = {
     "Je gebruikt momenteel geen %s, maar deze browser is beschikbaar op %s.",
   DownloadNow: "Download nu",
   Version: "Versie",
+  UnderConstruction: "Deze pagina is in aanbouw. Kom snel terug.",
 };
 
 export default dutch;

@@ -5,7 +5,10 @@ import { defineConfig } from "sanity";
 import { IconManager } from "sanity-plugin-icon-manager";
 import { internationalizedArray } from "sanity-plugin-internationalized-array";
 import { deskTool } from "sanity/desk";
-import { UpdateCurrentVersionAction } from "./actions/index.js";
+import {
+  UpdateCurrentVersionAction,
+  UpdateWikipediaAction,
+} from "./actions/index.js";
 import { schemaTypes } from "./schemas/index.js";
 
 const { dataset, projectId } = sanityConfig;
@@ -32,14 +35,14 @@ export default defineConfig({
           .map(({ id, name }) => ({ id, title: name }));
       },
       defaultLanguages: [defaultLanguage],
-      fieldTypes: ["string"],
+      fieldTypes: ["string", "url", "text"],
       buttonAddAll: false,
     }),
     visionTool(),
   ],
 
   document: {
-    actions: [UpdateCurrentVersionAction],
+    actions: [UpdateCurrentVersionAction, UpdateWikipediaAction],
   },
 
   schema: {

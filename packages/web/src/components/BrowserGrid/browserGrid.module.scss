@@ -136,7 +136,7 @@
     background-color var(--transition),
     color var(--transition);
 
-  &:is([aria-current], :hover, :active, :focus) {
+  &:is(:hover, :active, :focus) {
     border-color: var(--border-color);
     color: var(--contrast-hover);
     text-decoration: none;
@@ -148,6 +148,7 @@
   }
 
   &[aria-current] {
+    text-decoration: none;
     outline: var(--outline-width) solid var(--support);
     border: none;
   }
@@ -198,7 +199,7 @@
 .label {
   text-transform: uppercase;
   font-size: var(--font-small-size);
-  color: var(--color);
+  color: var(--muted-inverse);
 
   &:not(:last-child) {
     margin-right: var(--spacing);

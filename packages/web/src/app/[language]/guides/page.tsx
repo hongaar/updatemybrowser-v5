@@ -13,6 +13,7 @@ export default async function Blog({ params: { language } }: LanguageParams) {
   return (
     <Container>
       <h2>{dict.Guides}</h2>
+      <p>{dict.UnderConstruction}</p>
     </Container>
   );
 }

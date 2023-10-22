@@ -1,4 +1,4 @@
-import type { BrowserWithFlatReleases } from "./schema.js";
+import type { BrowserWithFlatReleases } from "@updatemybrowser/client";
 
 export function averageUsage(browser: BrowserWithFlatReleases) {
   const releases = browser.releases.filter(

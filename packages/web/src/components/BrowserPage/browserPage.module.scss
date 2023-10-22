@@ -1,0 +1,14 @@
+@import "../../styles/theme";
+
+.img {
+  vertical-align: sub;
+  padding: 0 calc(var(--spacing) * 0.6);
+
+  &:first-child {
+    padding-left: 0;
+  }
+}
+
+.vendor {
+  color: var(--muted-color);
+}

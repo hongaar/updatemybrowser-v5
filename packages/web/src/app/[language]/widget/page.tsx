@@ -18,6 +18,7 @@ export default async function Widget({ params: { language } }: LanguageParams) {
   return (
     <Container>
       <h2>{dict.Widget}</h2>
+      <p>{dict.UnderConstruction}</p>
     </Container>
   );
 }

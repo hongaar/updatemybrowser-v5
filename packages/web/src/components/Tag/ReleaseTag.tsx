@@ -13,6 +13,7 @@ type Props = {
 
 export function ReleaseTag({ dict, release }: Props) {
   const { os: detectedOs } = detect();
+
   return (
     <Tag
       className={

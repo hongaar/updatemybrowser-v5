@@ -1,7 +1,13 @@
 import { browsers } from "@updatemybrowser/detect";
 import type { DocumentDefinition } from "sanity";
 import { iconPreview } from "../../components/index.js";
-import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
+import {
+  defaultFieldset,
+  i18nString,
+  i18nText,
+  i18nUrl,
+  slug,
+} from "../mixins/index.js";
 
 export const browser: DocumentDefinition = {
   name: "browser",
@@ -59,6 +65,13 @@ export const browser: DocumentDefinition = {
       },
     },
     {
+      name: "maybeDetectedAs",
+      title: "Maybe detected as",
+      description: "List of browsers that this browser may be detected as",
+      type: "array",
+      of: [{ type: "reference", to: [{ type: "browser" }] }],
+    },
+    {
       name: "popularity",
       title: "Popularity",
       description: (
@@ -77,6 +90,15 @@ export const browser: DocumentDefinition = {
     },
     i18nString({
       name: "description",
+    }),
+    i18nUrl({
+      name: "wikipediaUrl",
+      title: "Wikipedia URL",
+    }),
+    i18nText({
+      name: "summary",
+      title: "Summary",
+      description: "Set by the Wikipedia source, don't edit",
     }),
     {
       name: "icon",

@@ -13,9 +13,21 @@ export type Doc<T> = T & {
 
 export type Reference = { _ref: string; _type: "reference" };
 
-export type I18nField = {
+export type I18nString = {
   [languageId: string]: string | null;
 };
+
+export type I18nUrl = {
+  _type: "internationalizedArrayUrlValue";
+  _key: string;
+  value: string;
+}[];
+
+export type I18nText = {
+  _type: "internationalizedArrayTextValue";
+  _key: string;
+  value: string;
+}[];
 
 export type Slug = {
   _type: "slug";
@@ -116,7 +128,9 @@ export type Browser<T extends "plain" | "withFlatReleases" = "plain"> = Doc<
     homepage: string;
     matchBrowserName: string;
     popularity?: number;
-    description: I18nField;
+    description: I18nString;
+    wikipediaUrl?: I18nUrl;
+    summary?: I18nText;
     icon?: Icon;
     logo?: Image;
     color?: Color;
@@ -135,7 +149,7 @@ export type OS = Doc<{
   vendor: string;
   homepage: string;
   matchOsName: string;
-  description: I18nField;
+  description: I18nString;
   icon?: Icon;
   logo?: Image;
   color?: Color;

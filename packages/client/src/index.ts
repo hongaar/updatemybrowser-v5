@@ -1,5 +1,3 @@
-import "server-only";
-
 import * as cached from "./cached/index.js";
 import * as sanity from "./sanity.js";
 import type {
@@ -10,7 +8,6 @@ import type {
 
 export { defaultLanguage, sanityConfig } from "./config.js";
 export type * from "./schema.js";
-export * from "./utils.js";
 
 type useCacheOption = {
   useCache?: boolean;

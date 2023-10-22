@@ -1,0 +1,28 @@
+@import "../../styles/theme";
+
+.updateAvailable,
+.latestVersion,
+.tryBanner {
+  padding: var(--spacing);
+  margin-bottom: var(--spacing);
+  border: var(--outline-width) solid var(--primary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.updateAvailable {
+  border-color: var(--warning);
+}
+
+.updateButton {
+}
+
+.latestVersion {
+  border-color: var(--support);
+}
+
+.tryBanner {
+}
+
+.downloadButton {
+}

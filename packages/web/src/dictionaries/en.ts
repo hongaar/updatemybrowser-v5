@@ -2,6 +2,7 @@ const english = {
   Home: "Home",
   SubHeading: "Always fresh",
   BrowserCheck: "Browser Check",
+  YouAreUsing: "You are using",
   BrowserOverview: "Browser Overview",
   Widget: "Widget",
   Guides: "Guides",
@@ -35,6 +36,7 @@ const english = {
     "Please click the button below to download this browser.",
   DownloadNow: "Download now",
   Version: "Version",
+  UnderConstruction: "This page is under construction. Please come back soon.",
 };
 
 export type Dict = typeof english;
