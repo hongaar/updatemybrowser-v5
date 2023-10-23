@@ -47,12 +47,19 @@
   padding: var(--spacing);
 }
 
-.compact {
+.medium,
+.small {
   justify-content: flex-end;
   flex-direction: row-reverse;
 
   img {
     margin-right: calc(var(--spacing) * 0.5);
+  }
+}
+
+.small {
+  h3 {
+    font-size: var(--font-size);
   }
 }
 

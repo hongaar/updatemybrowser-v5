@@ -126,7 +126,7 @@ export type Browser<T extends "plain" | "withFlatReleases" = "plain"> = Doc<
     slug: Slug;
     vendor: string;
     homepage: string;
-    matchBrowserName: string;
+    matchBrowserName: string[];
     maybeDetectedAs?: Keyed<Reference>[];
     popularity?: number;
     description: I18nString;
@@ -168,6 +168,7 @@ export type Release<T extends "ref" | "expanded" | "flatExpanded" = "ref"> =
       }>[];
       currentVersion: string;
       currentUsage: number;
+      downloadUrl?: string;
     } & (T extends "ref"
       ? {
           browser: Reference;

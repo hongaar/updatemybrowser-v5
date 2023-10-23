@@ -56,13 +56,18 @@ export const browser: DocumentDefinition = {
       name: "matchBrowserName",
       title: "Match browser name",
       description: "Match browser name from @updatemybrowser/client",
-      type: "string",
-      options: {
-        list: browsers.map((value) => ({
-          title: value,
-          value,
-        })),
-      },
+      type: "array",
+      of: [
+        {
+          type: "string",
+          options: {
+            list: browsers.map((value) => ({
+              title: value,
+              value,
+            })),
+          },
+        },
+      ],
     },
     {
       name: "maybeDetectedAs",

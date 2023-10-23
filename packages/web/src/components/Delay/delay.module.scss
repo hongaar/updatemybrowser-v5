@@ -1,0 +1,18 @@
+@import "../../styles/theme";
+
+.delay {
+  background-color: #ff6699;
+  animation-name: fadeIn;
+  animation-fill-mode: forwards;
+
+  visibility: hidden;
+}
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}

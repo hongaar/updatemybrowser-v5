@@ -45,8 +45,11 @@ const indonesian: Dict = {
   UnderConstruction:
     "Halaman ini sedang dalam konstruksi. Silakan kembali lagi nanti.",
   CheckDetails: "Periksa detail",
-  YourBrowser: "Browser Anda",
-  YourOS: "Sistem operasi Anda",
+  BrowserIdentity: "Identitas browser",
+  OSIdentity: "Identitas sistem operasi",
+  BrowserNotDetected: "Browser tidak terdeteksi",
+  BrowserNotDetectedDescription: "Kami tidak dapat mendeteksi browser Anda.",
+  DetectingYourBrowser: "Mendeteksi browser Anda",
 };
 
 export default indonesian;

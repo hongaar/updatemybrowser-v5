@@ -19,13 +19,15 @@ export function BrowserAlternatives({
 }: Props) {
   return (
     <aside className={styles.browserAlternatives}>
-      <h3>{dict.PopularAlternatives}</h3>
-      <List
-        language={language}
-        browsers={browsers
-          .sort(comparePopularity)
-          .filter((item) => item._id !== exclude._id)}
-      />
+      <h3 className={styles.heading}>{dict.PopularAlternatives}</h3>
+      <div className={styles.list}>
+        <List
+          language={language}
+          browsers={browsers
+            .sort(comparePopularity)
+            .filter((item) => item._id !== exclude._id)}
+        />
+      </div>
     </aside>
   );
 }

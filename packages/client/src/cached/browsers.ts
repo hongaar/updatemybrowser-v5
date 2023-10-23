@@ -3,125 +3,139 @@ import type { Browser } from "../schema.js";
 
 export const browsers: Browser[] = [
   {
-    _rev: "W9qhSalSVouRAt4vZLmLc4",
     slug: {
       current: "opera",
       _type: "slug",
     },
-    vendor: "Opera",
-    _createdAt: "2023-10-07T15:31:26Z",
-    homepage: "https://www.opera.com/",
-    matchBrowserName: "Opera",
-    description: {
-      nl: null,
-      en: null,
-      id: null,
-    },
-    _type: "browser",
+    popularity: 1793,
     icon: {
       _type: "icon",
       predefined: {
         metadata: {
-          flip: "",
-          author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
-          },
+          rotate: 0,
           collectionName: "SVG Logos",
+          iconName: "opera",
+          author: {
+            url: "https://github.com/gilbarbara/logos",
+            name: "Gil Barbara",
+          },
+          url: "https://api.iconify.design/logos:opera.svg?width=20&height=20",
+          flip: "",
+          downloadUrl:
+            "https://api.iconify.design/logos:opera.svg?width=20&height=20&download=1",
+          collectionId: "logos",
+          vFlip: false,
+          license: {
+            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
+            name: "CC0",
+          },
           size: {
             width: 20,
             height: 20,
           },
-          iconName: "opera",
-          rotate: 0,
-          vFlip: false,
           hFlip: false,
-          url: "https://api.iconify.design/logos:opera.svg?width=20&height=20",
           inlineSvg:
             '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient y2="98.545%" y1="1.63%" x2="50.003%" x1="50.003%" id="IconifyId18b435c3bd2de101c2"><stop stop-color="#FF1B2D" offset="30%"></stop><stop stop-color="#FA1A2C" offset="43.81%"></stop><stop stop-color="#ED1528" offset="59.39%"></stop><stop stop-color="#D60E21" offset="75.81%"></stop><stop stop-color="#B70519" offset="92.72%"></stop><stop stop-color="#A70014" offset="100%"></stop></linearGradient><linearGradient y2="99.519%" y1=".853%" x2="49.99%" x1="49.99%" id="IconifyId18b435c3bd2de101c3"><stop stop-color="#9C0000" offset="0%"></stop><stop stop-color="#FF4B4B" offset="70%"></stop></linearGradient></defs><path d="M85.9 200.1C71.7 183.4 62.6 158.7 62 131v-6c.6-27.7 9.8-52.4 23.9-69.1c18.4-23.8 45.4-34.5 75.9-34.5c18.8 0 36.5 1.3 51.5 11.3C190.8 12.4 161.1.1 128.5 0h-.5C57.3 0 0 57.3 0 128c0 68.6 54 124.7 121.9 127.9c2 .1 4.1.1 6.1.1c32.8 0 62.7-12.3 85.3-32.6c-15 10-31.7 10.4-50.5 10.4c-30.4.1-58.6-9.8-76.9-33.7Z" fill="url(#IconifyId18b435c3bd2de101c2)"></path><path d="M85.9 55.9c11.7-13.9 26.9-22.2 43.5-22.2c37.3 0 67.5 42.2 67.5 94.4s-30.2 94.4-67.5 94.4c-16.6 0-31.7-8.4-43.5-22.2c18.4 23.8 45.7 39 76.1 39c18.7 0 36.3-5.7 51.3-15.7C239.5 200 256 165.9 256 128c0-37.9-16.5-72-42.7-95.4c-15-10-32.5-15.7-51.3-15.7c-30.5 0-57.8 15.1-76.1 39Z" fill="url(#IconifyId18b435c3bd2de101c3)"></path></svg>',
-          collectionId: "logos",
-          license: {
-            name: "CC0",
-            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
-          },
-          downloadUrl:
-            "https://api.iconify.design/logos:opera.svg?width=20&height=20&download=1",
           palette: true,
         },
         _type: "icon.manager",
         icon: "logos:opera",
       },
     },
-    name: "Opera",
-    _updatedAt: "2023-10-19T16:11:36Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    popularity: 1793,
+    description: {
+      nl: null,
+      en: null,
+      de: null,
+      id: null,
+    },
+    _updatedAt: "2023-10-23T13:33:05Z",
+    _createdAt: "2023-10-07T15:31:26Z",
+    _rev: "IW6hjkMGxufdYFszO2rMm6",
+    _type: "browser",
+    homepage: "https://www.opera.com/",
+    matchBrowserName: ["Opera"],
+    vendor: "Opera",
+    name: "Opera",
   },
   {
-    matchBrowserName: "Samsung Internet",
+    homepage: "https://www.samsung.com/us/support/owners/app/samsung-internet",
     vendor: "Samsung",
-    _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
     _createdAt: "2023-10-07T15:38:17Z",
+    _type: "browser",
+    description: {
+      nl: null,
+      en: null,
+      de: null,
+      id: null,
+    },
     icon: {
       _type: "icon",
       custom_svg:
         '<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\n\t viewBox="0 0 493 493" enable-background="new 0 0 493 493" xml:space="preserve">\n<g>\n\t<path fill="#7882FF" d="M488.5,173c-6.1-45.8-22.3-87.3-50.8-117.7h0C407.3,26.8,365.8,10.6,320,4.5c-43.7-5.8-73.5-4.4-73.5-4.4\n\t\tS216.7-1.3,173,4.5c-45.8,6.1-87.3,22.3-117.6,50.8C26.8,85.7,10.6,127.2,4.5,173c-5.8,43.7-4.4,73.5-4.4,73.5s-1.4,29.8,4.4,73.5\n\t\tc6.1,45.8,22.3,87.3,50.8,117.7c30.4,28.6,71.9,44.8,117.6,50.9c43.7,5.8,73.5,4.4,73.5,4.4s29.8,1.4,73.5-4.4\n\t\tc45.8-6.1,87.3-22.3,117.6-50.9h0c28.6-30.4,44.8-71.9,50.8-117.7c5.8-43.7,4.4-73.5,4.4-73.5S494.3,216.7,488.5,173"/>\n\t<path fill="#FFFFFF" d="M372.7,210c19.5,70-21.5,142.6-91.5,162.1c-70,19.5-142.6-21.5-162.1-91.5c-19.5-70,21.5-142.6,91.5-162.1\n\t\tC280.6,99,353.2,140,372.7,210"/>\n\t<path fill="#FFFFFF" d="M372.7,210c7.3,26.3,6.1,52.9-1.9,76.9c-0.6,1.9-1.3,3.9-2.1,5.8"/>\n\t<path fill="#FFFFFF" d="M370.6,210c5.1,18.4,6.1,37,3.4,54.7"/>\n\t<path fill="#4D5CC1" d="M333.9,337.7L333.9,337.7c-33.3,0-73.8-8.5-114.2-23.8c-40.4-15.3-76.3-35.9-101.2-58\n\t\tc-40.4-35.9-37.9-63.7-32.8-77.1c5.1-13.4,21.7-35.9,75.7-35.9h0c33.3,0,73.8,8.5,114.2,23.8c40.4,15.3,76.3,35.9,101.2,58\n\t\tc40.4,35.9,37.9,63.7,32.8,77.1C404.6,315.2,388,337.7,333.9,337.7 M161.5,184.6c-25,0-35.7,6.2-36.8,9\n\t\tc-1.1,2.8,2.9,14.6,21.6,31.2c20.9,18.5,53.1,36.9,88.3,50.2c35.2,13.4,71.5,21.1,99.4,21.1h0c25,0,35.7-6.2,36.8-9\n\t\tc1.1-2.8-2.9-14.6-21.5-31.2c-20.9-18.5-53.1-36.9-88.3-50.2C225.6,192.3,189.4,184.6,161.5,184.6L161.5,184.6L161.5,184.6z"/>\n\t<path fill="#FFFFFF" d="M124.7,194l245.9,93.4c8.2-24.2,9.5-51,2.1-77.4c-19.5-70-92-111-162.1-91.5\n\t\tC170.4,129.7,139.8,158.4,124.7,194"/>\n</g>\n</svg>',
     },
-    homepage: "https://www.samsung.com/us/support/owners/app/samsung-internet",
-    _rev: "Lh7rhBNTpK2mkuYCd9nzhq",
-    _updatedAt: "2023-10-18T15:09:43Z",
-    _type: "browser",
     name: "Samsung Internet",
-    description: {
-      nl: null,
-      en: null,
-      id: null,
-    },
+    _updatedAt: "2023-10-23T14:39:28Z",
     slug: {
-      current: "samsung-internet",
       _type: "slug",
+      current: "samsung-internet",
     },
+    matchBrowserName: ["Samsung Internet"],
+    _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
+    _rev: "IW6hjkMGxufdYFszO2uKLu",
   },
   {
+    name: "Chromium",
+    _rev: "Lh7rhBNTpK2mkuYCdJju82",
+    matchBrowserName: ["Chromium"],
     icon: {
+      _type: "icon",
       predefined: {
-        icon: "openmoji:chromium",
         metadata: {
+          inlineSvg:
+            '<svg viewBox="0 0 72 72" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><circle fill="#92D3F5" r="28" cy="36" cx="36"></circle><path clip-rule="evenodd" d="m34.312 27.158l.008.047a9 9 0 0 1 9.327 13.369L30.386 63.541c11.442 2.28 23.557-2.801 29.714-13.467c4.21-7.291 4.767-15.688 2.24-23.074H36a9.02 9.02 0 0 0-1.688.158Z" fill-rule="evenodd" fill="#92D3F5"></path><path clip-rule="evenodd" d="M27 43.5L8.202 32.617C9.872 18.748 21.681 8 36 8c12.316 0 22.774 7.951 26.522 19H36a9 9 0 0 0-6.914 14.762L27 43.5Z" fill-rule="evenodd" fill="#61B2E4"></path><circle fill="#61B2E4" r="9" cy="36" cx="36"></circle><g stroke-width="2" stroke="#000" fill="none"><circle r="10" cy="36" cx="36"></circle><path d="m44.66 41l-11.5 19.919M11.081 33.16L31 44.66M36 26h23" stroke-linecap="round"></path><circle r="28" cy="36" cx="36"></circle></g></svg>',
+          url: "https://api.iconify.design/openmoji:chromium.svg?width=20&height=20",
+          author: {
+            name: "OpenMoji",
+            url: "https://github.com/hfg-gmuend/openmoji",
+          },
+          license: {
+            name: "CC BY-SA 4.0",
+            url: "https://creativecommons.org/licenses/by-sa/4.0/",
+          },
           flip: "",
+          vFlip: false,
+          iconName: "chromium",
+          collectionId: "openmoji",
+          hFlip: false,
           collectionName: "OpenMoji",
           size: {
             width: 20,
             height: 20,
           },
-          collectionId: "openmoji",
-          vFlip: false,
-          license: {
-            name: "CC BY-SA 4.0",
-            url: "https://creativecommons.org/licenses/by-sa/4.0/",
-          },
+          rotate: 0,
           downloadUrl:
             "https://api.iconify.design/openmoji:chromium.svg?width=20&height=20&download=1",
-          hFlip: false,
-          url: "https://api.iconify.design/openmoji:chromium.svg?width=20&height=20",
-          rotate: 0,
-          inlineSvg:
-            '<svg viewBox="0 0 72 72" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><circle fill="#92D3F5" r="28" cy="36" cx="36"></circle><path clip-rule="evenodd" d="m34.312 27.158l.008.047a9 9 0 0 1 9.327 13.369L30.386 63.541c11.442 2.28 23.557-2.801 29.714-13.467c4.21-7.291 4.767-15.688 2.24-23.074H36a9.02 9.02 0 0 0-1.688.158Z" fill-rule="evenodd" fill="#92D3F5"></path><path clip-rule="evenodd" d="M27 43.5L8.202 32.617C9.872 18.748 21.681 8 36 8c12.316 0 22.774 7.951 26.522 19H36a9 9 0 0 0-6.914 14.762L27 43.5Z" fill-rule="evenodd" fill="#61B2E4"></path><circle fill="#61B2E4" r="9" cy="36" cx="36"></circle><g stroke-width="2" stroke="#000" fill="none"><circle r="10" cy="36" cx="36"></circle><path d="m44.66 41l-11.5 19.919M11.081 33.16L31 44.66M36 26h23" stroke-linecap="round"></path><circle r="28" cy="36" cx="36"></circle></g></svg>',
-          author: {
-            name: "OpenMoji",
-            url: "https://github.com/hfg-gmuend/openmoji",
-          },
           palette: true,
-          iconName: "chromium",
         },
         _type: "icon.manager",
+        icon: "openmoji:chromium",
       },
-      _type: "icon",
     },
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    name: "Chromium",
-    homepage: "https://www.chromium.org/Home/",
-    _type: "browser",
     vendor: "The Chromium Authors",
+    slug: {
+      current: "chromium",
+      _type: "slug",
+    },
+    _type: "browser",
+    description: {
+      nl: null,
+      en: null,
+      de: null,
+      id: null,
+    },
+    _createdAt: "2023-10-19T15:54:10Z",
     maybeDetectedAs: [
       {
         _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
@@ -129,61 +143,65 @@ export const browsers: Browser[] = [
         _key: "65b130479e74",
       },
     ],
-    _createdAt: "2023-10-19T15:54:10Z",
-    _updatedAt: "2023-10-23T06:35:39Z",
-    slug: {
-      current: "chromium",
-      _type: "slug",
-    },
-    matchBrowserName: "Chromium",
-    _rev: "Lh7rhBNTpK2mkuYCdIm9RC",
-    description: {
-      nl: null,
-      en: null,
-      id: null,
-    },
+    _updatedAt: "2023-10-23T13:32:17Z",
+    homepage: "https://www.chromium.org/Home/",
   },
   {
-    slug: {
-      current: "firefox",
-      _type: "slug",
-    },
-    _rev: "W9qhSalSVouRAt4vZNxktE",
+    wikipediaUrl: [
+      {
+        _key: "en",
+        value: "https://en.wikipedia.org/wiki/Firefox",
+        _type: "internationalizedArrayUrlValue",
+      },
+      {
+        _type: "internationalizedArrayUrlValue",
+        _key: "id",
+        value: "https://id.wikipedia.org/wiki/Firefox",
+      },
+      {
+        value: "https://nl.wikipedia.org/wiki/Mozilla_Firefox",
+        _type: "internationalizedArrayUrlValue",
+        _key: "nl",
+      },
+    ],
+    _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
+    popularity: 7110,
     icon: {
       _type: "icon",
       predefined: {
+        _type: "icon.manager",
+        icon: "logos:firefox",
         metadata: {
-          vFlip: false,
-          license: {
-            name: "CC0",
-            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
-          },
+          flip: "",
           url: "https://api.iconify.design/logos:firefox.svg?width=20&height=20",
+          hFlip: false,
           collectionName: "SVG Logos",
-          author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
-          },
-          collectionId: "logos",
-          downloadUrl:
-            "https://api.iconify.design/logos:firefox.svg?width=20&height=20&download=1",
           size: {
             width: 20,
             height: 20,
           },
+          collectionId: "logos",
+          vFlip: false,
           inlineSvg:
             '<svg viewBox="0 0 256 265" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="80.797" cy="-8515.121" cx="-7907.187" id="IconifyId18b4357b29a5eca6912"><stop stop-color="#ffbd4f" offset=".129"></stop><stop stop-color="#ffac31" offset=".186"></stop><stop stop-color="#ff9d17" offset=".247"></stop><stop stop-color="#ff980e" offset=".283"></stop><stop stop-color="#ff563b" offset=".403"></stop><stop stop-color="#ff3750" offset=".467"></stop><stop stop-color="#f5156c" offset=".71"></stop><stop stop-color="#eb0878" offset=".782"></stop><stop stop-color="#e50080" offset=".86"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="80.797" cy="-8482.089" cx="-7936.711" id="IconifyId18b4357b29a5eca6913"><stop stop-color="#960e18" offset=".3"></stop><stop stop-opacity=".74" stop-color="#b11927" offset=".351"></stop><stop stop-opacity=".343" stop-color="#db293d" offset=".435"></stop><stop stop-opacity=".094" stop-color="#f5334b" offset=".497"></stop><stop stop-opacity="0" stop-color="#ff3750" offset=".53"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="58.534" cy="-8533.457" cx="-7926.97" id="IconifyId18b4357b29a5eca6914"><stop stop-color="#fff44f" offset=".132"></stop><stop stop-color="#ffdc3e" offset=".252"></stop><stop stop-color="#ff9d12" offset=".506"></stop><stop stop-color="#ff980e" offset=".526"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="38.471" cy="-8460.984" cx="-7945.648" id="IconifyId18b4357b29a5eca6915"><stop stop-color="#3a8ee6" offset=".353"></stop><stop stop-color="#5c79f0" offset=".472"></stop><stop stop-color="#9059ff" offset=".669"></stop><stop stop-color="#c139e6" offset="1"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.21411 -.77707 .90934 3.76302 33365.914 25904.014)" r="20.397" cy="-8491.546" cx="-7935.62" id="IconifyId18b4357b29a5eca6916"><stop stop-opacity="0" stop-color="#9059ff" offset=".206"></stop><stop stop-opacity=".064" stop-color="#8c4ff3" offset=".278"></stop><stop stop-opacity=".45" stop-color="#7716a8" offset=".747"></stop><stop stop-opacity=".6" stop-color="#6e008b" offset=".975"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="27.676" cy="-8518.427" cx="-7937.731" id="IconifyId18b4357b29a5eca6917"><stop stop-color="#ffe226" offset="0"></stop><stop stop-color="#ffdb27" offset=".121"></stop><stop stop-color="#ffc82a" offset=".295"></stop><stop stop-color="#ffa930" offset=".502"></stop><stop stop-color="#ff7e37" offset=".732"></stop><stop stop-color="#ff7139" offset=".792"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="118.081" cy="-8535.981" cx="-7915.977" id="IconifyId18b4357b29a5eca6918"><stop stop-color="#fff44f" offset=".113"></stop><stop stop-color="#ff980e" offset=".456"></stop><stop stop-color="#ff5634" offset=".622"></stop><stop stop-color="#ff3647" offset=".716"></stop><stop stop-color="#e31587" offset=".904"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.3472 3.29017 -2.15928 .22816 -15491.597 28008.376)" r="86.499" cy="-8522.859" cx="-7927.165" id="IconifyId18b4357b29a5eca6919"><stop stop-color="#fff44f" offset="0"></stop><stop stop-color="#ffe847" offset=".06"></stop><stop stop-color="#ffc830" offset=".168"></stop><stop stop-color="#ff980e" offset=".304"></stop><stop stop-color="#ff8b16" offset=".356"></stop><stop stop-color="#ff672a" offset=".455"></stop><stop stop-color="#ff3647" offset=".57"></stop><stop stop-color="#e31587" offset=".737"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="73.72" cy="-8508.176" cx="-7938.383" id="IconifyId18b4357b29a5eca6920"><stop stop-color="#fff44f" offset=".137"></stop><stop stop-color="#ff980e" offset=".48"></stop><stop stop-color="#ff5634" offset=".592"></stop><stop stop-color="#ff3647" offset=".655"></stop><stop stop-color="#e31587" offset=".904"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="80.686" cy="-8503.861" cx="-7918.923" id="IconifyId18b4357b29a5eca6921"><stop stop-color="#fff44f" offset=".094"></stop><stop stop-color="#ffe141" offset=".231"></stop><stop stop-color="#ffaf1e" offset=".509"></stop><stop stop-color="#ff980e" offset=".626"></stop></radialGradient><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(-2.999 -.01) scale(3.3067)" y2="74.468" y1="12.393" x2="6.447" x1="70.786" id="IconifyId18b4357b29a5eca6922"><stop stop-color="#fff44f" offset=".048"></stop><stop stop-color="#ffe847" offset=".111"></stop><stop stop-color="#ffc830" offset=".225"></stop><stop stop-color="#ff980e" offset=".368"></stop><stop stop-color="#ff8b16" offset=".401"></stop><stop stop-color="#ff672a" offset=".462"></stop><stop stop-color="#ff3647" offset=".534"></stop><stop stop-color="#e31587" offset=".705"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(-2.999 -.01) scale(3.3067)" y2="66.806" y1="12.061" x2="15.267" x1="70.013" id="IconifyId18b4357b29a5eca6923"><stop stop-opacity=".8" stop-color="#fff44f" offset=".167"></stop><stop stop-opacity=".634" stop-color="#fff44f" offset=".266"></stop><stop stop-opacity=".217" stop-color="#fff44f" offset=".489"></stop><stop stop-opacity="0" stop-color="#fff44f" offset=".6"></stop></linearGradient></defs><path d="M248.033 88.713c-5.569-13.399-16.864-27.866-25.71-32.439a133.169 133.169 0 0 1 12.979 38.9l.023.215c-14.49-36.126-39.062-50.692-59.13-82.41a155.1 155.1 0 0 1-3.019-4.907a40.605 40.605 0 0 1-1.412-2.645a23.31 23.31 0 0 1-1.912-5.076a.331.331 0 0 0-.291-.331a.469.469 0 0 0-.241 0c-.016 0-.043.03-.063.037c-.02.006-.063.036-.092.049l.049-.086c-32.19 18.849-43.113 53.741-44.118 71.194a64.108 64.108 0 0 0-35.269 13.593a38.336 38.336 0 0 0-3.307-2.506a59.417 59.417 0 0 1-.36-31.324a94.912 94.912 0 0 0-30.848 23.841h-.06c-5.079-6.438-4.722-27.667-4.431-32.102a22.957 22.957 0 0 0-4.279 2.272a93.435 93.435 0 0 0-12.526 10.73a111.954 111.954 0 0 0-11.98 14.375v.019v-.023A108.26 108.26 0 0 0 4.841 108.92l-.171.846a203.818 203.818 0 0 0-1.26 8.003c0 .096-.02.185-.03.281a122.12 122.12 0 0 0-2.08 17.667v.662c.086 98.661 106.944 160.23 192.344 110.825a128.165 128.165 0 0 0 62.12-89.153c.215-1.653.39-3.29.582-4.96a131.8 131.8 0 0 0-8.313-64.378ZM100.322 189.031c.599.288 1.161.599 1.776.873l.089.057a68.838 68.838 0 0 1-1.865-.93Zm29.357-77.297Zm105.656-16.315v-.123l.023.136l-.023-.013Z" fill="url(#IconifyId18b4357b29a5eca6922)"></path><path d="M248.033 88.713c-5.569-13.399-16.864-27.866-25.71-32.439a133.169 133.169 0 0 1 12.979 38.9v.122l.023.136a116.067 116.067 0 0 1-3.988 86.497c-14.688 31.516-50.242 63.819-105.894 62.248c-60.132-1.703-113.089-46.323-122.989-104.766c-1.802-9.216 0-13.888.906-21.378a95.444 95.444 0 0 0-2.06 17.684v.662c.086 98.661 106.944 160.23 192.344 110.825a128.165 128.165 0 0 0 62.12-89.153c.215-1.653.39-3.29.582-4.96a131.8 131.8 0 0 0-8.313-64.378Z" fill="url(#IconifyId18b4357b29a5eca6912)"></path><path d="M248.033 88.713c-5.569-13.399-16.864-27.866-25.71-32.439a133.169 133.169 0 0 1 12.979 38.9v.122l.023.136a116.067 116.067 0 0 1-3.988 86.497c-14.688 31.516-50.242 63.819-105.894 62.248c-60.132-1.703-113.089-46.323-122.989-104.766c-1.802-9.216 0-13.888.906-21.378a95.444 95.444 0 0 0-2.06 17.684v.662c.086 98.661 106.944 160.23 192.344 110.825a128.165 128.165 0 0 0 62.12-89.153c.215-1.653.39-3.29.582-4.96a131.8 131.8 0 0 0-8.313-64.378Z" fill="url(#IconifyId18b4357b29a5eca6913)"></path><path d="M185.754 103.778c.278.195.536.39.797.585a69.775 69.775 0 0 0-11.904-15.525C134.815 48.999 164.208 2.457 169.165.093l.049-.073c-32.19 18.849-43.113 53.741-44.118 71.194c1.495-.103 2.976-.229 4.504-.229a64.68 64.68 0 0 1 56.154 32.793Z" fill="url(#IconifyId18b4357b29a5eca6914)"></path><path d="M129.683 111.734c-.212 3.188-11.475 14.182-15.413 14.182c-36.443 0-42.359 22.046-42.359 22.046c1.614 18.564 14.55 33.854 30.187 41.942c.714.371 1.439.705 2.163 1.032a70.572 70.572 0 0 0 3.763 1.541a56.974 56.974 0 0 0 16.675 3.217c63.876 2.996 76.25-76.384 30.154-99.419a44.241 44.241 0 0 1 30.901 7.503A64.68 64.68 0 0 0 129.6 70.985c-1.521 0-3.009.126-4.504.229a64.108 64.108 0 0 0-35.269 13.593c1.954 1.654 4.16 3.863 8.806 8.442c8.696 8.568 31 17.443 31.05 18.485Z" fill="url(#IconifyId18b4357b29a5eca6915)"></path><path d="M129.683 111.734c-.212 3.188-11.475 14.182-15.413 14.182c-36.443 0-42.359 22.046-42.359 22.046c1.614 18.564 14.55 33.854 30.187 41.942c.714.371 1.439.705 2.163 1.032a70.572 70.572 0 0 0 3.763 1.541a56.974 56.974 0 0 0 16.675 3.217c63.876 2.996 76.25-76.384 30.154-99.419a44.241 44.241 0 0 1 30.901 7.503A64.68 64.68 0 0 0 129.6 70.985c-1.521 0-3.009.126-4.504.229a64.108 64.108 0 0 0-35.269 13.593c1.954 1.654 4.16 3.863 8.806 8.442c8.696 8.568 31 17.443 31.05 18.485Z" fill="url(#IconifyId18b4357b29a5eca6916)"></path><path d="M83.852 80.545a81.51 81.51 0 0 1 2.645 1.756a59.407 59.407 0 0 1-.36-31.324a94.926 94.926 0 0 0-30.849 23.841c.625-.017 19.216-.351 28.564 5.727Z" fill="url(#IconifyId18b4357b29a5eca6917)"></path><path d="M2.471 139.411c9.89 58.443 62.857 103.063 122.989 104.766c55.652 1.574 91.205-30.732 105.894-62.248a116.067 116.067 0 0 0 3.988-86.497v-.122c0-.096-.02-.153 0-.123l.023.215c4.547 29.684-10.552 58.443-34.155 77.889l-.073.166c-45.989 37.455-90.002 22.598-98.91 16.533a64.67 64.67 0 0 1-1.865-.929c-26.814-12.817-37.891-37.247-35.517-58.198a32.912 32.912 0 0 1-30.359-19.096a48.336 48.336 0 0 1 47.117-1.891a63.821 63.821 0 0 0 48.119 1.891c-.049-1.042-22.353-9.92-31.05-18.484c-4.646-4.58-6.851-6.786-8.805-8.442a38.145 38.145 0 0 0-3.307-2.507c-.761-.519-1.617-1.081-2.645-1.756c-9.348-6.078-27.939-5.744-28.554-5.727h-.059c-5.079-6.438-4.722-27.667-4.431-32.101a22.862 22.862 0 0 0-4.279 2.271a93.373 93.373 0 0 0-12.526 10.73a112.062 112.062 0 0 0-12.03 14.342v.019v-.023A108.26 108.26 0 0 0 4.841 108.92c-.062.261-4.616 20.167-2.37 30.491Z" fill="url(#IconifyId18b4357b29a5eca6918)"></path><path d="M174.654 88.838a69.818 69.818 0 0 1 11.904 15.542a26.607 26.607 0 0 1 1.921 1.574c29.056 26.784 13.832 64.646 12.698 67.341c23.603-19.447 38.688-48.205 34.155-77.89c-14.497-36.142-39.069-50.708-59.137-82.426a155.1 155.1 0 0 1-3.019-4.907a40.605 40.605 0 0 1-1.412-2.645a23.31 23.31 0 0 1-1.912-5.076a.331.331 0 0 0-.291-.331a.469.469 0 0 0-.241 0c-.016 0-.043.03-.063.037c-.02.006-.063.036-.092.049c-4.957 2.351-34.35 48.893 5.489 88.732Z" fill="url(#IconifyId18b4357b29a5eca6919)"></path><path d="M188.459 105.937a26.822 26.822 0 0 0-1.921-1.574c-.261-.195-.519-.39-.797-.585a44.243 44.243 0 0 0-30.901-7.503c46.095 23.048 33.728 102.415-30.154 99.419a56.974 56.974 0 0 1-16.675-3.217a67.38 67.38 0 0 1-3.763-1.541c-.725-.331-1.449-.661-2.163-1.032l.089.057c8.908 6.081 52.907 20.938 98.91-16.534l.073-.165c1.147-2.679 16.371-40.55-12.698-67.325Z" fill="url(#IconifyId18b4357b29a5eca6920)"></path><path d="M71.911 147.962s5.916-22.046 42.359-22.046c3.938 0 15.211-10.994 15.413-14.182a63.817 63.817 0 0 1-48.119-1.892a48.341 48.341 0 0 0-47.118 1.892a32.912 32.912 0 0 0 30.359 19.096c-2.374 20.955 8.703 45.385 35.517 58.198c.599.288 1.161.599 1.776.873c-15.65-8.085-28.573-23.375-30.187-41.939Z" fill="url(#IconifyId18b4357b29a5eca6921)"></path><path d="M248.033 88.713c-5.569-13.399-16.864-27.866-25.71-32.439a133.169 133.169 0 0 1 12.979 38.9l.023.215c-14.49-36.126-39.062-50.692-59.13-82.41a155.1 155.1 0 0 1-3.019-4.907a40.605 40.605 0 0 1-1.412-2.645a23.31 23.31 0 0 1-1.912-5.076a.331.331 0 0 0-.291-.331a.469.469 0 0 0-.241 0c-.016 0-.043.03-.063.037c-.02.006-.063.036-.092.049l.049-.086c-32.19 18.849-43.113 53.741-44.118 71.194c1.495-.103 2.976-.229 4.504-.229a64.68 64.68 0 0 1 56.154 32.793a44.241 44.241 0 0 0-30.901-7.503c46.096 23.048 33.729 102.415-30.154 99.419a56.974 56.974 0 0 1-16.675-3.217a67.38 67.38 0 0 1-3.763-1.541c-.724-.331-1.449-.661-2.163-1.032l.089.057a68.838 68.838 0 0 1-1.865-.93c.599.288 1.161.599 1.776.873c-15.65-8.088-28.573-23.378-30.187-41.942c0 0 5.916-22.046 42.359-22.046c3.938 0 15.211-10.994 15.413-14.182c-.05-1.042-22.354-9.92-31.05-18.485c-4.646-4.579-6.852-6.785-8.806-8.442a38.336 38.336 0 0 0-3.307-2.506a59.417 59.417 0 0 1-.36-31.324a94.912 94.912 0 0 0-30.848 23.841h-.06c-5.079-6.438-4.722-27.667-4.431-32.102a22.957 22.957 0 0 0-4.279 2.272a93.435 93.435 0 0 0-12.526 10.73a111.954 111.954 0 0 0-11.98 14.375v.019v-.023A108.26 108.26 0 0 0 4.841 108.92l-.171.846c-.242 1.128-1.323 6.855-1.479 8.085c0 .093 0-.096 0 0A149.15 149.15 0 0 0 1.3 135.717v.662c.086 98.661 106.944 160.23 192.344 110.825a128.165 128.165 0 0 0 62.12-89.153c.215-1.653.39-3.29.582-4.96a131.8 131.8 0 0 0-8.313-64.378Zm-12.715 6.583l.024.136l-.024-.136Z" fill="url(#IconifyId18b4357b29a5eca6923)"></path></svg>',
-          iconName: "firefox",
-          palette: true,
-          hFlip: false,
-          flip: "",
           rotate: 0,
+          iconName: "firefox",
+          downloadUrl:
+            "https://api.iconify.design/logos:firefox.svg?width=20&height=20&download=1",
+          license: {
+            name: "CC0",
+            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
+          },
+          palette: true,
+          author: {
+            name: "Gil Barbara",
+            url: "https://github.com/gilbarbara/logos",
+          },
         },
-        _type: "icon.manager",
-        icon: "logos:firefox",
       },
     },
-    _updatedAt: "2023-10-22T15:27:12Z",
+    name: "Firefox",
+    homepage: "https://www.mozilla.org/firefox/browsers/",
     summary: [
       {
         _type: "internationalizedArrayTextValue",
@@ -204,245 +222,250 @@ export const browsers: Browser[] = [
           "Mozilla Firefox is een gratis, vrije en opensource-webbrowser ontwikkeld door het Mozilla-project en vrijwilligers. Firefox is gebaseerd op de Gecko-layout-engine uit het Mozilla-project. De naam is een Engelse bijnaam voor de rode of kleine panda.",
       },
     ],
-    popularity: 7110,
-    _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    wikipediaUrl: [
-      {
-        _type: "internationalizedArrayUrlValue",
-        _key: "en",
-        value: "https://en.wikipedia.org/wiki/Firefox",
-      },
-      {
-        _type: "internationalizedArrayUrlValue",
-        _key: "id",
-        value: "https://id.wikipedia.org/wiki/Firefox",
-      },
-      {
-        _key: "nl",
-        value: "https://nl.wikipedia.org/wiki/Mozilla_Firefox",
-        _type: "internationalizedArrayUrlValue",
-      },
-    ],
-    matchBrowserName: "Firefox",
-    vendor: "Mozilla",
+    _createdAt: "2023-10-07T15:24:58Z",
+    _updatedAt: "2023-10-23T13:33:10Z",
     description: {
       nl: null,
       en: "Open source browser from Mozilla.",
+      de: null,
       id: null,
     },
     _type: "browser",
-    name: "Firefox",
-    homepage: "https://www.mozilla.org/firefox/browsers/",
-    _createdAt: "2023-10-07T15:24:58Z",
-  },
-  {
+    vendor: "Mozilla",
     slug: {
-      current: "brave",
+      current: "firefox",
       _type: "slug",
     },
-    homepage: "https://brave.com",
-    _updatedAt: "2023-10-18T15:14:18Z",
-    _type: "browser",
-    name: "Brave",
+    _rev: "Lh7rhBNTpK2mkuYCdJkDes",
+    matchBrowserName: ["Firefox", "Mobile Firefox"],
+  },
+  {
+    _rev: "Lh7rhBNTpK2mkuYCdJkHCE",
+    vendor: "Brave Software",
+    _createdAt: "2023-10-14T02:43:20Z",
+    slug: {
+      _type: "slug",
+      current: "brave",
+    },
     description: {
       nl: null,
       en: "Chromium based browser with built-in support for crypto wallets. ",
+      de: null,
       id: null,
     },
-    _rev: "W9qhSalSVouRAt4vZKYsfN",
-    matchBrowserName: "Brave",
+    _updatedAt: "2023-10-23T13:33:46Z",
+    homepage: "https://brave.com",
+    matchBrowserName: ["Brave"],
+    _type: "browser",
     icon: {
       _type: "icon",
       predefined: {
         metadata: {
-          rotate: 0,
-          hFlip: false,
+          iconName: "brave",
           url: "https://api.iconify.design/logos:brave.svg?width=20&height=20",
           collectionName: "SVG Logos",
           inlineSvg:
             '<svg viewBox="0 0 256 301" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient y2="50.018%" y1="50.018%" x2="100.097%" x1="0%" id="IconifyId18b434d4965a2c6552"><stop stop-color="#FFF" offset="0%"></stop><stop stop-opacity=".958" stop-color="#FFF" offset="14.13%"></stop><stop stop-opacity=".7" stop-color="#FFF" offset="100%"></stop></linearGradient><linearGradient y2="49.982%" y1="49.982%" x2="100%" x1="-.039%" id="IconifyId18b434d4965a2c6553"><stop stop-color="#F1F1F2" offset="0%"></stop><stop stop-color="#E4E5E6" offset="9.191%"></stop><stop stop-color="#D9DADB" offset="23.57%"></stop><stop stop-color="#D2D4D5" offset="43.8%"></stop><stop stop-color="#D0D2D3" offset="100%"></stop></linearGradient></defs><path d="M256 97.1L246.7 72l6.4-14.4c.8-1.9.4-4-1-5.5l-17.5-17.7c-7.7-7.7-19.1-10.4-29.4-6.8l-4.9 1.7l-26.8-29l-45.3-.3h-.3L82.3.4L55.6 29.6l-4.8-1.7c-10.4-3.7-21.9-1-29.6 6.9l-17.8 18c-1.2 1.2-1.5 2.9-.9 4.4l6.7 15L0 97.3L6 120l27.2 103.3c3.1 11.9 10.3 22.3 20.4 29.5c0 0 33 23.3 65.5 44.4c2.9 1.9 5.9 3.2 9.1 3.2c3.2 0 6.2-1.3 9.1-3.2c36.6-24 65.5-44.5 65.5-44.5c10-7.2 17.2-17.6 20.3-29.5l27-103.3l5.9-22.8Z" fill="#F15A22"></path><path opacity=".15" d="M34.5 227.7L0 99.5l10.1-25.1l-7-18.6l16.7-17c5.5-4.9 16.3-6.6 21.3-3.7l26.1 15l34 7.9l26.5-11l2.2 227.7c-.4 32.8 1.7 29.3-22.4 13.8L48 248.6c-6.4-6.1-11.3-13-13.5-20.9Z" fill="url(#IconifyId18b434d4965a2c6552)"></path><path opacity=".4" d="m202.2 252.246l-50.6 34.6c-14.1 7.7-20.9 15.3-22 11.6c-.9-2.9-.2-11.4-.5-24.6l-.6-222.7c.1-2.2 1.6-5.9 4.2-5.5l25.8 7.8l37.2-5.8l24.6-18.1c2.6-2 6.4-1.8 8.8.5l22 21c2 2.1 2.1 6.2.9 8.8l-6.1 11.3l10.1 26.1l-34.8 129.4c-5.4 16.1-13 20.3-19 25.6Z" fill="url(#IconifyId18b434d4965a2c6553)"></path><path d="M134 184.801c-1.2-.5-2.5-.9-2.9-.9h-3.2c-.4 0-1.7.4-2.9.9l-13 5.4c-1.2.5-3.2 1.4-4.4 2l-19.6 10.2c-1.2.6-1.3 1.7-.2 2.5l17.3 12.2c1.1.8 2.8 2.1 3.8 3l7.7 6.6c1 .9 2.6 2.3 3.6 3.2l7.4 6.6c1 .9 2.6.9 3.6 0l7.6-6.6c1-.9 2.6-2.3 3.6-3.2l7.7-6.7c1-.9 2.7-2.2 3.8-3l17.3-12.3c1.1-.8 1-1.9-.2-2.5l-19.6-10c-1.2-.6-3.2-1.5-4.4-2l-13-5.4Z" fill="#FFF"></path><path d="M227.813 101.557c.4-1.3.4-1.8.4-1.8c0-1.3-.1-3.5-.3-4.8l-1-2.9c-.6-1.2-1.6-3.1-2.4-4.2l-11.3-16.7c-.7-1.1-2-2.8-2.9-3.9l-14.6-18.3c-.8-1-1.6-1.9-1.7-1.8h-.2s-1.1.2-2.4.4l-22.3 4.4c-1.3.3-3.4.7-4.7.9l-.4.1c-1.3.2-3.4.1-4.7-.3l-18.7-6c-1.3-.4-3.4-1-4.6-1.3c0 0-3.8-.9-6.9-.8c-3.1 0-6.9.8-6.9.8c-1.3.3-3.4.9-4.6 1.3l-18.7 6c-1.3.4-3.4.5-4.7.3l-.4-.1c-1.3-.2-3.4-.7-4.7-.9l-22.5-4.2c-1.3-.3-2.4-.4-2.4-.4h-.2c-.1 0-.9.8-1.7 1.8l-14.6 18.3c-.8 1-2.1 2.8-2.9 3.9l-11.3 16.7c-.7 1.1-1.8 3-2.4 4.2l-1 2.9c-.2 1.3-.4 3.5-.3 4.8c0 0 0 .4.4 1.8c.7 2.4 2.4 4.6 2.4 4.6c.8 1 2.3 2.7 3.2 3.6l33.1 35.2c.9 1 1.2 2.8.7 4l-6.9 16.3c-.5 1.2-.6 3.2-.1 4.5l1.9 5.1c1.6 4.3 4.3 8.1 7.9 11l6.7 5.4c1 .8 2.8 1.1 4 .5l21.2-10.1c1.2-.6 3-1.8 4-2.7l15.2-13.7c2.2-2 2.3-5.4.3-7.6l-31.9-21.5c-1.1-.7-1.5-2.3-.9-3.5l14-26.4c.6-1.2.7-3.1.2-4.3l-1.7-3.9c-.5-1.2-2-2.6-3.2-3.1l-41.1-15.4c-1.2-.5-1.2-1 .1-1.1l26.5-2.5c1.3-.1 3.4.1 4.7.4l23.6 6.6c1.3.4 2.1 1.7 1.9 3l-8.2 44.9c-.2 1.3-.2 3.1.1 4.1c.3 1 1.6 1.9 2.9 2.2l16.4 3.5c1.3.3 3.4.3 4.7 0l15.3-3.5c1.3-.3 2.6-1.3 2.9-2.2c.3-.9.4-2.8.1-4.1l-8.1-44.9c-.2-1.3.6-2.7 1.9-3l23.6-6.6c1.3-.4 3.4-.5 4.7-.4l26.5 2.5c1.3.1 1.4.6.1 1.1l-41.1 15.6c-1.2.5-2.7 1.8-3.2 3.1l-1.7 3.9c-.5 1.2-.5 3.2.2 4.3l14.1 26.4c.6 1.2.2 2.7-.9 3.5l-31.9 21.6c-2.1 2.1-1.9 5.6.3 7.6l15.2 13.7c1 .9 2.8 2.1 4 2.6l21.3 10.1c1.2.6 3 .3 4-.5l6.7-5.5c3.6-2.9 6.3-6.7 7.8-11l1.9-5.1c.5-1.2.4-3.3-.1-4.5l-6.9-16.3c-.5-1.2-.2-3 .7-4l33.1-35.2c.9-1 2.3-2.6 3.2-3.6c-.2-.3 1.6-2.5 2.2-4.9Z" fill="#FFF"></path></svg>',
           flip: "",
+          vFlip: false,
           downloadUrl:
             "https://api.iconify.design/logos:brave.svg?width=20&height=20&download=1",
-          iconName: "brave",
-          collectionId: "logos",
-          vFlip: false,
-          size: {
-            width: 20,
-            height: 20,
-          },
           license: {
             name: "CC0",
             url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
           },
-          palette: true,
+          size: {
+            width: 20,
+            height: 20,
+          },
           author: {
             name: "Gil Barbara",
             url: "https://github.com/gilbarbara/logos",
           },
+          palette: true,
+          rotate: 0,
+          collectionId: "logos",
+          hFlip: false,
         },
         _type: "icon.manager",
         icon: "logos:brave",
       },
     },
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    vendor: "Brave Software",
-    _createdAt: "2023-10-14T02:43:20Z",
+    name: "Brave",
   },
   {
-    matchBrowserName: "IE",
-    vendor: "Microsoft",
-    homepage: "https://wikipedia.org/wiki/Internet_Explorer",
-    _rev: "W9qhSalSVouRAt4vZKZ4FT",
-    name: "Internet Explorer",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    slug: {
-      _type: "slug",
-      current: "internet-explorer",
-    },
-    _createdAt: "2023-10-07T14:58:45Z",
-    _type: "browser",
+    _updatedAt: "2023-10-23T13:33:40Z",
+    _rev: "7V6W77YnYTSXWZozOa4S8R",
     icon: {
       _type: "icon",
       predefined: {
         metadata: {
-          collectionId: "devicon",
-          downloadUrl:
-            "https://api.iconify.design/devicon:ie10.svg?width=20&height=20&download=1",
-          size: {
-            width: 20,
-            height: 20,
-          },
-          palette: true,
-          hFlip: false,
-          vFlip: false,
-          collectionName: "Devicon",
           flip: "",
-          license: {
-            name: "MIT",
-            url: "https://github.com/devicons/devicon/blob/master/LICENSE",
-          },
-          url: "https://api.iconify.design/devicon:ie10.svg?width=20&height=20",
-          inlineSvg:
-            '<svg viewBox="0 0 128 128" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M126.11 66.834c0-9.82-2.539-19.034-6.991-27.051C138.097-3.167 98.785 3.13 96.596 3.558c-8.328 1.629-16.034 4.249-23.142 7.566a56.276 56.276 0 0 0-3.166-.09c-26.525 0-48.729 18.501-54.411 43.303c13.98-15.684 23.765-22.012 29.624-24.544c-.936.835-1.851 1.681-2.751 2.532l-.885.855c-.594.571-1.186 1.143-1.765 1.72c-.344.343-.68.689-1.019 1.035c-.514.522-1.026 1.044-1.527 1.569l-1.052 1.122c-.468.501-.934 1.003-1.39 1.506l-1.053 1.175a143.278 143.278 0 0 0-3.516 4.099c-.347.419-.692.838-1.031 1.256c-.367.453-.726.905-1.083 1.356c-.348.438-.695.875-1.034 1.312l-.953 1.246c-.356.469-.715.938-1.063 1.404l-.731.998a173.801 173.801 0 0 0-6.041 8.796l-.013.021c-.479.747-.941 1.482-1.395 2.211l-.074.12c-.454.732-.892 1.451-1.319 2.164l-.045.075a181.942 181.942 0 0 0-3.172 5.501C7.562 80.977 5.114 87.343 5.008 87.72c-15.876 56.759 33.674 32.791 40.588 29.213c7.445 3.678 15.827 5.973 24.692 5.973C94.563 122.905 115.213 107 122.9 86H93.569c-4.34 7-12.694 12.049-22.293 12.049C57.211 98.049 45.81 87 45.81 74h79.842c.303-2 .458-4.73.458-7.166zM13.526 116.817c-3.916-4.015-4.608-13.795 4.032-31.616c4.36 12.537 13.061 23.041 24.307 29.708c-5.593 3.079-20.441 10.009-28.339 1.908zM45.687 59c.446-13 11.564-23.005 25.226-23.005C84.574 35.995 95.694 46 96.14 59H45.687zm44.776-44.204c5.166-2.495 17.958-7.771 25.22-2.871c4.807 3.245 8.663 8.34 2.042 25.499c-6.351-10.213-15.905-18.224-27.262-22.628z" fill="#1EBBEE"></path></svg>',
-          rotate: 0,
           author: {
             name: "konpa",
             url: "https://github.com/devicons/devicon/tree/master",
           },
+          inlineSvg:
+            '<svg viewBox="0 0 128 128" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M126.11 66.834c0-9.82-2.539-19.034-6.991-27.051C138.097-3.167 98.785 3.13 96.596 3.558c-8.328 1.629-16.034 4.249-23.142 7.566a56.276 56.276 0 0 0-3.166-.09c-26.525 0-48.729 18.501-54.411 43.303c13.98-15.684 23.765-22.012 29.624-24.544c-.936.835-1.851 1.681-2.751 2.532l-.885.855c-.594.571-1.186 1.143-1.765 1.72c-.344.343-.68.689-1.019 1.035c-.514.522-1.026 1.044-1.527 1.569l-1.052 1.122c-.468.501-.934 1.003-1.39 1.506l-1.053 1.175a143.278 143.278 0 0 0-3.516 4.099c-.347.419-.692.838-1.031 1.256c-.367.453-.726.905-1.083 1.356c-.348.438-.695.875-1.034 1.312l-.953 1.246c-.356.469-.715.938-1.063 1.404l-.731.998a173.801 173.801 0 0 0-6.041 8.796l-.013.021c-.479.747-.941 1.482-1.395 2.211l-.074.12c-.454.732-.892 1.451-1.319 2.164l-.045.075a181.942 181.942 0 0 0-3.172 5.501C7.562 80.977 5.114 87.343 5.008 87.72c-15.876 56.759 33.674 32.791 40.588 29.213c7.445 3.678 15.827 5.973 24.692 5.973C94.563 122.905 115.213 107 122.9 86H93.569c-4.34 7-12.694 12.049-22.293 12.049C57.211 98.049 45.81 87 45.81 74h79.842c.303-2 .458-4.73.458-7.166zM13.526 116.817c-3.916-4.015-4.608-13.795 4.032-31.616c4.36 12.537 13.061 23.041 24.307 29.708c-5.593 3.079-20.441 10.009-28.339 1.908zM45.687 59c.446-13 11.564-23.005 25.226-23.005C84.574 35.995 95.694 46 96.14 59H45.687zm44.776-44.204c5.166-2.495 17.958-7.771 25.22-2.871c4.807 3.245 8.663 8.34 2.042 25.499c-6.351-10.213-15.905-18.224-27.262-22.628z" fill="#1EBBEE"></path></svg>',
+          hFlip: false,
+          url: "https://api.iconify.design/devicon:ie10.svg?width=20&height=20",
+          size: {
+            width: 20,
+            height: 20,
+          },
+          rotate: 0,
+          collectionName: "Devicon",
+          license: {
+            name: "MIT",
+            url: "https://github.com/devicons/devicon/blob/master/LICENSE",
+          },
+          downloadUrl:
+            "https://api.iconify.design/devicon:ie10.svg?width=20&height=20&download=1",
+          collectionId: "devicon",
+          palette: true,
+          vFlip: false,
           iconName: "ie10",
         },
         _type: "icon.manager",
         icon: "devicon:ie10",
       },
     },
-    _updatedAt: "2023-10-18T15:17:07Z",
+    homepage: "https://wikipedia.org/wiki/Internet_Explorer",
+    slug: {
+      _type: "slug",
+      current: "internet-explorer",
+    },
+    matchBrowserName: ["IE"],
+    vendor: "Microsoft",
+    _createdAt: "2023-10-07T14:58:45Z",
+    _type: "browser",
+    name: "Internet Explorer",
     description: {
       nl: null,
       en: null,
+      de: null,
       id: null,
     },
   },
   {
-    name: "Safari",
-    vendor: "Apple",
-    icon: {
-      _type: "icon",
-      predefined: {
-        metadata: {
-          license: {
-            name: "MIT",
-            url: "https://github.com/devicons/devicon/blob/master/LICENSE",
-          },
-          inlineSvg:
-            '<svg viewBox="0 0 128 128" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(112 0 0 -112 -33069.5 30695)" y2="272.933" y1="274.049" x2="295.835" x1="295.835" id="IconifyId18b435c3bd2de101c5"><stop stop-color="#19D7FF" offset="0"></stop><stop stop-color="#1E64F0" offset="1"></stop></linearGradient><circle fill="url(#IconifyId18b435c3bd2de101c5)" r="62.5" cy="64" cx="64"></circle><path color="#000" d="M63.5 7.6v9.2h1V7.6Zm-3.902.26l-.996.08l.4 5l.996-.08zm8.804 0l-.4 5l.996.08l.4-5zm-13.709.554l-.986.172l1.6 9.101l.986-.173zm18.614 0l-1.6 9.1l.986.174l1.6-9.102zM49.883 9.47l-.965.261l1.299 4.801l.965-.261Zm28.234 0l-1.299 4.8l.965.262l1.299-4.8zm-32.846 1.363l-.943.336l3.102 8.7l.941-.337zm37.458 0l-3.1 8.7l.941.335l3.102-8.699zm4.62 1.852l-2.2 4.601l.902.43l2.201-4.6zm-46.695.007l-.908.416l2.1 4.6l.908-.414zm-4.32 2.26l-.867.498l4.6 8l.867-.498zm55.332 0l-4.6 8l.868.498l4.6-8zm-59.559 2.56l-.816.577l2.9 4.101l.817-.578zm63.786 0l-2.9 4.1l.816.578l2.9-4.101zm-67.61 2.968l-.765.644l5.9 7l.764-.644zm71.434 0l-5.899 7l.764.644l5.9-7zm-75.168 3.263l-.697.717l3.6 3.5l.696-.717zm-3.33 3.574l-.639.768l7.1 5.9l.64-.77zm85.562 0l-7.101 5.899l.64.77l7.1-5.901zM18.184 31.19l-.569.823l4.201 2.9l.569-.824zm91.632 0l-4.2 2.899l.568.824l4.2-2.9zM15.55 35.367l-.498.867l8 4.6l.498-.867zm96.902 0l-8 4.6l.498.867l8-4.6zm-99.14 4.28l-.422.906l4.5 2.1l.422-.907zm101.378 0l-4.5 2.1l.422.905l4.5-2.1zM11.375 44.13l-.35.937l8.6 3.202l.35-.938zm105.25 0l-8.6 3.201l.35.938l8.6-3.202zM9.828 48.816l-.256.967l4.9 1.301l.257-.967zm108.344 0l-4.9 1.301l.255.967l4.9-1.3zM8.688 53.607l-.174.985l9.1 1.601l.173-.986zm110.624 0l-9.1 1.6l.175.986l9.1-1.601zM8.05 58.402l-.098.996l5 .5l.098-.996zm111.902 0l-5 .5l.098.996l5-.5zM7.801 63.4v1H17v-1zM111 63.4v1h9.2v-1zm-98.049 4.403l-5 .5l.098.994l5-.5zm102.098 0l-.098.994l5 .5l.098-.994zm-97.436 3.705l-9.1 1.6l.175.984l9.1-1.6zm92.774 0l-.174.984l9.1 1.6l.173-.985zm-95.914 5.11l-4.9 1.298l.255.967l4.9-1.299zm99.054 0l-.256.966l4.9 1.299l.257-.967zm-93.902 2.814l-8.6 3.199l.35.937l8.6-3.199zm88.75 0l-.35.937l8.6 3.2l.35-.938zm-90.986 5.615l-4.5 2.1l.422.906l4.5-2.1zm93.222 0l-.422.906l4.5 2.1l.422-.907zm-87.56 1.92l-8 4.6l.498.867l8-4.6zm81.898 0l-.498.867l8 4.6l.498-.868zm-83.133 5.822l-4.2 2.9l.568.823l4.2-2.9zm84.368 0l-.569.822l4.201 2.9l.569-.822zm-78.504.926l-7.1 5.9l.639.77l7.101-5.9zm72.64 0l-.64.77l7.101 5.9l.639-.77zm-66.902 5.863l-5.9 7l.765.645l5.899-7zm61.164 0l-.764.645l5.899 7l.765-.645zm5.967.164l-.697.717l3.6 3.5l.696-.717zm-60.48 4.606l-4.6 7.9l.863.504l4.6-7.9zm47.863 0l-.864.504l4.6 7.9l.863-.504zm-53.74 1.164l-2.901 4.1l.816.577l2.9-4.101zm59.617 0l-.817.576l2.9 4.101l.817-.578zm-46.38 2.32l-3.1 8.7l.942.335l3.1-8.699zm33.141 0l-.941.336l3.1 8.7l.943-.337zm-25.263 2.182l-1.6 9.1l.986.173l1.6-9.1zm17.386 0l-.986.174l1.6 9.1l.986-.175zm-30.742.066l-2.201 4.5l.898.44l2.202-4.5zm44.098 0l-.899.44l2.202 4.5l.898-.44Zm-22.549.82v9.2h1v-9.2zm-13.283 2.272l-1.301 4.9l.967.256l1.3-4.9zm27.566 0l-.967.256l1.301 4.9l.967-.256zm-18.781 1.687l-.4 5l.996.08l.4-5zm9.996 0l-.996.08l.4 5l.996-.08z" fill="#fff"></path><path d="m106.7 21l-48 37.7l5.2 5.2z" fill="red"></path><path d="m63.9 63.9l6 6L106.7 21z" fill="#D01414"></path><path d="m58.7 58.7l-37.7 48l42.9-42.8z" fill="#fff"></path><path d="m21 106.7l48.9-36.8l-6-6z" fill="#ACACAC"></path></svg>',
-          rotate: 0,
-          hFlip: false,
-          size: {
-            width: 20,
-            height: 20,
-          },
-          vFlip: false,
-          collectionId: "devicon",
-          palette: true,
-          author: {
-            url: "https://github.com/devicons/devicon/tree/master",
-            name: "konpa",
-          },
-          flip: "",
-          downloadUrl:
-            "https://api.iconify.design/devicon:safari.svg?width=20&height=20&download=1",
-          url: "https://api.iconify.design/devicon:safari.svg?width=20&height=20",
-          iconName: "safari",
-          collectionName: "Devicon",
-        },
-        _type: "icon.manager",
-        icon: "devicon:safari",
-      },
-    },
-    homepage: "https://www.apple.com/safari/",
-    _createdAt: "2023-10-07T15:27:41Z",
-    _rev: "W9qhSalSVouRAt4vZKZ5U1",
-    _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _updatedAt: "2023-10-18T15:18:02Z",
     slug: {
       current: "safari",
       _type: "slug",
     },
+    _createdAt: "2023-10-07T15:27:41Z",
+    _id: "c384ba9c-d502-4946-99a2-734b295088aa",
+    matchBrowserName: ["Safari", "Mobile Safari"],
+    _type: "browser",
     description: {
       nl: null,
       en: null,
+      de: null,
       id: null,
     },
-    matchBrowserName: "Safari",
-    _type: "browser",
+    homepage: "https://www.apple.com/safari/",
+    icon: {
+      predefined: {
+        metadata: {
+          inlineSvg:
+            '<svg viewBox="0 0 128 128" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(112 0 0 -112 -33069.5 30695)" y2="272.933" y1="274.049" x2="295.835" x1="295.835" id="IconifyId18b435c3bd2de101c5"><stop stop-color="#19D7FF" offset="0"></stop><stop stop-color="#1E64F0" offset="1"></stop></linearGradient><circle fill="url(#IconifyId18b435c3bd2de101c5)" r="62.5" cy="64" cx="64"></circle><path color="#000" d="M63.5 7.6v9.2h1V7.6Zm-3.902.26l-.996.08l.4 5l.996-.08zm8.804 0l-.4 5l.996.08l.4-5zm-13.709.554l-.986.172l1.6 9.101l.986-.173zm18.614 0l-1.6 9.1l.986.174l1.6-9.102zM49.883 9.47l-.965.261l1.299 4.801l.965-.261Zm28.234 0l-1.299 4.8l.965.262l1.299-4.8zm-32.846 1.363l-.943.336l3.102 8.7l.941-.337zm37.458 0l-3.1 8.7l.941.335l3.102-8.699zm4.62 1.852l-2.2 4.601l.902.43l2.201-4.6zm-46.695.007l-.908.416l2.1 4.6l.908-.414zm-4.32 2.26l-.867.498l4.6 8l.867-.498zm55.332 0l-4.6 8l.868.498l4.6-8zm-59.559 2.56l-.816.577l2.9 4.101l.817-.578zm63.786 0l-2.9 4.1l.816.578l2.9-4.101zm-67.61 2.968l-.765.644l5.9 7l.764-.644zm71.434 0l-5.899 7l.764.644l5.9-7zm-75.168 3.263l-.697.717l3.6 3.5l.696-.717zm-3.33 3.574l-.639.768l7.1 5.9l.64-.77zm85.562 0l-7.101 5.899l.64.77l7.1-5.901zM18.184 31.19l-.569.823l4.201 2.9l.569-.824zm91.632 0l-4.2 2.899l.568.824l4.2-2.9zM15.55 35.367l-.498.867l8 4.6l.498-.867zm96.902 0l-8 4.6l.498.867l8-4.6zm-99.14 4.28l-.422.906l4.5 2.1l.422-.907zm101.378 0l-4.5 2.1l.422.905l4.5-2.1zM11.375 44.13l-.35.937l8.6 3.202l.35-.938zm105.25 0l-8.6 3.201l.35.938l8.6-3.202zM9.828 48.816l-.256.967l4.9 1.301l.257-.967zm108.344 0l-4.9 1.301l.255.967l4.9-1.3zM8.688 53.607l-.174.985l9.1 1.601l.173-.986zm110.624 0l-9.1 1.6l.175.986l9.1-1.601zM8.05 58.402l-.098.996l5 .5l.098-.996zm111.902 0l-5 .5l.098.996l5-.5zM7.801 63.4v1H17v-1zM111 63.4v1h9.2v-1zm-98.049 4.403l-5 .5l.098.994l5-.5zm102.098 0l-.098.994l5 .5l.098-.994zm-97.436 3.705l-9.1 1.6l.175.984l9.1-1.6zm92.774 0l-.174.984l9.1 1.6l.173-.985zm-95.914 5.11l-4.9 1.298l.255.967l4.9-1.299zm99.054 0l-.256.966l4.9 1.299l.257-.967zm-93.902 2.814l-8.6 3.199l.35.937l8.6-3.199zm88.75 0l-.35.937l8.6 3.2l.35-.938zm-90.986 5.615l-4.5 2.1l.422.906l4.5-2.1zm93.222 0l-.422.906l4.5 2.1l.422-.907zm-87.56 1.92l-8 4.6l.498.867l8-4.6zm81.898 0l-.498.867l8 4.6l.498-.868zm-83.133 5.822l-4.2 2.9l.568.823l4.2-2.9zm84.368 0l-.569.822l4.201 2.9l.569-.822zm-78.504.926l-7.1 5.9l.639.77l7.101-5.9zm72.64 0l-.64.77l7.101 5.9l.639-.77zm-66.902 5.863l-5.9 7l.765.645l5.899-7zm61.164 0l-.764.645l5.899 7l.765-.645zm5.967.164l-.697.717l3.6 3.5l.696-.717zm-60.48 4.606l-4.6 7.9l.863.504l4.6-7.9zm47.863 0l-.864.504l4.6 7.9l.863-.504zm-53.74 1.164l-2.901 4.1l.816.577l2.9-4.101zm59.617 0l-.817.576l2.9 4.101l.817-.578zm-46.38 2.32l-3.1 8.7l.942.335l3.1-8.699zm33.141 0l-.941.336l3.1 8.7l.943-.337zm-25.263 2.182l-1.6 9.1l.986.173l1.6-9.1zm17.386 0l-.986.174l1.6 9.1l.986-.175zm-30.742.066l-2.201 4.5l.898.44l2.202-4.5zm44.098 0l-.899.44l2.202 4.5l.898-.44Zm-22.549.82v9.2h1v-9.2zm-13.283 2.272l-1.301 4.9l.967.256l1.3-4.9zm27.566 0l-.967.256l1.301 4.9l.967-.256zm-18.781 1.687l-.4 5l.996.08l.4-5zm9.996 0l-.996.08l.4 5l.996-.08z" fill="#fff"></path><path d="m106.7 21l-48 37.7l5.2 5.2z" fill="red"></path><path d="m63.9 63.9l6 6L106.7 21z" fill="#D01414"></path><path d="m58.7 58.7l-37.7 48l42.9-42.8z" fill="#fff"></path><path d="m21 106.7l48.9-36.8l-6-6z" fill="#ACACAC"></path></svg>',
+          collectionId: "devicon",
+          collectionName: "Devicon",
+          palette: true,
+          vFlip: false,
+          url: "https://api.iconify.design/devicon:safari.svg?width=20&height=20",
+          flip: "",
+          size: {
+            width: 20,
+            height: 20,
+          },
+          iconName: "safari",
+          downloadUrl:
+            "https://api.iconify.design/devicon:safari.svg?width=20&height=20&download=1",
+          author: {
+            name: "konpa",
+            url: "https://github.com/devicons/devicon/tree/master",
+          },
+          rotate: 0,
+          license: {
+            name: "MIT",
+            url: "https://github.com/devicons/devicon/blob/master/LICENSE",
+          },
+          hFlip: false,
+        },
+        _type: "icon.manager",
+        icon: "devicon:safari",
+      },
+      _type: "icon",
+    },
+    name: "Safari",
+    _updatedAt: "2023-10-23T13:33:32Z",
+    vendor: "Apple",
+    _rev: "Lh7rhBNTpK2mkuYCdJkGUM",
   },
   {
-    vendor: "Google",
-    _updatedAt: "2023-10-22T15:25:05Z",
+    name: "Chrome",
     homepage: "https://www.google.com/chrome/",
-    logo: {
-      _type: "figure",
-      caption: "Google Chrome",
-      asset: {
-        _ref: "image-b3b4691575b5798ccc5e25f245a3e3a1d7809ab3-1200x600-webp",
-        _type: "reference",
-      },
+    slug: {
+      current: "chrome",
+      _type: "slug",
     },
-    _createdAt: "2023-09-27T09:12:32Z",
-    _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
+    description: {
+      nl: "Beschrijving in het Nederlands",
+      en: "Most popular and modern browser made by Google.",
+      de: null,
+      id: null,
+    },
     color: {
-      hex: "#84e324",
       hsv: {
-        _type: "hsvaColor",
         h: 89.80885733545357,
         a: 1,
         s: 0.8416601694962386,
         v: 0.89006695,
+        _type: "hsvaColor",
       },
       rgb: {
+        a: 1,
         b: 36,
         r: 132,
         g: 227,
         _type: "rgbaColor",
-        a: 1,
       },
       hsl: {
+        s: 0.7731000000000001,
+        _type: "hslaColor",
         h: 89.80885733545357,
         l: 0.5155,
         a: 1,
-        s: 0.7731000000000001,
-        _type: "hslaColor",
       },
       alpha: 1,
       _type: "color",
+      hex: "#84e324",
     },
+    wikipediaUrl: [
+      {
+        _type: "internationalizedArrayUrlValue",
+        _key: "en",
+        value: "https://en.wikipedia.org/wiki/Google_Chrome",
+      },
+      {
+        _key: "id",
+        value: "https://id.wikipedia.org/wiki/Google_Chrome",
+        _type: "internationalizedArrayUrlValue",
+      },
+      {
+        _type: "internationalizedArrayUrlValue",
+        _key: "nl",
+        value: "https://nl.wikipedia.org/wiki/Google_Chrome",
+      },
+    ],
     _type: "browser",
-    _rev: "Lh7rhBNTpK2mkuYCdHvaoc",
-    slug: {
-      _type: "slug",
-      current: "chrome",
-    },
+    matchBrowserName: ["Chrome", "Mobile Chrome"],
+    popularity: 4891,
+    _updatedAt: "2023-10-23T13:31:42Z",
+    _createdAt: "2023-09-27T09:12:32Z",
+    vendor: "Google",
     summary: [
       {
         _type: "internationalizedArrayTextValue",
@@ -463,95 +486,52 @@ export const browsers: Browser[] = [
           "Google Chrome is een webbrowser ontwikkeld door Google. Google Chrome maakt gebruik van het op WebKit gebaseerde Blink en ook van andere openbronsoftware, vooral die van Mozilla. Google Chrome is gebaseerd op Chromium, een openbronproject van Google. Google Chrome is voor verschillende besturingssystemen geschikt, waarvan de laatste versies niet steeds tegelijk worden uitgebracht. De updates zijn recent.",
       },
     ],
-    name: "Chrome",
-    matchBrowserName: "Chrome",
-    description: {
-      nl: "Beschrijving in het Nederlands",
-      en: "Most popular and modern browser made by Google.",
-      id: null,
-    },
-    wikipediaUrl: [
-      {
-        _type: "internationalizedArrayUrlValue",
-        _key: "en",
-        value: "https://en.wikipedia.org/wiki/Google_Chrome",
-      },
-      {
-        _type: "internationalizedArrayUrlValue",
-        _key: "id",
-        value: "https://id.wikipedia.org/wiki/Google_Chrome",
-      },
-      {
-        value: "https://nl.wikipedia.org/wiki/Google_Chrome",
-        _type: "internationalizedArrayUrlValue",
-        _key: "nl",
-      },
-    ],
     icon: {
+      _type: "icon",
       predefined: {
+        _type: "icon.manager",
+        icon: "logos:chrome",
         metadata: {
-          hFlip: false,
+          iconName: "chrome",
           url: "https://api.iconify.design/logos:chrome.svg?width=20&height=20",
           license: {
             name: "CC0",
             url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
           },
-          iconName: "chrome",
-          collectionId: "logos",
-          inlineSvg:
-            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M128.003 199.216c39.335 0 71.221-31.888 71.221-71.223c0-39.335-31.886-71.223-71.221-71.223c-39.335 0-71.222 31.888-71.222 71.223c0 39.335 31.887 71.223 71.222 71.223Z" fill="#FFF"></path><path d="M35.89 92.997c-5.313-9.203-11.558-18.862-18.736-28.977a127.98 127.98 0 0 0 110.857 191.981c11.78-16.523 19.78-28.437 23.996-35.74c8.099-14.028 18.573-34.112 31.423-60.251v-.015a63.993 63.993 0 0 1-110.857.017c-17.453-32.548-29.68-54.887-36.683-67.015Z" fill="#229342"></path><path d="M128.008 255.996A127.972 127.972 0 0 0 256 127.997A127.983 127.983 0 0 0 238.837 64c-24.248-2.39-42.143-3.585-53.686-3.585c-13.088 0-32.139 1.195-57.152 3.585l-.014.01a63.993 63.993 0 0 1 55.444 31.987a63.993 63.993 0 0 1-.001 64.01l-55.42 95.989Z" fill="#FBC116"></path><path d="M128.003 178.677c27.984 0 50.669-22.685 50.669-50.67c0-27.986-22.685-50.67-50.67-50.67c-27.983 0-50.669 22.686-50.669 50.67s22.686 50.67 50.67 50.67Z" fill="#1A73E8"></path><path d="M128.003 64.004H238.84a127.973 127.973 0 0 0-221.685.015l55.419 95.99l.015.008a63.993 63.993 0 0 1 55.415-96.014l-.002.001Z" fill="#E33B2E"></path></svg>',
-          rotate: 0,
-          collectionName: "SVG Logos",
-          palette: true,
-          vFlip: false,
-          author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
-          },
           size: {
             width: 20,
             height: 20,
           },
+          collectionId: "logos",
+          rotate: 0,
+          author: {
+            url: "https://github.com/gilbarbara/logos",
+            name: "Gil Barbara",
+          },
+          vFlip: false,
+          collectionName: "SVG Logos",
           downloadUrl:
             "https://api.iconify.design/logos:chrome.svg?width=20&height=20&download=1",
+          palette: true,
+          hFlip: false,
+          inlineSvg:
+            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M128.003 199.216c39.335 0 71.221-31.888 71.221-71.223c0-39.335-31.886-71.223-71.221-71.223c-39.335 0-71.222 31.888-71.222 71.223c0 39.335 31.887 71.223 71.222 71.223Z" fill="#FFF"></path><path d="M35.89 92.997c-5.313-9.203-11.558-18.862-18.736-28.977a127.98 127.98 0 0 0 110.857 191.981c11.78-16.523 19.78-28.437 23.996-35.74c8.099-14.028 18.573-34.112 31.423-60.251v-.015a63.993 63.993 0 0 1-110.857.017c-17.453-32.548-29.68-54.887-36.683-67.015Z" fill="#229342"></path><path d="M128.008 255.996A127.972 127.972 0 0 0 256 127.997A127.983 127.983 0 0 0 238.837 64c-24.248-2.39-42.143-3.585-53.686-3.585c-13.088 0-32.139 1.195-57.152 3.585l-.014.01a63.993 63.993 0 0 1 55.444 31.987a63.993 63.993 0 0 1-.001 64.01l-55.42 95.989Z" fill="#FBC116"></path><path d="M128.003 178.677c27.984 0 50.669-22.685 50.669-50.67c0-27.986-22.685-50.67-50.67-50.67c-27.983 0-50.669 22.686-50.669 50.67s22.686 50.67 50.67 50.67Z" fill="#1A73E8"></path><path d="M128.003 64.004H238.84a127.973 127.973 0 0 0-221.685.015l55.419 95.99l.015.008a63.993 63.993 0 0 1 55.415-96.014l-.002.001Z" fill="#E33B2E"></path></svg>',
         },
-        _type: "icon.manager",
-        icon: "logos:chrome",
       },
-      _type: "icon",
     },
-    popularity: 4891,
+    logo: {
+      _type: "figure",
+      caption: "Google Chrome",
+      asset: {
+        _ref: "image-b3b4691575b5798ccc5e25f245a3e3a1d7809ab3-1200x600-webp",
+        _type: "reference",
+      },
+    },
+    _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
+    _rev: "Lh7rhBNTpK2mkuYCdJjhFa",
   },
   {
-    _updatedAt: "2023-10-22T15:26:08Z",
-    _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    vendor: "Microsoft",
-    slug: {
-      _type: "slug",
-      current: "edge",
-    },
-    _type: "browser",
-    summary: [
-      {
-        _type: "internationalizedArrayTextValue",
-        _key: "en",
-        value:
-          "Microsoft Edge is a proprietary, cross-platform web browser created by Microsoft. It was first released in 2015 as part of Windows 10 and Xbox One. It was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it got ported to other platforms as a fork of Google's Chromium open-source project: Android and iOS. In late 2018, it was announced that Edge would be completely rebuilt as a Chromium-based browser with Blink and V8 engines which allows the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser, The new Edge is also available on older Windows versions, And most recently it also got ported to Linux.",
-      },
-      {
-        _type: "internationalizedArrayTextValue",
-        _key: "id",
-        value:
-          "Microsoft Edge, awalnya dikembangkan di bawah nama kode Project Spartan, adalah peramban web yang dikembangkan oleh Microsoft dan termasuk dalam sistem operasi Windows. Resmi dirilis pada tanggal 29 Juli 2015, peramban ini menggantikan Internet Explorer sebagai peramban baku pada Windows 10. Hal ini juga akan menjadi peramban baku dari rilis yang akan datang dari Windows 10 untuk telepon cerdas dan tablet kecil. Microsoft Edge kini juga sudah tersedia untuk platform Android dan iOS.",
-      },
-      {
-        _key: "nl",
-        value:
-          "Microsoft Edge is een webbrowser ontwikkeld door Microsoft en inbegrepen in Windows 10, Windows 10 Mobile en Xbox One. Microsoft Edge is de opvolger van Internet Explorer en vervangt deze als de standaard webbrowser op alle apparaten. Volgens Microsoft is het een lichtgewicht webbrowser met een layout-engine die gebouwd is overeenkomstig met de webstandaarden. De browser bevat nieuwe features, waaronder integratie met Cortana, notitiehulpmiddelen en een leesmodus.",
-        _type: "internationalizedArrayTextValue",
-      },
-    ],
-    name: "Edge",
+    _updatedAt: "2023-10-23T13:32:57Z",
     wikipediaUrl: [
       {
         _type: "internationalizedArrayUrlValue",
@@ -569,23 +549,14 @@ export const browsers: Browser[] = [
         value: "https://nl.wikipedia.org/wiki/Microsoft_Edge",
       },
     ],
+    _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
     _createdAt: "2023-09-27T09:26:18Z",
+    slug: {
+      current: "edge",
+      _type: "slug",
+    },
     homepage: "https://www.microsoft.com/edge",
     color: {
-      hsv: {
-        v: 0.86425975,
-        _type: "hsvaColor",
-        h: 203.86195468058628,
-        a: 1,
-        s: 0.8302127919297412,
-      },
-      rgb: {
-        _type: "rgbaColor",
-        a: 1,
-        b: 220,
-        r: 37,
-        g: 148,
-      },
       hsl: {
         s: 0.7255,
         _type: "hslaColor",
@@ -596,108 +567,119 @@ export const browsers: Browser[] = [
       alpha: 1,
       _type: "color",
       hex: "#2594dc",
+      hsv: {
+        v: 0.86425975,
+        _type: "hsvaColor",
+        h: 203.86195468058628,
+        a: 1,
+        s: 0.8302127919297412,
+      },
+      rgb: {
+        b: 220,
+        r: 37,
+        g: 148,
+        _type: "rgbaColor",
+        a: 1,
+      },
     },
-    _rev: "W9qhSalSVouRAt4vZNxjRv",
     icon: {
       predefined: {
         metadata: {
-          flip: "",
-          downloadUrl:
-            "https://api.iconify.design/logos:microsoft-edge.svg?width=20&height=20&download=1",
-          url: "https://api.iconify.design/logos:microsoft-edge.svg?width=20&height=20",
-          vFlip: false,
           collectionId: "logos",
-          rotate: 0,
           author: {
             name: "Gil Barbara",
             url: "https://github.com/gilbarbara/logos",
           },
-          hFlip: false,
+          inlineSvg:
+            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.9999 0 0 .9498 -4.622 -570.387)" r="95.38" cy="788.401" cx="161.83" id="IconifyId18b4357b29a5eca6930"><stop stop-opacity="0" offset=".72"></stop><stop stop-opacity=".53" offset=".95"></stop><stop offset="1"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.15 -.9898 .8 .12 -410.718 -656.341)" r="143.24" cy="746.715" cx="-773.636" id="IconifyId18b4357b29a5eca6931"><stop stop-opacity="0" offset=".76"></stop><stop stop-opacity=".5" offset=".95"></stop><stop offset="1"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(-.04 .9998 -2.1299 -.07998 -190.775 -191.635)" r="202.43" cy="-106.038" cx="230.593" id="IconifyId18b4357b29a5eca6932"><stop stop-color="#35C1F1" offset="0"></stop><stop stop-color="#34C1ED" offset=".11"></stop><stop stop-color="#2FC2DF" offset=".23"></stop><stop stop-color="#2BC3D2" offset=".31"></stop><stop stop-color="#36C752" offset=".67"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.28 .9598 -.78 .23 -1.928 -410.318)" r="97.34" cy="-117.703" cx="536.357" id="IconifyId18b4357b29a5eca6933"><stop stop-color="#66EB6E" offset="0"></stop><stop stop-opacity="0" stop-color="#66EB6E" offset="1"></stop></radialGradient><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(-4.63 -580.81)" y2="757.83" y1="757.83" x2="241.617" x1="63.334" id="IconifyId18b4357b29a5eca6934"><stop stop-color="#0C59A4" offset="0"></stop><stop stop-color="#114A8B" offset="1"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(-4.63 -580.81)" y2="801.868" y1="680.556" x2="46.028" x1="157.401" id="IconifyId18b4357b29a5eca6935"><stop stop-color="#1B9DE2" offset="0"></stop><stop stop-color="#1595DF" offset=".16"></stop><stop stop-color="#0680D7" offset=".67"></stop><stop stop-color="#0078D4" offset="1"></stop></linearGradient></defs><path d="M231 190.5c-3.4 1.8-6.9 3.4-10.5 4.7c-11.5 4.3-23.6 6.5-35.9 6.5c-47.3 0-88.5-32.5-88.5-74.3c.1-11.4 6.4-21.9 16.4-27.3c-42.8 1.8-53.8 46.4-53.8 72.5c0 73.9 68.1 81.4 82.8 81.4c7.9 0 19.8-2.3 27-4.6l1.3-.4c27.6-9.5 51-28.1 66.6-52.8c1.2-1.9.6-4.3-1.2-5.5c-1.3-.8-2.9-.9-4.2-.2z" fill="url(#IconifyId18b4357b29a5eca6934)"></path><path opacity=".35" d="M231 190.5c-3.4 1.8-6.9 3.4-10.5 4.7c-11.5 4.3-23.6 6.5-35.9 6.5c-47.3 0-88.5-32.5-88.5-74.3c.1-11.4 6.4-21.9 16.4-27.3c-42.8 1.8-53.8 46.4-53.8 72.5c0 73.9 68.1 81.4 82.8 81.4c7.9 0 19.8-2.3 27-4.6l1.3-.4c27.6-9.5 51-28.1 66.6-52.8c1.2-1.9.6-4.3-1.2-5.5c-1.3-.8-2.9-.9-4.2-.2z" fill="url(#IconifyId18b4357b29a5eca6930)"></path><path d="M105.7 241.4c-8.9-5.5-16.6-12.8-22.7-21.3c-26.3-36-18.4-86.5 17.6-112.8c3.8-2.7 7.7-5.2 11.9-7.2c3.1-1.5 8.4-4.1 15.5-4c10.1.1 19.6 4.9 25.7 13c4 5.4 6.3 11.9 6.4 18.7c0-.2 24.5-79.6-80-79.6c-43.9 0-80 41.7-80 78.2c-.2 19.3 4 38.5 12.1 56c27.6 58.8 94.8 87.6 156.4 67.1c-21.1 6.6-44.1 3.7-62.9-8.1z" fill="url(#IconifyId18b4357b29a5eca6935)"></path><path opacity=".41" d="M105.7 241.4c-8.9-5.5-16.6-12.8-22.7-21.3c-26.3-36-18.4-86.5 17.6-112.8c3.8-2.7 7.7-5.2 11.9-7.2c3.1-1.5 8.4-4.1 15.5-4c10.1.1 19.6 4.9 25.7 13c4 5.4 6.3 11.9 6.4 18.7c0-.2 24.5-79.6-80-79.6c-43.9 0-80 41.7-80 78.2c-.2 19.3 4 38.5 12.1 56c27.6 58.8 94.8 87.6 156.4 67.1c-21.1 6.6-44.1 3.7-62.9-8.1z" fill="url(#IconifyId18b4357b29a5eca6931)"></path><path d="M152.3 148.9c-.8 1-3.3 2.5-3.3 5.7c0 2.6 1.7 5.1 4.7 7.2c14.4 10 41.5 8.7 41.6 8.7c10.7 0 21.1-2.9 30.3-8.3c18.8-11 30.4-31.1 30.4-52.9c.3-22.4-8-37.3-11.3-43.9C223.5 23.9 177.7 0 128 0C58 0 1 56.2 0 126.2c.5-36.5 36.8-66 80-66c3.5 0 23.5.3 42 10.1c16.3 8.6 24.9 18.9 30.8 29.2c6.2 10.7 7.3 24.1 7.3 29.5c0 5.3-2.7 13.3-7.8 19.9z" fill="url(#IconifyId18b4357b29a5eca6932)"></path><path d="M152.3 148.9c-.8 1-3.3 2.5-3.3 5.7c0 2.6 1.7 5.1 4.7 7.2c14.4 10 41.5 8.7 41.6 8.7c10.7 0 21.1-2.9 30.3-8.3c18.8-11 30.4-31.1 30.4-52.9c.3-22.4-8-37.3-11.3-43.9C223.5 23.9 177.7 0 128 0C58 0 1 56.2 0 126.2c.5-36.5 36.8-66 80-66c3.5 0 23.5.3 42 10.1c16.3 8.6 24.9 18.9 30.8 29.2c6.2 10.7 7.3 24.1 7.3 29.5c0 5.3-2.7 13.3-7.8 19.9z" fill="url(#IconifyId18b4357b29a5eca6933)"></path></svg>',
+          url: "https://api.iconify.design/logos:microsoft-edge.svg?width=20&height=20",
+          vFlip: false,
+          downloadUrl:
+            "https://api.iconify.design/logos:microsoft-edge.svg?width=20&height=20&download=1",
           size: {
             width: 20,
             height: 20,
           },
+          iconName: "microsoft-edge",
           collectionName: "SVG Logos",
+          rotate: 0,
           palette: true,
-          inlineSvg:
-            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.9999 0 0 .9498 -4.622 -570.387)" r="95.38" cy="788.401" cx="161.83" id="IconifyId18b4357b29a5eca6930"><stop stop-opacity="0" offset=".72"></stop><stop stop-opacity=".53" offset=".95"></stop><stop offset="1"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.15 -.9898 .8 .12 -410.718 -656.341)" r="143.24" cy="746.715" cx="-773.636" id="IconifyId18b4357b29a5eca6931"><stop stop-opacity="0" offset=".76"></stop><stop stop-opacity=".5" offset=".95"></stop><stop offset="1"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(-.04 .9998 -2.1299 -.07998 -190.775 -191.635)" r="202.43" cy="-106.038" cx="230.593" id="IconifyId18b4357b29a5eca6932"><stop stop-color="#35C1F1" offset="0"></stop><stop stop-color="#34C1ED" offset=".11"></stop><stop stop-color="#2FC2DF" offset=".23"></stop><stop stop-color="#2BC3D2" offset=".31"></stop><stop stop-color="#36C752" offset=".67"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.28 .9598 -.78 .23 -1.928 -410.318)" r="97.34" cy="-117.703" cx="536.357" id="IconifyId18b4357b29a5eca6933"><stop stop-color="#66EB6E" offset="0"></stop><stop stop-opacity="0" stop-color="#66EB6E" offset="1"></stop></radialGradient><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(-4.63 -580.81)" y2="757.83" y1="757.83" x2="241.617" x1="63.334" id="IconifyId18b4357b29a5eca6934"><stop stop-color="#0C59A4" offset="0"></stop><stop stop-color="#114A8B" offset="1"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(-4.63 -580.81)" y2="801.868" y1="680.556" x2="46.028" x1="157.401" id="IconifyId18b4357b29a5eca6935"><stop stop-color="#1B9DE2" offset="0"></stop><stop stop-color="#1595DF" offset=".16"></stop><stop stop-color="#0680D7" offset=".67"></stop><stop stop-color="#0078D4" offset="1"></stop></linearGradient></defs><path d="M231 190.5c-3.4 1.8-6.9 3.4-10.5 4.7c-11.5 4.3-23.6 6.5-35.9 6.5c-47.3 0-88.5-32.5-88.5-74.3c.1-11.4 6.4-21.9 16.4-27.3c-42.8 1.8-53.8 46.4-53.8 72.5c0 73.9 68.1 81.4 82.8 81.4c7.9 0 19.8-2.3 27-4.6l1.3-.4c27.6-9.5 51-28.1 66.6-52.8c1.2-1.9.6-4.3-1.2-5.5c-1.3-.8-2.9-.9-4.2-.2z" fill="url(#IconifyId18b4357b29a5eca6934)"></path><path opacity=".35" d="M231 190.5c-3.4 1.8-6.9 3.4-10.5 4.7c-11.5 4.3-23.6 6.5-35.9 6.5c-47.3 0-88.5-32.5-88.5-74.3c.1-11.4 6.4-21.9 16.4-27.3c-42.8 1.8-53.8 46.4-53.8 72.5c0 73.9 68.1 81.4 82.8 81.4c7.9 0 19.8-2.3 27-4.6l1.3-.4c27.6-9.5 51-28.1 66.6-52.8c1.2-1.9.6-4.3-1.2-5.5c-1.3-.8-2.9-.9-4.2-.2z" fill="url(#IconifyId18b4357b29a5eca6930)"></path><path d="M105.7 241.4c-8.9-5.5-16.6-12.8-22.7-21.3c-26.3-36-18.4-86.5 17.6-112.8c3.8-2.7 7.7-5.2 11.9-7.2c3.1-1.5 8.4-4.1 15.5-4c10.1.1 19.6 4.9 25.7 13c4 5.4 6.3 11.9 6.4 18.7c0-.2 24.5-79.6-80-79.6c-43.9 0-80 41.7-80 78.2c-.2 19.3 4 38.5 12.1 56c27.6 58.8 94.8 87.6 156.4 67.1c-21.1 6.6-44.1 3.7-62.9-8.1z" fill="url(#IconifyId18b4357b29a5eca6935)"></path><path opacity=".41" d="M105.7 241.4c-8.9-5.5-16.6-12.8-22.7-21.3c-26.3-36-18.4-86.5 17.6-112.8c3.8-2.7 7.7-5.2 11.9-7.2c3.1-1.5 8.4-4.1 15.5-4c10.1.1 19.6 4.9 25.7 13c4 5.4 6.3 11.9 6.4 18.7c0-.2 24.5-79.6-80-79.6c-43.9 0-80 41.7-80 78.2c-.2 19.3 4 38.5 12.1 56c27.6 58.8 94.8 87.6 156.4 67.1c-21.1 6.6-44.1 3.7-62.9-8.1z" fill="url(#IconifyId18b4357b29a5eca6931)"></path><path d="M152.3 148.9c-.8 1-3.3 2.5-3.3 5.7c0 2.6 1.7 5.1 4.7 7.2c14.4 10 41.5 8.7 41.6 8.7c10.7 0 21.1-2.9 30.3-8.3c18.8-11 30.4-31.1 30.4-52.9c.3-22.4-8-37.3-11.3-43.9C223.5 23.9 177.7 0 128 0C58 0 1 56.2 0 126.2c.5-36.5 36.8-66 80-66c3.5 0 23.5.3 42 10.1c16.3 8.6 24.9 18.9 30.8 29.2c6.2 10.7 7.3 24.1 7.3 29.5c0 5.3-2.7 13.3-7.8 19.9z" fill="url(#IconifyId18b4357b29a5eca6932)"></path><path d="M152.3 148.9c-.8 1-3.3 2.5-3.3 5.7c0 2.6 1.7 5.1 4.7 7.2c14.4 10 41.5 8.7 41.6 8.7c10.7 0 21.1-2.9 30.3-8.3c18.8-11 30.4-31.1 30.4-52.9c.3-22.4-8-37.3-11.3-43.9C223.5 23.9 177.7 0 128 0C58 0 1 56.2 0 126.2c.5-36.5 36.8-66 80-66c3.5 0 23.5.3 42 10.1c16.3 8.6 24.9 18.9 30.8 29.2c6.2 10.7 7.3 24.1 7.3 29.5c0 5.3-2.7 13.3-7.8 19.9z" fill="url(#IconifyId18b4357b29a5eca6933)"></path></svg>',
+          flip: "",
+          hFlip: false,
           license: {
             name: "CC0",
             url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
           },
-          iconName: "microsoft-edge",
         },
         _type: "icon.manager",
         icon: "logos:microsoft-edge",
       },
       _type: "icon",
     },
-    matchBrowserName: "Edge",
-    description: {
-      nl: null,
-      en: null,
-      id: null,
-    },
-  },
-  {
-    slug: {
-      current: "vivaldi",
-      _type: "slug",
-    },
-    popularity: 1136,
-    description: {
-      nl: null,
-      en: null,
-      id: null,
-    },
-    name: "Vivaldi",
-    _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    maybeDetectedAs: [
+    _rev: "7V6W77YnYTSXWZozOa4Me7",
+    vendor: "Microsoft",
+    summary: [
       {
-        _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-        _type: "reference",
-        _key: "3ce1d67860b3",
+        _type: "internationalizedArrayTextValue",
+        _key: "en",
+        value:
+          "Microsoft Edge is a proprietary, cross-platform web browser created by Microsoft. It was first released in 2015 as part of Windows 10 and Xbox One. It was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it got ported to other platforms as a fork of Google's Chromium open-source project: Android and iOS. In late 2018, it was announced that Edge would be completely rebuilt as a Chromium-based browser with Blink and V8 engines which allows the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser, The new Edge is also available on older Windows versions, And most recently it also got ported to Linux.",
+      },
+      {
+        _type: "internationalizedArrayTextValue",
+        _key: "id",
+        value:
+          "Microsoft Edge, awalnya dikembangkan di bawah nama kode Project Spartan, adalah peramban web yang dikembangkan oleh Microsoft dan termasuk dalam sistem operasi Windows. Resmi dirilis pada tanggal 29 Juli 2015, peramban ini menggantikan Internet Explorer sebagai peramban baku pada Windows 10. Hal ini juga akan menjadi peramban baku dari rilis yang akan datang dari Windows 10 untuk telepon cerdas dan tablet kecil. Microsoft Edge kini juga sudah tersedia untuk platform Android dan iOS.",
+      },
+      {
+        _type: "internationalizedArrayTextValue",
+        _key: "nl",
+        value:
+          "Microsoft Edge is een webbrowser ontwikkeld door Microsoft en inbegrepen in Windows 10, Windows 10 Mobile en Xbox One. Microsoft Edge is de opvolger van Internet Explorer en vervangt deze als de standaard webbrowser op alle apparaten. Volgens Microsoft is het een lichtgewicht webbrowser met een layout-engine die gebouwd is overeenkomstig met de webstandaarden. De browser bevat nieuwe features, waaronder integratie met Cortana, notitiehulpmiddelen en een leesmodus.",
       },
     ],
-    homepage: "https://vivaldi.com",
-    matchBrowserName: "Vivaldi",
-    icon: {
-      _type: "icon",
-      predefined: {
-        metadata: {
-          collectionName: "SVG Logos",
-          author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
-          },
-          vFlip: false,
-          inlineSvg:
-            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient y2="100.366%" y1="5.132%" x2="75.846%" x1="20.985%" id="IconifyId18b489eae1076b8b61"><stop stop-opacity=".2" offset="0%"></stop><stop stop-opacity=".05" offset="79%"></stop></linearGradient></defs><path d="M127.999 255.999c56.092 0 87.262 0 107.63-20.37C256 215.262 256 184.092 256 128c0-56.09 0-87.261-20.37-107.63C215.262 0 184.092 0 128 0C71.91 0 40.7 0 20.37 20.369S0 71.909 0 127.999c0 56.092 0 87.262 20.369 107.63C40.738 256 71.909 256 127.999 256Z" fill="#EF3939"></path><path d="M211.221 80.633c-6.179-11.141-16.808-20.264-26.815-28.152c-10.007-7.888-19.83-12.64-32.108-16.048c-12.279-3.408-24.827-3.345-37.468-1.743c-12.642 1.602-23.52 4.488-34.56 10.851c-11.039 6.363-19.613 14.154-27.335 24.289c-7.72 10.135-12.851 20.199-16.054 32.53c-3.202 12.33-4.363 25.992-2.549 38.601c1.814 12.61 4.017 24.61 10.566 35.54l.54.924l45.09 78.166c7.484.206 15.584.296 24.302.27h12.805c20.448.44 40.906-.165 61.292-1.812c20.404-2.237 35.061-7.25 46.286-18.548c16.509-16.506 19.634-40.106 20.212-78.283l-44.204-76.585Z" fill="url(#IconifyId18b489eae1076b8b61)"></path><path d="M195.808 60.085A95.952 95.952 0 0 0 91.226 39.316a95.98 95.98 0 0 0-43.058 35.358a96.017 96.017 0 0 0 0 106.65a95.98 95.98 0 0 0 43.058 35.359a95.953 95.953 0 0 0 104.582-20.77a95.909 95.909 0 0 0 20.863-104.682a95.883 95.883 0 0 0-20.863-31.146Zm-5.755 44.195a290355.412 290355.412 0 0 0-47.466 82.633a15.87 15.87 0 0 1-13.054 8.614a15.064 15.064 0 0 1-15.024-7.996c-10.003-17.23-19.93-34.575-29.855-51.883a6307.042 6307.042 0 0 1-18.152-31.6a15.958 15.958 0 0 1 12.977-24.184a15.445 15.445 0 0 1 14.637 8.268c4.48 7.726 8.883 15.452 13.287 23.179c3.205 5.563 6.294 11.125 9.577 16.611a25.124 25.124 0 0 0 8.8 9.253a25.11 25.11 0 0 0 12.21 3.727a25.604 25.604 0 0 0 27.036-22.754c0-1.043 0-2.086.232-2.627a27.05 27.05 0 0 0-2.703-11.937a15.956 15.956 0 0 1 15.864-23.422a15.947 15.947 0 0 1 11.48 7.05a15.959 15.959 0 0 1 2.471 6.444c.435 3.7-.38 7.44-2.317 10.624Z" fill="#FFF"></path></svg>',
-          downloadUrl:
-            "https://api.iconify.design/logos:vivaldi-icon.svg?width=20&height=20&download=1",
-          flip: "",
-          iconName: "vivaldi-icon",
-          license: {
-            name: "CC0",
-            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
-          },
-          collectionId: "logos",
-          rotate: 0,
-          hFlip: false,
-          url: "https://api.iconify.design/logos:vivaldi-icon.svg?width=20&height=20",
-          size: {
-            width: 20,
-            height: 20,
-          },
-          palette: true,
-        },
-        _type: "icon.manager",
-        icon: "logos:vivaldi-icon",
-      },
+    description: {
+      nl: null,
+      en: null,
+      de: null,
+      id: null,
     },
-    _createdAt: "2023-10-19T15:50:38Z",
+    matchBrowserName: ["Edge"],
+    name: "Edge",
     _type: "browser",
-    _rev: "7V6W77YnYTSXWZozOYhkIb",
+  },
+  {
+    wikipediaUrl: [
+      {
+        _type: "internationalizedArrayUrlValue",
+        _key: "en",
+        value: "https://en.wikipedia.org/wiki/Vivaldi_(web_browser)",
+      },
+      {
+        _type: "internationalizedArrayUrlValue",
+        _key: "id",
+        value: "https://id.wikipedia.org/wiki/Vivaldi_(peramban_web)",
+      },
+      {
+        _type: "internationalizedArrayUrlValue",
+        _key: "nl",
+        value: "https://nl.wikipedia.org/wiki/Vivaldi_(webbrowser)",
+      },
+    ],
+    vendor: "Vivaldi Technologies",
+    popularity: 1136,
+    homepage: "https://vivaldi.com",
+    _updatedAt: "2023-10-23T13:32:36Z",
+    description: {
+      nl: null,
+      en: null,
+      de: null,
+      id: null,
+    },
+    _rev: "IW6hjkMGxufdYFszO2rL3e",
+    _type: "browser",
+    matchBrowserName: ["Vivaldi"],
+    name: "Vivaldi",
     summary: [
       {
         _type: "internationalizedArrayTextValue",
@@ -718,24 +700,52 @@ export const browsers: Browser[] = [
           "Vivaldi is een webbrowser die ontwikkeld wordt door het Noorse Vivaldi Technologies. Dit bedrijf werd in 2014 opgericht door twee voormalige topmensen van Opera Software: Jon Stephenson von Tetzchner en Tatsuki Tomita. De browser is geïnspireerd op Opera en zet zich af tegen de keuzes die Opera toen maakte door over te stappen van de layout-engine Presto naar Blink, waarmee veel populaire onderdelen verloren gingen. Ook Vivaldi maakt gebruik van de layout-engine Blink, die afgeleid is van Chromium.",
       },
     ],
-    wikipediaUrl: [
+    maybeDetectedAs: [
       {
-        _type: "internationalizedArrayUrlValue",
-        _key: "en",
-        value: "https://en.wikipedia.org/wiki/Vivaldi_(web_browser)",
-      },
-      {
-        _key: "id",
-        value: "https://id.wikipedia.org/wiki/Vivaldi_(peramban_web)",
-        _type: "internationalizedArrayUrlValue",
-      },
-      {
-        _type: "internationalizedArrayUrlValue",
-        _key: "nl",
-        value: "https://nl.wikipedia.org/wiki/Vivaldi_(webbrowser)",
+        _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
+        _type: "reference",
+        _key: "3ce1d67860b3",
       },
     ],
-    vendor: "Vivaldi Technologies",
-    _updatedAt: "2023-10-22T15:44:08Z",
+    _createdAt: "2023-10-19T15:50:38Z",
+    _id: "f093178f-bfba-4391-8078-6f979c75630d",
+    slug: {
+      current: "vivaldi",
+      _type: "slug",
+    },
+    icon: {
+      _type: "icon",
+      predefined: {
+        _type: "icon.manager",
+        icon: "logos:vivaldi-icon",
+        metadata: {
+          inlineSvg:
+            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient y2="100.366%" y1="5.132%" x2="75.846%" x1="20.985%" id="IconifyId18b489eae1076b8b61"><stop stop-opacity=".2" offset="0%"></stop><stop stop-opacity=".05" offset="79%"></stop></linearGradient></defs><path d="M127.999 255.999c56.092 0 87.262 0 107.63-20.37C256 215.262 256 184.092 256 128c0-56.09 0-87.261-20.37-107.63C215.262 0 184.092 0 128 0C71.91 0 40.7 0 20.37 20.369S0 71.909 0 127.999c0 56.092 0 87.262 20.369 107.63C40.738 256 71.909 256 127.999 256Z" fill="#EF3939"></path><path d="M211.221 80.633c-6.179-11.141-16.808-20.264-26.815-28.152c-10.007-7.888-19.83-12.64-32.108-16.048c-12.279-3.408-24.827-3.345-37.468-1.743c-12.642 1.602-23.52 4.488-34.56 10.851c-11.039 6.363-19.613 14.154-27.335 24.289c-7.72 10.135-12.851 20.199-16.054 32.53c-3.202 12.33-4.363 25.992-2.549 38.601c1.814 12.61 4.017 24.61 10.566 35.54l.54.924l45.09 78.166c7.484.206 15.584.296 24.302.27h12.805c20.448.44 40.906-.165 61.292-1.812c20.404-2.237 35.061-7.25 46.286-18.548c16.509-16.506 19.634-40.106 20.212-78.283l-44.204-76.585Z" fill="url(#IconifyId18b489eae1076b8b61)"></path><path d="M195.808 60.085A95.952 95.952 0 0 0 91.226 39.316a95.98 95.98 0 0 0-43.058 35.358a96.017 96.017 0 0 0 0 106.65a95.98 95.98 0 0 0 43.058 35.359a95.953 95.953 0 0 0 104.582-20.77a95.909 95.909 0 0 0 20.863-104.682a95.883 95.883 0 0 0-20.863-31.146Zm-5.755 44.195a290355.412 290355.412 0 0 0-47.466 82.633a15.87 15.87 0 0 1-13.054 8.614a15.064 15.064 0 0 1-15.024-7.996c-10.003-17.23-19.93-34.575-29.855-51.883a6307.042 6307.042 0 0 1-18.152-31.6a15.958 15.958 0 0 1 12.977-24.184a15.445 15.445 0 0 1 14.637 8.268c4.48 7.726 8.883 15.452 13.287 23.179c3.205 5.563 6.294 11.125 9.577 16.611a25.124 25.124 0 0 0 8.8 9.253a25.11 25.11 0 0 0 12.21 3.727a25.604 25.604 0 0 0 27.036-22.754c0-1.043 0-2.086.232-2.627a27.05 27.05 0 0 0-2.703-11.937a15.956 15.956 0 0 1 15.864-23.422a15.947 15.947 0 0 1 11.48 7.05a15.959 15.959 0 0 1 2.471 6.444c.435 3.7-.38 7.44-2.317 10.624Z" fill="#FFF"></path></svg>',
+          flip: "",
+          rotate: 0,
+          license: {
+            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
+            name: "CC0",
+          },
+          size: {
+            width: 20,
+            height: 20,
+          },
+          vFlip: false,
+          iconName: "vivaldi-icon",
+          hFlip: false,
+          palette: true,
+          url: "https://api.iconify.design/logos:vivaldi-icon.svg?width=20&height=20",
+          downloadUrl:
+            "https://api.iconify.design/logos:vivaldi-icon.svg?width=20&height=20&download=1",
+          collectionName: "SVG Logos",
+          collectionId: "logos",
+          author: {
+            url: "https://github.com/gilbarbara/logos",
+            name: "Gil Barbara",
+          },
+        },
+      },
+    },
   },
 ];

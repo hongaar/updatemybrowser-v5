@@ -8,13 +8,15 @@ import styles from "./browserCard.module.scss";
 type Props = {
   language: string;
   dict: Dict;
-  compact: boolean;
+  medium?: boolean;
+  small?: boolean;
   browser: BrowserWithFlatReleases | MaybeHydratedBrowserWithFlatReleases;
 };
 
 export function BrowserCard({
   language,
-  compact = false,
+  medium = false,
+  small = false,
   dict,
   browser,
 }: Props) {
@@ -31,9 +33,13 @@ export function BrowserCard({
       }`}
       href={`/${language}/browsers/${browser.slug.current}`}
     >
-      <div className={`${styles.browserInfo} ${compact ? styles.compact : ""}`}>
+      <div
+        className={`${styles.browserInfo} ${
+          medium ? styles.medium : small ? styles.small : ""
+        }`}
+      >
         <h3 className={styles.itemHeading}>{browser.name}</h3>
-        {compact ? null : (
+        {medium || small ? null : (
           <p className={styles.description}>
             <small>{browser.description[language]}</small>
           </p>
@@ -42,12 +48,12 @@ export function BrowserCard({
           <Icon
             icon={browser.icon}
             size={80}
-            cssSize={compact ? "3rem" : "5rem"}
+            cssSize={medium ? "3rem" : small ? "2rem" : "5rem"}
           />
         ) : null}
       </div>
       <span className={styles.spacer} />
-      {compact ? null : match?.currentBrowser ? (
+      {medium || small ? null : match?.currentBrowser ? (
         match?.updateAvailable ? (
           <span
             className={`${styles.version} ${styles.versionUpdateAvailable}`}

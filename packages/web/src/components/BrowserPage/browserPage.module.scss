@@ -11,4 +11,18 @@
 
 .vendor {
   color: var(--muted-color);
+  display: none;
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    display: initial;
+  }
+}
+
+.alternativesWrapper {
+  display: flex;
+  flex-direction: column-reverse;
+
+  @media (min-width: map-get($breakpoints, "md")) {
+    display: block;
+  }
 }

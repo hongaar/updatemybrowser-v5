@@ -32,7 +32,7 @@ export function BrowserMetadata({ language, dict, browser }: Props) {
           <div className={styles.metadataLabel}>{dict.Popularity}</div>
           <div className={styles.metadata}>
             <strong className={styles.stat}>❤️ {browser.popularity}</strong>{" "}
-            <ExternalLink href="https://alternativeto.net">
+            <ExternalLink href="https://alternativeto.net/category/browsers/web-browser/">
               AlternativeTo
             </ExternalLink>
           </div>

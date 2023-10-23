@@ -28,7 +28,7 @@ export function MaybeDetected({ language, dict, browser, browsers }: Props) {
         {maybeBrowsers.map((browser) => (
           <li className={styles.gridItem} key={browser._id}>
             <BrowserCard
-              compact
+              small
               language={language}
               dict={dict}
               browser={browser}

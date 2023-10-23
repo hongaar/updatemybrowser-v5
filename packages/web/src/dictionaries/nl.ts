@@ -45,8 +45,11 @@ const dutch: Dict = {
   LatestAvailableVersion: "Laatste beschikbare versie",
   UnderConstruction: "Deze pagina is in aanbouw. Kom snel terug.",
   CheckDetails: "Controleer details",
-  YourBrowser: "Je browser",
-  YourOS: "Je besturingssysteem",
+  BrowserIdentity: "Browser identiteit",
+  OSIdentity: "Besturingssysteem identiteit",
+  BrowserNotDetected: "Browser niet gedetecteerd",
+  BrowserNotDetectedDescription: "We konden je browser niet detecteren.",
+  DetectingYourBrowser: "Je browser detecteren",
 };
 
 export default dutch;

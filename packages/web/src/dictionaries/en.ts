@@ -6,7 +6,7 @@ const english = {
   BrowserOverview: "Browser Overview",
   DisguisedBrowsers: "Disguised browsers",
   DisguisedBrowsersDescription:
-    "These browsers disguise themselves as %s, so it may be possible that you are using on of these browsers instead.",
+    "These browsers disguise themselves as %s, so it may be possible that you are using one of these browsers instead.",
   Widget: "Widget",
   Guides: "Guides",
   Language: "Language",
@@ -42,8 +42,11 @@ const english = {
   LatestAvailableVersion: "Latest available version",
   UnderConstruction: "This page is under construction. Please come back soon.",
   CheckDetails: "Check details",
-  YourBrowser: "Your browser",
-  YourOS: "Your operating system",
+  BrowserIdentity: "Browser identity",
+  OSIdentity: "Operating system identity",
+  BrowserNotDetected: "Browser not detected",
+  BrowserNotDetectedDescription: "We could not detect your browser.",
+  DetectingYourBrowser: "Detecting your browser",
 };
 
 export type Dict = typeof english;

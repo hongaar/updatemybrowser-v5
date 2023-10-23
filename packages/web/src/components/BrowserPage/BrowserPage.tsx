@@ -48,20 +48,25 @@ export function BrowserPage({
       <UpdateAvailable language={language} dict={dict} browser={browser} />
       <LatestVersion language={language} dict={dict} browser={browser} />
       <TryBanner language={language} dict={dict} browser={browser} />
-      <BrowserAlternatives
-        language={language}
-        dict={dict}
-        browsers={browsers}
-        exclude={browser}
-      />
-      {summary && wikipediaUrl ? (
-        <p>
-          {browser.summary?.find((item) => item._key === language)?.value || ""}
-          <br />
-          <ExternalLink href={wikipediaUrl}>Wikipedia</ExternalLink>
-        </p>
-      ) : null}
-      <BrowserMetadata language={language} dict={dict} browser={browser} />
+      <div className={styles.alternativesWrapper}>
+        <BrowserAlternatives
+          language={language}
+          dict={dict}
+          browsers={browsers}
+          exclude={browser}
+        />
+        <div>
+          {summary && wikipediaUrl ? (
+            <p>
+              {browser.summary?.find((item) => item._key === language)?.value ||
+                ""}
+              <br />
+              <ExternalLink href={wikipediaUrl}>Wikipedia</ExternalLink>
+            </p>
+          ) : null}
+          <BrowserMetadata language={language} dict={dict} browser={browser} />
+        </div>
+      </div>
     </>
   );
 }
