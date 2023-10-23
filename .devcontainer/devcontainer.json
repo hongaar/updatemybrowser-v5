@@ -2,7 +2,7 @@
   "name": "Node.js & TypeScript",
   "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
   "features": {},
-  "forwardPorts": [],
+  "forwardPorts": [3000, 3333],
   "postCreateCommand": "yarn install",
   "customizations": {
     "vscode": {

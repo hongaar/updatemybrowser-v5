@@ -3,7 +3,7 @@
 .browserAlternatives {
   float: right;
   padding: var(--spacing);
-  margin: 0 0 var(--spacing) var(--spacing);
+  margin: 0 0 calc(var(--spacing) * 2) calc(var(--spacing) * 2);
   background-color: var(--muted-border-color);
   border-radius: var(--border-radius);
   width: 25vw;

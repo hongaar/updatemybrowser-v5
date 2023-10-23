@@ -148,3 +148,8 @@ textarea {
     border-radius: var(--border-radius);
   }
 }
+
+// Sectioning
+section {
+  margin-top: calc(var(--spacing) * 4);
+}

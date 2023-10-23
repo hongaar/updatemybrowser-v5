@@ -4,6 +4,9 @@ const english = {
   BrowserCheck: "Browser Check",
   YouAreUsing: "You are using",
   BrowserOverview: "Browser Overview",
+  DisguisedBrowsers: "Disguised browsers",
+  DisguisedBrowsersDescription:
+    "These browsers disguise themselves as %s, so it may be possible that you are using on of these browsers instead.",
   Widget: "Widget",
   Guides: "Guides",
   Language: "Language",
@@ -36,7 +39,11 @@ const english = {
     "Please click the button below to download this browser.",
   DownloadNow: "Download now",
   Version: "Version",
+  LatestAvailableVersion: "Latest available version",
   UnderConstruction: "This page is under construction. Please come back soon.",
+  CheckDetails: "Check details",
+  YourBrowser: "Your browser",
+  YourOS: "Your operating system",
 };
 
 export type Dict = typeof english;

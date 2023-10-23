@@ -6,6 +6,9 @@ const dutch: Dict = {
   BrowserCheck: "Browser Controle",
   YouAreUsing: "Je gebruikt",
   BrowserOverview: "Browser Overzicht",
+  DisguisedBrowsers: "Vermomde Browsers",
+  DisguisedBrowsersDescription:
+    "Deze browsers vermommen zich als %s, dus het is mogelijk dat je in plaats daarvan een van deze browsers gebruikt.",
   Widget: "Widget",
   Guides: "Gidsen",
   Language: "Taal",
@@ -39,7 +42,11 @@ const dutch: Dict = {
     "Je gebruikt momenteel geen %s, maar deze browser is beschikbaar op %s.",
   DownloadNow: "Download nu",
   Version: "Versie",
+  LatestAvailableVersion: "Laatste beschikbare versie",
   UnderConstruction: "Deze pagina is in aanbouw. Kom snel terug.",
+  CheckDetails: "Controleer details",
+  YourBrowser: "Je browser",
+  YourOS: "Je besturingssysteem",
 };
 
 export default dutch;

@@ -3,7 +3,7 @@
 import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
 import {
   hydrateBrowserWithFlatReleases,
-  type MaybeHydratedBrowsersWithFlatReleases,
+  type MaybeHydratedBrowserWithFlatReleases,
 } from "@updatemybrowser/detect";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -19,7 +19,7 @@ type Props = {
 
 export function TryBanner({ language, dict, browser }: Props) {
   const [hydratedBrowser, setHydratedBrowser] =
-    useState<MaybeHydratedBrowsersWithFlatReleases>(browser);
+    useState<MaybeHydratedBrowserWithFlatReleases>(browser);
 
   useEffect(
     () => setHydratedBrowser(hydrateBrowserWithFlatReleases(browser)),

@@ -49,13 +49,18 @@ export const os: DocumentDefinition = {
       name: "matchOsName",
       title: "Match operating system name",
       description: "Match operating system name from @updatemybrowser/client",
-      type: "string",
-      options: {
-        list: oses.map((value) => ({
-          title: value,
-          value,
-        })),
-      },
+      type: "array",
+      of: [
+        {
+          type: "string",
+          options: {
+            list: oses.map((value) => ({
+              title: value,
+              value,
+            })),
+          },
+        },
+      ],
     },
     i18nString({
       name: "description",

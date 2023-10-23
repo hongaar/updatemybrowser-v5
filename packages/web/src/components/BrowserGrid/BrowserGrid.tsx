@@ -1,6 +1,6 @@
 import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
 import { getDictionary } from "../../dictionaries";
-import { List } from "./Grid";
+import { Grid } from "./Grid";
 
 type Props = {
   language: string;
@@ -10,5 +10,5 @@ type Props = {
 export function BrowserGrid({ language, browsers }: Props) {
   const dict = getDictionary(language);
 
-  return <List dict={dict} language={language} browsers={browsers} />;
+  return <Grid dict={dict} language={language} browsers={browsers} />;
 }

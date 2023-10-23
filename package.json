@@ -9,9 +9,9 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "yarn workspaces foreach --topological --verbose run build",
-    "build:clean": "yarn workspaces foreach --topological --verbose run build:clean",
-    "build:watch": "yarn workspaces foreach --parallel --interlaced run build:watch",
+    "build": "yarn workspaces foreach --all --topological --verbose run build",
+    "build:clean": "yarn workspaces foreach --all --topological --verbose run build:clean",
+    "build:watch": "yarn workspaces foreach --all --parallel --interlaced run build:watch",
     "dev": "run-p --print-label typescript:watch \"start:**\"",
     "format": "prettier --write --ignore-unknown .",
     "format:check": "prettier --check --ignore-unknown .",
@@ -19,8 +19,8 @@
     "start": "run-p --print-label \"start:**\"",
     "start:studio": "yarn workspace @updatemybrowser/studio dev",
     "start:web": "yarn workspace @updatemybrowser/web dev",
-    "test": "yarn workspaces foreach --topological --verbose run test",
-    "test:watch": "yarn workspaces foreach --parallel --interlaced run test:watch",
+    "test": "yarn workspaces foreach --all --topological --verbose run test",
+    "test:watch": "yarn workspaces foreach --all --parallel --interlaced run test:watch",
     "typescript": "yarn build:clean && tsc --build --force",
     "typescript:watch": "tsc --build --watch"
   },

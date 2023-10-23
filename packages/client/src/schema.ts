@@ -95,7 +95,7 @@ export type IconManager = {
     };
     license: {
       name: string;
-      url: string;
+      url?: string;
     };
   };
 };
@@ -127,6 +127,7 @@ export type Browser<T extends "plain" | "withFlatReleases" = "plain"> = Doc<
     vendor: string;
     homepage: string;
     matchBrowserName: string;
+    maybeDetectedAs?: Keyed<Reference>[];
     popularity?: number;
     description: I18nString;
     wikipediaUrl?: I18nUrl;
@@ -148,7 +149,7 @@ export type OS = Doc<{
   slug: Slug;
   vendor: string;
   homepage: string;
-  matchOsName: string;
+  matchOsName: string[];
   description: I18nString;
   icon?: Icon;
   logo?: Image;

@@ -3,11 +3,13 @@
 import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
 import {
   hydrateBrowsersWithFlatReleases,
-  type MaybeHydratedBrowsersWithFlatReleases,
+  type MaybeHydratedBrowserWithFlatReleases,
 } from "@updatemybrowser/detect";
 import { useEffect, useState } from "react";
 import { BrowserPage } from "../../../components/BrowserPage";
 import { Container } from "../../../components/Container";
+import { Environment } from "../../../components/Environment";
+import { MaybeDetected } from "../../../components/MaybeDetected";
 import type { Dict } from "../../../dictionaries/en";
 
 type Props = {
@@ -18,7 +20,7 @@ type Props = {
 
 export default function ClientCheck({ language, dict, browsers }: Props) {
   const [hydratedBrowsers, setHydratedBrowsers] =
-    useState<MaybeHydratedBrowsersWithFlatReleases[]>(browsers);
+    useState<MaybeHydratedBrowserWithFlatReleases[]>(browsers);
 
   useEffect(
     () => setHydratedBrowsers(hydrateBrowsersWithFlatReleases(browsers)),
@@ -43,6 +45,13 @@ export default function ClientCheck({ language, dict, browsers }: Props) {
           browser={currentBrowser}
           headingPrefix={dict.YouAreUsing}
         />
+        <MaybeDetected
+          language={language}
+          dict={dict}
+          browsers={browsers}
+          browser={currentBrowser}
+        />
+        <Environment language={language} dict={dict} />
       </Container>
     </>
   );

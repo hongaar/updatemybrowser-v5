@@ -5,7 +5,7 @@ import type {
 import { gt, highestVersion } from "@updatemybrowser/core";
 import { detect } from "./detect.js";
 
-export type MaybeHydratedBrowsersWithFlatReleases = BrowserWithFlatReleases & {
+export type MaybeHydratedBrowserWithFlatReleases = BrowserWithFlatReleases & {
   match?: {
     currentBrowser: boolean;
     currentOsRelease: ReleaseFlatExpanded;
@@ -26,8 +26,8 @@ export function hydrateBrowserWithFlatReleases(
   browser: BrowserWithFlatReleases,
 ) {
   const { os, browser: detectedBrowser } = detect();
-  const currentOsRelease = browser.releases?.find(
-    (release) => release.os.matchOsName === os?.name,
+  const currentOsRelease = browser.releases?.find((release) =>
+    release.os.matchOsName.includes(os?.name || "no-os"),
   );
   const availableOnCurrentOs = !!currentOsRelease;
   const highestAvailableVersion = highestVersion(
@@ -54,14 +54,17 @@ export function hydrateBrowserWithFlatReleases(
           ? detectedBrowser.version
           : undefined,
     },
-  } as MaybeHydratedBrowsersWithFlatReleases;
+  } as MaybeHydratedBrowserWithFlatReleases;
 }
 
+/**
+ * @deprecated
+ */
 export function hydrateReleasesFlatExpanded(releases: ReleaseFlatExpanded[]) {
   const { os, browser } = detect();
 
   return releases.map((item) => {
-    const osMatch = item.os?.matchOsName === os?.name;
+    const osMatch = item.os?.matchOsName.includes(os?.name || "no-os");
     const browserMatch = item.browser.matchBrowserName === browser?.name;
 
     return {

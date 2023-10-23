@@ -3,7 +3,7 @@
 import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
 import {
   hydrateBrowserWithFlatReleases,
-  type MaybeHydratedBrowsersWithFlatReleases,
+  type MaybeHydratedBrowserWithFlatReleases,
 } from "@updatemybrowser/detect";
 import { useEffect, useState } from "react";
 import { sprintf } from "sprintf-js";
@@ -18,7 +18,7 @@ type Props = {
 
 export function LatestVersion({ language, dict, browser }: Props) {
   const [hydratedBrowser, setHydratedBrowser] =
-    useState<MaybeHydratedBrowsersWithFlatReleases>(browser);
+    useState<MaybeHydratedBrowserWithFlatReleases>(browser);
 
   useEffect(
     () => setHydratedBrowser(hydrateBrowserWithFlatReleases(browser)),

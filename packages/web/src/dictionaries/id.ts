@@ -6,6 +6,9 @@ const indonesian: Dict = {
   BrowserCheck: "Browser Kontrol",
   YouAreUsing: "Anda menggunakan",
   BrowserOverview: "Browser Ikhtisar",
+  DisguisedBrowsers: "Browser Tersamar",
+  DisguisedBrowsersDescription:
+    "Browser ini menyamar sebagai %s, jadi mungkin Anda menggunakan salah satu browser ini.",
   Widget: "Widget",
   Guides: "Panduan",
   Language: "Bahasa",
@@ -30,6 +33,7 @@ const indonesian: Dict = {
     "Klik tombol di bawah ini untuk mengunduh browser ini.",
   DownloadNow: "Unduh sekarang",
   Version: "Versi",
+  LatestAvailableVersion: "Versi terbaru yang tersedia",
   LatestVersionDescription: "Selamat, Anda menggunakan versi terbaru dari %s.",
   CurrentBrowserAndUpdateAvailable:
     "Ini adalah browser Anda saat ini dan pembaruan tersedia.",
@@ -40,6 +44,9 @@ const indonesian: Dict = {
     "Anda saat ini tidak menggunakan %s, tetapi tersedia di %s.",
   UnderConstruction:
     "Halaman ini sedang dalam konstruksi. Silakan kembali lagi nanti.",
+  CheckDetails: "Periksa detail",
+  YourBrowser: "Browser Anda",
+  YourOS: "Sistem operasi Anda",
 };
 
 export default indonesian;

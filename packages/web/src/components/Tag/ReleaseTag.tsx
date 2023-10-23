@@ -17,7 +17,9 @@ export function ReleaseTag({ dict, release }: Props) {
   return (
     <Tag
       className={
-        release.os.matchOsName === detectedOs?.name ? styles.current : ""
+        release.os.matchOsName.includes(detectedOs?.name || "no-os")
+          ? styles.current
+          : ""
       }
     >
       {release.os.icon?.predefined?.metadata?.inlineSvg ||
@@ -38,7 +40,7 @@ export function ReleaseTag({ dict, release }: Props) {
         </>
       ) : null}
       {release.os.name}
-      <span title={dict.Version} className={styles.version}>
+      <span title={dict.LatestAvailableVersion} className={styles.version}>
         {release.currentVersion}
       </span>
     </Tag>

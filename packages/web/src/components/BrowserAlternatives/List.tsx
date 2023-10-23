@@ -3,7 +3,7 @@
 import type { BrowserWithFlatReleases } from "@updatemybrowser/client";
 import {
   hydrateBrowsersWithFlatReleases,
-  type MaybeHydratedBrowsersWithFlatReleases,
+  type MaybeHydratedBrowserWithFlatReleases,
 } from "@updatemybrowser/detect";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -19,7 +19,7 @@ const MAX_ITEMS = 5;
 
 export function List({ language, browsers }: Props) {
   const [hydratedBrowsers, setHydratedBrowsers] =
-    useState<MaybeHydratedBrowsersWithFlatReleases[]>(browsers);
+    useState<MaybeHydratedBrowserWithFlatReleases[]>(browsers);
 
   useEffect(
     () => setHydratedBrowsers(hydrateBrowsersWithFlatReleases(browsers)),
