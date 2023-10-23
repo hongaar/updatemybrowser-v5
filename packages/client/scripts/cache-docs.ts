@@ -2,6 +2,7 @@ import "dotenv/config";
 // @ts-ignore
 import { outputFile } from "fs-extra/esm";
 import { join } from "node:path";
+import sortJson from "sort-json";
 import {
   enableDrafts,
   getBrowsers,
@@ -36,7 +37,7 @@ async function createCache(
       `import type { ${tsType} } from "../schema.js";`,
       "",
       `export const ${type}: ${tsType}[] = ${JSON.stringify(
-        results,
+        sortJson(results, { depth: 10 }),
         undefined,
         2,
       )}`,

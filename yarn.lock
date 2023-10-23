@@ -3670,6 +3670,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/sort-json@npm:^2":
+  version: 2.0.2
+  resolution: "@types/sort-json@npm:2.0.2"
+  checksum: 3b2d625564671c8bdd772dba35c7a4d104cca1808c368c0e7dbc3198065b2b36b0a17586799459f44b0e2c95847e942d2a1cfee7b413160e76215a36099fd8f2
+  languageName: node
+  linkType: hard
+
 "@types/speakingurl@npm:^13.0.3":
   version: 13.0.4
   resolution: "@types/speakingurl@npm:13.0.4"
@@ -3976,8 +3983,10 @@ __metadata:
     "@sanity/client": "npm:6.6.0"
     "@types/fs-extra": "npm:^11"
     "@types/node": "npm:20.8.4"
+    "@types/sort-json": "npm:^2"
     dotenv: "npm:16.3.1"
     fs-extra: "npm:11.1.1"
+    sort-json: "npm:2.0.1"
     ts-node: "npm:10.9.1"
     typescript: "npm:5.2.2"
   languageName: unknown
@@ -5699,6 +5708,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"detect-indent@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "detect-indent@npm:5.0.0"
+  checksum: 61763211daa498e00eec073aba95d544ae5baed19286a0a655697fa4fffc9f4539c8376e2c7df8fa11d6f8eaa16c1e6a689f403ac41ee78a060278cdadefe2ff
+  languageName: node
+  linkType: hard
+
 "detect-indent@npm:^6.0.0":
   version: 6.1.0
   resolution: "detect-indent@npm:6.1.0"
@@ -5710,6 +5726,13 @@ __metadata:
   version: 7.0.1
   resolution: "detect-indent@npm:7.0.1"
   checksum: cbf3f0b1c3c881934ca94428e1179b26ab2a587e0d719031d37a67fb506d49d067de54ff057cb1e772e75975fed5155c01cd4518306fee60988b1486e3fc7768
+  languageName: node
+  linkType: hard
+
+"detect-newline@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "detect-newline@npm:2.1.0"
+  checksum: c55146fd5b97a9ce914f17f85a01466c9e8679289e2d390588b027a58f2e090dbc38457923072369c603b8904f982f87b78fee17e48d5706f35571642f4599f8
   languageName: node
   linkType: hard
 
@@ -11772,6 +11795,19 @@ __metadata:
     ip: "npm:^2.0.0"
     smart-buffer: "npm:^4.2.0"
   checksum: 5074f7d6a13b3155fa655191df1c7e7a48ce3234b8ccf99afa2ccb56591c195e75e8bb78486f8e9ea8168e95a29573cbaad55b2b5e195160ae4d2ea6811ba833
+  languageName: node
+  linkType: hard
+
+"sort-json@npm:2.0.1":
+  version: 2.0.1
+  resolution: "sort-json@npm:2.0.1"
+  dependencies:
+    detect-indent: "npm:^5.0.0"
+    detect-newline: "npm:^2.1.0"
+    minimist: "npm:^1.2.0"
+  bin:
+    sort-json: app/cmd.js
+  checksum: 12a067f26164ada6239c6253bf62c4838db376686761838ff24154e7f6cd3788818644ab173d312aba5ddd9baefe60c20153076993ddaa841e57f6faed5941a7
   languageName: node
   linkType: hard
 
