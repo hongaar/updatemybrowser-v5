@@ -3638,14 +3638,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.2.25":
-  version: 18.2.25
-  resolution: "@types/react@npm:18.2.25"
+"@types/react@npm:18.2.31":
+  version: 18.2.31
+  resolution: "@types/react@npm:18.2.31"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: e777471a58bde47a710c7a1906eb9fcafa793671179fc9c0187694f916da043adac5ebd4b87c8cc14c42fd4979376e7a6acabae02b99450c2a5e198155880161
+  checksum: ac9f42f1cd6ee34329ea7a81894877dc333a2dc86141545e23121b07dcd7cea902bedc6b645ce017c92610bd8cd2c6e25dbba581379889a705314f3c759371bf
   languageName: node
   linkType: hard
 
@@ -4017,7 +4017,7 @@ __metadata:
     "@sanity/icons": "npm:^2.5.0"
     "@sanity/ui": "npm:^1.8.2"
     "@sanity/vision": "npm:3.17.0"
-    "@types/react": "npm:18.2.25"
+    "@types/react": "npm:18.2.31"
     "@types/styled-components": "npm:5.1.28"
     "@updatemybrowser/client": "workspace:*"
     "@updatemybrowser/detect": "workspace:*"
@@ -4059,7 +4059,7 @@ __metadata:
     "@sanity/image-url": "npm:1.0.2"
     "@types/negotiator": "npm:0.6.1"
     "@types/node": "npm:20.8.3"
-    "@types/react": "npm:18.2.25"
+    "@types/react": "npm:18.2.31"
     "@types/react-dom": "npm:18.2.11"
     "@types/sprintf-js": "npm:^1"
     "@updatemybrowser/client": "workspace:*"
