@@ -2,7 +2,8 @@
 
 .updateAvailable,
 .latestVersion,
-.tryBanner {
+.tryBanner,
+.notAvailable {
   padding: var(--spacing);
   margin-bottom: calc(var(--spacing) * 2);
   border: var(--outline-width) solid var(--primary);
@@ -25,4 +26,8 @@
 }
 
 .downloadButton {
+}
+
+.notAvailable {
+  border-color: var(--error);
 }

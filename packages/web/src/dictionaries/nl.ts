@@ -50,6 +50,9 @@ const dutch: Dict = {
   BrowserNotDetected: "Browser niet gedetecteerd",
   BrowserNotDetectedDescription: "We konden je browser niet detecteren.",
   DetectingYourBrowser: "Je browser detecteren",
+  NotAvailableOnYourOs: "Niet beschikbaar op jouw apparaat",
+  NotAvailableOnYourOsDescription:
+    "Deze browser is niet (meer) beschikbaar op je huidige apparaat.",
 };
 
 export default dutch;

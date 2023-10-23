@@ -31,7 +31,7 @@ export default function ClientCheck({ language, dict, browsers }: Props) {
   }, [browsers]);
 
   const currentBrowser = hydratedBrowsers.find(
-    (item) => item.match?.currentBrowser,
+    (item) => item.match?.browserMatch,
   );
 
   return (

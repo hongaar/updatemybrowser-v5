@@ -40,7 +40,7 @@ export function TryBanner({ language, dict, browser }: Props) {
         {sprintf(
           dict.AvailableOnYourOsDescription,
           hydratedBrowser.name,
-          hydratedBrowser.match?.currentOsRelease.os.name,
+          hydratedBrowser.match?.currentOsRelease.os.os.name,
         )}
         <br />
         {dict.AvailableOnYourOsClickButtonToDownload}

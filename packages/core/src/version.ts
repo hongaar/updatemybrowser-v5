@@ -1,8 +1,9 @@
 export function toSimpleVersionString<T extends string | undefined>(
   version: T,
-): T extends string ? string : void {
+): T extends string ? string : undefined {
   if (!version) {
-    return void 0 as any;
+    // @ts-expect-error
+    return;
   }
 
   const components = version.split(".").slice(0, 3).map(Number);
@@ -64,4 +65,8 @@ export function highestVersion(versions: string[]) {
 
 export function gt(v1: string, v2: string) {
   return compare(v1, v2) === 1;
+}
+
+export function lt(v1: string, v2: string) {
+  return compare(v1, v2) === -1;
 }

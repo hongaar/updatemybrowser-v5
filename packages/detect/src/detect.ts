@@ -1,7 +1,22 @@
 import { toSimpleVersionString } from "@updatemybrowser/core";
 import { UAParser } from "ua-parser-js";
 
-export function detect() {
+export type DetectedBrowser = {
+  name: string;
+  version: string | undefined;
+};
+
+export type DetectedOs = {
+  name: string;
+  version: string | undefined;
+};
+
+export type Detected = {
+  browser: DetectedBrowser | undefined;
+  os: DetectedOs | undefined;
+};
+
+export function detect(): Detected {
   const parserResults: ReturnType<UAParser["getResult"]> =
     // @ts-ignore
     UAParser().withFeatureCheck();
@@ -16,7 +31,7 @@ export function detect() {
     os: parserResults.os.name
       ? {
           name: parserResults.os.name,
-          version: toSimpleVersionString(parserResults.os.version),
+          version: "5", // toSimpleVersionString(parserResults.os.version),
         }
       : undefined,
   };

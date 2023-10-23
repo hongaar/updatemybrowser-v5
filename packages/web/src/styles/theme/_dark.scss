@@ -33,6 +33,10 @@
     --warning-focus: #{rgba($amber-500, 0.125)};
     --warning-inverse: #{$grey-800};
 
+    // Error colors
+    --error: #{$red-500};
+    --warning-inverse: #{$grey-800};
+
     // Secondary colors
     --secondary: #{$grey-600};
     --secondary-hover: #{$grey-500};

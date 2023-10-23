@@ -112,6 +112,12 @@ export type Image = {
   asset: Reference;
 };
 
+export type OsVersion<T = Reference> = {
+  _type: "osVersion";
+  os: T;
+  versionConstraint?: string;
+};
+
 export type Language = Doc<{
   _type: "language";
   id: string;
@@ -167,22 +173,22 @@ export type Release<T extends "ref" | "expanded" | "flatExpanded" = "ref"> =
         caniuse_contribute_usage?: boolean;
       }>[];
       currentVersion: string;
-      currentUsage: number;
+      currentUsage?: number;
       downloadUrl?: string;
     } & (T extends "ref"
       ? {
           browser: Reference;
-          oses: Keyed<Reference>[];
+          oses: Keyed<OsVersion>[];
         }
       : T extends "expanded"
       ? {
           browser: Browser;
-          oses: OS[];
+          oses: OsVersion<OS>[];
         }
       : // flatExpanded
         {
           browser: Browser;
-          os: OS;
+          os: OsVersion<OS>;
         })
   >;
 

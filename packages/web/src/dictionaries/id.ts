@@ -50,6 +50,9 @@ const indonesian: Dict = {
   BrowserNotDetected: "Browser tidak terdeteksi",
   BrowserNotDetectedDescription: "Kami tidak dapat mendeteksi browser Anda.",
   DetectingYourBrowser: "Mendeteksi browser Anda",
+  NotAvailableOnYourOs: "Tidak tersedia di perangkat Anda",
+  NotAvailableOnYourOsDescription:
+    "Browser ini tidak tersedia di perangkat Anda.",
 };
 
 export default indonesian;

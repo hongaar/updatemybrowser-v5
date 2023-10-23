@@ -3,42 +3,54 @@ import type { Release } from "../schema.js";
 
 export const releases: Release[] = [
   {
+    _updatedAt: "2023-10-23T16:11:51Z",
+    currentVersion: "118",
+    versionSource: [
+      {
+        _key: "d8831f50701f",
+        caniuse_agent: "chrome",
+        caniuse_contribute_usage: false,
+        _type: "versionSource",
+        source: "caniuse",
+      },
+    ],
     oses: [
       {
-        _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-        _type: "reference",
-        _key: "f81b38a941f0",
+        os: {
+          _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
+          _type: "reference",
+        },
+        _type: "osVersion",
+        _key: "cacfdd0c7520",
       },
       {
-        _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
-        _type: "reference",
-        _key: "6a56bd545b9f",
+        os: {
+          _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+          _type: "reference",
+        },
+        _type: "osVersion",
+        _key: "221acd0fbfb9",
       },
     ],
     _createdAt: "2023-10-23T06:52:17Z",
+    _type: "release",
     browser: {
       _ref: "278c02c3-76d4-4011-a543-39ca003ff1ee",
       _type: "reference",
     },
-    _type: "release",
-    currentUsage: 27.250799999999998,
-    _updatedAt: "2023-10-23T06:52:17Z",
-    versionSource: [
-      {
-        caniuse_agent: "chrome",
-        caniuse_contribute_usage: true,
-        _type: "versionSource",
-        source: "caniuse",
-        _key: "d8831f50701f",
-      },
-    ],
-    _rev: "7V6W77YnYTSXWZozOZOVWP",
+    _rev: "7V6W77YnYTSXWZozOaOA73",
     downloadUrl: "https://www.chromium.org/getting-involved/download-chromium/",
     _id: "df47bd5d-957d-470f-b972-dc79e44b6ec3",
-    currentVersion: "118",
   },
   {
-    _updatedAt: "2023-10-23T03:22:53Z",
+    _createdAt: "2023-10-05T15:07:57Z",
+    browser: {
+      _type: "reference",
+      _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
+    },
+    _rev: "7V6W77YnYTSXWZozOaIxxW",
+    _type: "release",
+    currentVersion: "118",
     versionSource: [
       {
         source: "caniuse",
@@ -50,77 +62,120 @@ export const releases: Release[] = [
     ],
     oses: [
       {
-        _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-        _type: "reference",
-        _key: "a61da5b1b6f7",
+        os: {
+          _type: "reference",
+          _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
+        },
+        _type: "osVersion",
+        _key: "ec0c9763038f",
       },
       {
-        _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
-        _type: "reference",
-        _key: "e72c497ddd44",
+        os: {
+          _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+          _type: "reference",
+        },
+        versionConstraint: "<4",
+        _type: "osVersion",
+        _key: "6ee9db37b16b",
       },
       {
-        _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
-        _type: "reference",
-        _key: "9d6c833aebed",
+        os: {
+          _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
+          _type: "reference",
+        },
+        _type: "osVersion",
+        _key: "c454560be802",
       },
       {
-        _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
-        _type: "reference",
-        _key: "041d729282a8",
+        os: {
+          _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
+          _type: "reference",
+        },
+        _type: "osVersion",
+        _key: "830d3a5aa436",
       },
     ],
-    _createdAt: "2023-10-05T15:07:57Z",
-    browser: {
-      _type: "reference",
-      _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    },
-    _rev: "IW6hjkMGxufdYFszO2UwKk",
-    _type: "release",
-    _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
     currentUsage: 27.250799999999998,
-    currentVersion: "118",
+    _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
+    _updatedAt: "2023-10-23T15:45:43Z",
   },
   {
+    _type: "release",
+    _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
+    _updatedAt: "2023-10-23T15:11:58Z",
+    oses: [
+      {
+        _type: "osVersion",
+        _key: "52bb0aa33b57",
+        os: {
+          _ref: "0e2dc525-cff5-4ec1-a670-e86684304740",
+          _type: "reference",
+        },
+      },
+      {
+        os: {
+          _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
+          _type: "reference",
+        },
+        _type: "osVersion",
+        _key: "a5a6152f5bbb",
+      },
+    ],
+    _createdAt: "2023-10-19T15:49:54Z",
+    _rev: "IW6hjkMGxufdYFszO2w8mM",
+    currentVersion: "17",
     versionSource: [
       {
-        _type: "versionSource",
-        source: "caniuse",
         _key: "1ea1a0d5b513",
         caniuse_agent: "safari",
         caniuse_contribute_usage: true,
+        _type: "versionSource",
+        source: "caniuse",
       },
     ],
     browser: {
       _ref: "c384ba9c-d502-4946-99a2-734b295088aa",
       _type: "reference",
     },
-    _rev: "W9qhSalSVouRAt4vZLlTfd",
-    _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _updatedAt: "2023-10-19T15:49:54Z",
-    oses: [
-      {
-        _ref: "0e2dc525-cff5-4ec1-a670-e86684304740",
-        _type: "reference",
-        _key: "80c9eb10c84b",
-      },
-      {
-        _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
-        _type: "reference",
-        _key: "6e9ae4d9039f",
-      },
-    ],
-    _createdAt: "2023-10-19T15:49:54Z",
-    _type: "release",
     currentUsage: 5.496420000000001,
-    currentVersion: "17",
   },
   {
-    _rev: "Lh7rhBNTpK2mkuYCdImabq",
+    _rev: "7V6W77YnYTSXWZozOaFZ4K",
+    _updatedAt: "2023-10-23T15:08:55Z",
+    browser: {
+      _ref: "e2ebb783-874b-497f-b90f-0d17956d8842",
+      _type: "reference",
+    },
+    oses: [
+      {
+        os: {
+          _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
+          _type: "reference",
+        },
+        _type: "osVersion",
+        _key: "ec099ce524bb",
+      },
+      {
+        os: {
+          _type: "reference",
+          _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+        },
+        _type: "osVersion",
+        _key: "6fe6e56168e6",
+      },
+      {
+        _key: "afe6022474a2",
+        os: {
+          _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
+          _type: "reference",
+        },
+        _type: "osVersion",
+      },
+    ],
+    _createdAt: "2023-10-19T15:50:30Z",
     _type: "release",
     currentUsage: 5.16083,
     _id: "2e7a7bed-6a90-4ffc-8230-32bd93fa28d9",
-    _updatedAt: "2023-10-23T06:48:55Z",
     currentVersion: "118",
     versionSource: [
       {
@@ -131,30 +186,10 @@ export const releases: Release[] = [
         source: "caniuse",
       },
     ],
-    oses: [
-      {
-        _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-        _type: "reference",
-        _key: "3029a843330e",
-      },
-      {
-        _type: "reference",
-        _key: "1ad88c7dd25b",
-        _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
-      },
-      {
-        _type: "reference",
-        _key: "0ac5c89ac839",
-        _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
-      },
-    ],
-    _createdAt: "2023-10-19T15:50:30Z",
-    browser: {
-      _ref: "e2ebb783-874b-497f-b90f-0d17956d8842",
-      _type: "reference",
-    },
   },
   {
+    _rev: "IW6hjkMGxufdYFszO2w6AY",
+    currentVersion: "118",
     versionSource: [
       {
         caniuse_agent: "firefox",
@@ -165,32 +200,23 @@ export const releases: Release[] = [
     ],
     oses: [
       {
-        _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-        _type: "reference",
-        _key: "3daace8b5678",
-      },
-      {
-        _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
-        _type: "reference",
-        _key: "2af1b23c4681",
-      },
-      {
-        _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
-        _type: "reference",
-        _key: "8330f9506ea3",
+        os: {
+          _type: "reference",
+          _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+        },
+        _type: "osVersion",
+        _key: "4fe108553494",
       },
     ],
     _createdAt: "2023-10-08T06:17:00Z",
-    _rev: "7V6W77YnYTSXWZozOZBjzt",
-    _type: "release",
-    currentUsage: 2.63483,
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _updatedAt: "2023-10-23T03:22:33Z",
+    _updatedAt: "2023-10-23T15:10:49Z",
     browser: {
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
-    currentVersion: "118",
+    _type: "release",
+    currentUsage: 2.63483,
   },
   {
     _createdAt: "2023-10-20T15:30:56Z",
@@ -198,65 +224,86 @@ export const releases: Release[] = [
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
-    _rev: "Lh7rhBNTpK2mkuYCdF7J74",
-    _type: "release",
     _id: "482d93a5-3311-4b97-b44d-5839a448612e",
-    currentVersion: "118",
     versionSource: [
       {
+        source: "caniuse",
+        _key: "7af960bed82d",
         caniuse_agent: "firefox",
         caniuse_contribute_usage: true,
         _type: "versionSource",
-        source: "caniuse",
-        _key: "7af960bed82d",
       },
     ],
-    currentUsage: 2.63483,
-    _updatedAt: "2023-10-20T15:31:36Z",
     oses: [
       {
-        _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
-        _type: "reference",
-        _key: "7bb2c2c1c54d",
+        _type: "osVersion",
+        _key: "a4857c368a79",
+        os: {
+          _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+          _type: "reference",
+        },
       },
     ],
+    _rev: "7V6W77YnYTSXWZozOaFmIV",
+    _type: "release",
+    currentUsage: 2.63483,
+    _updatedAt: "2023-10-23T15:11:14Z",
+    currentVersion: "118",
   },
   {
-    currentUsage: 2.3877691,
-    currentVersion: "22",
     versionSource: [
       {
-        caniuse_contribute_usage: true,
         _type: "versionSource",
         source: "caniuse",
         _key: "ea8e62bc6b25",
         caniuse_agent: "samsung",
+        caniuse_contribute_usage: true,
       },
     ],
+    _type: "release",
+    _id: "fb782fe5-1a48-46a0-ac53-2388dd571903",
     oses: [
       {
-        _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
-        _type: "reference",
-        _key: "0438d006a030",
+        os: {
+          _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
+          _type: "reference",
+        },
+        _type: "osVersion",
+        _key: "f2b070fa2538",
       },
     ],
-    _rev: "W9qhSalSVouRAt4vZKZHGs",
-    _id: "fb782fe5-1a48-46a0-ac53-2388dd571903",
-    _updatedAt: "2023-10-18T15:25:24Z",
     _createdAt: "2023-10-18T15:25:24Z",
     browser: {
       _ref: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
       _type: "reference",
     },
-    _type: "release",
+    _rev: "Lh7rhBNTpK2mkuYCdJzvNi",
+    currentUsage: 2.3877691,
+    _updatedAt: "2023-10-23T15:11:39Z",
+    currentVersion: "22",
   },
   {
     _createdAt: "2023-10-19T15:48:43Z",
-    _rev: "7V6W77YnYTSXWZozOYo1aH",
-    _type: "release",
+    _rev: "7V6W77YnYTSXWZozOaFimh",
     currentUsage: 1.7233,
+    oses: [
+      {
+        os: {
+          _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+          _type: "reference",
+        },
+        _type: "osVersion",
+        _key: "999cf0a3f688",
+      },
+    ],
+    browser: {
+      _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
+      _type: "reference",
+    },
+    _type: "release",
     _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _updatedAt: "2023-10-22T17:58:15Z",
+    _updatedAt: "2023-10-23T15:11:00Z",
+    currentVersion: "103",
     versionSource: [
       {
         source: "caniuse",
@@ -266,25 +313,15 @@ export const releases: Release[] = [
         _type: "versionSource",
       },
     ],
-    browser: {
-      _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-      _type: "reference",
-    },
-    currentVersion: "103",
-    oses: [
-      {
-        _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-        _type: "reference",
-        _key: "a064510315ed",
-      },
-      {
-        _type: "reference",
-        _key: "2e356c717b6e",
-        _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
-      },
-    ],
   },
   {
+    browser: {
+      _ref: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
+      _type: "reference",
+    },
+    _rev: "IW6hjkMGxufdYFszO2yVt8",
+    _type: "release",
+    currentUsage: 0.4807101,
     versionSource: [
       {
         _type: "versionSource",
@@ -296,55 +333,66 @@ export const releases: Release[] = [
     ],
     oses: [
       {
-        _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-        _type: "reference",
-        _key: "411d2e71ac3c",
+        os: {
+          _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
+          _type: "reference",
+        },
+        versionConstraint: "<8",
+        _type: "osVersion",
+        _key: "570091bd0121",
       },
     ],
-    _createdAt: "2023-10-19T15:49:20Z",
+    _updatedAt: "2023-10-23T16:14:36Z",
     currentVersion: "11",
-    _updatedAt: "2023-10-19T15:49:20Z",
-    browser: {
-      _ref: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-      _type: "reference",
-    },
-    _rev: "7V6W77YnYTSXWZozOUlynD",
-    _type: "release",
-    currentUsage: 0.4807101,
+    _createdAt: "2023-10-19T15:49:20Z",
     _id: "9f482aff-b73c-45bb-bf10-a4ea19668029",
   },
   {
     versionSource: [
       {
-        caniuse_agent: "chrome",
         caniuse_contribute_usage: false,
         _type: "versionSource",
         source: "caniuse",
         _key: "c6ae8b62c69e",
+        caniuse_agent: "chrome",
       },
     ],
-    oses: [
-      {
-        _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-        _type: "reference",
-        _key: "1c93fce36ed5",
-      },
-      {
-        _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
-        _type: "reference",
-        _key: "c2b847c741bd",
-      },
-    ],
-    _rev: "Lh7rhBNTpK2mkuYCdIma2k",
-    _type: "release",
-    currentVersion: "118",
     _createdAt: "2023-10-14T02:45:47Z",
     browser: {
       _ref: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
       _type: "reference",
     },
-    currentUsage: 0,
     _id: "f3feab0b-20a2-4397-9458-bf579d5fd7ea",
-    _updatedAt: "2023-10-23T06:48:14Z",
+    _updatedAt: "2023-10-23T15:09:42Z",
+    oses: [
+      {
+        _key: "d817db532d4b",
+        os: {
+          _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+          _type: "reference",
+        },
+        _type: "osVersion",
+      },
+      {
+        os: {
+          _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
+          _type: "reference",
+        },
+        _type: "osVersion",
+        _key: "4a025ec69eae",
+      },
+      {
+        os: {
+          _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
+          _type: "reference",
+        },
+        _type: "osVersion",
+        _key: "57a72f902b7d",
+      },
+    ],
+    _rev: "7V6W77YnYTSXWZozOaFa0B",
+    _type: "release",
+    currentUsage: 0,
+    currentVersion: "118",
   },
 ];

@@ -47,6 +47,9 @@ const english = {
   BrowserNotDetected: "Browser not detected",
   BrowserNotDetectedDescription: "We could not detect your browser.",
   DetectingYourBrowser: "Detecting your browser",
+  NotAvailableOnYourOs: "Not available on your device",
+  NotAvailableOnYourOsDescription:
+    "This browser is not available (anymore) on your current device.",
 };
 
 export type Dict = typeof english;

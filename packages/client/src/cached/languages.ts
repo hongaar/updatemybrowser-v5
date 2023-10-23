@@ -3,155 +3,124 @@ import type { Language } from "../schema.js";
 
 export const languages: Language[] = [
   {
+    _updatedAt: "2023-10-04T17:30:25Z",
+    flag: {
+      metadata: {
+        url: "https://api.iconify.design/flag:nl-4x3.svg?width=20&height=20",
+        hFlip: false,
+        collectionName: "Flag Icons",
+        rotate: 0,
+        license: {
+          name: "MIT",
+          url: "https://github.com/lipis/flag-icons/blob/main/LICENSE",
+        },
+        collectionId: "flag",
+        iconName: "nl-4x3",
+        author: {
+          url: "https://github.com/lipis/flag-icons",
+          name: "Panayiotis Lipiridis",
+        },
+        vFlip: false,
+        palette: true,
+        size: {
+          width: 20,
+          height: 20,
+        },
+        inlineSvg:
+          '<svg viewBox="0 0 640 480" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h640v480H0z" fill="#21468b"></path><path d="M0 0h640v320H0z" fill="#fff"></path><path d="M0 0h640v160H0z" fill="#ae1c28"></path></svg>',
+        downloadUrl:
+          "https://api.iconify.design/flag:nl-4x3.svg?width=20&height=20&download=1",
+      },
+      _type: "icon.manager",
+      icon: "flag:nl-4x3",
+    },
     _createdAt: "2023-10-02T10:17:37Z",
     _rev: "ne2Lo8XNb3UQT3zNABRyOf",
     _type: "language",
     name: "Dutch",
     _id: "cef5f9a9-5f4f-46db-96be-0228c9a760ab",
     id: "nl",
-    _updatedAt: "2023-10-04T17:30:25Z",
-    flag: {
-      metadata: {
-        license: {
-          name: "MIT",
-          url: "https://github.com/lipis/flag-icons/blob/main/LICENSE",
-        },
-        palette: true,
-        downloadUrl:
-          "https://api.iconify.design/flag:nl-4x3.svg?width=20&height=20&download=1",
-        hFlip: false,
-        url: "https://api.iconify.design/flag:nl-4x3.svg?width=20&height=20",
-        size: {
-          width: 20,
-          height: 20,
-        },
-        iconName: "nl-4x3",
-        collectionName: "Flag Icons",
-        author: {
-          name: "Panayiotis Lipiridis",
-          url: "https://github.com/lipis/flag-icons",
-        },
-        inlineSvg:
-          '<svg viewBox="0 0 640 480" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h640v480H0z" fill="#21468b"></path><path d="M0 0h640v320H0z" fill="#fff"></path><path d="M0 0h640v160H0z" fill="#ae1c28"></path></svg>',
-        collectionId: "flag",
-        rotate: 0,
-        vFlip: false,
-      },
-      _type: "icon.manager",
-      icon: "flag:nl-4x3",
-    },
   },
   {
-    name: "English",
     _id: "18b3bfa7-f421-4c7f-8208-61c4d02e98c3",
     id: "en",
     _updatedAt: "2023-10-04T17:30:15Z",
     flag: {
-      icon: "flag:gb-4x3",
       metadata: {
         inlineSvg:
           '<svg viewBox="0 0 640 480" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h640v480H0z" fill="#012169"></path><path d="m75 0l244 181L562 0h78v62L400 241l240 178v61h-80L320 301L81 480H0v-60l239-178L0 64V0h75z" fill="#FFF"></path><path d="m424 281l216 159v40L369 281h55zm-184 20l6 35L54 480H0l240-179zM640 0v3L391 191l2-44L590 0h50zM0 0l239 176h-60L0 42V0z" fill="#C8102E"></path><path d="M241 0v480h160V0H241zM0 160v160h640V160H0z" fill="#FFF"></path><path d="M0 193v96h640v-96H0zM273 0v480h96V0h-96z" fill="#C8102E"></path></svg>',
-        palette: true,
-        rotate: 0,
+        collectionId: "flag",
+        hFlip: false,
+        collectionName: "Flag Icons",
         license: {
           name: "MIT",
           url: "https://github.com/lipis/flag-icons/blob/main/LICENSE",
         },
-        vFlip: false,
-        iconName: "gb-4x3",
-        downloadUrl:
-          "https://api.iconify.design/flag:gb-4x3.svg?width=20&height=20&download=1",
-        collectionName: "Flag Icons",
-        collectionId: "flag",
-        size: {
-          height: 20,
-          width: 20,
-        },
-        hFlip: false,
-        url: "https://api.iconify.design/flag:gb-4x3.svg?width=20&height=20",
+        rotate: 0,
         author: {
           name: "Panayiotis Lipiridis",
           url: "https://github.com/lipis/flag-icons",
         },
+        size: {
+          width: 20,
+          height: 20,
+        },
+        palette: true,
+        downloadUrl:
+          "https://api.iconify.design/flag:gb-4x3.svg?width=20&height=20&download=1",
+        url: "https://api.iconify.design/flag:gb-4x3.svg?width=20&height=20",
+        vFlip: false,
+        iconName: "gb-4x3",
       },
       _type: "icon.manager",
+      icon: "flag:gb-4x3",
     },
     _createdAt: "2023-10-02T10:17:27Z",
     _rev: "uzKWDNHSv1RNm7kJ3WQ1fI",
     _type: "language",
+    name: "English",
   },
   {
+    _id: "bf1dee63-2cf3-4bb2-8500-120d6017cccf",
+    id: "de",
     _updatedAt: "2023-10-23T14:39:09Z",
     flag: {
       _type: "icon.manager",
       icon: "flag:de-4x3",
       metadata: {
-        rotate: 0,
-        url: "https://api.iconify.design/flag:de-4x3.svg?width=20&height=20",
-        collectionName: "Flag Icons",
-        collectionId: "flag",
         size: {
           width: 20,
           height: 20,
         },
-        inlineSvg:
-          '<svg viewBox="0 0 640 480" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 320h640v160H0z" fill="#ffce00"></path><path d="M0 0h640v160H0z"></path><path d="M0 160h640v160H0z" fill="#d00"></path></svg>',
-        hFlip: false,
-        vFlip: false,
-        flip: "",
+        url: "https://api.iconify.design/flag:de-4x3.svg?width=20&height=20",
+        iconName: "de-4x3",
         author: {
           name: "Panayiotis Lipiridis",
           url: "https://github.com/lipis/flag-icons",
         },
+        downloadUrl:
+          "https://api.iconify.design/flag:de-4x3.svg?width=20&height=20&download=1",
+        vFlip: false,
+        inlineSvg:
+          '<svg viewBox="0 0 640 480" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 320h640v160H0z" fill="#ffce00"></path><path d="M0 0h640v160H0z"></path><path d="M0 160h640v160H0z" fill="#d00"></path></svg>',
+        palette: true,
+        collectionName: "Flag Icons",
         license: {
           name: "MIT",
           url: "https://github.com/lipis/flag-icons/blob/main/LICENSE",
         },
-        palette: true,
-        iconName: "de-4x3",
-        downloadUrl:
-          "https://api.iconify.design/flag:de-4x3.svg?width=20&height=20&download=1",
+        hFlip: false,
+        collectionId: "flag",
+        flip: "",
+        rotate: 0,
       },
     },
     _createdAt: "2023-10-23T14:39:09Z",
     _rev: "7V6W77YnYTSXWZozOaBuyR",
     _type: "language",
     name: "German",
-    _id: "bf1dee63-2cf3-4bb2-8500-120d6017cccf",
-    id: "de",
   },
   {
-    flag: {
-      metadata: {
-        downloadUrl:
-          "https://api.iconify.design/flag:id-4x3.svg?width=20&height=20&download=1",
-        size: {
-          width: 20,
-          height: 20,
-        },
-        rotate: 0,
-        inlineSvg:
-          '<svg viewBox="0 0 640 480" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h640v240H0Z" fill="#e70011"></path><path d="M0 240h640v240H0Z" fill="#fff"></path></svg>',
-        flip: "",
-        url: "https://api.iconify.design/flag:id-4x3.svg?width=20&height=20",
-        palette: true,
-        collectionId: "flag",
-        author: {
-          name: "Panayiotis Lipiridis",
-          url: "https://github.com/lipis/flag-icons",
-        },
-        hFlip: false,
-        vFlip: false,
-        iconName: "id-4x3",
-        license: {
-          url: "https://github.com/lipis/flag-icons/blob/main/LICENSE",
-          name: "MIT",
-        },
-        collectionName: "Flag Icons",
-      },
-      _type: "icon.manager",
-      icon: "flag:id-4x3",
-    },
     _createdAt: "2023-10-02T10:43:21Z",
     _rev: "aO8M0JobkfhvTnYZtWBnSJ",
     _type: "language",
@@ -159,5 +128,36 @@ export const languages: Language[] = [
     _id: "5a5f235a-a587-4fbc-80b4-8391784b7098",
     id: "id",
     _updatedAt: "2023-10-07T15:40:04Z",
+    flag: {
+      metadata: {
+        vFlip: false,
+        collectionId: "flag",
+        flip: "",
+        iconName: "id-4x3",
+        hFlip: false,
+        rotate: 0,
+        url: "https://api.iconify.design/flag:id-4x3.svg?width=20&height=20",
+        inlineSvg:
+          '<svg viewBox="0 0 640 480" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h640v240H0Z" fill="#e70011"></path><path d="M0 240h640v240H0Z" fill="#fff"></path></svg>',
+        palette: true,
+        downloadUrl:
+          "https://api.iconify.design/flag:id-4x3.svg?width=20&height=20&download=1",
+        size: {
+          width: 20,
+          height: 20,
+        },
+        author: {
+          url: "https://github.com/lipis/flag-icons",
+          name: "Panayiotis Lipiridis",
+        },
+        collectionName: "Flag Icons",
+        license: {
+          name: "MIT",
+          url: "https://github.com/lipis/flag-icons/blob/main/LICENSE",
+        },
+      },
+      _type: "icon.manager",
+      icon: "flag:id-4x3",
+    },
   },
 ];

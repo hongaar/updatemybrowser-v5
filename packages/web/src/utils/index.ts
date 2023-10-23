@@ -8,7 +8,7 @@ export function averageUsage(browser: BrowserWithFlatReleases) {
   return releases.length === 0
     ? 0
     : releases.reduce((acc, release) => {
-        return acc + release.currentUsage;
+        return acc + (release.currentUsage || 0);
       }, 0) / releases.length;
 }
 

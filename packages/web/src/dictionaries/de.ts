@@ -48,6 +48,9 @@ const german: Dict = {
   Widget: "Widget",
   YouAreUsing: "Du verwendest",
   YouHaveTheLatestVersion: "Du hast die neueste Version",
+  NotAvailableOnYourOs: "Nicht verfügbar auf deinem Betriebssystem",
+  NotAvailableOnYourOsDescription:
+    "Dieser Browser ist nicht verfügbar auf deinem Betriebssystem",
 };
 
 export default german;

@@ -1,6 +1,11 @@
 import assert from "node:assert";
 import test from "node:test";
-import { gt, highestVersion, toSimpleVersionString } from "../src/version.js";
+import {
+  gt,
+  highestVersion,
+  lt,
+  toSimpleVersionString,
+} from "../src/version.js";
 
 test("toSimpleVersionString returns simple version string", () => {
   assert.strictEqual(toSimpleVersionString("2"), "2");
@@ -24,4 +29,13 @@ test("highestVersion returns highest version", () => {
 test("gt returns true for higher versions", () => {
   assert.strictEqual(gt("1", "3"), false);
   assert.strictEqual(gt("99", "a"), true);
+  assert.strictEqual(gt("1.4.5", "1.4.6"), false);
+  assert.strictEqual(gt("20.10", "10.20"), true);
+});
+
+test("lt returns true for lower versions", () => {
+  assert.strictEqual(lt("1", "3"), true);
+  assert.strictEqual(lt("99", "a"), false);
+  assert.strictEqual(lt("1.4.5", "1.4.6"), true);
+  assert.strictEqual(lt("20.10", "10.20"), false);
 });

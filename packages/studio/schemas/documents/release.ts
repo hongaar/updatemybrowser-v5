@@ -9,12 +9,12 @@ export const release: DocumentDefinition = {
     select: {
       title: "browser.name",
       icon: "browser.icon",
-      subIcon: "oses.0.icon",
+      subIcon: "oses.0.os.icon",
       currentVersion: "currentVersion",
-      os0: "oses.0.name",
-      os1: "oses.1.name",
-      os2: "oses.2.name",
-      os3: "oses.3.name",
+      os0: "oses.0.os.name",
+      os1: "oses.1.os.name",
+      os2: "oses.2.os.name",
+      os3: "oses.3.os.name",
     },
     prepare({
       title,
@@ -50,12 +50,7 @@ export const release: DocumentDefinition = {
       name: "oses",
       title: "Operating systems",
       type: "array",
-      of: [
-        {
-          type: "reference",
-          to: [{ type: "os" }],
-        },
-      ],
+      of: [{ type: "osVersion" }],
       validation: (rule) => rule.required(),
     },
     {

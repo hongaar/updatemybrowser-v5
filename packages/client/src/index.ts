@@ -89,9 +89,10 @@ export async function getReleasesExpanded({
     return {
       ...release,
       browser: browserResults.find((item) => release.browser._ref === item._id),
-      oses: release.oses.map((os) =>
-        osResults.find((item) => os._ref === item._id),
-      ),
+      oses: release.oses.map(({ os, ...rest }) => ({
+        ...rest,
+        os: osResults.find((item) => os._ref === item._id),
+      })),
     };
   }) as ReleaseExpanded[];
 
@@ -106,13 +107,16 @@ export async function getReleasesFlatExpanded({
   const browserResults = await getBrowsers({ useCache });
 
   const expandedResults = results.flatMap((release) => {
-    return release.oses.map((os) => {
+    return release.oses.map(({ os, ...rest }) => {
       return {
         ...release,
         browser: browserResults.find(
           (item) => release.browser._ref === item._id,
         ),
-        os: osResults.find((item) => os._ref === item._id),
+        os: {
+          ...rest,
+          os: osResults.find((item) => os._ref === item._id),
+        },
         oses: undefined,
       };
     });

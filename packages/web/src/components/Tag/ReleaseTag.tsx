@@ -1,7 +1,7 @@
 "use client";
 
 import type { ReleaseFlatExpanded } from "@updatemybrowser/client";
-import { detect } from "@updatemybrowser/detect";
+import { detect, matchesOs } from "@updatemybrowser/detect";
 import { Tag } from ".";
 import type { Dict } from "../../dictionaries/en";
 import styles from "./tag.module.scss";
@@ -15,15 +15,9 @@ export function ReleaseTag({ dict, release }: Props) {
   const { os: detectedOs } = detect();
 
   return (
-    <Tag
-      className={
-        release.os.matchOsName.includes(detectedOs?.name || "no-os")
-          ? styles.current
-          : ""
-      }
-    >
-      {release.os.icon?.predefined?.metadata?.inlineSvg ||
-      release.os.icon?.custom_svg ? (
+    <Tag className={matchesOs(release.os, detectedOs) ? styles.current : ""}>
+      {release.os.os.icon?.predefined?.metadata?.inlineSvg ||
+      release.os.os.icon?.custom_svg ? (
         <>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -31,15 +25,15 @@ export function ReleaseTag({ dict, release }: Props) {
             height={80}
             width={80}
             src={`data:image/svg+xml;utf8,${encodeURIComponent(
-              release.os.icon?.predefined?.metadata.inlineSvg ||
-                release.os.icon?.custom_svg ||
+              release.os.os.icon?.predefined?.metadata.inlineSvg ||
+                release.os.os.icon?.custom_svg ||
                 "",
             )}`}
             alt="Icon"
           />
         </>
       ) : null}
-      {release.os.name}
+      {release.os.os.name}
       <span title={dict.LatestAvailableVersion} className={styles.version}>
         {release.currentVersion}
       </span>

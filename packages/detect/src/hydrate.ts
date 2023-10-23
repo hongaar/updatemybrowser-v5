@@ -1,13 +1,25 @@
 import type {
   BrowserWithFlatReleases,
+  OS,
+  OsVersion,
   ReleaseFlatExpanded,
 } from "@updatemybrowser/client";
-import { gt, highestVersion } from "@updatemybrowser/core";
-import { detect } from "./detect.js";
+import { gt, highestVersion, lt } from "@updatemybrowser/core";
+import { detect, type DetectedOs } from "./detect.js";
 
 export type MaybeHydratedBrowserWithFlatReleases = BrowserWithFlatReleases & {
   match?: {
+    /**
+     * Whether browser matches the detected browser and has a release which
+     * matches detected os.
+     */
     currentBrowser: boolean;
+
+    /**
+     * Whether browser matches the detected browser
+     */
+    browserMatch: boolean;
+
     currentOsRelease: ReleaseFlatExpanded;
     availableOnCurrentOs: boolean;
     highestAvailableVersion: string;
@@ -15,6 +27,32 @@ export type MaybeHydratedBrowserWithFlatReleases = BrowserWithFlatReleases & {
     currentVersion?: string;
   };
 };
+
+export function matchesOs(osVersion: OsVersion<OS>, os?: DetectedOs) {
+  const nameMatch = osVersion.os.matchOsName.includes(os?.name || "no-os");
+
+  if (!nameMatch) {
+    return false;
+  }
+
+  if (!os?.version) {
+    return true;
+  }
+
+  if (!osVersion.versionConstraint) {
+    return true;
+  }
+
+  if (osVersion.versionConstraint.startsWith("<")) {
+    return lt(os.version, osVersion.versionConstraint.replace("<", ""));
+  }
+
+  if (osVersion.versionConstraint.startsWith(">")) {
+    return gt(os.version, osVersion.versionConstraint.replace(">", ""));
+  }
+
+  return false;
+}
 
 export function hydrateBrowsersWithFlatReleases(
   browsers: BrowserWithFlatReleases[],
@@ -26,8 +64,9 @@ export function hydrateBrowserWithFlatReleases(
   browser: BrowserWithFlatReleases,
 ) {
   const { os, browser: detectedBrowser } = detect();
+
   const currentOsRelease = browser.releases?.find((release) =>
-    release.os.matchOsName.includes(os?.name || "no-os"),
+    matchesOs(release.os, os),
   );
   const availableOnCurrentOs = !!currentOsRelease;
   const highestAvailableVersion = highestVersion(
@@ -41,6 +80,7 @@ export function hydrateBrowserWithFlatReleases(
     ...browser,
     match: {
       currentBrowser: availableOnCurrentOs && browserMatch,
+      browserMatch,
       currentOsRelease,
       availableOnCurrentOs,
       highestAvailableVersion,
@@ -66,7 +106,7 @@ export function hydrateReleasesFlatExpanded(releases: ReleaseFlatExpanded[]) {
   const { os, browser } = detect();
 
   return releases.map((item) => {
-    const osMatch = item.os?.matchOsName.includes(os?.name || "no-os");
+    const osMatch = matchesOs(item.os, os);
     const browserMatch = item.browser.matchBrowserName.includes(
       browser?.name || "no-browser",
     );

@@ -1,7 +1,12 @@
 import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
 import type { Dict } from "../../dictionaries/en";
 import { BrowserAlternatives } from "../BrowserAlternatives";
-import { LatestVersion, TryBanner, UpdateAvailable } from "../BrowserBanners";
+import {
+  LatestVersion,
+  NotAvailable,
+  TryBanner,
+  UpdateAvailable,
+} from "../BrowserBanners";
 import { BrowserMetadata } from "../BrowserMetadata";
 import { Icon } from "../Icon";
 import { ExternalLink } from "../Link";
@@ -48,6 +53,7 @@ export function BrowserPage({
       <UpdateAvailable language={language} dict={dict} browser={browser} />
       <LatestVersion language={language} dict={dict} browser={browser} />
       <TryBanner language={language} dict={dict} browser={browser} />
+      <NotAvailable language={language} dict={dict} browser={browser} />
       <div className={styles.alternativesWrapper}>
         <BrowserAlternatives
           language={language}
