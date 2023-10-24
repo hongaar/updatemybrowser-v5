@@ -2981,6 +2981,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sanity/document-internationalization@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@sanity/document-internationalization@npm:2.0.1"
+  dependencies:
+    "@sanity/icons": "npm:^2.2.2"
+    "@sanity/incompatible-plugin": "npm:^1.0.4"
+    "@sanity/ui": "npm:^1.2.2"
+    "@sanity/uuid": "npm:^3.0.1"
+    sanity-plugin-internationalized-array: "npm:^1.6.0"
+    sanity-plugin-utils: "npm:^1.6.2"
+  peerDependencies:
+    "@sanity/ui": ^1.2.2
+    react: ^18
+    sanity: ^3.0.0
+    styled-components: ^5.3.6
+  checksum: 0aab141e8970e76da26e165edde16a9f5aebe92f51064af06aa2f512835b5005b8fb4d9c7aa2ca15c79f204b02601fd4198c11b8ca168d9d9fecdbd29215c679
+  languageName: node
+  linkType: hard
+
 "@sanity/eslint-config-studio@npm:3.0.1":
   version: 3.0.1
   resolution: "@sanity/eslint-config-studio@npm:3.0.1"
@@ -3441,6 +3460,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/codemirror@npm:^5.60.4, @types/codemirror@npm:~5.60.5":
+  version: 5.60.12
+  resolution: "@types/codemirror@npm:5.60.12"
+  dependencies:
+    "@types/tern": "npm:*"
+  checksum: 362d65585d543cded6e183d25861839df84d9c1ed257fc01efede393cef80a880f2c9443d8472ce82f77423f88418f6e8516a4c2aa410514962d7f1a7570679c
+  languageName: node
+  linkType: hard
+
+"@types/estree@npm:*":
+  version: 1.0.3
+  resolution: "@types/estree@npm:1.0.3"
+  checksum: c51984ec3003a93b619f25995ceba74428f390747d246833928d0121bb2df3b8bca67deb27fc634da47c5b341837d2ae17d0c5b8d16be5110477a73531ac3528
+  languageName: node
+  linkType: hard
+
 "@types/event-source-polyfill@npm:1.0.1":
   version: 1.0.1
   resolution: "@types/event-source-polyfill@npm:1.0.1"
@@ -3528,6 +3563,13 @@ __metadata:
   version: 4.14.199
   resolution: "@types/lodash@npm:4.14.199"
   checksum: 340aabe9b023553d64e47f2af7f2010814c1178ce3a2b256e8dd54c444578d5e6e937d70c7117ee1fac5c0fc429b592ab9f6d69a966f0a1222ebcbbe6d516c4a
+  languageName: node
+  linkType: hard
+
+"@types/marked@npm:^4.0.7":
+  version: 4.3.2
+  resolution: "@types/marked@npm:4.3.2"
+  checksum: c1b5aa2cee0b8929164f4a8d206d7f89256ebde0d5b9998e9cdf6da2a5fa71162f66ef30e80b98213ee2c3372514b39b756e8494980174a4907a4aa4690b4d1d
   languageName: node
   linkType: hard
 
@@ -3699,6 +3741,15 @@ __metadata:
     "@types/react": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 0f539b4742274d973e2a5afc72dc4455e8b045d7da5e5879301181a1523d300900395eee8745a13cc0204726a4102ba989ebe531e5fda4cd100adaf8b6c6b507
+  languageName: node
+  linkType: hard
+
+"@types/tern@npm:*":
+  version: 0.23.6
+  resolution: "@types/tern@npm:0.23.6"
+  dependencies:
+    "@types/estree": "npm:*"
+  checksum: 72ce4dc42759588a4fae49b3d3776fd180a8aab6a290a95685262887b0003b53e7969a65a76ac415904c6af727d3c4d9fd70637cd05128c5affddc9402ea2b10
   languageName: node
   linkType: hard
 
@@ -4022,6 +4073,7 @@ __metadata:
   resolution: "@updatemybrowser/studio@workspace:packages/studio"
   dependencies:
     "@sanity/color-input": "npm:3.1.0"
+    "@sanity/document-internationalization": "npm:2.0.1"
     "@sanity/eslint-config-studio": "npm:3.0.1"
     "@sanity/icons": "npm:^2.5.0"
     "@sanity/ui": "npm:^1.8.2"
@@ -4031,6 +4083,7 @@ __metadata:
     "@updatemybrowser/client": "workspace:*"
     "@updatemybrowser/detect": "workspace:*"
     "@updatemybrowser/updater": "workspace:*"
+    easymde: "npm:2"
     eslint: "npm:8.51.0"
     prettier: "npm:3.0.3"
     react: "npm:18.2.0"
@@ -4040,6 +4093,7 @@ __metadata:
     sanity: "npm:3.17.0"
     sanity-plugin-icon-manager: "npm:1.1.1"
     sanity-plugin-internationalized-array: "npm:1.10.3"
+    sanity-plugin-markdown: "npm:4.1.0"
     styled-components: "npm:^5.3.11"
     typescript: "npm:5.2.2"
   languageName: unknown
@@ -4992,6 +5046,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"codemirror-spell-checker@npm:1.1.2":
+  version: 1.1.2
+  resolution: "codemirror-spell-checker@npm:1.1.2"
+  dependencies:
+    typo-js: "npm:*"
+  checksum: ce591cbeaf11d0530aa819b7fcecd707e5b8bb74e29546ffefca29e9d8d497a081a6c33dc28e8acc1d8f13406c7c8c410c43551ad84a751ae3692b1109f2e8dd
+  languageName: node
+  linkType: hard
+
+"codemirror@npm:^5.63.1":
+  version: 5.65.15
+  resolution: "codemirror@npm:5.65.15"
+  checksum: 877c873b2b0b5ce0e0dfaf988f4b26f6c6fe0be0f7fcea39d6b046286c3141cb6c3529eff76b0f54b59fee005ec62c10cc17b283f9ee13e649c593f2b9e33686
+  languageName: node
+  linkType: hard
+
 "codemirror@npm:^6.0.0":
   version: 6.0.1
   resolution: "codemirror@npm:6.0.1"
@@ -5898,6 +5968,19 @@ __metadata:
   version: 0.2.0
   resolution: "eastasianwidth@npm:0.2.0"
   checksum: 9b1d3e1baefeaf7d70799db8774149cef33b97183a6addceeba0cf6b85ba23ee2686f302f14482006df32df75d32b17c509c143a3689627929e4a8efaf483952
+  languageName: node
+  linkType: hard
+
+"easymde@npm:2":
+  version: 2.18.0
+  resolution: "easymde@npm:2.18.0"
+  dependencies:
+    "@types/codemirror": "npm:^5.60.4"
+    "@types/marked": "npm:^4.0.7"
+    codemirror: "npm:^5.63.1"
+    codemirror-spell-checker: "npm:1.1.2"
+    marked: "npm:^4.1.0"
+  checksum: 0cbeb39442542a1b4132f00c98d557944ef1483ee48abccf2cd052ca90710275f92ef3f9ed7a07c175e6999baf22e33607c0659a6cd5e25d17013fd8a3da0244
   languageName: node
   linkType: hard
 
@@ -8728,6 +8811,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"marked@npm:^4.1.0":
+  version: 4.3.0
+  resolution: "marked@npm:4.3.0"
+  bin:
+    marked: bin/marked.js
+  checksum: c830bb4cb3705b754ca342b656e8a582d7428706b2678c898b856f6030c134ce2d1e19136efa3e6a1841f7330efbd24963d6bdeddc57d2938e906250f99895d0
+  languageName: node
+  linkType: hard
+
 "material-colors@npm:^1.2.1":
   version: 1.2.6
   resolution: "material-colors@npm:1.2.6"
@@ -10885,6 +10977,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-simplemde-editor@npm:^5.2.0":
+  version: 5.2.0
+  resolution: "react-simplemde-editor@npm:5.2.0"
+  dependencies:
+    "@types/codemirror": "npm:~5.60.5"
+  peerDependencies:
+    easymde: ">= 2.0.0 < 3.0.0"
+    react: ">=16.8.2"
+    react-dom: ">=16.8.2"
+  checksum: 25934a8c4939e72c1a19227b726c455abc23cf76bab6aa8cd646e47d7688fd77138c04d9f4ba6e21d092cedb4cb296e10da3e2c8c91f0f18a7602c1d0ec7a43a
+  languageName: node
+  linkType: hard
+
 "react-style-proptype@npm:^3.2.2":
   version: 3.2.2
   resolution: "react-style-proptype@npm:3.2.2"
@@ -11363,7 +11468,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sanity-plugin-internationalized-array@npm:1.10.3":
+"sanity-plugin-internationalized-array@npm:1.10.3, sanity-plugin-internationalized-array@npm:^1.6.0":
   version: 1.10.3
   resolution: "sanity-plugin-internationalized-array@npm:1.10.3"
   dependencies:
@@ -11380,6 +11485,39 @@ __metadata:
     sanity: ^3.0.0
     styled-components: ^5.3.6
   checksum: 01bd9524a014b3306a8038f3ea5daa86ba46da340edf871ba40419111dee2a0d25f0002b3024b443ff58e41427f5d933444c8663554f7d03cbcfef18f020101a
+  languageName: node
+  linkType: hard
+
+"sanity-plugin-markdown@npm:4.1.0":
+  version: 4.1.0
+  resolution: "sanity-plugin-markdown@npm:4.1.0"
+  dependencies:
+    "@sanity/incompatible-plugin": "npm:^1.0.4"
+    "@sanity/ui": "npm:^1.0.0"
+    react-simplemde-editor: "npm:^5.2.0"
+  peerDependencies:
+    easymde: ^2
+    react: ^18
+    sanity: ^3
+    styled-components: ^5.2
+  checksum: e47ee0a09b641f3e036223681571eddf026aaeba2d3fdb11eb9d31a337d22075a42882a7bea3cbbd6d9c0a65a9babc6274b0e07e18622d6e9d4932a9e5005918
+  languageName: node
+  linkType: hard
+
+"sanity-plugin-utils@npm:^1.6.2":
+  version: 1.6.2
+  resolution: "sanity-plugin-utils@npm:1.6.2"
+  dependencies:
+    "@sanity/icons": "npm:^2.2.2"
+    "@sanity/incompatible-plugin": "npm:^1.0.4"
+    styled-components: "npm:^5.3.6"
+  peerDependencies:
+    "@sanity/ui": ^1.2.2
+    react: ^18
+    react-fast-compare: ^3.2.0
+    rxjs: ^7.0.0
+    sanity: ^3
+  checksum: 69d557202bc848d2e9554cef4fe1699e84138b2eb622c007ab6c01f0e28339850d6440474e2018e28dcfc41f0e1fe6ea989035e0318d486fa9855594d557b07a
   languageName: node
   linkType: hard
 
@@ -12148,7 +12286,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"styled-components@npm:^5.3.11":
+"styled-components@npm:^5.3.11, styled-components@npm:^5.3.6":
   version: 5.3.11
   resolution: "styled-components@npm:5.3.11"
   dependencies:
@@ -12625,6 +12763,13 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: f79cc2ba802c94c2b78dbb00d767a10adb67368ae764709737dc277273ec148aa4558033a03ce901406b35fddf4eac46dabc94a1e1d12d2587e2b9cfe5707b4a
+  languageName: node
+  linkType: hard
+
+"typo-js@npm:*":
+  version: 1.2.3
+  resolution: "typo-js@npm:1.2.3"
+  checksum: 068cfc783577b639fe4bbf317060e5d383fb3a01870c3f8693a8cf7203f3e289e46d0e75d63454ff0e4921b3041d894eed0ef3fd975485a23e18f77847e5fa29
   languageName: node
   linkType: hard
 

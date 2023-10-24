@@ -7,6 +7,7 @@ import {
   TryBanner,
   UpdateAvailable,
 } from "../BrowserBanners";
+import { LoadingBanners } from "../BrowserBanners/LoadingBanners";
 import { BrowserMetadata } from "../BrowserMetadata";
 import { Icon } from "../Icon";
 import { ExternalLink } from "../Link";
@@ -50,6 +51,7 @@ export function BrowserPage({
           {dict.By} {browser.vendor}
         </span>
       </h2>
+      <LoadingBanners language={language} dict={dict} />
       <UpdateAvailable language={language} dict={dict} browser={browser} />
       <LatestVersion language={language} dict={dict} browser={browser} />
       <TryBanner language={language} dict={dict} browser={browser} />

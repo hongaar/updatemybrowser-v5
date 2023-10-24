@@ -1,6 +1,9 @@
-import { getLanguageIds } from "@updatemybrowser/client";
+"use client";
+
+import Script from "next/script";
 import { Container } from "../../../components/Container";
-import { getDictionary } from "../../../dictionaries";
+
+declare var UMB: any;
 
 export type LanguageParams = {
   params: {
@@ -8,17 +11,19 @@ export type LanguageParams = {
   };
 };
 
-export async function generateStaticParams() {
-  return (await getLanguageIds()).map((language) => ({ language }));
-}
+// export async function generateStaticParams() {
+//   return (await getLanguageIds()).map((language) => ({ language }));
+// }
 
-export default async function Widget({ params: { language } }: LanguageParams) {
-  const dict = getDictionary(language);
+export default function Widget({ params: { language } }: LanguageParams) {
+  // const dict = getDictionary(language);
 
   return (
     <Container>
-      <h2>{dict.Widget}</h2>
-      <p>{dict.UnderConstruction}</p>
+      <Script src="https://updatemybrowser.org/umb.js" />
+      {/* <h2>{dict.Widget}</h2> */}
+      {/* <p>{dict.UnderConstruction}</p> */}
+      <button onClick={() => UMB.displayWidget()}>Demo</button>
     </Container>
   );
 }

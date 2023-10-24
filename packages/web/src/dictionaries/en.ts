@@ -34,7 +34,7 @@ const english = {
   UpdateNow: "Update now",
   AvailableOnYourOs: "Available on your device",
   AvailableOnYourOsDescription:
-    "You are not currently using %s, but is available on %s.",
+    "You are not currently using %s, but it is available on %s.",
   AvailableOnYourOsClickButtonToDownload:
     "Please click the button below to download this browser.",
   DownloadNow: "Download now",

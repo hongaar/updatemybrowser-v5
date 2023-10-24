@@ -6,6 +6,7 @@ import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
 export const os: DocumentDefinition = {
   name: "os",
   title: "Operating system",
+  icon: () => "💻",
   type: "document",
   fieldsets: defaultFieldset,
   preview: {

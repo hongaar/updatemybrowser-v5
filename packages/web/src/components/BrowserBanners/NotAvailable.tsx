@@ -24,7 +24,7 @@ export function NotAvailable({ language, dict, browser }: Props) {
     [browser],
   );
 
-  if (hydratedBrowser.match?.availableOnCurrentOs) {
+  if (!hydratedBrowser.match || hydratedBrowser.match?.availableOnCurrentOs) {
     return null;
   }
 

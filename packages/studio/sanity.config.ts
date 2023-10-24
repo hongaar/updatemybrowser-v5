@@ -1,9 +1,11 @@
 import { colorInput } from "@sanity/color-input";
+import { documentInternationalization } from "@sanity/document-internationalization";
 import { visionTool } from "@sanity/vision";
 import { defaultLanguage, sanityConfig } from "@updatemybrowser/client";
-import { defineConfig } from "sanity";
+import { defineConfig, defineField } from "sanity";
 import { IconManager } from "sanity-plugin-icon-manager";
 import { internationalizedArray } from "sanity-plugin-internationalized-array";
+import { markdownSchema } from "sanity-plugin-markdown";
 import { deskTool } from "sanity/desk";
 import {
   UpdateCurrentVersionAction,
@@ -38,6 +40,31 @@ export default defineConfig({
       fieldTypes: ["string", "url", "text"],
       buttonAddAll: false,
     }),
+    documentInternationalization({
+      supportedLanguages: async (client) => {
+        return (
+          await client.fetch<{ id: string; name: string }[]>(
+            `*[_type == "language"]{ id, name }`,
+          )
+        )
+          .filter(({ id, name }) => id && name)
+          .map(({ id, name }) => ({ id, title: name }));
+      },
+      schemaTypes: ["article"],
+      metadataFields: [
+        defineField({ name: "title", title: "Title", type: "string" }),
+        defineField({
+          name: "slug",
+          title: "Slug",
+          type: "slug",
+          options: {
+            source: "title",
+            maxLength: 96,
+          },
+        }),
+      ],
+    }),
+    markdownSchema(),
     visionTool(),
   ],
 

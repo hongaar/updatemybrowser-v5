@@ -3,7 +3,8 @@
 .updateAvailable,
 .latestVersion,
 .tryBanner,
-.notAvailable {
+.notAvailable,
+.loadingBanners {
   padding: var(--spacing);
   margin-bottom: calc(var(--spacing) * 2);
   border: var(--outline-width) solid var(--primary);

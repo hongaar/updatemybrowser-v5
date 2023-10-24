@@ -19,12 +19,14 @@
   },
   "dependencies": {
     "@sanity/color-input": "3.1.0",
+    "@sanity/document-internationalization": "2.0.1",
     "@sanity/icons": "^2.5.0",
     "@sanity/ui": "^1.8.2",
     "@sanity/vision": "3.17.0",
     "@updatemybrowser/client": "workspace:*",
     "@updatemybrowser/detect": "workspace:*",
     "@updatemybrowser/updater": "workspace:*",
+    "easymde": "2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-is": "18.2.0",
@@ -32,6 +34,7 @@
     "sanity": "3.17.0",
     "sanity-plugin-icon-manager": "1.1.1",
     "sanity-plugin-internationalized-array": "1.10.3",
+    "sanity-plugin-markdown": "4.1.0",
     "styled-components": "^5.3.11"
   },
   "devDependencies": {

@@ -4,6 +4,7 @@ import { iconWithSubIconPreview } from "../../components/index.js";
 export const release: DocumentDefinition = {
   name: "release",
   title: "Release",
+  icon: () => "🚀",
   type: "document",
   preview: {
     select: {

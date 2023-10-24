@@ -12,6 +12,7 @@ import {
 export const browser: DocumentDefinition = {
   name: "browser",
   title: "Browser",
+  icon: () => "🌐",
   type: "document",
   fieldsets: defaultFieldset,
   preview: {
