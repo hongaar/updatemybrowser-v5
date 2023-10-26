@@ -3,6 +3,54 @@ import type { Release } from "../schema.js";
 
 export const releases: Release[] = [
   {
+    _createdAt: "2023-10-26T16:17:54Z",
+    _id: "03cb4079-95d0-4368-9a97-3c9aa6b12e0d",
+    _rev: "xjV26r95LyXpcLBMjzw2kO",
+    _type: "release",
+    _updatedAt: "2023-10-26T16:19:11Z",
+    browser: {
+      _ref: "f093178f-bfba-4391-8078-6f979c75630d",
+      _type: "reference",
+    },
+    currentVersion: "118",
+    downloadUrl: "https://vivaldi.com/download/",
+    oses: [
+      {
+        _key: "8bf8613c961d",
+        _type: "osVersion",
+        os: {
+          _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "3e7ddc68165f",
+        _type: "osVersion",
+        os: {
+          _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "0709526eba8b",
+        _type: "osVersion",
+        os: {
+          _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
+          _type: "reference",
+        },
+      },
+    ],
+    versionSource: [
+      {
+        _key: "179c8a6a9f33",
+        _type: "versionSource",
+        caniuse_agent: "chrome",
+        caniuse_contribute_usage: false,
+        source: "caniuse",
+      },
+    ],
+  },
+  {
     _createdAt: "2023-10-23T06:52:17Z",
     _id: "df47bd5d-957d-470f-b972-dc79e44b6ec3",
     _rev: "7V6W77YnYTSXWZozOaOA73",
@@ -45,15 +93,16 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-05T15:07:57Z",
     _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
-    _rev: "Lh7rhBNTpK2mkuYCdKAuIk",
+    _rev: "uR7u7AhCU0Ezsyr8BWXM7P",
     _type: "release",
-    _updatedAt: "2023-10-23T16:20:21Z",
+    _updatedAt: "2023-10-26T14:52:10Z",
     browser: {
       _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
       _type: "reference",
     },
     currentUsage: 27.250799999999998,
     currentVersion: "118",
+    downloadUrl: "https://www.google.com/chrome/",
     oses: [
       {
         _key: "ec0c9763038f",
@@ -88,6 +137,7 @@ export const releases: Release[] = [
         },
       },
     ],
+    updateUrl: "https://support.google.com/chrome/answer/95414",
     versionSource: [
       {
         _key: "703be10b156e",
@@ -250,11 +300,11 @@ export const releases: Release[] = [
     ],
   },
   {
-    _createdAt: "2023-10-19T15:48:43Z",
-    _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _rev: "695kaPqd4sveD9yLk59Ol2",
+    _createdAt: "2023-10-26T14:54:03Z",
+    _id: "02e8d45d-e6fc-4987-abb2-89d1a8208cda",
+    _rev: "vFaXx7T1W2X5sVesRHULm3",
     _type: "release",
-    _updatedAt: "2023-10-25T15:36:21Z",
+    _updatedAt: "2023-10-26T14:54:03Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
@@ -262,12 +312,14 @@ export const releases: Release[] = [
     currentUsage: 1.7233,
     currentVersion: "103",
     downloadArticle: {
-      _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
+      _ref: "0715e142-d3bb-45d4-a5c2-b31566330486",
       _type: "reference",
     },
+    downloadUrl:
+      "https://download.opera.com/download/get/?partner=www&opsys=Linux",
     oses: [
       {
-        _key: "999cf0a3f688",
+        _key: "54b68061cd90",
         _type: "osVersion",
         os: {
           _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
@@ -275,6 +327,79 @@ export const releases: Release[] = [
         },
       },
     ],
+    updateArticle: {
+      _ref: "0715e142-d3bb-45d4-a5c2-b31566330486",
+      _type: "reference",
+    },
+    versionSource: [
+      {
+        _key: "14444f499fc8",
+        _type: "versionSource",
+        caniuse_agent: "opera",
+        caniuse_contribute_usage: true,
+        source: "caniuse",
+      },
+    ],
+  },
+  {
+    _createdAt: "2023-10-19T15:48:43Z",
+    _id: "408db807-e80b-4de9-bc66-0924050c066d",
+    _rev: "vFaXx7T1W2X5sVesRHUM63",
+    _type: "release",
+    _updatedAt: "2023-10-26T14:54:21Z",
+    browser: {
+      _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
+      _type: "reference",
+    },
+    currentUsage: 1.7233,
+    currentVersion: "103",
+    downloadUrl: "https://www.opera.com/download",
+    oses: [
+      {
+        _key: "a80dad391753",
+        _type: "osVersion",
+        os: {
+          _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "e3e61dad14c7",
+        _type: "osVersion",
+        os: {
+          _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "acea9e5047e8",
+        _type: "osVersion",
+        os: {
+          _ref: "0e2dc525-cff5-4ec1-a670-e86684304740",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "7302204ee8b6",
+        _type: "osVersion",
+        os: {
+          _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "111d06f8ff0f",
+        _type: "osVersion",
+        os: {
+          _ref: "fa2e4ac9-a45e-4f24-bb3a-1157eda2a4de",
+          _type: "reference",
+        },
+      },
+    ],
+    updateArticle: {
+      _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
+      _type: "reference",
+    },
     versionSource: [
       {
         _key: "f9af09e9b994",

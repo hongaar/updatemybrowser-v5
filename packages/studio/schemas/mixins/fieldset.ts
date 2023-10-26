@@ -11,4 +11,9 @@ export const defaultFieldset: FieldsetDefinition[] = [
     title: "Branding",
     options: { collapsible: true, collapsed: true },
   },
+  {
+    name: "articles",
+    title: "Articles",
+    options: { collapsible: true, collapsed: true },
+  },
 ];

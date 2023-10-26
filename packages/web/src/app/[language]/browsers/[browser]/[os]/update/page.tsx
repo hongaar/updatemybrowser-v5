@@ -32,13 +32,11 @@ export async function generateMetadata({
   const os = oses.find((item) => item.slug.current === osSlug);
 
   return {
-    title: pageTitle(
-      `${dict.Download} ${browser?.name} ${dict.For} ${os?.name}`,
-    ),
+    title: pageTitle(`${dict.Update} ${browser?.name} ${dict.For} ${os?.name}`),
   } as Metadata;
 }
 
-export default async function Download({
+export default async function Update({
   params: { language, browser: browserSlug, os: osSlug },
 }: LanguageParams & BrowserParams & OsParams) {
   const dict = getDictionary(language);
@@ -69,7 +67,7 @@ export default async function Download({
 
   const articles = await getArticles();
   const defaultLanguageArticle = articles.find(
-    (article) => release.downloadArticle?._ref === article._id,
+    (article) => release.updateArticle?._ref === article._id,
   );
 
   const article =
@@ -86,7 +84,7 @@ export default async function Download({
         segments={[
           { label: dict.BrowserOverview, path: "/browsers" },
           { label: browser.name, path: `/browsers/${browser.slug.current}` },
-          { label: `${dict.Download} ${dict.For} ${os.name}` },
+          { label: `${dict.Update} ${dict.For} ${os.name}` },
         ]}
       />
       <Container>
@@ -95,10 +93,10 @@ export default async function Download({
             {...{ language, dict, browser, os, release, article }}
           />
         ) : null}
-        {release.downloadUrl ? (
+        {release.updateUrl || release.downloadUrl ? (
           <section>
             <h2>
-              {dict.Download} {browser.name}
+              {dict.Update} {browser.name}
             </h2>
             <div>
               <Link
@@ -106,9 +104,9 @@ export default async function Download({
                 role="button"
                 target="_blank"
                 rel="noopener noreferrer"
-                href={release.downloadUrl}
+                href={(release.updateUrl || release.downloadUrl) as string}
               >
-                <ExternalLinkIcon fill={"currentColor"} /> {dict.Download}{" "}
+                <ExternalLinkIcon fill={"currentColor"} /> {dict.Update}{" "}
                 {browser.name} {dict.For} {os.name}
               </Link>
             </div>

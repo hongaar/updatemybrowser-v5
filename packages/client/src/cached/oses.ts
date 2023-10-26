@@ -229,6 +229,60 @@ export const oses: OS[] = [
     vendor: "Microsoft",
   },
   {
+    _createdAt: "2023-10-26T14:43:26Z",
+    _id: "fa2e4ac9-a45e-4f24-bb3a-1157eda2a4de",
+    _rev: "uR7u7AhCU0Ezsyr8BWYR7L",
+    _type: "os",
+    _updatedAt: "2023-10-26T14:56:29Z",
+    description: {
+      de: null,
+      en: null,
+      id: null,
+      nl: null,
+    },
+    homepage: "https://www.google.com/chromebook/chrome-os/",
+    icon: {
+      _type: "icon",
+      predefined: {
+        _type: "icon.manager",
+        icon: "logos:chrome",
+        metadata: {
+          author: {
+            name: "Gil Barbara",
+            url: "https://github.com/gilbarbara/logos",
+          },
+          collectionId: "logos",
+          collectionName: "SVG Logos",
+          downloadUrl:
+            "https://api.iconify.design/logos:chrome.svg?width=20&height=20&download=1",
+          hFlip: false,
+          iconName: "chrome",
+          inlineSvg:
+            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M128.003 199.216c39.335 0 71.221-31.888 71.221-71.223c0-39.335-31.886-71.223-71.221-71.223c-39.335 0-71.222 31.888-71.222 71.223c0 39.335 31.887 71.223 71.222 71.223Z" fill="#FFF"></path><path d="M35.89 92.997c-5.313-9.203-11.558-18.862-18.736-28.977a127.98 127.98 0 0 0 110.857 191.981c11.78-16.523 19.78-28.437 23.996-35.74c8.099-14.028 18.573-34.112 31.423-60.251v-.015a63.993 63.993 0 0 1-110.857.017c-17.453-32.548-29.68-54.887-36.683-67.015Z" fill="#229342"></path><path d="M128.008 255.996A127.972 127.972 0 0 0 256 127.997A127.983 127.983 0 0 0 238.837 64c-24.248-2.39-42.143-3.585-53.686-3.585c-13.088 0-32.139 1.195-57.152 3.585l-.014.01a63.993 63.993 0 0 1 55.444 31.987a63.993 63.993 0 0 1-.001 64.01l-55.42 95.989Z" fill="#FBC116"></path><path d="M128.003 178.677c27.984 0 50.669-22.685 50.669-50.67c0-27.986-22.685-50.67-50.67-50.67c-27.983 0-50.669 22.686-50.669 50.67s22.686 50.67 50.67 50.67Z" fill="#1A73E8"></path><path d="M128.003 64.004H238.84a127.973 127.973 0 0 0-221.685.015l55.419 95.99l.015.008a63.993 63.993 0 0 1 55.415-96.014l-.002.001Z" fill="#E33B2E"></path></svg>',
+          license: {
+            name: "CC0",
+            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
+          },
+          palette: true,
+          rotate: 0,
+          size: {
+            height: 20,
+            width: 20,
+          },
+          url: "https://api.iconify.design/logos:chrome.svg?width=20&height=20",
+          vFlip: false,
+        },
+      },
+    },
+    matchOsName: ["Chrome OS"],
+    name: "ChromeOS",
+    slug: {
+      _type: "slug",
+      current: "chromeos",
+    },
+    vendor: "Google",
+  },
+  {
     _createdAt: "2023-10-05T15:12:50Z",
     _id: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
     _rev: "Lh7rhBNTpK2mkuYCdIWJ9W",

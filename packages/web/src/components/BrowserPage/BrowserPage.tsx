@@ -56,7 +56,7 @@ export function BrowserPage({
       <LatestVersion language={language} dict={dict} browser={browser} />
       <TryBanner language={language} dict={dict} browser={browser} />
       <NotAvailable language={language} dict={dict} browser={browser} />
-      <div className={styles.alternativesWrapper}>
+      <article className={styles.alternativesWrapper}>
         <BrowserAlternatives
           language={language}
           dict={dict}
@@ -74,7 +74,7 @@ export function BrowserPage({
           ) : null}
           <BrowserMetadata language={language} dict={dict} browser={browser} />
         </div>
-      </div>
+      </article>
     </>
   );
 }

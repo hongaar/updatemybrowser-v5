@@ -1,9 +1,16 @@
 import styles from "./icon.module.scss";
 
-export function ExternalLinkIcon() {
+type Props = {
+  fill?: string;
+};
+
+export function ExternalLinkIcon({ fill }: Props) {
   return (
     <svg
       className={styles.externalLinkIcon}
+      style={{
+        fill,
+      }}
       viewBox="0 0 1024 1024"
       height="1024"
       width="768"

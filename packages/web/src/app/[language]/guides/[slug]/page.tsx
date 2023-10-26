@@ -37,7 +37,7 @@ export default async function Guide({
   params: { language, slug },
 }: LanguageParams & SlugParams) {
   const dict = getDictionary(language);
-  const article = (await getArticles()).find(
+  const article = (await getArticles({ language })).find(
     (item) => item.slug.current === slug,
   );
 

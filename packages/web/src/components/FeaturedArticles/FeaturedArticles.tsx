@@ -12,13 +12,20 @@ type Props = {
 };
 
 export function FeaturedArticles({ language, dict, browser, articles }: Props) {
+  if (articles.length === 0) {
+    return null;
+  }
+
   return (
     <section className={styles.featuredArticles}>
       <h3>{sprintf(dict.GuidesForBrowser, browser.name)}</h3>
       <ul>
         {articles.map((article) => (
           <li key={article._id}>
-            <Link href={`/${language}/guides/${article.slug.current}`}>
+            <Link
+              tabIndex={0}
+              href={`/${language}/guides/${article.slug.current}`}
+            >
               {article.title}
             </Link>
           </li>

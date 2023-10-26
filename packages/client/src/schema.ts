@@ -178,6 +178,8 @@ export type Release<T extends "ref" | "expanded" | "flatExpanded" = "ref"> =
       currentUsage?: number;
       downloadUrl?: string;
       downloadArticle?: Reference;
+      updateUrl?: string;
+      updateArticle?: Reference;
     } & (T extends "ref"
       ? {
           browser: Reference;

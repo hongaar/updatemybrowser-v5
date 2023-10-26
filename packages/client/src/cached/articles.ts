@@ -3,6 +3,33 @@ import type { Article } from "../schema.js";
 
 export const articles: Article[] = [
   {
+    _createdAt: "2023-10-26T14:44:17Z",
+    _id: "0715e142-d3bb-45d4-a5c2-b31566330486",
+    _rev: "vFaXx7T1W2X5sVesRHSK0Y",
+    _type: "article",
+    _updatedAt: "2023-10-26T14:44:47Z",
+    browser: {
+      _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
+      _type: "reference",
+    },
+    contents: "Body",
+    excerpt: "Summary",
+    language: "en",
+    oses: [
+      {
+        _key: "da207894c3b4",
+        _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+        _type: "reference",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "how-to-update-opera-on-linux",
+    },
+    title: "How to Update Opera on Linux",
+    translationOf: null,
+  },
+  {
     _createdAt: "2023-10-25T14:28:07Z",
     _id: "b7915288-c1a2-402b-8182-0cb6e94e1487",
     _rev: "Ff4ErUr0mXqJ0p2ePBUP99",
@@ -20,9 +47,9 @@ export const articles: Article[] = [
   {
     _createdAt: "2023-10-24T13:54:03Z",
     _id: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
-    _rev: "904mL5SdWNgHGZgJPr9X5z",
+    _rev: "xjV26r95LyXpcLBMjzvgds",
     _type: "article",
-    _updatedAt: "2023-10-25T17:12:37Z",
+    _updatedAt: "2023-10-26T16:12:14Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
@@ -38,8 +65,8 @@ export const articles: Article[] = [
         _type: "reference",
       },
       {
-        _key: "f36ad7af4deb",
-        _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+        _key: "56cd1ef21c32",
+        _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
         _type: "reference",
       },
     ],

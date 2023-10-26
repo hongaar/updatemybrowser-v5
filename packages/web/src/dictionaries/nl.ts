@@ -35,6 +35,7 @@ const dutch: Dict = {
   PleaseClickButtonToUpdate:
     "Klik op de knop hieronder om je browser bij te werken naar de laatste versie.",
   UpdateNow: "Nu bijwerken",
+  Update: "Bijwerken",
   AvailableOnYourOs: "Beschikbaar op jouw apparaat",
   AvailableOnYourOsClickButtonToDownload:
     "Klik op de knop hieronder om deze browser te downloaden.",
@@ -58,6 +59,10 @@ const dutch: Dict = {
   EnglishVersion: "Engelse versie",
   NotAvailableInYourLanguageDescription:
     "Sorry, deze gids is nog niet beschikbaar in jouw taal. Terwijl we werken aan het vertalen van deze gids, kun je de Engelse versie hieronder lezen.",
+  BrowsersForOperatingSystem: "Browsers voor",
+  For: "voor",
+  Browser: "Browser",
+  AppliesTo: "Geldt voor",
 };
 
 export default dutch;

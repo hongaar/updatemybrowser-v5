@@ -52,7 +52,8 @@ export function TryBanner({ language, dict, browser }: Props) {
         className={`${styles.downloadButton}`}
         href={`/${language}/browsers/${browser.slug.current}/${hydratedBrowser.match?.currentOsRelease.os.os.slug.current}/download`}
       >
-        {dict.DownloadNow}
+        {dict.Download} {dict.For}{" "}
+        {hydratedBrowser.match?.currentOsRelease.os.os.name}
       </Link>
     </Callout>
   );

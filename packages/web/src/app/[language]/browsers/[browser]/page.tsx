@@ -9,6 +9,7 @@ import { Breadcrumbs } from "../../../../components/Breadcrumbs";
 import { BrowserPage } from "../../../../components/BrowserPage";
 import { Container } from "../../../../components/Container";
 import { FeaturedArticles } from "../../../../components/FeaturedArticles";
+import { OsLinks } from "../../../../components/OsLinks";
 import { getDictionary } from "../../../../dictionaries";
 import { pageTitle } from "../../../../utils";
 import type { LanguageParams } from "../../page";
@@ -76,6 +77,20 @@ export default async function Browser({
           dict={dict}
           browser={browser}
           articles={featuredArticles}
+        />
+        <OsLinks
+          language={language}
+          dict={dict}
+          browser={browser}
+          verb={dict.Update}
+          urlSuffix="update"
+        />
+        <OsLinks
+          language={language}
+          dict={dict}
+          browser={browser}
+          verb={dict.Download}
+          urlSuffix="download"
         />
       </Container>
     </>

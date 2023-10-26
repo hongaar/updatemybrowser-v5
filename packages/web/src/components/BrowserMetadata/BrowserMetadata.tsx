@@ -20,7 +20,12 @@ export function BrowserMetadata({ language, dict, browser }: Props) {
           <div className={styles.metadata}>
             <TagList>
               {browser.releases.map((release, index) => (
-                <ReleaseTag key={index} dict={dict} release={release} />
+                <ReleaseTag
+                  language={language}
+                  key={index}
+                  dict={dict}
+                  release={release}
+                />
               ))}
             </TagList>
           </div>

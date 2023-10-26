@@ -1,10 +1,11 @@
+import type { ReactNode } from "react";
 import { ExternalLinkIcon } from "../Icon";
 import styles from "./link.module.scss";
 
 type Props = {
   style?: "icon" | "iconLink" | "link";
   href: string;
-  children: string;
+  children: ReactNode;
 };
 
 export function ExternalLink({ href, children, style = "iconLink" }: Props) {
@@ -12,7 +13,7 @@ export function ExternalLink({ href, children, style = "iconLink" }: Props) {
     <a
       className={styles.externalLink}
       href={href}
-      title={children}
+      title={typeof children === "string" ? children : undefined}
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -24,7 +25,7 @@ export function ExternalLink({ href, children, style = "iconLink" }: Props) {
       <a
         className={styles.externalLink}
         href={href}
-        title={children}
+        title={typeof children === "string" ? children : undefined}
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -35,7 +36,7 @@ export function ExternalLink({ href, children, style = "iconLink" }: Props) {
     <a
       className={styles.externalLink}
       href={href}
-      title={children}
+      title={typeof children === "string" ? children : undefined}
       target="_blank"
       rel="noopener noreferrer"
     >

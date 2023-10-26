@@ -42,7 +42,7 @@ export function UpdateAvailable({ language, dict, browser }: Props) {
         tabIndex={0}
         role="button"
         className={`warning ${styles.updateButton}`}
-        href={"#"}
+        href={`/${language}/browsers/${browser.slug.current}/${hydratedBrowser.match?.currentOsRelease.os.os.slug.current}/update`}
       >
         {dict.UpdateNow}
       </Link>

@@ -17,6 +17,18 @@ export const release: DocumentDefinition = {
   name: "release",
   title: "Release",
   type: "document",
+  fieldsets: [
+    {
+      name: "version",
+      title: "Version",
+      options: { collapsible: true, collapsed: true },
+    },
+    {
+      name: "instructions",
+      title: "Instructions",
+      options: { collapsible: true, collapsed: true },
+    },
+  ],
   preview: {
     select: {
       title: "browser.name",
@@ -68,17 +80,39 @@ export const release: DocumentDefinition = {
     {
       name: "downloadUrl",
       title: "Download URL",
-      description: "Address to download release",
+      description: "URL to download release from",
       type: "url",
+      fieldset: "instructions",
     },
     {
       name: "downloadArticle",
       title: "Download article",
+      description: "Article describing how to download and install the release",
       type: "reference",
       to: [{ type: "article" }],
       options: {
         filter: articleFilter,
       },
+      fieldset: "instructions",
+    },
+    {
+      name: "updateUrl",
+      title: "Update URL",
+      description:
+        "URL to update release from. If not provided, will use 'Download URL'",
+      type: "url",
+      fieldset: "instructions",
+    },
+    {
+      name: "updateArticle",
+      title: "Update article",
+      description: "Article describing how to update the release",
+      type: "reference",
+      to: [{ type: "article" }],
+      options: {
+        filter: articleFilter,
+      },
+      fieldset: "instructions",
     },
     {
       name: "versionSource",
@@ -87,18 +121,21 @@ export const release: DocumentDefinition = {
       type: "array",
       of: [{ type: "versionSource" }],
       validation: (Rule) => Rule.required(),
+      fieldset: "version",
     },
     {
       name: "currentVersion",
       title: "Current version",
       description: "Set by the version source, don't edit",
       type: "string",
+      fieldset: "version",
     },
     {
       name: "currentUsage",
       title: "Current usage",
       description: "Set by the version source, don't edit",
       type: "number",
+      fieldset: "version",
     },
   ],
 };

@@ -7,15 +7,19 @@ import type { Dict } from "../../dictionaries/en";
 import styles from "./tag.module.scss";
 
 type Props = {
+  language: string;
   dict: Dict;
   release: ReleaseFlatExpanded;
 };
 
-export function ReleaseTag({ dict, release }: Props) {
+export function ReleaseTag({ language, dict, release }: Props) {
   const { os: detectedOs } = detect();
 
   return (
-    <Tag className={matchesOs(release.os, detectedOs) ? styles.current : ""}>
+    <Tag
+      current={matchesOs(release.os, detectedOs)}
+      href={`/${language}/browsers/os/${release.os.os.slug.current}`}
+    >
       {release.os.os.icon?.predefined?.metadata?.inlineSvg ||
       release.os.os.icon?.custom_svg ? (
         <>

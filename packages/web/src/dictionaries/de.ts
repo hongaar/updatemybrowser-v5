@@ -45,6 +45,7 @@ const german: Dict = {
   UnderConstruction: "In Arbeit",
   UpdateAvailable: "Update verfügbar",
   UpdateNow: "Jetzt aktualisieren",
+  Update: "Aktualisieren",
   Version: "Version",
   Widget: "Widget",
   YouAreUsing: "Du verwendest",
@@ -56,6 +57,10 @@ const german: Dict = {
   EnglishVersion: "Englische Version",
   NotAvailableInYourLanguageDescription:
     "Wir entschuldigen uns, diese Anleitung ist noch nicht in deiner Sprache verfügbar. Du kannst aber die englische Version lesen",
+  BrowsersForOperatingSystem: "Browser für",
+  For: "für",
+  Browser: "Browser",
+  AppliesTo: "Gilt für",
 };
 
 export default german;

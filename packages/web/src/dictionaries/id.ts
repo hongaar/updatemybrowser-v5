@@ -41,6 +41,7 @@ const indonesian: Dict = {
   PleaseClickButtonToUpdate:
     "Klik tombol di bawah ini untuk memperbarui browser Anda ke versi terbaru.",
   UpdateNow: "Perbarui sekarang",
+  Update: "Perbarui",
   AvailableOnYourOsDescription:
     "Anda saat ini tidak menggunakan %s, tetapi tersedia di %s.",
   UnderConstruction:
@@ -58,6 +59,10 @@ const indonesian: Dict = {
   EnglishVersion: "Versi bahasa Inggris",
   NotAvailableInYourLanguageDescription:
     "Maaf, panduan ini belum tersedia dalam bahasa Anda. Sementara kami menerjemahkan panduan ini, Anda dapat membaca versi bahasa Inggris di bawah ini.",
+  BrowsersForOperatingSystem: "Browser untuk",
+  For: "untuk",
+  Browser: "Browser",
+  AppliesTo: "Berlaku untuk",
 };
 
 export default indonesian;

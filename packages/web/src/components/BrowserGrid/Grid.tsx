@@ -5,7 +5,7 @@ import {
   hydrateBrowsersWithFlatReleases,
   type MaybeHydratedBrowserWithFlatReleases,
 } from "@updatemybrowser/detect";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { useLocalStorage } from "usehooks-ts";
 import type { Dict } from "../../dictionaries/en";
 import { BrowserCard } from "../BrowserCard";
@@ -15,9 +15,17 @@ type Props = {
   dict: Dict;
   language: string;
   browsers: BrowserWithFlatReleases[];
+  heading?: ReactNode;
+  toggleUnavailableBrowsers?: boolean;
 };
 
-export function Grid({ dict, language, browsers }: Props) {
+export function Grid({
+  dict,
+  language,
+  browsers,
+  heading = dict.BrowserOverview,
+  toggleUnavailableBrowsers = true,
+}: Props) {
   const [showAllOses, setShowAllOses] = useLocalStorage("showAllOses", false);
   const [hydratedBrowsers, setHydratedBrowsers] =
     useState<MaybeHydratedBrowserWithFlatReleases[]>(browsers);
@@ -28,27 +36,29 @@ export function Grid({ dict, language, browsers }: Props) {
   );
 
   const browsersToShow = useMemo(() => {
-    return showAllOses
+    return showAllOses || !toggleUnavailableBrowsers
       ? hydratedBrowsers
       : hydratedBrowsers.filter(
           (browsers) => browsers.match?.availableOnCurrentOs,
         );
-  }, [hydratedBrowsers, showAllOses]);
+  }, [toggleUnavailableBrowsers, hydratedBrowsers, showAllOses]);
 
   return (
     <>
       <div className={styles.toolbar}>
-        <h2 className={styles.heading}>{dict.BrowserOverview}</h2>
-        <label className={styles.showReleasesForAllOses}>
-          <input
-            type="checkbox"
-            checked={showAllOses}
-            onChange={(e) => {
-              setShowAllOses(e.target.checked);
-            }}
-          />{" "}
-          {dict.ShowReleasesForAllOses}
-        </label>
+        <h2 className={styles.heading}>{heading}</h2>
+        {toggleUnavailableBrowsers ? (
+          <label className={styles.showReleasesForAllOses}>
+            <input
+              type="checkbox"
+              checked={showAllOses}
+              onChange={(e) => {
+                setShowAllOses(e.target.checked);
+              }}
+            />{" "}
+            {dict.ShowReleasesForAllOses}
+          </label>
+        ) : null}
       </div>
       <ul className={styles.browserGrid}>
         {browsersToShow.map((browser) => (

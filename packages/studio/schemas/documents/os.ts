@@ -1,21 +1,23 @@
 import { defaultLanguage } from "@updatemybrowser/client";
 import { oses } from "@updatemybrowser/detect";
-import type { DocumentDefinition } from "sanity";
+import type { DocumentDefinition, ReferenceFilterResolver } from "sanity";
 import { iconPreview } from "../../components/index.js";
 import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
+
+const osFilter: ReferenceFilterResolver = ({ document }) => {
+  const docId = document._id.replace("drafts.", "");
+  console.log({ docId });
+  return {
+    filter: `language == $language && $osId in oses[]._ref`,
+    params: { language: defaultLanguage, osId: docId },
+  };
+};
 
 export const os: DocumentDefinition = {
   name: "os",
   title: "Operating system",
   type: "document",
-  fieldsets: [
-    ...defaultFieldset,
-    {
-      name: "articles",
-      title: "Articles",
-      options: { collapsible: true, collapsed: false },
-    },
-  ],
+  fieldsets: defaultFieldset,
   preview: {
     select: {
       title: "name",
@@ -101,14 +103,7 @@ export const os: DocumentDefinition = {
           type: "reference",
           to: [{ type: "article" }],
           options: {
-            filter: ({ document }) => {
-              const docId = document._id.replace("drafts.", "");
-              console.log({ docId });
-              return {
-                filter: `language == $language && $osId in oses[]._ref`,
-                params: { language: defaultLanguage, osId: docId },
-              };
-            },
+            filter: osFilter,
           },
         },
       ],

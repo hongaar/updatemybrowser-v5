@@ -22,14 +22,7 @@ export const browser: DocumentDefinition = {
   name: "browser",
   title: "Browser",
   type: "document",
-  fieldsets: [
-    ...defaultFieldset,
-    {
-      name: "articles",
-      title: "Articles",
-      options: { collapsible: true, collapsed: false },
-    },
-  ],
+  fieldsets: defaultFieldset,
   preview: {
     select: {
       title: "name",

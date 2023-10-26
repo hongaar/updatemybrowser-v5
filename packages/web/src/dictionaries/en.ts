@@ -32,6 +32,7 @@ const english = {
   PleaseClickButtonToUpdate:
     "Please click the button below to update your browser to the latest version.",
   UpdateNow: "Update now",
+  Update: "Update",
   AvailableOnYourOs: "Available on your device",
   AvailableOnYourOsDescription:
     "You are not currently using %s, but it is available on %s.",
@@ -55,6 +56,10 @@ const english = {
   EnglishVersion: "English version",
   NotAvailableInYourLanguageDescription:
     "We're sorry, this guide is not yet available in your language. While we work on translating this guide, you can read the English version below.",
+  BrowsersForOperatingSystem: "Browsers for",
+  For: "for",
+  Browser: "Browser",
+  AppliesTo: "Applies to",
 };
 
 export type Dict = typeof english;
