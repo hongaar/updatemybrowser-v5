@@ -27,26 +27,30 @@ export async function runForAllReleases() {
       .filter(notEmpty);
     const { version, usage } = await updateFromMultiple(sources);
 
-    const patch = client.patch(release._id);
+    if (version !== release.currentVersion || usage !== release.currentUsage) {
+      const patch = client.patch(release._id);
 
-    if (version) {
-      patch.set({ currentVersion: version });
-    }
+      if (version) {
+        patch.set({ currentVersion: version });
+      }
 
-    if (usage) {
-      patch.set({ currentUsage: usage });
-    }
+      if (usage) {
+        patch.set({ currentUsage: usage });
+      }
 
-    await patch
-      .commit<Release>()
-      .then((release) => {
-        console.log("Release updated:", {
-          version: release.currentVersion,
-          usage: release.currentUsage,
+      await patch
+        .commit<Release>()
+        .then((release) => {
+          console.log("Updated to:", {
+            version: release.currentVersion,
+            usage: release.currentUsage,
+          });
+        })
+        .catch((err) => {
+          console.error("Oh no, the update failed: ", err.message);
         });
-      })
-      .catch((err) => {
-        console.error("Oh no, the update failed: ", err.message);
-      });
+    } else {
+      console.log("No changes");
+    }
   }
 }
