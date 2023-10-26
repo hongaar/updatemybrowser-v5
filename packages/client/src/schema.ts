@@ -141,6 +141,7 @@ export type Browser<T extends "plain" | "withFlatReleases" = "plain"> = Doc<
     icon?: Icon;
     logo?: Image;
     color?: Color;
+    featuredArticles?: Keyed<Reference>[];
   } & (T extends "plain"
     ? {}
     : // withFlatReleases
@@ -160,6 +161,7 @@ export type OS = Doc<{
   icon?: Icon;
   logo?: Image;
   color?: Color;
+  featuredArticles?: Keyed<Reference>[];
 }>;
 
 export type Release<T extends "ref" | "expanded" | "flatExpanded" = "ref"> =
@@ -175,6 +177,7 @@ export type Release<T extends "ref" | "expanded" | "flatExpanded" = "ref"> =
       currentVersion: string;
       currentUsage?: number;
       downloadUrl?: string;
+      downloadArticle?: Reference;
     } & (T extends "ref"
       ? {
           browser: Reference;
@@ -196,11 +199,23 @@ export type ReleaseExpanded = Release<"expanded">;
 
 export type ReleaseFlatExpanded = Release<"flatExpanded">;
 
+export type Article = Doc<{
+  title: string;
+  slug: Slug;
+  language: string;
+  excerpt?: string;
+  contents: string;
+  browser?: Reference;
+  oses?: Keyed<Reference>[];
+  translationOf?: Reference | null;
+}>;
+
 export enum DocType {
   Language = "language",
   Browser = "browser",
   OS = "os",
   Release = "release",
+  Article = "article",
 }
 
 export type Docs = {
@@ -208,4 +223,5 @@ export type Docs = {
   [DocType.Browser]: Browser;
   [DocType.OS]: OS;
   [DocType.Release]: Release;
+  [DocType.Article]: Article;
 };

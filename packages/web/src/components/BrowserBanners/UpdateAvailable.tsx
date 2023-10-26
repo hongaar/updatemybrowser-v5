@@ -8,6 +8,7 @@ import {
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import type { Dict } from "../../dictionaries/en";
+import { Callout } from "../Callout";
 import styles from "./browserBanners.module.scss";
 
 type Props = {
@@ -30,7 +31,7 @@ export function UpdateAvailable({ language, dict, browser }: Props) {
   }
 
   return (
-    <div className={styles.updateAvailable}>
+    <Callout warning>
       <h3>⚠️ {dict.UpdateAvailable}</h3>
       <p>
         {dict.CurrentBrowserAndUpdateAvailable}
@@ -45,6 +46,6 @@ export function UpdateAvailable({ language, dict, browser }: Props) {
       >
         {dict.UpdateNow}
       </Link>
-    </div>
+    </Callout>
   );
 }

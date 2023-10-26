@@ -169,15 +169,22 @@ export const oses: OS[] = [
   {
     _createdAt: "2023-09-28T05:37:03Z",
     _id: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-    _rev: "7V6W77YnYTSXWZozOZBldz",
+    _rev: "695kaPqd4sveD9yLk55V9M",
     _type: "os",
-    _updatedAt: "2023-10-23T03:24:32Z",
+    _updatedAt: "2023-10-25T15:00:34Z",
     description: {
       de: null,
       en: null,
       id: null,
       nl: null,
     },
+    featuredArticles: [
+      {
+        _key: "980d5c092223",
+        _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
+        _type: "reference",
+      },
+    ],
     homepage: "https://www.microsoft.com/windows",
     icon: {
       _type: "icon",

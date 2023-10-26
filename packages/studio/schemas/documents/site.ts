@@ -4,7 +4,6 @@ import { slug } from "../mixins/index.js";
 export const site: DocumentDefinition = {
   name: "site",
   title: "Site",
-  icon: () => "www",
   type: "document",
   fieldsets: [
     {

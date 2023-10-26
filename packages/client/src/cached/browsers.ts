@@ -5,15 +5,22 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "IW6hjkMGxufdYFszO2yVDy",
+    _rev: "904mL5SdWNgHGZgJPr210P",
     _type: "browser",
-    _updatedAt: "2023-10-23T16:14:08Z",
+    _updatedAt: "2023-10-25T15:52:04Z",
     description: {
       de: null,
       en: null,
       id: null,
       nl: null,
     },
+    featuredArticles: [
+      {
+        _key: "bf640fd6a755",
+        _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
+        _type: "reference",
+      },
+    ],
     homepage: "https://www.opera.com/",
     icon: {
       _type: "icon",

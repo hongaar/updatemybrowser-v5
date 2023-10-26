@@ -1,4 +1,5 @@
 import * as cached from "./cached/index.js";
+import { defaultLanguage } from "./config.js";
 import * as sanity from "./sanity.js";
 import type {
   BrowserWithFlatReleases,
@@ -9,27 +10,31 @@ import type {
 export { defaultLanguage, sanityConfig } from "./config.js";
 export type * from "./schema.js";
 
-type useCacheOption = {
+type UseCacheOption = {
   useCache?: boolean;
+};
+
+type LanguageOption = {
+  language?: string;
 };
 
 const DEFAULT_USE_CACHE = true;
 
 export async function getLanguages({
   useCache = DEFAULT_USE_CACHE,
-}: useCacheOption = {}) {
+}: UseCacheOption = {}) {
   return useCache ? cached.languages : await sanity.getLanguages();
 }
 
 export async function getLanguageIds({
   useCache = DEFAULT_USE_CACHE,
-}: useCacheOption = {}) {
+}: UseCacheOption = {}) {
   return (await getLanguages({ useCache })).map((language) => language.id);
 }
 
 export async function getLanguage(
   languageId: string,
-  { useCache = DEFAULT_USE_CACHE }: useCacheOption = {},
+  { useCache = DEFAULT_USE_CACHE }: UseCacheOption = {},
 ) {
   return (await getLanguages({ useCache })).find(
     (language) => language.id === languageId,
@@ -38,7 +43,7 @@ export async function getLanguage(
 
 export async function getOses({
   useCache = DEFAULT_USE_CACHE,
-}: useCacheOption = {}) {
+}: UseCacheOption = {}) {
   const oses = useCache
     ? cached.oses
     : await sanity.getOses({ language: await sanity.getLanguageIds() });
@@ -48,7 +53,7 @@ export async function getOses({
 
 export async function getBrowsers({
   useCache = DEFAULT_USE_CACHE,
-}: useCacheOption = {}) {
+}: UseCacheOption = {}) {
   return useCache
     ? cached.browsers
     : await sanity.getBrowsers({ language: await sanity.getLanguageIds() });
@@ -56,7 +61,7 @@ export async function getBrowsers({
 
 export async function getBrowsersWithFlatReleases({
   useCache = DEFAULT_USE_CACHE,
-}: useCacheOption = {}) {
+}: UseCacheOption = {}) {
   const results = await getBrowsers({ useCache });
   const releases = await getReleasesFlatExpanded({ useCache });
 
@@ -72,7 +77,7 @@ export async function getBrowsersWithFlatReleases({
 
 export async function getReleases({
   useCache = DEFAULT_USE_CACHE,
-}: useCacheOption = {}) {
+}: UseCacheOption = {}) {
   return useCache
     ? cached.releases
     : await sanity.getReleases({ language: await sanity.getLanguageIds() });
@@ -80,7 +85,7 @@ export async function getReleases({
 
 export async function getReleasesExpanded({
   useCache = DEFAULT_USE_CACHE,
-}: useCacheOption = {}) {
+}: UseCacheOption = {}) {
   const results = await getReleases({ useCache });
   const osResults = await getOses({ useCache });
   const browserResults = await getBrowsers({ useCache });
@@ -101,7 +106,7 @@ export async function getReleasesExpanded({
 
 export async function getReleasesFlatExpanded({
   useCache = DEFAULT_USE_CACHE,
-}: useCacheOption = {}) {
+}: UseCacheOption = {}) {
   const results = await getReleases({ useCache });
   const osResults = await getOses({ useCache });
   const browserResults = await getBrowsers({ useCache });
@@ -123,4 +128,17 @@ export async function getReleasesFlatExpanded({
   }) as ReleaseFlatExpanded[];
 
   return expandedResults;
+}
+
+export async function getArticles({
+  useCache = DEFAULT_USE_CACHE,
+  language = defaultLanguage,
+}: UseCacheOption & LanguageOption = {}) {
+  return useCache
+    ? cached.articles.filter((article) => {
+        return Array.isArray(language)
+          ? language.includes(article.language)
+          : article.language === language;
+      })
+    : await sanity.getArticles({ language });
 }

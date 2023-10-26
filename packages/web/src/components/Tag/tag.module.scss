@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   line-height: 2;
-  background-color: var(--muted-border-color);
+  background-color: var(--muted-background-color);
   padding: 0 calc(var(--spacing) * 0.6);
   border-radius: var(--border-radius);
   font-size: var(--font-small-size);
@@ -22,7 +22,7 @@
 }
 
 .version {
-  background-color: var(--muted-border-color);
+  background-color: var(--muted-background-color);
   color: var(--muted-color);
   border-left: 1px solid var(--background-color);
   margin-left: calc(var(--spacing) * 0.5);

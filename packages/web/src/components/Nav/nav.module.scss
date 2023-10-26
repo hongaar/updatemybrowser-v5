@@ -12,7 +12,7 @@
   color: var(--primary-inverse);
 
   &:is([aria-current], :hover, :active, :focus) {
-    background-color: var(--muted-border-color);
+    background-color: var(--muted-background-color);
     color: var(--contrast-hover);
   }
 

@@ -1,0 +1,21 @@
+@import "../../styles/theme";
+
+.callout {
+  padding: var(--spacing);
+  margin-bottom: calc(var(--spacing) * 2);
+  border: var(--outline-width) solid var(--primary);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.warning {
+  border-color: var(--warning);
+}
+
+.support {
+  border-color: var(--support);
+}
+
+.error {
+  border-color: var(--error);
+}

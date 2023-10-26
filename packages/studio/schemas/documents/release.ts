@@ -1,10 +1,21 @@
-import type { DocumentDefinition } from "sanity";
+import { defaultLanguage } from "@updatemybrowser/client";
+import type { DocumentDefinition, ReferenceFilterResolver } from "sanity";
 import { iconWithSubIconPreview } from "../../components/index.js";
+
+const articleFilter: ReferenceFilterResolver = ({ document }) => {
+  const browserId = (document.browser as any)._ref as string;
+  const osIds = (document.oses as any[]).map(
+    (item) => item.os._ref,
+  ) as string[];
+  return {
+    filter: `language == $language && browser._ref == $browserId && count((oses[]._ref)[@ in $osIds]) > 0`,
+    params: { language: defaultLanguage, browserId, osIds },
+  };
+};
 
 export const release: DocumentDefinition = {
   name: "release",
   title: "Release",
-  icon: () => "🚀",
   type: "document",
   preview: {
     select: {
@@ -59,6 +70,15 @@ export const release: DocumentDefinition = {
       title: "Download URL",
       description: "Address to download release",
       type: "url",
+    },
+    {
+      name: "downloadArticle",
+      title: "Download article",
+      type: "reference",
+      to: [{ type: "article" }],
+      options: {
+        filter: articleFilter,
+      },
     },
     {
       name: "versionSource",

@@ -41,6 +41,7 @@ const dutch: Dict = {
   AvailableOnYourOsDescription:
     "Je gebruikt momenteel geen %s, maar deze browser is beschikbaar op %s.",
   DownloadNow: "Download nu",
+  Download: "Download",
   Version: "Versie",
   LatestAvailableVersion: "Laatste beschikbare versie",
   UnderConstruction: "Deze pagina is in aanbouw. Kom snel terug.",
@@ -53,6 +54,10 @@ const dutch: Dict = {
   NotAvailableOnYourOs: "Niet beschikbaar op jouw apparaat",
   NotAvailableOnYourOsDescription:
     "Deze browser is niet (meer) beschikbaar op je huidige apparaat.",
+  GuidesForBrowser: "Gidsen voor %s Browser",
+  EnglishVersion: "Engelse versie",
+  NotAvailableInYourLanguageDescription:
+    "Sorry, deze gids is nog niet beschikbaar in jouw taal. Terwijl we werken aan het vertalen van deze gids, kun je de Engelse versie hieronder lezen.",
 };
 
 export default dutch;

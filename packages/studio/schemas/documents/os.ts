@@ -1,3 +1,4 @@
+import { defaultLanguage } from "@updatemybrowser/client";
 import { oses } from "@updatemybrowser/detect";
 import type { DocumentDefinition } from "sanity";
 import { iconPreview } from "../../components/index.js";
@@ -6,9 +7,15 @@ import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
 export const os: DocumentDefinition = {
   name: "os",
   title: "Operating system",
-  icon: () => "💻",
   type: "document",
-  fieldsets: defaultFieldset,
+  fieldsets: [
+    ...defaultFieldset,
+    {
+      name: "articles",
+      title: "Articles",
+      options: { collapsible: true, collapsed: false },
+    },
+  ],
   preview: {
     select: {
       title: "name",
@@ -83,6 +90,29 @@ export const os: DocumentDefinition = {
       title: "Color",
       type: "color",
       fieldset: "branding",
+    },
+    {
+      name: "featuredArticles",
+      title: "Featured articles",
+      description: "Featured articles for this operating system",
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [{ type: "article" }],
+          options: {
+            filter: ({ document }) => {
+              const docId = document._id.replace("drafts.", "");
+              console.log({ docId });
+              return {
+                filter: `language == $language && $osId in oses[]._ref`,
+                params: { language: defaultLanguage, osId: docId },
+              };
+            },
+          },
+        },
+      ],
+      fieldset: "articles",
     },
   ],
 };

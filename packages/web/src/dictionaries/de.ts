@@ -22,6 +22,7 @@ const german: Dict = {
   DisguisedBrowsersDescription:
     "Diese Browser sind getarnt und geben sich als andere Browser aus. Sie sind nicht sicher und sollten nicht verwendet werden",
   DownloadNow: "Jetzt herunterladen",
+  Download: "Herunterladen",
   GlobalUsage: "Globale Nutzung",
   Guides: "Anleitungen",
   Language: "Sprache",
@@ -51,6 +52,10 @@ const german: Dict = {
   NotAvailableOnYourOs: "Nicht verfügbar auf deinem Betriebssystem",
   NotAvailableOnYourOsDescription:
     "Dieser Browser ist nicht verfügbar auf deinem Betriebssystem",
+  GuidesForBrowser: "Anleitungen für %s Browser",
+  EnglishVersion: "Englische Version",
+  NotAvailableInYourLanguageDescription:
+    "Wir entschuldigen uns, diese Anleitung ist noch nicht in deiner Sprache verfügbar. Du kannst aber die englische Version lesen",
 };
 
 export default german;

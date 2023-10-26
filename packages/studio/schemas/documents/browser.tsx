@@ -1,5 +1,6 @@
+import { defaultLanguage } from "@updatemybrowser/client";
 import { browsers } from "@updatemybrowser/detect";
-import type { DocumentDefinition } from "sanity";
+import type { DocumentDefinition, ReferenceFilterResolver } from "sanity";
 import { iconPreview } from "../../components/index.js";
 import {
   defaultFieldset,
@@ -9,12 +10,26 @@ import {
   slug,
 } from "../mixins/index.js";
 
+const articleFilter: ReferenceFilterResolver = ({ document }) => {
+  const docId = document._id.replace("drafts.", "");
+  return {
+    filter: `language == $language && browser._ref == $browserId`,
+    params: { language: defaultLanguage, browserId: docId },
+  };
+};
+
 export const browser: DocumentDefinition = {
   name: "browser",
   title: "Browser",
-  icon: () => "🌐",
   type: "document",
-  fieldsets: defaultFieldset,
+  fieldsets: [
+    ...defaultFieldset,
+    {
+      name: "articles",
+      title: "Articles",
+      options: { collapsible: true, collapsed: false },
+    },
+  ],
   preview: {
     select: {
       title: "name",
@@ -123,6 +138,22 @@ export const browser: DocumentDefinition = {
       title: "Color",
       type: "color",
       fieldset: "branding",
+    },
+    {
+      name: "featuredArticles",
+      title: "Featured articles",
+      description: "Featured articles for this browser",
+      type: "array",
+      of: [
+        {
+          type: "reference",
+          to: [{ type: "article" }],
+          options: {
+            filter: articleFilter,
+          },
+        },
+      ],
+      fieldset: "articles",
     },
   ],
 };

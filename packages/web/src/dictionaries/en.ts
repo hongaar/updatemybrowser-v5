@@ -38,10 +38,11 @@ const english = {
   AvailableOnYourOsClickButtonToDownload:
     "Please click the button below to download this browser.",
   DownloadNow: "Download now",
+  Download: "Download",
   Version: "Version",
   LatestAvailableVersion: "Latest available version",
   UnderConstruction: "This page is under construction. Please come back soon.",
-  CheckDetails: "Check details",
+  CheckDetails: "Browser Check details",
   BrowserIdentity: "Browser identity",
   OSIdentity: "Operating system identity",
   BrowserNotDetected: "Browser not detected",
@@ -50,6 +51,10 @@ const english = {
   NotAvailableOnYourOs: "Not available on your device",
   NotAvailableOnYourOsDescription:
     "This browser is not available (anymore) on your current device.",
+  GuidesForBrowser: "Guides for %s Browser",
+  EnglishVersion: "English version",
+  NotAvailableInYourLanguageDescription:
+    "We're sorry, this guide is not yet available in your language. While we work on translating this guide, you can read the English version below.",
 };
 
 export type Dict = typeof english;

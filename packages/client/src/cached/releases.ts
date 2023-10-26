@@ -218,38 +218,6 @@ export const releases: Release[] = [
     ],
   },
   {
-    _createdAt: "2023-10-20T15:30:56Z",
-    _id: "482d93a5-3311-4b97-b44d-5839a448612e",
-    _rev: "7V6W77YnYTSXWZozOaFmIV",
-    _type: "release",
-    _updatedAt: "2023-10-23T15:11:14Z",
-    browser: {
-      _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-      _type: "reference",
-    },
-    currentUsage: 2.63483,
-    currentVersion: "118",
-    oses: [
-      {
-        _key: "a4857c368a79",
-        _type: "osVersion",
-        os: {
-          _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
-          _type: "reference",
-        },
-      },
-    ],
-    versionSource: [
-      {
-        _key: "7af960bed82d",
-        _type: "versionSource",
-        caniuse_agent: "firefox",
-        caniuse_contribute_usage: true,
-        source: "caniuse",
-      },
-    ],
-  },
-  {
     _createdAt: "2023-10-18T15:25:24Z",
     _id: "fb782fe5-1a48-46a0-ac53-2388dd571903",
     _rev: "Lh7rhBNTpK2mkuYCdJzvNi",
@@ -284,15 +252,19 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:48:43Z",
     _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _rev: "7V6W77YnYTSXWZozOaFimh",
+    _rev: "695kaPqd4sveD9yLk59Ol2",
     _type: "release",
-    _updatedAt: "2023-10-23T15:11:00Z",
+    _updatedAt: "2023-10-25T15:36:21Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
     currentUsage: 1.7233,
     currentVersion: "103",
+    downloadArticle: {
+      _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
+      _type: "reference",
+    },
     oses: [
       {
         _key: "999cf0a3f688",

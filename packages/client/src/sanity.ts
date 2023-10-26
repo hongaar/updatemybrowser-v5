@@ -1,6 +1,6 @@
 import { SanityClient, createClient } from "@sanity/client";
 import { sanityConfig } from "./config.js";
-import { DocType, type Docs, type Release } from "./schema.js";
+import { DocType, type Article, type Docs, type Release } from "./schema.js";
 
 const USE_CDN = false;
 
@@ -90,5 +90,19 @@ export async function getBrowsers({ language }: LanguageOptions) {
 export async function getReleases({}: LanguageOptions) {
   return await getClient().fetch<Release[]>(
     `*[_type == "release"] | order(currentUsage desc)`,
+  );
+}
+
+export async function getArticles({ language }: LanguageOptions) {
+  return await getClient().fetch<Article[]>(
+    `*[_type == "article" && language in $language]{
+  ...,
+  "translationOf": *[_type == "translation.metadata" && references(^._id)]{
+    "translation": translations[_key == "en"][0].value
+  }[0].translation
+}`,
+    {
+      language: Array.isArray(language) ? language : [language],
+    },
   );
 }

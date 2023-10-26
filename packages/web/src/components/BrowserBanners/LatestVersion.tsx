@@ -8,7 +8,7 @@ import {
 import { useEffect, useState } from "react";
 import { sprintf } from "sprintf-js";
 import type { Dict } from "../../dictionaries/en";
-import styles from "./browserBanners.module.scss";
+import { Callout } from "../Callout";
 
 type Props = {
   language: string;
@@ -33,9 +33,9 @@ export function LatestVersion({ language, dict, browser }: Props) {
   }
 
   return (
-    <div className={styles.latestVersion}>
+    <Callout support>
       <h3>✅ {dict.YouHaveTheLatestVersion}</h3>
       <p>{sprintf(dict.LatestVersionDescription, hydratedBrowser.name)}</p>
-    </div>
+    </Callout>
   );
 }

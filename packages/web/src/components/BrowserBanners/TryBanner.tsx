@@ -9,6 +9,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { sprintf } from "sprintf-js";
 import type { Dict } from "../../dictionaries/en";
+import { Callout } from "../Callout";
 import styles from "./browserBanners.module.scss";
 
 type Props = {
@@ -34,7 +35,7 @@ export function TryBanner({ language, dict, browser }: Props) {
   }
 
   return (
-    <div className={styles.tryBanner}>
+    <Callout>
       <h3>{dict.AvailableOnYourOs}</h3>
       <p>
         {sprintf(
@@ -49,10 +50,10 @@ export function TryBanner({ language, dict, browser }: Props) {
         tabIndex={0}
         role="button"
         className={`${styles.downloadButton}`}
-        href={"#"}
+        href={`/${language}/browsers/${browser.slug.current}/${hydratedBrowser.match?.currentOsRelease.os.os.slug.current}/download`}
       >
         {dict.DownloadNow}
       </Link>
-    </div>
+    </Callout>
   );
 }

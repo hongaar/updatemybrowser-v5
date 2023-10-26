@@ -1,13 +1,18 @@
+import type { Metadata } from "next";
 import { Container } from "../../../components/Container";
 import { getDictionary } from "../../../dictionaries";
+import { pageTitle } from "../../../utils";
+import type { LanguageParams } from "../page";
 
-export type LanguageParams = {
-  params: {
-    language: string;
-  };
-};
+export function generateMetadata({ params: { language } }: LanguageParams) {
+  const dict = getDictionary(language);
 
-export default async function Blog({ params: { language } }: LanguageParams) {
+  return {
+    title: pageTitle(dict.Guides),
+  } as Metadata;
+}
+
+export default async function Guides({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);
 
   return (

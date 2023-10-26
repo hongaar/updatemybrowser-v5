@@ -4,7 +4,6 @@ import { mediaPreview } from "sanity-plugin-icon-manager";
 export const language: DocumentDefinition = {
   name: "language",
   title: "Language",
-  icon: () => "🇬🇧",
   type: "document",
   preview: {
     select: {

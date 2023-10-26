@@ -1,14 +1,18 @@
 import { getBrowsersWithFlatReleases } from "@updatemybrowser/client";
+import type { Metadata } from "next";
 import { BrowserGrid } from "../../../components/BrowserGrid";
 import { Container } from "../../../components/Container";
 import { getDictionary } from "../../../dictionaries";
-import { compareAverageUsage } from "../../../utils";
+import { compareAverageUsage, pageTitle } from "../../../utils";
+import type { LanguageParams } from "../page";
 
-export type LanguageParams = {
-  params: {
-    language: string;
-  };
-};
+export function generateMetadata({ params: { language } }: LanguageParams) {
+  const dict = getDictionary(language);
+
+  return {
+    title: pageTitle(dict.BrowserOverview),
+  } as Metadata;
+}
 
 export default async function Home({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);

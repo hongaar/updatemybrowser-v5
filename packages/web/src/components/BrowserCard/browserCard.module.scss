@@ -21,7 +21,7 @@
     border-color: var(--border-color);
     color: var(--contrast-hover);
     text-decoration: none;
-    background-color: var(--muted-border-color);
+    background-color: var(--muted-background-color);
   }
 
   &:focus {
@@ -89,7 +89,7 @@
   padding: 0 var(--spacing);
   line-height: 3.5rem;
 
-  background-color: var(--muted-color);
+  background-color: var(--muted-background-color);
   color: var(--muted-inverse);
 }
 

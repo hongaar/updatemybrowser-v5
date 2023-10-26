@@ -7,7 +7,7 @@ import {
 } from "@updatemybrowser/detect";
 import { useEffect, useState } from "react";
 import type { Dict } from "../../dictionaries/en";
-import styles from "./browserBanners.module.scss";
+import { Callout } from "../Callout";
 
 type Props = {
   language: string;
@@ -29,9 +29,9 @@ export function NotAvailable({ language, dict, browser }: Props) {
   }
 
   return (
-    <div className={styles.notAvailable}>
+    <Callout error>
       <h3>🚫 {dict.NotAvailableOnYourOs}</h3>
       <p>{dict.NotAvailableOnYourOsDescription}</p>
-    </div>
+    </Callout>
   );
 }

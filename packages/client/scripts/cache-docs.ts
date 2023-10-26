@@ -5,6 +5,7 @@ import { join } from "node:path";
 import sortJson from "sort-json";
 import {
   enableDrafts,
+  getArticles,
   getBrowsers,
   getLanguages,
   getOses,
@@ -56,6 +57,7 @@ async function createDocsCache() {
   await createCache("oses", "OS", languages, getOses);
   await createCache("browsers", "Browser", languages, getBrowsers);
   await createCache("releases", "Release", languages, getReleases);
+  await createCache("articles", "Article", languages, getArticles);
 }
 
 createDocsCache();

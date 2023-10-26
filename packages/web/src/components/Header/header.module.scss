@@ -1,7 +1,7 @@
 @import "../../styles/theme";
 
 .header {
-  background-color: var(--muted-border-color);
+  background-color: var(--muted-background-color);
 }
 
 .container {
@@ -26,7 +26,7 @@
 
 .heading {
   margin-right: var(--spacing);
-  background-color: var(--muted-border-color);
+  background-color: var(--muted-background-color);
   z-index: 1;
 
   &:not(:last-child) {

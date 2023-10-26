@@ -32,6 +32,7 @@ const indonesian: Dict = {
   AvailableOnYourOsClickButtonToDownload:
     "Klik tombol di bawah ini untuk mengunduh browser ini.",
   DownloadNow: "Unduh sekarang",
+  Download: "Unduh",
   Version: "Versi",
   LatestAvailableVersion: "Versi terbaru yang tersedia",
   LatestVersionDescription: "Selamat, Anda menggunakan versi terbaru dari %s.",
@@ -53,6 +54,10 @@ const indonesian: Dict = {
   NotAvailableOnYourOs: "Tidak tersedia di perangkat Anda",
   NotAvailableOnYourOsDescription:
     "Browser ini tidak tersedia di perangkat Anda.",
+  GuidesForBrowser: "Panduan untuk %s Browser",
+  EnglishVersion: "Versi bahasa Inggris",
+  NotAvailableInYourLanguageDescription:
+    "Maaf, panduan ini belum tersedia dalam bahasa Anda. Sementara kami menerjemahkan panduan ini, Anda dapat membaca versi bahasa Inggris di bawah ini.",
 };
 
 export default indonesian;

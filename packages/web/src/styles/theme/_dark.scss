@@ -14,8 +14,9 @@
 
     // Muted colors
     --muted-color: #{$grey-500};
-    --muted-inverse: #{$white};
-    --muted-border-color: #{mix($grey-900, $grey-800, 75%)};
+    --muted-border-color: #{mix($grey-900, $grey-500, 75%)};
+    --muted-inverse: #{$grey-200};
+    --muted-background-color: #{mix($grey-900, $grey-800, 75%)};
 
     // Primary colors
     --primary: #{$primary-600};
