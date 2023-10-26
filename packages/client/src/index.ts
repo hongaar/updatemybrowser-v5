@@ -16,7 +16,7 @@ type UseCacheOption = {
 };
 
 type LanguageOption = {
-  language?: string;
+  language?: string | string[];
 };
 
 const DEFAULT_USE_CACHE = true;
