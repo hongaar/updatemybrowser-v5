@@ -4222,6 +4222,7 @@ __metadata:
     "@updatemybrowser/client": "workspace:*"
     "@updatemybrowser/core": "workspace:*"
     cross-fetch: "npm:4.0.0"
+    dotenv: "npm:16.3.1"
     ts-node: "npm:10.9.1"
     typescript: "npm:5.2.2"
   languageName: unknown

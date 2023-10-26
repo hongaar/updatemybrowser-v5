@@ -1,3 +1,7 @@
 # artifacts
 /dist
 /types
+
+# local env files
+.env*.local
+.env

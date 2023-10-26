@@ -9,6 +9,7 @@ import type {
 
 export { defaultLanguage, sanityConfig } from "./config.js";
 export type * from "./schema.js";
+export { sanity };
 
 type UseCacheOption = {
   useCache?: boolean;

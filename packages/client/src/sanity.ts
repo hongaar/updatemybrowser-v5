@@ -9,10 +9,11 @@ const apiVersion = "2023-05-03";
 
 let client: SanityClient;
 
-export function getClient() {
+export function getClient({ token = process.env["SANITY_TOKEN"] } = {}) {
   return (
     client ??
     (client = createClient({
+      ...(token ? { token } : {}),
       projectId,
       dataset,
       apiVersion, // https://www.sanity.io/docs/api-versioning
@@ -21,10 +22,9 @@ export function getClient() {
   );
 }
 
-export function enableDrafts({ token = process.env["SANITY_TOKEN"] } = {}) {
+export function enableDrafts() {
   return (client = getClient().withConfig({
     useCdn: false,
-    ...(token ? { token } : {}),
     perspective:
       process.env["NODE_ENV"] === "development" ? "previewDrafts" : "published",
   }));
@@ -87,7 +87,7 @@ export async function getBrowsers({ language }: LanguageOptions) {
   });
 }
 
-export async function getReleases({}: LanguageOptions) {
+export async function getReleases({}: LanguageOptions = {}) {
   return await getClient().fetch<Release[]>(
     `*[_type == "release"] | order(currentUsage desc)`,
   );

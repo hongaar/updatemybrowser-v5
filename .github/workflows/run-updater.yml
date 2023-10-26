@@ -1,0 +1,24 @@
+name: run-updater
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 3 * * *"
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+          cache: yarn
+      - run: yarn install
+      - run: yarn workspace @updatemybrowser/updater run-updater
+        env:
+          SANITY_TOKEN: ${{ secrets.SANITY_TOKEN }}
+      - run: yarn workspace @updatemybrowser/client cache-docs
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: apply run-updater result"
