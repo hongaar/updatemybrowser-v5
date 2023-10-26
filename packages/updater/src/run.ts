@@ -27,14 +27,17 @@ export async function runForAllReleases() {
       .filter(notEmpty);
     const { version, usage } = await updateFromMultiple(sources);
 
-    if (version !== release.currentVersion || usage !== release.currentUsage) {
+    if (
+      (typeof version !== "undefined" && version !== release.currentVersion) ||
+      (typeof usage !== "undefined" && usage !== release.currentUsage)
+    ) {
       const patch = client.patch(release._id);
 
-      if (version) {
+      if (typeof version !== "undefined") {
         patch.set({ currentVersion: version });
       }
 
-      if (usage) {
+      if (typeof usage !== "undefined") {
         patch.set({ currentUsage: usage });
       }
 
