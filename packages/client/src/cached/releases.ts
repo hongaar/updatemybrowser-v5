@@ -446,7 +446,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-14T02:45:47Z",
     _id: "f3feab0b-20a2-4397-9458-bf579d5fd7ea",
-    _rev: "NXWRfmtJObhdyNnOgJ6qSG",
+    _rev: "l23pZBZnMlijdW7ogHlhNt",
     _type: "release",
     _updatedAt: "2023-10-23T15:09:42Z",
     browser: {
