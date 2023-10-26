@@ -1,4 +1,4 @@
-import { getArticles, getLanguageIds } from "@updatemybrowser/client";
+import { getArticles } from "@updatemybrowser/client";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Article } from "../../../../components/Article";
@@ -14,12 +14,10 @@ export type SlugParams = {
   };
 };
 
-export async function generateStaticParams() {
-  return (
-    await getArticles({
-      language: await getLanguageIds(),
-    })
-  ).map((article) => ({
+export async function generateStaticParams({
+  params: { language },
+}: LanguageParams) {
+  return (await getArticles({ language })).map((article) => ({
     slug: article.slug.current,
   }));
 }
