@@ -5,7 +5,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-26T16:17:54Z",
     _id: "03cb4079-95d0-4368-9a97-3c9aa6b12e0d",
-    _rev: "xjV26r95LyXpcLBMjzw2kO",
+    _rev: "xjV26r95LyXpcLBMk04cdG",
     _type: "release",
     _updatedAt: "2023-10-26T16:19:11Z",
     browser: {
@@ -53,7 +53,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-23T06:52:17Z",
     _id: "df47bd5d-957d-470f-b972-dc79e44b6ec3",
-    _rev: "7V6W77YnYTSXWZozOaOA73",
+    _rev: "l23pZBZnMlijdW7ogHkIPk",
     _type: "release",
     _updatedAt: "2023-10-23T16:11:51Z",
     browser: {
@@ -93,7 +93,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-05T15:07:57Z",
     _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
-    _rev: "uR7u7AhCU0Ezsyr8BWXM7P",
+    _rev: "xjV26r95LyXpcLBMk04crL",
     _type: "release",
     _updatedAt: "2023-10-26T14:52:10Z",
     browser: {
@@ -151,7 +151,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:54Z",
     _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _rev: "IW6hjkMGxufdYFszO2w8mM",
+    _rev: "xjV26r95LyXpcLBMk04d0j",
     _type: "release",
     _updatedAt: "2023-10-23T15:11:58Z",
     browser: {
@@ -191,7 +191,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:50:30Z",
     _id: "2e7a7bed-6a90-4ffc-8230-32bd93fa28d9",
-    _rev: "7V6W77YnYTSXWZozOaFZ4K",
+    _rev: "NXWRfmtJObhdyNnOgJ6CFz",
     _type: "release",
     _updatedAt: "2023-10-23T15:08:55Z",
     browser: {
@@ -239,7 +239,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-08T06:17:00Z",
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _rev: "IW6hjkMGxufdYFszO2w6AY",
+    _rev: "NXWRfmtJObhdyNnOgJ6DB5",
     _type: "release",
     _updatedAt: "2023-10-23T15:10:49Z",
     browser: {
@@ -270,7 +270,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-18T15:25:24Z",
     _id: "fb782fe5-1a48-46a0-ac53-2388dd571903",
-    _rev: "Lh7rhBNTpK2mkuYCdJzvNi",
+    _rev: "xjV26r95LyXpcLBMk04eDp",
     _type: "release",
     _updatedAt: "2023-10-23T15:11:39Z",
     browser: {
@@ -302,7 +302,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-26T14:54:03Z",
     _id: "02e8d45d-e6fc-4987-abb2-89d1a8208cda",
-    _rev: "vFaXx7T1W2X5sVesRHULm3",
+    _rev: "l23pZBZnMlijdW7ogHkJ1Y",
     _type: "release",
     _updatedAt: "2023-10-26T14:54:03Z",
     browser: {
@@ -344,7 +344,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:48:43Z",
     _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _rev: "vFaXx7T1W2X5sVesRHUM63",
+    _rev: "l23pZBZnMlijdW7ogHkJB0",
     _type: "release",
     _updatedAt: "2023-10-26T14:54:21Z",
     browser: {
@@ -413,7 +413,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:20Z",
     _id: "9f482aff-b73c-45bb-bf10-a4ea19668029",
-    _rev: "IW6hjkMGxufdYFszO2yVt8",
+    _rev: "xjV26r95LyXpcLBMk04eRu",
     _type: "release",
     _updatedAt: "2023-10-23T16:14:36Z",
     browser: {
@@ -446,7 +446,7 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-14T02:45:47Z",
     _id: "f3feab0b-20a2-4397-9458-bf579d5fd7ea",
-    _rev: "7V6W77YnYTSXWZozOaFa0B",
+    _rev: "l23pZBZnMlijdW7ogHkL0Q",
     _type: "release",
     _updatedAt: "2023-10-23T15:09:42Z",
     browser: {
