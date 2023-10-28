@@ -198,15 +198,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:54Z",
     _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _rev: "xjV26r95LyXpcLBMk061O4",
+    _rev: "NXWRfmtJObhdyNnOgLfkMh",
     _type: "release",
-    _updatedAt: "2023-10-23T15:11:58Z",
+    _updatedAt: "2023-10-28T03:19:18Z",
     browser: {
       _ref: "c384ba9c-d502-4946-99a2-734b295088aa",
       _type: "reference",
     },
     currentUsage: 5.496420000000001,
-    currentVersion: "17",
+    currentVersion: "17.1",
     oses: [
       {
         _key: "52bb0aa33b57",
