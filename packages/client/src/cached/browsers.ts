@@ -5,15 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "GF66gZmXYO33GkMIOCnukl",
+    _rev: "GF66gZmXYO33GkMIODhdLl",
     _type: "browser",
-    _updatedAt: "2023-10-29T14:52:20Z",
-    description: {
-      de: null,
-      en: null,
-      id: null,
-      nl: null,
-    },
+    _updatedAt: "2023-10-30T11:00:47Z",
     featuredArticles: [
       {
         _key: "bf640fd6a755",
@@ -139,9 +133,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "xjV26r95LyXpcLBMk86T4W",
+    _rev: "NXWRfmtJObhdyNnOgNux5x",
     _type: "browser",
-    _updatedAt: "2023-10-30T06:41:05Z",
+    _updatedAt: "2023-10-30T11:11:13Z",
     homepage: "https://www.samsung.com/us/support/owners/app/samsung-internet",
     icon: {
       _type: "icon",
@@ -154,15 +148,51 @@ export const browsers: Browser[] = [
       _type: "slug",
       current: "samsung-internet",
     },
-    summary: [],
+    summary: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Samsung Internet Browser is a mobile web browser developed by Samsung Electronics, based on the open-source Chromium project. It comes pre-installed on Samsung Galaxy devices and, since 2015, has been available for download from Google Play for all Android devices. It is also available for their Tizen-based smartwatch via the Galaxy Store.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Samsung Internet Browser is een mobiele webbrowser voor smartphones en tablets, ontwikkeld door Samsung Electronics. De browser, die gebaseerd is op het open-source Chromium-project, wordt voor-geïnstalleerd op Samsung Galaxy-apparaten en kan sinds 2015 gedownload worden vanuit de Google Play.",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Samsung Internet Browser adalah peramban web seluler untuk ponsel pintar dan tablet yang dikembangkan oleh Samsung Electronics. Sejak 2015, peramban ini tersedia untuk diunduh dari Google Play. Samsung memperkirakan terdapat 400 juta pengguna aktif bulanan pada 2016.",
+      },
+    ],
     vendor: "Samsung",
+    wikipediaUrl: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://en.wikipedia.org/wiki/Samsung_Internet",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://nl.wikipedia.org/wiki/Samsung_Internet",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Samsung_Internet",
+      },
+    ],
   },
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "GF66gZmXYO33GkMIODhNol",
+    _rev: "GF66gZmXYO33GkMIODhdal",
     _type: "browser",
-    _updatedAt: "2023-10-30T06:41:06Z",
+    _updatedAt: "2023-10-30T11:11:16Z",
     description: [
       {
         _key: "en",
@@ -218,13 +248,60 @@ export const browsers: Browser[] = [
       _type: "slug",
       current: "chromium",
     },
-    summary: [],
+    summary: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Chromium is a free and open-source web browser project, mainly developed and maintained by Google. This codebase provides the vast majority of code for the Google Chrome browser, which is proprietary software and has some additional features. Chromium's logo is identical in shape to that of Google Chrome, but with blue colors instead of being multicolor.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Chromium is een opensourceproject dat de broncode voor Google Chrome en afgeleiden levert. De broncode wordt vrijgegeven onder de BSD-licentie. De layout-engine is Blink, een fork van WebKit. Op basis van de broncode kan er een browser worden gecompileerd, die dan de naam Chromium meekrijgt. Er is echter geen officiële en stabiele download, wel gemeenschapsuitgaven en andere toepassingen van Chromium. Testversies worden wel beschikbaar gesteld in gecompileerde vorm.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Unter dem Namen Chromium wird der Großteil des Quelltextes des Webbrowsers Google Chrome unter der BSD-Lizenz als Open-Source-Projekt zur Verfügung gestellt. Das Projekt wurde am 2. September 2008 gestartet. Viele weitere Browser basieren auf der Code-Basis von Chromium, darunter Microsoft Edge, Opera, Vivaldi und Brave.",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Chromium adalah proyek peramban web sumber terbuka di mana Google Chrome yang mengambil kode sumbernya. Penjelajah ini berbagi mayoritas kode dan fitur, meskipun ada beberapa perbedaan kecil dalam fitur dan mereka memiliki lisensi yang berbeda.",
+      },
+    ],
     vendor: "The Chromium Authors",
+    wikipediaUrl: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://en.wikipedia.org/wiki/Chromium_(web_browser)",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://nl.wikipedia.org/wiki/Chromium_(software)",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Chromium_(Browser)",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Chromium_(peramban_web)",
+      },
+    ],
   },
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "xjV26r95LyXpcLBMk86TIb",
+    _rev: "xjV26r95LyXpcLBMk86sjd",
     _type: "browser",
     _updatedAt: "2023-10-30T11:00:51Z",
     description: [
@@ -329,9 +406,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "GF66gZmXYO33GkMIODhO0l",
+    _rev: "GF66gZmXYO33GkMIODhdgl",
     _type: "browser",
-    _updatedAt: "2023-10-30T06:41:10Z",
+    _updatedAt: "2023-10-30T11:11:20Z",
     description: [
       {
         _key: "en",
@@ -381,15 +458,62 @@ export const browsers: Browser[] = [
       _type: "slug",
       current: "brave",
     },
-    summary: [],
+    summary: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser. Brave is a privacy-focused browser, which automatically blocks most advertisements and website trackers in its default settings. Users can turn on optional ads that reward them for their attention in the form of Basic Attention Tokens (BAT), which can be used as a cryptocurrency or to make payments to registered websites and content creators.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Brave is een opensource-webbrowser van Brave Software Inc. Brave is beschikbaar voor Microsoft Windows, macOS, iOS, Linux en Android. De op Chromium gebaseerde browser blokkeert automatisch trackers en advertenties, waarmee er een grote focus op privacy ligt.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Brave ist ein quelloffener Webbrowser für die Betriebssysteme Windows, macOS, Linux, Android und für Apple iOS. Initiator und Projektleiter ist Brendan Eich.",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Brave adalah peramban web gratis dan sumber terbuka berbasis Chromium, yang dikembangkan oleh Brave Software Inc.. Brave adalah peramban yang berfokus pada privasi yang berbeda dengan peramban lain yaitu dengan memblokir iklan daring dan pelacak situs web secara baku. Peramban ini juga menyediakan cara untuk menyalakan iklan opsional yang memberikan imbalan kepada pengguna untuk perhatiannya dalam bentuk mata uang kripto Basic Attention Token (BAT). Pengguna dapat mengirimkan kontribusi mereka kepada berbagai situs web dan pembuat konten, dan juga menyimpan token yang didapat.",
+      },
+    ],
     vendor: "Brave Software",
+    wikipediaUrl: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://en.wikipedia.org/wiki/Brave_(web_browser)",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://nl.wikipedia.org/wiki/Brave_(webbrowser)",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Brave_(Browser)",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Brave_(peramban_web)",
+      },
+    ],
   },
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "GF66gZmXYO33GkMIODhO6l",
+    _rev: "xjV26r95LyXpcLBMk86sxi",
     _type: "browser",
-    _updatedAt: "2023-10-30T06:41:12Z",
+    _updatedAt: "2023-10-30T11:11:22Z",
     homepage: "https://wikipedia.org/wiki/Internet_Explorer",
     icon: {
       _type: "icon",
@@ -431,15 +555,62 @@ export const browsers: Browser[] = [
       _type: "slug",
       current: "internet-explorer",
     },
-    summary: [],
+    summary: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Internet Explorer is a deprecated series of graphical web browsers developed by Microsoft that were used in the Windows line of operating systems. While IE has been discontinued on most Windows editions, it remains supported on certain editions of Windows, such as Windows 10 LTSB/LTSC. Starting in 1995, it was first released as part of the add-on package Plus! for Windows 95 that year. Later versions were available as free downloads or in-service packs and included in the original equipment manufacturer (OEM) service releases of Windows 95 and later versions of Windows. Microsoft spent over US$100 million per year on Internet Explorer in the late 1990s, with over 1,000 people involved in the project by 1999. New feature development for the browser was discontinued in 2016 and ended support on June 15, 2022, in favor of its successor, Microsoft Edge.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Internet Explorer is een reeks grafische webbrowsers ontwikkeld door Microsoft en is onderdeel van Microsoft Windows, een reeks besturingssystemen. De ontwikkeling is gestart in 1995. Internet Explorer is voor het eerst gelanceerd als onderdeel van Plus! for Windows 95 later dat jaar. Latere versies waren beschikbaar als gratis downloads of Service Packs. Ook was Internet Explorer onderdeel van de OEM-versies van Windows 95 en later.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Internet Explorer ist ein inzwischen abgelöster Webbrowser des Softwareherstellers Microsoft für verschiedene Plattformen.",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Windows Internet Explorer adalah sebuah peramban web dan perangkat lunak tak bebas yang gratis dari Microsoft, dan disertakan dalam setiap rilis sistem operasi Microsoft Windows sejak 1995. Pada mulanya, Internet Explorer dirilis sebagai bagian dari paket Plus! for Windows 95 (Inggris) pada saat itu.",
+      },
+    ],
     vendor: "Microsoft",
+    wikipediaUrl: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://en.wikipedia.org/wiki/Internet_Explorer",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://nl.wikipedia.org/wiki/Internet_Explorer",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Internet_Explorer",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Internet_Explorer",
+      },
+    ],
   },
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "GF66gZmXYO33GkMIODhOCl",
+    _rev: "xjV26r95LyXpcLBMk86t76",
     _type: "browser",
-    _updatedAt: "2023-10-30T06:41:14Z",
+    _updatedAt: "2023-10-30T11:11:24Z",
     homepage: "https://www.apple.com/safari/",
     icon: {
       _type: "icon",
@@ -481,15 +652,62 @@ export const browsers: Browser[] = [
       _type: "slug",
       current: "safari",
     },
-    summary: [],
+    summary: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Safari is a web browser developed by Apple. It is built into Apple's operating systems, including macOS, iOS, iPadOS and their upcoming VisionOS, and uses Apple's open-source browser engine WebKit, which was derived from KHTML.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Safari is een webbrowser die ontwikkeld is door Apple en beschikbaar is voor de besturingssystemen macOS, iOS en iPadOS.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS ab der Version Mac OS X Panther (2003) sowie von iOS und iPadOS und ersetzte den vorher mitgelieferten Microsoft Internet Explorer für Mac als Standard-Browser.",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Safari adalah sebuah peramban web buatan Apple Inc. yang awalnya ditujukan khusus bagi sistem operasi Mac OS. Safari dipasang bersama Mac OS X dan merupakan peramban web bawaan di sistem operasi tersebut sejak Mac OS X v10.3. Sebelumnya dari tahun 1997 hingga 2003, Mac OS X menggunakan Internet Explorer for Mac sebagai peramban web bawaan. Pada 11 Juni 2007, versi pratayang untuk Windows baik yang cocok untuk Windows XP dan Windows Vista dari Safari diperkenalkan pada Muktamar Pengembang Sedunia Apple di San Francisco.",
+      },
+    ],
     vendor: "Apple",
+    wikipediaUrl: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://en.wikipedia.org/wiki/Safari_(web_browser)",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://nl.wikipedia.org/wiki/Safari_(webbrowser)",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Safari_(Browser)",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Safari_(peramban_web)",
+      },
+    ],
   },
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "NXWRfmtJObhdyNnOgN5n07",
+    _rev: "xjV26r95LyXpcLBMk86tPs",
     _type: "browser",
-    _updatedAt: "2023-10-29T14:54:40Z",
+    _updatedAt: "2023-10-30T11:00:58Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -631,7 +849,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "NXWRfmtJObhdyNnOgNuho9",
+    _rev: "NXWRfmtJObhdyNnOgNuyFK",
     _type: "browser",
     _updatedAt: "2023-10-30T11:01:01Z",
     color: {
@@ -761,7 +979,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:50:38Z",
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "GF66gZmXYO33GkMIODhOsl",
+    _rev: "GF66gZmXYO33GkMIODhe7l",
     _type: "browser",
     _updatedAt: "2023-10-30T11:01:03Z",
     homepage: "https://vivaldi.com",

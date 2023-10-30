@@ -1,4 +1,4 @@
-name: run-updater
+name: update
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  run-updater:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,10 +19,9 @@ jobs:
           cache: yarn
       - run: yarn install
       - run: yarn typescript
-      - run: yarn workspace @updatemybrowser/updater run-updater
+      - run: yarn run update
         env:
           SANITY_TOKEN: ${{ secrets.SANITY_TOKEN }}
-      - run: yarn workspace @updatemybrowser/client cache-docs
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: apply run-updater result"
+          commit_message: "chore: apply update result"

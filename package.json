@@ -23,7 +23,7 @@
     "test:watch": "yarn workspaces foreach --all --parallel --interlaced run test:watch",
     "typescript": "yarn build:clean && tsc --build --force",
     "typescript:watch": "tsc --build --watch",
-    "update": "yarn workspace @updatemybrowser/updater start && yarn workspace @updatemybrowser/client cache-docs"
+    "update": "yarn workspace @updatemybrowser/updater start && yarn workspace @updatemybrowser/client cache-docs && yarn format"
   },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown"
