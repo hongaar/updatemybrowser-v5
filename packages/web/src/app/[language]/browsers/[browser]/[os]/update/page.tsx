@@ -113,7 +113,13 @@ export default async function Update({
               </Link>
             </div>
           </section>
-        ) : null}
+        ) : (
+          <>
+            <h2>{dict.NotFound}</h2>
+            <p>{dict.NotFoundDescription}</p>
+            <Link href="/">{dict.NotFoundButton}</Link>
+          </>
+        )}
       </Container>
     </>
   );

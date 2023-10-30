@@ -19,7 +19,7 @@ export async function Article({ language, dict, article }: Props) {
   return (
     <>
       {(article.oses && article.oses.length > 0) || article.browser ? (
-        <>
+        <Callout muted>
           <TagList>
             <>{dict.AppliesTo}:</>
             {browser ? (
@@ -48,12 +48,13 @@ export async function Article({ language, dict, article }: Props) {
                 })
               : null}
           </TagList>
-          <hr />
-        </>
+        </Callout>
       ) : null}
       <article>
         <h2 className={styles.heading}>{article.title}</h2>
-        <p className={styles.excerpt}>{article.excerpt}</p>
+        {article.excerpt ? (
+          <p className={styles.excerpt}>{article.excerpt}</p>
+        ) : null}
         <MDXRemote
           source={article.contents}
           components={{

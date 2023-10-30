@@ -6,14 +6,15 @@ type Props = {
   support?: boolean;
   warning?: boolean;
   error?: boolean;
+  muted?: boolean;
 };
 
-export function Callout({ children, support, warning, error }: Props) {
+export function Callout({ children, support, warning, error, muted }: Props) {
   return (
     <div
       className={`${styles.callout} ${support ? styles.support : ""} ${
         warning ? styles.warning : ""
-      } ${error ? styles.error : ""}`}
+      } ${error ? styles.error : ""} ${muted ? styles.muted : ""}`}
     >
       {children}
     </div>

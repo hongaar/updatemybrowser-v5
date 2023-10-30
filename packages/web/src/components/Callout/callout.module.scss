@@ -5,7 +5,7 @@
   margin-bottom: calc(var(--spacing) * 2);
   border: var(--outline-width) solid var(--primary);
   border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
+  // box-shadow: var(--box-shadow);
 }
 
 .warning {
@@ -18,4 +18,9 @@
 
 .error {
   border-color: var(--error);
+}
+
+.muted {
+  border: var(--border-width) solid var(--muted-border-color);
+  color: var(--muted-color);
 }
