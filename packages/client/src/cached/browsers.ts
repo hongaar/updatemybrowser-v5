@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "904mL5SdWNgHGZgJPr210P",
+    _rev: "GF66gZmXYO33GkMIOCnukl",
     _type: "browser",
-    _updatedAt: "2023-10-25T15:52:04Z",
+    _updatedAt: "2023-10-29T14:52:20Z",
     description: {
       de: null,
       en: null,
@@ -59,6 +59,28 @@ export const browsers: Browser[] = [
     matchBrowserName: ["Opera"],
     name: "Opera",
     popularity: 1793,
+    screenshots: [
+      {
+        _key: "c0c17a2bab22",
+        _type: "figure",
+        alt: "Opera on desktop screenshot",
+        asset: {
+          _ref: "image-19424ef57f309fd6a75dcd53735af083e8b36aee-1771x1031-png",
+          _type: "reference",
+        },
+        caption: "Opera on desktop screenshot",
+      },
+      {
+        _key: "37619e6c551e",
+        _type: "figure",
+        alt: "Opera mobile",
+        asset: {
+          _ref: "image-fe0aba2f0e9ece4c12ee193ff612d81249cbc111-590x675-png",
+          _type: "reference",
+        },
+        caption: "Opera mobile",
+      },
+    ],
     slug: {
       _type: "slug",
       current: "opera",
@@ -90,6 +112,7 @@ export const browsers: Browser[] = [
         value: "https://id.wikipedia.org/wiki/Opera_(peramban_web)",
       },
     ],
+    youtubeId: "FxBBuxE6XTI",
   },
   {
     _createdAt: "2023-10-07T15:38:17Z",
@@ -440,9 +463,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "Lh7rhBNTpK2mkuYCdJjhFa",
+    _rev: "NXWRfmtJObhdyNnOgN5n07",
     _type: "browser",
-    _updatedAt: "2023-10-23T13:31:42Z",
+    _updatedAt: "2023-10-29T14:54:40Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -511,6 +534,7 @@ export const browsers: Browser[] = [
     },
     logo: {
       _type: "figure",
+      alt: "Google Chrome",
       asset: {
         _ref: "image-b3b4691575b5798ccc5e25f245a3e3a1d7809ab3-1200x600-webp",
         _type: "reference",
