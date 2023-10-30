@@ -45,9 +45,7 @@ export async function getLanguage(
 export async function getOses({
   useCache = DEFAULT_USE_CACHE,
 }: UseCacheOption = {}) {
-  const oses = useCache
-    ? cached.oses
-    : await sanity.getOses({ language: await sanity.getLanguageIds() });
+  const oses = useCache ? cached.oses : await sanity.getOses();
 
   return oses;
 }
@@ -55,9 +53,7 @@ export async function getOses({
 export async function getBrowsers({
   useCache = DEFAULT_USE_CACHE,
 }: UseCacheOption = {}) {
-  return useCache
-    ? cached.browsers
-    : await sanity.getBrowsers({ language: await sanity.getLanguageIds() });
+  return useCache ? cached.browsers : await sanity.getBrowsers();
 }
 
 export async function getBrowsersWithFlatReleases({
@@ -79,9 +75,7 @@ export async function getBrowsersWithFlatReleases({
 export async function getReleases({
   useCache = DEFAULT_USE_CACHE,
 }: UseCacheOption = {}) {
-  return useCache
-    ? cached.releases
-    : await sanity.getReleases({ language: await sanity.getLanguageIds() });
+  return useCache ? cached.releases : await sanity.getReleases();
 }
 
 export async function getReleasesExpanded({

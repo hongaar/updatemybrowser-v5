@@ -6,7 +6,7 @@
 
 .container {
   // !important due to bug with container padding from loading.tsx taking precedence
-  padding: calc(var(--spacing) * 0.5) !important;
+  padding: calc(var(--spacing) * 0.5) calc(var(--spacing) * 1) !important;
 }
 
 .breadcrumbs {
@@ -18,17 +18,50 @@
 }
 
 .crumb {
-  display: inline-block;
   margin: 0;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
 
   &:not(:last-child) {
     &::after {
       display: inline-block;
       position: relative;
-      width: calc(var(--spacing) * 2);
+      padding: 0 calc(var(--spacing) * 0.4);
       content: "/";
       color: var(--muted-color);
       text-align: center;
+
+      @media (min-width: map-get($breakpoints, "md")) {
+        padding: 0 calc(var(--spacing) * 0.8);
+      }
+    }
+  }
+
+  &:nth-last-child(4),
+  &:nth-last-child(3) {
+    a {
+      visibility: hidden;
+      display: inline-block;
+      width: 0;
+    }
+
+    &::before {
+      content: "...";
+    }
+  }
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    &:nth-last-child(4),
+    &:nth-last-child(3) {
+      a {
+        visibility: visible;
+        width: auto;
+      }
+
+      &::before {
+        content: "";
+      }
     }
   }
 }

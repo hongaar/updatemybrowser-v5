@@ -7,6 +7,7 @@ import {
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { sprintf } from "sprintf-js";
 import { Breadcrumbs } from "../../../../../../components/Breadcrumbs";
 import { BrowserArticle } from "../../../../../../components/BrowserArticle";
 import { Container } from "../../../../../../components/Container";
@@ -100,6 +101,7 @@ export default async function Download({
             <h2>
               {dict.Download} {browser.name}
             </h2>
+            <p>{sprintf(dict.DownloadLinkDescription, browser.name)}</p>
             <div>
               <Link
                 tabIndex={0}

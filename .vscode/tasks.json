@@ -59,8 +59,23 @@
       "script": "cache-docs",
       "path": "packages/client",
       "problemMatcher": [],
-      "label": "yarn cache-docs",
+      "label": "yarn @updatemybrowser/client cache-docs",
       "detail": "Create docs cache"
+    },
+    {
+      "type": "npm",
+      "script": "start",
+      "path": "packages/updater",
+      "problemMatcher": [],
+      "label": "yarn @updatemybrowser/updater start",
+      "detail": "Run updater only"
+    },
+    {
+      "type": "npm",
+      "script": "update",
+      "problemMatcher": [],
+      "label": "yarn update",
+      "detail": "Update & cache docs"
     }
   ]
 }

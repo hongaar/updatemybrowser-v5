@@ -63,6 +63,9 @@ const dutch: Dict = {
   For: "voor",
   Browser: "Browser",
   AppliesTo: "Geldt voor",
+  ButMaybeYouAreUsing: "Maar misschien gebruik je wel",
+  DownloadLinkDescription: "Klik op de knop hieronder om %s te downloaden:",
+  UpdateLinkDescription: "Klik op de knop hieronder om %s bij te werken:",
 };
 
 export default dutch;

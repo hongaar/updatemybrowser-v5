@@ -5,6 +5,7 @@ const english = {
   YouAreUsing: "You are using",
   BrowserOverview: "Browser Overview",
   DisguisedBrowsers: "Disguised browsers",
+  ButMaybeYouAreUsing: "But maybe you are using",
   DisguisedBrowsersDescription:
     "These browsers disguise themselves as %s, so it may be possible that you are using one of these browsers instead.",
   Widget: "Widget",
@@ -33,6 +34,10 @@ const english = {
     "Please click the button below to update your browser to the latest version.",
   UpdateNow: "Update now",
   Update: "Update",
+  UpdateLinkDescription:
+    "Please click the button below to open a new tab where you can find instructions to update %s:",
+  DownloadLinkDescription:
+    "Please click the button below to open a new tab where you can download %s:",
   AvailableOnYourOs: "Available on your device",
   AvailableOnYourOsDescription:
     "You are not currently using %s, but it is available on %s.",

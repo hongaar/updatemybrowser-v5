@@ -20,7 +20,7 @@
     "prepublish": "yarn build",
     "test": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node --test test/*.test.ts",
     "test:watch": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node --test --watch test/*.test.ts",
-    "run-updater": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node scripts/run-updater.ts"
+    "start": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node scripts/run-updater.ts"
   },
   "dependencies": {
     "@updatemybrowser/client": "workspace:*",

@@ -25,22 +25,32 @@ async function makeRestRequest({ language, endpoint }: MakeRestRequestParams) {
 
 type MakeActionRequestParams = {
   language: string;
-  action: string;
-  format: string;
-  prop: string;
-  pageId: string;
+  action: "parse";
+  page?: string;
+  pageId?: string;
+  prop: "langlinks" | "parsetree";
+  format?: "json" | "xml";
+  lllimit?: string;
 };
 
 async function makeActionRequest({
   language,
   action,
-  format,
-  prop,
+  page,
   pageId,
+  prop,
+  format,
+  lllimit,
 }: MakeActionRequestParams) {
-  const url = `${baseActionUrl(
-    language,
-  )}?action=${action}&format=${format}&prop=${prop}&pageid=${pageId}`;
+  const searchParams = new URLSearchParams();
+  searchParams.set("action", action);
+  searchParams.set("prop", prop);
+  lllimit && searchParams.set("lllimit", lllimit || "500");
+  page && searchParams.set("page", page);
+  pageId && searchParams.set("pageid", pageId);
+  format && searchParams.set("format", format);
+
+  const url = `${baseActionUrl(language)}?${searchParams.toString()}`;
 
   return fetch(url, { headers });
 }
@@ -71,6 +81,37 @@ export async function getWikipediaPageHtml({
     language,
     endpoint: `page/html/${title}`,
   }).then((response) => response.text());
+}
+
+type GetWikipediaLanglinksParams = {
+  title: string;
+};
+
+type WikipediaLangLinks = {
+  warnings?: any;
+  parse: {
+    title: string;
+    pageid: number;
+    langlinks: {
+      lang: string;
+      url: string;
+      langname: string;
+      autonym: string;
+      "*": string;
+    }[];
+  };
+};
+
+export async function getWikipediaLanglinks({
+  title,
+}: GetWikipediaLanglinksParams): Promise<WikipediaLangLinks> {
+  return makeActionRequest({
+    language: "en",
+    action: "parse",
+    page: title,
+    format: "json",
+    prop: "langlinks",
+  }).then((response) => response.json());
 }
 
 export type WikipediaSummary = {

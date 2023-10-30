@@ -41,7 +41,10 @@ export function BrowserCard({
         <h3 className={styles.itemHeading}>{browser.name}</h3>
         {medium || small ? null : (
           <p className={styles.description}>
-            <small>{browser.description[language]}</small>
+            <small>
+              {browser.description?.find((item) => item._key === language)
+                ?.value || ""}
+            </small>
           </p>
         )}
         {browser.icon ? (

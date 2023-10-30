@@ -121,16 +121,31 @@ export const browser: DocumentDefinition = {
       fieldset: "branding",
     },
     {
-      name: "logo",
-      title: "Logo",
-      type: "image",
-      fieldset: "branding",
-    },
-    {
       name: "color",
       title: "Color",
       type: "color",
       fieldset: "branding",
+    },
+    {
+      name: "logo",
+      title: "Logo",
+      type: "figure",
+      fieldset: "branding",
+    },
+    {
+      name: "screenshots",
+      title: "Screenshots",
+      type: "array",
+      of: [{ type: "figure" }],
+      fieldset: "media",
+    },
+    {
+      name: "youtubeId",
+      title: "YouTube video ID",
+      description:
+        "Only enter the ID part of the YouTube URL, e.g. FxBBuxE6XTI",
+      type: "string",
+      fieldset: "media",
     },
     {
       name: "featuredArticles",

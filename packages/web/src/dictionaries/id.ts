@@ -63,6 +63,9 @@ const indonesian: Dict = {
   For: "untuk",
   Browser: "Browser",
   AppliesTo: "Berlaku untuk",
+  ButMaybeYouAreUsing: "Tapi mungkin Anda menggunakan",
+  DownloadLinkDescription: "Klik tombol di bawah ini untuk mengunduh %s:",
+  UpdateLinkDescription: "Klik tombol di bawah ini untuk memperbarui %s:",
 };
 
 export default indonesian;

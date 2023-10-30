@@ -7,6 +7,7 @@ import {
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { sprintf } from "sprintf-js";
 import { Breadcrumbs } from "../../../../../../components/Breadcrumbs";
 import { BrowserArticle } from "../../../../../../components/BrowserArticle";
 import { Container } from "../../../../../../components/Container";
@@ -98,6 +99,7 @@ export default async function Update({
             <h2>
               {dict.Update} {browser.name}
             </h2>
+            <p>{sprintf(dict.UpdateLinkDescription, browser.name)}</p>
             <div>
               <Link
                 tabIndex={0}

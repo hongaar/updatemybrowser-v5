@@ -93,6 +93,18 @@ export const browsers: Browser[] = [
           "Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. There are also mobile versions called Opera Mobile and Opera Mini. Opera users also have access to Opera News, a news app based on an AI platform.",
       },
       {
+        _key: "nl",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Opera is een webbrowser en internet suite die is ontwikkeld door het Noorse bedrijf Opera Software.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Opera ist ein kostenloser proprietärer Webbrowser. Er basierte bis einschließlich Version 12.18 auf einem eigenen HTML-Renderer. Seit der 2013 freigegebenen Version 15 nutzt er den Renderer der jeweils aktuellen Version des Webbrowsers Chromium. Opera ist für viele Plattformen verfügbar. Alleiniger Entwickler der geschlossenen Softwarekomponenten ist das ehemals norwegische Unternehmen Opera Software, das sich auch an der Fortentwicklung der quelloffenen Rendering-Engine beteiligt.",
+      },
+      {
         _key: "id",
         _type: "internationalizedArrayTextValue",
         value:
@@ -107,6 +119,16 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Opera_(web_browser)",
       },
       {
+        _key: "nl",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://nl.wikipedia.org/wiki/Opera_(webbrowser)",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Opera_(Browser)",
+      },
+      {
         _key: "id",
         _type: "internationalizedArrayUrlValue",
         value: "https://id.wikipedia.org/wiki/Opera_(peramban_web)",
@@ -117,15 +139,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "IW6hjkMGxufdYFszO2uKLu",
+    _rev: "xjV26r95LyXpcLBMk86T4W",
     _type: "browser",
-    _updatedAt: "2023-10-23T14:39:28Z",
-    description: {
-      de: null,
-      en: null,
-      id: null,
-      nl: null,
-    },
+    _updatedAt: "2023-10-30T06:41:05Z",
     homepage: "https://www.samsung.com/us/support/owners/app/samsung-internet",
     icon: {
       _type: "icon",
@@ -138,20 +154,22 @@ export const browsers: Browser[] = [
       _type: "slug",
       current: "samsung-internet",
     },
+    summary: [],
     vendor: "Samsung",
   },
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "Lh7rhBNTpK2mkuYCdKAQnK",
+    _rev: "GF66gZmXYO33GkMIODhNol",
     _type: "browser",
-    _updatedAt: "2023-10-23T16:12:42Z",
-    description: {
-      de: null,
-      en: "The open-source version of Chrome ",
-      id: null,
-      nl: null,
-    },
+    _updatedAt: "2023-10-30T06:41:06Z",
+    description: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "The open-source version of Chrome ",
+      },
+    ],
     homepage: "https://www.chromium.org/Home/",
     icon: {
       _type: "icon",
@@ -200,20 +218,22 @@ export const browsers: Browser[] = [
       _type: "slug",
       current: "chromium",
     },
+    summary: [],
     vendor: "The Chromium Authors",
   },
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "Lh7rhBNTpK2mkuYCdJkDes",
+    _rev: "xjV26r95LyXpcLBMk86TIb",
     _type: "browser",
-    _updatedAt: "2023-10-23T13:33:10Z",
-    description: {
-      de: null,
-      en: "Open source browser from Mozilla.",
-      id: null,
-      nl: null,
-    },
+    _updatedAt: "2023-10-30T11:00:51Z",
+    description: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Open source browser from Mozilla.",
+      },
+    ],
     homepage: "https://www.mozilla.org/firefox/browsers/",
     icon: {
       _type: "icon",
@@ -264,16 +284,22 @@ export const browsers: Browser[] = [
           'Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. In November 2017, Firefox began incorporating new technology under the code name "Quantum" to promote parallelism and a more intuitive user interface. Firefox is available for Windows 10 or later versions, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, illumos, and Solaris Unix. It is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon\'s Silk Browser.',
       },
       {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Mozilla Firefox, atau Firefox adalah peramban web lintas platform bebas dan sumber terbuka yang dikembangkan oleh Yayasan Mozilla dan ratusan sukarelawan.",
-      },
-      {
         _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
           "Mozilla Firefox is een gratis, vrije en opensource-webbrowser ontwikkeld door het Mozilla-project en vrijwilligers. Firefox is gebaseerd op de Gecko-layout-engine uit het Mozilla-project. De naam is een Engelse bijnaam voor de rode of kleine panda.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Firefox lag im Juli 2023 mit einem Anteil von rund 2,8 Prozent an der weltweiten Internetnutzung auf Rang fünf der am meisten genutzten Webbrowser.",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Mozilla Firefox, atau Firefox adalah peramban web lintas platform bebas dan sumber terbuka yang dikembangkan oleh Yayasan Mozilla dan ratusan sukarelawan.",
       },
     ],
     vendor: "Mozilla",
@@ -284,29 +310,36 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Firefox",
       },
       {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Firefox",
-      },
-      {
         _key: "nl",
         _type: "internationalizedArrayUrlValue",
         value: "https://nl.wikipedia.org/wiki/Mozilla_Firefox",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Mozilla_Firefox",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Firefox",
       },
     ],
   },
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "Lh7rhBNTpK2mkuYCdJkHCE",
+    _rev: "GF66gZmXYO33GkMIODhO0l",
     _type: "browser",
-    _updatedAt: "2023-10-23T13:33:46Z",
-    description: {
-      de: null,
-      en: "Chromium based browser with built-in support for crypto wallets. ",
-      id: null,
-      nl: null,
-    },
+    _updatedAt: "2023-10-30T06:41:10Z",
+    description: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Chromium based browser with built-in support for crypto wallets. ",
+      },
+    ],
     homepage: "https://brave.com",
     icon: {
       _type: "icon",
@@ -348,20 +381,15 @@ export const browsers: Browser[] = [
       _type: "slug",
       current: "brave",
     },
+    summary: [],
     vendor: "Brave Software",
   },
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "7V6W77YnYTSXWZozOa4S8R",
+    _rev: "GF66gZmXYO33GkMIODhO6l",
     _type: "browser",
-    _updatedAt: "2023-10-23T13:33:40Z",
-    description: {
-      de: null,
-      en: null,
-      id: null,
-      nl: null,
-    },
+    _updatedAt: "2023-10-30T06:41:12Z",
     homepage: "https://wikipedia.org/wiki/Internet_Explorer",
     icon: {
       _type: "icon",
@@ -403,20 +431,15 @@ export const browsers: Browser[] = [
       _type: "slug",
       current: "internet-explorer",
     },
+    summary: [],
     vendor: "Microsoft",
   },
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "Lh7rhBNTpK2mkuYCdJkGUM",
+    _rev: "GF66gZmXYO33GkMIODhOCl",
     _type: "browser",
-    _updatedAt: "2023-10-23T13:33:32Z",
-    description: {
-      de: null,
-      en: null,
-      id: null,
-      nl: null,
-    },
+    _updatedAt: "2023-10-30T06:41:14Z",
     homepage: "https://www.apple.com/safari/",
     icon: {
       _type: "icon",
@@ -458,6 +481,7 @@ export const browsers: Browser[] = [
       _type: "slug",
       current: "safari",
     },
+    summary: [],
     vendor: "Apple",
   },
   {
@@ -492,12 +516,18 @@ export const browsers: Browser[] = [
         r: 132,
       },
     },
-    description: {
-      de: null,
-      en: "Most popular and modern browser made by Google.",
-      id: null,
-      nl: "Beschrijving in het Nederlands",
-    },
+    description: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Most popular and modern browser made by Google.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Beschrijving in het Nederlands",
+      },
+    ],
     homepage: "https://www.google.com/chrome/",
     icon: {
       _type: "icon",
@@ -556,16 +586,22 @@ export const browsers: Browser[] = [
           "Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, and also for Android, where it is the default browser. The browser is also the main component of ChromeOS, where it serves as the platform for web applications.",
       },
       {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Google Chrome adalah peramban web lintas platform yang dikembangkan oleh Google. Peramban ini pertama kali dirilis pada tahun 2008 untuk Microsoft Windows, kemudian diporting ke Android, iOS, Linux, dan macOS yang menjadikannya sebagai peramban bawaan dalam sistem operasi. Peramban ini juga merupakan komponen utama Chrome OS, yang berfungsi sebagai platform untuk aplikasi web.",
-      },
-      {
         _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
           "Google Chrome is een webbrowser ontwikkeld door Google. Google Chrome maakt gebruik van het op WebKit gebaseerde Blink en ook van andere openbronsoftware, vooral die van Mozilla. Google Chrome is gebaseerd op Chromium, een openbronproject van Google. Google Chrome is voor verschillende besturingssystemen geschikt, waarvan de laatste versies niet steeds tegelijk worden uitgebracht. De updates zijn recent.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Google Chrome ist ein Webbrowser des US-amerikanischen Unternehmens Google LLC. Er ist seit Mai 2012 der weltweit am weitesten verbreitete Browser.",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Google Chrome adalah peramban web lintas platform yang dikembangkan oleh Google. Peramban ini pertama kali dirilis pada tahun 2008 untuk Microsoft Windows, kemudian diporting ke Android, iOS, Linux, dan macOS yang menjadikannya sebagai peramban bawaan dalam sistem operasi. Peramban ini juga merupakan komponen utama Chrome OS, yang berfungsi sebagai platform untuk aplikasi web.",
       },
     ],
     vendor: "Google",
@@ -576,23 +612,28 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Google_Chrome",
       },
       {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Google_Chrome",
-      },
-      {
         _key: "nl",
         _type: "internationalizedArrayUrlValue",
         value: "https://nl.wikipedia.org/wiki/Google_Chrome",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Google_Chrome",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Google_Chrome",
       },
     ],
   },
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "Lh7rhBNTpK2mkuYCdKASLq",
+    _rev: "NXWRfmtJObhdyNnOgNuho9",
     _type: "browser",
-    _updatedAt: "2023-10-23T16:13:19Z",
+    _updatedAt: "2023-10-30T11:01:01Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -619,12 +660,13 @@ export const browsers: Browser[] = [
         r: 37,
       },
     },
-    description: {
-      de: null,
-      en: "Chromium-based browser which is shipped with Windows",
-      id: null,
-      nl: null,
-    },
+    description: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Chromium-based browser which is shipped with Windows",
+      },
+    ],
     homepage: "https://www.microsoft.com/edge",
     icon: {
       _type: "icon",
@@ -674,16 +716,22 @@ export const browsers: Browser[] = [
           "Microsoft Edge is a proprietary, cross-platform web browser created by Microsoft. It was first released in 2015 as part of Windows 10 and Xbox One. It was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it got ported to other platforms as a fork of Google's Chromium open-source project: Android and iOS. In late 2018, it was announced that Edge would be completely rebuilt as a Chromium-based browser with Blink and V8 engines which allows the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser, The new Edge is also available on older Windows versions, And most recently it also got ported to Linux.",
       },
       {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Microsoft Edge, awalnya dikembangkan di bawah nama kode Project Spartan, adalah peramban web yang dikembangkan oleh Microsoft dan termasuk dalam sistem operasi Windows. Resmi dirilis pada tanggal 29 Juli 2015, peramban ini menggantikan Internet Explorer sebagai peramban baku pada Windows 10. Hal ini juga akan menjadi peramban baku dari rilis yang akan datang dari Windows 10 untuk telepon cerdas dan tablet kecil. Microsoft Edge kini juga sudah tersedia untuk platform Android dan iOS.",
-      },
-      {
         _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
           "Microsoft Edge is een webbrowser ontwikkeld door Microsoft en inbegrepen in Windows 10, Windows 10 Mobile en Xbox One. Microsoft Edge is de opvolger van Internet Explorer en vervangt deze als de standaard webbrowser op alle apparaten. Volgens Microsoft is het een lichtgewicht webbrowser met een layout-engine die gebouwd is overeenkomstig met de webstandaarden. De browser bevat nieuwe features, waaronder integratie met Cortana, notitiehulpmiddelen en een leesmodus.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Microsoft Edge ist ein Webbrowser des Softwareherstellers Microsoft. Er wurde am 29. Juli 2015 mit Windows 10 veröffentlicht und hat dort den Internet Explorer als Standardbrowser ersetzt; der Chromium basierte Edge ist der vorinstallierte Standard-Browser in Windows 10 ab Version 20H2 und Windows 11, sowie durch automatische Updates vom April 2021 auch in früheren Windows-Versionen.",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Microsoft Edge, awalnya dikembangkan di bawah nama kode Project Spartan, adalah peramban web yang dikembangkan oleh Microsoft dan termasuk dalam sistem operasi Windows. Resmi dirilis pada tanggal 29 Juli 2015, peramban ini menggantikan Internet Explorer sebagai peramban baku pada Windows 10. Hal ini juga akan menjadi peramban baku dari rilis yang akan datang dari Windows 10 untuk telepon cerdas dan tablet kecil. Microsoft Edge kini juga sudah tersedia untuk platform Android dan iOS.",
       },
     ],
     vendor: "Microsoft",
@@ -694,29 +742,28 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Microsoft_Edge",
       },
       {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Microsoft_Edge",
-      },
-      {
         _key: "nl",
         _type: "internationalizedArrayUrlValue",
         value: "https://nl.wikipedia.org/wiki/Microsoft_Edge",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Microsoft_Edge",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Microsoft_Edge",
       },
     ],
   },
   {
     _createdAt: "2023-10-19T15:50:38Z",
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "IW6hjkMGxufdYFszO2rL3e",
+    _rev: "GF66gZmXYO33GkMIODhOsl",
     _type: "browser",
-    _updatedAt: "2023-10-23T13:32:36Z",
-    description: {
-      de: null,
-      en: null,
-      id: null,
-      nl: null,
-    },
+    _updatedAt: "2023-10-30T11:01:03Z",
     homepage: "https://vivaldi.com",
     icon: {
       _type: "icon",
@@ -774,16 +821,22 @@ export const browsers: Browser[] = [
           "Vivaldi ( ) is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies, a company founded by Tatsuki Tomita and Jon Stephenson von Tetzchner, who was the co-founder and CEO of Opera Software. Vivaldi was officially launched on 6 April 2016.",
       },
       {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          'Vivaldi merupakan peramban web gratis yang dikembangkan oleh Vivaldi Technologies, sebuah perusahaan yang didirikan oleh pendiri dan mantan CEO Opera Software Jon Stephenson von Tetzchner, dan Tatsuki Tomita. Peramban ini ditujukan kepada pengguna Opera yang tidak menyukai transisi dari Presto ke Blink, yang menyebabkan hilangnya fitur populer dalam peramban itu. Vivaldi ditujukan untuk menghidupkan kembali fitur populer Opera 12 dan memperkenalkan fitur inovatif terbaru. Peramban ini dimutakhirkan setiap minggu, dalam bentuk "Snapshots", dan telah memperoleh ketenaran sejak versi pratayang teknis.',
-      },
-      {
         _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
           "Vivaldi is een webbrowser die ontwikkeld wordt door het Noorse Vivaldi Technologies. Dit bedrijf werd in 2014 opgericht door twee voormalige topmensen van Opera Software: Jon Stephenson von Tetzchner en Tatsuki Tomita. De browser is geïnspireerd op Opera en zet zich af tegen de keuzes die Opera toen maakte door over te stappen van de layout-engine Presto naar Blink, waarmee veel populaire onderdelen verloren gingen. Ook Vivaldi maakt gebruik van de layout-engine Blink, die afgeleid is van Chromium.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Vivaldi ist ein Webbrowser des norwegischen Unternehmens Vivaldi Technologies, das Jon Stephenson von Tetzchner, Mitgründer und langjähriger Leiter von Opera Software, nach seinem Ausscheiden dort zur Entwicklung eines neuen Browsers 2013 gründete.",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          'Vivaldi merupakan peramban web gratis yang dikembangkan oleh Vivaldi Technologies, sebuah perusahaan yang didirikan oleh pendiri dan mantan CEO Opera Software Jon Stephenson von Tetzchner, dan Tatsuki Tomita. Peramban ini ditujukan kepada pengguna Opera yang tidak menyukai transisi dari Presto ke Blink, yang menyebabkan hilangnya fitur populer dalam peramban itu. Vivaldi ditujukan untuk menghidupkan kembali fitur populer Opera 12 dan memperkenalkan fitur inovatif terbaru. Peramban ini dimutakhirkan setiap minggu, dalam bentuk "Snapshots", dan telah memperoleh ketenaran sejak versi pratayang teknis.',
       },
     ],
     vendor: "Vivaldi Technologies",
@@ -794,14 +847,19 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Vivaldi_(web_browser)",
       },
       {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Vivaldi_(peramban_web)",
-      },
-      {
         _key: "nl",
         _type: "internationalizedArrayUrlValue",
         value: "https://nl.wikipedia.org/wiki/Vivaldi_(webbrowser)",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Vivaldi_(Browser)",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Vivaldi_(peramban_web)",
       },
     ],
   },

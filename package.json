@@ -22,7 +22,8 @@
     "test": "yarn workspaces foreach --all --topological --verbose run test",
     "test:watch": "yarn workspaces foreach --all --parallel --interlaced run test:watch",
     "typescript": "yarn build:clean && tsc --build --force",
-    "typescript:watch": "tsc --build --watch"
+    "typescript:watch": "tsc --build --watch",
+    "update": "yarn workspace @updatemybrowser/updater start && yarn workspace @updatemybrowser/client cache-docs"
   },
   "lint-staged": {
     "*": "prettier --write --ignore-unknown"
@@ -30,7 +31,7 @@
   "devDependencies": {
     "husky": "8.0.3",
     "lint-staged": "14.0.1",
-    "moker": "2.0.4",
+    "moker": "2.1.1",
     "npm-run-all": "4.1.5",
     "prettier": "3.0.3",
     "typescript": "5.2.2"

@@ -49,7 +49,8 @@ export function List({ language, browsers }: Props) {
         </span>
         <p>
           <small className={styles.description}>
-            {browser.description[language]}
+            {browser.description?.find((item) => item._key === language)
+              ?.value || ""}
           </small>
         </p>
       </Link>

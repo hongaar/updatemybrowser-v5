@@ -14,19 +14,21 @@ export type Doc<T> = T & {
 export type Reference = { _ref: string; _type: "reference" };
 
 export type I18nString = {
-  [languageId: string]: string | null;
-};
+  _type: "internationalizedArrayStringValue";
+  _key: string;
+  value?: string;
+}[];
 
 export type I18nUrl = {
   _type: "internationalizedArrayUrlValue";
   _key: string;
-  value: string;
+  value?: string;
 }[];
 
 export type I18nText = {
   _type: "internationalizedArrayTextValue";
   _key: string;
-  value: string;
+  value?: string;
 }[];
 
 export type Slug = {
@@ -106,10 +108,11 @@ export type Icon = {
   custom_svg?: string;
 };
 
-export type Image = {
+export type Figure = {
   _type: "figure";
-  caption: string;
   asset: Reference;
+  caption?: string;
+  alt: string;
 };
 
 export type OsVersion<T = Reference> = {
@@ -135,12 +138,14 @@ export type Browser<T extends "plain" | "withFlatReleases" = "plain"> = Doc<
     matchBrowserName: string[];
     maybeDetectedAs?: Keyed<Reference>[];
     popularity?: number;
-    description: I18nString;
+    description?: I18nString;
     wikipediaUrl?: I18nUrl;
     summary?: I18nText;
     icon?: Icon;
-    logo?: Image;
+    logo?: Figure;
     color?: Color;
+    screenshots?: Keyed<Figure>[];
+    youtubeId?: string;
     featuredArticles?: Keyed<Reference>[];
   } & (T extends "plain"
     ? {}
@@ -157,9 +162,9 @@ export type OS = Doc<{
   vendor: string;
   homepage: string;
   matchOsName: string[];
-  description: I18nString;
+  description?: I18nString;
   icon?: Icon;
-  logo?: Image;
+  logo?: Figure;
   color?: Color;
   featuredArticles?: Keyed<Reference>[];
 }>;

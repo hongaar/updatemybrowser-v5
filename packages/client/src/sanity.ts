@@ -34,33 +34,8 @@ type LanguageOptions = {
   language: string | string[];
 };
 
-type I18nFieldsOptions = LanguageOptions & {
-  i18nFields: string[];
-};
-
-function compileI18nFields({ language, i18nFields }: I18nFieldsOptions) {
-  return i18nFields.map(
-    (field) =>
-      `"${field}": {${(Array.isArray(language) ? language : [language])
-        .map(
-          (language) =>
-            `"${language}": ${field}[_key == "${language}"][0].value`,
-        )
-        .join(",\n")}}`,
-  );
-}
-
-export async function getDocuments<T extends DocType>(
-  type: T,
-  languageOptions?: I18nFieldsOptions,
-) {
-  const props = ["..."]
-    .concat(languageOptions ? compileI18nFields(languageOptions) : [])
-    .join(",\n");
-
-  return await getClient().fetch<Docs[T][]>(`*[_type == "${type}"]{
-    ${props}
-  }`);
+export async function getDocuments<T extends DocType>(type: T) {
+  return await getClient().fetch<Docs[T][]>(`*[_type == "${type}"]`);
 }
 
 export async function getLanguages() {
@@ -73,21 +48,15 @@ export async function getLanguageIds() {
   return (await getLanguages()).map((language) => language.id);
 }
 
-export async function getOses({ language }: LanguageOptions) {
-  return getDocuments(DocType.OS, {
-    language,
-    i18nFields: ["description"],
-  });
+export async function getOses() {
+  return getDocuments(DocType.OS);
 }
 
-export async function getBrowsers({ language }: LanguageOptions) {
-  return getDocuments(DocType.Browser, {
-    language,
-    i18nFields: ["description"],
-  });
+export async function getBrowsers() {
+  return getDocuments(DocType.Browser);
 }
 
-export async function getReleases({}: LanguageOptions = {}) {
+export async function getReleases() {
   return await getClient().fetch<Release[]>(
     `*[_type == "release"] | order(currentUsage desc)`,
   );

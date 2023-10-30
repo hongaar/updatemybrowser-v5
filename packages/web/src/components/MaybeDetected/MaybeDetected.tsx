@@ -22,7 +22,7 @@ export function MaybeDetected({ language, dict, browser, browsers }: Props) {
 
   return (
     <section>
-      <h3>{dict.DisguisedBrowsers}</h3>
+      <h3>{dict.ButMaybeYouAreUsing}</h3>
       <p>{sprintf(dict.DisguisedBrowsersDescription, browser.name)}</p>
       <ul className={styles.browserGrid}>
         {maybeBrowsers.map((browser) => (

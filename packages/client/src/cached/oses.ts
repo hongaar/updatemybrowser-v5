@@ -8,12 +8,6 @@ export const oses: OS[] = [
     _rev: "Lh7rhBNTpK2mkuYCdIWIna",
     _type: "os",
     _updatedAt: "2023-10-23T03:24:10Z",
-    description: {
-      de: null,
-      en: null,
-      id: null,
-      nl: null,
-    },
     homepage: "https://www.apple.com/ios/",
     icon: {
       _type: "icon",
@@ -63,12 +57,12 @@ export const oses: OS[] = [
     _rev: "IW6hjkMGxufdYFszO2UwdC",
     _type: "os",
     _updatedAt: "2023-10-23T03:24:01Z",
-    description: {
-      de: null,
-      en: null,
-      id: null,
-      nl: null,
-    },
+    description: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+      },
+    ],
     homepage: "https://www.android.com",
     icon: {
       _type: "icon",
@@ -118,12 +112,6 @@ export const oses: OS[] = [
     _rev: "Lh7rhBNTpK2mkuYCdIWIA6",
     _type: "os",
     _updatedAt: "2023-10-23T03:23:47Z",
-    description: {
-      de: null,
-      en: null,
-      id: null,
-      nl: null,
-    },
     homepage: "https://kernel.org",
     icon: {
       _type: "icon",
@@ -172,12 +160,6 @@ export const oses: OS[] = [
     _rev: "695kaPqd4sveD9yLk55V9M",
     _type: "os",
     _updatedAt: "2023-10-25T15:00:34Z",
-    description: {
-      de: null,
-      en: null,
-      id: null,
-      nl: null,
-    },
     featuredArticles: [
       {
         _key: "980d5c092223",
@@ -234,12 +216,6 @@ export const oses: OS[] = [
     _rev: "uR7u7AhCU0Ezsyr8BWYR7L",
     _type: "os",
     _updatedAt: "2023-10-26T14:56:29Z",
-    description: {
-      de: null,
-      en: null,
-      id: null,
-      nl: null,
-    },
     homepage: "https://www.google.com/chromebook/chrome-os/",
     icon: {
       _type: "icon",
@@ -288,12 +264,6 @@ export const oses: OS[] = [
     _rev: "Lh7rhBNTpK2mkuYCdIWJ9W",
     _type: "os",
     _updatedAt: "2023-10-23T03:24:20Z",
-    description: {
-      de: null,
-      en: null,
-      id: null,
-      nl: null,
-    },
     homepage: "https://www.apple.com/macos/",
     icon: {
       _type: "icon",

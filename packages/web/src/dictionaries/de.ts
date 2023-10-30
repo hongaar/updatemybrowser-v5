@@ -61,6 +61,9 @@ const german: Dict = {
   For: "für",
   Browser: "Browser",
   AppliesTo: "Gilt für",
+  ButMaybeYouAreUsing: "Aber vielleicht verwendest du",
+  DownloadLinkDescription: "Klicke auf den Button um %s herunterzuladen",
+  UpdateLinkDescription: "Klicke auf den Button um %s zu aktualisieren",
 };
 
 export default german;

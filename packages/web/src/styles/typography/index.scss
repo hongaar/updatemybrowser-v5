@@ -151,21 +151,12 @@ textarea {
 
 // Article
 article {
+  margin-bottom: calc(var(--spacing) * 2);
 }
 
 // Section
 section {
-  margin-top: calc(var(--spacing) * 2);
-  margin-left: calc(var(--spacing) * -2);
-  padding: calc(var(--spacing) * 1) 0 calc(var(--spacing) * 1)
-    calc(var(--spacing) * 2);
-  border-left: var(--border-width) solid var(--muted-border-color);
-  border-radius: var(--border-radius);
-  transition: border-color var(--transition);
-
-  &:hover {
-    border-color: var(--border-color);
-  }
+  margin-bottom: calc(var(--spacing) * 2);
 }
 
 // Ruler
