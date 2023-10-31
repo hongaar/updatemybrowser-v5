@@ -64,6 +64,9 @@ const german: Dict = {
   ButMaybeYouAreUsing: "Aber vielleicht verwendest du",
   DownloadLinkDescription: "Klicke auf den Button um %s herunterzuladen",
   UpdateLinkDescription: "Klicke auf den Button um %s zu aktualisieren",
+  Browsers: "...",
+  DataSources: "...",
+  OperatingSystems: "...",
 };
 
 export default german;

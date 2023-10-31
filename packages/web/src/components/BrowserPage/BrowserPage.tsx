@@ -8,6 +8,7 @@ import {
   UpdateAvailable,
 } from "../BrowserBanners";
 import { LoadingBanners } from "../BrowserBanners/LoadingBanners";
+import { BrowserGallery } from "../BrowserGallery";
 import { BrowserMetadata } from "../BrowserMetadata";
 import { Icon } from "../Icon";
 import { ExternalLink } from "../Link";
@@ -28,6 +29,9 @@ export function BrowserPage({
   browser,
   headingPrefix,
 }: Props) {
+  const description = browser.description?.find(
+    (item) => item._key === language,
+  )?.value;
   const summary = browser.summary?.find((item) => item._key === language)
     ?.value;
   const wikipediaUrl = browser.wikipediaUrl?.find(
@@ -51,19 +55,15 @@ export function BrowserPage({
           {dict.By} {browser.vendor}
         </span>
       </h2>
-      <LoadingBanners language={language} dict={dict} />
-      <UpdateAvailable language={language} dict={dict} browser={browser} />
-      <LatestVersion language={language} dict={dict} browser={browser} />
-      <TryBanner language={language} dict={dict} browser={browser} />
-      <NotAvailable language={language} dict={dict} browser={browser} />
-      <article className={styles.alternativesWrapper}>
-        <BrowserAlternatives
-          language={language}
-          dict={dict}
-          browsers={browsers}
-          exclude={browser}
-        />
+      <section className={styles.columns}>
         <div>
+          <LoadingBanners language={language} dict={dict} />
+          <UpdateAvailable language={language} dict={dict} browser={browser} />
+          <LatestVersion language={language} dict={dict} browser={browser} />
+          <TryBanner language={language} dict={dict} browser={browser} />
+          <NotAvailable language={language} dict={dict} browser={browser} />
+          <BrowserGallery language={language} dict={dict} browser={browser} />
+          {description ? <p className={styles.excerpt}>{description}</p> : null}
           {summary && wikipediaUrl ? (
             <p>
               {browser.summary?.find((item) => item._key === language)?.value ||
@@ -74,7 +74,13 @@ export function BrowserPage({
           ) : null}
           <BrowserMetadata language={language} dict={dict} browser={browser} />
         </div>
-      </article>
+        <BrowserAlternatives
+          language={language}
+          dict={dict}
+          browsers={browsers}
+          exclude={browser}
+        />
+      </section>
     </>
   );
 }

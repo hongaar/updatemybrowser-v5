@@ -1,0 +1,35 @@
+@import "../../styles/theme";
+
+.gallery {
+  margin-bottom: var(--spacing);
+}
+
+.wrapper {
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+
+.youtubeWrapper {
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+
+.image {
+  position: absolute;
+  height: calc(100% - (var(--spacing) * 2));
+  width: calc(100% - (var(--spacing) * 2));
+  left: var(--spacing);
+  top: var(--spacing);
+}
+
+.play {
+  fill: var(--contrast);
+  filter: drop-shadow(0 0 10px var(--background-color))
+    drop-shadow(0 0 20px var(--background-color));
+  position: relative;
+  pointer-events: none;
+  height: 70px;
+  width: 70px;
+  top: calc(50% - 35px);
+  left: calc(50% - 35px);
+}

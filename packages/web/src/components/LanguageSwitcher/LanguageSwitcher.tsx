@@ -15,7 +15,7 @@ export async function LanguageSwitcher({ currentLanguage, className }: Props) {
   const language = await getLanguage(currentLanguage);
 
   return (
-    <div className={`${styles.languageSwitcher} ${className}`}>
+    <div className={`${styles.languageSwitcher} ${className || ""}`}>
       {dict.Language}:{" "}
       <span className={styles.selectWrapper}>
         {language?.flag.metadata.inlineSvg ? (

@@ -64,7 +64,10 @@ const english = {
   BrowsersForOperatingSystem: "Browsers for",
   For: "for",
   Browser: "Browser",
+  Browsers: "Browsers",
+  OperatingSystems: "Operating systems",
   AppliesTo: "Applies to",
+  DataSources: "Data sources",
 };
 
 export type Dict = typeof english;

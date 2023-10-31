@@ -1,7 +1,6 @@
 import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
 import type { Dict } from "../../dictionaries/en";
 import { averageUsage } from "../../utils";
-import { ExternalLink } from "../Link";
 import { ReleaseTag, TagList } from "../Tag";
 import styles from "./browserMetadata.module.scss";
 
@@ -10,6 +9,8 @@ type Props = {
   dict: Dict;
   browser: BrowserWithFlatReleases;
 };
+
+const SHOW_POPULARITY = false;
 
 export function BrowserMetadata({ language, dict, browser }: Props) {
   return (
@@ -32,14 +33,11 @@ export function BrowserMetadata({ language, dict, browser }: Props) {
         </div>
       ) : null}
 
-      {browser.popularity ? (
+      {SHOW_POPULARITY && browser.popularity ? (
         <div className={styles.metadataItem}>
           <div className={styles.metadataLabel}>{dict.Popularity}</div>
           <div className={styles.metadata}>
-            <strong className={styles.stat}>❤️ {browser.popularity}</strong>{" "}
-            <ExternalLink href="https://alternativeto.net/category/browsers/web-browser/">
-              AlternativeTo
-            </ExternalLink>
+            <strong className={styles.stat}>❤️ {browser.popularity}</strong>
           </div>
         </div>
       ) : null}
@@ -50,8 +48,7 @@ export function BrowserMetadata({ language, dict, browser }: Props) {
           <div className={styles.metadata}>
             <strong className={styles.stat}>
               {averageUsage(browser).toFixed(2)} %
-            </strong>{" "}
-            <ExternalLink href="https://caniuse.com">Can I Use</ExternalLink>
+            </strong>
           </div>
         </div>
       ) : null}

@@ -108,9 +108,53 @@ export type Icon = {
   custom_svg?: string;
 };
 
+export type Swatch = {
+  _type: "sanity.imagePaletteSwatch";
+  background: string;
+  foreground: string;
+  population: number;
+  title: string;
+};
+
+export type Asset = Doc<{
+  _type: "sanity.imageAsset";
+  assetId: string;
+  extension: "png" | "webp";
+  metadata: {
+    _type: "sanity.imageMetadata";
+    blurHash: string;
+    dimensions: {
+      _type: "sanity.imageDimensions";
+      aspectRatio: number;
+      height: number;
+      width: number;
+    };
+    hasAlpha: boolean;
+    isOpaque: boolean;
+    lqip: string;
+    palette: {
+      _type: "sanity.imagePalette";
+      darkMuted: Swatch;
+      darkVibrant: Swatch;
+      dominant: Swatch;
+      lightMuted: Swatch;
+      lightVibrant: Swatch;
+      muted: Swatch;
+      vibrant: Swatch;
+    };
+  };
+  mimeType: "image/png" | "image/webp";
+  originalFilename: string;
+  path: string;
+  sha1hash: string;
+  size: number;
+  uploadId: string;
+  url: string;
+}>;
+
 export type Figure = {
   _type: "figure";
-  asset: Reference;
+  asset: Asset;
   caption?: string;
   alt: string;
 };

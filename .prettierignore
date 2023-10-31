@@ -1,5 +1,6 @@
 # yarn
 .yarn
+.next
 
 # artifacts
 dist/

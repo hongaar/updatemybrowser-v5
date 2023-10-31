@@ -33,6 +33,7 @@ export function ExternalLink({ href, children, style = "iconLink" }: Props) {
       </a>
     </span>
   ) : (
+    // link
     <a
       className={styles.externalLink}
       href={href}

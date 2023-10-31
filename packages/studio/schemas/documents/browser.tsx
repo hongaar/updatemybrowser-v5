@@ -104,6 +104,8 @@ export const browser: DocumentDefinition = {
     },
     i18nString({
       name: "description",
+      minLength: 32,
+      maxLength: 64,
     }),
     i18nUrl({
       name: "wikipediaUrl",

@@ -38,7 +38,7 @@ export function Icon({
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
-      className={`${styles.img} ${className}`}
+      className={`${styles.img} ${className || ""}`}
       alt={alt}
       style={{
         width: cssWidth || cssSize || width || size,

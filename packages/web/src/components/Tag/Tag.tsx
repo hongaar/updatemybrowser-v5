@@ -15,14 +15,14 @@ export function Tag({ href, className, current, children }: Props) {
       aria-current={current ? ("" as "true") : undefined}
       href={href}
       tabIndex={0}
-      className={`${styles.tag} ${className}`}
+      className={`${styles.tag} ${className || ""}`}
     >
       {children}
     </Link>
   ) : (
     <span
       aria-current={current ? ("" as "true") : undefined}
-      className={`${styles.tag} ${className}`}
+      className={`${styles.tag} ${className || ""}`}
     >
       {children}
     </span>

@@ -5,6 +5,8 @@ type Params = {
   title?: string;
   description?: string;
   required?: boolean;
+  minLength?: number;
+  maxLength?: number;
   fieldset?: string;
 };
 
@@ -17,6 +19,8 @@ export function i18nString({
   title,
   description,
   required = false,
+  minLength,
+  maxLength,
   fieldset = "i18n",
 }: Params): FieldDefinition {
   return {
@@ -24,7 +28,21 @@ export function i18nString({
     title: title ?? capitalizeString(name),
     type: "internationalizedArrayString",
     description,
-    validation: (rule: Rule) => (required ? rule.required() : undefined),
+    validation: (rule: Rule) => {
+      if (required) {
+        rule.required();
+      }
+
+      if (minLength) {
+        rule.min(minLength);
+      }
+
+      if (maxLength) {
+        rule.max(maxLength);
+      }
+
+      return rule;
+    },
     fieldset,
   };
 }

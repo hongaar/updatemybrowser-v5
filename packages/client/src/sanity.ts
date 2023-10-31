@@ -34,8 +34,19 @@ type LanguageOptions = {
   language: string | string[];
 };
 
-export async function getDocuments<T extends DocType>(type: T) {
-  return await getClient().fetch<Docs[T][]>(`*[_type == "${type}"]`);
+export async function getDocuments<T extends DocType>(
+  type: T,
+  expandImageFields: string[] = [],
+) {
+  return await getClient().fetch<Docs[T][]>(`*[_type == "${type}"]{
+    ${["..."]
+      .concat(
+        expandImageFields.map(
+          (field) => `defined(${field}) => {${field}{..., asset->{...}}}`,
+        ),
+      )
+      .join(",")}
+  }`);
 }
 
 export async function getLanguages() {
@@ -53,7 +64,7 @@ export async function getOses() {
 }
 
 export async function getBrowsers() {
-  return getDocuments(DocType.Browser);
+  return getDocuments(DocType.Browser, ["logo", "screenshots[]"]);
 }
 
 export async function getReleases() {

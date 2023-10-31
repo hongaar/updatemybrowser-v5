@@ -66,6 +66,9 @@ const indonesian: Dict = {
   ButMaybeYouAreUsing: "Tapi mungkin Anda menggunakan",
   DownloadLinkDescription: "Klik tombol di bawah ini untuk mengunduh %s:",
   UpdateLinkDescription: "Klik tombol di bawah ini untuk memperbarui %s:",
+  Browsers: "...",
+  DataSources: "...",
+  OperatingSystems: "...",
 };
 
 export default indonesian;

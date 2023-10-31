@@ -66,6 +66,9 @@ const dutch: Dict = {
   ButMaybeYouAreUsing: "Maar misschien gebruik je wel",
   DownloadLinkDescription: "Klik op de knop hieronder om %s te downloaden:",
   UpdateLinkDescription: "Klik op de knop hieronder om %s bij te werken:",
+  Browsers: "...",
+  DataSources: "...",
+  OperatingSystems: "...",
 };
 
 export default dutch;

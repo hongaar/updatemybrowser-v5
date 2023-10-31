@@ -9,11 +9,6 @@ export const figure: ImageDefinition = {
   },
   fields: [
     {
-      name: "caption",
-      type: "string",
-      title: "Caption",
-    },
-    {
       name: "alt",
       type: "string",
       title: "Alternative text",
@@ -21,11 +16,16 @@ export const figure: ImageDefinition = {
       validation: (Rule) =>
         Rule.error("You have to fill out the alternative text.").required(),
     },
+    {
+      name: "caption",
+      type: "string",
+      title: "Caption",
+    },
   ],
   preview: {
     select: {
       imageUrl: "asset.url",
-      title: "caption",
+      title: "alt",
     },
   },
 };

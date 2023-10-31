@@ -4,7 +4,7 @@
   background-color: var(--muted-background-color);
 }
 
-.container {
+.header {
   // !important due to bug with container padding from loading.tsx taking precedence
   padding: var(--spacing) calc(var(--spacing) * 2) !important;
 
@@ -18,6 +18,28 @@
   }
 }
 
+.links {
+  display: flex;
+  flex-direction: column;
+
+  > *:not(:last-child) {
+    margin-bottom: calc(var(--spacing) * 1);
+  }
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    flex-direction: row;
+
+    > *:not(:last-child) {
+      margin-bottom: 0;
+      margin-right: calc(var(--spacing) * 5);
+    }
+  }
+}
+
 .copyright {
   line-height: 2rem;
+}
+
+.muted {
+  color: var(--muted-color);
 }

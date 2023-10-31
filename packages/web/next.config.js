@@ -4,7 +4,7 @@ const nextConfig = {
     logging: { level: "verbose", fullUrl: true },
   },
   images: {
-    domains: ["cdn.sanity.io"],
+    domains: ["cdn.sanity.io", "img.youtube.com"],
   },
 };
 

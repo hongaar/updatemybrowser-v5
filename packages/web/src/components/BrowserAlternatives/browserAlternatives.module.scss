@@ -3,12 +3,6 @@
 .browserAlternatives {
   background-color: var(--muted-background-color);
   border-radius: var(--border-radius);
-
-  @media (min-width: map-get($breakpoints, "md")) {
-    margin: 0 0 calc(var(--spacing) * 2) calc(var(--spacing) * 2);
-    float: right;
-    width: 20rem;
-  }
 }
 
 .heading {

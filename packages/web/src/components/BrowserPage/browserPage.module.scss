@@ -1,5 +1,9 @@
 @import "../../styles/theme";
 
+.excerpt {
+  font-size: var(--font-large-size);
+}
+
 .img {
   vertical-align: sub;
   padding: 0 calc(var(--spacing) * 0.6);
@@ -18,11 +22,17 @@
   }
 }
 
-.alternativesWrapper {
+.columns {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
 
   @media (min-width: map-get($breakpoints, "md")) {
-    display: block;
+    flex-direction: row;
+    align-items: flex-start;
+
+    > *:nth-child(2) {
+      margin: 0 0 calc(var(--spacing) * 2) calc(var(--spacing) * 2);
+      min-width: 20rem;
+    }
   }
 }
