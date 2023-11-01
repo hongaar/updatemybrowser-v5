@@ -5,30 +5,33 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "h9gndD2P4keuz4rjs3xf5F",
+    _rev: "B4UTUzmTSUGGaDoK0MI5a6",
     _type: "browser",
-    _updatedAt: "2023-11-01T03:22:11Z",
+    _updatedAt: "2023-11-01T06:28:04Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
-        value: "Opera has a built-in ad blocker and free VPN.",
+        value:
+          "Fast, secure, customizable, with built-in ad blocker and free VPN.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
-        value: "Opera heeft een ingebouwde adblocker en gratis VPN.",
+        value:
+          "Snel, veilig, aanpasbaar, met ingebouwde adblocker en gratis VPN.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Opera hat einen integrierten Werbeblocker und eine kostenlose VPN.",
+          "Schnell, sicher, anpassbar, mit integriertem Werbeblocker und kostenlosem VPN.",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
-        value: "Opera memiliki pemblokir iklan bawaan dan VPN gratis.",
+        value:
+          "Cepat, aman, dapat disesuaikan, dengan pemblokir iklan bawaan dan VPN gratis.",
       },
     ],
     featuredArticles: [
@@ -520,10 +523,10 @@ export const browsers: Browser[] = [
           "Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. There are also mobile versions called Opera Mobile and Opera Mini. Opera users also have access to Opera News, a news app based on an AI platform.",
       },
       {
-        _key: "nl",
+        _key: "id",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera is een webbrowser en internet suite die is ontwikkeld door het Noorse bedrijf Opera Software.",
+          "Opera adalah peramban web dan paket perangkat lunak Internet antar-platform. Opera terdiri dari kumpulan perangkat lunak untuk Internet seperti peramban web, serta perangkat lunak untuk membaca dan mengirim surat elektronik. Opera dibuat oleh Opera Software yang bermarkas di Oslo, Norwegia. Opera dapat dijalankan di berbagai sistem operasi, termasuk Microsoft Windows, Mac OS X, Solaris, FreeBSD dan Linux.",
       },
       {
         _key: "de",
@@ -532,10 +535,10 @@ export const browsers: Browser[] = [
           "Opera ist ein kostenloser proprietärer Webbrowser. Er basierte bis einschließlich Version 12.18 auf einem eigenen HTML-Renderer. Seit der 2013 freigegebenen Version 15 nutzt er den Renderer der jeweils aktuellen Version des Webbrowsers Chromium. Opera ist für viele Plattformen verfügbar. Alleiniger Entwickler der geschlossenen Softwarekomponenten ist das ehemals norwegische Unternehmen Opera Software, das sich auch an der Fortentwicklung der quelloffenen Rendering-Engine beteiligt.",
       },
       {
-        _key: "id",
+        _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera adalah peramban web dan paket perangkat lunak Internet antar-platform. Opera terdiri dari kumpulan perangkat lunak untuk Internet seperti peramban web, serta perangkat lunak untuk membaca dan mengirim surat elektronik. Opera dibuat oleh Opera Software yang bermarkas di Oslo, Norwegia. Opera dapat dijalankan di berbagai sistem operasi, termasuk Microsoft Windows, Mac OS X, Solaris, FreeBSD dan Linux.",
+          "Opera is een webbrowser en internet suite die is ontwikkeld door het Noorse bedrijf Opera Software.",
       },
     ],
     vendor: "Opera",
@@ -546,9 +549,9 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Opera_(web_browser)",
       },
       {
-        _key: "nl",
+        _key: "id",
         _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Opera_(webbrowser)",
+        value: "https://id.wikipedia.org/wiki/Opera_(peramban_web)",
       },
       {
         _key: "de",
@@ -556,9 +559,9 @@ export const browsers: Browser[] = [
         value: "https://de.wikipedia.org/wiki/Opera_(Browser)",
       },
       {
-        _key: "id",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Opera_(peramban_web)",
+        value: "https://nl.wikipedia.org/wiki/Opera_(webbrowser)",
       },
     ],
     youtubeId: "FxBBuxE6XTI",
@@ -566,33 +569,33 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "lRZ54YVKpJaKWrGZ7Q9WTp",
+    _rev: "B4UTUzmTSUGGaDoK0MI5i2",
     _type: "browser",
-    _updatedAt: "2023-11-01T05:57:45Z",
+    _updatedAt: "2023-11-01T06:28:17Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value:
-          "Samsung Internet has a built-in ad blocker and supports virtual reality.",
+          "Fast, secure, customizable, ad-blocker, video assistant, secret mode, high contrast.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value:
-          "Samsung Internet heeft een ingebouwde adblocker en ondersteunt virtual reality.",
+          "Snel, veilig, aanpasbaar, ad-blocker, video-assistent, geheime modus, hoog contrast.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Samsung Internet hat einen integrierten Werbeblocker und unterstützt Virtual Reality.",
+          "Schnell, sicher, anpassbar, Werbeblocker, Video-Assistent, Geheimmodus, hoher Kontrast.",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Samsung Internet memiliki pemblokir iklan bawaan dan mendukung realitas virtual.",
+          "Cepat, aman, dapat disesuaikan, pemblokir iklan, asisten video, mode rahasia, kontras ting",
       },
     ],
     homepage: "https://www.samsung.com/us/support/owners/app/samsung-internet",
@@ -649,30 +652,33 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "B4UTUzmTSUGGaDoK0M3AWO",
+    _rev: "B4UTUzmTSUGGaDoK0MI69o",
     _type: "browser",
-    _updatedAt: "2023-11-01T05:57:57Z",
+    _updatedAt: "2023-11-01T06:28:52Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
-        value: "Chromium is an open-source project developed by Google.",
+        value:
+          "Open-source, fast, secure, customizable, and supports multiple platforms.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
-        value: "Chromium is een open-source project ontwikkeld door Google.",
+        value:
+          "Open-source, snel, veilig, aanpasbaar en ondersteunt meerdere platforms.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
-        value: "Chromium ist ein Open-Source-Projekt, entwickelt von Google.",
+        value:
+          "Open-Source, schnell, sicher, anpassbar und unterstützt mehrere Plattformen.",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Chromium adalah proyek sumber terbuka yang dikembangkan oleh Google.",
+          "Mendukung banyak platform, sumber terbuka, cepat, aman, dan dapat disesuaikan.",
       },
     ],
     homepage: "https://www.chromium.org/Home/",
@@ -776,33 +782,33 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "B4UTUzmTSUGGaDoK0M3AeK",
+    _rev: "lRZ54YVKpJaKWrGZ7QDH73",
     _type: "browser",
-    _updatedAt: "2023-11-01T05:58:07Z",
+    _updatedAt: "2023-11-01T06:29:26Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value:
-          "Firefox is a fast, secure, and customizable internet application.",
+          "Open-source, customizable, secure, fast, private browsing, extensive add-ons, cross-platform compatibility.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value:
-          "Firefox is een snelle, veilige en aanpasbare internettoepassing.",
+          "Open-source, aanpasbaar, veilig, snel, privé browsen, uitgebreide add-ons, compatibel met meerdere platforms.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Firefox ist eine schnelle, sichere und anpassbare Internetanwendung.",
+          "Offene Quelle, anpassbar, sicher, schnell, privates Surfen, umfangreiche Add-Ons, plattformübergre",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Firefox adalah aplikasi internet yang cepat, aman, dan dapat disesuaikan.",
+          "Penjelajahan dengan sumber terbuka, dapat disesuaikan, aman, cepat, pribadi, dengan banyak add-on",
       },
     ],
     homepage: "https://www.mozilla.org/firefox/browsers/",
@@ -900,33 +906,33 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "B4UTUzmTSUGGaDoK0M3AmG",
+    _rev: "B4UTUzmTSUGGaDoK0MI7BI",
     _type: "browser",
-    _updatedAt: "2023-11-01T05:59:01Z",
+    _updatedAt: "2023-11-01T06:30:05Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value:
-          '"Brave" blocks ads, protects privacy, and rewards users with cryptocurrency.',
+          "Privacy-focused, blocks ads and trackers, fast and secure browsing.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value:
-          '"Brave" blokkeert advertenties, beschermt privacy en beloont gebruikers met cryptocurrency.',
+          "Privacygericht, blokkeert advertenties en trackers, snel en veilig surfen.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          '"Brave" blockiert Werbung, schützt die Privatsphäre und belohnt Benutzer mit Kryptowährung.',
+          "Datenschutzorientiert, blockiert Werbung und Tracker, schnelles und sicheres Surfen.",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          '"Brave" memblokir iklan, melindungi privasi, dan memberi pengguna hadiah cryptocurrency.',
+          "Penjelajahan yang fokus pada privasi, memblokir iklan dan pelacak, cepat dan aman.",
       },
     ],
     homepage: "https://brave.com",
@@ -1023,33 +1029,33 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:55:23Z",
     _id: "8abcdc0e-4b17-4b4b-8c85-a0e6ec7e362b",
-    _rev: "lRZ54YVKpJaKWrGZ7QD1QT",
+    _rev: "h9gndD2P4keuz4rjs4BBlN",
     _type: "browser",
-    _updatedAt: "2023-11-01T05:59:13Z",
+    _updatedAt: "2023-11-01T06:30:16Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value:
-          "Tor Browser provides anonymous browsing, encryption, and protection against tracking.",
+          "Private, secure, anonymous browsing with built-in encryption and IP masking.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value:
-          "Tor Browser biedt anoniem surfen, versleuteling en bescherming tegen tracking.",
+          "Privé, veilig, anoniem browsen met ingebouwde versleuteling en IP-verberging.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Der Tor-Browser ermöglicht anonymes Surfen, Verschlüsselung und Schutz vor Tracking.",
+          "Private, sicheres, anonymes Surfen mit integrierter Verschlüsselung und IP-Verschleierung.",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Tor Browser menyediakan penjelajahan anonim, enkripsi, dan perlindungan terhadap pelacakan.",
+          "Penjelajahan pribadi, aman, anonim dengan enkripsi dan penyamaran IP terintegrasi.",
       },
     ],
     homepage: "https://www.torproject.org",
@@ -1098,33 +1104,33 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "h9gndD2P4keuz4rjs3xfC5",
+    _rev: "B4UTUzmTSUGGaDoK0MI7oy",
     _type: "browser",
-    _updatedAt: "2023-11-01T05:59:22Z",
+    _updatedAt: "2023-11-01T06:30:26Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value:
-          "Internet Explorer is a Microsoft-developed browser with various features.",
+          "Microsoft's browser with tabbed browsing, security features, and compatibility mode.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value:
-          "Internet Explorer is een door Microsoft ontwikkelde browser met verschillende functies.",
+          "De browser van Microsoft met tabbladnavigatie, beveiligingsfuncties en compatibiliteitsmodus.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Internet Explorer ist ein von Microsoft entwickelter Browser mit verschiedenen Funktionen.",
+          "Microsofts Browser mit Registerkarten, Sicherheitsfunktionen und Kompatibilitätsmodus.",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Internet Explorer adalah browser yang dikembangkan oleh Microsoft dengan berbagai fitur.",
+          "Browser Microsoft dengan fitur tab browsing, keamanan, dan mode kompatibilitas.",
       },
     ],
     homepage: "https://wikipedia.org/wiki/Internet_Explorer",
@@ -1221,31 +1227,33 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "h9gndD2P4keuz4rjs3xfIv",
+    _rev: "h9gndD2P4keuz4rjs4BFZJ",
     _type: "browser",
-    _updatedAt: "2023-11-01T05:59:51Z",
+    _updatedAt: "2023-11-01T06:30:50Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
-        value: "Safari is a fast and secure internet browsing application.",
+        value:
+          "Apple's default browser with a user-friendly interface and advanced privacy.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
-        value: "Safari is een snelle en veilige internetbrowser.",
+        value:
+          "De standaardbrowser van Apple met een gebruiksvriendelijke interface en geavanceerde privacy.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Safari ist eine schnelle und sichere Internet-Browser-Anwendung.",
+          "Apples Standardbrowser mit benutzerfreundlicher Oberfläche und fortschrittlichem Datenschutz.",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Safari adalah aplikasi penjelajahan internet yang cepat dan aman.",
+          "Browser default Apple dengan antarmuka yang ramah pengguna dan privasi canggih.",
       },
     ],
     homepage: "https://www.apple.com/safari/",
@@ -1342,9 +1350,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "lRZ54YVKpJaKWrGZ7Q9WVl",
+    _rev: "h9gndD2P4keuz4rjs4BG0f",
     _type: "browser",
-    _updatedAt: "2023-11-01T06:00:06Z",
+    _updatedAt: "2023-11-01T06:31:00Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -1376,25 +1384,25 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value:
-          "Chrome is a fast, secure, and user-friendly internet application.",
+          "Fast, secure, customizable, with built-in Google services and extensions.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value:
-          "Chrome is een snelle, veilige en gebruiksvriendelijke internettoepassing.",
+          "Snel, veilig, aanpasbaar, met ingebouwde Google-services en extensies.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Chrome ist eine schnelle, sichere und benutzerfreundliche Internetanwendung.",
+          "Schnell, sicher, anpassbar, mit integrierten Google-Diensten und Erweiterungen.",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Chrome adalah aplikasi internet yang cepat, aman, dan mudah digunakan.",
+          "Cepat, aman, dapat disesuaikan, dengan layanan Google dan ekstensi terintegrasi.",
       },
     ],
     homepage: "https://www.google.com/chrome/",
@@ -1576,457 +1584,11 @@ export const browsers: Browser[] = [
     youtubeId: "https://www.youtube.com/watch?v=SlGuvC5nnTA",
   },
   {
-    _createdAt: "2023-10-07T15:38:17Z",
-    _id: "drafts.25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "h9gndD2P4keuz4rjs3xfPl",
-    _type: "browser",
-    _updatedAt: "2023-10-31T03:21:52Z",
-    homepage: "https://www.samsung.com/us/support/owners/app/samsung-internet",
-    icon: {
-      _type: "icon",
-      custom_svg:
-        '<svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\n\t viewBox="0 0 493 493" enable-background="new 0 0 493 493" xml:space="preserve">\n<g>\n\t<path fill="#7882FF" d="M488.5,173c-6.1-45.8-22.3-87.3-50.8-117.7h0C407.3,26.8,365.8,10.6,320,4.5c-43.7-5.8-73.5-4.4-73.5-4.4\n\t\tS216.7-1.3,173,4.5c-45.8,6.1-87.3,22.3-117.6,50.8C26.8,85.7,10.6,127.2,4.5,173c-5.8,43.7-4.4,73.5-4.4,73.5s-1.4,29.8,4.4,73.5\n\t\tc6.1,45.8,22.3,87.3,50.8,117.7c30.4,28.6,71.9,44.8,117.6,50.9c43.7,5.8,73.5,4.4,73.5,4.4s29.8,1.4,73.5-4.4\n\t\tc45.8-6.1,87.3-22.3,117.6-50.9h0c28.6-30.4,44.8-71.9,50.8-117.7c5.8-43.7,4.4-73.5,4.4-73.5S494.3,216.7,488.5,173"/>\n\t<path fill="#FFFFFF" d="M372.7,210c19.5,70-21.5,142.6-91.5,162.1c-70,19.5-142.6-21.5-162.1-91.5c-19.5-70,21.5-142.6,91.5-162.1\n\t\tC280.6,99,353.2,140,372.7,210"/>\n\t<path fill="#FFFFFF" d="M372.7,210c7.3,26.3,6.1,52.9-1.9,76.9c-0.6,1.9-1.3,3.9-2.1,5.8"/>\n\t<path fill="#FFFFFF" d="M370.6,210c5.1,18.4,6.1,37,3.4,54.7"/>\n\t<path fill="#4D5CC1" d="M333.9,337.7L333.9,337.7c-33.3,0-73.8-8.5-114.2-23.8c-40.4-15.3-76.3-35.9-101.2-58\n\t\tc-40.4-35.9-37.9-63.7-32.8-77.1c5.1-13.4,21.7-35.9,75.7-35.9h0c33.3,0,73.8,8.5,114.2,23.8c40.4,15.3,76.3,35.9,101.2,58\n\t\tc40.4,35.9,37.9,63.7,32.8,77.1C404.6,315.2,388,337.7,333.9,337.7 M161.5,184.6c-25,0-35.7,6.2-36.8,9\n\t\tc-1.1,2.8,2.9,14.6,21.6,31.2c20.9,18.5,53.1,36.9,88.3,50.2c35.2,13.4,71.5,21.1,99.4,21.1h0c25,0,35.7-6.2,36.8-9\n\t\tc1.1-2.8-2.9-14.6-21.5-31.2c-20.9-18.5-53.1-36.9-88.3-50.2C225.6,192.3,189.4,184.6,161.5,184.6L161.5,184.6L161.5,184.6z"/>\n\t<path fill="#FFFFFF" d="M124.7,194l245.9,93.4c8.2-24.2,9.5-51,2.1-77.4c-19.5-70-92-111-162.1-91.5\n\t\tC170.4,129.7,139.8,158.4,124.7,194"/>\n</g>\n</svg>',
-    },
-    matchBrowserName: ["Samsung Internet"],
-    name: "Samsung Internet",
-    slug: {
-      _type: "slug",
-      current: "samsung-internet",
-    },
-    summary: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Samsung Internet Browser is a mobile web browser developed by Samsung Electronics, based on the open-source Chromium project. It comes pre-installed on Samsung Galaxy devices and, since 2015, has been available for download from Google Play for all Android devices. It is also available for their Tizen-based smartwatch via the Galaxy Store.",
-      },
-      {
-        _key: "nl",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Samsung Internet Browser is een mobiele webbrowser voor smartphones en tablets, ontwikkeld door Samsung Electronics. De browser, die gebaseerd is op het open-source Chromium-project, wordt voor-geïnstalleerd op Samsung Galaxy-apparaten en kan sinds 2015 gedownload worden vanuit de Google Play.",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Samsung Internet Browser adalah peramban web seluler untuk ponsel pintar dan tablet yang dikembangkan oleh Samsung Electronics. Sejak 2015, peramban ini tersedia untuk diunduh dari Google Play. Samsung memperkirakan terdapat 400 juta pengguna aktif bulanan pada 2016.",
-      },
-    ],
-    vendor: "Samsung",
-    wikipediaUrl: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://en.wikipedia.org/wiki/Samsung_Internet",
-      },
-      {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Samsung_Internet",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Samsung_Internet",
-      },
-    ],
-  },
-  {
-    _createdAt: "2023-10-07T15:24:58Z",
-    _id: "drafts.5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "h9gndD2P4keuz4rjs3xfWb",
-    _type: "browser",
-    _updatedAt: "2023-10-30T11:11:30Z",
-    description: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayStringValue",
-        value: "Open source browser from Mozilla.",
-      },
-    ],
-    homepage: "https://www.mozilla.org/firefox/browsers/",
-    icon: {
-      _type: "icon",
-      predefined: {
-        _type: "icon.manager",
-        icon: "logos:firefox",
-        metadata: {
-          author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
-          },
-          collectionId: "logos",
-          collectionName: "SVG Logos",
-          downloadUrl:
-            "https://api.iconify.design/logos:firefox.svg?width=20&height=20&download=1",
-          flip: "",
-          hFlip: false,
-          iconName: "firefox",
-          inlineSvg:
-            '<svg viewBox="0 0 256 265" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="80.797" cy="-8515.121" cx="-7907.187" id="IconifyId18b4357b29a5eca6912"><stop stop-color="#ffbd4f" offset=".129"></stop><stop stop-color="#ffac31" offset=".186"></stop><stop stop-color="#ff9d17" offset=".247"></stop><stop stop-color="#ff980e" offset=".283"></stop><stop stop-color="#ff563b" offset=".403"></stop><stop stop-color="#ff3750" offset=".467"></stop><stop stop-color="#f5156c" offset=".71"></stop><stop stop-color="#eb0878" offset=".782"></stop><stop stop-color="#e50080" offset=".86"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="80.797" cy="-8482.089" cx="-7936.711" id="IconifyId18b4357b29a5eca6913"><stop stop-color="#960e18" offset=".3"></stop><stop stop-opacity=".74" stop-color="#b11927" offset=".351"></stop><stop stop-opacity=".343" stop-color="#db293d" offset=".435"></stop><stop stop-opacity=".094" stop-color="#f5334b" offset=".497"></stop><stop stop-opacity="0" stop-color="#ff3750" offset=".53"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="58.534" cy="-8533.457" cx="-7926.97" id="IconifyId18b4357b29a5eca6914"><stop stop-color="#fff44f" offset=".132"></stop><stop stop-color="#ffdc3e" offset=".252"></stop><stop stop-color="#ff9d12" offset=".506"></stop><stop stop-color="#ff980e" offset=".526"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="38.471" cy="-8460.984" cx="-7945.648" id="IconifyId18b4357b29a5eca6915"><stop stop-color="#3a8ee6" offset=".353"></stop><stop stop-color="#5c79f0" offset=".472"></stop><stop stop-color="#9059ff" offset=".669"></stop><stop stop-color="#c139e6" offset="1"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.21411 -.77707 .90934 3.76302 33365.914 25904.014)" r="20.397" cy="-8491.546" cx="-7935.62" id="IconifyId18b4357b29a5eca6916"><stop stop-opacity="0" stop-color="#9059ff" offset=".206"></stop><stop stop-opacity=".064" stop-color="#8c4ff3" offset=".278"></stop><stop stop-opacity=".45" stop-color="#7716a8" offset=".747"></stop><stop stop-opacity=".6" stop-color="#6e008b" offset=".975"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="27.676" cy="-8518.427" cx="-7937.731" id="IconifyId18b4357b29a5eca6917"><stop stop-color="#ffe226" offset="0"></stop><stop stop-color="#ffdb27" offset=".121"></stop><stop stop-color="#ffc82a" offset=".295"></stop><stop stop-color="#ffa930" offset=".502"></stop><stop stop-color="#ff7e37" offset=".732"></stop><stop stop-color="#ff7139" offset=".792"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="118.081" cy="-8535.981" cx="-7915.977" id="IconifyId18b4357b29a5eca6918"><stop stop-color="#fff44f" offset=".113"></stop><stop stop-color="#ff980e" offset=".456"></stop><stop stop-color="#ff5634" offset=".622"></stop><stop stop-color="#ff3647" offset=".716"></stop><stop stop-color="#e31587" offset=".904"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.3472 3.29017 -2.15928 .22816 -15491.597 28008.376)" r="86.499" cy="-8522.859" cx="-7927.165" id="IconifyId18b4357b29a5eca6919"><stop stop-color="#fff44f" offset="0"></stop><stop stop-color="#ffe847" offset=".06"></stop><stop stop-color="#ffc830" offset=".168"></stop><stop stop-color="#ff980e" offset=".304"></stop><stop stop-color="#ff8b16" offset=".356"></stop><stop stop-color="#ff672a" offset=".455"></stop><stop stop-color="#ff3647" offset=".57"></stop><stop stop-color="#e31587" offset=".737"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="73.72" cy="-8508.176" cx="-7938.383" id="IconifyId18b4357b29a5eca6920"><stop stop-color="#fff44f" offset=".137"></stop><stop stop-color="#ff980e" offset=".48"></stop><stop stop-color="#ff5634" offset=".592"></stop><stop stop-color="#ff3647" offset=".655"></stop><stop stop-color="#e31587" offset=".904"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(26367.938 28186.305) scale(3.3067)" r="80.686" cy="-8503.861" cx="-7918.923" id="IconifyId18b4357b29a5eca6921"><stop stop-color="#fff44f" offset=".094"></stop><stop stop-color="#ffe141" offset=".231"></stop><stop stop-color="#ffaf1e" offset=".509"></stop><stop stop-color="#ff980e" offset=".626"></stop></radialGradient><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(-2.999 -.01) scale(3.3067)" y2="74.468" y1="12.393" x2="6.447" x1="70.786" id="IconifyId18b4357b29a5eca6922"><stop stop-color="#fff44f" offset=".048"></stop><stop stop-color="#ffe847" offset=".111"></stop><stop stop-color="#ffc830" offset=".225"></stop><stop stop-color="#ff980e" offset=".368"></stop><stop stop-color="#ff8b16" offset=".401"></stop><stop stop-color="#ff672a" offset=".462"></stop><stop stop-color="#ff3647" offset=".534"></stop><stop stop-color="#e31587" offset=".705"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(-2.999 -.01) scale(3.3067)" y2="66.806" y1="12.061" x2="15.267" x1="70.013" id="IconifyId18b4357b29a5eca6923"><stop stop-opacity=".8" stop-color="#fff44f" offset=".167"></stop><stop stop-opacity=".634" stop-color="#fff44f" offset=".266"></stop><stop stop-opacity=".217" stop-color="#fff44f" offset=".489"></stop><stop stop-opacity="0" stop-color="#fff44f" offset=".6"></stop></linearGradient></defs><path d="M248.033 88.713c-5.569-13.399-16.864-27.866-25.71-32.439a133.169 133.169 0 0 1 12.979 38.9l.023.215c-14.49-36.126-39.062-50.692-59.13-82.41a155.1 155.1 0 0 1-3.019-4.907a40.605 40.605 0 0 1-1.412-2.645a23.31 23.31 0 0 1-1.912-5.076a.331.331 0 0 0-.291-.331a.469.469 0 0 0-.241 0c-.016 0-.043.03-.063.037c-.02.006-.063.036-.092.049l.049-.086c-32.19 18.849-43.113 53.741-44.118 71.194a64.108 64.108 0 0 0-35.269 13.593a38.336 38.336 0 0 0-3.307-2.506a59.417 59.417 0 0 1-.36-31.324a94.912 94.912 0 0 0-30.848 23.841h-.06c-5.079-6.438-4.722-27.667-4.431-32.102a22.957 22.957 0 0 0-4.279 2.272a93.435 93.435 0 0 0-12.526 10.73a111.954 111.954 0 0 0-11.98 14.375v.019v-.023A108.26 108.26 0 0 0 4.841 108.92l-.171.846a203.818 203.818 0 0 0-1.26 8.003c0 .096-.02.185-.03.281a122.12 122.12 0 0 0-2.08 17.667v.662c.086 98.661 106.944 160.23 192.344 110.825a128.165 128.165 0 0 0 62.12-89.153c.215-1.653.39-3.29.582-4.96a131.8 131.8 0 0 0-8.313-64.378ZM100.322 189.031c.599.288 1.161.599 1.776.873l.089.057a68.838 68.838 0 0 1-1.865-.93Zm29.357-77.297Zm105.656-16.315v-.123l.023.136l-.023-.013Z" fill="url(#IconifyId18b4357b29a5eca6922)"></path><path d="M248.033 88.713c-5.569-13.399-16.864-27.866-25.71-32.439a133.169 133.169 0 0 1 12.979 38.9v.122l.023.136a116.067 116.067 0 0 1-3.988 86.497c-14.688 31.516-50.242 63.819-105.894 62.248c-60.132-1.703-113.089-46.323-122.989-104.766c-1.802-9.216 0-13.888.906-21.378a95.444 95.444 0 0 0-2.06 17.684v.662c.086 98.661 106.944 160.23 192.344 110.825a128.165 128.165 0 0 0 62.12-89.153c.215-1.653.39-3.29.582-4.96a131.8 131.8 0 0 0-8.313-64.378Z" fill="url(#IconifyId18b4357b29a5eca6912)"></path><path d="M248.033 88.713c-5.569-13.399-16.864-27.866-25.71-32.439a133.169 133.169 0 0 1 12.979 38.9v.122l.023.136a116.067 116.067 0 0 1-3.988 86.497c-14.688 31.516-50.242 63.819-105.894 62.248c-60.132-1.703-113.089-46.323-122.989-104.766c-1.802-9.216 0-13.888.906-21.378a95.444 95.444 0 0 0-2.06 17.684v.662c.086 98.661 106.944 160.23 192.344 110.825a128.165 128.165 0 0 0 62.12-89.153c.215-1.653.39-3.29.582-4.96a131.8 131.8 0 0 0-8.313-64.378Z" fill="url(#IconifyId18b4357b29a5eca6913)"></path><path d="M185.754 103.778c.278.195.536.39.797.585a69.775 69.775 0 0 0-11.904-15.525C134.815 48.999 164.208 2.457 169.165.093l.049-.073c-32.19 18.849-43.113 53.741-44.118 71.194c1.495-.103 2.976-.229 4.504-.229a64.68 64.68 0 0 1 56.154 32.793Z" fill="url(#IconifyId18b4357b29a5eca6914)"></path><path d="M129.683 111.734c-.212 3.188-11.475 14.182-15.413 14.182c-36.443 0-42.359 22.046-42.359 22.046c1.614 18.564 14.55 33.854 30.187 41.942c.714.371 1.439.705 2.163 1.032a70.572 70.572 0 0 0 3.763 1.541a56.974 56.974 0 0 0 16.675 3.217c63.876 2.996 76.25-76.384 30.154-99.419a44.241 44.241 0 0 1 30.901 7.503A64.68 64.68 0 0 0 129.6 70.985c-1.521 0-3.009.126-4.504.229a64.108 64.108 0 0 0-35.269 13.593c1.954 1.654 4.16 3.863 8.806 8.442c8.696 8.568 31 17.443 31.05 18.485Z" fill="url(#IconifyId18b4357b29a5eca6915)"></path><path d="M129.683 111.734c-.212 3.188-11.475 14.182-15.413 14.182c-36.443 0-42.359 22.046-42.359 22.046c1.614 18.564 14.55 33.854 30.187 41.942c.714.371 1.439.705 2.163 1.032a70.572 70.572 0 0 0 3.763 1.541a56.974 56.974 0 0 0 16.675 3.217c63.876 2.996 76.25-76.384 30.154-99.419a44.241 44.241 0 0 1 30.901 7.503A64.68 64.68 0 0 0 129.6 70.985c-1.521 0-3.009.126-4.504.229a64.108 64.108 0 0 0-35.269 13.593c1.954 1.654 4.16 3.863 8.806 8.442c8.696 8.568 31 17.443 31.05 18.485Z" fill="url(#IconifyId18b4357b29a5eca6916)"></path><path d="M83.852 80.545a81.51 81.51 0 0 1 2.645 1.756a59.407 59.407 0 0 1-.36-31.324a94.926 94.926 0 0 0-30.849 23.841c.625-.017 19.216-.351 28.564 5.727Z" fill="url(#IconifyId18b4357b29a5eca6917)"></path><path d="M2.471 139.411c9.89 58.443 62.857 103.063 122.989 104.766c55.652 1.574 91.205-30.732 105.894-62.248a116.067 116.067 0 0 0 3.988-86.497v-.122c0-.096-.02-.153 0-.123l.023.215c4.547 29.684-10.552 58.443-34.155 77.889l-.073.166c-45.989 37.455-90.002 22.598-98.91 16.533a64.67 64.67 0 0 1-1.865-.929c-26.814-12.817-37.891-37.247-35.517-58.198a32.912 32.912 0 0 1-30.359-19.096a48.336 48.336 0 0 1 47.117-1.891a63.821 63.821 0 0 0 48.119 1.891c-.049-1.042-22.353-9.92-31.05-18.484c-4.646-4.58-6.851-6.786-8.805-8.442a38.145 38.145 0 0 0-3.307-2.507c-.761-.519-1.617-1.081-2.645-1.756c-9.348-6.078-27.939-5.744-28.554-5.727h-.059c-5.079-6.438-4.722-27.667-4.431-32.101a22.862 22.862 0 0 0-4.279 2.271a93.373 93.373 0 0 0-12.526 10.73a112.062 112.062 0 0 0-12.03 14.342v.019v-.023A108.26 108.26 0 0 0 4.841 108.92c-.062.261-4.616 20.167-2.37 30.491Z" fill="url(#IconifyId18b4357b29a5eca6918)"></path><path d="M174.654 88.838a69.818 69.818 0 0 1 11.904 15.542a26.607 26.607 0 0 1 1.921 1.574c29.056 26.784 13.832 64.646 12.698 67.341c23.603-19.447 38.688-48.205 34.155-77.89c-14.497-36.142-39.069-50.708-59.137-82.426a155.1 155.1 0 0 1-3.019-4.907a40.605 40.605 0 0 1-1.412-2.645a23.31 23.31 0 0 1-1.912-5.076a.331.331 0 0 0-.291-.331a.469.469 0 0 0-.241 0c-.016 0-.043.03-.063.037c-.02.006-.063.036-.092.049c-4.957 2.351-34.35 48.893 5.489 88.732Z" fill="url(#IconifyId18b4357b29a5eca6919)"></path><path d="M188.459 105.937a26.822 26.822 0 0 0-1.921-1.574c-.261-.195-.519-.39-.797-.585a44.243 44.243 0 0 0-30.901-7.503c46.095 23.048 33.728 102.415-30.154 99.419a56.974 56.974 0 0 1-16.675-3.217a67.38 67.38 0 0 1-3.763-1.541c-.725-.331-1.449-.661-2.163-1.032l.089.057c8.908 6.081 52.907 20.938 98.91-16.534l.073-.165c1.147-2.679 16.371-40.55-12.698-67.325Z" fill="url(#IconifyId18b4357b29a5eca6920)"></path><path d="M71.911 147.962s5.916-22.046 42.359-22.046c3.938 0 15.211-10.994 15.413-14.182a63.817 63.817 0 0 1-48.119-1.892a48.341 48.341 0 0 0-47.118 1.892a32.912 32.912 0 0 0 30.359 19.096c-2.374 20.955 8.703 45.385 35.517 58.198c.599.288 1.161.599 1.776.873c-15.65-8.085-28.573-23.375-30.187-41.939Z" fill="url(#IconifyId18b4357b29a5eca6921)"></path><path d="M248.033 88.713c-5.569-13.399-16.864-27.866-25.71-32.439a133.169 133.169 0 0 1 12.979 38.9l.023.215c-14.49-36.126-39.062-50.692-59.13-82.41a155.1 155.1 0 0 1-3.019-4.907a40.605 40.605 0 0 1-1.412-2.645a23.31 23.31 0 0 1-1.912-5.076a.331.331 0 0 0-.291-.331a.469.469 0 0 0-.241 0c-.016 0-.043.03-.063.037c-.02.006-.063.036-.092.049l.049-.086c-32.19 18.849-43.113 53.741-44.118 71.194c1.495-.103 2.976-.229 4.504-.229a64.68 64.68 0 0 1 56.154 32.793a44.241 44.241 0 0 0-30.901-7.503c46.096 23.048 33.729 102.415-30.154 99.419a56.974 56.974 0 0 1-16.675-3.217a67.38 67.38 0 0 1-3.763-1.541c-.724-.331-1.449-.661-2.163-1.032l.089.057a68.838 68.838 0 0 1-1.865-.93c.599.288 1.161.599 1.776.873c-15.65-8.088-28.573-23.378-30.187-41.942c0 0 5.916-22.046 42.359-22.046c3.938 0 15.211-10.994 15.413-14.182c-.05-1.042-22.354-9.92-31.05-18.485c-4.646-4.579-6.852-6.785-8.806-8.442a38.336 38.336 0 0 0-3.307-2.506a59.417 59.417 0 0 1-.36-31.324a94.912 94.912 0 0 0-30.848 23.841h-.06c-5.079-6.438-4.722-27.667-4.431-32.102a22.957 22.957 0 0 0-4.279 2.272a93.435 93.435 0 0 0-12.526 10.73a111.954 111.954 0 0 0-11.98 14.375v.019v-.023A108.26 108.26 0 0 0 4.841 108.92l-.171.846c-.242 1.128-1.323 6.855-1.479 8.085c0 .093 0-.096 0 0A149.15 149.15 0 0 0 1.3 135.717v.662c.086 98.661 106.944 160.23 192.344 110.825a128.165 128.165 0 0 0 62.12-89.153c.215-1.653.39-3.29.582-4.96a131.8 131.8 0 0 0-8.313-64.378Zm-12.715 6.583l.024.136l-.024-.136Z" fill="url(#IconifyId18b4357b29a5eca6923)"></path></svg>',
-          license: {
-            name: "CC0",
-            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
-          },
-          palette: true,
-          rotate: 0,
-          size: {
-            height: 20,
-            width: 20,
-          },
-          url: "https://api.iconify.design/logos:firefox.svg?width=20&height=20",
-          vFlip: false,
-        },
-      },
-    },
-    matchBrowserName: ["Firefox", "Mobile Firefox"],
-    name: "Firefox",
-    popularity: 7110,
-    slug: {
-      _type: "slug",
-      current: "firefox",
-    },
-    summary: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayTextValue",
-        value:
-          'Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. In November 2017, Firefox began incorporating new technology under the code name "Quantum" to promote parallelism and a more intuitive user interface. Firefox is available for Windows 10 or later versions, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, illumos, and Solaris Unix. It is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon\'s Silk Browser.',
-      },
-      {
-        _key: "nl",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Mozilla Firefox is een gratis, vrije en opensource-webbrowser ontwikkeld door het Mozilla-project en vrijwilligers. Firefox is gebaseerd op de Gecko-layout-engine uit het Mozilla-project. De naam is een Engelse bijnaam voor de rode of kleine panda.",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Firefox lag im Juli 2023 mit einem Anteil von rund 2,8 Prozent an der weltweiten Internetnutzung auf Rang fünf der am meisten genutzten Webbrowser.",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Mozilla Firefox, atau Firefox adalah peramban web lintas platform bebas dan sumber terbuka yang dikembangkan oleh Yayasan Mozilla dan ratusan sukarelawan.",
-      },
-    ],
-    vendor: "Mozilla",
-    wikipediaUrl: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://en.wikipedia.org/wiki/Firefox",
-      },
-      {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Mozilla_Firefox",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://de.wikipedia.org/wiki/Mozilla_Firefox",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Firefox",
-      },
-    ],
-  },
-  {
-    _createdAt: "2023-10-19T15:55:23Z",
-    _id: "drafts.8abcdc0e-4b17-4b4b-8c85-a0e6ec7e362b",
-    _rev: "lRZ54YVKpJaKWrGZ7Q9WXh",
-    _type: "browser",
-    _updatedAt: "2023-10-30T06:41:19Z",
-    homepage: "https://www.torproject.org",
-    icon: {
-      _type: "icon",
-      predefined: {
-        _type: "icon.manager",
-        icon: "logos:tor-browser",
-        metadata: {
-          author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
-          },
-          collectionId: "logos",
-          collectionName: "SVG Logos",
-          downloadUrl:
-            "https://api.iconify.design/logos:tor-browser.svg?width=20&height=20&download=1",
-          flip: "",
-          hFlip: false,
-          iconName: "tor-browser",
-          inlineSvg:
-            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient y2="0%" y1="100%" x2="50%" x1="50%" id="IconifyId18b489eae1076b8b64"><stop stop-color="#420C5D" offset="0%"></stop><stop stop-color="#951AD1" offset="100%"></stop></linearGradient><linearGradient y2="0%" y1="100%" x2="50%" x1="50%" id="IconifyId18b489eae1076b8b65"><stop stop-color="#420C5D" offset="0%"></stop><stop stop-color="#951AD1" offset="100%"></stop></linearGradient></defs><circle fill="#F2E4FF" r="123" cy="128" cx="128"></circle><path d="M128.263 232.72v-15.517c49.15-.142 88.947-40.02 88.947-89.207c0-49.182-39.797-89.06-88.947-89.203V23.277c57.72.145 104.46 46.968 104.46 104.72c0 57.755-46.74 104.58-104.46 104.723Zm0-54.31c27.722-.145 50.161-22.652 50.161-50.414c0-27.758-22.439-50.264-50.161-50.41V62.073c36.295.142 65.678 29.596 65.678 65.923c0 36.331-29.383 65.785-65.678 65.927V178.41Zm0-77.55c14.87.141 26.888 12.23 26.888 27.136c0 14.91-12.018 27-26.888 27.141V100.86ZM0 127.995C0 198.692 57.304 256 128 256c70.692 0 128-57.308 128-128.004C256 57.304 198.692 0 128 0C57.304 0 0 57.304 0 127.996Z" fill="url(#IconifyId18b489eae1076b8b64)"></path><path transform="matrix(-1 0 0 1 140.5 0)" d="M12.5 14.5c63.789 0 115.5 51.487 115.5 115s-51.711 115-115.5 115v-230Z" fill="url(#IconifyId18b489eae1076b8b65)"></path></svg>',
-          license: {
-            name: "CC0",
-            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
-          },
-          palette: true,
-          rotate: 0,
-          size: {
-            height: 20,
-            width: 20,
-          },
-          url: "https://api.iconify.design/logos:tor-browser.svg?width=20&height=20",
-          vFlip: false,
-        },
-      },
-    },
-    name: "Tor Browser",
-    slug: {
-      _type: "slug",
-      current: "tor-browser",
-    },
-    summary: [],
-    vendor: "The Tor Project",
-  },
-  {
-    _createdAt: "2023-09-27T09:26:18Z",
-    _id: "drafts.e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "h9gndD2P4keuz4rjs3xfdR",
-    _type: "browser",
-    _updatedAt: "2023-10-30T11:11:34Z",
-    color: {
-      _type: "color",
-      alpha: 1,
-      hex: "#2594dc",
-      hsl: {
-        _type: "hslaColor",
-        a: 1,
-        h: 203.86195468058628,
-        l: 0.5055,
-        s: 0.7255,
-      },
-      hsv: {
-        _type: "hsvaColor",
-        a: 1,
-        h: 203.86195468058628,
-        s: 0.8302127919297412,
-        v: 0.86425975,
-      },
-      rgb: {
-        _type: "rgbaColor",
-        a: 1,
-        b: 220,
-        g: 148,
-        r: 37,
-      },
-    },
-    description: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayStringValue",
-        value: "Chromium-based browser which is shipped with Windows",
-      },
-    ],
-    homepage: "https://www.microsoft.com/edge",
-    icon: {
-      _type: "icon",
-      predefined: {
-        _type: "icon.manager",
-        icon: "logos:microsoft-edge",
-        metadata: {
-          author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
-          },
-          collectionId: "logos",
-          collectionName: "SVG Logos",
-          downloadUrl:
-            "https://api.iconify.design/logos:microsoft-edge.svg?width=20&height=20&download=1",
-          flip: "",
-          hFlip: false,
-          iconName: "microsoft-edge",
-          inlineSvg:
-            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.9999 0 0 .9498 -4.622 -570.387)" r="95.38" cy="788.401" cx="161.83" id="IconifyId18b4357b29a5eca6930"><stop stop-opacity="0" offset=".72"></stop><stop stop-opacity=".53" offset=".95"></stop><stop offset="1"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.15 -.9898 .8 .12 -410.718 -656.341)" r="143.24" cy="746.715" cx="-773.636" id="IconifyId18b4357b29a5eca6931"><stop stop-opacity="0" offset=".76"></stop><stop stop-opacity=".5" offset=".95"></stop><stop offset="1"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(-.04 .9998 -2.1299 -.07998 -190.775 -191.635)" r="202.43" cy="-106.038" cx="230.593" id="IconifyId18b4357b29a5eca6932"><stop stop-color="#35C1F1" offset="0"></stop><stop stop-color="#34C1ED" offset=".11"></stop><stop stop-color="#2FC2DF" offset=".23"></stop><stop stop-color="#2BC3D2" offset=".31"></stop><stop stop-color="#36C752" offset=".67"></stop></radialGradient><radialGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(.28 .9598 -.78 .23 -1.928 -410.318)" r="97.34" cy="-117.703" cx="536.357" id="IconifyId18b4357b29a5eca6933"><stop stop-color="#66EB6E" offset="0"></stop><stop stop-opacity="0" stop-color="#66EB6E" offset="1"></stop></radialGradient><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(-4.63 -580.81)" y2="757.83" y1="757.83" x2="241.617" x1="63.334" id="IconifyId18b4357b29a5eca6934"><stop stop-color="#0C59A4" offset="0"></stop><stop stop-color="#114A8B" offset="1"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" gradientTransform="translate(-4.63 -580.81)" y2="801.868" y1="680.556" x2="46.028" x1="157.401" id="IconifyId18b4357b29a5eca6935"><stop stop-color="#1B9DE2" offset="0"></stop><stop stop-color="#1595DF" offset=".16"></stop><stop stop-color="#0680D7" offset=".67"></stop><stop stop-color="#0078D4" offset="1"></stop></linearGradient></defs><path d="M231 190.5c-3.4 1.8-6.9 3.4-10.5 4.7c-11.5 4.3-23.6 6.5-35.9 6.5c-47.3 0-88.5-32.5-88.5-74.3c.1-11.4 6.4-21.9 16.4-27.3c-42.8 1.8-53.8 46.4-53.8 72.5c0 73.9 68.1 81.4 82.8 81.4c7.9 0 19.8-2.3 27-4.6l1.3-.4c27.6-9.5 51-28.1 66.6-52.8c1.2-1.9.6-4.3-1.2-5.5c-1.3-.8-2.9-.9-4.2-.2z" fill="url(#IconifyId18b4357b29a5eca6934)"></path><path opacity=".35" d="M231 190.5c-3.4 1.8-6.9 3.4-10.5 4.7c-11.5 4.3-23.6 6.5-35.9 6.5c-47.3 0-88.5-32.5-88.5-74.3c.1-11.4 6.4-21.9 16.4-27.3c-42.8 1.8-53.8 46.4-53.8 72.5c0 73.9 68.1 81.4 82.8 81.4c7.9 0 19.8-2.3 27-4.6l1.3-.4c27.6-9.5 51-28.1 66.6-52.8c1.2-1.9.6-4.3-1.2-5.5c-1.3-.8-2.9-.9-4.2-.2z" fill="url(#IconifyId18b4357b29a5eca6930)"></path><path d="M105.7 241.4c-8.9-5.5-16.6-12.8-22.7-21.3c-26.3-36-18.4-86.5 17.6-112.8c3.8-2.7 7.7-5.2 11.9-7.2c3.1-1.5 8.4-4.1 15.5-4c10.1.1 19.6 4.9 25.7 13c4 5.4 6.3 11.9 6.4 18.7c0-.2 24.5-79.6-80-79.6c-43.9 0-80 41.7-80 78.2c-.2 19.3 4 38.5 12.1 56c27.6 58.8 94.8 87.6 156.4 67.1c-21.1 6.6-44.1 3.7-62.9-8.1z" fill="url(#IconifyId18b4357b29a5eca6935)"></path><path opacity=".41" d="M105.7 241.4c-8.9-5.5-16.6-12.8-22.7-21.3c-26.3-36-18.4-86.5 17.6-112.8c3.8-2.7 7.7-5.2 11.9-7.2c3.1-1.5 8.4-4.1 15.5-4c10.1.1 19.6 4.9 25.7 13c4 5.4 6.3 11.9 6.4 18.7c0-.2 24.5-79.6-80-79.6c-43.9 0-80 41.7-80 78.2c-.2 19.3 4 38.5 12.1 56c27.6 58.8 94.8 87.6 156.4 67.1c-21.1 6.6-44.1 3.7-62.9-8.1z" fill="url(#IconifyId18b4357b29a5eca6931)"></path><path d="M152.3 148.9c-.8 1-3.3 2.5-3.3 5.7c0 2.6 1.7 5.1 4.7 7.2c14.4 10 41.5 8.7 41.6 8.7c10.7 0 21.1-2.9 30.3-8.3c18.8-11 30.4-31.1 30.4-52.9c.3-22.4-8-37.3-11.3-43.9C223.5 23.9 177.7 0 128 0C58 0 1 56.2 0 126.2c.5-36.5 36.8-66 80-66c3.5 0 23.5.3 42 10.1c16.3 8.6 24.9 18.9 30.8 29.2c6.2 10.7 7.3 24.1 7.3 29.5c0 5.3-2.7 13.3-7.8 19.9z" fill="url(#IconifyId18b4357b29a5eca6932)"></path><path d="M152.3 148.9c-.8 1-3.3 2.5-3.3 5.7c0 2.6 1.7 5.1 4.7 7.2c14.4 10 41.5 8.7 41.6 8.7c10.7 0 21.1-2.9 30.3-8.3c18.8-11 30.4-31.1 30.4-52.9c.3-22.4-8-37.3-11.3-43.9C223.5 23.9 177.7 0 128 0C58 0 1 56.2 0 126.2c.5-36.5 36.8-66 80-66c3.5 0 23.5.3 42 10.1c16.3 8.6 24.9 18.9 30.8 29.2c6.2 10.7 7.3 24.1 7.3 29.5c0 5.3-2.7 13.3-7.8 19.9z" fill="url(#IconifyId18b4357b29a5eca6933)"></path></svg>',
-          license: {
-            name: "CC0",
-            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
-          },
-          palette: true,
-          rotate: 0,
-          size: {
-            height: 20,
-            width: 20,
-          },
-          url: "https://api.iconify.design/logos:microsoft-edge.svg?width=20&height=20",
-          vFlip: false,
-        },
-      },
-    },
-    matchBrowserName: ["Edge"],
-    name: "Edge",
-    slug: {
-      _type: "slug",
-      current: "edge",
-    },
-    summary: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Microsoft Edge is a proprietary, cross-platform web browser created by Microsoft. It was first released in 2015 as part of Windows 10 and Xbox One. It was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it got ported to other platforms as a fork of Google's Chromium open-source project: Android and iOS. In late 2018, it was announced that Edge would be completely rebuilt as a Chromium-based browser with Blink and V8 engines which allows the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser, The new Edge is also available on older Windows versions, And most recently it also got ported to Linux.",
-      },
-      {
-        _key: "nl",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Microsoft Edge is een webbrowser ontwikkeld door Microsoft en inbegrepen in Windows 10, Windows 10 Mobile en Xbox One. Microsoft Edge is de opvolger van Internet Explorer en vervangt deze als de standaard webbrowser op alle apparaten. Volgens Microsoft is het een lichtgewicht webbrowser met een layout-engine die gebouwd is overeenkomstig met de webstandaarden. De browser bevat nieuwe features, waaronder integratie met Cortana, notitiehulpmiddelen en een leesmodus.",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Microsoft Edge ist ein Webbrowser des Softwareherstellers Microsoft. Er wurde am 29. Juli 2015 mit Windows 10 veröffentlicht und hat dort den Internet Explorer als Standardbrowser ersetzt; der Chromium basierte Edge ist der vorinstallierte Standard-Browser in Windows 10 ab Version 20H2 und Windows 11, sowie durch automatische Updates vom April 2021 auch in früheren Windows-Versionen.",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Microsoft Edge, awalnya dikembangkan di bawah nama kode Project Spartan, adalah peramban web yang dikembangkan oleh Microsoft dan termasuk dalam sistem operasi Windows. Resmi dirilis pada tanggal 29 Juli 2015, peramban ini menggantikan Internet Explorer sebagai peramban baku pada Windows 10. Hal ini juga akan menjadi peramban baku dari rilis yang akan datang dari Windows 10 untuk telepon cerdas dan tablet kecil. Microsoft Edge kini juga sudah tersedia untuk platform Android dan iOS.",
-      },
-    ],
-    vendor: "Microsoft",
-    wikipediaUrl: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://en.wikipedia.org/wiki/Microsoft_Edge",
-      },
-      {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Microsoft_Edge",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://de.wikipedia.org/wiki/Microsoft_Edge",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Microsoft_Edge",
-      },
-    ],
-  },
-  {
-    _createdAt: "2023-10-19T15:50:38Z",
-    _id: "drafts.f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "h9gndD2P4keuz4rjs3xfkH",
-    _type: "browser",
-    _updatedAt: "2023-10-30T11:11:36Z",
-    homepage: "https://vivaldi.com",
-    icon: {
-      _type: "icon",
-      predefined: {
-        _type: "icon.manager",
-        icon: "logos:vivaldi-icon",
-        metadata: {
-          author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
-          },
-          collectionId: "logos",
-          collectionName: "SVG Logos",
-          downloadUrl:
-            "https://api.iconify.design/logos:vivaldi-icon.svg?width=20&height=20&download=1",
-          flip: "",
-          hFlip: false,
-          iconName: "vivaldi-icon",
-          inlineSvg:
-            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient y2="100.366%" y1="5.132%" x2="75.846%" x1="20.985%" id="IconifyId18b489eae1076b8b61"><stop stop-opacity=".2" offset="0%"></stop><stop stop-opacity=".05" offset="79%"></stop></linearGradient></defs><path d="M127.999 255.999c56.092 0 87.262 0 107.63-20.37C256 215.262 256 184.092 256 128c0-56.09 0-87.261-20.37-107.63C215.262 0 184.092 0 128 0C71.91 0 40.7 0 20.37 20.369S0 71.909 0 127.999c0 56.092 0 87.262 20.369 107.63C40.738 256 71.909 256 127.999 256Z" fill="#EF3939"></path><path d="M211.221 80.633c-6.179-11.141-16.808-20.264-26.815-28.152c-10.007-7.888-19.83-12.64-32.108-16.048c-12.279-3.408-24.827-3.345-37.468-1.743c-12.642 1.602-23.52 4.488-34.56 10.851c-11.039 6.363-19.613 14.154-27.335 24.289c-7.72 10.135-12.851 20.199-16.054 32.53c-3.202 12.33-4.363 25.992-2.549 38.601c1.814 12.61 4.017 24.61 10.566 35.54l.54.924l45.09 78.166c7.484.206 15.584.296 24.302.27h12.805c20.448.44 40.906-.165 61.292-1.812c20.404-2.237 35.061-7.25 46.286-18.548c16.509-16.506 19.634-40.106 20.212-78.283l-44.204-76.585Z" fill="url(#IconifyId18b489eae1076b8b61)"></path><path d="M195.808 60.085A95.952 95.952 0 0 0 91.226 39.316a95.98 95.98 0 0 0-43.058 35.358a96.017 96.017 0 0 0 0 106.65a95.98 95.98 0 0 0 43.058 35.359a95.953 95.953 0 0 0 104.582-20.77a95.909 95.909 0 0 0 20.863-104.682a95.883 95.883 0 0 0-20.863-31.146Zm-5.755 44.195a290355.412 290355.412 0 0 0-47.466 82.633a15.87 15.87 0 0 1-13.054 8.614a15.064 15.064 0 0 1-15.024-7.996c-10.003-17.23-19.93-34.575-29.855-51.883a6307.042 6307.042 0 0 1-18.152-31.6a15.958 15.958 0 0 1 12.977-24.184a15.445 15.445 0 0 1 14.637 8.268c4.48 7.726 8.883 15.452 13.287 23.179c3.205 5.563 6.294 11.125 9.577 16.611a25.124 25.124 0 0 0 8.8 9.253a25.11 25.11 0 0 0 12.21 3.727a25.604 25.604 0 0 0 27.036-22.754c0-1.043 0-2.086.232-2.627a27.05 27.05 0 0 0-2.703-11.937a15.956 15.956 0 0 1 15.864-23.422a15.947 15.947 0 0 1 11.48 7.05a15.959 15.959 0 0 1 2.471 6.444c.435 3.7-.38 7.44-2.317 10.624Z" fill="#FFF"></path></svg>',
-          license: {
-            name: "CC0",
-            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
-          },
-          palette: true,
-          rotate: 0,
-          size: {
-            height: 20,
-            width: 20,
-          },
-          url: "https://api.iconify.design/logos:vivaldi-icon.svg?width=20&height=20",
-          vFlip: false,
-        },
-      },
-    },
-    matchBrowserName: ["Vivaldi"],
-    maybeDetectedAs: [
-      {
-        _key: "3ce1d67860b3",
-        _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-        _type: "reference",
-      },
-    ],
-    name: "Vivaldi",
-    popularity: 1136,
-    slug: {
-      _type: "slug",
-      current: "vivaldi",
-    },
-    summary: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Vivaldi ( ) is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies, a company founded by Tatsuki Tomita and Jon Stephenson von Tetzchner, who was the co-founder and CEO of Opera Software. Vivaldi was officially launched on 6 April 2016.",
-      },
-      {
-        _key: "nl",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Vivaldi is een webbrowser die ontwikkeld wordt door het Noorse Vivaldi Technologies. Dit bedrijf werd in 2014 opgericht door twee voormalige topmensen van Opera Software: Jon Stephenson von Tetzchner en Tatsuki Tomita. De browser is geïnspireerd op Opera en zet zich af tegen de keuzes die Opera toen maakte door over te stappen van de layout-engine Presto naar Blink, waarmee veel populaire onderdelen verloren gingen. Ook Vivaldi maakt gebruik van de layout-engine Blink, die afgeleid is van Chromium.",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Vivaldi ist ein Webbrowser des norwegischen Unternehmens Vivaldi Technologies, das Jon Stephenson von Tetzchner, Mitgründer und langjähriger Leiter von Opera Software, nach seinem Ausscheiden dort zur Entwicklung eines neuen Browsers 2013 gründete.",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          'Vivaldi merupakan peramban web gratis yang dikembangkan oleh Vivaldi Technologies, sebuah perusahaan yang didirikan oleh pendiri dan mantan CEO Opera Software Jon Stephenson von Tetzchner, dan Tatsuki Tomita. Peramban ini ditujukan kepada pengguna Opera yang tidak menyukai transisi dari Presto ke Blink, yang menyebabkan hilangnya fitur populer dalam peramban itu. Vivaldi ditujukan untuk menghidupkan kembali fitur populer Opera 12 dan memperkenalkan fitur inovatif terbaru. Peramban ini dimutakhirkan setiap minggu, dalam bentuk "Snapshots", dan telah memperoleh ketenaran sejak versi pratayang teknis.',
-      },
-    ],
-    vendor: "Vivaldi Technologies",
-    wikipediaUrl: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://en.wikipedia.org/wiki/Vivaldi_(web_browser)",
-      },
-      {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Vivaldi_(webbrowser)",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://de.wikipedia.org/wiki/Vivaldi_(Browser)",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Vivaldi_(peramban_web)",
-      },
-    ],
-  },
-  {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "B4UTUzmTSUGGaDoK0M3AuC",
+    _rev: "h9gndD2P4keuz4rjs4BGYr",
     _type: "browser",
-    _updatedAt: "2023-11-01T06:00:16Z",
+    _updatedAt: "2023-11-01T06:31:11Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -2058,25 +1620,25 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value:
-          "Edge has a user-friendly interface and supports multiple platforms.",
+          "Microsoft's browser with built-in Cortana, reading view, and annotation tools.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value:
-          "Edge heeft een gebruiksvriendelijke interface en ondersteunt meerdere platforms.",
+          "De browser van Microsoft met ingebouwde Cortana, leesweergave en annotatietools.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Edge hat eine benutzerfreundliche Oberfläche und unterstützt mehrere Plattformen.",
+          "Microsofts Browser mit integrierter Cortana, Lesemodus und Anmerkungswerkzeugen.",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Edge memiliki antarmuka yang mudah digunakan dan mendukung berbagai platform.",
+          "Browser Microsoft dengan Cortana terintegrasi, tampilan baca, dan alat anotasi.",
       },
     ],
     homepage: "https://www.microsoft.com/edge",
@@ -2173,33 +1735,33 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:50:38Z",
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "B4UTUzmTSUGGaDoK0M3B28",
+    _rev: "lRZ54YVKpJaKWrGZ7QDI1B",
     _type: "browser",
-    _updatedAt: "2023-11-01T06:00:28Z",
+    _updatedAt: "2023-11-01T06:31:35Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value:
-          "Vivaldi offers customizable interface, tab management, and extensive privacy settings.",
+          "Customizable interface, tab management, built-in tools, privacy options, and speed.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value:
-          "Vivaldi biedt een aanpasbare interface, tabbladbeheer en uitgebreide privacy-instellingen.",
+          "Aanpasbare interface, tabbladbeheer, ingebouwde tools, privacyopties en snelheid.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Vivaldi bietet anpassbare Oberfläche, Tab-Verwaltung und umfangreiche Datenschutzeinstellungen.",
+          "Anpassbare Benutzeroberfläche, Tab-Verwaltung, integrierte Tools, Datenschutzoptionen und Geschwindigkeit.",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Vivaldi menawarkan antarmuka yang dapat disesuaikan, pengelolaan tab, dan pengaturan privasi yang luas.",
+          "Antarmuka yang dapat disesuaikan, pengelolaan tab, alat bawaan, opsi privasi, dan kecepatan",
       },
     ],
     homepage: "https://vivaldi.com",
