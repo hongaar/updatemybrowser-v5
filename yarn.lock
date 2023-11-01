@@ -3707,37 +3707,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.8.3":
-  version: 20.8.3
-  resolution: "@types/node@npm:20.8.3"
-  checksum: 6f69c2fc4b2f95764317fc23c6b92b0c3480e5026d47dcb7b882308908dd6beab3dd02c54344811c8db44f84abd3ef00e35097e2f6d2b79cff21f33981a504a1
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:20.8.4":
-  version: 20.8.4
-  resolution: "@types/node@npm:20.8.4"
+"@types/node@npm:20.8.10":
+  version: 20.8.10
+  resolution: "@types/node@npm:20.8.10"
   dependencies:
-    undici-types: "npm:~5.25.1"
-  checksum: 66b74216de2dc58d813eff48c742682c0095f8e72e9d552882c03b6b5cf0e98ff769f16d0014cc5e63363d6ab119a9136c09b4ea5c634492357a2572b5a9a0f0
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:20.8.6":
-  version: 20.8.6
-  resolution: "@types/node@npm:20.8.6"
-  dependencies:
-    undici-types: "npm:~5.25.1"
-  checksum: cdfe0a2d90005323bbaf8fa4002607af98d49016c81898cd7f574d9ec6fc980580ea1b97f7b6ecaa8614be8004cd03898766e99e1869428ba6ed3bcd66a15354
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:20.8.7":
-  version: 20.8.7
-  resolution: "@types/node@npm:20.8.7"
-  dependencies:
-    undici-types: "npm:~5.25.1"
-  checksum: a347ac7e6a9748ffff018ca01142ba625e774cb0b53785abb58b16a5a8468cc9b7656686dbe4c39c2f3fc477439994ee8aeae9b80ced86f320598bafaf83f802
+    undici-types: "npm:~5.26.4"
+  checksum: 8930039077c8ad74de74c724909412bea8110c3f8892bcef8dda3e9629073bed65632ee755f94b252bcdae8ca71cf83e89a4a440a105e2b1b7c9797b43483049
   languageName: node
   linkType: hard
 
@@ -4166,7 +4141,7 @@ __metadata:
   dependencies:
     "@sanity/client": "npm:6.6.0"
     "@types/fs-extra": "npm:^11"
-    "@types/node": "npm:20.8.4"
+    "@types/node": "npm:20.8.10"
     "@types/sort-json": "npm:^2"
     dotenv: "npm:16.3.1"
     fs-extra: "npm:11.1.1"
@@ -4180,7 +4155,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@updatemybrowser/core@workspace:packages/core"
   dependencies:
-    "@types/node": "npm:20.8.7"
+    "@types/node": "npm:20.8.10"
     ts-node: "npm:10.9.1"
     typescript: "npm:5.2.2"
   languageName: unknown
@@ -4190,7 +4165,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@updatemybrowser/detect@workspace:packages/detect"
   dependencies:
-    "@types/node": "npm:20.8.6"
+    "@types/node": "npm:20.8.10"
     "@types/semver": "npm:^7"
     "@types/ua-parser-js": "npm:0.7.37"
     "@updatemybrowser/client": "workspace:*"
@@ -4236,7 +4211,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@updatemybrowser/updater@workspace:packages/updater"
   dependencies:
-    "@types/node": "npm:20.8.3"
+    "@types/node": "npm:20.8.10"
     "@types/semver": "npm:^7"
     "@updatemybrowser/client": "workspace:*"
     "@updatemybrowser/core": "workspace:*"
@@ -4258,7 +4233,7 @@ __metadata:
     "@sanity/icons": "npm:2.6.0"
     "@sanity/image-url": "npm:1.0.2"
     "@types/negotiator": "npm:0.6.1"
-    "@types/node": "npm:20.8.3"
+    "@types/node": "npm:20.8.10"
     "@types/react": "npm:18.2.25"
     "@types/react-dom": "npm:18.2.11"
     "@types/sprintf-js": "npm:^1"
@@ -13912,13 +13887,6 @@ __metadata:
     has-symbols: "npm:^1.0.3"
     which-boxed-primitive: "npm:^1.0.2"
   checksum: 06e1ee41c1095e37281cb71a975cb3350f7cb470a0665d2576f02cc9564f623bd90cfc0183693b8a7fdf2d242963dcc3010b509fa3ac683f540c765c0f3e7e43
-  languageName: node
-  linkType: hard
-
-"undici-types@npm:~5.25.1":
-  version: 5.25.3
-  resolution: "undici-types@npm:5.25.3"
-  checksum: 9a57f2dd6fecb2d0f7d9b86aa6f417609a0ffc73247a95aa25c078cf36cbbfe6c164b63b8dace7ad01126e6510f284c185b69c78356bb1d6b279f195acffcaf4
   languageName: node
   linkType: hard
 
