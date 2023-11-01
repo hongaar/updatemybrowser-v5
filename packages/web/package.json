@@ -5,6 +5,7 @@
   "repository": "github:hongaar/updatemybrowser-v5",
   "license": "MIT",
   "author": "Joram van den Boezem <joram@vandenboezem.nl>",
+  "type": "module",
   "scripts": {
     "build": "next build",
     "dev": "next dev",

@@ -10,8 +10,9 @@ Running ${command}...
     return commandRunner(command);
   }
 
-  await run("update version");
+  await run("update dict");
   await run("update description");
+  await run("update version");
   await run("update wikipediaUrl");
   await run("update summary");
 });

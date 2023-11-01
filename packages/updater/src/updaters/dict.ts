@@ -1,87 +1,46 @@
-import { sanity, type Browser, type I18nString } from "@updatemybrowser/client";
+import { sanity } from "@updatemybrowser/client";
+import englishDict from "@updatemybrowser/web/src/dictionaries/en.js";
 import { command } from "bandersnatch";
-import * as openai from "../openai.js";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
+import { translate } from "../openai.js";
 
-const LENGTH_RESTRICTION = "Write 1 sentence with a maximum of 10 words.";
-
-export const description = command("description")
+export const dict = command("dict")
   .argument("filter", {
-    description: "Optionally filter by browser name",
+    description: "Optionally filter by key",
     optional: true,
     type: "string",
   })
-  .option("overrideEnglish", { type: "boolean" })
   .option("overrideTranslations", { type: "boolean" })
-  .action(async ({ filter, overrideEnglish, overrideTranslations }) => {
-    const client = sanity.getClient();
+  .action(async ({ filter, overrideTranslations }) => {
     const languageIds = await sanity.getLanguageIds();
-    const browsers = (await sanity.getBrowsers()).filter((browser) => {
-      if (!filter) {
-        return true;
-      }
 
-      return browser.name.toLowerCase().includes(filter.toLowerCase());
-    });
+    for (const languageId of languageIds) {
+      console.log(`Updating [${languageId}] dictionary...`);
 
-    for (const browser of browsers) {
-      console.log(`Updating descriptions for browser: ${browser.name}...`);
+      const dict = (
+        await import(`@updatemybrowser/web/src/dictionaries/${languageId}.js`)
+      ).default;
 
-      let englishDescription = browser.description?.find(
-        (item) => item._key === "en",
-      )?.value;
-
-      if (overrideEnglish || !englishDescription) {
-        console.log("Generating [en] description...");
-        englishDescription = await openai.generate(
-          `Summarize the main features of the "${browser.name}" web browser. \
-          Do not use the term "${browser.name}" or "web browser". \
-          ${LENGTH_RESTRICTION}`,
-        );
-      }
-
-      const description: I18nString = [
-        {
-          _type: "internationalizedArrayStringValue",
-          _key: "en",
-          value: englishDescription,
-        },
-      ];
-
-      for (const languageId of languageIds) {
-        if (languageId === "en") {
-          continue;
+      for (const [key, english] of Object.entries(englishDict).filter(
+        ([key]) => (filter ? key === filter : true),
+      )) {
+        if (!(key in dict) || overrideTranslations) {
+          console.log(`Translate "${english}" to [${languageId}]...`);
+          dict[key] = await translate(english, languageId);
         }
-
-        let translatedDescription = browser.description?.find(
-          (item) => item._key === languageId,
-        )?.value;
-
-        if (overrideTranslations || !translatedDescription) {
-          console.log(`Generating [${languageId}] translation...`);
-          translatedDescription = await openai.translate(
-            englishDescription,
-            languageId,
-            LENGTH_RESTRICTION,
-          );
-        }
-
-        description.push({
-          _type: "internationalizedArrayStringValue",
-          _key: languageId,
-          value: translatedDescription,
-        });
       }
 
-      const patch = client.patch(browser._id);
-
-      await patch
-        .set({ description })
-        .commit<Browser>()
-        .then(() => {
-          console.log("Updated");
-        })
-        .catch((err) => {
-          console.error("Oh no, the update failed: ", err.message);
-        });
+      const dictPath = resolve(
+        dirname(fileURLToPath(import.meta.url)),
+        "..",
+        "..",
+        "..",
+        "web",
+        "src",
+        "dictionaries",
+        `${languageId}.ts`,
+      );
+      console.log(`Writing ${languageId} dictionary to ${dictPath}...`);
     }
   });

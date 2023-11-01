@@ -15,6 +15,7 @@ for (const command of Object.values(commands)) {
 const app = program().description("@updatemybrowser-v5/updater").add(update);
 
 app.runOrRepl().catch((err) => {
-  console.error(`There was a problem running this command:\n${String(err)}`);
+  console.log("\x1b[37;41mThere was a problem running this command:\x1b[0m");
+  console.error(err);
   process.exit(1);
 });

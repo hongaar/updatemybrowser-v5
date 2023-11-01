@@ -25,7 +25,10 @@ export type BrowserGalleryItem = {
 export function BrowserGallery({ language, dict, browser }: Props) {
   const { openLightboxAt, renderLightbox } = useLightbox({ language });
 
-  if (browser.screenshots?.length === 0 && !browser.youtubeId) {
+  if (
+    (!browser.screenshots || browser.screenshots?.length === 0) &&
+    !browser.youtubeId
+  ) {
     return null;
   }
 
