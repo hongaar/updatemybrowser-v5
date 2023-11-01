@@ -18,6 +18,7 @@ export function getClient({ token = process.env["SANITY_TOKEN"] } = {}) {
       dataset,
       apiVersion, // https://www.sanity.io/docs/api-versioning
       useCdn: USE_CDN,
+      perspective: "published",
     }))
   );
 }

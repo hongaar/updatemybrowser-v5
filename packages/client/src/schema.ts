@@ -179,7 +179,7 @@ export type Browser<T extends "plain" | "withFlatReleases" = "plain"> = Doc<
     slug: Slug;
     vendor: string;
     homepage: string;
-    matchBrowserName: string[];
+    matchBrowserName?: string[];
     maybeDetectedAs?: Keyed<Reference>[];
     popularity?: number;
     description?: I18nString;

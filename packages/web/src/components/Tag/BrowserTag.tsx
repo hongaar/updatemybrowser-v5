@@ -25,7 +25,9 @@ export function BrowserTag({
     <Tag
       current={
         detectCurrent &&
-        browser.matchBrowserName.includes(detectedBrowser?.name || "no-os")
+        (browser.matchBrowserName || []).includes(
+          detectedBrowser?.name || "no-os",
+        )
       }
       href={`/${language}/browsers/${browser.slug.current}`}
     >

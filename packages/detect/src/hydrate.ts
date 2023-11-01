@@ -72,7 +72,7 @@ export function hydrateBrowserWithFlatReleases(
   const highestAvailableVersion = highestVersion(
     browser.releases?.map((item) => item.currentVersion) || [],
   );
-  const browserMatch = browser.matchBrowserName.includes(
+  const browserMatch = (browser.matchBrowserName || []).includes(
     detectedBrowser?.name || "no-browser",
   );
 
@@ -107,7 +107,7 @@ export function hydrateReleasesFlatExpanded(releases: ReleaseFlatExpanded[]) {
 
   return releases.map((item) => {
     const osMatch = matchesOs(item.os, os);
-    const browserMatch = item.browser.matchBrowserName.includes(
+    const browserMatch = (item.browser.matchBrowserName || []).includes(
       browser?.name || "no-browser",
     );
 

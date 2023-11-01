@@ -20,12 +20,14 @@
     "prepublish": "yarn build",
     "test": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node --test test/*.test.ts",
     "test:watch": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node --test --watch test/*.test.ts",
-    "start": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node scripts/run-updater.ts"
+    "start": "NODE_OPTIONS='--loader=ts-node/esm --no-warnings' node src/cli.ts"
   },
   "dependencies": {
     "@updatemybrowser/client": "workspace:*",
     "@updatemybrowser/core": "workspace:*",
-    "cross-fetch": "4.0.0"
+    "bandersnatch": "1.12.11",
+    "cross-fetch": "4.0.0",
+    "openai": "4.14.2"
   },
   "devDependencies": {
     "@types/node": "20.8.3",
