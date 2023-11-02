@@ -4264,6 +4264,7 @@ __metadata:
     "@types/react-dom": "npm:18.2.11"
     "@types/sprintf-js": "npm:^1"
     "@updatemybrowser/client": "workspace:*"
+    "@updatemybrowser/core": "workspace:*"
     "@updatemybrowser/detect": "workspace:*"
     cssnano: "npm:6.0.1"
     eslint: "npm:8.51.0"
