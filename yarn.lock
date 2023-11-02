@@ -4240,6 +4240,7 @@ __metadata:
     "@types/semver": "npm:^7"
     "@updatemybrowser/client": "workspace:*"
     "@updatemybrowser/core": "workspace:*"
+    "@updatemybrowser/web": "workspace:*"
     bandersnatch: "npm:1.12.11"
     cross-fetch: "npm:4.0.0"
     dotenv: "npm:16.3.1"
@@ -4249,7 +4250,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@updatemybrowser/web@workspace:packages/web":
+"@updatemybrowser/web@workspace:*, @updatemybrowser/web@workspace:packages/web":
   version: 0.0.0-use.local
   resolution: "@updatemybrowser/web@workspace:packages/web"
   dependencies:

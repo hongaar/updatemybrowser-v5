@@ -73,6 +73,7 @@ const dict: Dict = {
   NoGuides:
     "Geen gidsen beschikbaar (nog). Kom snel terug. In de tussentijd kun je onze Engelse gidsen bekijken",
   EnglishGuides: "Engelse gidsen",
+  StepByStepGuide: "Stap voor stap handleiding",
 };
 
 export default dict;

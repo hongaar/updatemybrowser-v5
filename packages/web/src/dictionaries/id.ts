@@ -73,6 +73,7 @@ const dict: Dict = {
   NoGuides:
     "Tidak ada panduan yang tersedia (belum). Silakan kembali segera. Sementara itu, cek panduan bahasa Inggr",
   EnglishGuides: "Panduan dalam bahasa Inggris",
+  StepByStepGuide: "Panduan langkah demi langkah",
 };
 
 export default dict;

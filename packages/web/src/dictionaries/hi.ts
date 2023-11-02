@@ -62,6 +62,7 @@ const dict: Dict = {
   Languages: "भाषाएँ",
   NoGuides: "अभी तक कोई मार्गदर्शिका उपलब",
   EnglishGuides: "अंग्रेज़ी मार्गदर्शक",
+  StepByStepGuide: "कदम से कदम गाइड",
 };
 
 export default dict;

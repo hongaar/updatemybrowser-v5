@@ -71,6 +71,7 @@ const dict: Dict = {
   NoGuides:
     "Keine Anleitungen verfügbar (noch nicht). Bitte kommen Sie bald wieder. In der Zwischenzeit schauen Sie sich unsere englischen",
   EnglishGuides: "Englische Anleitungen",
+  StepByStepGuide: "Schritt-für-Schritt-Anleitung",
 };
 
 export default dict;

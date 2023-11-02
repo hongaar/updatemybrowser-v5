@@ -74,6 +74,7 @@ const dict: Dict = {
   NoGuides:
     "Нет доступных руководств (пока). Пожалуйста, вернитесь скоро. А пока,",
   EnglishGuides: "Английские руководства",
+  StepByStepGuide: "Пошаговое руководство",
 };
 
 export default dict;
