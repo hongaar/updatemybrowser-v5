@@ -64,6 +64,7 @@ export default function ClientCheck({
                 browsers={browsers}
                 browser={currentBrowser}
                 headingPrefix={dict.YouAreUsing}
+                showMetadata={false}
               />
               <FeaturedArticles
                 language={language}

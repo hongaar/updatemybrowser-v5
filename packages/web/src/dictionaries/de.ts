@@ -1,6 +1,6 @@
 import type { Dict } from "./en.js";
 
-const german: Dict = {
+const dict: Dict = {
   Home: "Zuhause",
   AvailableOn: "Verfügbar auf",
   AvailableOnYourOs: "Verfügbar auf deinem Betriebssystem",
@@ -64,9 +64,13 @@ const german: Dict = {
   ButMaybeYouAreUsing: "Aber vielleicht verwendest du",
   DownloadLinkDescription: "Klicke auf den Button um %s herunterzuladen",
   UpdateLinkDescription: "Klicke auf den Button um %s zu aktualisieren",
-  Browsers: "...",
-  DataSources: "...",
-  OperatingSystems: "...",
+  Browsers: "Browser",
+  OperatingSystems: "Betriebssysteme",
+  DataSources: "Datenquellen",
+  Languages: "Sprachen",
+  NoGuides:
+    "Keine Anleitungen verfügbar (noch nicht). Bitte kommen Sie bald wieder. In der Zwischenzeit schauen Sie sich unsere englischen",
+  EnglishGuides: "Englische Anleitungen",
 };
 
-export default german;
+export default dict;

@@ -2,14 +2,18 @@ import "server-only";
 
 import de from "./de";
 import en from "./en";
+import hi from "./hi";
 import id from "./id";
 import nl from "./nl";
+import ru from "./ru";
 
 const dictionaries = {
   de,
   en,
+  hi,
   id,
   nl,
+  ru,
 };
 
 export function getDictionary(language: string) {

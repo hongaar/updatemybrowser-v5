@@ -8,7 +8,7 @@ type Props = {
   dict: Dict;
   browser: BrowserWithFlatReleases;
   verb: string;
-  urlSuffix: string;
+  urlSuffix: "update" | "download";
 };
 
 export function OsLinks({ language, dict, browser, verb, urlSuffix }: Props) {
@@ -28,6 +28,10 @@ export function OsLinks({ language, dict, browser, verb, urlSuffix }: Props) {
             >
               {verb} {browser.name} {dict.For} {release.os.os.name}
             </Link>
+            {(urlSuffix === "update" && release.updateArticle) ||
+            (urlSuffix === "download" && release.downloadArticle) ? (
+              <small className={styles.muted}> 📋 {dict.StepByStepGuide}</small>
+            ) : null}
           </li>
         ))}
       </ul>

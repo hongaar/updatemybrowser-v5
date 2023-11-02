@@ -5,7 +5,7 @@ import {
 import type { Metadata } from "next";
 import { getDictionary } from "../../../dictionaries";
 import { pageTitle } from "../../../utils";
-import type { LanguageParams } from "../page";
+import type { LanguageParams } from "../route";
 import ClientCheck from "./_client";
 
 export function generateMetadata({ params: { language } }: LanguageParams) {

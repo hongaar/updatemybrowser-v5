@@ -151,7 +151,8 @@ textarea {
 
 // Article
 article {
-  margin-bottom: calc(var(--spacing) * 2);
+  margin: 0 auto calc(var(--spacing) * 2) auto;
+  max-width: 45rem;
 }
 
 // Section

@@ -6,3 +6,21 @@
 .excerpt {
   font-size: var(--font-large-size);
 }
+
+.figure {
+  border: var(--border-width) solid var(--muted-border-color);
+  border-radius: var(--border-radius);
+  padding: calc(var(--spacing) * 0.5);
+}
+
+.image {
+  display: block;
+  position: unset !important;
+}
+
+.caption {
+  margin-top: 5px;
+  text-align: center;
+  font-size: var(--font-small-size);
+  color: var(--muted-color);
+}

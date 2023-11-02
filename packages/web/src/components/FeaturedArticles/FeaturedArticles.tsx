@@ -18,7 +18,7 @@ export function FeaturedArticles({ language, dict, browser, articles }: Props) {
 
   return (
     <section className={styles.featuredArticles}>
-      <h3>{sprintf(dict.GuidesForBrowser, browser.name)}</h3>
+      <h3>📋 {sprintf(dict.GuidesForBrowser, browser.name)}</h3>
       <ul>
         {articles.map((article) => (
           <li key={article._id}>

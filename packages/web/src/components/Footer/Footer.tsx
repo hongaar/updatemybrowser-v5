@@ -1,4 +1,8 @@
-import { getBrowsersWithFlatReleases, getOses } from "@updatemybrowser/client";
+import {
+  getBrowsersWithFlatReleases,
+  getLanguages,
+  getOses,
+} from "@updatemybrowser/client";
 import Link from "next/link";
 import { getDictionary } from "../../dictionaries";
 import { Container } from "../Container";
@@ -13,7 +17,10 @@ type Props = {
 export async function Footer({ language }: Props) {
   const browsers = await getBrowsersWithFlatReleases();
   const oses = await getOses();
+  const languages = await getLanguages();
+
   const dict = getDictionary(language);
+
   return (
     <footer className={styles.footer}>
       <Container className={styles.header}>
@@ -24,7 +31,7 @@ export async function Footer({ language }: Props) {
       </Container>
       <Container className={styles.links}>
         <div>
-          <p className={styles.muted}>{dict.Browsers}</p>{" "}
+          <p className={styles.muted}>{dict.Browsers}</p>
           <ul>
             {browsers
               .sort((a, b) => a.name.localeCompare(b.name))
@@ -41,7 +48,7 @@ export async function Footer({ language }: Props) {
           </ul>
         </div>
         <div>
-          <p className={styles.muted}>{dict.OperatingSystems}</p>{" "}
+          <p className={styles.muted}>{dict.OperatingSystems}</p>
           <ul>
             {oses
               .sort((a, b) => a.name.localeCompare(b.name))
@@ -52,6 +59,20 @@ export async function Footer({ language }: Props) {
                     href={`/${language}/browsers/os/${os.slug.current}`}
                   >
                     {os.name}
+                  </Link>
+                </li>
+              ))}
+          </ul>
+        </div>
+        <div>
+          <p className={styles.muted}>{dict.Languages}</p>
+          <ul>
+            {languages
+              .sort((a, b) => a.name.localeCompare(b.name))
+              .map((language) => (
+                <li key={language._id}>
+                  <Link tabIndex={0} href={`/${language.id}`}>
+                    {language.name}
                   </Link>
                 </li>
               ))}

@@ -17,6 +17,7 @@ type Props = {
   os: OS;
   release: Release;
   article: ArticleType;
+  customComponents?: Record<string, React.ComponentType>;
 };
 
 export async function BrowserArticle({
@@ -26,6 +27,7 @@ export async function BrowserArticle({
   os,
   release,
   article,
+  customComponents,
 }: Props) {
   return (
     <>
@@ -38,7 +40,12 @@ export async function BrowserArticle({
           <p>{dict.NotAvailableInYourLanguageDescription}</p>
         </Callout>
       ) : null}
-      <Article language={language} dict={dict} article={article} />
+      <Article
+        language={language}
+        dict={dict}
+        article={article}
+        customComponents={customComponents}
+      />
     </>
   );
 }

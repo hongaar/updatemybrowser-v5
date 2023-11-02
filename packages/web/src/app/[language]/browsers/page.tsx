@@ -4,7 +4,7 @@ import { BrowserGrid } from "../../../components/BrowserGrid";
 import { Container } from "../../../components/Container";
 import { getDictionary } from "../../../dictionaries";
 import { compareAverageUsage, pageTitle } from "../../../utils";
-import type { LanguageParams } from "../page";
+import type { LanguageParams } from "../route";
 
 export function generateMetadata({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);

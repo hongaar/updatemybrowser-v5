@@ -1,32 +1,27 @@
-"use client";
-
+import type { Metadata } from "next";
 import Script from "next/script";
 import { Container } from "../../../components/Container";
-import type { LanguageParams } from "../page";
+import { getDictionary } from "../../../dictionaries";
+import { pageTitle } from "../../../utils";
+import type { LanguageParams } from "../route";
+import ClientWidget from "./_client";
 
-declare var UMB: any;
+export function generateMetadata({ params: { language } }: LanguageParams) {
+  const dict = getDictionary(language);
 
-// export async function generateStaticParams() {
-//   return (await getLanguageIds()).map((language) => ({ language }));
-// }
-
-// export function generateMetadata({ params: { language } }: LanguageParams) {
-//   const dict = getDictionary(language);
-
-//   return {
-//     title: pageTitle(dict.Widget),
-//   } as Metadata;
-// }
+  return {
+    title: pageTitle(dict.Widget),
+  } as Metadata;
+}
 
 export default function Widget({ params: { language } }: LanguageParams) {
-  // const dict = getDictionary(language);
+  const dict = getDictionary(language);
 
   return (
     <Container>
       <Script src="https://updatemybrowser.org/umb.js" />
-      {/* <h2>{dict.Widget}</h2> */}
-      {/* <p>{dict.UnderConstruction}</p> */}
-      <button onClick={() => UMB.displayWidget()}>Demo</button>
+      <h2>{dict.Widget}</h2>
+      <ClientWidget language={language} dict={dict} />{" "}
     </Container>
   );
 }

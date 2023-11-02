@@ -10,11 +10,11 @@ import { notFound } from "next/navigation";
 import { sprintf } from "sprintf-js";
 import { Breadcrumbs } from "../../../../../../components/Breadcrumbs";
 import { BrowserArticle } from "../../../../../../components/BrowserArticle";
+import { makeUpdateLinkButton } from "../../../../../../components/BrowserLinkButtons";
 import { Container } from "../../../../../../components/Container";
-import { ExternalLinkIcon } from "../../../../../../components/Icon";
 import { getDictionary } from "../../../../../../dictionaries";
 import { pageTitle } from "../../../../../../utils";
-import type { LanguageParams } from "../../../../page";
+import type { LanguageParams } from "../../../../route";
 import type { BrowserParams } from "../../page";
 
 type OsParams = {
@@ -78,6 +78,14 @@ export default async function Update({
         defaultLanguageArticle?._id === item.translationOf?._ref,
     ) || defaultLanguageArticle;
 
+  const UpdateLinkButton = makeUpdateLinkButton({
+    language,
+    dict,
+    browser,
+    os,
+    release,
+  });
+
   return (
     <>
       <Breadcrumbs
@@ -91,26 +99,26 @@ export default async function Update({
       <Container>
         {article ? (
           <BrowserArticle
-            {...{ language, dict, browser, os, release, article }}
+            {...{
+              language,
+              dict,
+              browser,
+              os,
+              release,
+              article,
+              customComponents: {
+                UpdateLinkButton,
+              },
+            }}
           />
-        ) : null}
-        {release.updateUrl || release.downloadUrl ? (
+        ) : release.updateUrl || release.downloadUrl ? (
           <section>
             <h2>
               {dict.Update} {browser.name}
             </h2>
             <p>{sprintf(dict.UpdateLinkDescription, browser.name)}</p>
             <div>
-              <Link
-                tabIndex={0}
-                role="button"
-                target="_blank"
-                rel="noopener noreferrer"
-                href={(release.updateUrl || release.downloadUrl) as string}
-              >
-                <ExternalLinkIcon fill={"currentColor"} /> {dict.Update}{" "}
-                {browser.name} {dict.For} {os.name}
-              </Link>
+              <UpdateLinkButton />
             </div>
           </section>
         ) : (

@@ -1,7 +1,7 @@
 import type { Dict } from "./en.js";
 
-const dutch: Dict = {
-  Home: "Home",
+const dict: Dict = {
+  Home: "Thuis",
   SubHeading: "Altijd vers",
   BrowserCheck: "Browser Controle",
   YouAreUsing: "Je gebruikt",
@@ -66,9 +66,13 @@ const dutch: Dict = {
   ButMaybeYouAreUsing: "Maar misschien gebruik je wel",
   DownloadLinkDescription: "Klik op de knop hieronder om %s te downloaden:",
   UpdateLinkDescription: "Klik op de knop hieronder om %s bij te werken:",
-  Browsers: "...",
-  DataSources: "...",
-  OperatingSystems: "...",
+  Browsers: "Browsers",
+  OperatingSystems: "Besturingssystemen",
+  DataSources: "Gegevensbronnen",
+  Languages: "Talen",
+  NoGuides:
+    "Geen gidsen beschikbaar (nog). Kom snel terug. In de tussentijd kun je onze Engelse gidsen bekijken",
+  EnglishGuides: "Engelse gidsen",
 };
 
-export default dutch;
+export default dict;

@@ -6,7 +6,7 @@ import { Breadcrumbs } from "../../../../components/Breadcrumbs";
 import { Container } from "../../../../components/Container";
 import { getDictionary } from "../../../../dictionaries";
 import { pageTitle } from "../../../../utils";
-import type { LanguageParams } from "../../page";
+import type { LanguageParams } from "../../route";
 
 export type SlugParams = {
   params: {

@@ -5,6 +5,9 @@
     "outDir": "dist",
     "declarationDir": "types"
   },
+  "ts-node": {
+    "transpileOnly": true
+  },
   "references": [{ "path": "../core" }],
   "include": ["src/**/*"]
 }

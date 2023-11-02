@@ -12,7 +12,7 @@ import { FeaturedArticles } from "../../../../components/FeaturedArticles";
 import { OsLinks } from "../../../../components/OsLinks";
 import { getDictionary } from "../../../../dictionaries";
 import { pageTitle } from "../../../../utils";
-import type { LanguageParams } from "../../page";
+import type { LanguageParams } from "../../route";
 
 export type BrowserParams = {
   params: {

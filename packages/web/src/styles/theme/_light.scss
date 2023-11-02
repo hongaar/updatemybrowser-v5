@@ -48,4 +48,8 @@
   --contrast-hover: #{$black};
   --contrast-focus: #{rgba($grey-600, 0.125)};
   --contrast-inverse: #{$white};
+
+  // Tooltip
+  --tooltip-background-color: #{mix($black, $grey-900, 37.5%)};
+  --tooltip-color: #{$grey-200};
 }

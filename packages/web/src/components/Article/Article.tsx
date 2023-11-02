@@ -1,20 +1,43 @@
-import { getBrowsers, getOses, type Article } from "@updatemybrowser/client";
+import {
+  getBrowsersWithFlatReleases,
+  getOses,
+  type Article,
+} from "@updatemybrowser/client";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import type { Dict } from "../../dictionaries/en";
+import {
+  makeDownloadLinkButton,
+  makeUpdateLinkButton,
+} from "../BrowserLinkButtons";
 import { Callout } from "../Callout";
 import { BrowserTag, OsTag, TagList } from "../Tag";
+import { Image } from "./Image";
 import styles from "./article.module.scss";
 
 type Props = {
   language: string;
   dict: Dict;
   article: Article;
+  customComponents?: Record<string, React.ComponentType>;
 };
 
-export async function Article({ language, dict, article }: Props) {
+export async function Article({
+  language,
+  dict,
+  article,
+  customComponents,
+}: Props) {
   const oses = await getOses();
-  const browsers = await getBrowsers();
+  const browsers = await getBrowsersWithFlatReleases();
   const browser = browsers.find((item) => item._id === article.browser?._ref);
+
+  const components = {
+    Callout,
+    DownloadLinkButton: makeDownloadLinkButton({ language, dict, browser }),
+    UpdateLinkButton: makeUpdateLinkButton({ language, dict, browser }),
+    img: Image,
+    ...customComponents,
+  };
 
   return (
     <>
@@ -55,12 +78,7 @@ export async function Article({ language, dict, article }: Props) {
         {article.excerpt ? (
           <p className={styles.excerpt}>{article.excerpt}</p>
         ) : null}
-        <MDXRemote
-          source={article.contents}
-          components={{
-            Callout,
-          }}
-        />
+        <MDXRemote source={article.contents} components={components} />
       </article>
     </>
   );

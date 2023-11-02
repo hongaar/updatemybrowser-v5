@@ -38,7 +38,10 @@ export function ReleaseTag({ language, dict, release }: Props) {
         </>
       ) : null}
       {release.os.os.name}
-      <span title={dict.LatestAvailableVersion} className={styles.version}>
+      <span
+        data-tooltip={dict.LatestAvailableVersion}
+        className={styles.version}
+      >
         {release.currentVersion}
       </span>
     </Tag>

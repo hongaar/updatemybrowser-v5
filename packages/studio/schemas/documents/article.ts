@@ -58,8 +58,13 @@ export const article: DocumentDefinition = {
     {
       name: "contents",
       title: "Contents",
+      description: `The following components are always available: <Callout />
+If this article applies to a browser, you can also use: <UpdateLinkButton />, <DownloadLinkButton />`,
       type: "markdown",
       validation: (rule) => rule.required(),
+      options: {
+        imageUrl: (imageAsset) => imageAsset.url,
+      },
     },
     {
       name: "browser",

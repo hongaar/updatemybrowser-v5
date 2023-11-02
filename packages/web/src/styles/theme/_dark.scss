@@ -49,5 +49,9 @@
     --contrast-hover: #{$white};
     --contrast-focus: #{rgba($grey-500, 0.25)};
     --contrast-inverse: #{$black};
+
+    // Tooltip
+    --tooltip-background-color: #{$white};
+    --tooltip-color: #{$grey-700};
   }
 }

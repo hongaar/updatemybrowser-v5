@@ -10,11 +10,11 @@ import { notFound } from "next/navigation";
 import { sprintf } from "sprintf-js";
 import { Breadcrumbs } from "../../../../../../components/Breadcrumbs";
 import { BrowserArticle } from "../../../../../../components/BrowserArticle";
+import { makeDownloadLinkButton } from "../../../../../../components/BrowserLinkButtons";
 import { Container } from "../../../../../../components/Container";
-import { ExternalLinkIcon } from "../../../../../../components/Icon";
 import { getDictionary } from "../../../../../../dictionaries";
 import { pageTitle } from "../../../../../../utils";
-import type { LanguageParams } from "../../../../page";
+import type { LanguageParams } from "../../../../route";
 import type { BrowserParams } from "../../page";
 
 type OsParams = {
@@ -80,6 +80,14 @@ export default async function Download({
         defaultLanguageArticle?._id === item.translationOf?._ref,
     ) || defaultLanguageArticle;
 
+  const DownloadLinkButton = makeDownloadLinkButton({
+    language,
+    dict,
+    browser,
+    os,
+    release,
+  });
+
   return (
     <>
       <Breadcrumbs
@@ -93,26 +101,24 @@ export default async function Download({
       <Container>
         {article ? (
           <BrowserArticle
-            {...{ language, dict, browser, os, release, article }}
+            {...{
+              language,
+              dict,
+              browser,
+              os,
+              release,
+              article,
+              customComponents: { DownloadLinkButton },
+            }}
           />
-        ) : null}
-        {release.downloadUrl ? (
+        ) : release.downloadUrl ? (
           <section>
             <h2>
               {dict.Download} {browser.name}
             </h2>
             <p>{sprintf(dict.DownloadLinkDescription, browser.name)}</p>
             <div>
-              <Link
-                tabIndex={0}
-                role="button"
-                target="_blank"
-                rel="noopener noreferrer"
-                href={release.downloadUrl}
-              >
-                <ExternalLinkIcon fill={"currentColor"} /> {dict.Download}{" "}
-                {browser.name} {dict.For} {os.name}
-              </Link>
+              <DownloadLinkButton />
             </div>
           </section>
         ) : (

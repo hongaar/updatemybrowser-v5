@@ -11,6 +11,7 @@ type Props = {
 };
 
 const SHOW_POPULARITY = false;
+const SHOW_USAGE = false;
 
 export function BrowserMetadata({ language, dict, browser }: Props) {
   return (
@@ -42,7 +43,7 @@ export function BrowserMetadata({ language, dict, browser }: Props) {
         </div>
       ) : null}
 
-      {averageUsage(browser) ? (
+      {SHOW_USAGE && averageUsage(browser) ? (
         <div className={styles.metadataItem}>
           <div className={styles.metadataLabel}>{dict.GlobalUsage}</div>
           <div className={styles.metadata}>

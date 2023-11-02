@@ -12,7 +12,7 @@ import { Container } from "../../../../../components/Container";
 import { Icon } from "../../../../../components/Icon";
 import { getDictionary } from "../../../../../dictionaries";
 import { compareAverageUsage, pageTitle } from "../../../../../utils";
-import type { LanguageParams } from "../../../page";
+import type { LanguageParams } from "../../../route";
 import styles from "./page.module.scss";
 
 export type OsParams = {

@@ -44,7 +44,7 @@ export const middleware: NextMiddleware = async (request) => {
 
   request.nextUrl.pathname = `/${language}${pathname}`;
 
-  return Response.redirect(request.nextUrl);
+  return Response.redirect(request.nextUrl, 307);
 };
 
 export const config = {

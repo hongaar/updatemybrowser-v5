@@ -1,6 +1,6 @@
 import type { Dict } from "./en.js";
 
-const indonesian: Dict = {
+const dict: Dict = {
   Home: "Rumah",
   SubHeading: "Selalu segar",
   BrowserCheck: "Browser Kontrol",
@@ -66,9 +66,13 @@ const indonesian: Dict = {
   ButMaybeYouAreUsing: "Tapi mungkin Anda menggunakan",
   DownloadLinkDescription: "Klik tombol di bawah ini untuk mengunduh %s:",
   UpdateLinkDescription: "Klik tombol di bawah ini untuk memperbarui %s:",
-  Browsers: "...",
-  DataSources: "...",
-  OperatingSystems: "...",
+  Browsers: "Browser",
+  OperatingSystems: "Sistem operasi",
+  DataSources: "Sumber data",
+  Languages: "Bahasa Indonesia",
+  NoGuides:
+    "Tidak ada panduan yang tersedia (belum). Silakan kembali segera. Sementara itu, cek panduan bahasa Inggr",
+  EnglishGuides: "Panduan dalam bahasa Inggris",
 };
 
-export default indonesian;
+export default dict;

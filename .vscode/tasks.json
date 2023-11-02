@@ -75,7 +75,7 @@
       "script": "update",
       "problemMatcher": [],
       "label": "yarn update",
-      "detail": "Update & cache docs"
+      "detail": "Update"
     }
   ]
 }

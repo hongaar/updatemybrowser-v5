@@ -68,6 +68,11 @@ const english = {
   OperatingSystems: "Operating systems",
   AppliesTo: "Applies to",
   DataSources: "Data sources",
+  Languages: "Languages",
+  NoGuides:
+    "No guides available (yet). Please come back soon. In the meantime, check out our English guides:",
+  EnglishGuides: "English guides",
+  StepByStepGuide: "Step by step guide",
 };
 
 export type Dict = typeof english;

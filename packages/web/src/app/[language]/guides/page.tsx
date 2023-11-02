@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Container } from "../../../components/Container";
 import { getDictionary } from "../../../dictionaries";
 import { pageTitle } from "../../../utils";
-import type { LanguageParams } from "../page";
+import type { LanguageParams } from "../route";
 
 export function generateMetadata({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);
@@ -21,6 +21,14 @@ export default async function Guides({ params: { language } }: LanguageParams) {
   return (
     <Container>
       <h2>{dict.Guides}</h2>
+      {articles.length === 0 ? (
+        <p>
+          {dict.NoGuides}:{" "}
+          <Link tabIndex={0} href="/en/guides">
+            {dict.EnglishGuides}
+          </Link>
+        </p>
+      ) : null}
       <ul>
         {articles.map((article) => (
           <li key={article._id}>

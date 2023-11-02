@@ -7,7 +7,7 @@ import { Header } from "../../components/Header";
 import { Nav } from "../../components/Nav";
 import { getDictionary } from "../../dictionaries";
 import "../../styles/index.scss";
-import type { LanguageParams } from "./page";
+import type { LanguageParams } from "./route";
 
 type Props = LanguageParams & {
   children: ReactNode;

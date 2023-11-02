@@ -20,6 +20,7 @@ type Props = {
   browsers: BrowserWithFlatReleases[];
   browser: BrowserWithFlatReleases;
   headingPrefix?: string;
+  showMetadata?: boolean;
 };
 
 export function BrowserPage({
@@ -28,6 +29,7 @@ export function BrowserPage({
   browsers,
   browser,
   headingPrefix,
+  showMetadata = true,
 }: Props) {
   const description = browser.description?.find(
     (item) => item._key === language,
@@ -55,6 +57,9 @@ export function BrowserPage({
           {dict.By} {browser.vendor}
         </span>
       </h2>
+      {showMetadata ? (
+        <BrowserMetadata language={language} dict={dict} browser={browser} />
+      ) : null}
       <section className={styles.columns}>
         <div>
           <LoadingBanners language={language} dict={dict} />
@@ -72,7 +77,6 @@ export function BrowserPage({
               <ExternalLink href={wikipediaUrl}>Wikipedia</ExternalLink>
             </p>
           ) : null}
-          <BrowserMetadata language={language} dict={dict} browser={browser} />
         </div>
         <BrowserAlternatives
           language={language}
