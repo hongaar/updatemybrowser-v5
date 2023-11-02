@@ -349,19 +349,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-26T14:54:03Z",
     _id: "02e8d45d-e6fc-4987-abb2-89d1a8208cda",
-    _rev: "NXWRfmtJObhdyNnOgJ6pwr",
+    _rev: "h9gndD2P4keuz4rjs55YtZ",
     _type: "release",
-    _updatedAt: "2023-10-26T14:54:03Z",
+    _updatedAt: "2023-11-01T17:26:42Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
     currentUsage: 1.7233,
     currentVersion: "103",
-    downloadArticle: {
-      _ref: "0715e142-d3bb-45d4-a5c2-b31566330486",
-      _type: "reference",
-    },
     downloadUrl:
       "https://download.opera.com/download/get/?partner=www&opsys=Linux",
     oses: [
@@ -391,15 +387,19 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:48:43Z",
     _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _rev: "l23pZBZnMlijdW7ogHlXhi",
+    _rev: "lRZ54YVKpJaKWrGZ7QSzqb",
     _type: "release",
-    _updatedAt: "2023-10-26T14:54:21Z",
+    _updatedAt: "2023-11-01T17:27:08Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
     currentUsage: 1.7233,
     currentVersion: "103",
+    downloadArticle: {
+      _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
+      _type: "reference",
+    },
     downloadUrl: "https://www.opera.com/download",
     oses: [
       {
@@ -444,7 +444,7 @@ export const releases: Release[] = [
       },
     ],
     updateArticle: {
-      _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
+      _ref: "0715e142-d3bb-45d4-a5c2-b31566330486",
       _type: "reference",
     },
     versionSource: [

@@ -5,7 +5,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "lRZ54YVKpJaKWrGZ7QQj1d",
+    _rev: "B4UTUzmTSUGGaDoK0O6zBq",
     _type: "browser",
     _updatedAt: "2023-11-01T16:01:58Z",
     description: [
@@ -603,7 +603,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "h9gndD2P4keuz4rjs4zBIX",
+    _rev: "h9gndD2P4keuz4rjs5h4ib",
     _type: "browser",
     _updatedAt: "2023-11-01T16:02:00Z",
     description: [
@@ -708,7 +708,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "B4UTUzmTSUGGaDoK0NAYZs",
+    _rev: "h9gndD2P4keuz4rjs5h4pR",
     _type: "browser",
     _updatedAt: "2023-11-01T16:02:03Z",
     description: [
@@ -872,7 +872,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "lRZ54YVKpJaKWrGZ7QQjK1",
+    _rev: "h9gndD2P4keuz4rjs5h4wH",
     _type: "browser",
     _updatedAt: "2023-11-01T16:02:06Z",
     description: [
@@ -1030,7 +1030,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "h9gndD2P4keuz4rjs4zCOv",
+    _rev: "lRZ54YVKpJaKWrGZ7QdCBl",
     _type: "browser",
     _updatedAt: "2023-11-01T16:02:10Z",
     description: [
@@ -1187,7 +1187,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "h9gndD2P4keuz4rjs4zCmr",
+    _rev: "h9gndD2P4keuz4rjs5h537",
     _type: "browser",
     _updatedAt: "2023-11-01T16:02:13Z",
     description: [
@@ -1344,7 +1344,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "h9gndD2P4keuz4rjs4zOe1",
+    _rev: "h9gndD2P4keuz4rjs5h59x",
     _type: "browser",
     _updatedAt: "2023-11-01T16:02:16Z",
     description: [
@@ -1501,7 +1501,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "h9gndD2P4keuz4rjs4zP1x",
+    _rev: "B4UTUzmTSUGGaDoK0O6zNk",
     _type: "browser",
     _updatedAt: "2023-11-01T16:02:19Z",
     color: {
@@ -1771,7 +1771,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "h9gndD2P4keuz4rjs4zPMT",
+    _rev: "h9gndD2P4keuz4rjs5h5Nd",
     _type: "browser",
     _updatedAt: "2023-11-01T16:02:22Z",
     color: {
@@ -1953,7 +1953,7 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:50:38Z",
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "h9gndD2P4keuz4rjs4zPuf",
+    _rev: "B4UTUzmTSUGGaDoK0O6zZe",
     _type: "browser",
     _updatedAt: "2023-11-01T16:02:25Z",
     description: [

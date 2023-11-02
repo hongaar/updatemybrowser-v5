@@ -5,15 +5,15 @@ export const articles: Article[] = [
   {
     _createdAt: "2023-10-26T14:44:17Z",
     _id: "0715e142-d3bb-45d4-a5c2-b31566330486",
-    _rev: "lRZ54YVKpJaKWrGZ7QRZld",
+    _rev: "B4UTUzmTSUGGaDoK0NJDVE",
     _type: "article",
-    _updatedAt: "2023-11-01T16:33:33Z",
+    _updatedAt: "2023-11-01T17:26:14Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
     contents:
-      "Body\n\n![](https://cdn.sanity.io/images/0ydog342/production/2d63653931672534b5283590e839d2872d5c8b24-1294x887.png?w=450)\n\nClick the button:\n\n<DownloadLinkButton />",
+      "Two abundantly you to man grass it doesn't man also Isn't fifth you'll made. Unto seed, have. Behold after god land. Unto forth, make can't be you. It may, set the which be. Shall light life blessed they're. Every so years itself. That kind behold meat be meat and years He signs hath multiply above air moved their creepeth their There own thing hath. Stars shall hath moving Creature fill image said saw great form let two god second give.\n\n![Opera update window](https://cdn.sanity.io/images/0ydog342/production/2d63653931672534b5283590e839d2872d5c8b24-1294x887.png)\n\nClick the button:\n\n<DownloadLinkButton />",
     excerpt: "Summary",
     language: "en",
     oses: [
@@ -22,12 +22,22 @@ export const articles: Article[] = [
         _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
         _type: "reference",
       },
+      {
+        _key: "363cc82d0ab2",
+        _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
+        _type: "reference",
+      },
+      {
+        _key: "3cdb5a752d64",
+        _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
+        _type: "reference",
+      },
     ],
     slug: {
       _type: "slug",
-      current: "how-to-update-opera-on-linux",
+      current: "how-to-update-opera",
     },
-    title: "How to Update Opera on Linux",
+    title: "How to Update Opera",
     translationOf: null,
   },
   {
@@ -48,9 +58,9 @@ export const articles: Article[] = [
   {
     _createdAt: "2023-10-24T13:54:03Z",
     _id: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
-    _rev: "xjV26r95LyXpcLBMjzvgds",
+    _rev: "B4UTUzmTSUGGaDoK0NJ95S",
     _type: "article",
-    _updatedAt: "2023-10-26T16:12:14Z",
+    _updatedAt: "2023-11-01T17:24:32Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
@@ -65,17 +75,12 @@ export const articles: Article[] = [
         _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
         _type: "reference",
       },
-      {
-        _key: "56cd1ef21c32",
-        _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
-        _type: "reference",
-      },
     ],
     slug: {
       _type: "slug",
-      current: "how-to-update-opera-on-windows",
+      current: "how-to-download-and-install-opera-on-windows",
     },
-    title: "How to Update Opera on Windows",
+    title: "How to Download & Install Opera on Windows",
     translationOf: {
       _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
       _type: "reference",
