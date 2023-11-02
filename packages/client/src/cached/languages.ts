@@ -240,4 +240,44 @@ export const languages: Language[] = [
     id: "ru",
     name: "Russian",
   },
+  {
+    _createdAt: "2023-11-02T06:20:11Z",
+    _id: "4a57ee2c-d7f4-4305-b25c-b428fe6707aa",
+    _rev: "B4UTUzmTSUGGaDoK0OLtbs",
+    _type: "language",
+    _updatedAt: "2023-11-02T06:20:11Z",
+    flag: {
+      _type: "icon.manager",
+      icon: "flag:ke-4x3",
+      metadata: {
+        author: {
+          name: "Panayiotis Lipiridis",
+          url: "https://github.com/lipis/flag-icons",
+        },
+        collectionId: "flag",
+        collectionName: "Flag Icons",
+        downloadUrl:
+          "https://api.iconify.design/flag:ke-4x3.svg?width=20&height=20&download=1",
+        flip: "",
+        hFlip: false,
+        iconName: "ke-4x3",
+        inlineSvg:
+          '<svg viewBox="0 0 640 480" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><defs><path d="m-28.6 47.5l1.8 1l46.7-81c2.7-.6 4.2-3.2 5.7-5.8c1-1.8 5-8.7 6.7-17.7a58 58 0 0 0-11.9 14.7c-1.5 2.6-3 5.2-2.3 7.9z" stroke-miterlimit="10" fill="#000" id="IconifyId18b8e70413f1c93904"></path></defs><path d="M0 0h640v480H0z" fill="#fff"></path><path d="M0 0h640v144H0z"></path><path d="M0 336h640v144H0z" fill="#060"></path><g transform="matrix(3 0 0 3 320 240)" id="IconifyId18b8e70413f1c93905"></g><path d="M640.5 168H377c-9-24-39-72-57-72s-48 48-57 72H-.2v144H263c9 24 39 72 57 72s48-48 57-72h263.5V168z" fill="#b00"></path><path d="M377 312c9-24 15-48 15-72s-6-48-15-72c-9 24-15 48-15 72s6 48 15 72" fill="#000" id="IconifyId18b8e70413f1c93906"></path><g transform="matrix(3 0 0 3 320 240)" fill="#fff"><ellipse ry="6" rx="4"></ellipse><path d="M1 5.8s4 8 4 21s-4 21-4 21z" id="IconifyId18b8e70413f1c93907"></path></g></svg>',
+        license: {
+          name: "MIT",
+          url: "https://github.com/lipis/flag-icons/blob/main/LICENSE",
+        },
+        palette: true,
+        rotate: 0,
+        size: {
+          height: 20,
+          width: 20,
+        },
+        url: "https://api.iconify.design/flag:ke-4x3.svg?width=20&height=20",
+        vFlip: false,
+      },
+    },
+    id: "sw",
+    name: "Swahili",
+  },
 ];

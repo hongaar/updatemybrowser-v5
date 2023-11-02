@@ -13,7 +13,11 @@ type Props = LanguageParams & {
   children: ReactNode;
 };
 
-const fira = Fira_Sans({ subsets: ["latin"], weight: ["400", "600"] });
+const fira = Fira_Sans({
+  subsets: ["latin"],
+  weight: ["400", "600"],
+  variable: "--font-text",
+});
 
 const REVALIDATE_PRODUCTION = 3600 * 24; // 1 day
 const REVALIDATE_DEVELOPMENT = 60; // 1 minute
@@ -38,7 +42,7 @@ export async function generateStaticParams() {
 export default function Layout({ children, params: { language } }: Props) {
   return (
     <html lang={language}>
-      <body className={fira.className}>
+      <body className={`${fira.className} ${fira.variable}`}>
         <Header language={language} />
         <Nav language={language} />
         <main>{children}</main>

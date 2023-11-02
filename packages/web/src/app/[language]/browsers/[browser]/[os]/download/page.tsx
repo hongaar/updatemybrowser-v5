@@ -8,8 +8,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { sprintf } from "sprintf-js";
+import { Article } from "../../../../../../components/Article";
 import { Breadcrumbs } from "../../../../../../components/Breadcrumbs";
-import { BrowserArticle } from "../../../../../../components/BrowserArticle";
 import { makeDownloadLinkButton } from "../../../../../../components/BrowserLinkButtons";
 import { Container } from "../../../../../../components/Container";
 import { getDictionary } from "../../../../../../dictionaries";
@@ -100,13 +100,10 @@ export default async function Download({
       />
       <Container>
         {article ? (
-          <BrowserArticle
+          <Article
             {...{
               language,
               dict,
-              browser,
-              os,
-              release,
               article,
               customComponents: { DownloadLinkButton },
             }}

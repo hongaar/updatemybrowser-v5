@@ -1,6 +1,5 @@
 import {
   DesktopIcon,
-  DocumentIcon,
   DocumentsIcon,
   EarthAmericasIcon,
   EarthGlobeIcon,
@@ -26,7 +25,7 @@ export async function structure(S: StructureBuilder, context: ConfigContext) {
       S.divider(),
       S.listItem()
         .title("Articles")
-        .icon(DocumentIcon)
+        .icon(DocumentsIcon)
         .child(
           S.list()
             .title("Language")

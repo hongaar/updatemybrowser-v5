@@ -51,6 +51,13 @@ export const article: DocumentDefinition = {
       readOnly: true,
     },
     {
+      name: "hidden",
+      title: "Hidden",
+      description: "Hide from Guides overview page",
+      type: "boolean",
+      initialValue: false,
+    },
+    {
       name: "excerpt",
       title: "Excerpt",
       type: "text",
@@ -58,8 +65,11 @@ export const article: DocumentDefinition = {
     {
       name: "contents",
       title: "Contents",
-      description: `The following components are always available: <Callout />
-If this article applies to a browser, you can also use: <UpdateLinkButton />, <DownloadLinkButton />`,
+      description: `The following components are always available: <Callout />. \
+If this article applies to a browser, you can also use: \
+<UpdateLinkButton />, <DownloadLinkButton />. \
+If used as the widget article, you can also use: \n
+<WidgetDemoButton />`,
       type: "markdown",
       validation: (rule) => rule.required(),
       options: {

@@ -36,6 +36,8 @@ export const language: DocumentDefinition = {
     {
       name: "flag",
       title: "Flag",
+      description:
+        'Please use icon from "Flag Icons" and choose from "[code]-4x3" icons.',
       type: "icon.manager",
       validation: (rule) => rule.required(),
     },

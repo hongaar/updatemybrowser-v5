@@ -2,14 +2,23 @@ button,
 a[role="button"] {
   display: inline-block;
   padding: calc(var(--spacing) * 0.75) calc(var(--spacing) * 1.5);
+
+  font-family: var(--font-text) sans-serif;
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+  font-style: normal;
+
   background-color: var(--primary);
   color: var(--primary-inverse);
+  border: none;
   border-radius: var(--border-radius);
 
   transition: background-color var(--transition);
 
   &:is([aria-current], :hover, :active, :focus) {
     background-color: var(--primary-hover);
+    text-decoration: underline;
   }
 
   &:focus {

@@ -167,3 +167,15 @@ hr {
   border: 0;
   border-top: var(--border-width) solid var(--border-color);
 }
+
+// Pre
+pre {
+  overflow-y: auto;
+
+  padding: var(--spacing);
+  margin-bottom: calc(var(--spacing) * 2);
+
+  border: var(--border-width) solid var(--muted-border-color);
+  border-radius: var(--border-radius);
+  background-color: var(--muted-background-color);
+}

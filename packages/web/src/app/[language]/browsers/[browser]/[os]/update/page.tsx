@@ -8,8 +8,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { sprintf } from "sprintf-js";
+import { Article } from "../../../../../../components/Article";
 import { Breadcrumbs } from "../../../../../../components/Breadcrumbs";
-import { BrowserArticle } from "../../../../../../components/BrowserArticle";
 import { makeUpdateLinkButton } from "../../../../../../components/BrowserLinkButtons";
 import { Container } from "../../../../../../components/Container";
 import { getDictionary } from "../../../../../../dictionaries";
@@ -98,13 +98,10 @@ export default async function Update({
       />
       <Container>
         {article ? (
-          <BrowserArticle
+          <Article
             {...{
               language,
               dict,
-              browser,
-              os,
-              release,
               article,
               customComponents: {
                 UpdateLinkButton,

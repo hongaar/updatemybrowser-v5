@@ -6,6 +6,7 @@ import hi from "./hi";
 import id from "./id";
 import nl from "./nl";
 import ru from "./ru";
+import sw from "./sw";
 
 const dictionaries = {
   de,
@@ -14,6 +15,7 @@ const dictionaries = {
   id,
   nl,
   ru,
+  sw,
 };
 
 export function getDictionary(language: string) {

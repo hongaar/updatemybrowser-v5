@@ -1,3 +1,4 @@
+import { TranslateIcon } from "@sanity/icons";
 import {
   getBrowsersWithFlatReleases,
   getOses,
@@ -21,6 +22,10 @@ type Props = {
   customComponents?: Record<string, React.ComponentType>;
 };
 
+function VoidComponent() {
+  return null;
+}
+
 export async function Article({
   language,
   dict,
@@ -35,12 +40,22 @@ export async function Article({
     Callout,
     DownloadLinkButton: makeDownloadLinkButton({ language, dict, browser }),
     UpdateLinkButton: makeUpdateLinkButton({ language, dict, browser }),
+    WidgetDemoButton: VoidComponent,
     img: Image,
     ...customComponents,
   };
 
   return (
     <>
+      {article.language !== language ? (
+        <Callout warning>
+          <h3>
+            <TranslateIcon className={styles.translateIcon} />{" "}
+            {dict.EnglishVersion}
+          </h3>
+          <p>{dict.NotAvailableInYourLanguageDescription}</p>
+        </Callout>
+      ) : null}
       {(article.oses && article.oses.length > 0) || article.browser ? (
         <Callout muted>
           <TagList>

@@ -7,7 +7,7 @@ export const browsers: Browser[] = [
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
     _rev: "B4UTUzmTSUGGaDoK0O6zBq",
     _type: "browser",
-    _updatedAt: "2023-11-01T16:01:58Z",
+    _updatedAt: "2023-11-02T06:30:36Z",
     description: [
       {
         _key: "en",
@@ -43,6 +43,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Быстрый, безопасный, настраиваемый, с встроенным блокировщиком рек",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Haraka, salama, inayoweza kubadilishwa, na kizuizi cha matangazo kilichojengwa na VPN",
       },
     ],
     featuredArticles: [
@@ -563,6 +569,12 @@ export const browsers: Browser[] = [
         value:
           "Opera — веб-браузер и пакет прикладных программ для работы в Интернете, выпускаемый компанией Opera Software. Разработан в 1994 году группой исследователей из норвежской компании Telenor. С 1995 года — продукт компании Opera Software, образованной авторами первой версии браузера. Суммарная рыночная доля браузеров Opera в январе 2021 года составила 2,17 % — шестое место в мире. В России процент пользователей браузера выше среднемирового. В январе 2021 года доля браузеров Opera в Рунете составила 5,55%.",
       },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Opera ni kivinjari cha wavuti kwa Windows, MacOS, na Linux ambacho ni mifumo ya uendeshaji iliyoandaliwa na Opera Software. Inatumia injini ya mpangilio wa Blink.",
+      },
     ],
     vendor: "Opera",
     wikipediaUrl: [
@@ -597,6 +609,11 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayUrlValue",
         value: "https://ru.wikipedia.org/wiki/Opera",
       },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://sw.wikipedia.org/wiki/Opera_(wavuti)",
+      },
     ],
     youtubeId: "FxBBuxE6XTI",
   },
@@ -605,7 +622,7 @@ export const browsers: Browser[] = [
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
     _rev: "h9gndD2P4keuz4rjs5h4ib",
     _type: "browser",
-    _updatedAt: "2023-11-01T16:02:00Z",
+    _updatedAt: "2023-11-02T06:28:50Z",
     description: [
       {
         _key: "en",
@@ -641,6 +658,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Быстрый, безопасный, настраиваемый, блокировщик рекламы, видео-",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Haraka, salama, inayoweza kubadilishwa, kuzuia matangazo, msaidizi wa video, hali",
       },
     ],
     homepage: "https://www.samsung.com/us/support/owners/app/samsung-internet",
@@ -710,7 +733,7 @@ export const browsers: Browser[] = [
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
     _rev: "h9gndD2P4keuz4rjs5h4pR",
     _type: "browser",
-    _updatedAt: "2023-11-01T16:02:03Z",
+    _updatedAt: "2023-11-02T06:29:04Z",
     description: [
       {
         _key: "en",
@@ -746,6 +769,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Открытый исходный код, быстрый, безопасный, настраиваемый и поддерживает м",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Inafunguliwa, haraka, salama, inaweza kubadilishwa, na inasaidia majukwaa meng",
       },
     ],
     homepage: "https://www.chromium.org/Home/",
@@ -874,7 +903,7 @@ export const browsers: Browser[] = [
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
     _rev: "h9gndD2P4keuz4rjs5h4wH",
     _type: "browser",
-    _updatedAt: "2023-11-01T16:02:06Z",
+    _updatedAt: "2023-11-02T06:30:53Z",
     description: [
       {
         _key: "en",
@@ -910,6 +939,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Открытый исходный код, настраиваемый, безопасный, быстрый, приватный прос",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Kivinjari huru, inayoweza kubadilishwa, salama, haraka, faragha, na inay",
       },
     ],
     homepage: "https://www.mozilla.org/firefox/browsers/",
@@ -991,6 +1026,12 @@ export const browsers: Browser[] = [
         value:
           "Mozilla Firefox — свободный браузер на движке Quantum, разработкой и распространением которого занимается Mozilla Corporation. Четвёртый по популярности браузер в мире и первый среди свободного ПО — в марте 2021 года его рыночная доля составила ▼7,49 %.\nВ России Firefox занимает четвёртое место по популярности среди браузеров для ПК с долей 5,26 % пользователей на март 2021 года.",
       },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Mozilla Firefox ni kivinjari cha kompyuta. Inafanywa na Maanzilisho ya Mozilla. Inatumika kwenye mifumo yote ya kawaida ya uendeshaji, kama vile Windows, MacOS na Linux, na kwa Firefox pia inapatikana kwa Android.",
+      },
     ],
     vendor: "Mozilla",
     wikipediaUrl: [
@@ -1025,6 +1066,11 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayUrlValue",
         value: "https://ru.wikipedia.org/wiki/Mozilla_Firefox",
       },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://sw.wikipedia.org/wiki/Mozilla_Firefox",
+      },
     ],
   },
   {
@@ -1032,7 +1078,7 @@ export const browsers: Browser[] = [
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
     _rev: "lRZ54YVKpJaKWrGZ7QdCBl",
     _type: "browser",
-    _updatedAt: "2023-11-01T16:02:10Z",
+    _updatedAt: "2023-11-02T06:29:22Z",
     description: [
       {
         _key: "en",
@@ -1067,6 +1113,12 @@ export const browsers: Browser[] = [
         _key: "ru",
         _type: "internationalizedArrayStringValue",
         value: "Безопасный просмотр с блокировкой рекламы и слежки.",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Inalenga faragha, inazuia matangazo na wafuatiliaji, upitaji wa haraka na salama.",
       },
     ],
     homepage: "https://brave.com",
@@ -1189,7 +1241,7 @@ export const browsers: Browser[] = [
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
     _rev: "h9gndD2P4keuz4rjs5h537",
     _type: "browser",
-    _updatedAt: "2023-11-01T16:02:13Z",
+    _updatedAt: "2023-11-02T06:29:28Z",
     description: [
       {
         _key: "en",
@@ -1225,6 +1277,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Браузер Microsoft с вкладками, функциями безопасности и режимом совместимости.",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Kivinjari cha Microsoft na kivinjari cha tabo, huduma za usalama, na hali ya utangamano",
       },
     ],
     homepage: "https://wikipedia.org/wiki/Internet_Explorer",
@@ -1346,7 +1404,7 @@ export const browsers: Browser[] = [
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
     _rev: "h9gndD2P4keuz4rjs5h59x",
     _type: "browser",
-    _updatedAt: "2023-11-01T16:02:16Z",
+    _updatedAt: "2023-11-02T06:29:33Z",
     description: [
       {
         _key: "en",
@@ -1382,6 +1440,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Браузер Apple с удобным интерфейсом и продвинутой конфиденциальностью.",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Kivinjari chaguo-msingi cha Apple na kiolesura cha kirafiki kwa faragha ya juu.",
       },
     ],
     homepage: "https://www.apple.com/safari/",
@@ -1503,7 +1567,7 @@ export const browsers: Browser[] = [
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
     _rev: "B4UTUzmTSUGGaDoK0O6zNk",
     _type: "browser",
-    _updatedAt: "2023-11-01T16:02:19Z",
+    _updatedAt: "2023-11-02T06:31:07Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -1565,6 +1629,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Быстрый, безопасный, настраиваемый, с встроенными сервисами Google и расши",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Haraka, salama, inayoweza kubadilishwa, na huduma za Google na nyongeza zilizojeng",
       },
     ],
     homepage: "https://www.google.com/chrome/",
@@ -1731,6 +1801,12 @@ export const browsers: Browser[] = [
         value:
           "Google Chrome — браузер, разрабатываемый компанией Google на основе свободного браузера Chromium и движка Blink. Первая публичная бета-версия для Windows вышла 2 сентября 2008 года, а первая стабильная — 11 декабря 2008 года. По данным StatCounter, рыночная доля Chrome на август 2022 года составляет ▲65,12 %.",
       },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Google Chrome ni kivinjari wavuti kilichotengenezwa na Google LLC. Iliyotolewa mara ya kwanza mwezi Septemba 2008, kwa ajili ya Microsoft Windows, na baadaye ikafikishwa kwenye Linux, MacOS, iOS na Android.",
+      },
     ],
     vendor: "Google",
     wikipediaUrl: [
@@ -1765,6 +1841,11 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayUrlValue",
         value: "https://ru.wikipedia.org/wiki/Google_Chrome",
       },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://sw.wikipedia.org/wiki/Google_Chrome",
+      },
     ],
     youtubeId: "https://www.youtube.com/watch?v=SlGuvC5nnTA",
   },
@@ -1773,7 +1854,7 @@ export const browsers: Browser[] = [
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
     _rev: "h9gndD2P4keuz4rjs5h5Nd",
     _type: "browser",
-    _updatedAt: "2023-11-01T16:02:22Z",
+    _updatedAt: "2023-11-02T06:29:45Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -1835,6 +1916,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Браузер Microsoft с встроенной Cortana, режимом чтения и инструментами для аннот",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Kivinjari cha Microsoft chenye Cortana, kusoma, na zana za maelezo.",
       },
     ],
     homepage: "https://www.microsoft.com/edge",
@@ -1955,7 +2042,7 @@ export const browsers: Browser[] = [
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
     _rev: "B4UTUzmTSUGGaDoK0O6zZe",
     _type: "browser",
-    _updatedAt: "2023-11-01T16:02:25Z",
+    _updatedAt: "2023-11-02T06:29:50Z",
     description: [
       {
         _key: "en",
@@ -1991,6 +2078,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Настроенный интерфейс, управление вкладками, встроенные инструменты, вар",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Kioleshi kinachoweza kubadilishwa, usimamizi wa vichupo, zana zilizojengwa",
       },
     ],
     homepage: "https://vivaldi.com",
