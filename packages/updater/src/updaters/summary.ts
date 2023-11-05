@@ -1,4 +1,5 @@
 import { sanity, type Browser, type I18nText } from "@updatemybrowser/client";
+import { deepEqual } from "@updatemybrowser/core";
 import { command } from "bandersnatch";
 import { getWikipediaSummary, parseWikipediaUrl } from "../wikipedia.js";
 
@@ -31,14 +32,18 @@ export const summary = command("summary").action(async () => {
       });
     }
 
-    await patch
-      .set({ summary })
-      .commit<Browser>()
-      .then(() => {
-        console.log("Updated");
-      })
-      .catch((err) => {
-        console.error("Oh no, the update failed: ", err.message);
-      });
+    if (!deepEqual(browser.summary, summary)) {
+      await patch
+        .set({ summary })
+        .commit<Browser>()
+        .then(() => {
+          console.log("Updated");
+        })
+        .catch((err) => {
+          console.error("Oh no, the update failed: ", err.message);
+        });
+    } else {
+      console.log("No changes");
+    }
   }
 });

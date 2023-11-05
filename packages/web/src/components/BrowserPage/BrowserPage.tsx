@@ -61,7 +61,7 @@ export function BrowserPage({
         <BrowserMetadata language={language} dict={dict} browser={browser} />
       ) : null}
       <section className={styles.columns}>
-        <div>
+        <article>
           <LoadingBanners language={language} dict={dict} />
           <UpdateAvailable language={language} dict={dict} browser={browser} />
           <LatestVersion language={language} dict={dict} browser={browser} />
@@ -77,7 +77,7 @@ export function BrowserPage({
               <ExternalLink href={wikipediaUrl}>Wikipedia</ExternalLink>
             </p>
           ) : null}
-        </div>
+        </article>
         <BrowserAlternatives
           language={language}
           dict={dict}

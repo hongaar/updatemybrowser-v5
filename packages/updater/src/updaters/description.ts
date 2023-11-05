@@ -1,4 +1,5 @@
 import { sanity, type Browser, type I18nString } from "@updatemybrowser/client";
+import { deepEqual } from "@updatemybrowser/core";
 import { command } from "bandersnatch";
 import * as openai from "../openai.js";
 
@@ -74,14 +75,18 @@ export const description = command("description")
 
       const patch = client.patch(browser._id);
 
-      await patch
-        .set({ description })
-        .commit<Browser>()
-        .then(() => {
-          console.log("Updated");
-        })
-        .catch((err) => {
-          console.error("Oh no, the update failed: ", err.message);
-        });
+      if (!deepEqual(browser.description, description)) {
+        await patch
+          .set({ description })
+          .commit<Browser>()
+          .then(() => {
+            console.log("Updated");
+          })
+          .catch((err) => {
+            console.error("Oh no, the update failed: ", err.message);
+          });
+      } else {
+        console.log("No changes");
+      }
     }
   });

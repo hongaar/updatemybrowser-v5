@@ -1,4 +1,5 @@
 import { sanity, type Browser, type I18nUrl } from "@updatemybrowser/client";
+import { deepEqual } from "@updatemybrowser/core";
 import { command } from "bandersnatch";
 import { getWikipediaLanglinks, parseWikipediaUrl } from "../wikipedia.js";
 
@@ -41,15 +42,19 @@ export const wikipediaUrl = command("wikipediaUrl").action(async () => {
         }
       }
 
-      await patch
-        .set({ wikipediaUrl })
-        .commit<Browser>()
-        .then(() => {
-          console.log("Updated");
-        })
-        .catch((err) => {
-          console.error("Oh no, the update failed: ", err.message);
-        });
+      if (!deepEqual(browser.wikipediaUrl, wikipediaUrl)) {
+        await patch
+          .set({ wikipediaUrl })
+          .commit<Browser>()
+          .then(() => {
+            console.log("Updated");
+          })
+          .catch((err) => {
+            console.error("Oh no, the update failed: ", err.message);
+          });
+      } else {
+        console.log("No changes");
+      }
     } else {
       console.log("No English Wikipedia URL found");
     }
