@@ -11,6 +11,11 @@ export function Image({
   }
 
   return (
+    /**
+     * Hydration error due to <figure> enclosed in <p> which is not allowed in
+     * HTML. Not sure how to address this. Add custom renderer for P and then
+     * try to detect what's in its children?
+     */
     <figure className={styles.figure}>
       <NextImage fill className={styles.image} src={src} alt={alt || ""} />
       {alt ? <figcaption className={styles.caption}>{alt}</figcaption> : null}
