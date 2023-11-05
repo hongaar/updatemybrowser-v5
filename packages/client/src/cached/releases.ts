@@ -5,14 +5,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-26T16:17:54Z",
     _id: "03cb4079-95d0-4368-9a97-3c9aa6b12e0d",
-    _rev: "NXWRfmtJObhdyNnOgJ6pa1",
+    _rev: "h9gndD2P4keuz4rjsBcjZV",
     _type: "release",
-    _updatedAt: "2023-10-26T16:19:11Z",
+    _updatedAt: "2023-11-05T03:22:55Z",
     browser: {
       _ref: "f093178f-bfba-4391-8078-6f979c75630d",
       _type: "reference",
     },
-    currentVersion: "118",
+    currentVersion: "119",
     downloadUrl: "https://vivaldi.com/download/",
     oses: [
       {
@@ -53,14 +53,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-23T06:52:17Z",
     _id: "df47bd5d-957d-470f-b972-dc79e44b6ec3",
-    _rev: "l23pZBZnMlijdW7ogHlWiH",
+    _rev: "h9gndD2P4keuz4rjsBcjgL",
     _type: "release",
-    _updatedAt: "2023-10-23T16:11:51Z",
+    _updatedAt: "2023-11-05T03:22:56Z",
     browser: {
       _ref: "278c02c3-76d4-4011-a543-39ca003ff1ee",
       _type: "reference",
     },
-    currentVersion: "118",
+    currentVersion: "119",
     downloadUrl: "https://www.chromium.org/getting-involved/download-chromium/",
     oses: [
       {
@@ -93,14 +93,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-14T02:45:47Z",
     _id: "f3feab0b-20a2-4397-9458-bf579d5fd7ea",
-    _rev: "NXWRfmtJObhdyNnOgJ78H5",
+    _rev: "h9gndD2P4keuz4rjsBcjnB",
     _type: "release",
-    _updatedAt: "2023-10-26T17:39:07Z",
+    _updatedAt: "2023-11-05T03:22:57Z",
     browser: {
       _ref: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
       _type: "reference",
     },
-    currentVersion: "118",
+    currentVersion: "119",
     oses: [
       {
         _key: "d817db532d4b",
@@ -140,15 +140,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-05T15:07:57Z",
     _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
-    _rev: "NXWRfmtJObhdyNnOgJ6pfj",
+    _rev: "lRZ54YVKpJaKWrGZ7SM1Qj",
     _type: "release",
-    _updatedAt: "2023-10-26T14:52:10Z",
+    _updatedAt: "2023-11-05T03:22:58Z",
     browser: {
       _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
       _type: "reference",
     },
-    currentUsage: 27.250799999999998,
-    currentVersion: "118",
+    currentUsage: 27.377454,
+    currentVersion: "119",
     downloadUrl: "https://www.google.com/chrome/",
     oses: [
       {
@@ -198,14 +198,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:54Z",
     _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _rev: "NXWRfmtJObhdyNnOgLfkMh",
+    _rev: "B4UTUzmTSUGGaDoK0VCkYK",
     _type: "release",
-    _updatedAt: "2023-10-28T03:19:18Z",
+    _updatedAt: "2023-11-05T03:22:59Z",
     browser: {
       _ref: "c384ba9c-d502-4946-99a2-734b295088aa",
       _type: "reference",
     },
-    currentUsage: 5.496420000000001,
+    currentUsage: 5.603790000000001,
     currentVersion: "17.1",
     oses: [
       {
@@ -238,15 +238,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:50:30Z",
     _id: "2e7a7bed-6a90-4ffc-8230-32bd93fa28d9",
-    _rev: "NXWRfmtJObhdyNnOgJ6plR",
+    _rev: "h9gndD2P4keuz4rjsBcju1",
     _type: "release",
-    _updatedAt: "2023-10-23T15:08:55Z",
+    _updatedAt: "2023-11-05T03:23:00Z",
     browser: {
       _ref: "e2ebb783-874b-497f-b90f-0d17956d8842",
       _type: "reference",
     },
-    currentUsage: 5.16083,
-    currentVersion: "118",
+    currentUsage: 5.347196,
+    currentVersion: "119",
     oses: [
       {
         _key: "ec099ce524bb",
@@ -286,15 +286,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-08T06:17:00Z",
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _rev: "NXWRfmtJObhdyNnOgJ6pr9",
+    _rev: "B4UTUzmTSUGGaDoK0VCkgG",
     _type: "release",
-    _updatedAt: "2023-10-23T15:10:49Z",
+    _updatedAt: "2023-11-05T03:23:01Z",
     browser: {
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
-    currentUsage: 2.63483,
-    currentVersion: "118",
+    currentUsage: 2.6163179999999997,
+    currentVersion: "119",
     oses: [
       {
         _key: "4fe108553494",
@@ -317,15 +317,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-18T15:25:24Z",
     _id: "fb782fe5-1a48-46a0-ac53-2388dd571903",
-    _rev: "xjV26r95LyXpcLBMk061XS",
+    _rev: "lRZ54YVKpJaKWrGZ7SM1Sf",
     _type: "release",
-    _updatedAt: "2023-10-23T15:11:39Z",
+    _updatedAt: "2023-11-05T03:23:02Z",
     browser: {
       _ref: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
       _type: "reference",
     },
-    currentUsage: 2.3877691,
-    currentVersion: "22",
+    currentUsage: 2.3889006,
+    currentVersion: "23",
     oses: [
       {
         _key: "f2b070fa2538",
@@ -349,14 +349,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-26T14:54:03Z",
     _id: "02e8d45d-e6fc-4987-abb2-89d1a8208cda",
-    _rev: "h9gndD2P4keuz4rjs55YtZ",
+    _rev: "lRZ54YVKpJaKWrGZ7SM1Ub",
     _type: "release",
-    _updatedAt: "2023-11-01T17:26:42Z",
+    _updatedAt: "2023-11-05T03:23:03Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
-    currentUsage: 1.7233,
+    currentUsage: 2.071068,
     currentVersion: "103",
     downloadUrl:
       "https://download.opera.com/download/get/?partner=www&opsys=Linux",
@@ -387,14 +387,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:48:43Z",
     _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _rev: "lRZ54YVKpJaKWrGZ7QSzqb",
+    _rev: "h9gndD2P4keuz4rjsBck7h",
     _type: "release",
-    _updatedAt: "2023-11-01T17:27:08Z",
+    _updatedAt: "2023-11-05T03:23:04Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
-    currentUsage: 1.7233,
+    currentUsage: 2.071068,
     currentVersion: "103",
     downloadArticle: {
       _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
@@ -460,14 +460,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:20Z",
     _id: "9f482aff-b73c-45bb-bf10-a4ea19668029",
-    _rev: "xjV26r95LyXpcLBMk062N5",
+    _rev: "h9gndD2P4keuz4rjsBckEX",
     _type: "release",
-    _updatedAt: "2023-10-23T16:14:36Z",
+    _updatedAt: "2023-11-05T03:23:05Z",
     browser: {
       _ref: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
       _type: "reference",
     },
-    currentUsage: 0.4807101,
+    currentUsage: 0.44445409999999996,
     currentVersion: "11",
     oses: [
       {
