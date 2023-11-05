@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Fira_Sans } from "next/font/google";
 import type { ReactNode } from "react";
 import { Footer } from "../../components/Footer";
+import { GoogleTagManager } from "../../components/GoogleTagManager";
 import { Header } from "../../components/Header";
 import { Nav } from "../../components/Nav";
 import { getDictionary } from "../../dictionaries";
@@ -42,6 +43,7 @@ export async function generateStaticParams() {
 export default function Layout({ children, params: { language } }: Props) {
   return (
     <html lang={language}>
+      <GoogleTagManager />
       <body className={`${fira.className} ${fira.variable}`}>
         <Header language={language} />
         <Nav language={language} />
