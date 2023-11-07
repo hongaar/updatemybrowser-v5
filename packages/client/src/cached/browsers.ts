@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "h9gndD2P4keuz4rjsBckft",
+    _rev: "lRZ54YVKpJaKWrGZ7TDtMD",
     _type: "browser",
-    _updatedAt: "2023-11-02T06:30:36Z",
+    _updatedAt: "2023-11-07T03:21:18Z",
     description: [
       {
         _key: "en",
@@ -537,7 +537,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera is a multi-platform web browser developed by its namesake company Opera. The browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. There are also mobile versions called Opera Mobile and Opera Mini. Opera users also have access to Opera News, a news app based on an AI platform.",
+          "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. There are also mobile versions called Opera Mobile and Opera Mini. Opera users also have access to Opera News, a news app based on an AI platform.",
       },
       {
         _key: "nl",
