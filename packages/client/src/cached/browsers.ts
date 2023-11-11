@@ -731,9 +731,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "lRZ54YVKpJaKWrGZ7SM1i9",
+    _rev: "6tBtT7HSXJBZgGx8QNZoUp",
     _type: "browser",
-    _updatedAt: "2023-11-02T06:29:04Z",
+    _updatedAt: "2023-11-11T03:22:35Z",
     description: [
       {
         _key: "en",
@@ -830,7 +830,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Chromium is a free and open-source web browser project, mainly developed and maintained by Google. This codebase provides the vast majority of code for the Google Chrome browser, which is proprietary software and has some additional features. Chromium's logo is identical in shape to that of Google Chrome, but with blue colors instead of being multicolor.",
+          "Chromium is a free and open-source web browser project, primarily developed and maintained by Google. This codebase provides the vast majority of code for the Google Chrome browser, which is proprietary software and has some additional features. Chromium's logo is identical in shape to that of Google Chrome, but with blue colors instead of being multicolor.",
       },
       {
         _key: "nl",
@@ -1852,9 +1852,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "lRZ54YVKpJaKWrGZ7SM1pt",
+    _rev: "TqlyArO3UyUhPGy08zvShy",
     _type: "browser",
-    _updatedAt: "2023-11-02T06:29:45Z",
+    _updatedAt: "2023-11-08T03:21:45Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -1970,7 +1970,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge is a proprietary, cross-platform web browser created by Microsoft. It was first released in 2015 as part of Windows 10 and Xbox One. It was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it got ported to other platforms as a fork of Google's Chromium open-source project: Android and iOS. In late 2018, it was announced that Edge would be completely rebuilt as a Chromium-based browser with Blink and V8 engines which allows the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser, The new Edge is also available on older Windows versions, And most recently it also got ported to Linux.",
+          "Microsoft Edge is a proprietary, cross-platform web browser created by Microsoft. It was first released in 2015 as part of Windows 10 and Xbox One. It was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it got ported to other platforms as a fork of Google's Chromium open-source project: Android and iOS. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines which allows the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser, The new Edge is also available on older Windows versions, And most recently it also got ported to Linux.",
       },
       {
         _key: "nl",
