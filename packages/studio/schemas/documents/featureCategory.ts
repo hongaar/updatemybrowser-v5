@@ -12,9 +12,10 @@ export const featureCategory: DocumentDefinition = {
       title: "name",
       icon: "icon",
     },
-    prepare({ icon, ...rest }) {
+    prepare({ title, icon, ...rest }) {
       return {
         ...rest,
+        title: title?.[0]?.value,
         media: iconPreview({ icon }),
       };
     },

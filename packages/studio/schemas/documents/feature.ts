@@ -1,5 +1,5 @@
 import type { DocumentDefinition } from "sanity";
-import { iconPreview } from "../../components/index.js";
+import { iconWithSubIconPreview } from "../../components/index.js";
 import { defaultFieldset, i18nString, slug } from "../mixins/index.js";
 
 export const feature: DocumentDefinition = {
@@ -10,12 +10,14 @@ export const feature: DocumentDefinition = {
   preview: {
     select: {
       title: "name",
-      icon: "icon",
+      icon: "category.icon",
+      subIcon: "icon",
     },
-    prepare({ icon, ...rest }) {
+    prepare({ title, icon, subIcon, ...rest }) {
       return {
         ...rest,
-        media: iconPreview({ icon }),
+        title: title?.[0]?.value,
+        media: iconWithSubIconPreview({ icon, subIcon }),
       };
     },
   },
@@ -30,17 +32,17 @@ export const feature: DocumentDefinition = {
     i18nString({
       name: "name",
       title: "Name",
-      description: "e.g. Privacy or Performance",
+      description: 'e.g. "Ad blocker"',
       required: true,
     }),
     slug({
-      description: "e.g. privacy or performance",
+      description: 'e.g. "ad-blocker"',
       source: "name[0].value",
     }),
     i18nString({
       name: "description",
       title: "Description",
-      description: 'e.g. "Features which help with protecting your privacy"',
+      description: 'e.g. "Blocks ads from appearing on websites"',
     }),
     {
       name: "icon",

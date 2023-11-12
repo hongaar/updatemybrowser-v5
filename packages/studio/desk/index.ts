@@ -5,6 +5,8 @@ import {
   EarthGlobeIcon,
   PackageIcon,
   RocketIcon,
+  TagIcon,
+  TagsIcon,
 } from "@sanity/icons";
 import type { ConfigContext } from "sanity";
 import type { StructureBuilder } from "sanity/desk";
@@ -44,6 +46,14 @@ export async function structure(S: StructureBuilder, context: ConfigContext) {
             ),
         ),
       S.divider(),
+      S.listItem()
+        .title("Feature categories")
+        .icon(TagsIcon)
+        .child(S.documentTypeList("featureCategory")),
+      S.listItem()
+        .title("Features")
+        .icon(TagIcon)
+        .child(S.documentTypeList("feature")),
       S.listItem()
         .title("Browsers")
         .icon(EarthGlobeIcon)

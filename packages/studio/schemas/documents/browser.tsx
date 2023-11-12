@@ -117,6 +117,13 @@ export const browser: DocumentDefinition = {
       description: "Set by the Wikipedia source, don't edit",
     }),
     {
+      name: "features",
+      title: "Features",
+      description: "Features of this browser",
+      type: "reference",
+      to: [{ type: "feature" }],
+    },
+    {
       name: "icon",
       title: "Icon",
       type: "icon",
