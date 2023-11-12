@@ -3,7 +3,7 @@
 import Script from "next/script";
 import { useEffect } from "react";
 
-const tagId = process.env.GOOGLE_TAG_MANAGER_ID;
+const tagId = process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID;
 
 declare var window: { dataLayer: Record<string, any>[] };
 
@@ -17,7 +17,7 @@ export function GoogleTagManager() {
   }, []);
 
   if (!tagId) {
-    console.log("GOOGLE_TAG_MANAGER_ID not set");
+    console.log("NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID not set");
     return null;
   }
 
