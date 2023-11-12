@@ -87,3 +87,11 @@ export async function getArticles({ language }: LanguageOptions) {
     },
   );
 }
+
+export async function getFeatureCategories() {
+  return getDocuments(DocType.FeatureCategory);
+}
+
+export async function getFeatures() {
+  return getDocuments(DocType.Feature);
+}

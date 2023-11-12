@@ -1,6 +1,6 @@
 "use client";
 
-import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
+import { type FlatBrowser } from "@updatemybrowser/client";
 import {
   hydrateBrowserWithFlatReleases,
   type MaybeHydratedBrowserWithFlatReleases,
@@ -12,7 +12,7 @@ import { Callout } from "../Callout";
 type Props = {
   language: string;
   dict: Dict;
-  browser: BrowserWithFlatReleases;
+  browser: FlatBrowser;
 };
 
 export function NotAvailable({ language, dict, browser }: Props) {

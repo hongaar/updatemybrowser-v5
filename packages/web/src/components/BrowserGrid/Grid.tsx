@@ -1,6 +1,6 @@
 "use client";
 
-import type { BrowserWithFlatReleases } from "@updatemybrowser/client";
+import type { FlatBrowser } from "@updatemybrowser/client";
 import {
   hydrateBrowsersWithFlatReleases,
   type MaybeHydratedBrowserWithFlatReleases,
@@ -14,7 +14,7 @@ import styles from "./browserGrid.module.scss";
 type Props = {
   dict: Dict;
   language: string;
-  browsers: BrowserWithFlatReleases[];
+  browsers: FlatBrowser[];
   heading?: ReactNode;
   toggleUnavailableBrowsers?: boolean;
 };

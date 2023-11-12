@@ -2,7 +2,8 @@ import * as cached from "./cached/index.js";
 import { defaultLanguage } from "./config.js";
 import * as sanity from "./sanity.js";
 import type {
-  BrowserWithFlatReleases,
+  FlatBrowser,
+  FlatFeatureCategory,
   ReleaseExpanded,
   ReleaseFlatExpanded,
 } from "./schema.js";
@@ -56,18 +57,37 @@ export async function getBrowsers({
   return useCache ? cached.browsers : await sanity.getBrowsers();
 }
 
-export async function getBrowsersWithFlatReleases({
+export async function getExpandedBrowsers({
   useCache = DEFAULT_USE_CACHE,
 }: UseCacheOption = {}) {
   const results = await getBrowsers({ useCache });
-  const releases = await getReleasesFlatExpanded({ useCache });
+  const features = await getFeatures({ useCache });
+  const featureCategories = await getFeatureCategories({ useCache });
+  const releases = await getFlatExpandedReleases({ useCache });
 
   const expandedResults = results.map((browser) => {
+    const browserFeatures = features.filter(
+      (item) => browser.features?.map((ref) => ref._ref).includes(item._id),
+    );
+    const categories = featureCategories
+      .filter((item) =>
+        browserFeatures.some((feature) => feature.category._ref === item._id),
+      )
+      .map((category) => {
+        return {
+          ...category,
+          features: browserFeatures.filter(
+            (feature) => feature.category._ref === category._id,
+          ),
+        };
+      }) as FlatFeatureCategory[];
+
     return {
       ...browser,
+      featureCategories: categories,
       releases: releases.filter((item) => browser._id === item.browser._id),
     };
-  }) as BrowserWithFlatReleases[];
+  }) as FlatBrowser[];
 
   return expandedResults;
 }
@@ -78,7 +98,10 @@ export async function getReleases({
   return useCache ? cached.releases : await sanity.getReleases();
 }
 
-export async function getReleasesExpanded({
+/**
+ * @deprecated
+ */
+export async function getExpandedReleases({
   useCache = DEFAULT_USE_CACHE,
 }: UseCacheOption = {}) {
   const results = await getReleases({ useCache });
@@ -99,7 +122,7 @@ export async function getReleasesExpanded({
   return expandedResults;
 }
 
-export async function getReleasesFlatExpanded({
+export async function getFlatExpandedReleases({
   useCache = DEFAULT_USE_CACHE,
 }: UseCacheOption = {}) {
   const results = await getReleases({ useCache });
@@ -136,4 +159,18 @@ export async function getArticles({
           : article.language === language;
       })
     : await sanity.getArticles({ language });
+}
+
+export async function getFeatureCategories({
+  useCache = DEFAULT_USE_CACHE,
+}: UseCacheOption = {}) {
+  return useCache
+    ? cached.featureCategories
+    : await sanity.getFeatureCategories();
+}
+
+export async function getFeatures({
+  useCache = DEFAULT_USE_CACHE,
+}: UseCacheOption = {}) {
+  return useCache ? cached.features : await sanity.getFeatures();
 }

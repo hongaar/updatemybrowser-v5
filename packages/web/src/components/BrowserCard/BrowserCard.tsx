@@ -1,4 +1,4 @@
-import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
+import { type FlatBrowser } from "@updatemybrowser/client";
 import type { MaybeHydratedBrowserWithFlatReleases } from "@updatemybrowser/detect";
 import Link from "next/link";
 import type { Dict } from "../../dictionaries/en";
@@ -10,7 +10,7 @@ type Props = {
   dict: Dict;
   medium?: boolean;
   small?: boolean;
-  browser: BrowserWithFlatReleases | MaybeHydratedBrowserWithFlatReleases;
+  browser: FlatBrowser | MaybeHydratedBrowserWithFlatReleases;
 };
 
 export function BrowserCard({

@@ -172,7 +172,7 @@ export type Language = Doc<{
   flag: IconManager;
 }>;
 
-export type Browser<T extends "plain" | "withFlatReleases" = "plain"> = Doc<
+export type Browser<T extends "plain" | "flat" = "plain"> = Doc<
   {
     _type: "browser";
     name: string;
@@ -192,12 +192,41 @@ export type Browser<T extends "plain" | "withFlatReleases" = "plain"> = Doc<
     youtubeId?: string;
     featuredArticles?: Keyed<Reference>[];
   } & (T extends "plain"
-    ? {}
-    : // withFlatReleases
-      { releases: T extends "plain" ? undefined : ReleaseFlatExpanded[] })
+    ? {
+        features?: Reference[];
+      }
+    : // flat
+      {
+        featureCategories: FlatFeatureCategory[];
+        releases: ReleaseFlatExpanded[];
+      })
 >;
 
-export type BrowserWithFlatReleases = Browser<"withFlatReleases">;
+export type FlatBrowser = Browser<"flat">;
+
+export type FeatureCategory<T extends "plain" | "flat" = "plain"> = Doc<
+  {
+    _type: "featureCategory";
+    name: I18nString;
+    slug: Slug;
+    description?: I18nString;
+    icon?: Icon;
+  } & (T extends "plain"
+    ? {}
+    : // flat
+      { features: Feature[] })
+>;
+
+export type FlatFeatureCategory = FeatureCategory<"flat">;
+
+export type Feature = Doc<{
+  _type: "feature";
+  category: Reference;
+  name: I18nString;
+  slug: Slug;
+  description?: I18nString;
+  icon?: Icon;
+}>;
 
 export type OS = Doc<{
   _type: "os";
@@ -267,6 +296,8 @@ export enum DocType {
   OS = "os",
   Release = "release",
   Article = "article",
+  FeatureCategory = "featureCategory",
+  Feature = "feature",
 }
 
 export type Docs = {
@@ -275,4 +306,6 @@ export type Docs = {
   [DocType.OS]: OS;
   [DocType.Release]: Release;
   [DocType.Article]: Article;
+  [DocType.FeatureCategory]: FeatureCategory;
+  [DocType.Feature]: Feature;
 };

@@ -1,5 +1,5 @@
 import type {
-  BrowserWithFlatReleases,
+  FlatBrowser,
   OS,
   Release,
   ReleaseFlatExpanded,
@@ -10,7 +10,7 @@ import { BrowserLinkButton } from "./BrowserLinkButton";
 type Props = {
   language: string;
   dict: Dict;
-  browser?: BrowserWithFlatReleases;
+  browser?: FlatBrowser;
   release?: Release | ReleaseFlatExpanded;
   os?: OS;
 };

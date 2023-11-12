@@ -1,4 +1,4 @@
-import { getBrowsersWithFlatReleases } from "@updatemybrowser/client";
+import { getExpandedBrowsers } from "@updatemybrowser/client";
 import type { Metadata } from "next";
 import { BrowserGrid } from "../../../components/BrowserGrid";
 import { Container } from "../../../components/Container";
@@ -16,9 +16,7 @@ export function generateMetadata({ params: { language } }: LanguageParams) {
 
 export default async function Home({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);
-  const browsers = (await getBrowsersWithFlatReleases()).sort(
-    compareAverageUsage,
-  );
+  const browsers = (await getExpandedBrowsers()).sort(compareAverageUsage);
 
   return (
     <Container>

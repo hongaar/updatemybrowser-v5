@@ -1,6 +1,6 @@
 "use client";
 
-import type { BrowserWithFlatReleases } from "@updatemybrowser/client";
+import type { FlatBrowser } from "@updatemybrowser/client";
 import {
   hydrateBrowsersWithFlatReleases,
   type MaybeHydratedBrowserWithFlatReleases,
@@ -12,7 +12,7 @@ import styles from "./browserAlternatives.module.scss";
 
 type Props = {
   language: string;
-  browsers: BrowserWithFlatReleases[];
+  browsers: FlatBrowser[];
 };
 
 const MAX_ITEMS = 5;

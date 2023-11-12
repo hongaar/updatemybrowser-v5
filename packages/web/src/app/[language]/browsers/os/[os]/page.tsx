@@ -1,6 +1,6 @@
 import {
   getBrowsers,
-  getBrowsersWithFlatReleases,
+  getExpandedBrowsers,
   getOses,
 } from "@updatemybrowser/client";
 import type { Metadata } from "next";
@@ -48,7 +48,7 @@ export default async function Browser({
     throw notFound();
   }
 
-  const browsers = (await getBrowsersWithFlatReleases())
+  const browsers = (await getExpandedBrowsers())
     .filter((item) => {
       return item.releases.some((release) => release.os.os._id === os?._id);
     })

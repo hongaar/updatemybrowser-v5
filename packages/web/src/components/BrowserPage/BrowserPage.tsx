@@ -1,4 +1,4 @@
-import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
+import { type FlatBrowser } from "@updatemybrowser/client";
 import type { Dict } from "../../dictionaries/en";
 import { BrowserAlternatives } from "../BrowserAlternatives";
 import {
@@ -17,8 +17,8 @@ import styles from "./browserPage.module.scss";
 type Props = {
   language: string;
   dict: Dict;
-  browsers: BrowserWithFlatReleases[];
-  browser: BrowserWithFlatReleases;
+  browsers: FlatBrowser[];
+  browser: FlatBrowser;
   headingPrefix?: string;
   showMetadata?: boolean;
 };

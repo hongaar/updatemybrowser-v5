@@ -1,6 +1,6 @@
 import {
   getArticles,
-  getBrowsersWithFlatReleases,
+  getExpandedBrowsers,
   getOses,
   getReleases,
 } from "@updatemybrowser/client";
@@ -27,7 +27,7 @@ export async function generateMetadata({
   params: { language, browser: browserSlug, os: osSlug },
 }: LanguageParams & BrowserParams & OsParams) {
   const dict = getDictionary(language);
-  const browsers = await getBrowsersWithFlatReleases();
+  const browsers = await getExpandedBrowsers();
   const browser = browsers.find((item) => item.slug.current === browserSlug);
   const oses = await getOses();
   const os = oses.find((item) => item.slug.current === osSlug);
@@ -41,7 +41,7 @@ export default async function Update({
   params: { language, browser: browserSlug, os: osSlug },
 }: LanguageParams & BrowserParams & OsParams) {
   const dict = getDictionary(language);
-  const browsers = await getBrowsersWithFlatReleases();
+  const browsers = await getExpandedBrowsers();
   const browser = browsers.find((item) => item.slug.current === browserSlug);
 
   if (!browser) {

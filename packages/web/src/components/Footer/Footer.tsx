@@ -1,5 +1,5 @@
 import {
-  getBrowsersWithFlatReleases,
+  getExpandedBrowsers,
   getLanguages,
   getOses,
 } from "@updatemybrowser/client";
@@ -15,7 +15,7 @@ type Props = {
 };
 
 export async function Footer({ language }: Props) {
-  const browsers = await getBrowsersWithFlatReleases();
+  const browsers = await getExpandedBrowsers();
   const oses = await getOses();
   const languages = await getLanguages();
 

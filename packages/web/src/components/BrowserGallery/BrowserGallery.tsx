@@ -1,6 +1,6 @@
 "use client";
 
-import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
+import { type FlatBrowser } from "@updatemybrowser/client";
 import PhotoAlbum from "react-photo-album";
 import type { Dict } from "../../dictionaries/en";
 import { useLightbox } from "../Lightbox";
@@ -11,7 +11,7 @@ import styles from "./browserGallery.module.scss";
 type Props = {
   language: string;
   dict: Dict;
-  browser: BrowserWithFlatReleases;
+  browser: FlatBrowser;
 };
 
 export type BrowserGalleryItem = {

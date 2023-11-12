@@ -1,5 +1,5 @@
 import type {
-  BrowserWithFlatReleases,
+  FlatBrowser,
   OS,
   OsVersion,
   ReleaseFlatExpanded,
@@ -7,7 +7,7 @@ import type {
 import { gt, highestVersion, lt } from "@updatemybrowser/core";
 import { detect, type DetectedOs } from "./detect.js";
 
-export type MaybeHydratedBrowserWithFlatReleases = BrowserWithFlatReleases & {
+export type MaybeHydratedBrowserWithFlatReleases = FlatBrowser & {
   match?: {
     /**
      * Whether browser matches the detected browser and has a release which
@@ -54,15 +54,11 @@ export function matchesOs(osVersion: OsVersion<OS>, os?: DetectedOs) {
   return false;
 }
 
-export function hydrateBrowsersWithFlatReleases(
-  browsers: BrowserWithFlatReleases[],
-) {
+export function hydrateBrowsersWithFlatReleases(browsers: FlatBrowser[]) {
   return browsers.map((item) => hydrateBrowserWithFlatReleases(item));
 }
 
-export function hydrateBrowserWithFlatReleases(
-  browser: BrowserWithFlatReleases,
-) {
+export function hydrateBrowserWithFlatReleases(browser: FlatBrowser) {
   const { os, browser: detectedBrowser } = detect();
 
   const currentOsRelease = browser.releases?.find((release) =>

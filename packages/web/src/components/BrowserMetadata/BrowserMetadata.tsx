@@ -1,4 +1,4 @@
-import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
+import { type FlatBrowser } from "@updatemybrowser/client";
 import type { Dict } from "../../dictionaries/en";
 import { averageUsage } from "../../utils";
 import { ReleaseTag, TagList } from "../Tag";
@@ -7,7 +7,7 @@ import styles from "./browserMetadata.module.scss";
 type Props = {
   language: string;
   dict: Dict;
-  browser: BrowserWithFlatReleases;
+  browser: FlatBrowser;
 };
 
 const SHOW_POPULARITY = false;

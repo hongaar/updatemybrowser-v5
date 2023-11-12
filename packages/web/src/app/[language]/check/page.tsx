@@ -1,7 +1,4 @@
-import {
-  getArticles,
-  getBrowsersWithFlatReleases,
-} from "@updatemybrowser/client";
+import { getArticles, getExpandedBrowsers } from "@updatemybrowser/client";
 import type { Metadata } from "next";
 import { getDictionary } from "../../../dictionaries";
 import { pageTitle } from "../../../utils";
@@ -18,7 +15,7 @@ export function generateMetadata({ params: { language } }: LanguageParams) {
 
 export default async function Check({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);
-  const browsers = await getBrowsersWithFlatReleases();
+  const browsers = await getExpandedBrowsers();
   const articles = (await getArticles({ language })).filter(
     (article) => !!article.browser && article.oses && article.oses?.length > 0,
   );

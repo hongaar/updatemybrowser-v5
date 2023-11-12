@@ -1,4 +1,4 @@
-import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
+import { type FlatBrowser } from "@updatemybrowser/client";
 import type { Dict } from "../../dictionaries/en";
 import { comparePopularity } from "../../utils";
 import { List } from "./List";
@@ -7,8 +7,8 @@ import styles from "./browserAlternatives.module.scss";
 type Props = {
   language: string;
   dict: Dict;
-  browsers: BrowserWithFlatReleases[];
-  exclude: BrowserWithFlatReleases;
+  browsers: FlatBrowser[];
+  exclude: FlatBrowser;
 };
 
 export function BrowserAlternatives({

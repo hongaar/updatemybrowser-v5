@@ -1,6 +1,6 @@
 "use client";
 
-import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
+import { type FlatBrowser } from "@updatemybrowser/client";
 import {
   hydrateBrowserWithFlatReleases,
   type MaybeHydratedBrowserWithFlatReleases,
@@ -14,7 +14,7 @@ import styles from "./browserBanners.module.scss";
 type Props = {
   language: string;
   dict: Dict;
-  browser: BrowserWithFlatReleases;
+  browser: FlatBrowser;
 };
 
 export function UpdateAvailable({ language, dict, browser }: Props) {

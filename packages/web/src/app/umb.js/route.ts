@@ -1,10 +1,10 @@
-import { getBrowsersWithFlatReleases } from "@updatemybrowser/client";
+import { getExpandedBrowsers } from "@updatemybrowser/client";
 import { highestVersion } from "@updatemybrowser/core";
 import { readFile } from "fs/promises";
 import { NextResponse, type NextRequest } from "next/server";
 
 export async function GET(request: NextRequest) {
-  const browsers = await getBrowsersWithFlatReleases();
+  const browsers = await getExpandedBrowsers();
 
   const umb = await readFile(process.cwd() + "/src/app/umb.js/umb.js", "utf8");
 

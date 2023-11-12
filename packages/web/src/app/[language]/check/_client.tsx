@@ -1,9 +1,6 @@
 "use client";
 
-import {
-  type Article,
-  type BrowserWithFlatReleases,
-} from "@updatemybrowser/client";
+import { type Article, type FlatBrowser } from "@updatemybrowser/client";
 import {
   hydrateBrowsersWithFlatReleases,
   type MaybeHydratedBrowserWithFlatReleases,
@@ -21,7 +18,7 @@ import type { Dict } from "../../../dictionaries/en";
 type Props = {
   language: string;
   dict: Dict;
-  browsers: BrowserWithFlatReleases[];
+  browsers: FlatBrowser[];
   articles: Article[];
 };
 

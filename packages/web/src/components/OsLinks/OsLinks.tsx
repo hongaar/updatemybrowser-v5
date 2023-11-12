@@ -1,4 +1,4 @@
-import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
+import { type FlatBrowser } from "@updatemybrowser/client";
 import Link from "next/link";
 import type { Dict } from "../../dictionaries/en";
 import styles from "./osLinks.module.scss";
@@ -6,7 +6,7 @@ import styles from "./osLinks.module.scss";
 type Props = {
   language: string;
   dict: Dict;
-  browser: BrowserWithFlatReleases;
+  browser: FlatBrowser;
   verb: string;
   urlSuffix: "update" | "download";
 };

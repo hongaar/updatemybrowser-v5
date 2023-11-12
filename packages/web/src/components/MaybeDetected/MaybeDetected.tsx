@@ -1,4 +1,4 @@
-import type { BrowserWithFlatReleases } from "@updatemybrowser/client";
+import type { FlatBrowser } from "@updatemybrowser/client";
 import { sprintf } from "sprintf-js";
 import type { Dict } from "../../dictionaries/en";
 import { BrowserCard } from "../BrowserCard";
@@ -7,8 +7,8 @@ import styles from "./maybeDetected.module.scss";
 type Props = {
   language: string;
   dict: Dict;
-  browsers: BrowserWithFlatReleases[];
-  browser: BrowserWithFlatReleases;
+  browsers: FlatBrowser[];
+  browser: FlatBrowser;
 };
 
 export function MaybeDetected({ language, dict, browser, browsers }: Props) {

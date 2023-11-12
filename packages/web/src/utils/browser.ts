@@ -1,6 +1,6 @@
-import type { BrowserWithFlatReleases } from "@updatemybrowser/client";
+import type { FlatBrowser } from "@updatemybrowser/client";
 
-export function averageUsage(browser: BrowserWithFlatReleases) {
+export function averageUsage(browser: FlatBrowser) {
   const releases = browser.releases.filter(
     (release) => typeof release.currentUsage === "number",
   );
@@ -12,16 +12,10 @@ export function averageUsage(browser: BrowserWithFlatReleases) {
       }, 0) / releases.length;
 }
 
-export function compareAverageUsage(
-  a: BrowserWithFlatReleases,
-  b: BrowserWithFlatReleases,
-) {
+export function compareAverageUsage(a: FlatBrowser, b: FlatBrowser) {
   return averageUsage(b) > averageUsage(a) ? 1 : -1;
 }
 
-export function comparePopularity(
-  a: BrowserWithFlatReleases,
-  b: BrowserWithFlatReleases,
-) {
+export function comparePopularity(a: FlatBrowser, b: FlatBrowser) {
   return (a.popularity || 0) > (b.popularity || 0) ? -1 : 1;
 }

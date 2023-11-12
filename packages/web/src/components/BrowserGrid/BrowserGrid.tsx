@@ -1,11 +1,11 @@
-import { type BrowserWithFlatReleases } from "@updatemybrowser/client";
+import { type FlatBrowser } from "@updatemybrowser/client";
 import type { ReactNode } from "react";
 import { getDictionary } from "../../dictionaries";
 import { Grid } from "./Grid";
 
 type Props = {
   language: string;
-  browsers: BrowserWithFlatReleases[];
+  browsers: FlatBrowser[];
   heading?: ReactNode;
   toggleUnavailableBrowsers?: boolean;
 };

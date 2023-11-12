@@ -1,6 +1,6 @@
 import { TranslateIcon } from "@sanity/icons";
 import {
-  getBrowsersWithFlatReleases,
+  getExpandedBrowsers,
   getOses,
   type Article,
 } from "@updatemybrowser/client";
@@ -33,7 +33,7 @@ export async function Article({
   customComponents,
 }: Props) {
   const oses = await getOses();
-  const browsers = await getBrowsersWithFlatReleases();
+  const browsers = await getExpandedBrowsers();
   const browser = browsers.find((item) => item._id === article.browser?._ref);
 
   const components = {

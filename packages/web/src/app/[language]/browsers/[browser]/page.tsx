@@ -1,7 +1,7 @@
 import {
   getArticles,
   getBrowsers,
-  getBrowsersWithFlatReleases,
+  getExpandedBrowsers,
 } from "@updatemybrowser/client";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -28,7 +28,7 @@ export async function generateMetadata({
   params: { browser: browserSlug, language },
 }: LanguageParams & BrowserParams) {
   const dict = getDictionary(language);
-  const browsers = await getBrowsersWithFlatReleases();
+  const browsers = await getExpandedBrowsers();
   const browser = browsers.find((item) => item.slug.current === browserSlug);
 
   return {
@@ -40,7 +40,7 @@ export default async function Browser({
   params: { browser: browserSlug, language },
 }: LanguageParams & BrowserParams) {
   const dict = getDictionary(language);
-  const browsers = await getBrowsersWithFlatReleases();
+  const browsers = await getExpandedBrowsers();
   const browser = browsers.find((item) => item.slug.current === browserSlug);
 
   if (!browser) {
