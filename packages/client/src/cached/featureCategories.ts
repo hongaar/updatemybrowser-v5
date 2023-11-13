@@ -3,41 +3,48 @@ import type { FeatureCategory } from "../schema.js";
 
 export const featureCategories: FeatureCategory[] = [
   {
-    _createdAt: "2023-10-02T10:17:37Z",
-    _id: "privacy",
-    _rev: "ne2Lo8XNb3UQT3zNABRyOf",
+    _createdAt: "2023-11-12T10:54:19Z",
+    _id: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
+    _rev: "6tBtT7HSXJBZgGx8QaAR7V",
     _type: "featureCategory",
-    _updatedAt: "2023-10-04T17:30:25Z",
+    _updatedAt: "2023-11-12T10:59:15Z",
+    description: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Features which help with protecting your privacy",
+      },
+    ],
     icon: {
       _type: "icon",
       predefined: {
         _type: "icon.manager",
-        icon: "logos:ios",
+        icon: "ic:baseline-privacy-tip",
         metadata: {
           author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
+            name: "Material Design Authors",
+            url: "https://github.com/material-icons/material-icons",
           },
-          collectionId: "logos",
-          collectionName: "SVG Logos",
+          collectionId: "ic",
+          collectionName: "Google Material Icons",
           downloadUrl:
-            "https://api.iconify.design/logos:ios.svg?width=20&height=20&download=1",
+            "https://api.iconify.design/ic:baseline-privacy-tip.svg?width=20&height=20&download=1",
           flip: "",
           hFlip: false,
-          iconName: "ios",
+          iconName: "baseline-privacy-tip",
           inlineSvg:
-            '<svg viewBox="0 0 257 128" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M1.862 124.978h21.17v-90.12H1.862v90.12ZM12.405 23.04c6.631 0 11.817-5.101 11.817-11.477C24.222 5.1 19.036 0 12.405 0C5.858 0 .672 5.101.672 11.563c0 6.376 5.186 11.477 11.733 11.477ZM93.515.254c-35.792 0-58.238 24.401-58.238 63.426c0 39.024 22.444 63.34 58.239 63.34c35.707 0 58.153-24.316 58.153-63.34c0-39.025-22.444-63.426-58.153-63.426Zm0 18.705c21.85 0 35.793 17.344 35.793 44.72c0 27.291-13.943 44.636-35.792 44.636c-21.935 0-35.793-17.344-35.793-44.636c0-27.376 13.859-44.72 35.793-44.72ZM160.6 90.46c.935 22.616 19.469 36.558 47.695 36.558c29.672 0 48.377-14.623 48.377-37.919c0-18.279-10.542-28.566-35.453-34.262l-14.113-3.23c-15.049-3.571-21.255-8.332-21.255-16.494c0-10.203 9.352-17.004 23.21-17.004c14.028 0 23.635 6.887 24.656 18.364h20.914c-.51-21.595-18.364-36.219-45.4-36.219c-26.696 0-45.655 14.708-45.655 36.474c0 17.514 10.712 28.396 33.326 33.583l15.899 3.74c15.473 3.657 21.765 8.758 21.765 17.6c0 10.202-10.288 17.514-25.08 17.514c-14.963 0-26.27-7.397-27.63-18.705H160.6Z"></path></svg>',
+            '<svg viewBox="0 0 24 24" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5l-9-4zm-1 6h2v2h-2V7zm0 4h2v6h-2v-6z" fill="currentColor"></path></svg>',
           license: {
-            name: "CC0",
-            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
+            name: "Apache 2.0",
+            url: "https://github.com/material-icons/material-icons/blob/master/LICENSE",
           },
-          palette: true,
+          palette: false,
           rotate: 0,
           size: {
             height: 20,
             width: 20,
           },
-          url: "https://api.iconify.design/logos:ios.svg?width=20&height=20",
+          url: "https://api.iconify.design/ic:baseline-privacy-tip.svg?width=20&height=20",
           vFlip: false,
         },
       },
@@ -53,12 +60,211 @@ export const featureCategories: FeatureCategory[] = [
       _type: "slug",
       current: "privacy",
     },
-    description: [
+  },
+  {
+    _createdAt: "2023-11-13T10:26:14Z",
+    _id: "9fc60c51-bd38-40f9-8714-0295719eae1a",
+    _rev: "6tBtT7HSXJBZgGx8QikBSp",
+    _type: "featureCategory",
+    _updatedAt: "2023-11-13T10:26:14Z",
+    icon: {
+      _type: "icon",
+      predefined: {
+        _type: "icon.manager",
+        icon: "mdi:puzzle",
+        metadata: {
+          author: {
+            name: "Pictogrammers",
+            url: "https://github.com/Templarian/MaterialDesign",
+          },
+          collectionId: "mdi",
+          collectionName: "Material Design Icons",
+          downloadUrl:
+            "https://api.iconify.design/mdi:puzzle.svg?width=20&height=20&download=1",
+          hFlip: false,
+          iconName: "puzzle",
+          inlineSvg:
+            '<svg viewBox="0 0 24 24" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.5 11H19V7a2 2 0 0 0-2-2h-4V3.5A2.5 2.5 0 0 0 10.5 1A2.5 2.5 0 0 0 8 3.5V5H4a2 2 0 0 0-2 2v3.8h1.5c1.5 0 2.7 1.2 2.7 2.7c0 1.5-1.2 2.7-2.7 2.7H2V20a2 2 0 0 0 2 2h3.8v-1.5c0-1.5 1.2-2.7 2.7-2.7c1.5 0 2.7 1.2 2.7 2.7V22H17a2 2 0 0 0 2-2v-4h1.5a2.5 2.5 0 0 0 2.5-2.5a2.5 2.5 0 0 0-2.5-2.5Z" fill="currentColor"></path></svg>',
+          license: {
+            name: "Apache 2.0",
+            url: "https://github.com/Templarian/MaterialDesign/blob/master/LICENSE",
+          },
+          palette: false,
+          rotate: 0,
+          size: {
+            height: 20,
+            width: 20,
+          },
+          url: "https://api.iconify.design/mdi:puzzle.svg?width=20&height=20",
+          vFlip: false,
+        },
+      },
+    },
+    name: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
-        value: "Privacy category description",
+        value: "Plugins",
       },
     ],
+    slug: {
+      _type: "slug",
+      current: "plugins",
+    },
+  },
+  {
+    _createdAt: "2023-11-13T10:30:25Z",
+    _id: "c6589281-e38e-41ac-b49e-124d1eab39e0",
+    _rev: "6tBtT7HSXJBZgGx8Qilk0P",
+    _type: "featureCategory",
+    _updatedAt: "2023-11-13T10:30:25Z",
+    icon: {
+      _type: "icon",
+      predefined: {
+        _type: "icon.manager",
+        icon: "vaadin:tools",
+        metadata: {
+          author: {
+            name: "Vaadin",
+            url: "https://github.com/vaadin/web-components",
+          },
+          collectionId: "vaadin",
+          collectionName: "Vaadin Icons",
+          downloadUrl:
+            "https://api.iconify.design/vaadin:tools.svg?width=20&height=20&download=1",
+          flip: "",
+          hFlip: false,
+          iconName: "tools",
+          inlineSvg:
+            '<svg viewBox="0 0 16 16" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="m10.3 8.2l-.9.9l.9.9l-1.2 1.2l4.3 4.3c.6.6 1.5.6 2.1 0s.6-1.5 0-2.1l-5.2-5.2zm3.9 6.8c-.4 0-.8-.3-.8-.8c0-.4.3-.8.8-.8s.8.3.8.8s-.3.8-.8.8zM3.6 8l.9-.6L6 5.7l.9.9l.9-.9l-.1-.1c.2-.5.3-1 .3-1.6c0-2.2-1.8-4-4-4c-.6 0-1.1.1-1.6.3l2.9 2.9l-2.1 2.1L.3 2.4C.1 2.9 0 3.4 0 4c0 2.1 1.6 3.7 3.6 4z" fill="currentColor"></path><path d="m8 10.8l.9-.8l-.9-.9l5.7-5.7l1.2-.4L16 .8l-.7-.7l-2.3 1l-.5 1.2L6.9 8L6 7.1l-.8.9s.8.6-.1 1.5c-.5.5-1.3-.1-2.8 1.4L.2 13s-.6 1 .6 2.2s2.2.6 2.2.6l2.1-2.1c1.4-1.4.9-2.3 1.3-2.7c.9-.9 1.6-.2 1.6-.2zm-3.1-.4l.7.7l-3.8 3.8l-.7-.7z" fill="currentColor"></path></svg>',
+          license: {
+            name: "Apache 2.0",
+          },
+          palette: false,
+          rotate: 0,
+          size: {
+            height: 20,
+            width: 20,
+          },
+          url: "https://api.iconify.design/vaadin:tools.svg?width=20&height=20",
+          vFlip: false,
+        },
+      },
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Productivity",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "productivity",
+    },
+  },
+  {
+    _createdAt: "2023-11-13T10:24:00Z",
+    _id: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
+    _rev: "6tBtT7HSXJBZgGx8QijIhP",
+    _type: "featureCategory",
+    _updatedAt: "2023-11-13T10:24:00Z",
+    icon: {
+      _type: "icon",
+      predefined: {
+        _type: "icon.manager",
+        icon: "uil:window",
+        metadata: {
+          author: {
+            name: "Iconscout",
+            url: "https://github.com/Iconscout/unicons",
+          },
+          collectionId: "uil",
+          collectionName: "Unicons",
+          downloadUrl:
+            "https://api.iconify.design/uil:window.svg?width=20&height=20&download=1",
+          flip: "",
+          hFlip: false,
+          iconName: "window",
+          inlineSvg:
+            '<svg viewBox="0 0 24 24" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M10 5a1 1 0 1 0 1 1a1 1 0 0 0-1-1ZM6 5a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm8 0a1 1 0 1 0 1 1a1 1 0 0 0-1-1Zm6-4H4a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h16a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3Zm1 19a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-9h18Zm0-11H3V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1Z" fill="currentColor"></path></svg>',
+          license: {
+            name: "Apache 2.0",
+            url: "https://github.com/Iconscout/unicons/blob/master/LICENSE",
+          },
+          palette: false,
+          rotate: 0,
+          size: {
+            height: 20,
+            width: 20,
+          },
+          url: "https://api.iconify.design/uil:window.svg?width=20&height=20",
+          vFlip: false,
+        },
+      },
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Interface",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "interface",
+    },
+  },
+  {
+    _createdAt: "2023-11-13T10:20:34Z",
+    _id: "f77b7ce5-70cb-4956-84ab-12ea1ce7cc6c",
+    _rev: "P8iX8yLNzdMX2eS89dahol",
+    _type: "featureCategory",
+    _updatedAt: "2023-11-13T10:20:52Z",
+    icon: {
+      _type: "icon",
+      predefined: {
+        _type: "icon.manager",
+        icon: "ic:baseline-security",
+        metadata: {
+          author: {
+            name: "Material Design Authors",
+            url: "https://github.com/material-icons/material-icons",
+          },
+          collectionId: "ic",
+          collectionName: "Google Material Icons",
+          downloadUrl:
+            "https://api.iconify.design/ic:baseline-security.svg?width=20&height=20&download=1",
+          flip: "",
+          hFlip: false,
+          iconName: "baseline-security",
+          inlineSvg:
+            '<svg viewBox="0 0 24 24" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" fill="currentColor"></path></svg>',
+          license: {
+            name: "Apache 2.0",
+            url: "https://github.com/material-icons/material-icons/blob/master/LICENSE",
+          },
+          palette: false,
+          rotate: 0,
+          size: {
+            height: 20,
+            width: 20,
+          },
+          url: "https://api.iconify.design/ic:baseline-security.svg?width=20&height=20",
+          vFlip: false,
+        },
+      },
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Security",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "security",
+    },
   },
 ];

@@ -7,6 +7,8 @@ import {
   enableDrafts,
   getArticles,
   getBrowsers,
+  getFeatureCategories,
+  getFeatures,
   getLanguages,
   getOses,
   getReleases,
@@ -58,6 +60,13 @@ async function createDocsCache() {
   await createCache("browsers", "Browser", languages, getBrowsers);
   await createCache("releases", "Release", languages, getReleases);
   await createCache("articles", "Article", languages, getArticles);
+  await createCache(
+    "featureCategories",
+    "FeatureCategory",
+    languages,
+    getFeatureCategories,
+  );
+  await createCache("features", "Feature", languages, getFeatures);
 }
 
 createDocsCache();

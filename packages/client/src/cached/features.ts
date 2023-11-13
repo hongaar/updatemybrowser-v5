@@ -3,48 +3,175 @@ import type { Feature } from "../schema.js";
 
 export const features: Feature[] = [
   {
-    _createdAt: "2023-10-02T10:17:37Z",
-    _id: "cef5f9a9-5f4f-46db-96be-0228c9a760ab",
-    _rev: "ne2Lo8XNb3UQT3zNABRyOf",
+    _createdAt: "2023-11-13T10:35:40Z",
+    _id: "30d67e62-0f8c-4648-ab91-dfca41410412",
+    _rev: "6tBtT7HSXJBZgGx8QinYlH",
     _type: "feature",
-    _updatedAt: "2023-10-04T17:30:25Z",
-    icon: {
-      _type: "icon",
-      predefined: {
-        _type: "icon.manager",
-        icon: "logos:ios",
-        metadata: {
-          author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
-          },
-          collectionId: "logos",
-          collectionName: "SVG Logos",
-          downloadUrl:
-            "https://api.iconify.design/logos:ios.svg?width=20&height=20&download=1",
-          flip: "",
-          hFlip: false,
-          iconName: "ios",
-          inlineSvg:
-            '<svg viewBox="0 0 257 128" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M1.862 124.978h21.17v-90.12H1.862v90.12ZM12.405 23.04c6.631 0 11.817-5.101 11.817-11.477C24.222 5.1 19.036 0 12.405 0C5.858 0 .672 5.101.672 11.563c0 6.376 5.186 11.477 11.733 11.477ZM93.515.254c-35.792 0-58.238 24.401-58.238 63.426c0 39.024 22.444 63.34 58.239 63.34c35.707 0 58.153-24.316 58.153-63.34c0-39.025-22.444-63.426-58.153-63.426Zm0 18.705c21.85 0 35.793 17.344 35.793 44.72c0 27.291-13.943 44.636-35.792 44.636c-21.935 0-35.793-17.344-35.793-44.636c0-27.376 13.859-44.72 35.793-44.72ZM160.6 90.46c.935 22.616 19.469 36.558 47.695 36.558c29.672 0 48.377-14.623 48.377-37.919c0-18.279-10.542-28.566-35.453-34.262l-14.113-3.23c-15.049-3.571-21.255-8.332-21.255-16.494c0-10.203 9.352-17.004 23.21-17.004c14.028 0 23.635 6.887 24.656 18.364h20.914c-.51-21.595-18.364-36.219-45.4-36.219c-26.696 0-45.655 14.708-45.655 36.474c0 17.514 10.712 28.396 33.326 33.583l15.899 3.74c15.473 3.657 21.765 8.758 21.765 17.6c0 10.202-10.288 17.514-25.08 17.514c-14.963 0-26.27-7.397-27.63-18.705H160.6Z"></path></svg>',
-          license: {
-            name: "CC0",
-            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
-          },
-          palette: true,
-          rotate: 0,
-          size: {
-            height: 20,
-            width: 20,
-          },
-          url: "https://api.iconify.design/logos:ios.svg?width=20&height=20",
-          vFlip: false,
-        },
-      },
-    },
+    _updatedAt: "2023-11-13T10:35:40Z",
     category: {
+      _ref: "9fc60c51-bd38-40f9-8714-0295719eae1a",
       _type: "reference",
-      _ref: "privacy",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Plugins support",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "plugins-support",
+    },
+  },
+  {
+    _createdAt: "2023-11-12T10:59:32Z",
+    _id: "3c42fbee-fa58-4c34-82b4-07324a097635",
+    _rev: "P8iX8yLNzdMX2eS89dc8G5",
+    _type: "feature",
+    _updatedAt: "2023-11-13T10:31:05Z",
+    category: {
+      _ref: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
+      _type: "reference",
+    },
+    description: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Blocks ads from appearing on websites",
+      },
+    ],
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Block ads",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "block-ads",
+    },
+  },
+  {
+    _createdAt: "2023-11-13T10:34:48Z",
+    _id: "4a4fce62-dc7d-40d9-b1a5-84e6a92366e2",
+    _rev: "P8iX8yLNzdMX2eS89dcWZR",
+    _type: "feature",
+    _updatedAt: "2023-11-13T10:34:48Z",
+    category: {
+      _ref: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
+      _type: "reference",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Private browsing",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "private-browsing",
+    },
+  },
+  {
+    _createdAt: "2023-11-13T10:33:28Z",
+    _id: "a32cbcd7-c281-45f5-9041-a6d2e1e26767",
+    _rev: "g4WGtXEJHMGyIQGoBriHPr",
+    _type: "feature",
+    _updatedAt: "2023-11-13T10:33:28Z",
+    category: {
+      _ref: "c6589281-e38e-41ac-b49e-124d1eab39e0",
+      _type: "reference",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Password manager",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "password-manager",
+    },
+  },
+  {
+    _createdAt: "2023-11-13T10:36:23Z",
+    _id: "bd5e7853-c514-4498-9b92-82ec06c78122",
+    _rev: "6tBtT7HSXJBZgGx8QinnP7",
+    _type: "feature",
+    _updatedAt: "2023-11-13T10:36:23Z",
+    category: {
+      _ref: "9fc60c51-bd38-40f9-8714-0295719eae1a",
+      _type: "reference",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Chrome web store support",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "chrome-web-store-support",
+    },
+  },
+  {
+    _createdAt: "2023-11-13T10:35:21Z",
+    _id: "e5ec9ff5-d466-4d4c-976c-48b3bf104e3f",
+    _rev: "6tBtT7HSXJBZgGx8QioMoL",
+    _type: "feature",
+    _updatedAt: "2023-11-13T10:38:11Z",
+    category: {
+      _ref: "9fc60c51-bd38-40f9-8714-0295719eae1a",
+      _type: "reference",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Firefox add-ons support",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "firefox-add-ons-support",
+    },
+  },
+  {
+    _createdAt: "2023-11-13T10:33:04Z",
+    _id: "f90318ae-0fb2-487c-a384-bc3cfb534c57",
+    _rev: "P8iX8yLNzdMX2eS89dcNAc",
+    _type: "feature",
+    _updatedAt: "2023-11-13T10:33:04Z",
+    category: {
+      _ref: "c6589281-e38e-41ac-b49e-124d1eab39e0",
+      _type: "reference",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Cloud sync",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "cloud-sync",
+    },
+  },
+  {
+    _createdAt: "2023-11-13T10:32:04Z",
+    _id: "f9f67163-4f2c-4a96-902a-9829a990601a",
+    _rev: "P8iX8yLNzdMX2eS89dcEhH",
+    _type: "feature",
+    _updatedAt: "2023-11-13T10:32:04Z",
+    category: {
+      _ref: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
+      _type: "reference",
     },
     name: [
       {
@@ -57,12 +184,5 @@ export const features: Feature[] = [
       _type: "slug",
       current: "block-trackers",
     },
-    description: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayStringValue",
-        value: "Block trackers",
-      },
-    ],
   },
 ];

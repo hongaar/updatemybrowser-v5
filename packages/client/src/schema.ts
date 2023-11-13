@@ -193,7 +193,7 @@ export type Browser<T extends "plain" | "flat" = "plain"> = Doc<
     featuredArticles?: Keyed<Reference>[];
   } & (T extends "plain"
     ? {
-        features?: Reference[];
+        features?: Keyed<Reference>[];
       }
     : // flat
       {

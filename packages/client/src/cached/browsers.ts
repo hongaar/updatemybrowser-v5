@@ -1565,9 +1565,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "lRZ54YVKpJaKWrGZ7SM1nx",
+    _rev: "P8iX8yLNzdMX2eS89ddytK",
     _type: "browser",
-    _updatedAt: "2023-11-02T06:31:07Z",
+    _updatedAt: "2023-11-13T10:48:56Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -1599,42 +1599,63 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value:
-          "Fast, secure, customizable, with built-in Google services and extensions.",
+          "Chrome is a fast, secure, and user-friendly internet application.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value:
-          "Snel, veilig, aanpasbaar, met ingebouwde Google-services en extensies.",
+          "Chrome is een snelle, veilige en gebruiksvriendelijke internettoepassing.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Schnell, sicher, anpassbar, mit integrierten Google-Diensten und Erweiterungen.",
+          "Chrome ist eine schnelle, sichere und benutzerfreundliche Internetanwendung.",
       },
       {
         _key: "hi",
         _type: "internationalizedArrayStringValue",
-        value: "तेज, सुरक्षित, अनुकूलनशील, जिसम",
+        value: "क्रोम एक तेज, सुरक्षित और उपयोगक",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Cepat, aman, dapat disesuaikan, dengan layanan Google dan ekstensi terintegrasi.",
+          "Chrome adalah aplikasi internet yang cepat, aman, dan mudah digunakan.",
       },
       {
         _key: "ru",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Быстрый, безопасный, настраиваемый, с встроенными сервисами Google и расши",
+        value: "Chrome - быстрое, безопасное и удобное интернет-приложение.",
       },
       {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value:
-          "Haraka, salama, inayoweza kubadilishwa, na huduma za Google na nyongeza zilizojeng",
+          "Chrome ni programu ya mtandao yenye kasi, usalama, na urafiki kwa watumiaji.",
+      },
+    ],
+    features: [
+      {
+        _key: "21e42fc8ad2d",
+        _ref: "bd5e7853-c514-4498-9b92-82ec06c78122",
+        _type: "reference",
+      },
+      {
+        _key: "72cf8f0c1175",
+        _ref: "f90318ae-0fb2-487c-a384-bc3cfb534c57",
+        _type: "reference",
+      },
+      {
+        _key: "05a5b96dec02",
+        _ref: "a32cbcd7-c281-45f5-9041-a6d2e1e26767",
+        _type: "reference",
+      },
+      {
+        _key: "e02e89fb0cf2",
+        _ref: "4a4fce62-dc7d-40d9-b1a5-84e6a92366e2",
+        _type: "reference",
       },
     ],
     homepage: "https://www.google.com/chrome/",
@@ -1793,7 +1814,7 @@ export const browsers: Browser[] = [
         _key: "id",
         _type: "internationalizedArrayTextValue",
         value:
-          "Google Chrome adalah peramban web lintas platform yang dikembangkan oleh Google. Peramban ini pertama kali dirilis pada tahun 2008 untuk Microsoft Windows, kemudian diporting ke Android, iOS, Linux, dan macOS yang menjadikannya sebagai peramban bawaan dalam sistem operasi. Peramban ini juga merupakan komponen utama Chrome OS, yang berfungsi sebagai platform untuk aplikasi web.",
+          "Google Chrome adalah peramban web lintas platform yang dikembangkan oleh Google. Peramban ini pertama kali dirilis pada tahun 2008 untuk Microsoft Windows, kemudian diporting ke Android, iOS, Linux, dan macOS yang menjadikannya sebagai peramban bawaan dalam sistem operasi. Peramban ini juga merupakan komponen utama Chrome OS, yang berfungsi sebagai platform untuk aplikasi web Tube.instagram.com.",
       },
       {
         _key: "ru",
@@ -2040,9 +2061,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:50:38Z",
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "B4UTUzmTSUGGaDoK0VClRs",
+    _rev: "6tBtT7HSXJBZgGx8Qitcpr",
     _type: "browser",
-    _updatedAt: "2023-11-02T06:29:50Z",
+    _updatedAt: "2023-11-13T10:54:05Z",
     description: [
       {
         _key: "en",
@@ -2051,27 +2072,10 @@ export const browsers: Browser[] = [
           "Customizable interface, tab management, built-in tools, privacy options, and speed.",
       },
       {
-        _key: "nl",
+        _key: "sw",
         _type: "internationalizedArrayStringValue",
         value:
-          "Aanpasbare interface, tabbladbeheer, ingebouwde tools, privacyopties en snelheid.",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayStringValue",
-        value:
-          "Anpassbare Benutzeroberfläche, Tab-Verwaltung, integrierte Tools, Datenschutzoptionen und Geschwindigkeit.",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayStringValue",
-        value: "अनुकूलनयोग्य इंटरफ़ेस, ट",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayStringValue",
-        value:
-          "Antarmuka yang dapat disesuaikan, pengelolaan tab, alat bawaan, opsi privasi, dan kecepatan",
+          "Kioleshi kinachoweza kubadilishwa, usimamizi wa vichupo, zana zilizojengwa",
       },
       {
         _key: "ru",
@@ -2080,10 +2084,39 @@ export const browsers: Browser[] = [
           "Настроенный интерфейс, управление вкладками, встроенные инструменты, вар",
       },
       {
-        _key: "sw",
+        _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Kioleshi kinachoweza kubadilishwa, usimamizi wa vichupo, zana zilizojengwa",
+          "Antarmuka yang dapat disesuaikan, pengelolaan tab, alat bawaan, opsi privasi, dan kecepatan",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Anpassbare Benutzeroberfläche, Tab-Verwaltung, integrierte Tools, Datenschutzoptionen und Geschwindigkeit.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Aanpasbare interface, tabbladbeheer, ingebouwde tools, privacyopties en snelheid.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "अनुकूलनयोग्य इंटरफ़ेस, ट",
+      },
+    ],
+    features: [
+      {
+        _key: "1857e84afc46",
+        _ref: "3c42fbee-fa58-4c34-82b4-07324a097635",
+        _type: "reference",
+      },
+      {
+        _key: "3d815470f0e9",
+        _ref: "f9f67163-4f2c-4a96-902a-9829a990601a",
+        _type: "reference",
       },
     ],
     homepage: "https://vivaldi.com",
@@ -2140,19 +2173,13 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Vivaldi ( ) is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies, a company founded by Tatsuki Tomita and Jon Stephenson von Tetzchner, who was the co-founder and CEO of Opera Software. Vivaldi was officially launched on 6 April 2016.",
+          "Vivaldi ( ) is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies, a company founded by Tatsuki Tomita and Jon Stephenson von Tetzchner, who was the co-founder and CEO of Opera Software. Vivaldi was initially released on 27 January 2015.",
       },
       {
-        _key: "nl",
+        _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Vivaldi is een webbrowser die ontwikkeld wordt door het Noorse Vivaldi Technologies. Dit bedrijf werd in 2014 opgericht door twee voormalige topmensen van Opera Software: Jon Stephenson von Tetzchner en Tatsuki Tomita. De browser is geïnspireerd op Opera en zet zich af tegen de keuzes die Opera toen maakte door over te stappen van de layout-engine Presto naar Blink, waarmee veel populaire onderdelen verloren gingen. Ook Vivaldi maakt gebruik van de layout-engine Blink, die afgeleid is van Chromium.",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Vivaldi ist ein Webbrowser des norwegischen Unternehmens Vivaldi Technologies, das Jon Stephenson von Tetzchner, Mitgründer und langjähriger Leiter von Opera Software, nach seinem Ausscheiden dort zur Entwicklung eines neuen Browsers 2013 gründete.",
+          "Vivaldi — интернет-браузер, созданный компанией Vivaldi Technologies на основе движка Blink. Первая тестовая версия стала доступна 27 января 2015 года. В браузер включены многие возможности, присутствовавшие в браузере Opera до 12 версии (включительно).",
       },
       {
         _key: "id",
@@ -2161,10 +2188,16 @@ export const browsers: Browser[] = [
           'Vivaldi merupakan peramban web gratis yang dikembangkan oleh Vivaldi Technologies, sebuah perusahaan yang didirikan oleh pendiri dan mantan CEO Opera Software Jon Stephenson von Tetzchner, dan Tatsuki Tomita. Peramban ini ditujukan kepada pengguna Opera yang tidak menyukai transisi dari Presto ke Blink, yang menyebabkan hilangnya fitur populer dalam peramban itu. Vivaldi ditujukan untuk menghidupkan kembali fitur populer Opera 12 dan memperkenalkan fitur inovatif terbaru. Peramban ini dimutakhirkan setiap minggu, dalam bentuk "Snapshots", dan telah memperoleh ketenaran sejak versi pratayang teknis.',
       },
       {
-        _key: "ru",
+        _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Vivaldi — интернет-браузер, созданный компанией Vivaldi Technologies на основе движка Blink. Первая тестовая версия стала доступна 27 января 2015 года. В браузер включены многие возможности, присутствовавшие в браузере Opera до 12 версии (включительно).",
+          "Vivaldi ist ein Webbrowser des norwegischen Unternehmens Vivaldi Technologies, das Jon Stephenson von Tetzchner, Mitgründer und langjähriger Leiter von Opera Software, nach seinem Ausscheiden dort zur Entwicklung eines neuen Browsers 2013 gründete.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Vivaldi is een webbrowser die ontwikkeld wordt door het Noorse Vivaldi Technologies. Dit bedrijf werd in 2014 opgericht door twee voormalige topmensen van Opera Software: Jon Stephenson von Tetzchner en Tatsuki Tomita. De browser is geïnspireerd op Opera en zet zich af tegen de keuzes die Opera toen maakte door over te stappen van de layout-engine Presto naar Blink, waarmee veel populaire onderdelen verloren gingen. Ook Vivaldi maakt gebruik van de layout-engine Blink, die afgeleid is van Chromium.",
       },
     ],
     vendor: "Vivaldi Technologies",
@@ -2175,14 +2208,9 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Vivaldi_(web_browser)",
       },
       {
-        _key: "nl",
+        _key: "ru",
         _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Vivaldi_(webbrowser)",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://de.wikipedia.org/wiki/Vivaldi_(Browser)",
+        value: "https://ru.wikipedia.org/wiki/Vivaldi",
       },
       {
         _key: "id",
@@ -2190,9 +2218,14 @@ export const browsers: Browser[] = [
         value: "https://id.wikipedia.org/wiki/Vivaldi_(peramban_web)",
       },
       {
-        _key: "ru",
+        _key: "de",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Vivaldi",
+        value: "https://de.wikipedia.org/wiki/Vivaldi_(Browser)",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://nl.wikipedia.org/wiki/Vivaldi_(webbrowser)",
       },
     ],
   },
