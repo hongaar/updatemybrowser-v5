@@ -120,8 +120,8 @@ export const browser: DocumentDefinition = {
       name: "features",
       title: "Features",
       description: "Features of this browser",
-      type: "reference",
-      to: [{ type: "feature" }],
+      type: "array",
+      of: [{ type: "reference", to: [{ type: "feature" }] }],
     },
     {
       name: "icon",
