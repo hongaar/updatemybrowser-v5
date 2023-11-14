@@ -2,7 +2,7 @@
 name: Content improvement
 about: Suggest a website content improvement
 title: ''
-labels: ''
+labels: content
 assignees: hongaar
 
 ---
