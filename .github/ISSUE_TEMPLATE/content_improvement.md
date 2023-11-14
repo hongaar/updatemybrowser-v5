@@ -1,14 +1,11 @@
 ---
 name: Content improvement
 about: Suggest a website content improvement
-title: ''
+title: Improvement for page <insert page URL here>
 labels: content
 assignees: hongaar
 
 ---
-
-**Page URL**
-Provide the full page URL where the content can be found, if applicable.
 
 **Description of the change**
 Explain what content you'd like to improve.
