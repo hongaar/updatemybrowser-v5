@@ -1,8 +1,8 @@
 import type {
   FlatBrowser,
+  FlatExpandedRelease,
   OS,
   OsVersion,
-  ReleaseFlatExpanded,
 } from "@updatemybrowser/client";
 import { gt, highestVersion, lt } from "@updatemybrowser/core";
 import { detect, type DetectedOs } from "./detect.js";
@@ -20,7 +20,7 @@ export type MaybeHydratedBrowserWithFlatReleases = FlatBrowser & {
      */
     browserMatch: boolean;
 
-    currentOsRelease: ReleaseFlatExpanded;
+    currentOsRelease: FlatExpandedRelease;
     availableOnCurrentOs: boolean;
     highestAvailableVersion: string;
     updateAvailable?: boolean;
@@ -98,7 +98,7 @@ export function hydrateBrowserWithFlatReleases(browser: FlatBrowser) {
 /**
  * @deprecated
  */
-export function hydrateReleasesFlatExpanded(releases: ReleaseFlatExpanded[]) {
+export function hydrateReleasesFlatExpanded(releases: FlatExpandedRelease[]) {
   const { os, browser } = detect();
 
   return releases.map((item) => {

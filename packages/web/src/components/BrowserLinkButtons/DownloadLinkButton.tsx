@@ -1,8 +1,8 @@
 import type {
   FlatBrowser,
+  FlatExpandedRelease,
   OS,
   Release,
-  ReleaseFlatExpanded,
 } from "@updatemybrowser/client";
 import type { Dict } from "../../dictionaries/en";
 import { BrowserLinkButton } from "./BrowserLinkButton";
@@ -11,7 +11,7 @@ type Props = {
   language: string;
   dict: Dict;
   browser?: FlatBrowser;
-  release?: Release | ReleaseFlatExpanded;
+  release?: Release | FlatExpandedRelease;
   os?: OS;
 };
 

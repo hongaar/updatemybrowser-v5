@@ -16,7 +16,9 @@ export function generateMetadata({ params: { language } }: LanguageParams) {
 
 export default async function Guides({ params: { language } }: LanguageParams) {
   const dict = getDictionary(language);
-  const articles = await getArticles({ language });
+  const articles = (await getArticles({ language })).filter(
+    (article) => article.hidden !== true,
+  );
 
   return (
     <Container>

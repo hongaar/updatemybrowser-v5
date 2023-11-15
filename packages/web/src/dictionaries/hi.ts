@@ -63,6 +63,18 @@ const dict: Dict = {
   NoGuides: "अभी तक कोई मार्गदर्शिका उपलब",
   EnglishGuides: "अंग्रेज़ी मार्गदर्शक",
   StepByStepGuide: "कदम से कदम गाइड",
+  BrowserFeaturesComparison: "ब्राउज़र सुविधाओं की तुलना",
+  BrowserFeaturesComparisonDescription: "आसान तुलना के लिए सुविधाजनक ताल",
+  MostPopularBrowsers: "सबसे लोकप्रिय ब्राउज़र",
+  MostPopularBrowsersDescription: "सबसे लोकप्रिय ब्राउज़रों का एक अ",
+  MostUsedBrowsers: "सबसे अधिक प्रयोग किए जाने वाले",
+  MostUsedBrowsersDescription: "सबसे अधिक प्रयोग की जाने वाली ब",
+  BrowserOverviews: "ब्राउज़र अवलोकन",
+  AdditionalBrowserOverviews: "अतिरिक्त ब्राउज़र अवलोकन",
+  AdditionalBrowserOverviewsDescription: "यहां कुछ अतिरिक्त संसाधन हैं जो क",
+  HelpImproveDescription: "कोई गलती देखें? कुछ जोड़ना च",
+  HelpImproveLinkText: "हमें इस पृष्ठ को GitHub पर सुधारने में म",
+  BrowserFeatures: "ब्राउज़र की विशेषताएँ",
 };
 
 export default dict;

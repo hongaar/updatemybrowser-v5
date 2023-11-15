@@ -3,8 +3,11 @@ import styles from "./icon.module.scss";
 
 type Props = {
   icon: Icon;
+  mode?: "img" | "svg";
   className?: string;
   alt?: string;
+  title?: string;
+  tooltip?: string;
 } & (
   | {
       width: number;
@@ -26,8 +29,11 @@ type Props = {
 
 export function Icon({
   icon,
+  mode = "img",
   className,
   alt,
+  title,
+  tooltip,
   height,
   cssHeight,
   width,
@@ -35,11 +41,12 @@ export function Icon({
   size,
   cssSize,
 }: Props) {
-  return (
+  return mode === "img" ? (
     // eslint-disable-next-line @next/next/no-img-element
     <img
       className={`${styles.img} ${className || ""}`}
       alt={alt}
+      title={title}
       style={{
         width: cssWidth || cssSize || width || size,
         height: cssHeight || cssSize || height || size,
@@ -49,6 +56,19 @@ export function Icon({
       src={`data:image/svg+xml;utf8,${encodeURIComponent(
         icon.predefined?.metadata.inlineSvg || icon.custom_svg || "",
       )}`}
+    />
+  ) : (
+    <span
+      className={`${styles.svgWrapper} ${className || ""}`}
+      title={title || alt}
+      data-tooltip={tooltip}
+      style={{
+        width: cssWidth || cssSize || width || size,
+        height: cssHeight || cssSize || height || size,
+      }}
+      dangerouslySetInnerHTML={{
+        __html: icon.predefined?.metadata.inlineSvg || icon.custom_svg || "",
+      }}
     />
   );
 }

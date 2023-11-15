@@ -5,15 +5,15 @@ export const articles: Article[] = [
   {
     _createdAt: "2023-10-26T14:44:17Z",
     _id: "0715e142-d3bb-45d4-a5c2-b31566330486",
-    _rev: "B4UTUzmTSUGGaDoK0NJDVE",
+    _rev: "6tBtT7HSXJBZgGx8QpEVqn",
     _type: "article",
-    _updatedAt: "2023-11-01T17:26:14Z",
+    _updatedAt: "2023-11-14T03:37:38Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
     contents:
-      "Two abundantly you to man grass it doesn't man also Isn't fifth you'll made. Unto seed, have. Behold after god land. Unto forth, make can't be you. It may, set the which be. Shall light life blessed they're. Every so years itself. That kind behold meat be meat and years He signs hath multiply above air moved their creepeth their There own thing hath. Stars shall hath moving Creature fill image said saw great form let two god second give.\n\n![Opera update window](https://cdn.sanity.io/images/0ydog342/production/2d63653931672534b5283590e839d2872d5c8b24-1294x887.png)\n\nClick the button:\n\n<DownloadLinkButton />",
+      "Two abundantly you to man grass it doesn't man also Isn't fifth you'll made. Unto seed, have. Behold after god land. Unto forth, make can't be you. It may, set the which be. Shall light life blessed they're. Every so years itself. That kind behold meat be meat and years He signs hath multiply above air moved their creepeth their There own thing hath. Stars shall hath moving Creature fill image said saw great form let two god second give.\n\n![Opera update window](https://cdn.sanity.io/images/0ydog342/production/2d63653931672534b5283590e839d2872d5c8b24-1294x887.png)\n\nClick the button:\n\n<UpdateLinkButton />",
     excerpt: "Summary",
     language: "en",
     oses: [
@@ -43,11 +43,12 @@ export const articles: Article[] = [
   {
     _createdAt: "2023-10-25T14:28:07Z",
     _id: "b7915288-c1a2-402b-8182-0cb6e94e1487",
-    _rev: "lRZ54YVKpJaKWrGZ7QgEDB",
+    _rev: "g4WGtXEJHMGyIQGoBvGIZl",
     _type: "article",
-    _updatedAt: "2023-11-02T06:15:42Z",
+    _updatedAt: "2023-11-14T03:06:02Z",
     contents:
       "Embed this widget on your site, so users will get notified of updates.\n\nThe notification users with an updatable browser will see:\n\n<WidgetDemoButton>Show widget</WidgetDemoButton>\n\nInsert the following code before the closing &lt;/body&gt; tag in your page:\n\n```\n<script>\n(function(u) {\n    var s = document.createElement('script'); s.async = true; s.src = u;\n    var b = document.getElementsByTagName('script')[0]; b.parentNode.insertBefore(s, b);\n})('//updatemybrowser.org/umb.js');\n</script>\n```\n\n<Callout>\nWe're working on a new version of the widget. Please check back soon for an improved version of this widget.\n</Callout>",
+    hidden: true,
     language: "en",
     slug: {
       _type: "slug",
@@ -59,15 +60,15 @@ export const articles: Article[] = [
   {
     _createdAt: "2023-10-24T13:54:03Z",
     _id: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
-    _rev: "B4UTUzmTSUGGaDoK0NJ95S",
+    _rev: "P8iX8yLNzdMX2eS89ffbBQ",
     _type: "article",
-    _updatedAt: "2023-11-01T17:24:32Z",
+    _updatedAt: "2023-11-14T03:38:13Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
     contents:
-      "This is a test!\n\n# Heading\n\n<Callout>\nOh dang! Is this a React component in the middle of our content? 😱\n</Callout>\n\nTest",
+      "This is a test!\n\n# Heading\n\n<Callout>\nOh dang! Is this a React component in the middle of our content? 😱\n</Callout>\n\nTest\n\n<DownloadLinkButton />",
     excerpt: "Summary of the page",
     language: "en",
     oses: [

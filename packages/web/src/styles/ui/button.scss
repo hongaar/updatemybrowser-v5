@@ -14,7 +14,9 @@ a[role="button"] {
   border: none;
   border-radius: var(--border-radius);
 
-  transition: background-color var(--transition);
+  transition:
+    background-color var(--transition),
+    color var(--transition);
 
   &:is([aria-current], :hover, :active, :focus) {
     background-color: var(--primary-hover);
@@ -38,6 +40,22 @@ a[role="button"] {
     &:focus {
       color: var(--warning);
       background-color: var(--warning-focus);
+    }
+  }
+
+  // Muted
+  &.muted {
+    background-color: var(--muted-color);
+    color: var(--muted-inverse-color);
+
+    &:is([aria-current], :hover, :active, :focus) {
+      outline-color: var(--muted-color);
+      background-color: var(--muted-hover);
+    }
+
+    &:focus {
+      color: var(--muted-color);
+      background-color: var(--muted-focus);
     }
   }
 }

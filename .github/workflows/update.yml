@@ -20,7 +20,7 @@ jobs:
           cache: yarn
       - run: yarn install
       - run: yarn typescript
-      - run: yarn run update
+      - run: yarn run update:all
         env:
           SANITY_TOKEN: ${{ secrets.SANITY_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

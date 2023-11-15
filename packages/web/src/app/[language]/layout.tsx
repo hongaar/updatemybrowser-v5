@@ -6,6 +6,7 @@ import { Footer } from "../../components/Footer";
 import { GoogleTagManager } from "../../components/GoogleTagManager";
 import { Header } from "../../components/Header";
 import { Nav } from "../../components/Nav";
+import { NavigationProgress } from "../../components/Navigation";
 import { getDictionary } from "../../dictionaries";
 import "../../styles/index.scss";
 import type { LanguageParams } from "./route";
@@ -45,6 +46,7 @@ export default function Layout({ children, params: { language } }: Props) {
     <html lang={language}>
       <GoogleTagManager />
       <body className={`${fira.className} ${fira.variable}`}>
+        <NavigationProgress />
         <Header language={language} />
         <Nav language={language} />
         <main>{children}</main>

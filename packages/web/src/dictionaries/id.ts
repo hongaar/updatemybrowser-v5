@@ -74,6 +74,22 @@ const dict: Dict = {
     "Tidak ada panduan yang tersedia (belum). Silakan kembali segera. Sementara itu, cek panduan bahasa Inggr",
   EnglishGuides: "Panduan dalam bahasa Inggris",
   StepByStepGuide: "Panduan langkah demi langkah",
+  BrowserFeaturesComparison: "Perbandingan Fitur Browser",
+  BrowserFeaturesComparisonDescription:
+    "Lihatlah gambaran umum semua fitur browser secara berdampingan dalam tabel yang nyaman untuk memudahkan perbandingan.",
+  MostPopularBrowsers: "Browser paling populer",
+  MostPopularBrowsersDescription:
+    "Sebuah gambaran umum tentang browser yang paling populer.",
+  MostUsedBrowsers: "Browser yang Paling Banyak Digunakan",
+  MostUsedBrowsersDescription:
+    "Gambaran umum tentang browser yang paling sering digunakan.",
+  BrowserOverviews: "Tinjauan Browser",
+  AdditionalBrowserOverviews: "Tinjauan Tambahan tentang Browser",
+  AdditionalBrowserOverviewsDescription:
+    "Berikut adalah beberapa sumber daya tambahan yang menampilkan gambaran umum tentang beberapa browser utama.",
+  HelpImproveDescription: "Lihat kesalahan? Ingin menambahkan sesuatu?",
+  HelpImproveLinkText: "Bantu kami memperbaiki halaman ini di GitHub",
+  BrowserFeatures: "Fitur-fitur Browser",
 };
 
 export default dict;

@@ -22,29 +22,6 @@
   }
 }
 
-.toolbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: calc(var(--line-height) * 1em);
-}
-
-.showReleasesForAllOses {
-  display: none;
-
-  @media (min-width: map-get($breakpoints, "md")) {
-    display: initial;
-  }
-}
-
-.heading {
-  margin-right: var(--spacing);
-
-  &:not(:last-child) {
-    margin-bottom: 0;
-  }
-}
-
 .browserGrid {
   margin: 0;
   padding: 0;

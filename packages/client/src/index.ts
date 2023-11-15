@@ -2,10 +2,10 @@ import * as cached from "./cached/index.js";
 import { defaultLanguage } from "./config.js";
 import * as sanity from "./sanity.js";
 import type {
+  ExpandedRelease,
   FlatBrowser,
+  FlatExpandedRelease,
   FlatFeatureCategory,
-  ReleaseExpanded,
-  ReleaseFlatExpanded,
 } from "./schema.js";
 
 export { defaultLanguage, sanityConfig } from "./config.js";
@@ -117,7 +117,7 @@ export async function getExpandedReleases({
         os: osResults.find((item) => os._ref === item._id),
       })),
     };
-  }) as ReleaseExpanded[];
+  }) as ExpandedRelease[];
 
   return expandedResults;
 }
@@ -143,7 +143,7 @@ export async function getFlatExpandedReleases({
         oses: undefined,
       };
     });
-  }) as ReleaseFlatExpanded[];
+  }) as FlatExpandedRelease[];
 
   return expandedResults;
 }

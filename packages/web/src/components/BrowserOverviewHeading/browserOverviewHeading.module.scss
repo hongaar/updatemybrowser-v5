@@ -1,0 +1,32 @@
+@import "../../styles/theme";
+
+.header {
+  margin-bottom: calc(var(--spacing) * 2);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+
+  &:not(:last-child) {
+    margin-bottom: var(--spacing);
+  }
+}
+
+.showReleasesForAllOses {
+  display: none;
+
+  @media (min-width: map-get($breakpoints, "md")) {
+    display: initial;
+  }
+}
+
+.heading {
+  margin-right: var(--spacing);
+
+  &:not(:last-child) {
+    margin-bottom: 0;
+  }
+}

@@ -8,8 +8,15 @@ import {
   UpdateAvailable,
 } from "../BrowserBanners";
 import { LoadingBanners } from "../BrowserBanners/LoadingBanners";
+import { BrowserFeatures } from "../BrowserFeatures";
 import { BrowserGallery } from "../BrowserGallery";
-import { BrowserMetadata } from "../BrowserMetadata";
+import {
+  BrowserAvailableOn,
+  BrowserMetadataList,
+  BrowserUsage,
+  willShowBrowserUsage,
+} from "../BrowserMetadata";
+import { Callout } from "../Callout";
 import { Icon } from "../Icon";
 import { ExternalLink } from "../Link";
 import styles from "./browserPage.module.scss";
@@ -58,7 +65,13 @@ export function BrowserPage({
         </span>
       </h2>
       {showMetadata ? (
-        <BrowserMetadata language={language} dict={dict} browser={browser} />
+        <BrowserMetadataList>
+          <BrowserAvailableOn
+            language={language}
+            dict={dict}
+            browser={browser}
+          />
+        </BrowserMetadataList>
       ) : null}
       <section className={styles.columns}>
         <article>
@@ -74,9 +87,21 @@ export function BrowserPage({
               {browser.summary?.find((item) => item._key === language)?.value ||
                 ""}
               <br />
-              <ExternalLink href={wikipediaUrl}>Wikipedia</ExternalLink>
+              <ExternalLink href={wikipediaUrl} small>
+                Wikipedia
+              </ExternalLink>
             </p>
           ) : null}
+          {showMetadata && willShowBrowserUsage(browser) ? (
+            <BrowserMetadataList>
+              <BrowserUsage language={language} dict={dict} browser={browser} />
+            </BrowserMetadataList>
+          ) : null}
+          <BrowserFeatures language={language} dict={dict} browser={browser} />
+          <Callout href={`/${language}/browsers/comparison`}>
+            <h3>🏷️ {dict.BrowserFeaturesComparison}</h3>
+            <p>{dict.BrowserFeaturesComparisonDescription}</p>
+          </Callout>
         </article>
         <BrowserAlternatives
           language={language}

@@ -98,6 +98,28 @@ export const features: Feature[] = [
     },
   },
   {
+    _createdAt: "2023-11-13T23:34:38Z",
+    _id: "bb5f2721-c9ca-4421-a8ba-d6cd023e7617",
+    _rev: "6tBtT7HSXJBZgGx8Qo7DNN",
+    _type: "feature",
+    _updatedAt: "2023-11-13T23:34:38Z",
+    category: {
+      _ref: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
+      _type: "reference",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Picture-in-Picture",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "picture-in-picture",
+    },
+  },
+  {
     _createdAt: "2023-11-13T10:36:23Z",
     _id: "bd5e7853-c514-4498-9b92-82ec06c78122",
     _rev: "6tBtT7HSXJBZgGx8QinnP7",

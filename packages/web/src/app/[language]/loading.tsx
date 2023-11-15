@@ -1,17 +1,16 @@
-"use client";
-
-import { useState } from "react";
-import { useTimeout } from "usehooks-ts";
 import { Container } from "../../components/Container";
+import { Delay } from "../../components/Delay";
+import { Spinner } from "../../components/Spinner";
 
 export default function Loading() {
-  const [visible, setVisible] = useState(false);
-
-  function show() {
-    setVisible(true);
-  }
-
-  useTimeout(show, 500);
-
-  return visible ? <Container>Loading...</Container> : null;
+  return (
+    <Delay seconds={0.5}>
+      <Container>
+        <h2>
+          <Spinner size="1.5em" />
+          Loading...
+        </h2>
+      </Container>
+    </Delay>
+  );
 }

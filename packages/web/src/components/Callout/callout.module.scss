@@ -2,10 +2,42 @@
 
 .callout {
   padding: var(--spacing);
-  margin-bottom: calc(var(--spacing) * 2);
   border: var(--outline-width) solid var(--primary);
   border-radius: var(--border-radius);
   // box-shadow: var(--box-shadow);
+
+  &:not(:last-child) {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
+
+  &[href] {
+    display: block;
+
+    text-decoration: none;
+    background-color: var(--primary);
+
+    &,
+    h1,
+    h2,
+    h3 {
+      color: var(--primary-inverse);
+      transition:
+        background-color var(--transition),
+        color var(--transition);
+    }
+
+    &:is([aria-current], :hover, :active, :focus) {
+      text-decoration: none;
+      background-color: var(--muted-background-color);
+
+      &,
+      h1,
+      h2,
+      h3 {
+        color: var(--primary);
+      }
+    }
+  }
 }
 
 .warning {

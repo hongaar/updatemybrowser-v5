@@ -74,6 +74,21 @@ const dict: Dict = {
     "Geen gidsen beschikbaar (nog). Kom snel terug. In de tussentijd kun je onze Engelse gidsen bekijken",
   EnglishGuides: "Engelse gidsen",
   StepByStepGuide: "Stap voor stap handleiding",
+  BrowserFeaturesComparison: "Vergelijking van browserfuncties",
+  BrowserFeaturesComparisonDescription:
+    "Bekijk een overzicht van alle browserfuncties naast elkaar in een handige tabel voor eenvoudige vergelijking.",
+  MostPopularBrowsers: "Meest populaire browsers",
+  MostPopularBrowsersDescription:
+    "Een overzicht van de meest populaire browsers.",
+  MostUsedBrowsers: "Meest gebruikte browsers",
+  MostUsedBrowsersDescription: "Een overzicht van de meest gebruikte browsers.",
+  BrowserOverviews: "Browseroverzichten",
+  AdditionalBrowserOverviews: "Aanvullende browseroverzichten",
+  AdditionalBrowserOverviewsDescription:
+    "Hier zijn enkele aanvullende bronnen die een overzicht geven van enkele belangrijke browsers.",
+  HelpImproveDescription: "Zie je een fout? Wil je iets toevoegen?",
+  HelpImproveLinkText: "Help ons deze pagina verbeteren op GitHub",
+  BrowserFeatures: "Browserfuncties",
 };
 
 export default dict;

@@ -1,0 +1,66 @@
+@import "../../styles/theme";
+
+.featureTable {
+  width: 100%;
+  border-style: hidden;
+  overflow: hidden;
+
+  &:not(:last-child) {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
+
+  td,
+  th {
+    position: relative;
+    border: 1px solid var(--border-color);
+  }
+
+  tbody tr:hover {
+    background-color: var(--muted-background-color);
+  }
+
+  thead th:hover::before,
+  tbody td:hover::before {
+    background-color: var(--muted-background-color);
+    content: "\00a0";
+    height: 10000px;
+    left: 0;
+    position: absolute;
+    top: -5000px;
+    width: 100%;
+    z-index: -1;
+  }
+}
+
+.browserHeader {
+  padding: var(--spacing);
+  text-align: left;
+  vertical-align: middle;
+  writing-mode: vertical-rl;
+}
+
+.categoryHeader {
+  padding: calc(var(--spacing) * 2) 0 var(--spacing) 0;
+  text-align: left;
+}
+
+.categoryIcon {
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0 calc(var(--spacing) * 0.5);
+}
+
+.featureHeader {
+  padding: calc(var(--spacing) * 0.5);
+  text-align: left;
+  font-weight: var(--font-weight);
+
+  span[data-tooltip] {
+    text-decoration: underline dotted;
+    text-decoration-color: var(--muted-color);
+  }
+}
+
+.featureCell {
+  text-align: center;
+}

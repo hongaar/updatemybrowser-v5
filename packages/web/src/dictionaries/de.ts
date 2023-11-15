@@ -72,6 +72,23 @@ const dict: Dict = {
     "Keine Anleitungen verfügbar (noch nicht). Bitte kommen Sie bald wieder. In der Zwischenzeit schauen Sie sich unsere englischen",
   EnglishGuides: "Englische Anleitungen",
   StepByStepGuide: "Schritt-für-Schritt-Anleitung",
+  BrowserFeaturesComparison: "Browserfunktionen im Vergleich",
+  BrowserFeaturesComparisonDescription:
+    "Sehen Sie eine Übersicht aller Browserfunktionen nebeneinander in einer praktischen Tabelle für einen einfachen Vergleich.",
+  MostPopularBrowsers: "Beliebteste Browser",
+  MostPopularBrowsersDescription:
+    "Eine Übersicht über die beliebtesten Browser.",
+  MostUsedBrowsers: "Meistgenutzte Browser",
+  MostUsedBrowsersDescription:
+    "Eine Übersicht über die meistgenutzten Browser.",
+  BrowserOverviews: "Browserübersichten",
+  AdditionalBrowserOverviews: "Zusätzliche Browser-Übersichten",
+  AdditionalBrowserOverviewsDescription:
+    "Hier sind einige zusätzliche Ressourcen, die einen Überblick über einige der wichtigsten Browser anzeigen.",
+  HelpImproveDescription:
+    "Siehst du einen Fehler? Möchtest du etwas hinzufügen?",
+  HelpImproveLinkText: "Helfen Sie uns, diese Seite auf GitHub zu verbessern.",
+  BrowserFeatures: "Browserfunktionen",
 };
 
 export default dict;

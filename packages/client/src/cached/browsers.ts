@@ -2061,9 +2061,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:50:38Z",
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "6tBtT7HSXJBZgGx8Qitcpr",
+    _rev: "6tBtT7HSXJBZgGx8Qp4dqD",
     _type: "browser",
-    _updatedAt: "2023-11-13T10:54:05Z",
+    _updatedAt: "2023-11-14T03:02:20Z",
     description: [
       {
         _key: "en",
@@ -2116,6 +2116,11 @@ export const browsers: Browser[] = [
       {
         _key: "3d815470f0e9",
         _ref: "f9f67163-4f2c-4a96-902a-9829a990601a",
+        _type: "reference",
+      },
+      {
+        _key: "1ce1df7ec562",
+        _ref: "bb5f2721-c9ca-4421-a8ba-d6cd023e7617",
         _type: "reference",
       },
     ],

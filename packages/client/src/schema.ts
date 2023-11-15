@@ -197,8 +197,9 @@ export type Browser<T extends "plain" | "flat" = "plain"> = Doc<
       }
     : // flat
       {
+        features?: Keyed<Reference>[];
         featureCategories: FlatFeatureCategory[];
-        releases: ReleaseFlatExpanded[];
+        releases: FlatExpandedRelease[];
       })
 >;
 
@@ -275,14 +276,15 @@ export type Release<T extends "ref" | "expanded" | "flatExpanded" = "ref"> =
         })
   >;
 
-export type ReleaseExpanded = Release<"expanded">;
+export type ExpandedRelease = Release<"expanded">;
 
-export type ReleaseFlatExpanded = Release<"flatExpanded">;
+export type FlatExpandedRelease = Release<"flatExpanded">;
 
 export type Article = Doc<{
   title: string;
   slug: Slug;
   language: string;
+  hidden?: boolean;
   excerpt?: string;
   contents: string;
   browser?: Reference;

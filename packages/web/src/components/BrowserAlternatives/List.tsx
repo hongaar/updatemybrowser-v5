@@ -7,6 +7,7 @@ import {
 } from "@updatemybrowser/detect";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import dict from "../../dictionaries/de";
 import { Icon } from "../Icon";
 import styles from "./browserAlternatives.module.scss";
 
@@ -26,10 +27,12 @@ export function List({ language, browsers }: Props) {
     [browsers],
   );
 
-  return hydratedBrowsers
+  const availableBrowsers = hydratedBrowsers
     .filter((browser) => browser.match?.availableOnCurrentOs)
-    .slice(0, MAX_ITEMS)
-    .map((browser) => (
+    .slice(0, MAX_ITEMS);
+
+  return availableBrowsers.length > 0 ? (
+    availableBrowsers.map((browser) => (
       <Link
         key={browser._id}
         className={styles.alternativeBrowser}
@@ -54,5 +57,8 @@ export function List({ language, browsers }: Props) {
           </small>
         </p>
       </Link>
-    ));
+    ))
+  ) : (
+    <p className={styles.alternativeBrowser}>{dict.Loading}...</p>
+  );
 }

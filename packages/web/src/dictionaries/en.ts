@@ -4,6 +4,13 @@ const english = {
   BrowserCheck: "Browser Check",
   YouAreUsing: "You are using",
   BrowserOverview: "Browser Overview",
+  BrowserFeaturesComparison: "Browser Features Comparison",
+  BrowserFeaturesComparisonDescription:
+    "See an overview of all browser features side-by-side in a convenient table for easy comparison.",
+  MostPopularBrowsers: "Most Popular Browsers",
+  MostPopularBrowsersDescription: "An overview of the most popular browsers.",
+  MostUsedBrowsers: "Most Used Browsers",
+  MostUsedBrowsersDescription: "An overview of the most used browsers.",
   DisguisedBrowsers: "Disguised browsers",
   ButMaybeYouAreUsing: "But maybe you are using",
   DisguisedBrowsersDescription:
@@ -65,6 +72,10 @@ const english = {
   For: "for",
   Browser: "Browser",
   Browsers: "Browsers",
+  BrowserOverviews: "Browser Overviews",
+  AdditionalBrowserOverviews: "Additional Browser Overviews",
+  AdditionalBrowserOverviewsDescription:
+    "Here are some additional resources which display an overview of some of the major browsers.",
   OperatingSystems: "Operating systems",
   AppliesTo: "Applies to",
   DataSources: "Data sources",
@@ -73,6 +84,9 @@ const english = {
     "No guides available (yet). Please come back soon. In the meantime, check out our English guides:",
   EnglishGuides: "English guides",
   StepByStepGuide: "Step by step guide",
+  HelpImproveDescription: "See a mistake? Want to add something?",
+  HelpImproveLinkText: "Help us improve this page on GitHub",
+  BrowserFeatures: "Browser Features",
 };
 
 export type Dict = typeof english;

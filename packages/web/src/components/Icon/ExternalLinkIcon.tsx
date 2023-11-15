@@ -11,17 +11,12 @@ export function ExternalLinkIcon({ fill }: Props) {
       style={{
         fill,
       }}
-      viewBox="0 0 1024 1024"
-      height="1024"
-      width="768"
+      viewBox="0 2.833 17 17"
+      height="17"
+      width="17"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path
-        d="M640 768H128V257.90599999999995L256 
-   256V128H0v768h768V576H640V768zM384 
-   128l128 128L320 448l128 128 192-192 
-  128 128V128H384z"
-      />
+      <path d="M14.168 17H2.833V5.709l2.834 -0.042V2.833H0v17h17V12.75h-2.833v4.25zM8.5 2.833l2.833 2.833 -4.25 4.25 2.833 2.833 4.25 -4.25 2.833 2.833V2.833H8.5z" />
     </svg>
   );
 }

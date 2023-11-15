@@ -4,6 +4,21 @@
   background-color: var(--muted-background-color);
 }
 
+.improve {
+  border-top: var(--border-size) solid var(--muted-border-color);
+}
+
+.improveContainer {
+  // !important due to bug with container padding from loading.tsx taking precedence
+  padding: var(--spacing) calc(var(--spacing) * 2) !important;
+
+  color: var(--muted-color);
+}
+
+.improveLink {
+  text-decoration: underline;
+}
+
 .header {
   // !important due to bug with container padding from loading.tsx taking precedence
   padding: var(--spacing) calc(var(--spacing) * 2) !important;
@@ -26,7 +41,7 @@
     margin-bottom: calc(var(--spacing) * 1);
   }
 
-  @media (min-width: map-get($breakpoints, "sm")) {
+  @media (min-width: map-get($breakpoints, "lg")) {
     flex-direction: row;
 
     > *:not(:last-child) {

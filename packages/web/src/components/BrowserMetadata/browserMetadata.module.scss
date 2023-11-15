@@ -3,13 +3,19 @@
 .metadataList {
   display: flex;
   flex-direction: column;
-  margin-bottom: var(--spacing);
+
+  &:not(:last-child) {
+    margin-bottom: var(--spacing);
+  }
 }
 
 .metadataItem {
   display: flex;
   flex-direction: column;
-  margin-bottom: var(--spacing);
+
+  &:not(:last-child) {
+    margin-bottom: var(--spacing);
+  }
 
   @media (min-width: map-get($breakpoints, "md")) {
     flex-direction: row;

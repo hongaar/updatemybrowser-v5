@@ -73,6 +73,20 @@ const dict: Dict = {
     "Hakuna mwongozo uliopo (bado). Tafadhali rudi hivi karibuni. Wakati huo huo,",
   EnglishGuides: "Mwongozo wa Kiingereza",
   StepByStepGuide: "Mwongozo hatua kwa hatua",
+  BrowserFeaturesComparison: "Ulinganishi wa Vipengele vya Kivinjari",
+  BrowserFeaturesComparisonDescription:
+    "Angalia muhtasari wa huduma zote za kivinjari kwa upande mmoja katika jedwali rahisi",
+  MostPopularBrowsers: "Wavuti maarufu zaidi",
+  MostPopularBrowsersDescription: "Muhtasari wa vivinjari maarufu zaidi.",
+  MostUsedBrowsers: "Watumiaji Wengi wa Vivinjari",
+  MostUsedBrowsersDescription: "Muhtasari wa vivinjari vinavyotumiwa zaidi.",
+  BrowserOverviews: "Muhtasari wa Vivinjari",
+  AdditionalBrowserOverviews: "Maelezo ya ziada ya kivinjari",
+  AdditionalBrowserOverviewsDescription:
+    "Hapa kuna rasilimali zaidi ambazo zinaonyesha muhtasari wa baadhi ya vivinjari v",
+  HelpImproveDescription: "Unaona kosa? Unataka kuongeza kitu?",
+  HelpImproveLinkText: "Tusaidie kuiboresha ukurasa huu kwenye GitHub",
+  BrowserFeatures: "Vipengele vya Kivinjari",
 };
 
 export default dict;

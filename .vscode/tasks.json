@@ -56,26 +56,24 @@
     },
     {
       "type": "npm",
-      "script": "cache-docs",
-      "path": "packages/client",
+      "script": "update:all",
       "problemMatcher": [],
-      "label": "yarn @updatemybrowser/client cache-docs",
+      "label": "yarn update:all",
+      "detail": "Update all"
+    },
+    {
+      "type": "npm",
+      "script": "update:cache-docs",
+      "problemMatcher": [],
+      "label": "yarn update:cache-docs",
       "detail": "Create docs cache"
     },
     {
       "type": "npm",
-      "script": "start",
-      "path": "packages/updater",
+      "script": "update:updater",
       "problemMatcher": [],
-      "label": "yarn @updatemybrowser/updater start",
+      "label": "yarn update:updater",
       "detail": "Run updater only"
-    },
-    {
-      "type": "npm",
-      "script": "update",
-      "problemMatcher": [],
-      "label": "yarn update",
-      "detail": "Update"
     }
   ]
 }

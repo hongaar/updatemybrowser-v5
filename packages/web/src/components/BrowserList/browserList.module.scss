@@ -1,0 +1,48 @@
+@import "../../styles/theme";
+
+.browserList {
+  counter-reset: item;
+  padding-left: 4rem;
+}
+
+.listItem {
+  display: flex;
+  counter-increment: item;
+  list-style: none;
+  padding: var(--spacing);
+  border-radius: var(--border-radius);
+  transition: background-color var(--transition);
+
+  &::before {
+    content: counter(item);
+    color: var(--support);
+    font-size: calc(var(--font-h1-size) * 1.5);
+    font-weight: var(--font-weight-bold);
+    display: inline-block;
+    width: 4rem;
+    margin-left: -4rem;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: var(--spacing);
+  }
+
+  &:hover {
+    background-color: var(--muted-background-color);
+
+    // hacky way to target TagList
+    .browserInfo > ul > li > a:not([aria-current]) {
+      background-color: var(--muted-focus);
+    }
+  }
+}
+
+.icon {
+  margin-right: var(--spacing);
+}
+
+.browserInfo {
+}
+
+.itemHeading {
+}

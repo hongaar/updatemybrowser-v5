@@ -3,15 +3,26 @@ import { ExternalLinkIcon } from "../Icon";
 import styles from "./link.module.scss";
 
 type Props = {
-  style?: "icon" | "iconLink" | "link";
   href: string;
   children: ReactNode;
+  className?: string;
+  style?: "icon" | "iconLink" | "link";
+  small?: boolean;
 };
 
-export function ExternalLink({ href, children, style = "iconLink" }: Props) {
+export function ExternalLink({
+  href,
+  children,
+  className,
+  style = "iconLink",
+  small = false,
+}: Props) {
+  className = `${styles.externalLink} ${className ?? ""} ${
+    small ? styles.small : ""
+  }`;
   return style === "icon" ? (
     <a
-      className={styles.externalLink}
+      className={className}
       href={href}
       title={typeof children === "string" ? children : undefined}
       target="_blank"
@@ -20,10 +31,10 @@ export function ExternalLink({ href, children, style = "iconLink" }: Props) {
       <ExternalLinkIcon />
     </a>
   ) : style === "iconLink" ? (
-    <span className={styles.externalLink}>
+    <span className={className}>
       {children}{" "}
       <a
-        className={styles.externalLink}
+        className={className}
         href={href}
         title={typeof children === "string" ? children : undefined}
         target="_blank"
@@ -35,7 +46,7 @@ export function ExternalLink({ href, children, style = "iconLink" }: Props) {
   ) : (
     // link
     <a
-      className={styles.externalLink}
+      className={className}
       href={href}
       title={typeof children === "string" ? children : undefined}
       target="_blank"

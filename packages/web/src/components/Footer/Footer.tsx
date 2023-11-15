@@ -8,6 +8,7 @@ import { getDictionary } from "../../dictionaries";
 import { Container } from "../Container";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 import { ExternalLink } from "../Link";
+import { Improvement } from "./Improvement";
 import styles from "./footer.module.scss";
 
 type Props = {
@@ -22,86 +23,114 @@ export async function Footer({ language }: Props) {
   const dict = getDictionary(language);
 
   return (
-    <footer className={styles.footer}>
-      <Container className={styles.header}>
-        <div className={styles.copyright}>
-          &copy; {new Date().getFullYear()} UpdateMyBrowser.org
-        </div>
-        <LanguageSwitcher currentLanguage={language} />
-      </Container>
-      <Container className={styles.links}>
-        <div>
-          <p className={styles.muted}>{dict.Browsers}</p>
-          <ul>
-            {browsers
-              .sort((a, b) => a.name.localeCompare(b.name))
-              .map((browser) => (
-                <li key={browser._id}>
-                  <Link
-                    tabIndex={0}
-                    href={`/${language}/browsers/${browser.slug.current}`}
-                  >
-                    {browser.name}
-                  </Link>
-                </li>
-              ))}
-          </ul>
-        </div>
-        <div>
-          <p className={styles.muted}>{dict.OperatingSystems}</p>
-          <ul>
-            {oses
-              .sort((a, b) => a.name.localeCompare(b.name))
-              .map((os) => (
-                <li key={os._id}>
-                  <Link
-                    tabIndex={0}
-                    href={`/${language}/browsers/os/${os.slug.current}`}
-                  >
-                    {os.name}
-                  </Link>
-                </li>
-              ))}
-          </ul>
-        </div>
-        <div>
-          <p className={styles.muted}>{dict.Languages}</p>
-          <ul>
-            {languages
-              .sort((a, b) => a.name.localeCompare(b.name))
-              .map((language) => (
-                <li key={language._id}>
-                  <Link tabIndex={0} href={`/${language.id}`}>
-                    {language.name}
-                  </Link>
-                </li>
-              ))}
-          </ul>
-        </div>
-        <div>
-          <p className={styles.muted}>{dict.DataSources}</p>
-          <ul>
-            <li>
-              <ExternalLink style="link" href="https://caniuse.com">
-                Can I Use
-              </ExternalLink>
-            </li>
-            <li>
-              <ExternalLink
-                style="link"
-                href="https://alternativeto.net/category/browsers/web-browser/"
-              >
-                AlternativeTo
-              </ExternalLink>
-            </li>
-            <li>
-              <ExternalLink style="link" href="https://www.wikipedia.org">
-                Wikipedia
-              </ExternalLink>
-            </li>
-          </ul>
-        </div>
-      </Container>
-    </footer>
+    <>
+      <Improvement language={language} dict={dict} />
+      <footer className={styles.footer}>
+        <Container className={styles.header}>
+          <div className={styles.copyright}>
+            &copy; {new Date().getFullYear()} UpdateMyBrowser.org
+          </div>
+          <LanguageSwitcher currentLanguage={language} />
+        </Container>
+        <Container className={styles.links}>
+          <div>
+            <p className={styles.muted}>{dict.Browsers}</p>
+            <ul>
+              {browsers
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .map((browser) => (
+                  <li key={browser._id}>
+                    <Link
+                      tabIndex={0}
+                      href={`/${language}/browsers/${browser.slug.current}`}
+                    >
+                      {browser.name}
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+          </div>
+          <div>
+            <p className={styles.muted}>{dict.BrowserOverviews}</p>
+            <ul>
+              <li>
+                <Link tabIndex={0} href={`/${language}/browsers`}>
+                  {dict.BrowserOverview}
+                </Link>
+              </li>
+              <li>
+                <Link tabIndex={0} href={`/${language}/browsers/comparison`}>
+                  {dict.BrowserFeaturesComparison}
+                </Link>
+              </li>
+              <li>
+                <Link tabIndex={0} href={`/${language}/browsers/most-popular`}>
+                  {dict.MostPopularBrowsers}
+                </Link>
+              </li>
+              <li>
+                <Link tabIndex={0} href={`/${language}/browsers/most-used`}>
+                  {dict.MostUsedBrowsers}
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p className={styles.muted}>{dict.OperatingSystems}</p>
+            <ul>
+              {oses
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .map((os) => (
+                  <li key={os._id}>
+                    <Link
+                      tabIndex={0}
+                      href={`/${language}/browsers/os/${os.slug.current}`}
+                    >
+                      {os.name}
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+          </div>
+          <div>
+            <p className={styles.muted}>{dict.Languages}</p>
+            <ul>
+              {languages
+                .sort((a, b) => a.name.localeCompare(b.name))
+                .map((language) => (
+                  <li key={language._id}>
+                    <Link tabIndex={0} href={`/${language.id}`}>
+                      {language.name}
+                    </Link>
+                  </li>
+                ))}
+            </ul>
+          </div>
+          <div>
+            <p className={styles.muted}>{dict.DataSources}</p>
+            <ul>
+              <li>
+                <ExternalLink style="link" href="https://caniuse.com">
+                  Can I Use
+                </ExternalLink>
+              </li>
+              <li>
+                <ExternalLink
+                  style="link"
+                  href="https://alternativeto.net/category/browsers/web-browser/"
+                >
+                  AlternativeTo
+                </ExternalLink>
+              </li>
+              <li>
+                <ExternalLink style="link" href="https://www.wikipedia.org">
+                  Wikipedia
+                </ExternalLink>
+              </li>
+            </ul>
+          </div>
+        </Container>
+      </footer>
+    </>
   );
 }

@@ -1,0 +1,109 @@
+@import "../../styles/theme";
+
+@mixin reset-margin {
+  &:not(:nth-child(1n)) {
+    margin-right: 0;
+  }
+
+  &:not(:nth-child(2n)) {
+    margin-right: 0;
+  }
+
+  &:not(:nth-child(3n)) {
+    margin-right: 0;
+  }
+
+  &:not(:nth-child(4n)) {
+    margin-right: 0;
+  }
+
+  &:not(:nth-child(5n)) {
+    margin-right: 0;
+  }
+}
+
+.features {
+  &:not(:last-child) {
+    margin-bottom: var(--spacing);
+  }
+}
+
+.categoryList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.category {
+  display: block;
+  margin-bottom: calc(var(--spacing) * 2);
+  float: left;
+
+  width: calc(
+    (100% / map-get($list-columns, "xs")) - var(--spacing) +
+      calc(var(--spacing) / map-get($list-columns, "xs"))
+  );
+
+  &:not(:nth-child(#{map-get($list-columns, "xs")}n)) {
+    margin-right: var(--spacing);
+  }
+
+  &:nth-last-child(-n + #{map-get($list-columns, "xs") + 1}) {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: map-get($breakpoints, "lg")) {
+    width: calc(
+      (100% / map-get($list-columns, "sm")) - var(--spacing) +
+        calc(var(--spacing) / map-get($list-columns, "sm"))
+    );
+
+    @include reset-margin;
+
+    &:not(:nth-child(#{map-get($list-columns, "sm")}n)) {
+      margin-right: var(--spacing);
+    }
+
+    &:nth-last-child(-n + #{map-get($list-columns, "sm") + 1}) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.icon {
+  vertical-align: bottom;
+  margin-right: var(--spacing);
+
+  svg {
+    color: var(--support);
+  }
+}
+
+.categoryTitle {
+  display: inline-block;
+}
+
+.clearFloat {
+  display: block;
+  clear: both;
+}
+
+.featureList {
+}
+
+.feature {
+  list-style: none;
+
+  &::before {
+    content: "■";
+    color: var(--support);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+  span[data-tooltip] {
+    text-decoration: underline dotted;
+    text-decoration-color: var(--muted-color);
+  }
+}

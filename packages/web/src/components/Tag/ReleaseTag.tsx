@@ -1,6 +1,6 @@
 "use client";
 
-import type { ReleaseFlatExpanded } from "@updatemybrowser/client";
+import type { FlatExpandedRelease } from "@updatemybrowser/client";
 import { detect, matchesOs } from "@updatemybrowser/detect";
 import { Tag } from ".";
 import type { Dict } from "../../dictionaries/en";
@@ -9,7 +9,7 @@ import styles from "./tag.module.scss";
 type Props = {
   language: string;
   dict: Dict;
-  release: ReleaseFlatExpanded;
+  release: FlatExpandedRelease;
 };
 
 export function ReleaseTag({ language, dict, release }: Props) {

@@ -37,7 +37,7 @@ export async function generateMetadata({
   } as Metadata;
 }
 
-export default async function Browser({
+export default async function Os({
   params: { os: osSlug, language },
 }: LanguageParams & OsParams) {
   const dict = getDictionary(language);
@@ -66,6 +66,7 @@ export default async function Browser({
       <Container>
         <BrowserGrid
           language={language}
+          dict={dict}
           browsers={browsers}
           heading={
             <>

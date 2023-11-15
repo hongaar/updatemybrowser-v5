@@ -3757,6 +3757,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/nprogress@npm:^0.2.1":
+  version: 0.2.3
+  resolution: "@types/nprogress@npm:0.2.3"
+  checksum: 2bd96ba1167f548e8f898ae8a790b6501a5422217621c9b8ea75962f3e8473f0e371058b79d83e04e80a6bfee2d66fc6612cdb28296648007b35d3c2a6d64e5c
+  languageName: node
+  linkType: hard
+
 "@types/prop-types@npm:*":
   version: 15.7.7
   resolution: "@types/prop-types@npm:15.7.7"
@@ -4273,6 +4280,7 @@ __metadata:
     next: "npm:13.5.4"
     next-mdx-remote: "npm:4.4.1"
     next-sanity: "npm:5.5.5"
+    nextjs-toploader: "npm:1.6.4"
     postcss: "npm:8.4.31"
     postcss-calc: "npm:9.0.1"
     postcss-css-variables: "npm:0.19.0"
@@ -10213,6 +10221,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nextjs-toploader@npm:1.6.4":
+  version: 1.6.4
+  resolution: "nextjs-toploader@npm:1.6.4"
+  dependencies:
+    "@types/nprogress": "npm:^0.2.1"
+    nprogress: "npm:^0.2.0"
+    prop-types: "npm:^15.8.1"
+  peerDependencies:
+    next: ">= 6.0.0"
+    react: ">= 16.0.0"
+    react-dom: ">= 16.0.0"
+  checksum: 76b96bbfae22f7f97591c2fea1a5f91203c4e3e1d0e9fdb360c7595f3e4a2f776a458f8a0c8d6d35fe622c107780434e9b8136ec6fa34a4b448463ec948182d1
+  languageName: node
+  linkType: hard
+
 "nice-try@npm:^1.0.4":
   version: 1.0.5
   resolution: "nice-try@npm:1.0.5"
@@ -10363,6 +10386,13 @@ __metadata:
     gauge: "npm:^4.0.3"
     set-blocking: "npm:^2.0.0"
   checksum: 82b123677e62deb9e7472e27b92386c09e6e254ee6c8bcd720b3011013e4168bc7088e984f4fbd53cb6e12f8b4690e23e4fa6132689313e0d0dc4feea45489bb
+  languageName: node
+  linkType: hard
+
+"nprogress@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "nprogress@npm:0.2.0"
+  checksum: 1870a74c054c01899f89e85122d7548832d083b5fa5d3cc6aafc2d4f92901e15face402ef557be5b103aed7b6e1406c656b842dec32b553b4b052031ea1b0935
   languageName: node
   linkType: hard
 

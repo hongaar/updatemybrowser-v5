@@ -1,7 +1,7 @@
 "use client";
 
 import type { Language } from "@updatemybrowser/client";
-import { useRouter } from "next/navigation";
+import { useRouter } from "../Navigation";
 import styles from "./languageSwitcher.module.scss";
 
 type Props = {
