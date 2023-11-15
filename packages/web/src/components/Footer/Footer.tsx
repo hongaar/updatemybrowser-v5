@@ -8,6 +8,7 @@ import { getDictionary } from "../../dictionaries";
 import { Container } from "../Container";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 import { ExternalLink } from "../Link";
+import { ConsentPreferences } from "./ConsentPreferences";
 import { Improvement } from "./Improvement";
 import styles from "./footer.module.scss";
 
@@ -28,7 +29,14 @@ export async function Footer({ language }: Props) {
       <footer className={styles.footer}>
         <Container className={styles.header}>
           <div className={styles.copyright}>
-            &copy; {new Date().getFullYear()} UpdateMyBrowser.org
+            &copy; {new Date().getFullYear()} UpdateMyBrowser.org{" "}
+            <Link href={`/${language}/terms-and-conditions`} tabIndex={0}>
+              Terms & Conditions
+            </Link>{" "}
+            <Link href={`/${language}/privacy-policy`} tabIndex={0}>
+              Privacy Policy
+            </Link>{" "}
+            <ConsentPreferences />
           </div>
           <LanguageSwitcher currentLanguage={language} />
         </Container>

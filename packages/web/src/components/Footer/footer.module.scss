@@ -53,6 +53,11 @@
 
 .copyright {
   line-height: 2rem;
+
+  a {
+    margin-left: var(--spacing);
+    color: var(--muted-color);
+  }
 }
 
 .muted {

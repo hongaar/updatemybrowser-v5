@@ -5,14 +5,45 @@ export const featureCategories: FeatureCategory[] = [
   {
     _createdAt: "2023-11-12T10:54:19Z",
     _id: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
-    _rev: "6tBtT7HSXJBZgGx8QaAR7V",
+    _rev: "P8iX8yLNzdMX2eS89iAbuS",
     _type: "featureCategory",
-    _updatedAt: "2023-11-12T10:59:15Z",
+    _updatedAt: "2023-11-15T09:59:50Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value: "Features which help with protecting your privacy",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Functies die helpen bij het beschermen van uw privacy",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Funktionen, die Ihnen dabei helfen, Ihre Privatsphäre zu schützen.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "विशेषताएं जो आपकी गोपनीयता की सु",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Fitur-fitur yang membantu melindungi privasi Anda",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Функции, которые помогают защитить вашу конфиденциальность.",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Vipengele ambavyo husaidia kulinda faragha yako",
       },
     ],
     icon: {
@@ -55,6 +86,36 @@ export const featureCategories: FeatureCategory[] = [
         _type: "internationalizedArrayStringValue",
         value: "Privacy",
       },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Privacy",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Datenschutz",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "गोपनीयता",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Privasi",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Конфиденциальность",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Faragha",
+      },
     ],
     slug: {
       _type: "slug",
@@ -64,9 +125,9 @@ export const featureCategories: FeatureCategory[] = [
   {
     _createdAt: "2023-11-13T10:26:14Z",
     _id: "9fc60c51-bd38-40f9-8714-0295719eae1a",
-    _rev: "6tBtT7HSXJBZgGx8QikBSp",
+    _rev: "6tBtT7HSXJBZgGx8QxJnnh",
     _type: "featureCategory",
-    _updatedAt: "2023-11-13T10:26:14Z",
+    _updatedAt: "2023-11-15T10:00:21Z",
     icon: {
       _type: "icon",
       predefined: {
@@ -106,6 +167,36 @@ export const featureCategories: FeatureCategory[] = [
         _type: "internationalizedArrayStringValue",
         value: "Plugins",
       },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Plugins",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Plugins",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "प्लगइन्स",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Plugin",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Плагины",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Vifaa vya ziada",
+      },
     ],
     slug: {
       _type: "slug",
@@ -115,9 +206,9 @@ export const featureCategories: FeatureCategory[] = [
   {
     _createdAt: "2023-11-13T10:30:25Z",
     _id: "c6589281-e38e-41ac-b49e-124d1eab39e0",
-    _rev: "6tBtT7HSXJBZgGx8Qilk0P",
+    _rev: "g4WGtXEJHMGyIQGoBzvMyS",
     _type: "featureCategory",
-    _updatedAt: "2023-11-13T10:30:25Z",
+    _updatedAt: "2023-11-15T10:03:34Z",
     icon: {
       _type: "icon",
       predefined: {
@@ -157,6 +248,36 @@ export const featureCategories: FeatureCategory[] = [
         _type: "internationalizedArrayStringValue",
         value: "Productivity",
       },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Ufanisi",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Продуктивность",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Produktivitas",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Produktivität",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Productiviteit",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "उत्पादकता",
+      },
     ],
     slug: {
       _type: "slug",
@@ -166,9 +287,9 @@ export const featureCategories: FeatureCategory[] = [
   {
     _createdAt: "2023-11-13T10:24:00Z",
     _id: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
-    _rev: "6tBtT7HSXJBZgGx8QijIhP",
+    _rev: "g4WGtXEJHMGyIQGoBzvNlX",
     _type: "featureCategory",
-    _updatedAt: "2023-11-13T10:24:00Z",
+    _updatedAt: "2023-11-15T10:03:40Z",
     icon: {
       _type: "icon",
       predefined: {
@@ -209,6 +330,36 @@ export const featureCategories: FeatureCategory[] = [
         _type: "internationalizedArrayStringValue",
         value: "Interface",
       },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Kiolesura",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Интерфейс",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Antarmuka",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Schnittstelle",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Interface",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "इंटरफेस",
+      },
     ],
     slug: {
       _type: "slug",
@@ -218,9 +369,9 @@ export const featureCategories: FeatureCategory[] = [
   {
     _createdAt: "2023-11-13T10:20:34Z",
     _id: "f77b7ce5-70cb-4956-84ab-12ea1ce7cc6c",
-    _rev: "P8iX8yLNzdMX2eS89dahol",
+    _rev: "g4WGtXEJHMGyIQGoBzvF9Q",
     _type: "featureCategory",
-    _updatedAt: "2023-11-13T10:20:52Z",
+    _updatedAt: "2023-11-15T10:02:29Z",
     icon: {
       _type: "icon",
       predefined: {
@@ -260,6 +411,36 @@ export const featureCategories: FeatureCategory[] = [
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value: "Security",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Veiligheid",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Sicherheit",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "सुरक्षा",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Keamanan",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Безопасность",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Usalama",
       },
     ],
     slug: {
