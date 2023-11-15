@@ -21,12 +21,12 @@ export const release: DocumentDefinition = {
     {
       name: "version",
       title: "Version",
-      options: { collapsible: true, collapsed: true },
+      options: { collapsible: true, collapsed: false },
     },
     {
       name: "instructions",
       title: "Instructions",
-      options: { collapsible: true, collapsed: true },
+      options: { collapsible: true, collapsed: false },
     },
   ],
   preview: {

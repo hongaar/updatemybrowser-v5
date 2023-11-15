@@ -41,6 +41,7 @@ export async function Footer({ language }: Props) {
                 .map((browser) => (
                   <li key={browser._id}>
                     <Link
+                      prefetch={false}
                       tabIndex={0}
                       href={`/${language}/browsers/${browser.slug.current}`}
                     >
@@ -54,22 +55,38 @@ export async function Footer({ language }: Props) {
             <p className={styles.muted}>{dict.BrowserOverviews}</p>
             <ul>
               <li>
-                <Link tabIndex={0} href={`/${language}/browsers`}>
+                <Link
+                  prefetch={false}
+                  tabIndex={0}
+                  href={`/${language}/browsers`}
+                >
                   {dict.BrowserOverview}
                 </Link>
               </li>
               <li>
-                <Link tabIndex={0} href={`/${language}/browsers/comparison`}>
+                <Link
+                  prefetch={false}
+                  tabIndex={0}
+                  href={`/${language}/browsers/comparison`}
+                >
                   {dict.BrowserFeaturesComparison}
                 </Link>
               </li>
               <li>
-                <Link tabIndex={0} href={`/${language}/browsers/most-popular`}>
+                <Link
+                  prefetch={false}
+                  tabIndex={0}
+                  href={`/${language}/browsers/most-popular`}
+                >
                   {dict.MostPopularBrowsers}
                 </Link>
               </li>
               <li>
-                <Link tabIndex={0} href={`/${language}/browsers/most-used`}>
+                <Link
+                  prefetch={false}
+                  tabIndex={0}
+                  href={`/${language}/browsers/most-used`}
+                >
                   {dict.MostUsedBrowsers}
                 </Link>
               </li>
@@ -83,6 +100,7 @@ export async function Footer({ language }: Props) {
                 .map((os) => (
                   <li key={os._id}>
                     <Link
+                      prefetch={false}
                       tabIndex={0}
                       href={`/${language}/browsers/os/${os.slug.current}`}
                     >
@@ -99,7 +117,11 @@ export async function Footer({ language }: Props) {
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .map((language) => (
                   <li key={language._id}>
-                    <Link tabIndex={0} href={`/${language.id}`}>
+                    <Link
+                      prefetch={false}
+                      tabIndex={0}
+                      href={`/${language.id}`}
+                    >
                       {language.name}
                     </Link>
                   </li>

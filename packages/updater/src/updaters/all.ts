@@ -15,4 +15,5 @@ Running ${command}...
   await run("update version");
   await run("update wikipediaUrl");
   await run("update summary");
+  await run("update features");
 });

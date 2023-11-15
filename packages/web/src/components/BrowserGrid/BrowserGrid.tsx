@@ -38,13 +38,16 @@ export function BrowserGrid({
     [browsers],
   );
 
-  const browsersToShow = useMemo(() => {
+  const filteredBrowsers = useMemo(() => {
     return showAllOses || !toggleUnavailableBrowsers
       ? hydratedBrowsers
       : hydratedBrowsers.filter(
           (browsers) => browsers.match?.availableOnCurrentOs,
         );
   }, [toggleUnavailableBrowsers, hydratedBrowsers, showAllOses]);
+
+  const browsersToShow =
+    filteredBrowsers.length > 0 ? filteredBrowsers : browsers;
 
   return (
     <>

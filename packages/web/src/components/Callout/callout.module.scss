@@ -14,28 +14,20 @@
     display: block;
 
     text-decoration: none;
-    background-color: var(--primary);
+    border: var(--outline-width) solid var(--muted-border-color);
+    background-color: var(--muted-background-color);
+    transition: border-color var(--transition);
 
     &,
     h1,
     h2,
     h3 {
-      color: var(--primary-inverse);
-      transition:
-        background-color var(--transition),
-        color var(--transition);
+      color: var(--primary);
     }
 
     &:is([aria-current], :hover, :active, :focus) {
       text-decoration: none;
-      background-color: var(--muted-background-color);
-
-      &,
-      h1,
-      h2,
-      h3 {
-        color: var(--primary);
-      }
+      border: var(--outline-width) solid var(--primary);
     }
   }
 }

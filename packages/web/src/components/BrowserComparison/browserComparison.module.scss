@@ -1,18 +1,23 @@
 @import "../../styles/theme";
 
+.tableWrapper {
+  width: 100%;
+  overflow-y: auto;
+
+  &:not(:last-child) {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
+}
+
 .featureTable {
   width: 100%;
   border-style: hidden;
   overflow: hidden;
 
-  &:not(:last-child) {
-    margin-bottom: calc(var(--spacing) * 3);
-  }
-
   td,
   th {
     position: relative;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--muted-border-color);
   }
 
   tbody tr:hover {
@@ -40,6 +45,7 @@
 }
 
 .categoryHeader {
+  white-space: nowrap;
   padding: calc(var(--spacing) * 2) 0 var(--spacing) 0;
   text-align: left;
 }
