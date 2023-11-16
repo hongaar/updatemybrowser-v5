@@ -10,7 +10,7 @@
 
 .improveContainer {
   // !important due to bug with container padding from loading.tsx taking precedence
-  padding: var(--spacing) calc(var(--spacing) * 2) !important;
+  padding: var(--spacing) !important;
 
   color: var(--muted-color);
 }
@@ -21,15 +21,39 @@
 
 .header {
   // !important due to bug with container padding from loading.tsx taking precedence
-  padding: var(--spacing) calc(var(--spacing) * 2) !important;
+  padding: var(--spacing) !important;
 
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
-  align-items: center;
 
   @media (min-width: map-get($breakpoints, "sm")) {
     flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.copyright {
+  line-height: 2rem;
+  margin-top: calc(var(--spacing) * 2);
+
+  span,
+  a {
+    margin-right: var(--spacing);
+  }
+
+  a {
+    color: var(--muted-color);
+  }
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    margin-top: 0;
+  }
+}
+
+.copyrightBreak {
+  @media (min-width: map-get($breakpoints, "lg")) {
+    display: none;
   }
 }
 
@@ -48,15 +72,6 @@
       margin-bottom: 0;
       margin-right: calc(var(--spacing) * 5);
     }
-  }
-}
-
-.copyright {
-  line-height: 2rem;
-
-  a {
-    margin-left: var(--spacing);
-    color: var(--muted-color);
   }
 }
 

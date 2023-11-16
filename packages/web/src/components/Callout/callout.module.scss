@@ -15,8 +15,9 @@
 
     text-decoration: none;
     border: var(--outline-width) solid var(--muted-border-color);
-    background-color: var(--muted-background-color);
-    transition: border-color var(--transition);
+    transition:
+      background-color var(--transition),
+      border-color var(--transition);
 
     &,
     h1,
@@ -27,6 +28,7 @@
 
     &:is([aria-current], :hover, :active, :focus) {
       text-decoration: none;
+      background-color: var(--muted-background-color);
       border: var(--outline-width) solid var(--primary);
     }
   }

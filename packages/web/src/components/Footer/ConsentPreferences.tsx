@@ -9,7 +9,6 @@ export function ConsentPreferences() {
         // @ts-ignore
         window.displayPreferenceModal();
       }}
-      id="termly-consent-preferences"
     >
       Consent Preferences
     </a>

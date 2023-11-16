@@ -71,7 +71,14 @@ export function BrowserList({
               ) : null}
             </div>
             <div className={styles.browserInfo}>
-              <h3 className={styles.itemHeading}>{browser.name}</h3>
+              <h3 className={styles.itemHeading}>
+                <span className={styles.inlineIcon}>
+                  {browser.icon ? (
+                    <Icon icon={browser.icon} size={40} cssSize={"2rem"} />
+                  ) : null}
+                </span>
+                {browser.name}
+              </h3>
               <p className={styles.description}>
                 {browser.description?.find((item) => item._key === language)
                   ?.value || ""}

@@ -1,6 +1,6 @@
 import { Container } from "../../../components/Container";
 
-const id = "bf8238ac-7d7d-4131-a28a-008941a93df2";
+const id = "b6530434-96f4-4112-891a-1fb96e861902";
 
 export default function CookiePolicy() {
   return (

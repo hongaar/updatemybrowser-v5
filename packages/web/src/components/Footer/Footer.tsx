@@ -29,12 +29,16 @@ export async function Footer({ language }: Props) {
       <footer className={styles.footer}>
         <Container className={styles.header}>
           <div className={styles.copyright}>
-            &copy; {new Date().getFullYear()} UpdateMyBrowser.org{" "}
+            <span>&copy; {new Date().getFullYear()} UpdateMyBrowser.org</span>
+            <br className={styles.copyrightBreak} />
             <Link href={`/${language}/terms-and-conditions`} tabIndex={0}>
               Terms & Conditions
             </Link>{" "}
             <Link href={`/${language}/privacy-policy`} tabIndex={0}>
               Privacy Policy
+            </Link>{" "}
+            <Link href={`/${language}/cookie-policy`} tabIndex={0}>
+              Cookie Policy
             </Link>{" "}
             <ConsentPreferences />
           </div>

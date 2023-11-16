@@ -2,11 +2,16 @@
 
 .browserList {
   counter-reset: item;
-  padding-left: 4rem;
+  padding-left: 0;
+
+  @media (min-width: map-get($breakpoints, "md")) {
+    padding-left: 3rem;
+  }
 }
 
 .listItem {
   display: flex;
+  position: relative;
   counter-increment: item;
   list-style: none;
   padding: var(--spacing);
@@ -14,13 +19,22 @@
   transition: background-color var(--transition);
 
   &::before {
+    display: block;
+    padding-right: calc(var(--spacing) * 0.5);
+
     content: counter(item);
     color: var(--support);
-    font-size: calc(var(--font-h1-size) * 1.5);
+    font-size: calc(var(--font-h2-size));
     font-weight: var(--font-weight-bold);
-    display: inline-block;
-    width: 4rem;
-    margin-left: -4rem;
+
+    @media (min-width: map-get($breakpoints, "md")) {
+      position: absolute;
+      width: 3rem;
+      left: -3rem;
+      padding-right: 0;
+
+      font-size: calc(var(--font-h1-size) * 1.5);
+    }
   }
 
   &:not(:last-child) {
@@ -39,6 +53,20 @@
 
 .icon {
   margin-right: var(--spacing);
+  display: none;
+
+  @media (min-width: map-get($breakpoints, "md")) {
+    display: unset;
+  }
+}
+
+.inlineIcon {
+  vertical-align: middle;
+  margin-right: calc(var(--spacing) * 0.5);
+
+  @media (min-width: map-get($breakpoints, "md")) {
+    display: none;
+  }
 }
 
 .browserInfo {
