@@ -10,10 +10,9 @@ export function GoogleAdSense() {
 
   return (
     <Script
-      async
+      strategy="afterInteractive"
       src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${publisherId}`}
       crossOrigin="anonymous"
-      strategy="lazyOnload"
     />
   );
 }

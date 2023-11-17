@@ -11,6 +11,7 @@ import {
   makeUpdateLinkButton,
 } from "../BrowserLinkButtons";
 import { Callout } from "../Callout";
+import { AdUnit, Slots } from "../GoogleAdSense";
 import { BrowserTag, OsTag, TagList } from "../Tag";
 import { Image } from "./Image";
 import styles from "./article.module.scss";
@@ -93,6 +94,7 @@ export async function Article({
         {article.excerpt ? (
           <p className={styles.excerpt}>{article.excerpt}</p>
         ) : null}
+        <AdUnit slot={Slots.InArticle} layout="in-article" format="fluid" />
         <MDXRemote source={article.contents} components={components} />
       </article>
     </>
