@@ -3,9 +3,9 @@
 import Script from "next/script";
 import { useEffect } from "react";
 
-const tagId = process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID;
-
 declare var window: { dataLayer: Record<string, any>[] };
+
+const tagId = process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID;
 
 export function GoogleTagManager() {
   useEffect(() => {

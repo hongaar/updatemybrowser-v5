@@ -17,6 +17,7 @@ import {
   willShowBrowserUsage,
 } from "../BrowserMetadata";
 import { Callout } from "../Callout";
+import { AdUnit, Slots } from "../GoogleAdSense";
 import { Icon } from "../Icon";
 import { ExternalLink } from "../Link";
 import styles from "./browserPage.module.scss";
@@ -64,6 +65,7 @@ export function BrowserPage({
           {dict.By} {browser.vendor}
         </span>
       </h2>
+      <AdUnit slot={Slots.BrowserPage} />
       {showMetadata ? (
         <BrowserMetadataList>
           <BrowserAvailableOn
