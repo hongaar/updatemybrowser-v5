@@ -89,6 +89,8 @@ const dict: Dict = {
     "Siehst du einen Fehler? Möchtest du etwas hinzufügen?",
   HelpImproveLinkText: "Helfen Sie uns, diese Seite auf GitHub zu verbessern.",
   BrowserFeatures: "Browserfunktionen",
+  Advertisement: "Werbung",
+  MoreInformation: "Mehr Informationen",
 };
 
 export default dict;

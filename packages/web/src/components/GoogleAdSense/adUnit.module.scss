@@ -18,6 +18,8 @@
   position: relative;
 
   &:empty {
+    background-color: var(--muted-background-color);
+    border-radius: var(--border-radius);
     min-height: 3em;
 
     &::after {

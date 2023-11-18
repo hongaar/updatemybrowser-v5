@@ -87,6 +87,8 @@ const dict: Dict = {
   HelpImproveDescription: "Unaona kosa? Unataka kuongeza kitu?",
   HelpImproveLinkText: "Tusaidie kuiboresha ukurasa huu kwenye GitHub",
   BrowserFeatures: "Vipengele vya Kivinjari",
+  Advertisement: "Matangazo",
+  MoreInformation: "Maelezo zaidi",
 };
 
 export default dict;

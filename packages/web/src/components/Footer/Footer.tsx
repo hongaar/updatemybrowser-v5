@@ -21,7 +21,6 @@ export async function Footer({ language }: Props) {
   const browsers = await getExpandedBrowsers();
   const oses = await getOses();
   const languages = await getLanguages();
-
   const dict = getDictionary(language);
 
   return (

@@ -75,6 +75,8 @@ const dict: Dict = {
   HelpImproveDescription: "कोई गलती देखें? कुछ जोड़ना च",
   HelpImproveLinkText: "हमें इस पृष्ठ को GitHub पर सुधारने में म",
   BrowserFeatures: "ब्राउज़र की विशेषताएँ",
+  Advertisement: "विज्ञापन",
+  MoreInformation: "अधिक जानकारी",
 };
 
 export default dict;
