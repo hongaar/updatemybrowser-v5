@@ -6,6 +6,7 @@ import {
 import Link from "next/link";
 import { getDictionary } from "../../dictionaries";
 import { Container } from "../Container";
+import { AdUnit, Slots } from "../GoogleAdSense";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 import { ExternalLink } from "../Link";
 import { ConsentPreferences } from "./ConsentPreferences";
@@ -25,6 +26,7 @@ export async function Footer({ language }: Props) {
 
   return (
     <>
+      <AdUnit slot={Slots.Footer} />
       <Improvement language={language} dict={dict} />
       <footer className={styles.footer}>
         <Container className={styles.header}>
