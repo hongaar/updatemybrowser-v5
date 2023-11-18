@@ -94,7 +94,13 @@ export async function Article({
         {article.excerpt ? (
           <p className={styles.excerpt}>{article.excerpt}</p>
         ) : null}
-        <AdUnit slot={Slots.InArticle} layout="in-article" format="fluid" />
+        <AdUnit
+          language={language}
+          dict={dict}
+          slot={Slots.InArticle}
+          layout="in-article"
+          format="fluid"
+        />
         <MDXRemote source={article.contents} components={components} />
       </article>
     </>

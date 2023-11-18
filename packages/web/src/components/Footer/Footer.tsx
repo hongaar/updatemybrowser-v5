@@ -26,7 +26,9 @@ export async function Footer({ language }: Props) {
 
   return (
     <>
-      <AdUnit slot={Slots.Footer} />
+      <Container fullWidth>
+        <AdUnit language={language} dict={dict} slot={Slots.Footer} />
+      </Container>
       <Improvement language={language} dict={dict} />
       <footer className={styles.footer}>
         <Container className={styles.header}>

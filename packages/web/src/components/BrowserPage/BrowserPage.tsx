@@ -65,7 +65,6 @@ export function BrowserPage({
           {dict.By} {browser.vendor}
         </span>
       </h2>
-      <AdUnit slot={Slots.BrowserPage} />
       {showMetadata ? (
         <BrowserMetadataList>
           <BrowserAvailableOn
@@ -82,6 +81,7 @@ export function BrowserPage({
           <LatestVersion language={language} dict={dict} browser={browser} />
           <TryBanner language={language} dict={dict} browser={browser} />
           <NotAvailable language={language} dict={dict} browser={browser} />
+          <AdUnit language={language} dict={dict} slot={Slots.BrowserPage} />
           <BrowserGallery language={language} dict={dict} browser={browser} />
           {description ? <p className={styles.excerpt}>{description}</p> : null}
           {summary && wikipediaUrl ? (

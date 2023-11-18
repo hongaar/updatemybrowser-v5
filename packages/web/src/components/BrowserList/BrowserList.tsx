@@ -99,7 +99,7 @@ export function BrowserList({
                 className={`${styles.link} muted`}
                 href={`/${language}/browsers/${browser.slug.current}`}
               >
-                More information
+                {dict.MoreInformation}
               </Link>
             </div>
           </li>

@@ -1,10 +1,26 @@
 @import "../../styles/theme";
 
+.wrapper {
+  width: 100%;
+
+  &:not(:last-child) {
+    margin-bottom: var(--spacing);
+  }
+}
+
+.adLabel {
+  font-size: var(--font-small-size);
+  text-transform: uppercase;
+  color: var(--muted-color);
+}
+
 .ad {
+  position: relative;
+
   &:empty {
     min-height: 3em;
 
-    &::before {
+    &::after {
       content: "Loading advertisement...";
       vertical-align: middle;
       text-align: center;
@@ -18,10 +34,10 @@
 
 .test {
   background-color: var(--primary-focus);
-  position: relative;
+  border-radius: var(--border-radius);
 
-  &::before {
-    content: "Test advertisement";
+  &::after {
+    content: "Dummy advertisement";
     vertical-align: middle;
     text-align: center;
     position: absolute;

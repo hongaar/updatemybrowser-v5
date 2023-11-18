@@ -2,9 +2,12 @@
 
 import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect, useRef } from "react";
+import type { Dict } from "../../dictionaries/en";
 import styles from "./adUnit.module.scss";
 
 type Props = {
+  language: string;
+  dict: Dict;
   slot: string;
   layout?: "in-article";
   format?: "auto" | "fluid";
@@ -16,7 +19,13 @@ const publisherId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
 
 const isProduction = process.env.NODE_ENV === "production";
 
-export function AdUnit({ slot, layout, format = "auto" }: Props) {
+export function AdUnit({
+  language,
+  dict,
+  slot,
+  layout,
+  format = "auto",
+}: Props) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const adLoaded = useRef(false);
@@ -36,17 +45,22 @@ export function AdUnit({ slot, layout, format = "auto" }: Props) {
   }
 
   return (
-    <ins
-      className={`${styles.ad} ${isProduction ? "" : styles.test} adsbygoogle`}
-      style={{
-        display: "block",
-        textAlign: layout === "in-article" ? "center" : undefined,
-      }}
-      data-ad-client={publisherId}
-      data-ad-slot={slot}
-      data-ad-layout={layout}
-      data-ad-format={format}
-      data-full-width-responsive="true"
-    />
+    <div className={styles.wrapper}>
+      <span className={styles.adLabel}>{dict.Advertisement}</span>
+      <ins
+        className={`${styles.ad} ${
+          isProduction ? "" : styles.test
+        } adsbygoogle`}
+        style={{
+          display: "block",
+          textAlign: layout === "in-article" ? "center" : undefined,
+        }}
+        data-ad-client={publisherId}
+        data-ad-slot={slot}
+        data-ad-layout={layout}
+        data-ad-format={format}
+        data-full-width-responsive="true"
+      />
+    </div>
   );
 }

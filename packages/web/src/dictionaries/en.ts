@@ -87,6 +87,8 @@ const english = {
   HelpImproveDescription: "See a mistake? Want to add something?",
   HelpImproveLinkText: "Help us improve this page on GitHub",
   BrowserFeatures: "Browser Features",
+  Advertisement: "Advertisement",
+  MoreInformation: "More information",
 };
 
 export type Dict = typeof english;
