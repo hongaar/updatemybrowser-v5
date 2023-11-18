@@ -2,6 +2,7 @@ import {
   getExpandedBrowsers,
   getFeatureCategories,
   getFeatures,
+  getOses,
 } from "@updatemybrowser/client";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -25,6 +26,7 @@ export default async function Comparison({
 }: LanguageParams) {
   const dict = getDictionary(language);
   const browsers = (await getExpandedBrowsers()).sort(compareAverageUsage);
+  const oses = await getOses();
   const featureCategories = await getFeatureCategories();
   const features = await getFeatures();
 
@@ -44,6 +46,7 @@ export default async function Comparison({
           heading={`🏷️ ${dict.BrowserFeaturesComparison}`}
           intro={<p>{dict.BrowserFeaturesComparisonDescription}</p>}
           browsers={browsers}
+          oses={oses}
           featureCategories={featureCategories}
           features={features}
         />

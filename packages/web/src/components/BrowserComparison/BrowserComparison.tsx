@@ -4,6 +4,7 @@ import type {
   Feature,
   FeatureCategory,
   FlatBrowser,
+  OS,
 } from "@updatemybrowser/client";
 import {
   hydrateBrowsersWithFlatReleases,
@@ -24,6 +25,7 @@ type Props = {
   intro?: ReactNode;
   toggleUnavailableBrowsers?: boolean;
   browsers: FlatBrowser[];
+  oses: OS[];
   featureCategories: FeatureCategory[];
   features: Feature[];
 };
@@ -35,6 +37,7 @@ export function BrowserComparison({
   intro,
   toggleUnavailableBrowsers = true,
   browsers,
+  oses,
   featureCategories,
   features,
 }: Props) {
@@ -109,7 +112,7 @@ export function BrowserComparison({
                         size={40}
                         cssSize={"2rem"}
                       />
-                    ) : null}{" "}
+                    ) : null}
                     {featureCategory.name?.find(
                       (item) => item._key === language,
                     )?.value || ""}
@@ -149,6 +152,44 @@ export function BrowserComparison({
                     </tr>
                   ))}
               </Fragment>
+            ))}
+            <tr>
+              <th className={styles.categoryHeader}>{dict.OperatingSystems}</th>
+              {browsersToShow.map((browser) => (
+                <td key={browser._id} />
+              ))}
+            </tr>
+            {oses.map((os) => (
+              <tr key={os._id}>
+                <th className={styles.featureHeader}>
+                  {os.icon ? (
+                    <Icon
+                      mode="svg"
+                      icon={os.icon}
+                      className={styles.osIcon}
+                      size={20}
+                      cssSize={"1rem"}
+                    />
+                  ) : null}
+                  {os.name}
+                </th>
+                {browsersToShow.map((browser) => (
+                  <td className={styles.featureCell} key={browser._id}>
+                    {browser.releases.find(
+                      (release) => release.os.os._id === os._id,
+                    ) ? (
+                      <Link
+                        tabIndex={0}
+                        href={`/${language}/browsers/${browser.slug.current}/${os.slug.current}/download`}
+                      >
+                        ✅
+                      </Link>
+                    ) : (
+                      "❌"
+                    )}
+                  </td>
+                ))}
+              </tr>
             ))}
           </tbody>
         </table>

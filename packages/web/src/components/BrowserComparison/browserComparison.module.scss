@@ -46,14 +46,20 @@
 
 .categoryHeader {
   white-space: nowrap;
-  padding: calc(var(--spacing) * 2) 0 var(--spacing) 0;
+  padding: calc(var(--spacing) * 2) 0 var(--spacing) calc(var(--spacing) * 0.5);
   text-align: left;
 }
 
 .categoryIcon {
   display: inline-block;
-  vertical-align: bottom;
-  margin: 0 calc(var(--spacing) * 0.5);
+  vertical-align: text-bottom;
+  margin: 0 calc(var(--spacing) * 0.5) 0 0;
+}
+
+.osIcon {
+  display: inline-block;
+  vertical-align: sub;
+  margin: 0 calc(var(--spacing) * 0.5) 0 0;
 }
 
 .featureHeader {
