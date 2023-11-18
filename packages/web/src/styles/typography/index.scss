@@ -152,13 +152,19 @@ textarea {
 
 // Article
 article {
-  margin: 0 auto calc(var(--spacing) * 2) auto;
+  margin: 0 auto;
   max-width: 50rem;
+
+  &:not(:last-child) {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
 }
 
 // Section
 section {
-  margin-bottom: calc(var(--spacing) * 2);
+  &:not(:last-child) {
+    margin-bottom: calc(var(--spacing) * 2);
+  }
 }
 
 // Ruler

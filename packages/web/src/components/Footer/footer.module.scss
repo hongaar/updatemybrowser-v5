@@ -4,6 +4,11 @@
   background-color: var(--muted-background-color);
 }
 
+.adContainer {
+  // !important due to bug with container padding from loading.tsx taking precedence
+  padding-top: 0 !important;
+}
+
 .improve {
   border-top: var(--border-size) solid var(--muted-border-color);
 }

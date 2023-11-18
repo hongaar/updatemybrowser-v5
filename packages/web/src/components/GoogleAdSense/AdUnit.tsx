@@ -41,19 +41,19 @@ export function AdUnit({
 
   if (!publisherId) {
     console.log("NEXT_PUBLIC_GOOGLE_ADSENSE_ID not set");
-    return null;
   }
 
   return (
     <div className={styles.wrapper}>
       <span className={styles.adLabel}>{dict.Advertisement}</span>
       <ins
-        className={`${styles.ad} ${
-          isProduction ? "" : styles.test
+        className={`${styles.ad} ${isProduction ? "" : styles.local} ${
+          !publisherId ? styles.dummy : ""
         } adsbygoogle`}
         style={{
           display: "block",
           textAlign: layout === "in-article" ? "center" : undefined,
+          height: !publisherId ? "200px" : undefined,
         }}
         data-ad-client={publisherId}
         data-ad-slot={slot}
