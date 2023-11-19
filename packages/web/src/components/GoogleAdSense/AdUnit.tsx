@@ -48,23 +48,21 @@ export function AdUnit({
   }
 
   return (
-    <div className={styles.wrapper}>
-      <ins
-        className={`${styles.ad} ${isProduction ? "" : styles.local} ${
-          !publisherId ? styles.dummy : ""
-        } adsbygoogle`}
-        style={{
-          display: "block",
-          textAlign: layout === "in-article" ? "center" : undefined,
-          height: !publisherId ? "200px" : undefined,
-        }}
-        data-ad-client={publisherId}
-        data-ad-slot={slot}
-        data-ad-layout={layout}
-        data-ad-format={format}
-        data-full-width-responsive="true"
-      />
-      <span className={styles.adLabel}>{dict.Advertisement}</span>
-    </div>
+    <ins
+      className={`${styles.ad} ${isProduction ? "" : styles.local} ${
+        !publisherId ? styles.dummy : ""
+      } adsbygoogle`}
+      style={{
+        display: "block",
+        textAlign: layout === "in-article" ? "center" : undefined,
+        height: !publisherId ? "200px" : undefined,
+      }}
+      data-label={dict.Advertisement}
+      data-ad-client={publisherId}
+      data-ad-slot={slot}
+      data-ad-layout={layout}
+      data-ad-format={format}
+      data-full-width-responsive="true"
+    />
   );
 }

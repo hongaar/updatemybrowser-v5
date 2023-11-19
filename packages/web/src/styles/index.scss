@@ -10,6 +10,7 @@ body {
   background-color: var(--background-color);
   color: var(--color);
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 main {

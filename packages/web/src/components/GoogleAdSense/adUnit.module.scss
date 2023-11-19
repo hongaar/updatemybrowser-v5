@@ -1,38 +1,35 @@
 @import "../../styles/theme";
 
-.wrapper {
-  display: flex;
-  flex-direction: column-reverse;
-  width: 100%;
-}
-
-.adLabel {
-  display: none;
-  font-size: var(--font-small-size);
-  text-transform: uppercase;
-  color: var(--muted-color);
-}
-
-.ad[data-ad-status="filled"] ~ .adLabel,
-.local ~ .adLabel,
-.dummy ~ .adLabel {
-  display: inline;
-}
-
 .ad {
   position: relative;
-  margin: 0 calc(var(--spacing) * -1);
+
+  margin-left: calc(var(--spacing) * -1);
+  margin-right: calc(var(--spacing) * -1);
+
+  @media (min-width: map-get($breakpoints, "sm")) {
+    margin-left: unset;
+    margin-right: unset;
+  }
 
   &:not(:last-child) {
     margin-bottom: var(--spacing);
   }
 
-  @media (min-width: 503px) {
-    margin: unset;
-  }
-
   &[data-ad-status="unfilled"]:not(.dummy):not(.local) {
     display: none !important;
+  }
+
+  &[data-ad-status="filled"] {
+    margin-top: calc(var(--spacing) * 2.5);
+
+    &::before {
+      position: absolute;
+      top: calc(var(--spacing) * -1.5);
+      content: attr(data-label);
+      font-size: var(--font-small-size);
+      text-transform: uppercase;
+      color: var(--muted-color);
+    }
   }
 
   &:empty {
@@ -41,13 +38,13 @@
     min-height: 3em;
 
     &::after {
-      content: "Loading advertisement...";
+      position: absolute;
       vertical-align: middle;
       text-align: center;
-      position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+      content: "Loading advertisement...";
     }
   }
 }
