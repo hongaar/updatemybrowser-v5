@@ -40,7 +40,11 @@ export const middleware: NextMiddleware = async (request) => {
     return;
   }
 
-  const language = await getLanguage(request, languages);
+  let language = defaultLanguage;
+
+  try {
+    language = await getLanguage(request, languages);
+  } catch (error) {}
 
   request.nextUrl.pathname = `/${language}${pathname}`;
 
