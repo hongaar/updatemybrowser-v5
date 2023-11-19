@@ -3,16 +3,18 @@
 .ad {
   position: relative;
 
-  margin-left: calc(var(--spacing) * -1);
-  margin-right: calc(var(--spacing) * -1);
-
-  @media (min-width: map-get($breakpoints, "sm")) {
-    margin-left: unset;
-    margin-right: unset;
-  }
-
   &:not(:last-child) {
     margin-bottom: var(--spacing);
+  }
+
+  &[data-full-width-responsive="true"] {
+    margin-left: calc(var(--spacing) * -1);
+    margin-right: calc(var(--spacing) * -1);
+
+    @media (min-width: map-get($breakpoints, "sm")) {
+      margin-left: unset;
+      margin-right: unset;
+    }
   }
 
   &[data-ad-status="unfilled"]:not(.dummy):not(.local) {

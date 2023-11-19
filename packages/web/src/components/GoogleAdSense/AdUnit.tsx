@@ -11,6 +11,7 @@ type Props = {
   slot: string;
   layout?: "in-article";
   format?: "auto" | "fluid";
+  fullWidth?: boolean;
 };
 
 declare var window: { adsbygoogle: Record<string, any>[] };
@@ -25,6 +26,7 @@ export function AdUnit({
   slot,
   layout,
   format = "auto",
+  fullWidth = true,
 }: Props) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -62,7 +64,7 @@ export function AdUnit({
       data-ad-slot={slot}
       data-ad-layout={layout}
       data-ad-format={format}
-      data-full-width-responsive="true"
+      data-full-width-responsive={fullWidth}
     />
   );
 }
