@@ -5,47 +5,9 @@ export const featureCategories: FeatureCategory[] = [
   {
     _createdAt: "2023-11-12T10:54:19Z",
     _id: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
-    _rev: "P8iX8yLNzdMX2eS89iAbuS",
+    _rev: "01fz37KtvhMj2e8zIIEFoC",
     _type: "featureCategory",
-    _updatedAt: "2023-11-15T09:59:50Z",
-    description: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayStringValue",
-        value: "Features which help with protecting your privacy",
-      },
-      {
-        _key: "nl",
-        _type: "internationalizedArrayStringValue",
-        value: "Functies die helpen bij het beschermen van uw privacy",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayStringValue",
-        value:
-          "Funktionen, die Ihnen dabei helfen, Ihre Privatsphäre zu schützen.",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayStringValue",
-        value: "विशेषताएं जो आपकी गोपनीयता की सु",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayStringValue",
-        value: "Fitur-fitur yang membantu melindungi privasi Anda",
-      },
-      {
-        _key: "ru",
-        _type: "internationalizedArrayStringValue",
-        value: "Функции, которые помогают защитить вашу конфиденциальность.",
-      },
-      {
-        _key: "sw",
-        _type: "internationalizedArrayStringValue",
-        value: "Vipengele ambavyo husaidia kulinda faragha yako",
-      },
-    ],
+    _updatedAt: "2023-11-18T21:48:48Z",
     icon: {
       _type: "icon",
       predefined: {
@@ -84,42 +46,12 @@ export const featureCategories: FeatureCategory[] = [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
-        value: "Privacy",
-      },
-      {
-        _key: "nl",
-        _type: "internationalizedArrayStringValue",
-        value: "Privacy",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayStringValue",
-        value: "Datenschutz",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayStringValue",
-        value: "गोपनीयता",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayStringValue",
-        value: "Privasi",
-      },
-      {
-        _key: "ru",
-        _type: "internationalizedArrayStringValue",
-        value: "Конфиденциальность",
-      },
-      {
-        _key: "sw",
-        _type: "internationalizedArrayStringValue",
-        value: "Faragha",
+        value: "Privacy & Security",
       },
     ],
     slug: {
       _type: "slug",
-      current: "privacy",
+      current: "privacy-and-security",
     },
   },
   {

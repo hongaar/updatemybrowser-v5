@@ -61,7 +61,9 @@ export async function getLanguageIds() {
 }
 
 export async function getOses() {
-  return getDocuments(DocType.OS);
+  return (await getDocuments(DocType.OS)).sort((a, b) => {
+    return a.name.localeCompare(b.name);
+  });
 }
 
 export async function getBrowsers() {

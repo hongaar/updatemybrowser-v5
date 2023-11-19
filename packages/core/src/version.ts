@@ -67,6 +67,20 @@ export function gt(v1: string, v2: string) {
   return compare(v1, v2) === 1;
 }
 
+export function gte(v1: string, v2: string) {
+  return (
+    toSimpleVersionString(v1) === toSimpleVersionString(v2) ||
+    compare(v1, v2) === 1
+  );
+}
+
 export function lt(v1: string, v2: string) {
   return compare(v1, v2) === -1;
+}
+
+export function lte(v1: string, v2: string) {
+  return (
+    toSimpleVersionString(v1) === toSimpleVersionString(v2) ||
+    compare(v1, v2) === -1
+  );
 }

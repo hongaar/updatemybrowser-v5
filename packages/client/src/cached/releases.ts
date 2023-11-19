@@ -5,9 +5,9 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-26T16:17:54Z",
     _id: "03cb4079-95d0-4368-9a97-3c9aa6b12e0d",
-    _rev: "h9gndD2P4keuz4rjsBcjZV",
+    _rev: "01fz37KtvhMj2e8zIILHL9",
     _type: "release",
-    _updatedAt: "2023-11-05T03:22:55Z",
+    _updatedAt: "2023-11-19T00:31:37Z",
     browser: {
       _ref: "f093178f-bfba-4391-8078-6f979c75630d",
       _type: "reference",
@@ -39,7 +39,25 @@ export const releases: Release[] = [
           _type: "reference",
         },
       },
+      {
+        _key: "5a52fa7ec89c",
+        _type: "osVersion",
+        os: {
+          _ref: "0e2dc525-cff5-4ec1-a670-e86684304740",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "a9ccc8f1b1a8",
+        _type: "osVersion",
+        os: {
+          _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
+          _type: "reference",
+        },
+      },
     ],
+    updateUrl:
+      "https://help.vivaldi.com/desktop/install-update/update-vivaldi/",
     versionSource: [
       {
         _key: "179c8a6a9f33",
@@ -140,9 +158,9 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-05T15:07:57Z",
     _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
-    _rev: "lRZ54YVKpJaKWrGZ7SM1Qj",
+    _rev: "tdSEgP3G53V2majpbbyhRU",
     _type: "release",
-    _updatedAt: "2023-11-05T03:22:58Z",
+    _updatedAt: "2023-11-18T21:47:48Z",
     browser: {
       _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
       _type: "reference",
@@ -174,12 +192,30 @@ export const releases: Release[] = [
           _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
           _type: "reference",
         },
+        versionConstraint: ">=10",
       },
       {
         _key: "830d3a5aa436",
         _type: "osVersion",
         os: {
           _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
+          _type: "reference",
+        },
+        versionConstraint: ">=10.15",
+      },
+      {
+        _key: "6d10e046deeb",
+        _type: "osVersion",
+        os: {
+          _ref: "0e2dc525-cff5-4ec1-a670-e86684304740",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "fa4462c11c80",
+        _type: "osVersion",
+        os: {
+          _ref: "fa2e4ac9-a45e-4f24-bb3a-1157eda2a4de",
           _type: "reference",
         },
       },
@@ -198,15 +234,16 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:54Z",
     _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _rev: "B4UTUzmTSUGGaDoK0VCkYK",
+    _rev: "tdSEgP3G53V2majpbc3jo0",
     _type: "release",
-    _updatedAt: "2023-11-05T03:22:59Z",
+    _updatedAt: "2023-11-19T00:13:24Z",
     browser: {
       _ref: "c384ba9c-d502-4946-99a2-734b295088aa",
       _type: "reference",
     },
     currentUsage: 5.603790000000001,
     currentVersion: "17.1",
+    downloadUrl: "https://support.apple.com/downloads/safari",
     oses: [
       {
         _key: "52bb0aa33b57",
@@ -225,6 +262,7 @@ export const releases: Release[] = [
         },
       },
     ],
+    updateUrl: "https://support.apple.com/HT204416",
     versionSource: [
       {
         _key: "1ea1a0d5b513",
@@ -238,15 +276,16 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:50:30Z",
     _id: "2e7a7bed-6a90-4ffc-8230-32bd93fa28d9",
-    _rev: "h9gndD2P4keuz4rjsBcju1",
+    _rev: "01fz37KtvhMj2e8zIIJLil",
     _type: "release",
-    _updatedAt: "2023-11-05T03:23:00Z",
+    _updatedAt: "2023-11-19T00:18:32Z",
     browser: {
       _ref: "e2ebb783-874b-497f-b90f-0d17956d8842",
       _type: "reference",
     },
     currentUsage: 5.347196,
     currentVersion: "119",
+    downloadUrl: "https://www.microsoft.com/edge/download",
     oses: [
       {
         _key: "ec099ce524bb",
@@ -272,7 +311,25 @@ export const releases: Release[] = [
           _type: "reference",
         },
       },
+      {
+        _key: "7e6f566a8aa2",
+        _type: "osVersion",
+        os: {
+          _ref: "0e2dc525-cff5-4ec1-a670-e86684304740",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "839d7b49afde",
+        _type: "osVersion",
+        os: {
+          _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
+          _type: "reference",
+        },
+      },
     ],
+    updateUrl:
+      "https://support.microsoft.com/topic/microsoft-edge-update-settings-af8aaca2-1b69-4870-94fe-18822dbb7ef1",
     versionSource: [
       {
         _key: "550c9d46382b",
@@ -460,15 +517,16 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:20Z",
     _id: "9f482aff-b73c-45bb-bf10-a4ea19668029",
-    _rev: "h9gndD2P4keuz4rjsBckEX",
+    _rev: "Uckd0KyIppGAIvpptSVp2X",
     _type: "release",
-    _updatedAt: "2023-11-05T03:23:05Z",
+    _updatedAt: "2023-11-19T00:15:19Z",
     browser: {
       _ref: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
       _type: "reference",
     },
     currentUsage: 0.44445409999999996,
     currentVersion: "11",
+    downloadUrl: "https://www.microsoft.com/download/internet-explorer",
     oses: [
       {
         _key: "570091bd0121",
@@ -480,6 +538,8 @@ export const releases: Release[] = [
         versionConstraint: "<8",
       },
     ],
+    updateUrl:
+      "https://support.microsoft.com/windows/run-the-latest-version-of-internet-explorer-11-ea628df4-50ce-8019-f9f4-468e39685cea",
     versionSource: [
       {
         _key: "56a76b3ab658",

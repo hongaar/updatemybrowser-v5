@@ -17,6 +17,7 @@ type Props = {
 export type BrowserGalleryItem = {
   type?: "image" | "youtube" | any;
   src: string;
+  alt?: string;
   youtubeId?: string;
   width: number;
   height: number;
@@ -50,6 +51,7 @@ export function BrowserGallery({ language, dict, browser }: Props) {
         ({
           type: "image",
           src: screenshot.asset.url,
+          alt: screenshot.alt,
           width: screenshot.asset.metadata.dimensions.width,
           height: screenshot.asset.metadata.dimensions.height,
         }) as BrowserGalleryItem,

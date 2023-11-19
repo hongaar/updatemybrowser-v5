@@ -196,6 +196,72 @@ export const features: Feature[] = [
     },
   },
   {
+    _createdAt: "2023-11-18T21:07:39Z",
+    _id: "5f610b9c-edab-4ced-a6f2-fec473db5c82",
+    _rev: "01fz37KtvhMj2e8zIICvac",
+    _type: "feature",
+    _updatedAt: "2023-11-18T21:07:39Z",
+    category: {
+      _ref: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
+      _type: "reference",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Dark mode",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "dark-mode",
+    },
+  },
+  {
+    _createdAt: "2023-11-18T21:06:07Z",
+    _id: "7dd7c5a3-4a52-4eb0-b24c-fe99c08359e1",
+    _rev: "Uckd0KyIppGAIvpptSLoi9",
+    _type: "feature",
+    _updatedAt: "2023-11-18T21:06:07Z",
+    category: {
+      _ref: "c6589281-e38e-41ac-b49e-124d1eab39e0",
+      _type: "reference",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Autofill forms",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "autofill-forms",
+    },
+  },
+  {
+    _createdAt: "2023-11-18T21:06:56Z",
+    _id: "9aaeeeb8-0124-424c-9d76-1cb34a7d79bc",
+    _rev: "tdSEgP3G53V2majpbbxs0K",
+    _type: "feature",
+    _updatedAt: "2023-11-18T21:06:56Z",
+    category: {
+      _ref: "c6589281-e38e-41ac-b49e-124d1eab39e0",
+      _type: "reference",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Multiple profiles",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "multiple-profiles",
+    },
+  },
+  {
     _createdAt: "2023-11-13T10:33:28Z",
     _id: "a32cbcd7-c281-45f5-9041-a6d2e1e26767",
     _rev: "6tBtT7HSXJBZgGx8QxKt8j",
@@ -245,6 +311,50 @@ export const features: Feature[] = [
     slug: {
       _type: "slug",
       current: "password-manager",
+    },
+  },
+  {
+    _createdAt: "2023-11-18T21:08:16Z",
+    _id: "ae11cc57-7376-42c2-82fc-a65da2c5fe14",
+    _rev: "tdSEgP3G53V2majpbbxw0a",
+    _type: "feature",
+    _updatedAt: "2023-11-18T21:08:16Z",
+    category: {
+      _ref: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
+      _type: "reference",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Reader mode",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "reader-mode",
+    },
+  },
+  {
+    _createdAt: "2023-11-18T21:04:16Z",
+    _id: "ae398af0-f21a-4ccf-a7e9-0527e05e436d",
+    _rev: "01fz37KtvhMj2e8zIICpM9",
+    _type: "feature",
+    _updatedAt: "2023-11-18T21:04:16Z",
+    category: {
+      _ref: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
+      _type: "reference",
+    },
+    name: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Tab groups",
+      },
+    ],
+    slug: {
+      _type: "slug",
+      current: "tab-groups",
     },
   },
   {
@@ -458,13 +568,20 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-13T10:32:04Z",
     _id: "f9f67163-4f2c-4a96-902a-9829a990601a",
-    _rev: "P8iX8yLNzdMX2eS89iBNzd",
+    _rev: "01fz37KtvhMj2e8zIICrzk",
     _type: "feature",
-    _updatedAt: "2023-11-15T10:11:37Z",
+    _updatedAt: "2023-11-18T21:05:15Z",
     category: {
       _ref: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
       _type: "reference",
     },
+    description: [
+      {
+        _key: "en",
+        _type: "internationalizedArrayStringValue",
+        value: "Block third-party cookies and social trackers",
+      },
+    ],
     name: [
       {
         _key: "en",
@@ -472,24 +589,9 @@ export const features: Feature[] = [
         value: "Block trackers",
       },
       {
-        _key: "nl",
+        _key: "sw",
         _type: "internationalizedArrayStringValue",
-        value: "Blokkeer trackers",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayStringValue",
-        value: "Tracker blockieren",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayStringValue",
-        value: "ट्रैकर्स को ब्लॉक करें।",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayStringValue",
-        value: "Blokir pelacak",
+        value: "Zuia wafuatiliaji",
       },
       {
         _key: "ru",
@@ -497,9 +599,24 @@ export const features: Feature[] = [
         value: "Блокировать трекеры",
       },
       {
-        _key: "sw",
+        _key: "id",
         _type: "internationalizedArrayStringValue",
-        value: "Zuia wafuatiliaji",
+        value: "Blokir pelacak",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Tracker blockieren",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Blokkeer trackers",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "ट्रैकर्स को ब्लॉक करें।",
       },
     ],
     slug: {

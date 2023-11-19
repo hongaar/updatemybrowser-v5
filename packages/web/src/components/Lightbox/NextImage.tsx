@@ -58,8 +58,8 @@ export function NextImageFactory({ language }: Props) {
         ) : (
           <Image
             fill
-            alt=""
             src={slide as StaticImageData}
+            alt={slide.alt || ""}
             loading="eager"
             draggable={false}
             className={styles.image}

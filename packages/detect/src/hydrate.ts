@@ -4,7 +4,7 @@ import type {
   OS,
   OsVersion,
 } from "@updatemybrowser/client";
-import { gt, highestVersion, lt } from "@updatemybrowser/core";
+import { gt, gte, highestVersion, lt, lte } from "@updatemybrowser/core";
 import { detect, type DetectedOs } from "./detect.js";
 
 export type MaybeHydratedBrowserWithFlatReleases = FlatBrowser & {
@@ -43,8 +43,16 @@ export function matchesOs(osVersion: OsVersion<OS>, os?: DetectedOs) {
     return true;
   }
 
+  if (osVersion.versionConstraint.startsWith("<=")) {
+    return lte(os.version, osVersion.versionConstraint.replace("<=", ""));
+  }
+
   if (osVersion.versionConstraint.startsWith("<")) {
     return lt(os.version, osVersion.versionConstraint.replace("<", ""));
+  }
+
+  if (osVersion.versionConstraint.startsWith(">=")) {
+    return gte(os.version, osVersion.versionConstraint.replace(">=", ""));
   }
 
   if (osVersion.versionConstraint.startsWith(">")) {

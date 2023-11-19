@@ -2,8 +2,10 @@ import assert from "node:assert";
 import test from "node:test";
 import {
   gt,
+  gte,
   highestVersion,
   lt,
+  lte,
   toSimpleVersionString,
 } from "../src/version.js";
 
@@ -33,9 +35,27 @@ test("gt returns true for higher versions", () => {
   assert.strictEqual(gt("20.10", "10.20"), true);
 });
 
+test("gte returns true for higher or equal versions", () => {
+  assert.strictEqual(gte("1", "3"), false);
+  assert.strictEqual(gte("99", "a"), true);
+  assert.strictEqual(gte("1.4.5", "1.4.6"), false);
+  assert.strictEqual(gte("20.10", "10.20"), true);
+  assert.strictEqual(gte("1", "1"), true);
+  assert.strictEqual(gte("1.1", "1.1.0"), true);
+});
+
 test("lt returns true for lower versions", () => {
   assert.strictEqual(lt("1", "3"), true);
   assert.strictEqual(lt("99", "a"), false);
   assert.strictEqual(lt("1.4.5", "1.4.6"), true);
   assert.strictEqual(lt("20.10", "10.20"), false);
+});
+
+test("lte returns true for lower or equal versions", () => {
+  assert.strictEqual(lte("1", "3"), true);
+  assert.strictEqual(lte("99", "a"), false);
+  assert.strictEqual(lte("1.4.5", "1.4.6"), true);
+  assert.strictEqual(lte("20.10", "10.20"), false);
+  assert.strictEqual(lte("1", "1"), true);
+  assert.strictEqual(lte("1.1", "1.1.0"), true);
 });

@@ -30,7 +30,8 @@ export const osVersion: ObjectDefinition = {
     {
       name: "versionConstraint",
       title: "Version constraint",
-      description: "Currently, only <, >, and no constraint are supported.",
+      description:
+        "Currently, only <, <=, >, >= and no constraint are supported.",
       type: "string",
       validation: (Rule) =>
         Rule.regex(/^(>?=?|<?=?)\d[\d.]*\d?$/, { name: "version" }),

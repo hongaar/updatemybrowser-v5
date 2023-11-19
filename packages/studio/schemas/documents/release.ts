@@ -120,7 +120,6 @@ export const release: DocumentDefinition = {
       description: "Configure automatic version updates",
       type: "array",
       of: [{ type: "versionSource" }],
-      validation: (Rule) => Rule.required(),
       fieldset: "version",
     },
     {

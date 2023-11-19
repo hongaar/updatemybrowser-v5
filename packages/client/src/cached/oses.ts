@@ -3,55 +3,6 @@ import type { OS } from "../schema.js";
 
 export const oses: OS[] = [
   {
-    _createdAt: "2023-10-07T02:54:01Z",
-    _id: "0e2dc525-cff5-4ec1-a670-e86684304740",
-    _rev: "Lh7rhBNTpK2mkuYCdIWIna",
-    _type: "os",
-    _updatedAt: "2023-10-23T03:24:10Z",
-    homepage: "https://www.apple.com/ios/",
-    icon: {
-      _type: "icon",
-      predefined: {
-        _type: "icon.manager",
-        icon: "logos:ios",
-        metadata: {
-          author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
-          },
-          collectionId: "logos",
-          collectionName: "SVG Logos",
-          downloadUrl:
-            "https://api.iconify.design/logos:ios.svg?width=20&height=20&download=1",
-          flip: "",
-          hFlip: false,
-          iconName: "ios",
-          inlineSvg:
-            '<svg viewBox="0 0 257 128" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M1.862 124.978h21.17v-90.12H1.862v90.12ZM12.405 23.04c6.631 0 11.817-5.101 11.817-11.477C24.222 5.1 19.036 0 12.405 0C5.858 0 .672 5.101.672 11.563c0 6.376 5.186 11.477 11.733 11.477ZM93.515.254c-35.792 0-58.238 24.401-58.238 63.426c0 39.024 22.444 63.34 58.239 63.34c35.707 0 58.153-24.316 58.153-63.34c0-39.025-22.444-63.426-58.153-63.426Zm0 18.705c21.85 0 35.793 17.344 35.793 44.72c0 27.291-13.943 44.636-35.792 44.636c-21.935 0-35.793-17.344-35.793-44.636c0-27.376 13.859-44.72 35.793-44.72ZM160.6 90.46c.935 22.616 19.469 36.558 47.695 36.558c29.672 0 48.377-14.623 48.377-37.919c0-18.279-10.542-28.566-35.453-34.262l-14.113-3.23c-15.049-3.571-21.255-8.332-21.255-16.494c0-10.203 9.352-17.004 23.21-17.004c14.028 0 23.635 6.887 24.656 18.364h20.914c-.51-21.595-18.364-36.219-45.4-36.219c-26.696 0-45.655 14.708-45.655 36.474c0 17.514 10.712 28.396 33.326 33.583l15.899 3.74c15.473 3.657 21.765 8.758 21.765 17.6c0 10.202-10.288 17.514-25.08 17.514c-14.963 0-26.27-7.397-27.63-18.705H160.6Z"></path></svg>',
-          license: {
-            name: "CC0",
-            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
-          },
-          palette: true,
-          rotate: 0,
-          size: {
-            height: 20,
-            width: 20,
-          },
-          url: "https://api.iconify.design/logos:ios.svg?width=20&height=20",
-          vFlip: false,
-        },
-      },
-    },
-    matchOsName: ["iOS"],
-    name: "iOS",
-    slug: {
-      _type: "slug",
-      current: "ios",
-    },
-    vendor: "Apple",
-  },
-  {
     _createdAt: "2023-10-07T03:10:09Z",
     _id: "2495a35b-5efd-49e6-8999-d248d5285125",
     _rev: "IW6hjkMGxufdYFszO2UwdC",
@@ -107,6 +58,103 @@ export const oses: OS[] = [
     vendor: "Open Handset Alliance",
   },
   {
+    _createdAt: "2023-10-26T14:43:26Z",
+    _id: "fa2e4ac9-a45e-4f24-bb3a-1157eda2a4de",
+    _rev: "uR7u7AhCU0Ezsyr8BWYR7L",
+    _type: "os",
+    _updatedAt: "2023-10-26T14:56:29Z",
+    homepage: "https://www.google.com/chromebook/chrome-os/",
+    icon: {
+      _type: "icon",
+      predefined: {
+        _type: "icon.manager",
+        icon: "logos:chrome",
+        metadata: {
+          author: {
+            name: "Gil Barbara",
+            url: "https://github.com/gilbarbara/logos",
+          },
+          collectionId: "logos",
+          collectionName: "SVG Logos",
+          downloadUrl:
+            "https://api.iconify.design/logos:chrome.svg?width=20&height=20&download=1",
+          hFlip: false,
+          iconName: "chrome",
+          inlineSvg:
+            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M128.003 199.216c39.335 0 71.221-31.888 71.221-71.223c0-39.335-31.886-71.223-71.221-71.223c-39.335 0-71.222 31.888-71.222 71.223c0 39.335 31.887 71.223 71.222 71.223Z" fill="#FFF"></path><path d="M35.89 92.997c-5.313-9.203-11.558-18.862-18.736-28.977a127.98 127.98 0 0 0 110.857 191.981c11.78-16.523 19.78-28.437 23.996-35.74c8.099-14.028 18.573-34.112 31.423-60.251v-.015a63.993 63.993 0 0 1-110.857.017c-17.453-32.548-29.68-54.887-36.683-67.015Z" fill="#229342"></path><path d="M128.008 255.996A127.972 127.972 0 0 0 256 127.997A127.983 127.983 0 0 0 238.837 64c-24.248-2.39-42.143-3.585-53.686-3.585c-13.088 0-32.139 1.195-57.152 3.585l-.014.01a63.993 63.993 0 0 1 55.444 31.987a63.993 63.993 0 0 1-.001 64.01l-55.42 95.989Z" fill="#FBC116"></path><path d="M128.003 178.677c27.984 0 50.669-22.685 50.669-50.67c0-27.986-22.685-50.67-50.67-50.67c-27.983 0-50.669 22.686-50.669 50.67s22.686 50.67 50.67 50.67Z" fill="#1A73E8"></path><path d="M128.003 64.004H238.84a127.973 127.973 0 0 0-221.685.015l55.419 95.99l.015.008a63.993 63.993 0 0 1 55.415-96.014l-.002.001Z" fill="#E33B2E"></path></svg>',
+          license: {
+            name: "CC0",
+            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
+          },
+          palette: true,
+          rotate: 0,
+          size: {
+            height: 20,
+            width: 20,
+          },
+          url: "https://api.iconify.design/logos:chrome.svg?width=20&height=20",
+          vFlip: false,
+        },
+      },
+    },
+    matchOsName: ["Chrome OS"],
+    name: "ChromeOS",
+    slug: {
+      _type: "slug",
+      current: "chromeos",
+    },
+    vendor: "Google",
+  },
+  {
+    _createdAt: "2023-10-07T02:54:01Z",
+    _id: "0e2dc525-cff5-4ec1-a670-e86684304740",
+    _rev: "Lh7rhBNTpK2mkuYCdIWIna",
+    _type: "os",
+    _updatedAt: "2023-10-23T03:24:10Z",
+    homepage: "https://www.apple.com/ios/",
+    icon: {
+      _type: "icon",
+      predefined: {
+        _type: "icon.manager",
+        icon: "logos:ios",
+        metadata: {
+          author: {
+            name: "Gil Barbara",
+            url: "https://github.com/gilbarbara/logos",
+          },
+          collectionId: "logos",
+          collectionName: "SVG Logos",
+          downloadUrl:
+            "https://api.iconify.design/logos:ios.svg?width=20&height=20&download=1",
+          flip: "",
+          hFlip: false,
+          iconName: "ios",
+          inlineSvg:
+            '<svg viewBox="0 0 257 128" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M1.862 124.978h21.17v-90.12H1.862v90.12ZM12.405 23.04c6.631 0 11.817-5.101 11.817-11.477C24.222 5.1 19.036 0 12.405 0C5.858 0 .672 5.101.672 11.563c0 6.376 5.186 11.477 11.733 11.477ZM93.515.254c-35.792 0-58.238 24.401-58.238 63.426c0 39.024 22.444 63.34 58.239 63.34c35.707 0 58.153-24.316 58.153-63.34c0-39.025-22.444-63.426-58.153-63.426Zm0 18.705c21.85 0 35.793 17.344 35.793 44.72c0 27.291-13.943 44.636-35.792 44.636c-21.935 0-35.793-17.344-35.793-44.636c0-27.376 13.859-44.72 35.793-44.72ZM160.6 90.46c.935 22.616 19.469 36.558 47.695 36.558c29.672 0 48.377-14.623 48.377-37.919c0-18.279-10.542-28.566-35.453-34.262l-14.113-3.23c-15.049-3.571-21.255-8.332-21.255-16.494c0-10.203 9.352-17.004 23.21-17.004c14.028 0 23.635 6.887 24.656 18.364h20.914c-.51-21.595-18.364-36.219-45.4-36.219c-26.696 0-45.655 14.708-45.655 36.474c0 17.514 10.712 28.396 33.326 33.583l15.899 3.74c15.473 3.657 21.765 8.758 21.765 17.6c0 10.202-10.288 17.514-25.08 17.514c-14.963 0-26.27-7.397-27.63-18.705H160.6Z"></path></svg>',
+          license: {
+            name: "CC0",
+            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
+          },
+          palette: true,
+          rotate: 0,
+          size: {
+            height: 20,
+            width: 20,
+          },
+          url: "https://api.iconify.design/logos:ios.svg?width=20&height=20",
+          vFlip: false,
+        },
+      },
+    },
+    matchOsName: ["iOS"],
+    name: "iOS",
+    slug: {
+      _type: "slug",
+      current: "ios",
+    },
+    vendor: "Apple",
+  },
+  {
     _createdAt: "2023-10-22T17:57:02Z",
     _id: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
     _rev: "Lh7rhBNTpK2mkuYCdIWIA6",
@@ -153,6 +201,55 @@ export const oses: OS[] = [
       current: "linux",
     },
     vendor: "Free Software Foundation, Inc.",
+  },
+  {
+    _createdAt: "2023-10-05T15:12:50Z",
+    _id: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
+    _rev: "Lh7rhBNTpK2mkuYCdIWJ9W",
+    _type: "os",
+    _updatedAt: "2023-10-23T03:24:20Z",
+    homepage: "https://www.apple.com/macos/",
+    icon: {
+      _type: "icon",
+      predefined: {
+        _type: "icon.manager",
+        icon: "mdi:apple",
+        metadata: {
+          author: {
+            name: "Pictogrammers",
+            url: "https://github.com/Templarian/MaterialDesign",
+          },
+          collectionId: "mdi",
+          collectionName: "Material Design Icons",
+          downloadUrl:
+            "https://api.iconify.design/mdi:apple.svg?width=20&height=20&download=1",
+          flip: "",
+          hFlip: false,
+          iconName: "apple",
+          inlineSvg:
+            '<svg viewBox="0 0 24 24" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47c-1.34.03-1.77-.79-3.29-.79c-1.53 0-2 .77-3.27.82c-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51c1.28-.02 2.5.87 3.29.87c.78 0 2.26-1.07 3.81-.91c.65.03 2.47.26 3.64 1.98c-.09.06-2.17 1.28-2.15 3.81c.03 3.02 2.65 4.03 2.68 4.04c-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5c.13 1.17-.34 2.35-1.04 3.19c-.69.85-1.83 1.51-2.95 1.42c-.15-1.15.41-2.35 1.05-3.11Z" fill="currentColor"></path></svg>',
+          license: {
+            name: "Apache 2.0",
+            url: "https://github.com/Templarian/MaterialDesign/blob/master/LICENSE",
+          },
+          palette: false,
+          rotate: 0,
+          size: {
+            height: 20,
+            width: 20,
+          },
+          url: "https://api.iconify.design/mdi:apple.svg?width=20&height=20",
+          vFlip: false,
+        },
+      },
+    },
+    matchOsName: ["macOS"],
+    name: "macOS",
+    slug: {
+      _type: "slug",
+      current: "macos",
+    },
+    vendor: "Apple",
   },
   {
     _createdAt: "2023-09-28T05:37:03Z",
@@ -209,102 +306,5 @@ export const oses: OS[] = [
       current: "windows",
     },
     vendor: "Microsoft",
-  },
-  {
-    _createdAt: "2023-10-26T14:43:26Z",
-    _id: "fa2e4ac9-a45e-4f24-bb3a-1157eda2a4de",
-    _rev: "uR7u7AhCU0Ezsyr8BWYR7L",
-    _type: "os",
-    _updatedAt: "2023-10-26T14:56:29Z",
-    homepage: "https://www.google.com/chromebook/chrome-os/",
-    icon: {
-      _type: "icon",
-      predefined: {
-        _type: "icon.manager",
-        icon: "logos:chrome",
-        metadata: {
-          author: {
-            name: "Gil Barbara",
-            url: "https://github.com/gilbarbara/logos",
-          },
-          collectionId: "logos",
-          collectionName: "SVG Logos",
-          downloadUrl:
-            "https://api.iconify.design/logos:chrome.svg?width=20&height=20&download=1",
-          hFlip: false,
-          iconName: "chrome",
-          inlineSvg:
-            '<svg viewBox="0 0 256 256" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M128.003 199.216c39.335 0 71.221-31.888 71.221-71.223c0-39.335-31.886-71.223-71.221-71.223c-39.335 0-71.222 31.888-71.222 71.223c0 39.335 31.887 71.223 71.222 71.223Z" fill="#FFF"></path><path d="M35.89 92.997c-5.313-9.203-11.558-18.862-18.736-28.977a127.98 127.98 0 0 0 110.857 191.981c11.78-16.523 19.78-28.437 23.996-35.74c8.099-14.028 18.573-34.112 31.423-60.251v-.015a63.993 63.993 0 0 1-110.857.017c-17.453-32.548-29.68-54.887-36.683-67.015Z" fill="#229342"></path><path d="M128.008 255.996A127.972 127.972 0 0 0 256 127.997A127.983 127.983 0 0 0 238.837 64c-24.248-2.39-42.143-3.585-53.686-3.585c-13.088 0-32.139 1.195-57.152 3.585l-.014.01a63.993 63.993 0 0 1 55.444 31.987a63.993 63.993 0 0 1-.001 64.01l-55.42 95.989Z" fill="#FBC116"></path><path d="M128.003 178.677c27.984 0 50.669-22.685 50.669-50.67c0-27.986-22.685-50.67-50.67-50.67c-27.983 0-50.669 22.686-50.669 50.67s22.686 50.67 50.67 50.67Z" fill="#1A73E8"></path><path d="M128.003 64.004H238.84a127.973 127.973 0 0 0-221.685.015l55.419 95.99l.015.008a63.993 63.993 0 0 1 55.415-96.014l-.002.001Z" fill="#E33B2E"></path></svg>',
-          license: {
-            name: "CC0",
-            url: "https://raw.githubusercontent.com/gilbarbara/logos/master/LICENSE.txt",
-          },
-          palette: true,
-          rotate: 0,
-          size: {
-            height: 20,
-            width: 20,
-          },
-          url: "https://api.iconify.design/logos:chrome.svg?width=20&height=20",
-          vFlip: false,
-        },
-      },
-    },
-    matchOsName: ["Chrome OS"],
-    name: "ChromeOS",
-    slug: {
-      _type: "slug",
-      current: "chromeos",
-    },
-    vendor: "Google",
-  },
-  {
-    _createdAt: "2023-10-05T15:12:50Z",
-    _id: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
-    _rev: "Lh7rhBNTpK2mkuYCdIWJ9W",
-    _type: "os",
-    _updatedAt: "2023-10-23T03:24:20Z",
-    homepage: "https://www.apple.com/macos/",
-    icon: {
-      _type: "icon",
-      predefined: {
-        _type: "icon.manager",
-        icon: "mdi:apple",
-        metadata: {
-          author: {
-            name: "Pictogrammers",
-            url: "https://github.com/Templarian/MaterialDesign",
-          },
-          collectionId: "mdi",
-          collectionName: "Material Design Icons",
-          downloadUrl:
-            "https://api.iconify.design/mdi:apple.svg?width=20&height=20&download=1",
-          flip: "",
-          hFlip: false,
-          iconName: "apple",
-          inlineSvg:
-            '<svg viewBox="0 0 24 24" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47c-1.34.03-1.77-.79-3.29-.79c-1.53 0-2 .77-3.27.82c-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51c1.28-.02 2.5.87 3.29.87c.78 0 2.26-1.07 3.81-.91c.65.03 2.47.26 3.64 1.98c-.09.06-2.17 1.28-2.15 3.81c.03 3.02 2.65 4.03 2.68 4.04c-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5c.13 1.17-.34 2.35-1.04 3.19c-.69.85-1.83 1.51-2.95 1.42c-.15-1.15.41-2.35 1.05-3.11Z" fill="currentColor"></path></svg>',
-          license: {
-            name: "Apache 2.0",
-            url: "https://github.com/Templarian/MaterialDesign/blob/master/LICENSE",
-          },
-          palette: false,
-          rotate: 0,
-          size: {
-            height: 20,
-            width: 20,
-          },
-          url: "https://api.iconify.design/mdi:apple.svg?width=20&height=20",
-          vFlip: false,
-        },
-      },
-    },
-    matchOsName: ["macOS"],
-    name: "macOS",
-    slug: {
-      _type: "slug",
-      current: "macos",
-    },
-    vendor: "Apple",
   },
 ];
