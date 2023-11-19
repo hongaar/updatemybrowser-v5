@@ -13,7 +13,7 @@ export const version = command("version").action(async () => {
   for (const release of releases) {
     console.log(`Updating version for release: ${release._id}...`);
 
-    const sources = release.versionSource
+    const sources = (release.versionSource || [])
       .map(({ source, ...rest }) => {
         if (source === "caniuse" && rest.caniuse_agent) {
           return {

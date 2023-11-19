@@ -28,7 +28,7 @@ export const UpdateCurrentVersionAction: ActionComponent<
     setUpdating(true);
 
     try {
-      const sources = doc!.versionSource
+      const sources = (doc!.versionSource || [])
         .map(({ source, ...rest }) => {
           if (source === "caniuse" && rest.caniuse_agent) {
             return {

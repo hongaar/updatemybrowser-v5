@@ -5,9 +5,9 @@ export const featureCategories: FeatureCategory[] = [
   {
     _createdAt: "2023-11-12T10:54:19Z",
     _id: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
-    _rev: "01fz37KtvhMj2e8zIIEFoC",
+    _rev: "tdSEgP3G53V2majpbc8TE4",
     _type: "featureCategory",
-    _updatedAt: "2023-11-18T21:48:48Z",
+    _updatedAt: "2023-11-19T01:33:43Z",
     icon: {
       _type: "icon",
       predefined: {
@@ -47,6 +47,36 @@ export const featureCategories: FeatureCategory[] = [
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value: "Privacy & Security",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Privacy & Veiligheid",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Datenschutz und Sicherheit",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "गोपनीयता और सुरक्षा",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Privasi & Keamanan",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Конфиденциальность и безопасность",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Faragha na Usalama",
       },
     ],
     slug: {

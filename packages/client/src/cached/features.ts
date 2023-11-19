@@ -198,9 +198,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-18T21:07:39Z",
     _id: "5f610b9c-edab-4ced-a6f2-fec473db5c82",
-    _rev: "01fz37KtvhMj2e8zIICvac",
+    _rev: "Uckd0KyIppGAIvpptSbbhp",
     _type: "feature",
-    _updatedAt: "2023-11-18T21:07:39Z",
+    _updatedAt: "2023-11-19T01:33:55Z",
     category: {
       _ref: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
       _type: "reference",
@@ -211,6 +211,36 @@ export const features: Feature[] = [
         _type: "internationalizedArrayStringValue",
         value: "Dark mode",
       },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Donkere modus",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Dunkler Modus",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "डार्क मोड",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Mode gelap",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Темный режим",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Njia ya giza",
+      },
     ],
     slug: {
       _type: "slug",
@@ -220,9 +250,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-18T21:06:07Z",
     _id: "7dd7c5a3-4a52-4eb0-b24c-fe99c08359e1",
-    _rev: "Uckd0KyIppGAIvpptSLoi9",
+    _rev: "Uckd0KyIppGAIvpptSbbx3",
     _type: "feature",
-    _updatedAt: "2023-11-18T21:06:07Z",
+    _updatedAt: "2023-11-19T01:34:19Z",
     category: {
       _ref: "c6589281-e38e-41ac-b49e-124d1eab39e0",
       _type: "reference",
@@ -233,6 +263,36 @@ export const features: Feature[] = [
         _type: "internationalizedArrayStringValue",
         value: "Autofill forms",
       },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Automatisch invullen van formulieren",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Formulare automatisch ausfüllen",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "ऑटोफिल फॉर्म्स",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Isi formulir otomatis",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Автозаполнение форм",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Jaza fomu kiotomatiki",
+      },
     ],
     slug: {
       _type: "slug",
@@ -242,9 +302,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-18T21:06:56Z",
     _id: "9aaeeeb8-0124-424c-9d76-1cb34a7d79bc",
-    _rev: "tdSEgP3G53V2majpbbxs0K",
+    _rev: "01fz37KtvhMj2e8zIIMWOe",
     _type: "feature",
-    _updatedAt: "2023-11-18T21:06:56Z",
+    _updatedAt: "2023-11-19T01:35:02Z",
     category: {
       _ref: "c6589281-e38e-41ac-b49e-124d1eab39e0",
       _type: "reference",
@@ -254,6 +314,36 @@ export const features: Feature[] = [
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value: "Multiple profiles",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Meerdere profielen",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Mehrere Profile",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "एकाधिक प्रोफ़ाइलें",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Profil ganda",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Несколько профилей",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Profaili nyingi",
       },
     ],
     slug: {
@@ -316,9 +406,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-18T21:08:16Z",
     _id: "ae11cc57-7376-42c2-82fc-a65da2c5fe14",
-    _rev: "tdSEgP3G53V2majpbbxw0a",
+    _rev: "Uckd0KyIppGAIvpptSbdBB",
     _type: "feature",
-    _updatedAt: "2023-11-18T21:08:16Z",
+    _updatedAt: "2023-11-19T01:35:21Z",
     category: {
       _ref: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
       _type: "reference",
@@ -329,6 +419,36 @@ export const features: Feature[] = [
         _type: "internationalizedArrayStringValue",
         value: "Reader mode",
       },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Leesmodus",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Lesemodus",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "पाठक मोड",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Mode pembaca",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Режим чтения",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Mode ya kusoma",
+      },
     ],
     slug: {
       _type: "slug",
@@ -338,9 +458,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-18T21:04:16Z",
     _id: "ae398af0-f21a-4ccf-a7e9-0527e05e436d",
-    _rev: "01fz37KtvhMj2e8zIICpM9",
+    _rev: "tdSEgP3G53V2majpbc8U6y",
     _type: "feature",
-    _updatedAt: "2023-11-18T21:04:16Z",
+    _updatedAt: "2023-11-19T01:35:33Z",
     category: {
       _ref: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
       _type: "reference",
@@ -350,6 +470,36 @@ export const features: Feature[] = [
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value: "Tab groups",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Tabgroepen",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Tab-Gruppen",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "टैब समूह",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Kelompok tab",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Группы вкладок",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Vikundi vya tab",
       },
     ],
     slug: {
@@ -568,9 +718,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-13T10:32:04Z",
     _id: "f9f67163-4f2c-4a96-902a-9829a990601a",
-    _rev: "01fz37KtvhMj2e8zIICrzk",
+    _rev: "01fz37KtvhMj2e8zIIMX5K",
     _type: "feature",
-    _updatedAt: "2023-11-18T21:05:15Z",
+    _updatedAt: "2023-11-19T01:36:36Z",
     category: {
       _ref: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
       _type: "reference",
@@ -580,6 +730,36 @@ export const features: Feature[] = [
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value: "Block third-party cookies and social trackers",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Blokkeer cookies van derden en sociale trackers",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Blockieren Sie Cookies von Drittanbietern und soziale Tracker.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "तृतीय-पक्ष कुकीज़ और सामाजिक ट",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Blokir cookie pihak ketiga dan pelacak sosial",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Блокировать сторонние файлы cookie и социальные трекеры",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Zuia kuki za watu wengine na wafuatiliaji wa kijamii",
       },
     ],
     name: [

@@ -5,27 +5,25 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "lRZ54YVKpJaKWrGZ7TDtMD",
+    _rev: "Uckd0KyIppGAIvpptSbXWz",
     _type: "browser",
-    _updatedAt: "2023-11-07T03:21:18Z",
+    _updatedAt: "2023-11-19T01:26:20Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Fast, secure, customizable, with built-in ad blocker and free VPN.",
+        value: "Fast, secure, customizable, with built-in ad blocker and VPN.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Snel, veilig, aanpasbaar, met ingebouwde adblocker en gratis VPN.",
+        value: "Snel, veilig, aanpasbaar, met ingebouwde adblocker en VPN.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Schnell, sicher, anpassbar, mit integriertem Werbeblocker und kostenlosem VPN.",
+          "Schnell, sicher, anpassbar, mit integriertem Werbeblocker und VPN.",
       },
       {
         _key: "hi",
@@ -36,7 +34,7 @@ export const browsers: Browser[] = [
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Cepat, aman, dapat disesuaikan, dengan pemblokir iklan bawaan dan VPN gratis.",
+          "Cepat, aman, dapat disesuaikan, dengan pemblokir iklan dan VPN terintegrasi.",
       },
       {
         _key: "ru",
@@ -48,13 +46,58 @@ export const browsers: Browser[] = [
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value:
-          "Haraka, salama, inayoweza kubadilishwa, na kizuizi cha matangazo kilichojengwa na VPN",
+          "Haraka, salama, inayoweza kubadilishwa, na kizuizi cha matangazo na VPN.",
       },
     ],
-    featuredArticles: [
+    features: [
       {
-        _key: "bf640fd6a755",
-        _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
+        _key: "d3c08a5a51c2",
+        _ref: "30d67e62-0f8c-4648-ab91-dfca41410412",
+        _type: "reference",
+      },
+      {
+        _key: "55f0796aecbc",
+        _ref: "bd5e7853-c514-4498-9b92-82ec06c78122",
+        _type: "reference",
+      },
+      {
+        _key: "dff91117ba94",
+        _ref: "5f610b9c-edab-4ced-a6f2-fec473db5c82",
+        _type: "reference",
+      },
+      {
+        _key: "9b563aef4e18",
+        _ref: "7dd7c5a3-4a52-4eb0-b24c-fe99c08359e1",
+        _type: "reference",
+      },
+      {
+        _key: "dde3e9b1c7a7",
+        _ref: "3c42fbee-fa58-4c34-82b4-07324a097635",
+        _type: "reference",
+      },
+      {
+        _key: "028442d5ae72",
+        _ref: "f9f67163-4f2c-4a96-902a-9829a990601a",
+        _type: "reference",
+      },
+      {
+        _key: "896159b110a0",
+        _ref: "bb5f2721-c9ca-4421-a8ba-d6cd023e7617",
+        _type: "reference",
+      },
+      {
+        _key: "addc6266bc39",
+        _ref: "a32cbcd7-c281-45f5-9041-a6d2e1e26767",
+        _type: "reference",
+      },
+      {
+        _key: "8e16f4a7443f",
+        _ref: "f90318ae-0fb2-487c-a384-bc3cfb534c57",
+        _type: "reference",
+      },
+      {
+        _key: "33a1935cc512",
+        _ref: "ae398af0-f21a-4ccf-a7e9-0527e05e436d",
         _type: "reference",
       },
     ],
@@ -540,28 +583,10 @@ export const browsers: Browser[] = [
           "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. There are also mobile versions called Opera Mobile and Opera Mini. Opera users also have access to Opera News, a news app based on an AI platform.",
       },
       {
-        _key: "nl",
+        _key: "sw",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera is een webbrowser en internet suite die is ontwikkeld door het Noorse bedrijf Opera Software.",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Opera ist ein kostenloser proprietärer Webbrowser. Er basierte bis einschließlich Version 12.18 auf einem eigenen HTML-Renderer. Seit der 2013 freigegebenen Version 15 nutzt er den Renderer der jeweils aktuellen Version des Webbrowsers Chromium. Opera ist für viele Plattformen verfügbar. Alleiniger Entwickler der geschlossenen Softwarekomponenten ist das ehemals norwegische Unternehmen Opera Software, das sich auch an der Fortentwicklung der quelloffenen Rendering-Engine beteiligt.",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "ऑपेरा एक वेब ब्राउज़र होता है। इसमें संपूर्ण इंटरनेट सूट है जिसका विकास ऑपेरा सॉफ्टवेअर कंपनी ने किया है। यह ब्राउज़र निःशुल्क वितरण हेतु उपलब्ध है।",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Opera adalah peramban web dan paket perangkat lunak Internet antar-platform. Opera terdiri dari kumpulan perangkat lunak untuk Internet seperti peramban web, serta perangkat lunak untuk membaca dan mengirim surat elektronik. Opera dibuat oleh Opera Software yang bermarkas di Oslo, Norwegia. Opera dapat dijalankan di berbagai sistem operasi, termasuk Microsoft Windows, Mac OS X, Solaris, FreeBSD dan Linux.",
+          "Opera ni kivinjari cha wavuti kwa Windows, MacOS, na Linux ambacho ni mifumo ya uendeshaji iliyoandaliwa na Opera Software. Inatumia injini ya mpangilio wa Blink.",
       },
       {
         _key: "ru",
@@ -570,10 +595,28 @@ export const browsers: Browser[] = [
           "Opera — веб-браузер и пакет прикладных программ для работы в Интернете, выпускаемый компанией Opera Software. Разработан в 1994 году группой исследователей из норвежской компании Telenor. С 1995 года — продукт компании Opera Software, образованной авторами первой версии браузера. Суммарная рыночная доля браузеров Opera в январе 2021 года составила 2,17 % — шестое место в мире. В России процент пользователей браузера выше среднемирового. В январе 2021 года доля браузеров Opera в Рунете составила 5,55%.",
       },
       {
-        _key: "sw",
+        _key: "id",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera ni kivinjari cha wavuti kwa Windows, MacOS, na Linux ambacho ni mifumo ya uendeshaji iliyoandaliwa na Opera Software. Inatumia injini ya mpangilio wa Blink.",
+          "Opera adalah peramban web dan paket perangkat lunak Internet antar-platform. Opera terdiri dari kumpulan perangkat lunak untuk Internet seperti peramban web, serta perangkat lunak untuk membaca dan mengirim surat elektronik. Opera dibuat oleh Opera Software yang bermarkas di Oslo, Norwegia. Opera dapat dijalankan di berbagai sistem operasi, termasuk Microsoft Windows, Mac OS X, Solaris, FreeBSD dan Linux.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Opera ist ein kostenloser proprietärer Webbrowser. Er basierte bis einschließlich Version 12.18 auf einem eigenen HTML-Renderer. Seit der 2013 freigegebenen Version 15 nutzt er den Renderer der jeweils aktuellen Version des Webbrowsers Chromium. Opera ist für viele Plattformen verfügbar. Alleiniger Entwickler der geschlossenen Softwarekomponenten ist das ehemals norwegische Unternehmen Opera Software, das sich auch an der Fortentwicklung der quelloffenen Rendering-Engine beteiligt.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Opera is een webbrowser en internet suite die is ontwikkeld door het Noorse bedrijf Opera Software.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "ऑपेरा एक वेब ब्राउज़र होता है। इसमें संपूर्ण इंटरनेट सूट है जिसका विकास ऑपेरा सॉफ्टवेअर कंपनी ने किया है। यह ब्राउज़र निःशुल्क वितरण हेतु उपलब्ध है।",
       },
     ],
     vendor: "Opera",
@@ -584,25 +627,9 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Opera_(web_browser)",
       },
       {
-        _key: "nl",
+        _key: "sw",
         _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Opera_(webbrowser)",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://de.wikipedia.org/wiki/Opera_(Browser)",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayUrlValue",
-        value:
-          "https://hi.wikipedia.org/wiki/%E0%A4%91%E0%A4%AA%E0%A5%87%E0%A4%B0%E0%A4%BE_%E0%A4%B5%E0%A5%87%E0%A4%AC_%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%89%E0%A4%9C%E0%A4%BC%E0%A4%B0",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Opera_(peramban_web)",
+        value: "https://sw.wikipedia.org/wiki/Opera_(wavuti)",
       },
       {
         _key: "ru",
@@ -610,9 +637,25 @@ export const browsers: Browser[] = [
         value: "https://ru.wikipedia.org/wiki/Opera",
       },
       {
-        _key: "sw",
+        _key: "id",
         _type: "internationalizedArrayUrlValue",
-        value: "https://sw.wikipedia.org/wiki/Opera_(wavuti)",
+        value: "https://id.wikipedia.org/wiki/Opera_(peramban_web)",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Opera_(Browser)",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://nl.wikipedia.org/wiki/Opera_(webbrowser)",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayUrlValue",
+        value:
+          "https://hi.wikipedia.org/wiki/%E0%A4%91%E0%A4%AA%E0%A5%87%E0%A4%B0%E0%A4%BE_%E0%A4%B5%E0%A5%87%E0%A4%AC_%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%89%E0%A4%9C%E0%A4%BC%E0%A4%B0",
       },
     ],
     youtubeId: "FxBBuxE6XTI",
@@ -620,50 +663,66 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "lRZ54YVKpJaKWrGZ7SM1gD",
+    _rev: "tdSEgP3G53V2majpbc8Obc",
     _type: "browser",
-    _updatedAt: "2023-11-02T06:28:50Z",
+    _updatedAt: "2023-11-19T01:26:39Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Fast, secure, customizable, ad-blocker, video assistant, secret mode, high contrast.",
+        value: "Android browser by Samsung",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Snel, veilig, aanpasbaar, ad-blocker, video-assistent, geheime modus, hoog contrast.",
+        value: "Android browser van Samsung.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Schnell, sicher, anpassbar, Werbeblocker, Video-Assistent, Geheimmodus, hoher Kontrast.",
+        value: "Android-Browser von Samsung.",
       },
       {
         _key: "hi",
         _type: "internationalizedArrayStringValue",
-        value: "तेज, सुरक्षित, अनुकूलनयोग्य, व",
+        value: "सैमसंग द्वारा एंड्रॉइड ब्राउ",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Cepat, aman, dapat disesuaikan, pemblokir iklan, asisten video, mode rahasia, kontras ting",
+        value: "Browser Android oleh Samsung.",
       },
       {
         _key: "ru",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Быстрый, безопасный, настраиваемый, блокировщик рекламы, видео-",
+        value: "Браузер Android от Samsung.",
       },
       {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Haraka, salama, inayoweza kubadilishwa, kuzuia matangazo, msaidizi wa video, hali",
+        value: "Kivinjari cha Android kutoka Samsung.",
+      },
+    ],
+    features: [
+      {
+        _key: "12fd43c72346",
+        _ref: "5f610b9c-edab-4ced-a6f2-fec473db5c82",
+        _type: "reference",
+      },
+      {
+        _key: "2d02be441b77",
+        _ref: "30d67e62-0f8c-4648-ab91-dfca41410412",
+        _type: "reference",
+      },
+      {
+        _key: "2d9d9bd84b46",
+        _ref: "ae398af0-f21a-4ccf-a7e9-0527e05e436d",
+        _type: "reference",
+      },
+      {
+        _key: "b8625643056d",
+        _ref: "f9f67163-4f2c-4a96-902a-9829a990601a",
+        _type: "reference",
       },
     ],
     homepage: "https://www.samsung.com/us/support/owners/app/samsung-internet",
@@ -674,6 +733,267 @@ export const browsers: Browser[] = [
     },
     matchBrowserName: ["Samsung Internet"],
     name: "Samsung Internet",
+    popularity: 5,
+    screenshots: [
+      {
+        _key: "72746ca5ce44",
+        _type: "figure",
+        alt: "Samsung Internet",
+        asset: {
+          _createdAt: "2023-11-19T01:17:06Z",
+          _id: "image-a048c06ca4a2d1629d025608d66bdf99a83515e9-810x1440-png",
+          _rev: "01fz37KtvhMj2e8zIIMI1A",
+          _type: "sanity.imageAsset",
+          _updatedAt: "2023-11-19T01:17:06Z",
+          assetId: "a048c06ca4a2d1629d025608d66bdf99a83515e9",
+          extension: "png",
+          metadata: {
+            _type: "sanity.imageMetadata",
+            blurHash: "cKRC;}t8-;_Na#j[%2WCIUxtWBM{_3ofs:",
+            dimensions: {
+              _type: "sanity.imageDimensions",
+              aspectRatio: 0.5625,
+              height: 1440,
+              width: 810,
+            },
+            hasAlpha: false,
+            isOpaque: true,
+            lqip: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAIAAAAGkY33AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEklEQVRIiaWW2W8TRxjA94/rQ9VIlAce6EE41FIQEqFASyOuJhBKGtKStilNoA9IrUhaEedyYgebtbHjI/i+r9gbx0Ac7653Z+/d2XXrncQxbRVa9afV6PPsfDPfzncZk2WZ4ziWZTmOk2VZ1/XWvhiGoWmaqqq6rmMURREEUSwWCYIgSVJVVcMw9tGEEPI8DwDQNA0DANTr9ZcvX9brdQAAhHD/Y3VdlyRJFEUIIQYhVFVVUVRVVSGE+xzbQTcxDAND+3V4o2Zrd32r1cJ2N9t5jH9Ba5e2MoQtljW2GzrDQJ4XAQAsy6KR4zhRFIUu5C6PYIbR4gUjk9e8ATWR4nP5ciwWC4cj8Xg8EomkUqlKpVIsFnO5XKFQyOVytVpNkqQdsw2jxQlGPK06n8mhKEgk88Fg0OfzB4NBv98fiUQKhUI6nY7H48lkMh6PVyoVURT3vlnTWiSlb2zCekNtNlmSJBuNBhopigIAMAxD03Sz2aRpmuO4jjv3LkzTDAjbbnwjxu6dtZV1XRdFEW3cbDYBAIIg8DzPsizDMDzPi6LIsixFUeitoiidbzZkWSYIIhAIPDMJh8P5fD6RSAQCAZ/PF4vFyuVyOp32miQSCZIkd4LEMAxJkorFosPhmJ2dffz4sc1m8/v9LpdraWlpfn7eZrOFTRYXFy0Wi8fjefXqFYrFttmCIGSzWZfLZTPBcRyZ4PF4cBx3Op1+f/vyrVbrzMzM06dPCYJQFGXHbJZlw+HwionT6cRx3Gaz2e32lZWVpaUlh8Ph8Xi8Xu/8/Pz09LTVas1ms8hb7ZNlWd7a2towIQgik8kEAgGv12u32xcWFtxudzQaLZVK5XK5VCpVKhWKojRN63ZVGwihKIrr6+tut9vhcCwvL1sslrm5OafTWalUFEX5B1d1J5aqqtvb2+l0OpVKFQqFTCYTCoXW1tZqtVqnTvzVz2ZK7yAIAkoM3oRhGJIkkXtVE03T9vysqirDMA0T8m/QNE1RFJIpE1SDOrGtsSxbr9e3trbq9fq2SaOLzsy2OXbCe6eSqKqKKpMoipKJ3EVnRjLZM/v12mL8t0pi/A8wwDR5DgCm2aRI1pQ5wDA0ydAkBxiB53jAsjTJ0iRgKA4wosCLoiTwAgAAcy3PBnD76pNFfHku6HXHngeC7ifOhd+fzE2tOqyxgCfiwz12C279zWObCeDLqWioWCilUtng2nNs4Ozxkf4zw/1nBi+dHb09NDF257sbl25+emLg7NGvvzg9cfvKz6PXv/+yb7T/5LeXT/1448LUg/EFy9z0o+nJiQms7/13Pu098PF7PQd73urpefvI4UN9xw9dPPbuhd4Dnx87ePXU4Zvnjt46d2So74Nb544MXzwxNnDxh+HBkcErg/3nsfGvLo8NXb7Wf/7kyY8+7O09feqTW1c/+2n46v2R65Mj1x7cGXg4NvTr+O1H90amJkanJr+Zvn/30eTdX+6NPhwfwUrZVDYZC4fWVn0+j3fV5/dHQsFkZC0VfW6OoXQsnE1GS9lkpZitFHPlfLotFzLV9QKmqWonmDmO43meoqharba5uVmtVjc2NqrV6osXL2iaRvHDcRzDMAJqdDqEiqJ0R5UgCAzDNE1ok/Zqs1eglaIooPTEUEppmobaJZIlSeJ5vpNkSACAFYT2pCy3j3lNGQlIRpmIDAEAIAHlk6IoKAXaZqN+jcKtUyg0TVMUBZqgvg0hlGUZ/ZtAP/8Mzz8A1syAXUzNK98AAAAASUVORK5CYII=",
+            palette: {
+              _type: "sanity.imagePalette",
+              darkMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#604d3c",
+                foreground: "#fff",
+                population: 0.1,
+                title: "#fff",
+              },
+              darkVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#222b62",
+                foreground: "#fff",
+                population: 0,
+                title: "#fff",
+              },
+              dominant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#947b69",
+                foreground: "#fff",
+                population: 0.13,
+                title: "#fff",
+              },
+              lightMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#9cb4cc",
+                foreground: "#000",
+                population: 0,
+                title: "#fff",
+              },
+              lightVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#a4a4fc",
+                foreground: "#000",
+                population: 0,
+                title: "#fff",
+              },
+              muted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#947b69",
+                foreground: "#fff",
+                population: 0.13,
+                title: "#fff",
+              },
+              vibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#5464c4",
+                foreground: "#fff",
+                population: 0.01,
+                title: "#fff",
+              },
+            },
+          },
+          mimeType: "image/png",
+          originalFilename: "image.png",
+          path: "images/0ydog342/production/a048c06ca4a2d1629d025608d66bdf99a83515e9-810x1440.png",
+          sha1hash: "a048c06ca4a2d1629d025608d66bdf99a83515e9",
+          size: 382967,
+          uploadId: "NOXLca6G8oMsUtu5mACqWTusJsswkHOg",
+          url: "https://cdn.sanity.io/images/0ydog342/production/a048c06ca4a2d1629d025608d66bdf99a83515e9-810x1440.png",
+        },
+      },
+      {
+        _key: "b1cdd9b906a4",
+        _type: "figure",
+        alt: "Add-ons in Samsung Internet",
+        asset: {
+          _createdAt: "2023-11-19T01:17:41Z",
+          _id: "image-193400266f0b5b5409d07e75b74b32afba49bb0d-810x1440-png",
+          _rev: "01fz37KtvhMj2e8zIIMJVd",
+          _type: "sanity.imageAsset",
+          _updatedAt: "2023-11-19T01:17:41Z",
+          assetId: "193400266f0b5b5409d07e75b74b32afba49bb0d",
+          extension: "png",
+          metadata: {
+            _type: "sanity.imageMetadata",
+            blurHash: "cBRfqVa*-i~1RiE80Ot5^y~Rs.E84{RnxV",
+            dimensions: {
+              _type: "sanity.imageDimensions",
+              aspectRatio: 0.5625,
+              height: 1440,
+              width: 810,
+            },
+            hasAlpha: false,
+            isOpaque: true,
+            lqip: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAkCAIAAAAGkY33AAAACXBIWXMAAAsTAAALEwEAmpwYAAADRklEQVRIieWVy47cRBSG/UrZJBGvAhIZngKCWMEbkMUEViwJTBZZRCITsSDRBBRQLiC66diedtvtapfd5bqcurncUlSu7mZ6eiYMbPn0q1S2669zXOfIjtSA3kVdjUgOCCEopW3bUkoZY0KIK5kBgDGGMY7jeDQaTSaTJEkwxlLKc+nsp+YjM8bquk7TdDweB3NVVQCglJKXoLaRCSEYY4RQOYAQwhg3TVNfAiEkbB0xxsqyzLJsOpAOnA4kSRLHcZIk4U6WZUVRlGWJMRZCaK29uSiKNE3jgSRJTk9Pp9NplmVhi2wDQogQQinlnIfMvRkhFCJnWbZYLAgh4djDuGXr2SlVWEcGOOf7Zb+MyBgTirzdXmvdeVz3Tqy1kdG6rnGe5/lsluc5QohzZqz1j71sYOtxzvUDzjkfGTckK9CsQPl8MUcYNy1homWyZUA5CAHb2mqtt+a+7yNtu5qqooayAbSUqBkmYb6UDVUwdJoZsNbuRNbGcjCEGyoMA0vBUmGpMK2wrTBCWbNJ+Wzy63dWSgkhGGOcM6lCP5tB66lZR93c0f56fdpSymbJFoslIVRKMMNaay5Fb/zGmIhzO57Ay9diXkrOxVDylnNujHF7dF2nlAoLfNqkdSc/w6PHfBIDxs18Xsxms6qqlFL9Hl3nhBBlWTZN480AbjRWv72AEmkhIHRbiLxvds5prRljAOBPWyr3JtEvf5eoMlIpABBCAMC5kgak6RfMYe6UHerc0u7pM3jwkI4mQAitqsV8Pi/LklLadd05cwP987x/VfZU9q7vI8a7F6/lkxOe5UoI/2Go67ppGiFEaMazMOXe1C5dOqH84UVKmbbVzVIDrCsR2jD00zm0saC9tPbVjML3bNC/QA0xfIf9Z6L/u1n+k94ZWV9BF5qFVIjquNZ/4YuV1BozDWcSWJulUnGlv/nVfnbsbj/qvI67T4bx02M/fvxD9/nj7sEftiR//769WSsFUv0Um1v33LUvV9cPVzfuel0/XN38avXe1368dmd1487q9kP3Z2kuiPyq0F/82H3wrfvwe3dw5HXryH103+vgyL1/zx185w6fddN6N3KAcDVG+iTVT5IdPd1MfpnqtNbM/1vX5rcwFeDb9/e2KwAAAABJRU5ErkJggg==",
+            palette: {
+              _type: "sanity.imagePalette",
+              darkMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#565657",
+                foreground: "#fff",
+                population: 0.24,
+                title: "#fff",
+              },
+              darkVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#3430b0",
+                foreground: "#fff",
+                population: 0.01,
+                title: "#fff",
+              },
+              dominant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#0880f6",
+                foreground: "#fff",
+                population: 2.71,
+                title: "#fff",
+              },
+              lightMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#acbccc",
+                foreground: "#000",
+                population: 0.01,
+                title: "#fff",
+              },
+              lightVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#69c5fc",
+                foreground: "#000",
+                population: 0.14,
+                title: "#fff",
+              },
+              muted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#5874ac",
+                foreground: "#fff",
+                population: 0.09,
+                title: "#fff",
+              },
+              vibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#0880f6",
+                foreground: "#fff",
+                population: 2.71,
+                title: "#fff",
+              },
+            },
+          },
+          mimeType: "image/png",
+          originalFilename: "image.png",
+          path: "images/0ydog342/production/193400266f0b5b5409d07e75b74b32afba49bb0d-810x1440.png",
+          sha1hash: "193400266f0b5b5409d07e75b74b32afba49bb0d",
+          size: 141971,
+          uploadId: "Su5nINwVfGHopBV1GXfoeoj3rbY2odGu",
+          url: "https://cdn.sanity.io/images/0ydog342/production/193400266f0b5b5409d07e75b74b32afba49bb0d-810x1440.png",
+        },
+      },
+      {
+        _key: "3cfde89f1053",
+        _type: "figure",
+        alt: "Samsung Internet on tablet",
+        asset: {
+          _createdAt: "2023-11-19T01:17:59Z",
+          _id: "image-76d831ea8a0493962d15ea08ee68b5d9e1eddde3-1920x1440-png",
+          _rev: "01fz37KtvhMj2e8zIIMJhU",
+          _type: "sanity.imageAsset",
+          _updatedAt: "2023-11-19T01:17:59Z",
+          assetId: "76d831ea8a0493962d15ea08ee68b5d9e1eddde3",
+          extension: "png",
+          metadata: {
+            _type: "sanity.imageMetadata",
+            blurHash: "V+P%LyfRofofj[~qj[ofayayDiayWBfQf6%Mj?azfkfQ",
+            dimensions: {
+              _type: "sanity.imageDimensions",
+              aspectRatio: 1.3333333333333333,
+              height: 1440,
+              width: 1920,
+            },
+            hasAlpha: false,
+            isOpaque: true,
+            lqip: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAIAAABr+ngCAAAACXBIWXMAAAsTAAALEwEAmpwYAAACpklEQVQokXWQ/UsUQRjH73+qfklBDPMNVPB8QcV8uUyFSw9fOs9EzBMzPbUMLayLkMJKFF/oh/6QIsW72/VedtbdS2dndmZ3ZneN3TMDow8MfGfm+33mecbHGDdNZhgGIUTDuoZ0hAlEOJ//lVdVDWoY6xgT3QPppKAppYwxH9YpQhhjnVADInIGdQ1TpFOoIQghdiEYuQFCCCIUYUIIMQzDDZ9DTVVVCKHJmMm4YXLGLW7ZnFvcXZYnPG1Z3LIYv8QNU0oxxpRS27Yv/oPjONdObA+f4zgFVXBY9gUhjoY4QjrGqDCqruumaf5bwndVu4BpOrJiiWmcTkuZTEaSJOABIbQs68r2N2zbNqUUueBziIGMMtmzbBbkcjkAgCzLAABFUSCEngcZhlGY0W2bMaYoSspF8BAFQUylhMJeFEVBEBKJRDKZ9DwpVVUZY47juC9blqVpGgBAkqRcLnfVqvQHANwuCleyLEMIOedu2BvB5pybpml4mKZxTV/BPDjnl799kjxKp44zYlLKnGSFhHj8MysmpLSQTh2lE4cgc6KcKvKpAoCsKGpezcuynMtmRCF1+OO7L74cjb+YXV+JvV9f21iNxZemP75a2H738tPrhc21Z3sf3nw72D/Y3dve+rK/s/N1d2dva/PzRvzt6vPF6IRvoK2m019RW1Xmr63ua60d6qiL9DRGB+7NhjrmhrqWHj9cmZmIPYnMRkIzo8HocH906MHUYCDc2zbQXufrri+vu1tcVnyzvPhGY2VRa01pp79iJNAUHeyaG+2djwRjE6H5SHAm1D3Z3zre0xTu9o/dbwgHGoe76n336ivb/ZXBlqq+htKW6uKS27fulBT1dzTPhIMLkyNL02PL0fHFyaGnIz1TwfaJvpZwwE1GepofBRp/A77I3ug+EBzWAAAAAElFTkSuQmCC",
+            palette: {
+              _type: "sanity.imagePalette",
+              darkMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#674e34",
+                foreground: "#fff",
+                population: 0.02,
+                title: "#fff",
+              },
+              darkVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#5d462c",
+                foreground: "#fff",
+                population: 0.03,
+                title: "#fff",
+              },
+              dominant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#866f5e",
+                foreground: "#fff",
+                population: 4.16,
+                title: "#fff",
+              },
+              lightMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#b9bcca",
+                foreground: "#000",
+                population: 0.47,
+                title: "#fff",
+              },
+              lightVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#7d82ef",
+                foreground: "#fff",
+                population: 0.2,
+                title: "#fff",
+              },
+              muted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#866f5e",
+                foreground: "#fff",
+                population: 4.16,
+                title: "#fff",
+              },
+              vibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#7c4434",
+                foreground: "#fff",
+                population: 0,
+                title: "#fff",
+              },
+            },
+          },
+          mimeType: "image/png",
+          originalFilename: "image.png",
+          path: "images/0ydog342/production/76d831ea8a0493962d15ea08ee68b5d9e1eddde3-1920x1440.png",
+          sha1hash: "76d831ea8a0493962d15ea08ee68b5d9e1eddde3",
+          size: 1656786,
+          uploadId: "qJHfAuHbqlWfCt10aEutSYT1VjwdzTDY",
+          url: "https://cdn.sanity.io/images/0ydog342/production/76d831ea8a0493962d15ea08ee68b5d9e1eddde3-1920x1440.png",
+        },
+      },
+    ],
     slug: {
       _type: "slug",
       current: "samsung-internet",
@@ -686,10 +1006,10 @@ export const browsers: Browser[] = [
           "Samsung Internet Browser is a mobile web browser developed by Samsung Electronics, based on the open-source Chromium project. It comes pre-installed on Samsung Galaxy devices and, since 2015, has been available for download from Google Play for all Android devices. It is also available for their Tizen-based smartwatch via the Galaxy Store.",
       },
       {
-        _key: "nl",
+        _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Samsung Internet Browser is een mobiele webbrowser voor smartphones en tablets, ontwikkeld door Samsung Electronics. De browser, die gebaseerd is op het open-source Chromium-project, wordt voor-geïnstalleerd op Samsung Galaxy-apparaten en kan sinds 2015 gedownload worden vanuit de Google Play.",
+          "Samsung Internet Browser — разработанный компанией Samsung мобильный веб-браузер для смартфонов и планшетов, основанный на проекте Chromium с открытым исходным кодом. Предварительно установлен на устройствах Samsung Galaxy, а с 2015 года доступен для загрузки из Google Play. Samsung оценил, что в 2016 году у него было около 400 миллионов активных пользователей. Согласно StatCounter, в декабря 2022 года доля рынка составляла около 5,06%.",
       },
       {
         _key: "id",
@@ -698,10 +1018,10 @@ export const browsers: Browser[] = [
           "Samsung Internet Browser adalah peramban web seluler untuk ponsel pintar dan tablet yang dikembangkan oleh Samsung Electronics. Sejak 2015, peramban ini tersedia untuk diunduh dari Google Play. Samsung memperkirakan terdapat 400 juta pengguna aktif bulanan pada 2016.",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
-          "Samsung Internet Browser — разработанный компанией Samsung мобильный веб-браузер для смартфонов и планшетов, основанный на проекте Chromium с открытым исходным кодом. Предварительно установлен на устройствах Samsung Galaxy, а с 2015 года доступен для загрузки из Google Play. Samsung оценил, что в 2016 году у него было около 400 миллионов активных пользователей. Согласно StatCounter, в декабря 2022 года доля рынка составляла около 5,06%.",
+          "Samsung Internet Browser is een mobiele webbrowser voor smartphones en tablets, ontwikkeld door Samsung Electronics. De browser, die gebaseerd is op het open-source Chromium-project, wordt voor-geïnstalleerd op Samsung Galaxy-apparaten en kan sinds 2015 gedownload worden vanuit de Google Play.",
       },
     ],
     vendor: "Samsung",
@@ -712,9 +1032,9 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Samsung_Internet",
       },
       {
-        _key: "nl",
+        _key: "ru",
         _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Samsung_Internet",
+        value: "https://ru.wikipedia.org/wiki/Samsung_Internet_Browser",
       },
       {
         _key: "id",
@@ -722,23 +1042,55 @@ export const browsers: Browser[] = [
         value: "https://id.wikipedia.org/wiki/Samsung_Internet",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Samsung_Internet_Browser",
+        value: "https://nl.wikipedia.org/wiki/Samsung_Internet",
       },
     ],
   },
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "Uckd0KyIppGAIvpptSZs1J",
+    _rev: "tdSEgP3G53V2majpbc8OlA",
     _type: "browser",
-    _updatedAt: "2023-11-19T00:37:04Z",
+    _updatedAt: "2023-11-19T01:27:12Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value: "Modern open-source browser supports multiple platforms.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Moderne open-source browser ondersteunt meerdere platforms.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value: "Moderne Open-Source-Browser unterstützen mehrere Plattformen.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "आधुनिक ओपन-सोर्स ब्राउज़र एक",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Browser open-source modern mendukung beberapa platform.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Современный браузер с открытым исходным кодом поддерживает множество п",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Kivinjari huru wa chanzo wazi hufanya kazi kwenye majukwaa mengi.",
       },
     ],
     features: [
@@ -1077,50 +1429,99 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "lRZ54YVKpJaKWrGZ7SM1k5",
+    _rev: "tdSEgP3G53V2majpbc8Opw",
     _type: "browser",
-    _updatedAt: "2023-11-02T06:30:53Z",
+    _updatedAt: "2023-11-19T01:27:54Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Open-source, customizable, secure, fast, private browsing, extensive add-ons, cross-platform compatibility.",
+        value: "Open-source, secure and customizable browser by Mozilla.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Open-source, aanpasbaar, veilig, snel, privé browsen, uitgebreide add-ons, compatibel met meerdere platforms.",
+        value: "Open-source, veilige en aanpasbare browser van Mozilla.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Offene Quelle, anpassbar, sicher, schnell, privates Surfen, umfangreiche Add-Ons, plattformübergre",
+        value: "Offener, sicherer und anpassbarer Browser von Mozilla.",
       },
       {
         _key: "hi",
         _type: "internationalizedArrayStringValue",
-        value: "खुला स्रोत, अनुकूलनयोग्य, सुरक",
+        value: "मोज़िला द्वारा खुला स्रोत, सुरक्ष",
       },
       {
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Penjelajahan dengan sumber terbuka, dapat disesuaikan, aman, cepat, pribadi, dengan banyak add-on",
+          "Browser yang sumber terbuka, aman, dan dapat disesuaikan oleh Mozilla.",
       },
       {
         _key: "ru",
         _type: "internationalizedArrayStringValue",
         value:
-          "Открытый исходный код, настраиваемый, безопасный, быстрый, приватный прос",
+          "Браузер с открытым исходным кодом, безопасный и настраиваемый от Mozilla.",
       },
       {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value:
-          "Kivinjari huru, inayoweza kubadilishwa, salama, haraka, faragha, na inay",
+          "Kivinjari huru, salama na lenye uwezo wa kubadilika kutoka Mozilla.",
+      },
+    ],
+    features: [
+      {
+        _key: "f153af4dd264",
+        _ref: "bb5f2721-c9ca-4421-a8ba-d6cd023e7617",
+        _type: "reference",
+      },
+      {
+        _key: "be25567634b4",
+        _ref: "f90318ae-0fb2-487c-a384-bc3cfb534c57",
+        _type: "reference",
+      },
+      {
+        _key: "31e2f7796e2b",
+        _ref: "30d67e62-0f8c-4648-ab91-dfca41410412",
+        _type: "reference",
+      },
+      {
+        _key: "32244b946954",
+        _ref: "e5ec9ff5-d466-4d4c-976c-48b3bf104e3f",
+        _type: "reference",
+      },
+      {
+        _key: "569a72031df5",
+        _ref: "ae11cc57-7376-42c2-82fc-a65da2c5fe14",
+        _type: "reference",
+      },
+      {
+        _key: "a288d7177e6a",
+        _ref: "f9f67163-4f2c-4a96-902a-9829a990601a",
+        _type: "reference",
+      },
+      {
+        _key: "df7ab80d7a17",
+        _ref: "4a4fce62-dc7d-40d9-b1a5-84e6a92366e2",
+        _type: "reference",
+      },
+      {
+        _key: "bf185bd757ff",
+        _ref: "5f610b9c-edab-4ced-a6f2-fec473db5c82",
+        _type: "reference",
+      },
+      {
+        _key: "4e1820387fd1",
+        _ref: "a32cbcd7-c281-45f5-9041-a6d2e1e26767",
+        _type: "reference",
+      },
+      {
+        _key: "14432c57b103",
+        _ref: "7dd7c5a3-4a52-4eb0-b24c-fe99c08359e1",
+        _type: "reference",
       },
     ],
     homepage: "https://www.mozilla.org/firefox/browsers/",
@@ -1161,6 +1562,266 @@ export const browsers: Browser[] = [
     matchBrowserName: ["Firefox", "Mobile Firefox"],
     name: "Firefox",
     popularity: 7110,
+    screenshots: [
+      {
+        _key: "21777c9e8dc2",
+        _type: "figure",
+        alt: "Mozilla private browsing",
+        asset: {
+          _createdAt: "2023-11-19T00:58:42Z",
+          _id: "image-605def1ed47322d0fa3b8f12c1706b09f3afe539-900x484-png",
+          _rev: "Uckd0KyIppGAIvpptSaTLd",
+          _type: "sanity.imageAsset",
+          _updatedAt: "2023-11-19T00:58:42Z",
+          assetId: "605def1ed47322d0fa3b8f12c1706b09f3afe539",
+          extension: "png",
+          metadata: {
+            _type: "sanity.imageMetadata",
+            blurHash: "MCBfVixcI3of$XIKof%JWAt6Mqof?IsqbE",
+            dimensions: {
+              _type: "sanity.imageDimensions",
+              aspectRatio: 1.859504132231405,
+              height: 484,
+              width: 900,
+            },
+            hasAlpha: false,
+            isOpaque: true,
+            lqip: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACeUlEQVQokW3LW1MSAQAF4MUcwAs1YkiF0ph7gWUVEBdc2V3ZVXFhdRVYEFEm2EU0L6VojDaWkLx5GSH1wQuUTVM5TTX22lv9gn5RI9VbM9/DmTnnAIePfuXj39ajHzenvmzGrtYjX9dCn1fGL+d9b2eGKvLAucyeJ5mzhOc0wZzKg2dpbznNlZeED5sTP4Fs+J3ILHqJ2AgtC55Zvj/Fkcmh3jhtDxPYuAsdw82jPciIwzSCo6NEZ4C2RTyOCX/ffIo7B1KDB6QpgLURXUay6z7VaXRjxj60rdd0D4fv9kB6R4fO3t5sfdBsA1u6kTtO1EBgbX0EHIgSu0DSXXTpRbiORFQUrCJhFYnWsTYNb9X4UA1jaqSRegpSk5DSDSmvW1hNIWoK14lh+x6Q7C05tWFQQUEADQIUqKCJhsnp9txkR5ZpjZKtQbI15NQJFvUgWHM9gAAaUlCOW2LEtg88dB3gTSKooGBFP3SDhmo9A7elDby04S6ImMRjCcEuD5umHVo/oqwOFH/PYeseEMeLPU0iXNvvahEEezLinpc868+FnXxoe4HPpvzZWWFjhs/G2SdRakHollw6Aan1dN8MBy27gESckHrJphkdd6RzC/ulXLm4VTncqhzlyq/ylcOXr48KF8eFN1UX20ulMXva2sA7m+JBtAgsD38KWrYYw5wPnpvyLCd9qwluNcFlElwm6VuV+TWZf/pPdprJDIMyoY2xhsVJ2wnwYuL7HHsmdhWGjMtObRRr9Jrr2Sqm6k9mzQ0s1ujFm0XWkObaH4ewfJp+D+SnfmSES4k6DpgLpG4WVXKggvqPGtqi8lF6KYA+i+EFiSqt+K9+AwEtvFTuXiJjAAAAAElFTkSuQmCC",
+            palette: {
+              _type: "sanity.imagePalette",
+              darkMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#201831",
+                foreground: "#fff",
+                population: 1.33,
+                title: "#fff",
+              },
+              darkVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#2c0474",
+                foreground: "#fff",
+                population: 0,
+                title: "#fff",
+              },
+              dominant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#9d6af0",
+                foreground: "#fff",
+                population: 7.07,
+                title: "#fff",
+              },
+              lightMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#c2a7ca",
+                foreground: "#000",
+                population: 0.3,
+                title: "#fff",
+              },
+              lightVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#9d6af0",
+                foreground: "#fff",
+                population: 7.07,
+                title: "#fff",
+              },
+              muted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#714baa",
+                foreground: "#fff",
+                population: 1.19,
+                title: "#fff",
+              },
+              vibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#7808d0",
+                foreground: "#fff",
+                population: 0.68,
+                title: "#fff",
+              },
+            },
+          },
+          mimeType: "image/png",
+          originalFilename: "image.png",
+          path: "images/0ydog342/production/605def1ed47322d0fa3b8f12c1706b09f3afe539-900x484.png",
+          sha1hash: "605def1ed47322d0fa3b8f12c1706b09f3afe539",
+          size: 68374,
+          uploadId: "pFpcqAOmdyoog0YfzBra7qPNobhqlBXT",
+          url: "https://cdn.sanity.io/images/0ydog342/production/605def1ed47322d0fa3b8f12c1706b09f3afe539-900x484.png",
+        },
+      },
+      {
+        _key: "1bd776d3631d",
+        _type: "figure",
+        alt: "Firefox password security alerts",
+        asset: {
+          _createdAt: "2023-11-19T00:59:35Z",
+          _id: "image-5418061b4e0ee50724fe9ea67686808b43b6d594-760x543-png",
+          _rev: "Uckd0KyIppGAIvpptSaUVx",
+          _type: "sanity.imageAsset",
+          _updatedAt: "2023-11-19T00:59:35Z",
+          assetId: "5418061b4e0ee50724fe9ea67686808b43b6d594",
+          extension: "png",
+          metadata: {
+            _type: "sanity.imageMetadata",
+            blurHash: "V3SPX{n,Mx8{4:tA.7%MoyR*?cRhxW?bV?_4xtM{o#og",
+            dimensions: {
+              _type: "sanity.imageDimensions",
+              aspectRatio: 1.3996316758747698,
+              height: 543,
+              width: 760,
+            },
+            hasAlpha: false,
+            isOpaque: true,
+            lqip: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAAsTAAALEwEAmpwYAAABz0lEQVQokXWS6Y7dMAiF8/7vWGmmbXKTeAcvgHFu5aSLNFKP+GPjD9AxS4yQEuZcSim1ViImIsTiXDQmOBdDwCdizF9icS4A5Fpba8RT0hrn3ABKSgWgINb/xfLApbRaiVmYhYgn3wQKARaEjFhyrq3N0syduRPNZ4v3AQARc86FiESEmUl6It1jeR3n/tqP4/DeE9EY47quMS5VZebZOSVMCWJMpRS5aREprA7qad1xnsYY732ttff+8KoqIos5gzfgbHTOA4CIqIgSd+ml1hCitc7cstalmKY3RLdHbfmxhv2A21iHiLN218EyuhJzjPH12td129Zt27Z9P+wtZx0ALN9++tWAccF7n3OW3lW1dx1jqCoiHse577sx1v2RtS7GWGtdtt15H0OIIQQAaK2p/ia79NraFy8f9bvH4q1F71MIf+HHEuk9F4JCpYn0++r6qiVYg84mP90iIlV9EiQ9IgVkbMr9Gtf7NnmozjrvW0uYnV0KARFF5ElMmPneWuI+dLyv93uM0drcnzHGX9iB985YY2xK8yeese8Nx1rn8S73FpGUECCr6j84Wfta14+Pj8/P7+d5PpvEzIBYSnmejnFlLK/tOE/LzM+AvwAzSiNnWFa9RQAAAABJRU5ErkJggg==",
+            palette: {
+              _type: "sanity.imagePalette",
+              darkMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#555657",
+                foreground: "#fff",
+                population: 0.39,
+                title: "#fff",
+              },
+              darkVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#411976",
+                foreground: "#fff",
+                population: 0.01,
+                title: "#fff",
+              },
+              dominant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#555657",
+                foreground: "#fff",
+                population: 0.39,
+                title: "#fff",
+              },
+              lightMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#cabaa2",
+                foreground: "#000",
+                population: 0.05,
+                title: "#fff",
+              },
+              lightVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#8fe5fb",
+                foreground: "#000",
+                population: 0.03,
+                title: "#000",
+              },
+              muted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#5467a5",
+                foreground: "#fff",
+                population: 0.05,
+                title: "#fff",
+              },
+              vibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#3d7dd2",
+                foreground: "#fff",
+                population: 0.14,
+                title: "#fff",
+              },
+            },
+          },
+          mimeType: "image/png",
+          originalFilename: "image.png",
+          path: "images/0ydog342/production/5418061b4e0ee50724fe9ea67686808b43b6d594-760x543.png",
+          sha1hash: "5418061b4e0ee50724fe9ea67686808b43b6d594",
+          size: 71781,
+          uploadId: "WGHcgw1qH6QN8uuJ6xZwhM3KpHlRpoht",
+          url: "https://cdn.sanity.io/images/0ydog342/production/5418061b4e0ee50724fe9ea67686808b43b6d594-760x543.png",
+        },
+      },
+      {
+        _key: "5486397c96fd",
+        _type: "figure",
+        alt: "Firefox sync",
+        asset: {
+          _createdAt: "2023-11-19T01:00:06Z",
+          _id: "image-df54fc7a2bdc8eb396a843079593b5141594b5bf-640x346-png",
+          _rev: "tdSEgP3G53V2majpbc7Ezc",
+          _type: "sanity.imageAsset",
+          _updatedAt: "2023-11-19T01:00:06Z",
+          assetId: "df54fc7a2bdc8eb396a843079593b5141594b5bf",
+          extension: "png",
+          metadata: {
+            _type: "sanity.imageMetadata",
+            blurHash: "MqN^JIS%MxRkxZ~pRjozofWUS*%1ozn$WY",
+            dimensions: {
+              _type: "sanity.imageDimensions",
+              aspectRatio: 1.8497109826589595,
+              height: 346,
+              width: 640,
+            },
+            hasAlpha: false,
+            isOpaque: true,
+            lqip: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAAAsTAAALEwEAmpwYAAACnUlEQVQokS3H+0sTcQAA8Ps38kEQCP0Qumk/RNAPIfmLtsTE8JWUr4wypLAis5LQHFEUWJmiqWFqOp9zaypzz9vTvee8be7h7rW729197zb8wR9CCj6/fKBc7hgAkeMAAKIgZgXhlCjmRCELOJHnRMCLAGT/EYQsAP8rCFmI5wWGYUmSoiiGouh0mmJohmM5LsOn8QyOUiRJMwxguewpVsywAsuKHJ/l+BxEEFQqicdjqUQ8lYglkok4SWAsQ7EMTRNpEsUINEnhKEPipwiMJjCGxFmK5GkK8nkOluY0E18Vy/Maq9kRCgbQ5CFLozyDcTTG4iE2us0fLIN9BQgugeAi8C8K/t+ifykXUEBbKuO95tcVl9q6W98uL2y6HI4YEqSxQy4d46kYd2TP+H4wtmHGMsTAgxnzIGcaAoY3xzs9J+p2aHNFV1fRcyFP1nD98ezUitVkCbjdqeg+jSIcEU4nvAHPrsW8aTIoTQYlbPpjg7f8xgVa8/RktRrSrzs7KwdKC2vrZU+mJ1e1u1bY7PR7A1EEOYohhxHE7EGUVmQdDq9ZIhuOhMqVMtqdMc0wPV8LeZSRV9XjV8623Kzq/TSmntf4lrUhpflQbUtuOxI6R1hv3tPq4F0dbDDZrHaP0xW0G/U74+/me5ugkCo1UrtWee5hTdUz+fftKU14Vhuf0x/N6tBZPTqz4R35vCDvH5G//PJxYHRkaPKbfOZD/+ijuhc1F9sgRIX9vGVoLOpvkj0fm1hXa907Rr/OcmCwRQy26K85XUfjYLm082pxZ7nk/jXpg4rS7vKS7stFXWWFHVBYhSvqnV3n39+90Tc9saTXwrBpz+UIeN0hn/tAMbfVLOuTFDQWn2koyWuW5N+W5LdI8+9IC1rLCtv/Alw44KMw/kQDAAAAAElFTkSuQmCC",
+            palette: {
+              _type: "sanity.imagePalette",
+              darkMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#342c60",
+                foreground: "#fff",
+                population: 0.01,
+                title: "#fff",
+              },
+              darkVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#300454",
+                foreground: "#fff",
+                population: 0.07,
+                title: "#fff",
+              },
+              dominant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#f8b450",
+                foreground: "#000",
+                population: 7.33,
+                title: "#fff",
+              },
+              lightMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#c5bdb3",
+                foreground: "#000",
+                population: 1.58,
+                title: "#fff",
+              },
+              lightVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#479ef4",
+                foreground: "#fff",
+                population: 3.27,
+                title: "#fff",
+              },
+              muted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#9c9088",
+                foreground: "#fff",
+                population: 2.89,
+                title: "#fff",
+              },
+              vibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#f8b450",
+                foreground: "#000",
+                population: 7.33,
+                title: "#fff",
+              },
+            },
+          },
+          mimeType: "image/png",
+          originalFilename: "image.png",
+          path: "images/0ydog342/production/df54fc7a2bdc8eb396a843079593b5141594b5bf-640x346.png",
+          sha1hash: "df54fc7a2bdc8eb396a843079593b5141594b5bf",
+          size: 62396,
+          uploadId: "VMrQgACs3ABvH4BsC9xRE7NhdiqPtM23",
+          url: "https://cdn.sanity.io/images/0ydog342/production/df54fc7a2bdc8eb396a843079593b5141594b5bf-640x346.png",
+        },
+      },
+    ],
     slug: {
       _type: "slug",
       current: "firefox",
@@ -1173,28 +1834,10 @@ export const browsers: Browser[] = [
           'Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. In November 2017, Firefox began incorporating new technology under the code name "Quantum" to promote parallelism and a more intuitive user interface. Firefox is available for Windows 10 or later versions, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, illumos, and Solaris Unix. It is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon\'s Silk Browser.',
       },
       {
-        _key: "nl",
+        _key: "sw",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox is een gratis, vrije en opensource-webbrowser ontwikkeld door het Mozilla-project en vrijwilligers. Firefox is gebaseerd op de Gecko-layout-engine uit het Mozilla-project. De naam is een Engelse bijnaam voor de rode of kleine panda.",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Firefox lag im Juli 2023 mit einem Anteil von rund 2,8 Prozent an der weltweiten Internetnutzung auf Rang fünf der am meisten genutzten Webbrowser.",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "मोज़िला फ़ायरफ़ॉक्स मोज़िला फ़ाउण्डेशन और उसकी सहायक, मोज़िला निगम, द्वारा विण्डोज,मैक ओएस, लिनक्स और एण्ड्रॉयड के लिए विकसित किया गया एक स्वतंत्र और खुला स्रोत वेब ब्राउज़र है। मोज़िला कॉर्पोरेशन एक मुक्त स्रोत सॉफ़्टवेयर समुदाय है जो फ़ायरफ़ॉक्स को प्रबन्धित करती है।यह वेब पेजों को प्रदर्शित करने के लिए गीको प्रतिपादन इंजन का उपयोग करता है, जो वर्तमान और प्रत्याशित वेब मानकों को लागू करता है।",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Mozilla Firefox, atau Firefox adalah peramban web lintas platform bebas dan sumber terbuka yang dikembangkan oleh Yayasan Mozilla dan ratusan sukarelawan.",
+          "Mozilla Firefox ni kivinjari cha kompyuta. Inafanywa na Maanzilisho ya Mozilla. Inatumika kwenye mifumo yote ya kawaida ya uendeshaji, kama vile Windows, MacOS na Linux, na kwa Firefox pia inapatikana kwa Android.",
       },
       {
         _key: "ru",
@@ -1203,10 +1846,28 @@ export const browsers: Browser[] = [
           "Mozilla Firefox — свободный браузер на движке Quantum, разработкой и распространением которого занимается Mozilla Corporation. Четвёртый по популярности браузер в мире и первый среди свободного ПО — в марте 2021 года его рыночная доля составила ▼7,49 %.\nВ России Firefox занимает четвёртое место по популярности среди браузеров для ПК с долей 5,26 % пользователей на март 2021 года.",
       },
       {
-        _key: "sw",
+        _key: "id",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox ni kivinjari cha kompyuta. Inafanywa na Maanzilisho ya Mozilla. Inatumika kwenye mifumo yote ya kawaida ya uendeshaji, kama vile Windows, MacOS na Linux, na kwa Firefox pia inapatikana kwa Android.",
+          "Mozilla Firefox, atau Firefox adalah peramban web lintas platform bebas dan sumber terbuka yang dikembangkan oleh Yayasan Mozilla dan ratusan sukarelawan.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Firefox lag im Juli 2023 mit einem Anteil von rund 2,8 Prozent an der weltweiten Internetnutzung auf Rang fünf der am meisten genutzten Webbrowser.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Mozilla Firefox is een gratis, vrije en opensource-webbrowser ontwikkeld door het Mozilla-project en vrijwilligers. Firefox is gebaseerd op de Gecko-layout-engine uit het Mozilla-project. De naam is een Engelse bijnaam voor de rode of kleine panda.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "मोज़िला फ़ायरफ़ॉक्स मोज़िला फ़ाउण्डेशन और उसकी सहायक, मोज़िला निगम, द्वारा विण्डोज,मैक ओएस, लिनक्स और एण्ड्रॉयड के लिए विकसित किया गया एक स्वतंत्र और खुला स्रोत वेब ब्राउज़र है। मोज़िला कॉर्पोरेशन एक मुक्त स्रोत सॉफ़्टवेयर समुदाय है जो फ़ायरफ़ॉक्स को प्रबन्धित करती है।यह वेब पेजों को प्रदर्शित करने के लिए गीको प्रतिपादन इंजन का उपयोग करता है, जो वर्तमान और प्रत्याशित वेब मानकों को लागू करता है।",
       },
     ],
     vendor: "Mozilla",
@@ -1217,25 +1878,9 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Firefox",
       },
       {
-        _key: "nl",
+        _key: "sw",
         _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Mozilla_Firefox",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://de.wikipedia.org/wiki/Mozilla_Firefox",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayUrlValue",
-        value:
-          "https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A5%8B%E0%A4%9C%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A4%BE_%E0%A4%AB%E0%A4%BC%E0%A4%BE%E0%A4%AF%E0%A4%B0%E0%A4%AB%E0%A4%BC%E0%A5%89%E0%A4%95%E0%A5%8D%E0%A4%B8",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Firefox",
+        value: "https://sw.wikipedia.org/wiki/Mozilla_Firefox",
       },
       {
         _key: "ru",
@@ -1243,36 +1888,52 @@ export const browsers: Browser[] = [
         value: "https://ru.wikipedia.org/wiki/Mozilla_Firefox",
       },
       {
-        _key: "sw",
+        _key: "id",
         _type: "internationalizedArrayUrlValue",
-        value: "https://sw.wikipedia.org/wiki/Mozilla_Firefox",
+        value: "https://id.wikipedia.org/wiki/Firefox",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Mozilla_Firefox",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://nl.wikipedia.org/wiki/Mozilla_Firefox",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayUrlValue",
+        value:
+          "https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A5%8B%E0%A4%9C%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A4%BE_%E0%A4%AB%E0%A4%BC%E0%A4%BE%E0%A4%AF%E0%A4%B0%E0%A4%AB%E0%A4%BC%E0%A5%89%E0%A4%95%E0%A5%8D%E0%A4%B8",
       },
     ],
+    youtubeId: "pU1hR5tUBT0",
   },
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "B4UTUzmTSUGGaDoK0VClC0",
+    _rev: "01fz37KtvhMj2e8zIIMSj2",
     _type: "browser",
-    _updatedAt: "2023-11-02T06:29:22Z",
+    _updatedAt: "2023-11-19T01:28:29Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Privacy-focused, blocks ads and trackers, fast and secure browsing.",
+        value: "Privacy-focused, blocks ads and trackers, secure browsing.",
       },
       {
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value:
-          "Privacygericht, blokkeert advertenties en trackers, snel en veilig surfen.",
+          "Privacygericht, blokkeert advertenties en trackers, veilig surfen.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
-          "Datenschutzorientiert, blockiert Werbung und Tracker, schnelles und sicheres Surfen.",
+          "Datenschutzorientiert, blockiert Werbung und Tracker, sicheres Surfen.",
       },
       {
         _key: "hi",
@@ -1283,18 +1944,71 @@ export const browsers: Browser[] = [
         _key: "id",
         _type: "internationalizedArrayStringValue",
         value:
-          "Penjelajahan yang fokus pada privasi, memblokir iklan dan pelacak, cepat dan aman.",
+          "Fokus pada privasi, blokir iklan dan pelacak, penjelajahan aman.",
       },
       {
         _key: "ru",
         _type: "internationalizedArrayStringValue",
-        value: "Безопасный просмотр с блокировкой рекламы и слежки.",
+        value:
+          "Защита конфиденциальности, блокировка рекламы и трекеров, безопасный",
       },
       {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value:
-          "Inalenga faragha, inazuia matangazo na wafuatiliaji, upitaji wa haraka na salama.",
+          "Inalenga faragha, inazuia matangazo na wafuatiliaji, kivinjari salama.",
+      },
+    ],
+    features: [
+      {
+        _key: "bec5c2766ef7",
+        _ref: "3c42fbee-fa58-4c34-82b4-07324a097635",
+        _type: "reference",
+      },
+      {
+        _key: "842d0e49d73b",
+        _ref: "f9f67163-4f2c-4a96-902a-9829a990601a",
+        _type: "reference",
+      },
+      {
+        _key: "b0d6a3467c76",
+        _ref: "4a4fce62-dc7d-40d9-b1a5-84e6a92366e2",
+        _type: "reference",
+      },
+      {
+        _key: "0dff03a5d66e",
+        _ref: "30d67e62-0f8c-4648-ab91-dfca41410412",
+        _type: "reference",
+      },
+      {
+        _key: "b5b3623d066e",
+        _ref: "bd5e7853-c514-4498-9b92-82ec06c78122",
+        _type: "reference",
+      },
+      {
+        _key: "c6a26de9aaa2",
+        _ref: "5f610b9c-edab-4ced-a6f2-fec473db5c82",
+        _type: "reference",
+      },
+      {
+        _key: "5534fe70e989",
+        _ref: "f90318ae-0fb2-487c-a384-bc3cfb534c57",
+        _type: "reference",
+      },
+      {
+        _key: "83dabf007e47",
+        _ref: "7dd7c5a3-4a52-4eb0-b24c-fe99c08359e1",
+        _type: "reference",
+      },
+      {
+        _key: "6fb04570931e",
+        _ref: "a32cbcd7-c281-45f5-9041-a6d2e1e26767",
+        _type: "reference",
+      },
+      {
+        _key: "afcc7055f379",
+        _ref: "ae11cc57-7376-42c2-82fc-a65da2c5fe14",
+        _type: "reference",
       },
     ],
     homepage: "https://brave.com",
@@ -1334,6 +2048,94 @@ export const browsers: Browser[] = [
     },
     matchBrowserName: ["Brave"],
     name: "Brave",
+    screenshots: [
+      {
+        _key: "054427bf1fe2",
+        _type: "figure",
+        alt: "Brave interface",
+        asset: {
+          _createdAt: "2023-11-19T01:05:20Z",
+          _id: "image-4133347b512469a3975d238f10a5399687b1932e-1270x571-png",
+          _rev: "01fz37KtvhMj2e8zIIM875",
+          _type: "sanity.imageAsset",
+          _updatedAt: "2023-11-19T01:05:20Z",
+          assetId: "4133347b512469a3975d238f10a5399687b1932e",
+          extension: "png",
+          metadata: {
+            _type: "sanity.imageMetadata",
+            blurHash: "M6E2^N1~0J}@xa00?b^+IpbH00+u=}Efo}",
+            dimensions: {
+              _type: "sanity.imageDimensions",
+              aspectRatio: 2.224168126094571,
+              height: 571,
+              width: 1270,
+            },
+            hasAlpha: true,
+            isOpaque: false,
+            lqip: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAAAsTAAALEwEAmpwYAAACtklEQVQokVXD209ScQAH8PN3WNOgmhpyRDyIuqOCF1DRiaagDMUbiIi2ShQveReFOQUVJRVQjiezBy9b6mpLX2qtlx5avbS2HnqIX/4N/r5tvfXZPkymQu2Q5fLrWZxmPzOnSJBmKIXbEpmQkpYppKRlCCmp/7/1b7pwOzVDSLuTKUgkMuHOXfm+9F52+H660sk80FavybSGr/LS2j/y0tqkvMRA5EWVhOV1RMFXELawnGTllxJ5vpawai3JVmuIIq+EZHM8YRVqImdVSVahvuY4/hvPl20yeZZuQdPq+KPrcEHX1Y+KzgGU29zQ2VyobnehytoDXXMXdOYOVJnaYWiyoaaxFfqahyjgNVAoVchRqlBUWHxdbzAeMHXe2USfb/m3d2UDQ6uRG8diiFrGA9Q6ukA7Rxeo3TtPHUMz1OWZpo88U/SpZ5IOD05QV88A1esNNIdT3yhyVdBqSonT1iky9uWtxFg4lpzf3IV/9wWd3BHpYCgO70oUU8EoFkNRBNdiiKzHsLsRx+HzPZxEBcSWV/HI6aamphbabLbAZe8ha74FkekPbCa6R+aSHX2D8E776dKWSEPRQ2xsHyC6c4DDvVd48/IEH0/O8OX8LX68u8Kv9+/x+ewc8VCYrvoCNBZcxautbXJ1dCQybfb+hLHenKwt08PV1kVnp/x0yR9GMLCOcGAd8ZVNnEbi+CAe4svxKb5fXODn5SU+HR0jMu+ngeFnNDLjQ2JpmbyO74pMFV+cMOQXJCtzORhLtNRqNNHeVjse2wfg6X2CMbcHs49HEByZQmRiDjvT89jzBRAaGYez0UwbtRW0qaIS7XUNZNzRKzLVnDJhVCmTWpYFl/6A8jI5NaoLYCnToaOmHj1NFjhbbHBZu9Bn7YTT3Ap3Sxu6G0wo4/IoK5FSmUSKvCyWmMr14l86tHTvq6hvqwAAAABJRU5ErkJggg==",
+            palette: {
+              _type: "sanity.imagePalette",
+              darkMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#3d535d",
+                foreground: "#fff",
+                population: 8.17,
+                title: "#fff",
+              },
+              darkVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#134854",
+                foreground: "#fff",
+                population: 0.09,
+                title: "#fff",
+              },
+              dominant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#3d535d",
+                foreground: "#fff",
+                population: 8.17,
+                title: "#fff",
+              },
+              lightMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#c99fa4",
+                foreground: "#000",
+                population: 0.27,
+                title: "#fff",
+              },
+              lightVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#d9c49d",
+                foreground: "#000",
+                population: 0.06,
+                title: "#fff",
+              },
+              muted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#66909d",
+                foreground: "#fff",
+                population: 0.94,
+                title: "#fff",
+              },
+              vibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#b84e3e",
+                foreground: "#fff",
+                population: 0.12,
+                title: "#fff",
+              },
+            },
+          },
+          mimeType: "image/png",
+          originalFilename: "image.png",
+          path: "images/0ydog342/production/4133347b512469a3975d238f10a5399687b1932e-1270x571.png",
+          sha1hash: "4133347b512469a3975d238f10a5399687b1932e",
+          size: 769680,
+          uploadId: "y4vQ3f9193WWYmFDSYpAvURestuIrvEi",
+          url: "https://cdn.sanity.io/images/0ydog342/production/4133347b512469a3975d238f10a5399687b1932e-1270x571.png",
+        },
+      },
+    ],
     slug: {
       _type: "slug",
       current: "brave",
@@ -1346,22 +2148,10 @@ export const browsers: Browser[] = [
           "Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser. Brave is a privacy-focused browser, which automatically blocks most advertisements and website trackers in its default settings. Users can turn on optional ads that reward them for their attention in the form of Basic Attention Tokens (BAT), which can be used as a cryptocurrency or to make payments to registered websites and content creators.",
       },
       {
-        _key: "nl",
+        _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave is een opensource-webbrowser van Brave Software Inc. Brave is beschikbaar voor Microsoft Windows, macOS, iOS, Linux en Android. De op Chromium gebaseerde browser blokkeert automatisch trackers en advertenties, waarmee er een grote focus op privacy ligt.",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Brave ist ein quelloffener Webbrowser für die Betriebssysteme Windows, macOS, Linux, Android und für Apple iOS. Initiator und Projektleiter ist Brendan Eich.",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "ब्रेव (Brave), क्रोमियम वेब ब्राउज़र पर आधारित एक स्वतंत्र और ओपन-सोर्स वेब ब्राउज़र है। इसका विकास ब्रेव सॉफ्टवेयर इन्क. द्वारा किया गया है। यह विज्ञापनों और वेबसाइट ट्रैकर्स को ब्लॉक करता है, और उपयोगकर्ताओं को वेबसाइटों और सामग्री रचनाकारों को बेसिक अटेंशन टोकन के रूप में क्रिप्टोक्यूरेंसी योगदान भेजने का एक तरीका प्रदान करता है।",
+          "Brave — веб-браузер со свободным и открытым исходным кодом на основе веб-браузера Chromium на движке Blink, анонсированный соучредителем корпорации Mozilla Project и создателем JavaScript Бренданом Эйхом. Создатели утверждают, что Brave блокирует трекеры сайтов и удаляет навязчивую интернет-рекламу, повышает уровень приватности в интернете и уменьшает количество передаваемых о потребителях рекламы данных. По данным на 2021-й год, стабильный релиз доступен для iOS, Android, Windows, macOS и Linux.",
       },
       {
         _key: "id",
@@ -1370,10 +2160,22 @@ export const browsers: Browser[] = [
           "Brave adalah peramban web gratis dan sumber terbuka berbasis Chromium, yang dikembangkan oleh Brave Software Inc.. Brave adalah peramban yang berfokus pada privasi yang berbeda dengan peramban lain yaitu dengan memblokir iklan daring dan pelacak situs web secara baku. Peramban ini juga menyediakan cara untuk menyalakan iklan opsional yang memberikan imbalan kepada pengguna untuk perhatiannya dalam bentuk mata uang kripto Basic Attention Token (BAT). Pengguna dapat mengirimkan kontribusi mereka kepada berbagai situs web dan pembuat konten, dan juga menyimpan token yang didapat.",
       },
       {
-        _key: "ru",
+        _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave — веб-браузер со свободным и открытым исходным кодом на основе веб-браузера Chromium на движке Blink, анонсированный соучредителем корпорации Mozilla Project и создателем JavaScript Бренданом Эйхом. Создатели утверждают, что Brave блокирует трекеры сайтов и удаляет навязчивую интернет-рекламу, повышает уровень приватности в интернете и уменьшает количество передаваемых о потребителях рекламы данных. По данным на 2021-й год, стабильный релиз доступен для iOS, Android, Windows, macOS и Linux.",
+          "Brave ist ein quelloffener Webbrowser für die Betriebssysteme Windows, macOS, Linux, Android und für Apple iOS. Initiator und Projektleiter ist Brendan Eich.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Brave is een opensource-webbrowser van Brave Software Inc. Brave is beschikbaar voor Microsoft Windows, macOS, iOS, Linux en Android. De op Chromium gebaseerde browser blokkeert automatisch trackers en advertenties, waarmee er een grote focus op privacy ligt.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "ब्रेव (Brave), क्रोमियम वेब ब्राउज़र पर आधारित एक स्वतंत्र और ओपन-सोर्स वेब ब्राउज़र है। इसका विकास ब्रेव सॉफ्टवेयर इन्क. द्वारा किया गया है। यह विज्ञापनों और वेबसाइट ट्रैकर्स को ब्लॉक करता है, और उपयोगकर्ताओं को वेबसाइटों और सामग्री रचनाकारों को बेसिक अटेंशन टोकन के रूप में क्रिप्टोक्यूरेंसी योगदान भेजने का एक तरीका प्रदान करता है।",
       },
     ],
     vendor: "Brave Software",
@@ -1384,20 +2186,10 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Brave_(web_browser)",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Brave_(webbrowser)",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://de.wikipedia.org/wiki/Brave_(Browser)",
-      },
-      {
-        _key: "hi",
+        _key: "ru",
         _type: "internationalizedArrayUrlValue",
         value:
-          "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%B5_(%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%89%E0%A4%9C%E0%A4%B0)",
+          "https://ru.wikipedia.org/wiki/Brave_(%D0%B2%D0%B5%D0%B1-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80)",
       },
       {
         _key: "id",
@@ -1405,24 +2197,67 @@ export const browsers: Browser[] = [
         value: "https://id.wikipedia.org/wiki/Brave_(peramban_web)",
       },
       {
-        _key: "ru",
+        _key: "de",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://de.wikipedia.org/wiki/Brave_(Browser)",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://nl.wikipedia.org/wiki/Brave_(webbrowser)",
+      },
+      {
+        _key: "hi",
         _type: "internationalizedArrayUrlValue",
         value:
-          "https://ru.wikipedia.org/wiki/Brave_(%D0%B2%D0%B5%D0%B1-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80)",
+          "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%B5_(%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%89%E0%A4%9C%E0%A4%B0)",
       },
     ],
+    youtubeId: "fiXaHv_9rmQ",
   },
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "01fz37KtvhMj2e8zIIIBdU",
+    _rev: "01fz37KtvhMj2e8zIIMSxG",
     _type: "browser",
-    _updatedAt: "2023-11-18T23:58:50Z",
+    _updatedAt: "2023-11-19T01:28:53Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value: "Legacy browser which was the default on Windows.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Verouderde browser die standaard was op Windows.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Veralteter Browser, der standardmäßig auf Windows verwendet wurde.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "विंडोज पर डिफ़ॉल्ट था वो पुर",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Browser warisan yang menjadi default di Windows.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Устаревший браузер, который был установлен по умолчанию в Windows.",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Kivinjari cha zamani kilichokuwa chaguo-msingi kwenye Windows.",
       },
     ],
     features: [
@@ -1724,15 +2559,50 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "tdSEgP3G53V2majpbc1aJw",
+    _rev: "tdSEgP3G53V2majpbc8Rzg",
     _type: "browser",
-    _updatedAt: "2023-11-18T23:20:40Z",
+    _updatedAt: "2023-11-19T01:32:03Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value:
           "Apple's fast and private default browser on Mac and iOS devices.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "De snelle en privé standaardbrowser van Apple op Mac- en iOS-apparaten.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Apples schneller und privater Standardbrowser auf Mac- und iOS-Geräten.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "मैक और आईओएस उपकरणों पर एप्प",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Browser default Apple yang cepat dan pribadi pada perangkat Mac dan iOS.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Быстрый и конфиденциальный браузер Apple по умолчанию на устройствах Mac и iOS",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Kivinjari ya haraka na ya faragha ya Apple kwenye vifaa vya Mac na iOS.",
       },
     ],
     features: [
@@ -2089,7 +2959,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "{January 7, 2003\n| ver layout = stacked\n| latest release version=?block=Multiple releases |branch1=macOS\n | version1 = ",
+          "Safari is a web browser developed by Apple. It is built into Apple's operating systems, including macOS, iOS, iPadOS and their upcoming VisionOS, and uses Apple's open-source browser engine WebKit, which was derived from KHTML.",
       },
       {
         _key: "ru",
@@ -2160,9 +3030,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "Uckd0KyIppGAIvpptSSvpV",
+    _rev: "Uckd0KyIppGAIvpptSbYsj",
     _type: "browser",
-    _updatedAt: "2023-11-18T23:20:58Z",
+    _updatedAt: "2023-11-19T01:30:05Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -2194,6 +3064,37 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value: "Popular, user-friendly and secure browser from Google.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Populaire, gebruiksvriendelijke en veilige browser van Google.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Beliebter, benutzerfreundlicher und sicherer Browser von Google.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "गूगल का लोकप्रिय, उपयोगकर्ता-",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Browser populer, mudah digunakan, dan aman dari Google.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Популярный, удобный и безопасный браузер от Google.",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Kivinjari maarufu, rahisi kutumia na salama kutoka Google.",
       },
     ],
     features: [
@@ -2809,9 +3710,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "Uckd0KyIppGAIvpptSVknt",
+    _rev: "01fz37KtvhMj2e8zIIMUro",
     _type: "browser",
-    _updatedAt: "2023-11-19T00:12:19Z",
+    _updatedAt: "2023-11-19T01:30:31Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -2844,6 +3745,40 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Microsoft's browser with built-in Cortana and annotation tools.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "De browser van Microsoft met ingebouwde Cortana en annotatietools.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Microsofts Browser mit integrierter Cortana und Annotationstools.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "माइक्रोसॉफ्ट का ब्राउज़र जिसमें",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Browser Microsoft dengan Cortana terintegrasi dan alat penandaan.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Браузер Microsoft с встроенной Cortana и инструментами для аннотаций.",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Kivinjari cha Microsoft na zana za Cortana na kumbukumbu.",
       },
     ],
     features: [
@@ -3180,14 +4115,48 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:50:38Z",
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "tdSEgP3G53V2majpbc64Im",
+    _rev: "01fz37KtvhMj2e8zIIMUyv",
     _type: "browser",
-    _updatedAt: "2023-11-19T00:30:08Z",
+    _updatedAt: "2023-11-19T01:31:08Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
         value: "Customizable interface, tab management and privacy options.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayStringValue",
+        value: "Aanpasbare interface, tabbladbeheer en privacyopties.",
+      },
+      {
+        _key: "de",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Anpassbare Benutzeroberfläche, Tab-Verwaltung und Datenschutzoptionen.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayStringValue",
+        value: "अनुकूलनयोग्य इंटरफेस, टै",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Antarmuka yang dapat disesuaikan, pengelolaan tab, dan opsi privasi.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Настроенный интерфейс, управление вкладками и варианты конфиденциальности.",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Kioleshi kinachoweza kubadilishwa, usimamizi wa vichupo na chaguzi za faragha",
       },
     ],
     features: [
@@ -3249,6 +4218,11 @@ export const browsers: Browser[] = [
       {
         _key: "016f636b7c89",
         _ref: "a32cbcd7-c281-45f5-9041-a6d2e1e26767",
+        _type: "reference",
+      },
+      {
+        _key: "4237394ddf26",
+        _ref: "9aaeeeb8-0124-424c-9d76-1cb34a7d79bc",
         _type: "reference",
       },
     ],

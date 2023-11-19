@@ -247,7 +247,7 @@ export type Release<T extends "ref" | "expanded" | "flatExpanded" = "ref"> =
   Doc<
     {
       _type: "release";
-      versionSource: Keyed<{
+      versionSource?: Keyed<{
         _type: "versionSource";
         source: "caniuse" | "wikipedia";
         caniuse_agent?: string;

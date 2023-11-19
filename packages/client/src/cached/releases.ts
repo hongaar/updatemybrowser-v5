@@ -5,14 +5,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-26T16:17:54Z",
     _id: "03cb4079-95d0-4368-9a97-3c9aa6b12e0d",
-    _rev: "tdSEgP3G53V2majpbc6HJc",
+    _rev: "01fz37KtvhMj2e8zIIMV3f",
     _type: "release",
-    _updatedAt: "2023-11-19T00:40:35Z",
+    _updatedAt: "2023-11-19T01:31:10Z",
     browser: {
       _ref: "f093178f-bfba-4391-8078-6f979c75630d",
       _type: "reference",
     },
-    currentVersion: "6.4",
+    currentVersion: "0",
     downloadUrl: "https://vivaldi.com/download/",
     oses: [
       {
@@ -58,15 +58,6 @@ export const releases: Release[] = [
     ],
     updateUrl:
       "https://help.vivaldi.com/desktop/install-update/update-vivaldi/",
-    versionSource: [
-      {
-        _key: "7821eceb4f6c",
-        _type: "versionSource",
-        caniuse_agent: "chrome",
-        caniuse_contribute_usage: false,
-        source: "caniuse",
-      },
-    ],
   },
   {
     _createdAt: "2023-10-23T06:52:17Z",
@@ -112,14 +103,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-14T02:45:47Z",
     _id: "f3feab0b-20a2-4397-9458-bf579d5fd7ea",
-    _rev: "h9gndD2P4keuz4rjsBcjnB",
+    _rev: "Uckd0KyIppGAIvpptSbCLl",
     _type: "release",
-    _updatedAt: "2023-11-05T03:22:57Z",
+    _updatedAt: "2023-11-19T01:11:07Z",
     browser: {
       _ref: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
       _type: "reference",
     },
     currentVersion: "119",
+    downloadUrl: "https://brave.com/download",
     oses: [
       {
         _key: "d817db532d4b",
@@ -145,7 +137,24 @@ export const releases: Release[] = [
           _type: "reference",
         },
       },
+      {
+        _key: "d1c0453befd6",
+        _type: "osVersion",
+        os: {
+          _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "db5e0ab7e40a",
+        _type: "osVersion",
+        os: {
+          _ref: "0e2dc525-cff5-4ec1-a670-e86684304740",
+          _type: "reference",
+        },
+      },
     ],
+    updateUrl: "https://brave.com/download",
     versionSource: [
       {
         _key: "c6ae8b62c69e",
@@ -344,15 +353,16 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-08T06:17:00Z",
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _rev: "B4UTUzmTSUGGaDoK0VCkgG",
+    _rev: "tdSEgP3G53V2majpbc7yei",
     _type: "release",
-    _updatedAt: "2023-11-05T03:23:01Z",
+    _updatedAt: "2023-11-19T01:04:05Z",
     browser: {
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
     currentUsage: 2.6163179999999997,
     currentVersion: "119",
+    downloadUrl: "https://www.mozilla.org/firefox/all",
     oses: [
       {
         _key: "4fe108553494",
@@ -362,7 +372,40 @@ export const releases: Release[] = [
           _type: "reference",
         },
       },
+      {
+        _key: "4b60b6aaae78",
+        _type: "osVersion",
+        os: {
+          _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "ff480d99996c",
+        _type: "osVersion",
+        os: {
+          _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "eec681dca522",
+        _type: "osVersion",
+        os: {
+          _ref: "0e2dc525-cff5-4ec1-a670-e86684304740",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "8f18bdd8e8e4",
+        _type: "osVersion",
+        os: {
+          _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
+          _type: "reference",
+        },
+      },
     ],
+    updateUrl: "https://support.mozilla.org/kb/update-firefox-latest-release",
     versionSource: [
       {
         _key: "cef37d7cb415",
@@ -375,15 +418,17 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-18T15:25:24Z",
     _id: "fb782fe5-1a48-46a0-ac53-2388dd571903",
-    _rev: "lRZ54YVKpJaKWrGZ7SM1Sf",
+    _rev: "01fz37KtvhMj2e8zIIMKVH",
     _type: "release",
-    _updatedAt: "2023-11-05T03:23:02Z",
+    _updatedAt: "2023-11-19T01:19:02Z",
     browser: {
       _ref: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
       _type: "reference",
     },
     currentUsage: 2.3889006,
     currentVersion: "23",
+    downloadUrl:
+      "https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en",
     oses: [
       {
         _key: "f2b070fa2538",
@@ -394,6 +439,8 @@ export const releases: Release[] = [
         },
       },
     ],
+    updateUrl:
+      "https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en",
     versionSource: [
       {
         _key: "ea8e62bc6b25",
@@ -405,59 +452,17 @@ export const releases: Release[] = [
     ],
   },
   {
-    _createdAt: "2023-10-26T14:54:03Z",
-    _id: "02e8d45d-e6fc-4987-abb2-89d1a8208cda",
-    _rev: "lRZ54YVKpJaKWrGZ7SM1Ub",
-    _type: "release",
-    _updatedAt: "2023-11-05T03:23:03Z",
-    browser: {
-      _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-      _type: "reference",
-    },
-    currentUsage: 2.071068,
-    currentVersion: "103",
-    downloadUrl:
-      "https://download.opera.com/download/get/?partner=www&opsys=Linux",
-    oses: [
-      {
-        _key: "54b68061cd90",
-        _type: "osVersion",
-        os: {
-          _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
-          _type: "reference",
-        },
-      },
-    ],
-    updateArticle: {
-      _ref: "0715e142-d3bb-45d4-a5c2-b31566330486",
-      _type: "reference",
-    },
-    versionSource: [
-      {
-        _key: "14444f499fc8",
-        _type: "versionSource",
-        caniuse_agent: "opera",
-        caniuse_contribute_usage: true,
-        source: "caniuse",
-      },
-    ],
-  },
-  {
     _createdAt: "2023-10-19T15:48:43Z",
     _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _rev: "h9gndD2P4keuz4rjsBck7h",
+    _rev: "tdSEgP3G53V2majpbc70YS",
     _type: "release",
-    _updatedAt: "2023-11-05T03:23:04Z",
+    _updatedAt: "2023-11-19T00:50:32Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
     currentUsage: 2.071068,
     currentVersion: "103",
-    downloadArticle: {
-      _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
-      _type: "reference",
-    },
     downloadUrl: "https://www.opera.com/download",
     oses: [
       {
@@ -500,11 +505,17 @@ export const releases: Release[] = [
           _type: "reference",
         },
       },
+      {
+        _key: "c90e8f823539",
+        _type: "osVersion",
+        os: {
+          _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+          _type: "reference",
+        },
+      },
     ],
-    updateArticle: {
-      _ref: "0715e142-d3bb-45d4-a5c2-b31566330486",
-      _type: "reference",
-    },
+    updateUrl:
+      "https://help.opera.com/en/latest/crashes-and-issues/#updateBrowser",
     versionSource: [
       {
         _key: "f9af09e9b994",

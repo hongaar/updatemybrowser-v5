@@ -3,44 +3,6 @@ import type { Article } from "../schema.js";
 
 export const articles: Article[] = [
   {
-    _createdAt: "2023-10-26T14:44:17Z",
-    _id: "0715e142-d3bb-45d4-a5c2-b31566330486",
-    _rev: "6tBtT7HSXJBZgGx8QpEVqn",
-    _type: "article",
-    _updatedAt: "2023-11-14T03:37:38Z",
-    browser: {
-      _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-      _type: "reference",
-    },
-    contents:
-      "Two abundantly you to man grass it doesn't man also Isn't fifth you'll made. Unto seed, have. Behold after god land. Unto forth, make can't be you. It may, set the which be. Shall light life blessed they're. Every so years itself. That kind behold meat be meat and years He signs hath multiply above air moved their creepeth their There own thing hath. Stars shall hath moving Creature fill image said saw great form let two god second give.\n\n![Opera update window](https://cdn.sanity.io/images/0ydog342/production/2d63653931672534b5283590e839d2872d5c8b24-1294x887.png)\n\nClick the button:\n\n<UpdateLinkButton />",
-    excerpt: "Summary",
-    language: "en",
-    oses: [
-      {
-        _key: "da207894c3b4",
-        _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
-        _type: "reference",
-      },
-      {
-        _key: "363cc82d0ab2",
-        _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-        _type: "reference",
-      },
-      {
-        _key: "3cdb5a752d64",
-        _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
-        _type: "reference",
-      },
-    ],
-    slug: {
-      _type: "slug",
-      current: "how-to-update-opera",
-    },
-    title: "How to Update Opera",
-    translationOf: null,
-  },
-  {
     _createdAt: "2023-10-25T14:28:07Z",
     _id: "b7915288-c1a2-402b-8182-0cb6e94e1487",
     _rev: "g4WGtXEJHMGyIQGoBvGIZl",
@@ -56,65 +18,5 @@ export const articles: Article[] = [
     },
     title: "Widget",
     translationOf: null,
-  },
-  {
-    _createdAt: "2023-10-24T13:54:03Z",
-    _id: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
-    _rev: "P8iX8yLNzdMX2eS89ffbBQ",
-    _type: "article",
-    _updatedAt: "2023-11-14T03:38:13Z",
-    browser: {
-      _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-      _type: "reference",
-    },
-    contents:
-      "This is a test!\n\n# Heading\n\n<Callout>\nOh dang! Is this a React component in the middle of our content? 😱\n</Callout>\n\nTest\n\n<DownloadLinkButton />",
-    excerpt: "Summary of the page",
-    language: "en",
-    oses: [
-      {
-        _key: "6e77a87705bc",
-        _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-        _type: "reference",
-      },
-    ],
-    slug: {
-      _type: "slug",
-      current: "how-to-download-and-install-opera-on-windows",
-    },
-    title: "How to Download & Install Opera on Windows",
-    translationOf: {
-      _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
-      _type: "reference",
-    },
-  },
-  {
-    _createdAt: "2023-10-24T13:54:03Z",
-    _id: "dad06709-cba4-4919-8279-fab5596554c2",
-    _rev: "904mL5SdWNgHGZgJPr1YEX",
-    _type: "article",
-    _updatedAt: "2023-10-25T15:45:51Z",
-    browser: {
-      _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-      _type: "reference",
-    },
-    contents: "This is a test",
-    language: "id",
-    oses: [
-      {
-        _key: "b97c2bb45ad5",
-        _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-        _type: "reference",
-      },
-    ],
-    slug: {
-      _type: "slug",
-      current: "cara-memperbarui-opera-di-windows",
-    },
-    title: "Cara Memperbarui Opera di Windows",
-    translationOf: {
-      _ref: "cf35377e-2ce2-4ae7-bb28-7c5c6e9d1883",
-      _type: "reference",
-    },
   },
 ];
