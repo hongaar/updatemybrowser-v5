@@ -731,50 +731,51 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "6tBtT7HSXJBZgGx8QNZoUp",
+    _rev: "Uckd0KyIppGAIvpptSZs1J",
     _type: "browser",
-    _updatedAt: "2023-11-11T03:22:35Z",
+    _updatedAt: "2023-11-19T00:37:04Z",
     description: [
       {
         _key: "en",
         _type: "internationalizedArrayStringValue",
-        value:
-          "Open-source, fast, secure, customizable, and supports multiple platforms.",
+        value: "Modern open-source browser supports multiple platforms.",
+      },
+    ],
+    features: [
+      {
+        _key: "dff3678a07ad",
+        _ref: "30d67e62-0f8c-4648-ab91-dfca41410412",
+        _type: "reference",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayStringValue",
-        value:
-          "Open-source, snel, veilig, aanpasbaar en ondersteunt meerdere platforms.",
+        _key: "97f2e1e89af2",
+        _ref: "bd5e7853-c514-4498-9b92-82ec06c78122",
+        _type: "reference",
       },
       {
-        _key: "de",
-        _type: "internationalizedArrayStringValue",
-        value:
-          "Open-Source, schnell, sicher, anpassbar und unterstützt mehrere Plattformen.",
+        _key: "df0c4985df94",
+        _ref: "5f610b9c-edab-4ced-a6f2-fec473db5c82",
+        _type: "reference",
       },
       {
-        _key: "hi",
-        _type: "internationalizedArrayStringValue",
-        value: "ओपन-सोर्स, तेज, सुरक्षित, अनुकू",
+        _key: "ee2e9c6ca0c5",
+        _ref: "ae398af0-f21a-4ccf-a7e9-0527e05e436d",
+        _type: "reference",
       },
       {
-        _key: "id",
-        _type: "internationalizedArrayStringValue",
-        value:
-          "Mendukung banyak platform, sumber terbuka, cepat, aman, dan dapat disesuaikan.",
+        _key: "859279245b8c",
+        _ref: "ae11cc57-7376-42c2-82fc-a65da2c5fe14",
+        _type: "reference",
       },
       {
-        _key: "ru",
-        _type: "internationalizedArrayStringValue",
-        value:
-          "Открытый исходный код, быстрый, безопасный, настраиваемый и поддерживает м",
+        _key: "8a049bf2f238",
+        _ref: "9aaeeeb8-0124-424c-9d76-1cb34a7d79bc",
+        _type: "reference",
       },
       {
-        _key: "sw",
-        _type: "internationalizedArrayStringValue",
-        value:
-          "Inafunguliwa, haraka, salama, inaweza kubadilishwa, na inasaidia majukwaa meng",
+        _key: "6996cd47341c",
+        _ref: "4a4fce62-dc7d-40d9-b1a5-84e6a92366e2",
+        _type: "reference",
       },
     ],
     homepage: "https://www.chromium.org/Home/",
@@ -821,6 +822,181 @@ export const browsers: Browser[] = [
       },
     ],
     name: "Chromium",
+    popularity: 1097,
+    screenshots: [
+      {
+        _key: "229be6ba5928",
+        _type: "figure",
+        alt: "Chromium on Windows",
+        asset: {
+          _createdAt: "2023-11-19T00:33:37Z",
+          _id: "image-f072f27da4d616a7a3595711ab8310c28a674dd5-850x665-png",
+          _rev: "Uckd0KyIppGAIvpptSZpZ3",
+          _type: "sanity.imageAsset",
+          _updatedAt: "2023-11-19T00:33:37Z",
+          assetId: "f072f27da4d616a7a3595711ab8310c28a674dd5",
+          extension: "png",
+          metadata: {
+            _type: "sanity.imageMetadata",
+            blurHash: "V6SY{r~q%f~WDiIXoz%LV@jEyE%1IBRkWCOrt6R5WZkX",
+            dimensions: {
+              _type: "sanity.imageDimensions",
+              aspectRatio: 1.2781954887218046,
+              height: 665,
+              width: 850,
+            },
+            hasAlpha: false,
+            isOpaque: true,
+            lqip: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsTAAALEwEAmpwYAAACDklEQVQokW2S227bMAyG8/4vtYtdDcNWdEA7pDnZkRO7sS3LOlASKcmDlLRNsX6gLyT9v0jRXLWXceDzrI00ToKTxvFZs3bY1O322P0fm7p9qU4vh2ZTn1ZSKQBrnQeP1pPDAI6Egn5Sw1fRc9le+KnrX3u+8t6FAlJAihQShYQhIn0dHgNYrw0A2BUipjdiWigsxieHS4y3TYoRY8irJZOWJaUUQiCim7nsLzEtEtKhj6xzph/ifAY9nKfp/NpaMSbCqywrY/Tef5jTsoS4DCr9OYanv5w/PuDm26l++P50+P3zl1w/Ja2K6pZZa/0pc0qLdgsbI2NS7zbUPJxPmx/rbv28A1YlC2+yRERSymwmIue8LRhjhQIhtJm4laOYRTsozmcrZ2+t99455wvFTARgh2Hsuq7NdG2X47Xr+stlyIzXbyz0/TBNAgCyuaR1QoiiG/p+6K+OceScCzEJIcQ05ShM0ySlstbeMscYiQjf8Ih5ZnKNeZmrLE+7BxGvb6b3hl17HlMCRwqwzEywziN91qS7ht0flL+dwHkNDksGAOs/az7MVG69J6bkPTrvruU55xAxvk9cSiEmpGCMWUmptNZ5Uq2FjDUASmultSnkY23yLIM1BmZl+Gz4rCcxr7bb/X5/qOu6aRqWaY6MHaq6qmrGGtacqiOrjqxmrGbNoWYvu+p5vX9e79ab7T+copIbQYCrnAAAAABJRU5ErkJggg==",
+            palette: {
+              _type: "sanity.imagePalette",
+              darkMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#2e6a41",
+                foreground: "#fff",
+                population: 0,
+                title: "#fff",
+              },
+              darkVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#3e8c56",
+                foreground: "#fff",
+                population: 0.13,
+                title: "#fff",
+              },
+              dominant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#aaa399",
+                foreground: "#000",
+                population: 0.76,
+                title: "#fff",
+              },
+              lightMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#cca3b2",
+                foreground: "#000",
+                population: 0.02,
+                title: "#fff",
+              },
+              lightVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#fbd9e7",
+                foreground: "#000",
+                population: 0.05,
+                title: "#000",
+              },
+              muted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#aaa399",
+                foreground: "#000",
+                population: 0.76,
+                title: "#fff",
+              },
+              vibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#e47534",
+                foreground: "#fff",
+                population: 0.75,
+                title: "#fff",
+              },
+            },
+          },
+          mimeType: "image/png",
+          originalFilename: "image.png",
+          path: "images/0ydog342/production/f072f27da4d616a7a3595711ab8310c28a674dd5-850x665.png",
+          sha1hash: "f072f27da4d616a7a3595711ab8310c28a674dd5",
+          size: 60216,
+          uploadId: "anKTMsBbBlqZnEAFNBvK7Dq63GSfPB1U",
+          url: "https://cdn.sanity.io/images/0ydog342/production/f072f27da4d616a7a3595711ab8310c28a674dd5-850x665.png",
+        },
+      },
+      {
+        _key: "f08bc9f2ae3f",
+        _type: "figure",
+        alt: "Chromium showing Wikipedia",
+        asset: {
+          _createdAt: "2023-11-19T00:34:32Z",
+          _id: "image-62ea29f8279408505f9ab0e4eac1c53596d277e0-1383x1024-png",
+          _rev: "01fz37KtvhMj2e8zIILKhn",
+          _type: "sanity.imageAsset",
+          _updatedAt: "2023-11-19T00:34:32Z",
+          assetId: "62ea29f8279408505f9ab0e4eac1c53596d277e0",
+          extension: "png",
+          metadata: {
+            _type: "sanity.imageMetadata",
+            blurHash: "VDRMe?of01xuRO_2aexaofRk9EofxaWBWB~qt7M|ayof",
+            dimensions: {
+              _type: "sanity.imageDimensions",
+              aspectRatio: 1.3505859375,
+              height: 1024,
+              width: 1383,
+            },
+            hasAlpha: true,
+            isOpaque: false,
+            lqip: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAAAsTAAALEwEAmpwYAAACxklEQVQ4jX2Ty47jNhBF9ff5hHxBFkEwyi7bIItxVoMAySKdtiVbliWKL/FRfEmyWAHtbmAwaYTARZUk8PDyFlQprX/Txrworc9MyHYgrL0R9qjjxFtCxf9qnHhzG+nleiN/df34U2Ut/G2M1dZCsuCCBReLwPnofIjOx28UIrgQLfhoiqwPykASs+aUi18rxnk7jiTJeUYfIsa0YFoWXJYV123D7X7H+5tKv253jMuKLiR0PpWafVjQggcu5kN17fv2cukipQyV1lkpnbU22YLLIaa8rltety1vbyp9Wrccly2nZc0xLXs5PKXFamM/V11PSl5JCImUsTyOE44TQ8pnlMqiMg61ATTWoXMefQgYYsJl3TCmFWcTsoGIaVnB+3CouhtvJ66T0gYZ43kYCQ4jRUIFTlwhfWhGLjUqbdECIDiP4CPS2eM/V50vxKKBAM65Q3UdRcukScWFkHMu7iYmUCqDFtxzs/PoXHhmHNND2ga8UYunXufrZFFqB9rYQ9W/A61DJk0ephmZtI/QyyD2ff+PynsfEs7aFVBWxqO2/gm8DqKl4h1oczlVKP/IZ88ZP1oFWibMpUEmVJ6VQQMejIVDde55O1KdSvh8hkw4oLIl5O0BzN+orPt9x+KqJxKvA8uESlQawMIbcPgKOAlADfExxafDj4EGAk5c443MeaAKpSrAMpSBNxNXsQCZhJ1wyNrGvKxbLutBfNP7833fM/iUqYR8o2Yn3OBsnLUAn6uBiDMValEGikNks0Pr0+OP+PjK+enQJSy3GZh9VGW9s+B+r7p++kKoGIRUgvGZMaG4No47H7kPiYcQeQjhK0XufOBCASdM85HOjDAlpDIXrc0v1R9/vnz/8tr82LTn+ng8fXo9nupjc6mPbV+f2v7Zn9r61DR107R1257r5tzVx+ZavzZd+fbp1LQ/ny/dD5eu++5fItFnkOgu/nAAAAAASUVORK5CYII=",
+            palette: {
+              _type: "sanity.imagePalette",
+              darkMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#3a3b44",
+                foreground: "#fff",
+                population: 0.05,
+                title: "#fff",
+              },
+              darkVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#2b54a1",
+                foreground: "#fff",
+                population: 0.12,
+                title: "#fff",
+              },
+              dominant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#a5afc8",
+                foreground: "#000",
+                population: 0.61,
+                title: "#fff",
+              },
+              lightMuted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#a5afc8",
+                foreground: "#000",
+                population: 0.61,
+                title: "#fff",
+              },
+              lightVibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#acd4fc",
+                foreground: "#000",
+                population: 0,
+                title: "#000",
+              },
+              muted: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#8489a9",
+                foreground: "#fff",
+                population: 0.05,
+                title: "#fff",
+              },
+              vibrant: {
+                _type: "sanity.imagePaletteSwatch",
+                background: "#6494e2",
+                foreground: "#fff",
+                population: 0.1,
+                title: "#fff",
+              },
+            },
+          },
+          mimeType: "image/png",
+          originalFilename: "image.png",
+          path: "images/0ydog342/production/62ea29f8279408505f9ab0e4eac1c53596d277e0-1383x1024.png",
+          sha1hash: "62ea29f8279408505f9ab0e4eac1c53596d277e0",
+          size: 276192,
+          uploadId: "O706xf47nkvfEOMCaCufKauyi2690Yux",
+          url: "https://cdn.sanity.io/images/0ydog342/production/62ea29f8279408505f9ab0e4eac1c53596d277e0-1383x1024.png",
+        },
+      },
+    ],
     slug: {
       _type: "slug",
       current: "chromium",
@@ -833,22 +1009,10 @@ export const browsers: Browser[] = [
           "Chromium is a free and open-source web browser project, primarily developed and maintained by Google. This codebase provides the vast majority of code for the Google Chrome browser, which is proprietary software and has some additional features. Chromium's logo is identical in shape to that of Google Chrome, but with blue colors instead of being multicolor.",
       },
       {
-        _key: "nl",
+        _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Chromium is een opensourceproject dat de broncode voor Google Chrome en afgeleiden levert. De broncode wordt vrijgegeven onder de BSD-licentie. De layout-engine is Blink, een fork van WebKit. Op basis van de broncode kan er een browser worden gecompileerd, die dan de naam Chromium meekrijgt. Er is echter geen officiële en stabiele download, wel gemeenschapsuitgaven en andere toepassingen van Chromium. Testversies worden wel beschikbaar gesteld in gecompileerde vorm.",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Unter dem Namen Chromium wird der Großteil des Quelltextes des Webbrowsers Google Chrome unter der BSD-Lizenz als Open-Source-Projekt zur Verfügung gestellt. Das Projekt wurde am 2. September 2008 gestartet. Viele weitere Browser basieren auf der Code-Basis von Chromium, darunter Microsoft Edge, Opera, Vivaldi und Brave.",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "क्रोमियम  एक निःशुल्क और मुक्तस्रोत सॉफ्टवेयर और वेब ब्राउज़र है, जिसे गूगल द्वारा विकसित और अनुरक्षित किया जाता है।",
+          "Chromium — веб-браузер с открытым исходным кодом, разрабатываемый сообществом The Chromium Authors, компанией Google и некоторыми другими компаниями. По утверждению разработчиков, Chromium предназначен для предоставления пользователям быстрого, безопасного и надёжного доступа в Интернет, а также удобной платформы для веб-приложений. На основе Chromium создан браузер Google Chrome, а также ряд других альтернативных веб-обозревателей.",
       },
       {
         _key: "id",
@@ -857,10 +1021,22 @@ export const browsers: Browser[] = [
           "Chromium adalah proyek peramban web sumber terbuka di mana Google Chrome yang mengambil kode sumbernya. Penjelajah ini berbagi mayoritas kode dan fitur, meskipun ada beberapa perbedaan kecil dalam fitur dan mereka memiliki lisensi yang berbeda.",
       },
       {
-        _key: "ru",
+        _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Chromium — веб-браузер с открытым исходным кодом, разрабатываемый сообществом The Chromium Authors, компанией Google и некоторыми другими компаниями. По утверждению разработчиков, Chromium предназначен для предоставления пользователям быстрого, безопасного и надёжного доступа в Интернет, а также удобной платформы для веб-приложений. На основе Chromium создан браузер Google Chrome, а также ряд других альтернативных веб-обозревателей.",
+          "Unter dem Namen Chromium wird der Großteil des Quelltextes des Webbrowsers Google Chrome unter der BSD-Lizenz als Open-Source-Projekt zur Verfügung gestellt. Das Projekt wurde am 2. September 2008 gestartet. Viele weitere Browser basieren auf der Code-Basis von Chromium, darunter Microsoft Edge, Opera, Vivaldi und Brave.",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Chromium is een opensourceproject dat de broncode voor Google Chrome en afgeleiden levert. De broncode wordt vrijgegeven onder de BSD-licentie. De layout-engine is Blink, een fork van WebKit. Op basis van de broncode kan er een browser worden gecompileerd, die dan de naam Chromium meekrijgt. Er is echter geen officiële en stabiele download, wel gemeenschapsuitgaven en andere toepassingen van Chromium. Testversies worden wel beschikbaar gesteld in gecompileerde vorm.",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "क्रोमियम  एक निःशुल्क और मुक्तस्रोत सॉफ्टवेयर और वेब ब्राउज़र है, जिसे गूगल द्वारा विकसित और अनुरक्षित किया जाता है।",
       },
     ],
     vendor: "The Chromium Authors",
@@ -871,20 +1047,9 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Chromium_(web_browser)",
       },
       {
-        _key: "nl",
+        _key: "ru",
         _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Chromium_(software)",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://de.wikipedia.org/wiki/Chromium_(Browser)",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayUrlValue",
-        value:
-          "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE_(%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%89%E0%A4%9C%E0%A4%BC%E0%A4%B0)",
+        value: "https://ru.wikipedia.org/wiki/Chromium",
       },
       {
         _key: "id",
@@ -892,9 +1057,20 @@ export const browsers: Browser[] = [
         value: "https://id.wikipedia.org/wiki/Chromium_(peramban_web)",
       },
       {
-        _key: "ru",
+        _key: "de",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Chromium",
+        value: "https://de.wikipedia.org/wiki/Chromium_(Browser)",
+      },
+      {
+        _key: "nl",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://nl.wikipedia.org/wiki/Chromium_(software)",
+      },
+      {
+        _key: "hi",
+        _type: "internationalizedArrayUrlValue",
+        value:
+          "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE_(%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%89%E0%A4%9C%E0%A4%BC%E0%A4%B0)",
       },
     ],
   },

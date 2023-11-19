@@ -5,14 +5,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-26T16:17:54Z",
     _id: "03cb4079-95d0-4368-9a97-3c9aa6b12e0d",
-    _rev: "01fz37KtvhMj2e8zIILHL9",
+    _rev: "tdSEgP3G53V2majpbc6HJc",
     _type: "release",
-    _updatedAt: "2023-11-19T00:31:37Z",
+    _updatedAt: "2023-11-19T00:40:35Z",
     browser: {
       _ref: "f093178f-bfba-4391-8078-6f979c75630d",
       _type: "reference",
     },
-    currentVersion: "119",
+    currentVersion: "6.4",
     downloadUrl: "https://vivaldi.com/download/",
     oses: [
       {
@@ -60,7 +60,7 @@ export const releases: Release[] = [
       "https://help.vivaldi.com/desktop/install-update/update-vivaldi/",
     versionSource: [
       {
-        _key: "179c8a6a9f33",
+        _key: "7821eceb4f6c",
         _type: "versionSource",
         caniuse_agent: "chrome",
         caniuse_contribute_usage: false,
@@ -71,9 +71,9 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-23T06:52:17Z",
     _id: "df47bd5d-957d-470f-b972-dc79e44b6ec3",
-    _rev: "h9gndD2P4keuz4rjsBcjgL",
+    _rev: "01fz37KtvhMj2e8zIILPyz",
     _type: "release",
-    _updatedAt: "2023-11-05T03:22:56Z",
+    _updatedAt: "2023-11-19T00:37:59Z",
     browser: {
       _ref: "278c02c3-76d4-4011-a543-39ca003ff1ee",
       _type: "reference",
@@ -98,6 +98,7 @@ export const releases: Release[] = [
         },
       },
     ],
+    updateUrl: "https://www.chromium.org/getting-involved/download-chromium/",
     versionSource: [
       {
         _key: "d8831f50701f",

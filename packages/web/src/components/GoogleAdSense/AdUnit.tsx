@@ -33,9 +33,13 @@ export function AdUnit({
   useEffect(() => {
     if (adLoaded.current === false) {
       console.debug(`loading ads in slot ${slot}`);
-      window["adsbygoogle"] = window["adsbygoogle"] || [];
-      window["adsbygoogle"].push({});
-      adLoaded.current = true;
+      try {
+        window["adsbygoogle"] = window["adsbygoogle"] || [];
+        window["adsbygoogle"].push({});
+        adLoaded.current = true;
+      } catch (error) {
+        console.error(error);
+      }
     }
   }, [slot, pathname, searchParams]);
 
