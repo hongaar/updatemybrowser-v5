@@ -35,6 +35,7 @@
     "sanity-plugin-icon-manager": "1.1.1",
     "sanity-plugin-internationalized-array": "1.10.3",
     "sanity-plugin-markdown": "4.1.0",
+    "sanity-plugin-media": "2.2.4",
     "styled-components": "^5.3.11"
   },
   "devDependencies": {

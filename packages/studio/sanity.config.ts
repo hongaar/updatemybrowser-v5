@@ -6,6 +6,7 @@ import { defineConfig } from "sanity";
 import { IconManager } from "sanity-plugin-icon-manager";
 import { internationalizedArray } from "sanity-plugin-internationalized-array";
 import { markdownSchema } from "sanity-plugin-markdown";
+import { media } from "sanity-plugin-media";
 import { deskTool } from "sanity/desk";
 import {
   UpdateCurrentVersionAction,
@@ -27,6 +28,7 @@ export default defineConfig({
     deskTool({
       structure,
     }),
+    media(),
     colorInput(),
     IconManager(),
     internationalizedArray({
