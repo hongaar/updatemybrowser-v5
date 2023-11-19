@@ -27,10 +27,10 @@ export const article: DocumentDefinition = {
         ...(icon && subIcon
           ? { media: iconWithSubIconPreview({ icon, subIcon }) }
           : icon && !subIcon
-          ? { media: iconPreview({ icon }) }
-          : !icon && subIcon
-          ? { media: iconPreview({ icon: subIcon }) }
-          : {}),
+            ? { media: iconPreview({ icon }) }
+            : !icon && subIcon
+              ? { media: iconPreview({ icon: subIcon }) }
+              : {}),
       };
     },
   },

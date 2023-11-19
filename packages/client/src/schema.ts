@@ -265,15 +265,15 @@ export type Release<T extends "ref" | "expanded" | "flatExpanded" = "ref"> =
           oses: Keyed<OsVersion>[];
         }
       : T extends "expanded"
-      ? {
-          browser: Browser;
-          oses: OsVersion<OS>[];
-        }
-      : // flatExpanded
-        {
-          browser: Browser;
-          os: OsVersion<OS>;
-        })
+        ? {
+            browser: Browser;
+            oses: OsVersion<OS>[];
+          }
+        : // flatExpanded
+          {
+            browser: Browser;
+            os: OsVersion<OS>;
+          })
   >;
 
 export type ExpandedRelease = Release<"expanded">;
