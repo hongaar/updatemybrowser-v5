@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    logging: { level: "verbose", fullUrl: true },
+  logging: {
+    fetches: {
+      fullUrl: true,
+    },
   },
   images: {
     domains: ["cdn.sanity.io", "img.youtube.com"],
