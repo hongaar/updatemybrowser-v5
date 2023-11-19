@@ -49,7 +49,6 @@ export function AdUnit({
 
   return (
     <div className={styles.wrapper}>
-      <span className={styles.adLabel}>{dict.Advertisement}</span>
       <ins
         className={`${styles.ad} ${isProduction ? "" : styles.local} ${
           !publisherId ? styles.dummy : ""
@@ -65,6 +64,7 @@ export function AdUnit({
         data-ad-format={format}
         data-full-width-responsive="true"
       />
+      <span className={styles.adLabel}>{dict.Advertisement}</span>
     </div>
   );
 }

@@ -1,21 +1,39 @@
 @import "../../styles/theme";
 
 .wrapper {
+  display: flex;
+  flex-direction: column-reverse;
   width: 100%;
-
-  &:not(:last-child) {
-    margin-bottom: var(--spacing);
-  }
 }
 
 .adLabel {
+  display: none;
   font-size: var(--font-small-size);
   text-transform: uppercase;
   color: var(--muted-color);
 }
 
+.ad[data-ad-status="filled"] ~ .adLabel,
+.local ~ .adLabel,
+.dummy ~ .adLabel {
+  display: inline;
+}
+
 .ad {
   position: relative;
+  margin: 0 calc(var(--spacing) * -1);
+
+  &:not(:last-child) {
+    margin-bottom: var(--spacing);
+  }
+
+  @media (min-width: 503px) {
+    margin: unset;
+  }
+
+  &[data-ad-status="unfilled"]:not(.dummy):not(.local) {
+    display: none !important;
+  }
 
   &:empty {
     background-color: var(--muted-background-color);
