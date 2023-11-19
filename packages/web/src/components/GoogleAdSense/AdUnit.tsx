@@ -11,6 +11,7 @@ type Props = {
   slot: string;
   layout?: "in-article";
   format?: "auto" | "fluid";
+  fullWidth?: boolean;
 };
 
 declare var window: { adsbygoogle: Record<string, any>[] };
@@ -25,6 +26,7 @@ export function AdUnit({
   slot,
   layout,
   format = "auto",
+  fullWidth = true,
 }: Props) {
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -48,23 +50,21 @@ export function AdUnit({
   }
 
   return (
-    <div className={styles.wrapper}>
-      <span className={styles.adLabel}>{dict.Advertisement}</span>
-      <ins
-        className={`${styles.ad} ${isProduction ? "" : styles.local} ${
-          !publisherId ? styles.dummy : ""
-        } adsbygoogle`}
-        style={{
-          display: "block",
-          textAlign: layout === "in-article" ? "center" : undefined,
-          height: !publisherId ? "200px" : undefined,
-        }}
-        data-ad-client={publisherId}
-        data-ad-slot={slot}
-        data-ad-layout={layout}
-        data-ad-format={format}
-        data-full-width-responsive="true"
-      />
-    </div>
+    <ins
+      className={`${styles.ad} ${isProduction ? "" : styles.local} ${
+        !publisherId ? styles.dummy : ""
+      } adsbygoogle`}
+      style={{
+        display: "block",
+        textAlign: layout === "in-article" ? "center" : undefined,
+        height: !publisherId ? "200px" : undefined,
+      }}
+      data-label={dict.Advertisement}
+      data-ad-client={publisherId}
+      data-ad-slot={slot}
+      data-ad-layout={layout}
+      data-ad-format={format}
+      data-full-width-responsive={fullWidth}
+    />
   );
 }
