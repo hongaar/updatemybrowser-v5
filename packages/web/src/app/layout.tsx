@@ -6,6 +6,16 @@ type Props = {
   children: ReactNode;
 };
 
+const REVALIDATE_PRODUCTION = 3600 * 24; // 1 day
+const REVALIDATE_DEVELOPMENT = 60; // 1 minute
+
+export const revalidate =
+  process.env.NODE_ENV === "production"
+    ? REVALIDATE_PRODUCTION
+    : REVALIDATE_DEVELOPMENT;
+
+export const dynamic = "force-static";
+
 export function generateMetadata() {
   const dict = english;
 
