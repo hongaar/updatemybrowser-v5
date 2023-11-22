@@ -3,6 +3,16 @@ import { defaultLanguage, getLanguageIds } from "@updatemybrowser/client";
 import Negotiator from "negotiator";
 import { type NextMiddleware } from "next/server";
 
+const redirects = [
+  { from: "/browser", to: "/check" },
+  { from: "/about", to: "/check" },
+  { from: "/about/docs", to: "/widget" },
+  { from: "/about/plugins", to: "/widget" },
+  { from: "/about/contact", to: "/check" },
+  { from: "/about/stats", to: "/check" },
+  { from: "/widget.html", to: "/widget" },
+];
+
 function getExtension(pathname: string) {
   const match = pathname.match(/\.[0-9a-z]+$/i);
   return match ? match[0] : "";
@@ -35,18 +45,22 @@ export const middleware: NextMiddleware = async (request) => {
     (language) =>
       pathname.startsWith(`/${language}/`) || pathname === `/${language}`,
   );
-
   if (pathnameHasLocale) {
     return;
   }
 
   let language = defaultLanguage;
-
   try {
     language = await getLanguage(request, languages);
   } catch (error) {}
 
-  request.nextUrl.pathname = `/${language}${pathname}`;
+  // Check if there is any redirect for the pathname
+  const redirect = redirects.find(({ from }) => from === pathname);
+  if (redirect) {
+    request.nextUrl.pathname = `/${language}${redirect.to}`;
+  } else {
+    request.nextUrl.pathname = `/${language}${pathname}`;
+  }
 
   return Response.redirect(request.nextUrl, 307);
 };

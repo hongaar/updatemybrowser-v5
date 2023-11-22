@@ -2,12 +2,7 @@ import { getLanguageIds } from "@updatemybrowser/client";
 import type { Metadata } from "next";
 import { Fira_Sans } from "next/font/google";
 import type { ReactNode } from "react";
-import { Footer } from "../../components/Footer";
-import { GoogleAdSense } from "../../components/GoogleAdSense";
-import { GoogleTagManager } from "../../components/GoogleTagManager";
-import { Header } from "../../components/Header";
-import { Nav } from "../../components/Nav";
-import { NavigationProgress } from "../../components/Navigation";
+import { Document } from "../../components/Document";
 import { getDictionary } from "../../dictionaries";
 import "../../styles/index.scss";
 import type { LanguageParams } from "./route";
@@ -43,17 +38,5 @@ export async function generateStaticParams() {
 }
 
 export default function Layout({ children, params: { language } }: Props) {
-  return (
-    <html lang={language}>
-      <GoogleTagManager />
-      <GoogleAdSense />
-      <body className={`${fira.className} ${fira.variable}`}>
-        <NavigationProgress />
-        <Header language={language} />
-        <Nav language={language} />
-        <main>{children}</main>
-        <Footer language={language} />
-      </body>
-    </html>
-  );
+  return <Document language={language}>{children}</Document>;
 }
