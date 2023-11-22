@@ -18,6 +18,8 @@ export const revalidate =
     ? REVALIDATE_PRODUCTION
     : REVALIDATE_DEVELOPMENT;
 
+export const dynamic = "force-static";
+
 export function generateMetadata({ params: { language } }: Props) {
   const dict = getDictionary(language);
 
