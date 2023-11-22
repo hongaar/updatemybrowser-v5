@@ -1,6 +1,5 @@
 import { getLanguageIds } from "@updatemybrowser/client";
 import type { Metadata } from "next";
-import { Fira_Sans } from "next/font/google";
 import type { ReactNode } from "react";
 import { Document } from "../../components/Document";
 import { getDictionary } from "../../dictionaries";
@@ -10,12 +9,6 @@ import type { LanguageParams } from "./route";
 type Props = LanguageParams & {
   children: ReactNode;
 };
-
-const fira = Fira_Sans({
-  subsets: ["latin"],
-  weight: ["400", "600"],
-  variable: "--font-text",
-});
 
 const REVALIDATE_PRODUCTION = 3600 * 24; // 1 day
 const REVALIDATE_DEVELOPMENT = 60; // 1 minute
