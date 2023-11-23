@@ -353,15 +353,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-08T06:17:00Z",
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _rev: "tdSEgP3G53V2majpbc7yei",
+    _rev: "f10qyKqCGKFLaTrvdjsT9G",
     _type: "release",
-    _updatedAt: "2023-11-19T01:04:05Z",
+    _updatedAt: "2023-11-23T03:21:41Z",
     browser: {
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
     currentUsage: 2.6163179999999997,
-    currentVersion: "119",
+    currentVersion: "120",
     downloadUrl: "https://www.mozilla.org/firefox/all",
     oses: [
       {
@@ -454,15 +454,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:48:43Z",
     _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _rev: "tdSEgP3G53V2majpbc70YS",
+    _rev: "ZZiJJd1zoc33D9f7kTHjw0",
     _type: "release",
-    _updatedAt: "2023-11-19T00:50:32Z",
+    _updatedAt: "2023-11-23T03:21:42Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
     currentUsage: 2.071068,
-    currentVersion: "103",
+    currentVersion: "104",
     downloadUrl: "https://www.opera.com/download",
     oses: [
       {
