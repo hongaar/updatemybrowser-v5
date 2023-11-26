@@ -51,10 +51,12 @@ export const middleware: NextMiddleware = async (request) => {
 
 export const config = {
   matcher: [
-    // Skip all internal paths (_next)
-    "/((?!_next|favicon.ico).*)",
+    // Choose either:
+    // - Skip all internal paths(_next)
+    // "/((?!_next|favicon.ico).*)",
 
-    // Optional: only run on root (/) URL
+    // or:
+    // - Only run on root(/) URL
     "/",
   ],
 };
