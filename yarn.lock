@@ -4193,14 +4193,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:5.1.30":
-  version: 5.1.30
-  resolution: "@types/styled-components@npm:5.1.30"
+"@types/styled-components@npm:5.1.32":
+  version: 5.1.32
+  resolution: "@types/styled-components@npm:5.1.32"
   dependencies:
     "@types/hoist-non-react-statics": "npm:*"
     "@types/react": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 26e4fe70fb964727a67e91526412a0e8bd0cf02cc082cab43a2581b4fe189b719c4e0f4fd7f6246762665fe184d001b0f332ef0607ad7dbe916a62974453a763
+  checksum: 6f071894d36a82d942a8e0e4c259748c3a17cb0a23c9ba187fb7d0cf7a769ac83cb3958d11b5b1eb100ee0f37c6e924b5a2d00ae2a3dd0057f2c559c6c544b1a
   languageName: node
   linkType: hard
 
@@ -4553,7 +4553,7 @@ __metadata:
     "@sanity/ui": "npm:^1.9.3"
     "@sanity/vision": "npm:3.20.0"
     "@types/react": "npm:18.2.37"
-    "@types/styled-components": "npm:5.1.30"
+    "@types/styled-components": "npm:5.1.32"
     "@updatemybrowser/client": "workspace:*"
     "@updatemybrowser/detect": "workspace:*"
     "@updatemybrowser/updater": "workspace:*"
