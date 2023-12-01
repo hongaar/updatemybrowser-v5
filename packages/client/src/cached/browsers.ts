@@ -663,9 +663,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "tdSEgP3G53V2majpbc8Obc",
+    _rev: "ZZiJJd1zoc33D9f7kkpdMs",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:26:39Z",
+    _updatedAt: "2023-11-30T03:21:47Z",
     description: [
       {
         _key: "en",
@@ -1003,7 +1003,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Samsung Internet Browser is a mobile web browser developed by Samsung Electronics, based on the open-source Chromium project. It comes pre-installed on Samsung Galaxy devices and, since 2015, has been available for download from Google Play for all Android devices. It is also available for their Tizen-based smartwatch via the Galaxy Store.",
+          "Samsung Internet Browser is a desktop and mobile web browser developed by Samsung Electronics, based on the open-source Chromium project. It comes pre-installed on Samsung Galaxy devices and, since 2015, has been available for download from Google Play for all Android devices. It is also available for their Tizen-based smartwatch via the Galaxy Store.",
       },
       {
         _key: "ru",
@@ -1051,9 +1051,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "tdSEgP3G53V2majpbc8OlA",
+    _rev: "ZZiJJd1zoc33D9f7kaiHZP",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:27:12Z",
+    _updatedAt: "2023-11-26T03:21:22Z",
     description: [
       {
         _key: "en",
@@ -1358,7 +1358,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Chromium is a free and open-source web browser project, primarily developed and maintained by Google. This codebase provides the vast majority of code for the Google Chrome browser, which is proprietary software and has some additional features. Chromium's logo is identical in shape to that of Google Chrome, but with blue colors instead of being multicolor.",
+          "Chromium is a free and open-source web browser project, primarily developed and maintained by Google. This codebase provides by far most of the code for the Google Chrome browser, which is proprietary software and has some additional features. Chromium's logo is identical in shape to that of Google Chrome, but with blue colors instead of being multicolor.",
       },
       {
         _key: "ru",
@@ -2218,9 +2218,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "01fz37KtvhMj2e8zIIMSxG",
+    _rev: "ztvBdlifN2C68IEwZxiqP3",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:28:53Z",
+    _updatedAt: "2023-12-01T03:22:08Z",
     description: [
       {
         _key: "en",
@@ -2488,7 +2488,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Internet Explorer is a retired since June 2022 series of graphical web browsers developed by Microsoft that were used in the Windows line of operating systems. While IE has been discontinued on most Windows editions, it remains supported on certain editions of Windows, such as Windows 10 LTSB/LTSC. Starting in 1995, it was first released as part of the add-on package Plus! for Windows 95 that year. Later versions were available as free downloads or in-service packs and included in the original equipment manufacturer (OEM) service releases of Windows 95 and later versions of Windows. Microsoft spent over US$100 million per year on Internet Explorer in the late 1990s, with over 1,000 people involved in the project by 1999. New feature development for the browser was discontinued in 2016 and ended support on June 15, 2022, in favor of its successor, Microsoft Edge.",
+          "Internet Explorer is a retired since June 2022 series of graphical web browsers developed by Microsoft that were used in the Windows line of operating systems. While IE has been discontinued on most Windows editions, it remains supported on certain editions of Windows, such as Windows 10 LTSB/LTSC. Starting in 1995, it was first released as part of the add-on package Plus! for Windows 95 that year. Later versions were available as free downloads or in-service packs and included in the original equipment manufacturer (OEM) service releases of Windows 95 and later versions of Windows. Microsoft spent over US$100 million per year on Internet Explorer in the late 1990s, with over 1,000 people involved in the project by 1999. New feature development for the browser was discontinued in 2016 and ended support on June 15, 2022 for Windows 10 Semi-Annual Channel (SAC), in favor of its successor, Microsoft Edge.",
       },
       {
         _key: "ru",
@@ -3710,9 +3710,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "01fz37KtvhMj2e8zIIMUro",
+    _rev: "ztvBdlifN2C68IEwZxiqWx",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:30:31Z",
+    _updatedAt: "2023-12-01T03:22:10Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -4044,7 +4044,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge is a proprietary, cross-platform web browser created by Microsoft. It was first released in 2015 as part of Windows 10 and Xbox One. It was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it got ported to other platforms as a fork of Google's Chromium open-source project: Android and iOS. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines which allows the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser, The new Edge is also available on older Windows versions, And most recently it also got ported to Linux.",
+          "Microsoft Edge is a proprietary, cross-platform web browser created by Microsoft. Released in 2015 as part of Windows 10 and Xbox One, it was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it got ported to Android and iOS as a fork of Google's Chromium open-source project. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines, which allowed the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser, and Edge is also available on older Windows versions, as well as Linux.",
       },
       {
         _key: "ru",
@@ -4074,7 +4074,7 @@ export const browsers: Browser[] = [
         _key: "hi",
         _type: "internationalizedArrayTextValue",
         value:
-          "माइक्रोसॉफ्ट ने अपने नए वेब ब्राउजर का नाम एज रखा है। माइक्रोसॉफ्ट एज' एक मालिकाना, क्रॉस-प्लेटफॉर्म वेब ब्राउज़र द्वारा बनाया गया है माइक्रोसॉफ्ट। इसे पहली बार 2015 में विंडोज 10 और एक्सबॉक्स वन के हिस्से के रूप में जारी किया गया था और बाद में पोर्टेड को Google के क्रोमियम ओपन-सोर्स प्रोजेक्ट: एंड्रॉइड और आईओएस",
+          'माइक्रोसॉफ्ट ने अपने नए वेब ब्राउजर का नाम एज रखा है। माइक्रोसॉफ्ट एज "(या बस एज)" एक मालिकाना, क्रॉस-प्लेटफॉर्म वेब ब्राउज़र द्वारा बनाया गया है माइक्रोसॉफ्ट। इसे पहली बार 2015 में विंडोज 10 और एक्सबॉक्स वन के हिस्से के रूप में जारी किया गया था और बाद में पोर्टेड को Google के क्रोमियम ओपन-सोर्स प्रोजेक्ट: एंड्रॉइड और आईओएस',
       },
     ],
     vendor: "Microsoft",
