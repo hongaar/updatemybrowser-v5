@@ -3615,9 +3615,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sanity/vision@npm:3.20.0":
-  version: 3.20.0
-  resolution: "@sanity/vision@npm:3.20.0"
+"@sanity/vision@npm:3.21.1":
+  version: 3.21.1
+  resolution: "@sanity/vision@npm:3.21.1"
   dependencies:
     "@codemirror/autocomplete": "npm:^6.1.0"
     "@codemirror/commands": "npm:^6.0.1"
@@ -3640,7 +3640,7 @@ __metadata:
   peerDependencies:
     react: ^18
     styled-components: ^5.2 || ^6
-  checksum: 62b7b6992299efd737b6239e0527a74d8c860a10bb638993f7c045d314fd84ddba74f7b0243d7bf86b1dcc5196a1ebdeefc0dbf814a13c9d2554a2b056dc3cae
+  checksum: 7e41046ea7b8f5a1306bcf500c1c3619157866a32fc0f7d93b26b2922f0b6f3edd70e0cf0f438a1ebbc7c5e1d23b2b8f03b2e94eb503d01d9896704eae22ca95
   languageName: node
   linkType: hard
 
@@ -4551,7 +4551,7 @@ __metadata:
     "@sanity/eslint-config-studio": "npm:3.0.1"
     "@sanity/icons": "npm:^2.7.0"
     "@sanity/ui": "npm:^1.9.3"
-    "@sanity/vision": "npm:3.20.0"
+    "@sanity/vision": "npm:3.21.1"
     "@types/react": "npm:18.2.37"
     "@types/styled-components": "npm:5.1.30"
     "@updatemybrowser/client": "workspace:*"

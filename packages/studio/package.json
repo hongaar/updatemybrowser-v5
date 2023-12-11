@@ -22,7 +22,7 @@
     "@sanity/document-internationalization": "2.0.2",
     "@sanity/icons": "^2.7.0",
     "@sanity/ui": "^1.9.3",
-    "@sanity/vision": "3.20.0",
+    "@sanity/vision": "3.21.1",
     "@updatemybrowser/client": "workspace:*",
     "@updatemybrowser/detect": "workspace:*",
     "@updatemybrowser/updater": "workspace:*",
