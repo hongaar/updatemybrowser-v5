@@ -28,7 +28,7 @@
     "@updatemybrowser/web": "workspace:*",
     "bandersnatch": "1.12.12",
     "cross-fetch": "4.0.0",
-    "openai": "4.19.0"
+    "openai": "4.25.0"
   },
   "devDependencies": {
     "@types/node": "20.9.2",
