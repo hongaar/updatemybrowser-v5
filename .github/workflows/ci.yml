@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: yarn
-      - uses: actions/cache@v3
+      - uses: actions/cache@v4
         with:
           path: ${{ github.workspace }}/.next/cache
           key: |
