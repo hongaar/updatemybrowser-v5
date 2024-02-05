@@ -4586,7 +4586,7 @@ __metadata:
     bandersnatch: "npm:1.12.12"
     cross-fetch: "npm:4.0.0"
     dotenv: "npm:16.3.1"
-    openai: "npm:4.19.0"
+    openai: "npm:4.26.1"
     ts-node: "npm:10.9.1"
     typescript: "npm:5.3.2"
   languageName: unknown
@@ -11071,9 +11071,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openai@npm:4.19.0":
-  version: 4.19.0
-  resolution: "openai@npm:4.19.0"
+"openai@npm:4.26.1":
+  version: 4.26.1
+  resolution: "openai@npm:4.26.1"
   dependencies:
     "@types/node": "npm:^18.11.18"
     "@types/node-fetch": "npm:^2.6.4"
@@ -11086,7 +11086,7 @@ __metadata:
     web-streams-polyfill: "npm:^3.2.1"
   bin:
     openai: bin/cli
-  checksum: 4dc9ee9bf794929a63fc2c5d852d25135ba97b12cb6616cb09a14732dafb78bcc9cd9acd41f66f44a57a661fb5e655e3a083ac20c78ca9abca138186ee48a4b7
+  checksum: 1505ada1f23b140dc76a6906d62c788ca7e1a25c5dd9b90f341a22e9a23cae8c774267d2f8953ac28a55f7563ec26c74131cb488fcb8baf457e987184d2cc5e1
   languageName: node
   linkType: hard
 
