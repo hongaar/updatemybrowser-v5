@@ -36,7 +36,7 @@
     "@types/negotiator": "0.6.3",
     "@types/node": "20.9.2",
     "@types/react": "18.2.37",
-    "@types/react-dom": "18.2.15",
+    "@types/react-dom": "18.2.19",
     "@types/sprintf-js": "^1.1.4",
     "cssnano": "6.0.1",
     "eslint": "8.54.0",
