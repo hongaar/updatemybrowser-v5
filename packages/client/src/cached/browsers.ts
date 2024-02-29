@@ -1051,9 +1051,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "eTDnTUaMywdIrCg65eScUS",
+    _rev: "b5wiIF0qXtJ7Kx3RnX5KVi",
     _type: "browser",
-    _updatedAt: "2023-12-03T03:21:19Z",
+    _updatedAt: "2024-02-20T03:22:15Z",
     description: [
       {
         _key: "en",
@@ -1358,7 +1358,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Chromium is a free and open-source web browser project, primarily developed and maintained by Google. This codebase provides the vast majority of code for the Google Chrome browser, which is proprietary software with additional features.",
+          "Chromium is a free and open-source web browser project, primarily developed and maintained by Google. It is a widely-used codebase, providing the vast majority of code for Google Chrome and many other browsers, including Microsoft Edge, Samsung Internet, and Opera. The code is also used by several app frameworks.",
       },
       {
         _key: "ru",
@@ -1429,9 +1429,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "eTDnTUaMywdIrCg65d14ZT",
+    _rev: "34Y33xNIw882ZVTaL0e30F",
     _type: "browser",
-    _updatedAt: "2023-12-02T03:21:26Z",
+    _updatedAt: "2024-02-12T03:21:15Z",
     description: [
       {
         _key: "en",
@@ -1831,7 +1831,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          'Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. In November 2017, Firefox began incorporating new technology under the code name "Quantum" to promote parallelism and a more intuitive user interface. Firefox is available for Windows 10 or later versions, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, illumos, and Solaris Unix. It is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon\'s Silk Browser.',
+          "Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, illumos, and Solaris Unix. It is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
       },
       {
         _key: "sw",
@@ -2218,9 +2218,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "0p5udQTPrqAQYKCTOZgASo",
+    _rev: "GVHi05WSZKwfby06pvfgQi",
     _type: "browser",
-    _updatedAt: "2023-12-07T03:21:49Z",
+    _updatedAt: "2024-02-17T03:21:33Z",
     description: [
       {
         _key: "en",
@@ -2494,7 +2494,7 @@ export const browsers: Browser[] = [
         _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Internet Explorer — интернет-браузер, разрабатывавшийся корпорацией Microsoft с 1995 по 2016 год.",
+          "Internet Explorer — семейство интернет-браузеров, разрабатывавшихся корпорацией Microsoft с 1995 по 2016 год. Релиз первой версии браузера для Windows 95 в составе пакета Microsoft Plus! состоялся 24 августа 1995 года. Последняя стабильная версия браузера, одиннадцатая, вышла 17 октября 2013 года для Windows 8.1 и Windows Server 2012 R2. В основе Internet Explorer лежат браузерные движки Trident (MSHTML) для отображения веб-страниц и Chakra для обработки скриптов JavaScript, а сам браузер был создан на основе Spyglass Mosaic.",
       },
       {
         _key: "id",
@@ -2559,9 +2559,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "TFpAu2z0Fxg01Zw74Uzrwp",
+    _rev: "LwxHAPD6C51sHXy2KuNDRb",
     _type: "browser",
-    _updatedAt: "2024-01-13T03:21:56Z",
+    _updatedAt: "2024-02-07T03:21:44Z",
     description: [
       {
         _key: "en",
@@ -2959,7 +2959,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Safari is a web browser developed by Apple. It is built into Apple's operating systems, including macOS, iOS, iPadOS and VisionOS, and uses Apple's open-source browser engine WebKit, which was derived from KHTML.",
+          "Safari is a web browser developed by Apple. It is built into Apple's operating systems, including macOS, iOS, iPadOS and visionOS, and uses Apple's open-source browser engine WebKit, which was derived from KHTML.",
       },
       {
         _key: "ru",
@@ -3710,9 +3710,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "hDpnd2eFf3yv7uDMFt4vKV",
+    _rev: "5TtKvOnsQT8Vn6WJ3JPh8j",
     _type: "browser",
-    _updatedAt: "2024-01-24T03:22:20Z",
+    _updatedAt: "2024-02-19T03:21:26Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -4044,7 +4044,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge is a proprietary, AI-powered cross-platform web browser created by Microsoft. Released in 2015 as part of Windows 10 and Xbox One, it was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it was ported to Android and iOS as a fork of Google's Chromium open-source project. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines, which allowed the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser, and Edge is also available on older Windows versions, as well as Linux.",
+          "Microsoft Edge is a proprietary cross-platform web browser created by Microsoft. Released in 2015 as part of Windows 10 and Xbox One, it was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it was ported to Android and iOS as a fork of Google's Chromium open-source project. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines, which allowed the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser. Edge is also available on older Windows versions, as well as Linux.",
       },
       {
         _key: "ru",
@@ -4062,7 +4062,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge ist ein Webbrowser des Softwareherstellers Microsoft. Er wurde am 29. Juli 2015 mit Windows 10 veröffentlicht und hat dort den Internet Explorer als Standardbrowser ersetzt; der Chromium basierte Edge ist der vorinstallierte Standard-Browser in Windows 10 ab Version 20H2 und Windows 11, sowie durch automatische Updates vom April 2021 auch in früheren Windows-Versionen.",
+          "Microsoft Edge ist ein Webbrowser des Softwareherstellers Microsoft. Er wurde am 29. Juli 2015 mit Windows 10 veröffentlicht und hat dort den Internet Explorer als Standardbrowser ersetzt; der mittlerweile Chromium basierte Edge ist der vorinstallierte Standard-Browser in Windows 10 ab Version 20H2 und Windows 11, sowie durch automatische Updates vom April 2021 auch in früheren Windows-Versionen.",
       },
       {
         _key: "nl",
