@@ -1429,9 +1429,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "34Y33xNIw882ZVTaL0e30F",
+    _rev: "GEt6YOYighvevJoZRlKKJv",
     _type: "browser",
-    _updatedAt: "2024-02-12T03:21:15Z",
+    _updatedAt: "2024-04-24T03:22:22Z",
     description: [
       {
         _key: "en",
@@ -1855,7 +1855,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Firefox lag im Oktober 2023 mit einem Anteil von rund 3,1 Prozent an der weltweiten Internetnutzung auf Rang fünf der am meisten genutzten Webbrowser.",
+          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Die Marktanteile von Firefox sind seit ca. 2007 beständig gefallen; sie sanken von ehemals über 70 % auf etwa 2,9 % im Jahr 2024 weltweit.",
       },
       {
         _key: "nl",
