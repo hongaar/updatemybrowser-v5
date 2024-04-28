@@ -244,15 +244,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:50:30Z",
     _id: "2e7a7bed-6a90-4ffc-8230-32bd93fa28d9",
-    _rev: "PrR55A3MFxOhVMnn8IkGpn",
+    _rev: "bfKCGp6S2gDhqmie9y8Kfk",
     _type: "release",
-    _updatedAt: "2024-04-06T03:21:21Z",
+    _updatedAt: "2024-04-28T03:22:00Z",
     browser: {
       _ref: "e2ebb783-874b-497f-b90f-0d17956d8842",
       _type: "reference",
     },
     currentUsage: 4.798091,
-    currentVersion: "123",
+    currentVersion: "124",
     downloadUrl: "https://www.microsoft.com/edge/download",
     oses: [
       {
