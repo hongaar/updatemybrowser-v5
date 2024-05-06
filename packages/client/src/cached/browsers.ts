@@ -663,9 +663,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "ZZiJJd1zoc33D9f7kkpdMs",
+    _rev: "ZapHaXsgXfcxHEohGsJvAR",
     _type: "browser",
-    _updatedAt: "2023-11-30T03:21:47Z",
+    _updatedAt: "2024-05-02T03:26:44Z",
     description: [
       {
         _key: "en",
@@ -1003,7 +1003,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Samsung Internet Browser is a desktop and mobile web browser developed by Samsung Electronics, based on the open-source Chromium project. It comes pre-installed on Samsung Galaxy devices and, since 2015, has been available for download from Google Play for all Android devices. It is also available for their Tizen-based smartwatch via the Galaxy Store.",
+          "Samsung Internet Browser is a desktop and mobile web browser developed by Samsung Electronics, based on the open-source Chromium project. It comes pre-installed on Samsung Galaxy devices and, since 2015, has been available for download from Google Play for all Android devices.",
       },
       {
         _key: "ru",
