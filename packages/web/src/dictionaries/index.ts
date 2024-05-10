@@ -1,5 +1,6 @@
 import "server-only";
 
+import { notFound } from "next/navigation";
 import de from "./de";
 import en from "./en";
 import hi from "./hi";
@@ -20,7 +21,8 @@ const dictionaries = {
 
 export function getDictionary(language: string) {
   if (!(language in dictionaries)) {
-    throw new Error(`Language file for "${language}" not found`);
+    console.warn(`Language file for "${language}" not found`);
+    throw notFound();
   }
 
   return dictionaries[language as keyof typeof dictionaries];

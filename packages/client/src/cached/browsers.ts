@@ -663,9 +663,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "tdSEgP3G53V2majpbc8Obc",
+    _rev: "ZapHaXsgXfcxHEohGsJvAR",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:26:39Z",
+    _updatedAt: "2024-05-02T03:26:44Z",
     description: [
       {
         _key: "en",
@@ -1003,7 +1003,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Samsung Internet Browser is a mobile web browser developed by Samsung Electronics, based on the open-source Chromium project. It comes pre-installed on Samsung Galaxy devices and, since 2015, has been available for download from Google Play for all Android devices. It is also available for their Tizen-based smartwatch via the Galaxy Store.",
+          "Samsung Internet Browser is a desktop and mobile web browser developed by Samsung Electronics, based on the open-source Chromium project. It comes pre-installed on Samsung Galaxy devices and, since 2015, has been available for download from Google Play for all Android devices.",
       },
       {
         _key: "ru",
@@ -1051,9 +1051,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "tdSEgP3G53V2majpbc8OlA",
+    _rev: "b5wiIF0qXtJ7Kx3RnX5KVi",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:27:12Z",
+    _updatedAt: "2024-02-20T03:22:15Z",
     description: [
       {
         _key: "en",
@@ -1358,7 +1358,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Chromium is a free and open-source web browser project, primarily developed and maintained by Google. This codebase provides the vast majority of code for the Google Chrome browser, which is proprietary software and has some additional features. Chromium's logo is identical in shape to that of Google Chrome, but with blue colors instead of being multicolor.",
+          "Chromium is a free and open-source web browser project, primarily developed and maintained by Google. It is a widely-used codebase, providing the vast majority of code for Google Chrome and many other browsers, including Microsoft Edge, Samsung Internet, and Opera. The code is also used by several app frameworks.",
       },
       {
         _key: "ru",
@@ -1429,9 +1429,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "tdSEgP3G53V2majpbc8Opw",
+    _rev: "GEt6YOYighvevJoZRlKKJv",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:27:54Z",
+    _updatedAt: "2024-04-24T03:22:22Z",
     description: [
       {
         _key: "en",
@@ -1831,7 +1831,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          'Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. In November 2017, Firefox began incorporating new technology under the code name "Quantum" to promote parallelism and a more intuitive user interface. Firefox is available for Windows 10 or later versions, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, illumos, and Solaris Unix. It is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon\'s Silk Browser.',
+          "Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, illumos, and Solaris Unix. It is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
       },
       {
         _key: "sw",
@@ -1855,7 +1855,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Firefox lag im Juli 2023 mit einem Anteil von rund 2,8 Prozent an der weltweiten Internetnutzung auf Rang fünf der am meisten genutzten Webbrowser.",
+          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Die Marktanteile von Firefox sind seit ca. 2007 beständig gefallen; sie sanken von ehemals über 70 % auf etwa 2,9 % im Jahr 2024 weltweit.",
       },
       {
         _key: "nl",
@@ -2218,9 +2218,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "01fz37KtvhMj2e8zIIMSxG",
+    _rev: "GVHi05WSZKwfby06pvfgQi",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:28:53Z",
+    _updatedAt: "2024-02-17T03:21:33Z",
     description: [
       {
         _key: "en",
@@ -2488,13 +2488,13 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Internet Explorer is a retired since June 2022 series of graphical web browsers developed by Microsoft that were used in the Windows line of operating systems. While IE has been discontinued on most Windows editions, it remains supported on certain editions of Windows, such as Windows 10 LTSB/LTSC. Starting in 1995, it was first released as part of the add-on package Plus! for Windows 95 that year. Later versions were available as free downloads or in-service packs and included in the original equipment manufacturer (OEM) service releases of Windows 95 and later versions of Windows. Microsoft spent over US$100 million per year on Internet Explorer in the late 1990s, with over 1,000 people involved in the project by 1999. New feature development for the browser was discontinued in 2016 and ended support on June 15, 2022, in favor of its successor, Microsoft Edge.",
+          "Internet Explorer is a retired series of graphical web browsers developed by Microsoft that were used in the Windows line of operating systems. While IE has been discontinued on most Windows editions, it remains supported on certain editions of Windows, such as Windows 10 LTSB/LTSC. Starting in 1995, it was first released as part of the add-on package Plus! for Windows 95 that year. Later versions were available as free downloads or in-service packs and included in the original equipment manufacturer (OEM) service releases of Windows 95 and later versions of Windows. Microsoft spent over US$100 million per year on Internet Explorer in the late 1990s, with over 1,000 people involved in the project by 1999. New feature development for the browser was discontinued in 2016 and ended support on June 15, 2022 for Windows 10 Semi-Annual Channel (SAC), in favor of its successor, Microsoft Edge.",
       },
       {
         _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Internet Explorer — интернет-браузер, разрабатывавшийся корпорацией Microsoft с 1995 по 2016 год.",
+          "Internet Explorer — семейство интернет-браузеров, разрабатывавшихся корпорацией Microsoft с 1995 по 2016 год. Релиз первой версии браузера для Windows 95 в составе пакета Microsoft Plus! состоялся 24 августа 1995 года. Последняя стабильная версия браузера, одиннадцатая, вышла 17 октября 2013 года для Windows 8.1 и Windows Server 2012 R2. В основе Internet Explorer лежат браузерные движки Trident (MSHTML) для отображения веб-страниц и Chakra для обработки скриптов JavaScript, а сам браузер был создан на основе Spyglass Mosaic.",
       },
       {
         _key: "id",
@@ -2559,9 +2559,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "tdSEgP3G53V2majpbc8Rzg",
+    _rev: "LwxHAPD6C51sHXy2KuNDRb",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:32:03Z",
+    _updatedAt: "2024-02-07T03:21:44Z",
     description: [
       {
         _key: "en",
@@ -2959,7 +2959,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Safari is a web browser developed by Apple. It is built into Apple's operating systems, including macOS, iOS, iPadOS and their upcoming VisionOS, and uses Apple's open-source browser engine WebKit, which was derived from KHTML.",
+          "Safari is a web browser developed by Apple. It is built into Apple's operating systems, including macOS, iOS, iPadOS and visionOS, and uses Apple's open-source browser engine WebKit, which was derived from KHTML.",
       },
       {
         _key: "ru",
@@ -3030,9 +3030,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "Uckd0KyIppGAIvpptSbYsj",
+    _rev: "TFpAu2z0Fxg01Zw74ThFmE",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:30:05Z",
+    _updatedAt: "2024-01-12T03:22:09Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -3627,7 +3627,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, and also for Android, where it is the default browser. The browser is also the main component of ChromeOS, where it serves as the platform for web applications.",
+          "Google Chrome is a web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, and also for Android, where it is the default browser. The browser is also the main component of ChromeOS, where it serves as the platform for web applications.",
       },
       {
         _key: "sw",
@@ -3645,7 +3645,7 @@ export const browsers: Browser[] = [
         _key: "id",
         _type: "internationalizedArrayTextValue",
         value:
-          "Google Chrome adalah peramban web lintas platform yang dikembangkan oleh Google. Peramban ini pertama kali dirilis pada tahun 2008 untuk Microsoft Windows, kemudian diporting ke Android, iOS, Linux, dan macOS yang menjadikannya sebagai peramban bawaan dalam sistem operasi. Peramban ini juga merupakan komponen utama Chrome OS, yang berfungsi sebagai platform untuk aplikasi web Tube.instagram.com.",
+          "Google Chrome adalah peramban web lintas platform yang dikembangkan oleh Google. Peramban ini pertama kali dirilis pada tahun 2008 untuk Microsoft Windows, kemudian diporting ke Android, iOS, Linux, dan macOS yang menjadikannya sebagai peramban bawaan dalam sistem operasi. Peramban ini juga merupakan komponen utama Chrome OS, yang berfungsi sebagai platform untuk aplikasi web.",
       },
       {
         _key: "de",
@@ -3710,9 +3710,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "01fz37KtvhMj2e8zIIMUro",
+    _rev: "5TtKvOnsQT8Vn6WJ3JPh8j",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:30:31Z",
+    _updatedAt: "2024-02-19T03:21:26Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -4044,7 +4044,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge is a proprietary, cross-platform web browser created by Microsoft. It was first released in 2015 as part of Windows 10 and Xbox One. It was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it got ported to other platforms as a fork of Google's Chromium open-source project: Android and iOS. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines which allows the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser, The new Edge is also available on older Windows versions, And most recently it also got ported to Linux.",
+          "Microsoft Edge is a proprietary cross-platform web browser created by Microsoft. Released in 2015 as part of Windows 10 and Xbox One, it was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it was ported to Android and iOS as a fork of Google's Chromium open-source project. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines, which allowed the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser. Edge is also available on older Windows versions, as well as Linux.",
       },
       {
         _key: "ru",
@@ -4062,7 +4062,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge ist ein Webbrowser des Softwareherstellers Microsoft. Er wurde am 29. Juli 2015 mit Windows 10 veröffentlicht und hat dort den Internet Explorer als Standardbrowser ersetzt; der Chromium basierte Edge ist der vorinstallierte Standard-Browser in Windows 10 ab Version 20H2 und Windows 11, sowie durch automatische Updates vom April 2021 auch in früheren Windows-Versionen.",
+          "Microsoft Edge ist ein Webbrowser des Softwareherstellers Microsoft. Er wurde am 29. Juli 2015 mit Windows 10 veröffentlicht und hat dort den Internet Explorer als Standardbrowser ersetzt; der mittlerweile Chromium basierte Edge ist der vorinstallierte Standard-Browser in Windows 10 ab Version 20H2 und Windows 11, sowie durch automatische Updates vom April 2021 auch in früheren Windows-Versionen.",
       },
       {
         _key: "nl",
@@ -4074,7 +4074,7 @@ export const browsers: Browser[] = [
         _key: "hi",
         _type: "internationalizedArrayTextValue",
         value:
-          "माइक्रोसॉफ्ट ने अपने नए वेब ब्राउजर का नाम एज रखा है। माइक्रोसॉफ्ट एज' एक मालिकाना, क्रॉस-प्लेटफॉर्म वेब ब्राउज़र द्वारा बनाया गया है माइक्रोसॉफ्ट। इसे पहली बार 2015 में विंडोज 10 और एक्सबॉक्स वन के हिस्से के रूप में जारी किया गया था और बाद में पोर्टेड को Google के क्रोमियम ओपन-सोर्स प्रोजेक्ट: एंड्रॉइड और आईओएस",
+          'माइक्रोसॉफ्ट ने अपने नए वेब ब्राउजर का नाम एज रखा है। माइक्रोसॉफ्ट एज "(या बस एज)" एक मालिकाना, क्रॉस-प्लेटफॉर्म वेब ब्राउज़र द्वारा बनाया गया है माइक्रोसॉफ्ट। इसे पहली बार 2015 में विंडोज 10 और एक्सबॉक्स वन के हिस्से के रूप में जारी किया गया था और बाद में पोर्टेड को Google के क्रोमियम ओपन-सोर्स प्रोजेक्ट: एंड्रॉइड और आईओएस',
       },
     ],
     vendor: "Microsoft",
@@ -4115,9 +4115,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:50:38Z",
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "01fz37KtvhMj2e8zIIMUyv",
+    _rev: "emBvI4m5emNGezC8UZEyUD",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:31:08Z",
+    _updatedAt: "2023-12-19T03:22:19Z",
     description: [
       {
         _key: "en",
@@ -4626,7 +4626,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Vivaldi ( ) is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies, a company founded by Tatsuki Tomita and Jon Stephenson von Tetzchner, who was the co-founder and CEO of Opera Software. Vivaldi was initially released on 27 January 2015.",
+          "Vivaldi is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies, a company founded by Tatsuki Tomita and Jon Stephenson von Tetzchner, who was the co-founder and CEO of Opera Software. Vivaldi was initially released on 27 January 2015.",
       },
       {
         _key: "ru",
