@@ -26,7 +26,7 @@
     "@updatemybrowser/client": "workspace:*",
     "@updatemybrowser/core": "workspace:*",
     "@updatemybrowser/web": "workspace:*",
-    "bandersnatch": "1.12.12",
+    "bandersnatch": "1.12.13",
     "cross-fetch": "4.0.0",
     "openai": "4.19.0"
   },
