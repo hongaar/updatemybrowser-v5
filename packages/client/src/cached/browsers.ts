@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "Uckd0KyIppGAIvpptSbXWz",
+    _rev: "vNQ3iIh1qby6C00Wz3V8rf",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:26:20Z",
+    _updatedAt: "2024-05-09T03:22:44Z",
     description: [
       {
         _key: "en",
@@ -580,7 +580,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. There are also mobile versions called Opera Mobile and Opera Mini. Opera users also have access to Opera News, a news app based on an AI platform.",
+          "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. There are also mobile versions called Opera Mobile and Opera Mini. Opera includes a feature called Opera News, which is a news aggregator app that utilizes AI technology.",
       },
       {
         _key: "sw",
@@ -1914,9 +1914,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "01fz37KtvhMj2e8zIIMSj2",
+    _rev: "WaF2YaeZ40ONlVy04tcPOK",
     _type: "browser",
-    _updatedAt: "2023-11-19T01:28:29Z",
+    _updatedAt: "2024-05-09T03:22:46Z",
     description: [
       {
         _key: "en",
@@ -2145,7 +2145,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser. Brave is a privacy-focused browser, which automatically blocks most advertisements and website trackers in its default settings. Users can turn on optional ads that reward them for their attention in the form of Basic Attention Tokens (BAT), which can be used as a cryptocurrency or to make payments to registered websites and content creators.",
+          "Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser. Brave is a privacy-focused browser, which automatically blocks most advertisements and website trackers in its default settings. Users can turn on optional ads that reward them for their attention in the form of Basic Attention Tokens (BAT), which can be used as a cryptocurrency or to make donations to registered websites and content creators.",
       },
       {
         _key: "ru",
