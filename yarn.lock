@@ -4072,12 +4072,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.2.15":
-  version: 18.2.15
-  resolution: "@types/react-dom@npm:18.2.15"
+"@types/react-dom@npm:18.3.0":
+  version: 18.3.0
+  resolution: "@types/react-dom@npm:18.3.0"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 57ea7e9e210d95fa18fde82fc585cb6252c9118c8793a38b37b07ccbba05d09d14f88cf76af46eecda41c430b4400f789a4bbc505eec459a15cbaf13f56f887a
+  checksum: 6ff53f5a7b7fba952a68e114d3b542ebdc1e87a794234785ebab0bcd9bde7fb4885f21ebaf93d26dc0a1b5b93287f42cad68b78ae04dddf6b20da7aceff0beaf
   languageName: node
   linkType: hard
 
@@ -4570,7 +4570,7 @@ __metadata:
     eslint: "npm:8.54.0"
     prettier: "npm:3.1.0"
     react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
+    react-dom: "npm:18.3.1"
     react-is: "npm:18.2.0"
     remove: "npm:0.1.5"
     sanity: "npm:3.20.0"
@@ -4612,7 +4612,7 @@ __metadata:
     "@types/negotiator": "npm:0.6.3"
     "@types/node": "npm:20.9.2"
     "@types/react": "npm:18.2.37"
-    "@types/react-dom": "npm:18.2.15"
+    "@types/react-dom": "npm:18.3.0"
     "@types/sprintf-js": "npm:^1.1.4"
     "@updatemybrowser/client": "workspace:*"
     "@updatemybrowser/core": "workspace:*"
@@ -4631,7 +4631,7 @@ __metadata:
     postcss-load-config: "npm:4.0.2"
     postcss-preset-env: "npm:9.3.0"
     react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
+    react-dom: "npm:18.3.1"
     react-photo-album: "npm:2.3.0"
     sass: "npm:1.69.5"
     sprintf-js: "npm:1.1.3"
@@ -12489,15 +12489,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0":
-  version: 18.2.0
-  resolution: "react-dom@npm:18.2.0"
+"react-dom@npm:18.3.1":
+  version: 18.3.1
+  resolution: "react-dom@npm:18.3.1"
   dependencies:
     loose-envify: "npm:^1.1.0"
-    scheduler: "npm:^0.23.0"
+    scheduler: "npm:^0.23.2"
   peerDependencies:
-    react: ^18.2.0
-  checksum: ca5e7762ec8c17a472a3605b6f111895c9f87ac7d43a610ab7024f68cd833d08eda0625ce02ec7178cc1f3c957cf0b9273cdc17aa2cd02da87544331c43b1d21
+    react: ^18.3.1
+  checksum: 3f4b73a3aa083091173b29812b10394dd06f4ac06aff410b74702cfb3aa29d7b0ced208aab92d5272919b612e5cda21aeb1d54191848cf6e46e9e354f3541f81
   languageName: node
   linkType: hard
 
@@ -13526,12 +13526,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.23.0":
-  version: 0.23.0
-  resolution: "scheduler@npm:0.23.0"
+"scheduler@npm:^0.23.2":
+  version: 0.23.2
+  resolution: "scheduler@npm:0.23.2"
   dependencies:
     loose-envify: "npm:^1.1.0"
-  checksum: 0c4557aa37bafca44ff21dc0ea7c92e2dbcb298bc62eae92b29a39b029134f02fb23917d6ebc8b1fa536b4184934314c20d8864d156a9f6357f3398aaf7bfda8
+  checksum: e8d68b89d18d5b028223edf090092846868a765a591944760942b77ea1f69b17235f7e956696efbb62c8130ab90af7e0949bfb8eba7896335507317236966bc9
   languageName: node
   linkType: hard
 
