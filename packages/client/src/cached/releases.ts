@@ -62,14 +62,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-23T06:52:17Z",
     _id: "df47bd5d-957d-470f-b972-dc79e44b6ec3",
-    _rev: "AiyotmlqT7Q3DfBprehxV4",
+    _rev: "RNJ7rFnL4N5nu3ANv8XMiT",
     _type: "release",
-    _updatedAt: "2024-04-18T03:21:16Z",
+    _updatedAt: "2024-05-17T03:22:32Z",
     browser: {
       _ref: "278c02c3-76d4-4011-a543-39ca003ff1ee",
       _type: "reference",
     },
-    currentVersion: "124",
+    currentVersion: "125",
     downloadUrl: "https://www.chromium.org/getting-involved/download-chromium/",
     oses: [
       {
@@ -103,14 +103,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-14T02:45:47Z",
     _id: "f3feab0b-20a2-4397-9458-bf579d5fd7ea",
-    _rev: "nY4qhde6Z3F05Qlpch3h4U",
+    _rev: "RNJ7rFnL4N5nu3ANv8XOCD",
     _type: "release",
-    _updatedAt: "2024-04-18T03:21:17Z",
+    _updatedAt: "2024-05-17T03:22:33Z",
     browser: {
       _ref: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
       _type: "reference",
     },
-    currentVersion: "124",
+    currentVersion: "125",
     downloadUrl: "https://brave.com/download",
     oses: [
       {
@@ -168,15 +168,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-05T15:07:57Z",
     _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
-    _rev: "nqm89doswLx3RkcmKpYVnk",
+    _rev: "RNJ7rFnL4N5nu3ANv8XOMP",
     _type: "release",
-    _updatedAt: "2024-05-05T03:21:51Z",
+    _updatedAt: "2024-05-17T03:22:34Z",
     browser: {
       _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
       _type: "reference",
     },
     currentUsage: 23.60678,
-    currentVersion: "124",
+    currentVersion: "125",
     downloadUrl: "https://www.google.com/chrome/",
     oses: [
       {
@@ -311,15 +311,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:54Z",
     _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _rev: "nqm89doswLx3RkcmKpYVxk",
+    _rev: "RNJ7rFnL4N5nu3ANv4YGTF",
     _type: "release",
-    _updatedAt: "2024-05-05T03:21:53Z",
+    _updatedAt: "2024-05-15T03:24:22Z",
     browser: {
       _ref: "c384ba9c-d502-4946-99a2-734b295088aa",
       _type: "reference",
     },
     currentUsage: 3.1649830000000003,
-    currentVersion: "17.4",
+    currentVersion: "17.5",
     downloadUrl: "https://support.apple.com/downloads/safari",
     oses: [
       {
@@ -389,15 +389,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-08T06:17:00Z",
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _rev: "nqm89doswLx3RkcmKpYW7k",
+    _rev: "RNJ7rFnL4N5nu3ANv8XOWb",
     _type: "release",
-    _updatedAt: "2024-05-05T03:21:55Z",
+    _updatedAt: "2024-05-17T03:22:35Z",
     browser: {
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
     currentUsage: 2.481284,
-    currentVersion: "125",
+    currentVersion: "126",
     downloadUrl: "https://www.mozilla.org/firefox/all",
     oses: [
       {
