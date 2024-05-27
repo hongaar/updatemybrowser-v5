@@ -4632,7 +4632,7 @@ __metadata:
     postcss-preset-env: "npm:9.3.0"
     react: "npm:18.2.0"
     react-dom: "npm:18.2.0"
-    react-photo-album: "npm:2.3.0"
+    react-photo-album: "npm:2.4.0"
     sass: "npm:1.69.5"
     sprintf-js: "npm:1.1.3"
     typescript: "npm:5.3.2"
@@ -12592,12 +12592,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-photo-album@npm:2.3.0":
-  version: 2.3.0
-  resolution: "react-photo-album@npm:2.3.0"
+"react-photo-album@npm:2.4.0":
+  version: 2.4.0
+  resolution: "react-photo-album@npm:2.4.0"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: c19228b5be0ff8bc104cb45617bb74215123a48293972222f8f8edaec16fdbfd3a9fd9647377deaac36ec7064baeb413d1b6781e33a7e3f070f89b7636c5062f
+  checksum: c915438c09bdf8241c2249f157bcaed2c2a9410f41b9e70bb0084afa6c6e6a402e89f2376fc8ec27f0ba355e53281bfaf3dde4b420f4ee4e8e1227f0d9b67e3f
   languageName: node
   linkType: hard
 
