@@ -168,14 +168,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-05T15:07:57Z",
     _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
-    _rev: "RNJ7rFnL4N5nu3ANv8XOMP",
+    _rev: "XMUpj6uMpx9MP0ICEAZQNI",
     _type: "release",
-    _updatedAt: "2024-05-17T03:22:34Z",
+    _updatedAt: "2024-06-06T03:24:09Z",
     browser: {
       _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
       _type: "reference",
     },
-    currentUsage: 23.60678,
+    currentUsage: 23.133895,
     currentVersion: "125",
     downloadUrl: "https://www.google.com/chrome/",
     oses: [
@@ -244,14 +244,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:50:30Z",
     _id: "2e7a7bed-6a90-4ffc-8230-32bd93fa28d9",
-    _rev: "RNJ7rFnL4N5nu3ANvHMmi9",
+    _rev: "MmiyDT2HP5bex1uTLA9suk",
     _type: "release",
-    _updatedAt: "2024-05-22T03:23:50Z",
+    _updatedAt: "2024-06-06T03:24:10Z",
     browser: {
       _ref: "e2ebb783-874b-497f-b90f-0d17956d8842",
       _type: "reference",
     },
-    currentUsage: 4.989458,
+    currentUsage: 4.9810550000000005,
     currentVersion: "125",
     downloadUrl: "https://www.microsoft.com/edge/download",
     oses: [
@@ -311,14 +311,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:54Z",
     _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _rev: "RNJ7rFnL4N5nu3ANv4YGTF",
+    _rev: "MmiyDT2HP5bex1uTLA9svq",
     _type: "release",
-    _updatedAt: "2024-05-15T03:24:22Z",
+    _updatedAt: "2024-06-06T03:24:11Z",
     browser: {
       _ref: "c384ba9c-d502-4946-99a2-734b295088aa",
       _type: "reference",
     },
-    currentUsage: 3.1649830000000003,
+    currentUsage: 3.25889,
     currentVersion: "17.5",
     downloadUrl: "https://support.apple.com/downloads/safari",
     oses: [
@@ -353,15 +353,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-18T15:25:24Z",
     _id: "fb782fe5-1a48-46a0-ac53-2388dd571903",
-    _rev: "nqm89doswLx3RkcmKpYW2k",
+    _rev: "e25y5mmqfS95LmlY7GneG8",
     _type: "release",
-    _updatedAt: "2024-05-05T03:21:54Z",
+    _updatedAt: "2024-06-06T03:24:12Z",
     browser: {
       _ref: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
       _type: "reference",
     },
-    currentUsage: 2.532324,
-    currentVersion: "24",
+    currentUsage: 2.7345992,
+    currentVersion: "25",
     downloadUrl:
       "https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en",
     oses: [
@@ -389,14 +389,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-08T06:17:00Z",
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _rev: "RNJ7rFnL4N5nu3ANv8XOWb",
+    _rev: "MmiyDT2HP5bex1uTLA9sww",
     _type: "release",
-    _updatedAt: "2024-05-17T03:22:35Z",
+    _updatedAt: "2024-06-06T03:24:13Z",
     browser: {
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
-    currentUsage: 2.481284,
+    currentUsage: 2.3959050000000004,
     currentVersion: "126",
     downloadUrl: "https://www.mozilla.org/firefox/all",
     oses: [
@@ -454,15 +454,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:48:43Z",
     _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _rev: "nqm89doswLx3RkcmKpYWCk",
+    _rev: "e25y5mmqfS95LmlY7GneIo",
     _type: "release",
-    _updatedAt: "2024-05-05T03:21:56Z",
+    _updatedAt: "2024-06-06T03:24:14Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
-    currentUsage: 1.083162,
-    currentVersion: "109",
+    currentUsage: 1.12036,
+    currentVersion: "110",
     downloadUrl: "https://www.opera.com/download",
     oses: [
       {
@@ -529,14 +529,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:20Z",
     _id: "9f482aff-b73c-45bb-bf10-a4ea19668029",
-    _rev: "nqm89doswLx3RkcmKpYWHk",
+    _rev: "e25y5mmqfS95LmlY7GneLU",
     _type: "release",
-    _updatedAt: "2024-05-05T03:21:57Z",
+    _updatedAt: "2024-06-06T03:24:16Z",
     browser: {
       _ref: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
       _type: "reference",
     },
-    currentUsage: 0.6337649,
+    currentUsage: 0.6245254,
     currentVersion: "11",
     downloadUrl: "https://www.microsoft.com/download/internet-explorer",
     oses: [
