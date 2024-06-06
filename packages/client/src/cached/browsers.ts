@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "yzQdEE8FG6EhdQ4GQAQ7Cn",
+    _rev: "JgAbSzFX49hN3KhaWexFHc",
     _type: "browser",
-    _updatedAt: "2024-05-29T03:23:13Z",
+    _updatedAt: "2024-06-02T03:23:12Z",
     description: [
       {
         _key: "en",
