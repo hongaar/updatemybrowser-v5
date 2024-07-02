@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "JgAbSzFX49hN3KhaWexFHc",
+    _rev: "7m57Q6fdz1iCK3iLAfnDWT",
     _type: "browser",
-    _updatedAt: "2024-06-02T03:23:12Z",
+    _updatedAt: "2024-06-17T03:24:09Z",
     description: [
       {
         _key: "en",
@@ -580,7 +580,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. Two mobile versions also exist, called Opera Mobile and Opera Mini. Opera also has a news aggregator app called Opera News with an AI search-engine.",
+          "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. Two mobile versions are still active, called Opera Mobile and Opera Mini. Opera also has a news aggregator app called Opera News with an AI search-engine.",
       },
       {
         _key: "sw",
@@ -1429,9 +1429,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "WNQmFBlGCPyJ3xSXKi1fPJ",
+    _rev: "w5UJQ7BTdCZRgkQfONNOHE",
     _type: "browser",
-    _updatedAt: "2024-06-08T03:22:57Z",
+    _updatedAt: "2024-06-19T03:23:33Z",
     description: [
       {
         _key: "en",
@@ -1843,7 +1843,7 @@ export const browsers: Browser[] = [
         _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox — свободный браузер на движке Quantum, разработкой и распространением которого занимается Mozilla Corporation. Четвёртый по популярности браузер в мире и первый среди свободного ПО — в марте 2021 года его рыночная доля составила ▼7,49 %.\nВ России Firefox занимает четвёртое место по популярности среди браузеров для ПК с долей 5,26 % пользователей на март 2021 года.",
+          "Mozilla Firefox — свободный браузер на движке Gecko, разработкой и распространением которого занимается Mozilla Corporation. Четвёртый по популярности браузер в мире и первый среди свободного ПО — в марте 2021 года его рыночная доля составила ▼7,49 %.\nВ России Firefox занимает четвёртое место по популярности среди браузеров для ПК с долей 5,26 % пользователей на март 2021 года.",
       },
       {
         _key: "id",
@@ -1914,9 +1914,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "WaF2YaeZ40ONlVy04tcPOK",
+    _rev: "YAnYLbxGnGbBxmCt6NxW80",
     _type: "browser",
-    _updatedAt: "2024-05-09T03:22:46Z",
+    _updatedAt: "2024-06-24T03:23:36Z",
     description: [
       {
         _key: "en",
@@ -2186,15 +2186,9 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Brave_(web_browser)",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value:
-          "https://ru.wikipedia.org/wiki/Brave_(%D0%B2%D0%B5%D0%B1-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80)",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Brave_(peramban_web)",
+        value: "https://nl.wikipedia.org/wiki/Brave_(webbrowser)",
       },
       {
         _key: "de",
@@ -2202,15 +2196,21 @@ export const browsers: Browser[] = [
         value: "https://de.wikipedia.org/wiki/Brave_(Browser)",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Brave_(webbrowser)",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayUrlValue",
         value:
           "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%B5_(%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%89%E0%A4%9C%E0%A4%B0)",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Brave_(peramban_web)",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayUrlValue",
+        value:
+          "https://ru.wikipedia.org/wiki/Brave_(%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80)",
       },
     ],
     youtubeId: "fiXaHv_9rmQ",
@@ -2559,9 +2559,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "LwxHAPD6C51sHXy2KuNDRb",
+    _rev: "ntfsbRZXOqxGU4eVoKBrs1",
     _type: "browser",
-    _updatedAt: "2024-02-07T03:21:44Z",
+    _updatedAt: "2024-06-23T03:22:59Z",
     description: [
       {
         _key: "en",
@@ -2977,7 +2977,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS ab der Version Mac OS X Panther (2003) sowie von iOS und iPadOS und ersetzte den vorher mitgelieferten Microsoft Internet Explorer für Mac als Standard-Browser.",
+          "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS ab der Version Mac OS X Panther (2003) sowie von iOS und iPadOS und ersetzte den vorher mitgelieferten Microsoft Internet Explorer für Mac als Standard-Browser. Safari verwendet Apples Open-Source-Browser-Engine WebKit.",
       },
       {
         _key: "nl",
@@ -3710,9 +3710,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "5TtKvOnsQT8Vn6WJ3JPh8j",
+    _rev: "6z08CvvPnPe5pWSKJ5T12x",
     _type: "browser",
-    _updatedAt: "2024-02-19T03:21:26Z",
+    _updatedAt: "2024-07-02T03:23:20Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -4044,7 +4044,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge is a proprietary cross-platform web browser created by Microsoft. Released in 2015 as part of Windows 10 and Xbox One, it was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it was ported to Android and iOS as a fork of Google's Chromium open-source project. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines, which allowed the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser. Edge is also available on older Windows versions, as well as Linux.",
+          "Microsoft Edge is a proprietary cross-platform web browser created by Microsoft. Released in 2015 as part of Windows 10 and Xbox One, it was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it was ported to Android and iOS as a fork of Google's Chromium open-source project. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines, which allowed the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser. Edge is also available on older Windows versions until early 2023, as well as Linux.",
       },
       {
         _key: "ru",
