@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "JgAbSzFX49hN3KhaWexFHc",
+    _rev: "C06C2hq1zDEAdut7UOAcTh",
     _type: "browser",
-    _updatedAt: "2024-06-02T03:23:12Z",
+    _updatedAt: "2024-09-13T03:24:10Z",
     description: [
       {
         _key: "en",
@@ -580,7 +580,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. Two mobile versions also exist, called Opera Mobile and Opera Mini. Opera also has a news aggregator app called Opera News with an AI search-engine.",
+          "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. Two mobile versions are still active, called Opera Mobile and Opera Mini. Opera also has a news aggregator app called Opera News with Aria, a AI-search engine..",
       },
       {
         _key: "sw",
@@ -598,13 +598,13 @@ export const browsers: Browser[] = [
         _key: "id",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera adalah peramban web dan paket perangkat lunak Internet antar-platform. Opera terdiri dari kumpulan perangkat lunak untuk Internet seperti peramban web, serta perangkat lunak untuk membaca dan mengirim surat elektronik. Opera dibuat oleh Opera Software yang bermarkas di Oslo, Norwegia. Opera dapat dijalankan di berbagai sistem operasi, termasuk Microsoft Windows, Mac OS X, Solaris, FreeBSD dan Linux.",
+          "Opera adalah peramban web dan paket perangkat lunak Internet lintas platform. Opera terdiri dari kumpulan perangkat lunak untuk Internet seperti peramban web, serta perangkat lunak untuk membaca dan mengirim surat elektronik. Opera dibuat oleh Opera Software yang bermarkas di Oslo, Norwegia. Opera dapat dijalankan di berbagai sistem operasi, termasuk Microsoft Windows, Mac OS, Solaris, FreeBSD dan Linux.",
       },
       {
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera ist ein kostenloser proprietärer Webbrowser. Er basierte bis einschließlich Version 12.18 auf einem eigenen HTML-Renderer. Seit der 2013 freigegebenen Version 15 nutzt er den Renderer der jeweils aktuellen Version des Webbrowsers Chromium. Opera ist für viele Plattformen verfügbar. Alleiniger Entwickler der geschlossenen Softwarekomponenten ist das ehemals norwegische Unternehmen Opera Software, das sich auch an der Fortentwicklung der quelloffenen Rendering-Engine beteiligt.",
+          "Opera ist ein kostenloser proprietärer Webbrowser. Er basierte bis einschließlich Version 12.18 auf einem eigenen HTML-Renderer. Seit der 2013 freigegebenen Version 15 nutzt er den Renderer der jeweils aktuellen Version des Webbrowsers Chromium. Opera ist für viele Plattformen verfügbar. Alleiniger Entwickler der geschlossenen Softwarekomponenten ist das norwegische Unternehmen Opera Software, das sich auch an der Fortentwicklung der quelloffenen Rendering-Engine beteiligt. Opera Software wurde 1995 in Norwegen von dem Isländer Jon Stephenson von Tetzchner und Geir Ivarsøy gegründet.",
       },
       {
         _key: "nl",
@@ -663,9 +663,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "ZapHaXsgXfcxHEohGsJvAR",
+    _rev: "nq8iJzUmQt5b8dopONr5T0",
     _type: "browser",
-    _updatedAt: "2024-05-02T03:26:44Z",
+    _updatedAt: "2024-09-14T03:24:05Z",
     description: [
       {
         _key: "en",
@@ -1003,7 +1003,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Samsung Internet Browser is a desktop and mobile web browser developed by Samsung Electronics, based on the open-source Chromium project. It comes pre-installed on Samsung Galaxy devices and, since 2015, has been available for download from Google Play for all Android devices.",
+          "The Samsung Internet Browser is a web browser developed by Samsung Electronics It was first released in 2012 as a basic mobile browser on Samsung Galaxy devices. Now, it is a feature-rich application that is available on Android and was available on Windows.",
       },
       {
         _key: "ru",
@@ -1051,9 +1051,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "b5wiIF0qXtJ7Kx3RnX5KVi",
+    _rev: "1NrZQZpU6ImU70ocsSnkrx",
     _type: "browser",
-    _updatedAt: "2024-02-20T03:22:15Z",
+    _updatedAt: "2024-09-07T03:24:06Z",
     description: [
       {
         _key: "en",
@@ -1376,7 +1376,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Unter dem Namen Chromium wird der Großteil des Quelltextes des Webbrowsers Google Chrome unter der BSD-Lizenz als Open-Source-Projekt zur Verfügung gestellt. Das Projekt wurde am 2. September 2008 gestartet. Viele weitere Browser basieren auf der Code-Basis von Chromium, darunter Microsoft Edge, Opera, Vivaldi und Brave.",
+          "Unter dem Namen Chromium wird der Großteil des Quelltextes des Webbrowsers Google Chrome unter der BSD-Lizenz als freie Software zur Verfügung gestellt. Das Projekt wurde am 2. September 2008 gestartet. Viele weitere Browser basieren auf der Code-Basis von Chromium, darunter Microsoft Edge, Opera, Vivaldi und Brave.",
       },
       {
         _key: "nl",
@@ -1429,9 +1429,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "WNQmFBlGCPyJ3xSXKi1fPJ",
+    _rev: "1NrZQZpU6ImU70ocsVCSzR",
     _type: "browser",
-    _updatedAt: "2024-06-08T03:22:57Z",
+    _updatedAt: "2024-09-11T03:24:13Z",
     description: [
       {
         _key: "en",
@@ -1831,7 +1831,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other platforms. It is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
+          "Mozilla Firefox, or simply Firefox, is a free and open source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 and later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other platforms. It is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
       },
       {
         _key: "sw",
@@ -1843,7 +1843,7 @@ export const browsers: Browser[] = [
         _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox — свободный браузер на движке Quantum, разработкой и распространением которого занимается Mozilla Corporation. Четвёртый по популярности браузер в мире и первый среди свободного ПО — в марте 2021 года его рыночная доля составила ▼7,49 %.\nВ России Firefox занимает четвёртое место по популярности среди браузеров для ПК с долей 5,26 % пользователей на март 2021 года.",
+          "Mozilla Firefox — свободный браузер на движке Gecko, разработкой и распространением которого занимается Mozilla Corporation. Четвёртый по популярности браузер в мире и первый среди свободного ПО — в марте 2021 года его рыночная доля составила ▼7,49 %.\nВ России Firefox занимает четвёртое место по популярности среди браузеров для ПК с долей 5,26 % пользователей на март 2021 года.",
       },
       {
         _key: "id",
@@ -1914,9 +1914,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "WaF2YaeZ40ONlVy04tcPOK",
+    _rev: "gALCA3HubPkInWqqIE0W5Z",
     _type: "browser",
-    _updatedAt: "2024-05-09T03:22:46Z",
+    _updatedAt: "2024-08-14T03:24:19Z",
     description: [
       {
         _key: "en",
@@ -2148,34 +2148,34 @@ export const browsers: Browser[] = [
           "Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser. Brave is a privacy-focused browser, which automatically blocks most advertisements and website trackers in its default settings. Users can turn on optional ads that reward them for their attention in the form of Basic Attention Tokens (BAT), which can be used as a cryptocurrency or to make donations to registered websites and content creators.",
       },
       {
-        _key: "ru",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Brave — веб-браузер со свободным и открытым исходным кодом на основе веб-браузера Chromium на движке Blink, анонсированный соучредителем корпорации Mozilla Project и создателем JavaScript Бренданом Эйхом. Создатели утверждают, что Brave блокирует трекеры сайтов и удаляет навязчивую интернет-рекламу, повышает уровень приватности в интернете и уменьшает количество передаваемых о потребителях рекламы данных. По данным на 2021-й год, стабильный релиз доступен для iOS, Android, Windows, macOS и Linux.",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Brave adalah peramban web gratis dan sumber terbuka berbasis Chromium, yang dikembangkan oleh Brave Software Inc.. Brave adalah peramban yang berfokus pada privasi yang berbeda dengan peramban lain yaitu dengan memblokir iklan daring dan pelacak situs web secara baku. Peramban ini juga menyediakan cara untuk menyalakan iklan opsional yang memberikan imbalan kepada pengguna untuk perhatiannya dalam bentuk mata uang kripto Basic Attention Token (BAT). Pengguna dapat mengirimkan kontribusi mereka kepada berbagai situs web dan pembuat konten, dan juga menyimpan token yang didapat.",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Brave ist ein quelloffener Webbrowser für die Betriebssysteme Windows, macOS, Linux, Android und für Apple iOS. Initiator und Projektleiter ist Brendan Eich.",
-      },
-      {
         _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
           "Brave is een opensource-webbrowser van Brave Software Inc. Brave is beschikbaar voor Microsoft Windows, macOS, iOS, Linux en Android. De op Chromium gebaseerde browser blokkeert automatisch trackers en advertenties, waarmee er een grote focus op privacy ligt.",
       },
       {
+        _key: "de",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Brave ist ein Open-Source-Webbrowser für die gängigen Betriebssystemen, der auf Chromium basiert. Das 2015 gegründete US-amerikanische Unternehmen Brave Software Inc. dahinter wird von Brendan Eich geleitet.",
+      },
+      {
         _key: "hi",
         _type: "internationalizedArrayTextValue",
         value:
           "ब्रेव (Brave), क्रोमियम वेब ब्राउज़र पर आधारित एक स्वतंत्र और ओपन-सोर्स वेब ब्राउज़र है। इसका विकास ब्रेव सॉफ्टवेयर इन्क. द्वारा किया गया है। यह विज्ञापनों और वेबसाइट ट्रैकर्स को ब्लॉक करता है, और उपयोगकर्ताओं को वेबसाइटों और सामग्री रचनाकारों को बेसिक अटेंशन टोकन के रूप में क्रिप्टोक्यूरेंसी योगदान भेजने का एक तरीका प्रदान करता है।",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Brave adalah peramban web gratis dan sumber terbuka berbasis Chromium, yang dikembangkan oleh Brave Software Inc.. Brave adalah peramban yang berfokus pada privasi, yang salah satunya, dengan memblokir iklan daring dan pelacak situs web secara baku. Peramban ini juga menyediakan cara untuk menyalakan iklan opsional yang memberikan imbalan kepada pengguna untuk perhatiannya dalam bentuk mata uang kripto Basic Attention Token (BAT). Pengguna dapat mengirimkan kontribusi mereka kepada berbagai situs web dan pembuat konten, dan juga menyimpan token yang didapat.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Brave — веб-браузер со свободным и открытым исходным кодом на основе веб-браузера Chromium на движке Blink, анонсированный соучредителем корпорации Mozilla Project и создателем JavaScript Бренданом Эйхом. Создатели утверждают, что Brave блокирует трекеры сайтов и удаляет навязчивую интернет-рекламу, повышает уровень приватности в интернете и уменьшает количество передаваемых о потребителях рекламы данных. По данным на 2021-й год, стабильный релиз доступен для iOS, Android, Windows, macOS и Linux.",
       },
     ],
     vendor: "Brave Software",
@@ -2186,15 +2186,9 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Brave_(web_browser)",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value:
-          "https://ru.wikipedia.org/wiki/Brave_(%D0%B2%D0%B5%D0%B1-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80)",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Brave_(peramban_web)",
+        value: "https://nl.wikipedia.org/wiki/Brave_(webbrowser)",
       },
       {
         _key: "de",
@@ -2202,15 +2196,21 @@ export const browsers: Browser[] = [
         value: "https://de.wikipedia.org/wiki/Brave_(Browser)",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Brave_(webbrowser)",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayUrlValue",
         value:
           "https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%B5_(%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%89%E0%A4%9C%E0%A4%B0)",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Brave_(peramban_web)",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayUrlValue",
+        value:
+          "https://ru.wikipedia.org/wiki/Brave_(%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80)",
       },
     ],
     youtubeId: "fiXaHv_9rmQ",
@@ -2559,9 +2559,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "LwxHAPD6C51sHXy2KuNDRb",
+    _rev: "ntfsbRZXOqxGU4eVoKBrs1",
     _type: "browser",
-    _updatedAt: "2024-02-07T03:21:44Z",
+    _updatedAt: "2024-06-23T03:22:59Z",
     description: [
       {
         _key: "en",
@@ -2977,7 +2977,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS ab der Version Mac OS X Panther (2003) sowie von iOS und iPadOS und ersetzte den vorher mitgelieferten Microsoft Internet Explorer für Mac als Standard-Browser.",
+          "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS ab der Version Mac OS X Panther (2003) sowie von iOS und iPadOS und ersetzte den vorher mitgelieferten Microsoft Internet Explorer für Mac als Standard-Browser. Safari verwendet Apples Open-Source-Browser-Engine WebKit.",
       },
       {
         _key: "nl",
@@ -3030,9 +3030,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "TFpAu2z0Fxg01Zw74ThFmE",
+    _rev: "Oy94vU2jFurlBL0rmBq7PD",
     _type: "browser",
-    _updatedAt: "2024-01-12T03:22:09Z",
+    _updatedAt: "2024-08-03T03:23:26Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -3639,7 +3639,7 @@ export const browsers: Browser[] = [
         _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Google Chrome — браузер, разрабатываемый компанией Google на основе свободного браузера Chromium и движка Blink. Первая публичная бета-версия для Windows вышла 2 сентября 2008 года, а первая стабильная — 11 декабря 2008 года. По данным StatCounter, рыночная доля Chrome на август 2022 года составляет ▲65,12 %.",
+          "Google Chrome — браузер, разрабатываемый компанией Google на основе свободного браузера Chromium и движка Blink. Первая публичная бета-версия для Windows вышла 2 сентября 2008 года, а первая стабильная — 11 декабря 2008 года. По данным StatCounter, рыночная доля Chrome на июль 2024 года составляет ▲65,69 %.",
       },
       {
         _key: "id",
@@ -3710,9 +3710,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "5TtKvOnsQT8Vn6WJ3JPh8j",
+    _rev: "Oy94vU2jFurlBL0rmCR1Pd",
     _type: "browser",
-    _updatedAt: "2024-02-19T03:21:26Z",
+    _updatedAt: "2024-08-04T03:23:47Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -4044,7 +4044,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge is a proprietary cross-platform web browser created by Microsoft. Released in 2015 as part of Windows 10 and Xbox One, it was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it was ported to Android and iOS as a fork of Google's Chromium open-source project. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines, which allowed the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser. Edge is also available on older Windows versions, as well as Linux.",
+          "Microsoft Edge is a proprietary cross-platform web browser created by Microsoft. Released in 2015 along with both Windows 10 and Xbox One, it was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it was ported to Android and iOS as a fork of Google's Chromium open-source project. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines, which allowed the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser. Edge is also available on older Windows versions until early 2023, as well as Linux.",
       },
       {
         _key: "ru",
