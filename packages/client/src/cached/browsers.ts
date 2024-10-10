@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "C06C2hq1zDEAdut7UOAcTh",
+    _rev: "JlOBwEbiYmoILgclXzFXBA",
     _type: "browser",
-    _updatedAt: "2024-09-13T03:24:10Z",
+    _updatedAt: "2024-09-27T03:25:01Z",
     description: [
       {
         _key: "en",
@@ -580,7 +580,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. Two mobile versions are still active, called Opera Mobile and Opera Mini. Opera also has a news aggregator app called Opera News with Aria, a AI-search engine..",
+          "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. Two mobile versions are still active, called Opera Mobile and Opera Mini. Opera also has a news aggregator app called Opera News with Aria, a AI-search engine.",
       },
       {
         _key: "sw",
@@ -663,9 +663,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "nq8iJzUmQt5b8dopONr5T0",
+    _rev: "l60dAdPeP64frBXuV32IZm",
     _type: "browser",
-    _updatedAt: "2024-09-14T03:24:05Z",
+    _updatedAt: "2024-09-21T03:24:07Z",
     description: [
       {
         _key: "en",
@@ -1003,7 +1003,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "The Samsung Internet Browser is a web browser developed by Samsung Electronics It was first released in 2012 as a basic mobile browser on Samsung Galaxy devices. Now, it is a feature-rich application that is available on Android and was available on Windows.",
+          "The Samsung Internet Browser is a web browser developed by Samsung Electronics. It was first released in 2012 as a basic mobile browser on Samsung Galaxy devices. Now, it is a feature-rich application that is available on Android and was available on Windows.",
       },
       {
         _key: "ru",
@@ -2559,9 +2559,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "ntfsbRZXOqxGU4eVoKBrs1",
+    _rev: "KXvy2YJ8LiHvygPMdcWgeD",
     _type: "browser",
-    _updatedAt: "2024-06-23T03:22:59Z",
+    _updatedAt: "2024-10-10T03:25:00Z",
     description: [
       {
         _key: "en",
@@ -2959,7 +2959,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Safari is a web browser developed by Apple. It is built into Apple's operating systems, including macOS, iOS, iPadOS and visionOS, and uses Apple's open-source browser engine WebKit, which was derived from KHTML.",
+          "Safari is a web browser developed by Apple. It is built into several of Apple's operating systems, including macOS, iOS, iPadOS and visionOS, and uses Apple's open-source browser engine WebKit, which was derived from KHTML.",
       },
       {
         _key: "ru",
