@@ -62,14 +62,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-23T06:52:17Z",
     _id: "df47bd5d-957d-470f-b972-dc79e44b6ec3",
-    _rev: "fKry4aZP2pGXC704bORJgb",
+    _rev: "s3areAWIHNM6gh733qJXrR",
     _type: "release",
-    _updatedAt: "2024-09-06T03:24:02Z",
+    _updatedAt: "2024-09-20T03:24:19Z",
     browser: {
       _ref: "278c02c3-76d4-4011-a543-39ca003ff1ee",
       _type: "reference",
     },
-    currentVersion: "128",
+    currentVersion: "129",
     downloadUrl: "https://www.chromium.org/getting-involved/download-chromium/",
     oses: [
       {
@@ -103,14 +103,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-14T02:45:47Z",
     _id: "f3feab0b-20a2-4397-9458-bf579d5fd7ea",
-    _rev: "fKry4aZP2pGXC704bORJkW",
+    _rev: "PzN4ATe17nOulM8qvgGAOU",
     _type: "release",
-    _updatedAt: "2024-09-06T03:24:04Z",
+    _updatedAt: "2024-09-20T03:24:21Z",
     browser: {
       _ref: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
       _type: "reference",
     },
-    currentVersion: "128",
+    currentVersion: "129",
     downloadUrl: "https://brave.com/download",
     oses: [
       {
@@ -168,15 +168,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-05T15:07:57Z",
     _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
-    _rev: "C06C2hq1zDEAdut7USHPS1",
+    _rev: "s3areAWIHNM6gh733qJY0v",
     _type: "release",
-    _updatedAt: "2024-09-16T07:58:12Z",
+    _updatedAt: "2024-09-20T03:24:22Z",
     browser: {
       _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
       _type: "reference",
     },
     currentUsage: 21.143300999999997,
-    currentVersion: "128",
+    currentVersion: "129",
     downloadUrl: "https://www.google.com/chrome/",
     oses: [
       {
@@ -243,15 +243,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:50:30Z",
     _id: "2e7a7bed-6a90-4ffc-8230-32bd93fa28d9",
-    _rev: "fKry4aZP2pGXC704bORJsM",
+    _rev: "CcPIHBbx9PhhD7XlXQSdsN",
     _type: "release",
-    _updatedAt: "2024-09-06T03:24:06Z",
+    _updatedAt: "2024-10-03T03:24:57Z",
     browser: {
       _ref: "e2ebb783-874b-497f-b90f-0d17956d8842",
       _type: "reference",
     },
     currentUsage: 4.980375,
-    currentVersion: "128",
+    currentVersion: "129",
     downloadUrl: "https://www.microsoft.com/edge/download",
     oses: [
       {
@@ -310,15 +310,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:54Z",
     _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _rev: "Ir0iWKHD567rF2Jzec0txT",
+    _rev: "s3areAWIHNM6gh733qJYAP",
     _type: "release",
-    _updatedAt: "2024-09-11T03:24:05Z",
+    _updatedAt: "2024-09-20T03:24:23Z",
     browser: {
       _ref: "c384ba9c-d502-4946-99a2-734b295088aa",
       _type: "reference",
     },
     currentUsage: 3.2784429999999998,
-    currentVersion: "17.6",
+    currentVersion: "18",
     downloadUrl: "https://support.apple.com/downloads/safari",
     oses: [
       {
@@ -352,15 +352,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-08T06:17:00Z",
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _rev: "Ir0iWKHD567rF2JzeYd2PT",
+    _rev: "z5BhTL2vl5rtKAWXzHBwZD",
     _type: "release",
-    _updatedAt: "2024-09-06T03:24:08Z",
+    _updatedAt: "2024-10-17T03:25:01Z",
     browser: {
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
     currentUsage: 2.285952,
-    currentVersion: "130",
+    currentVersion: "131",
     downloadUrl: "https://www.mozilla.org/firefox/all",
     oses: [
       {
@@ -489,15 +489,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:48:43Z",
     _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _rev: "Ir0iWKHD567rF2JzeYd2Ul",
+    _rev: "CcPIHBbx9PhhD7XlXQSdzv",
     _type: "release",
-    _updatedAt: "2024-09-06T03:24:10Z",
+    _updatedAt: "2024-10-03T03:24:58Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
     currentUsage: 0.340385,
-    currentVersion: "111",
+    currentVersion: "114",
     downloadUrl: "https://www.opera.com/download",
     oses: [
       {
