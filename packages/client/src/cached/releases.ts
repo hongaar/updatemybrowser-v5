@@ -62,14 +62,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-23T06:52:17Z",
     _id: "df47bd5d-957d-470f-b972-dc79e44b6ec3",
-    _rev: "s3areAWIHNM6gh733qJXrR",
+    _rev: "ypLT1CVemI7KHCcDBVihI8",
     _type: "release",
-    _updatedAt: "2024-09-20T03:24:19Z",
+    _updatedAt: "2024-10-26T03:24:39Z",
     browser: {
       _ref: "278c02c3-76d4-4011-a543-39ca003ff1ee",
       _type: "reference",
     },
-    currentVersion: "129",
+    currentVersion: "130",
     downloadUrl: "https://www.chromium.org/getting-involved/download-chromium/",
     oses: [
       {
@@ -103,14 +103,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-14T02:45:47Z",
     _id: "f3feab0b-20a2-4397-9458-bf579d5fd7ea",
-    _rev: "PzN4ATe17nOulM8qvgGAOU",
+    _rev: "ypLT1CVemI7KHCcDBVihLK",
     _type: "release",
-    _updatedAt: "2024-09-20T03:24:21Z",
+    _updatedAt: "2024-10-26T03:24:40Z",
     browser: {
       _ref: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
       _type: "reference",
     },
-    currentVersion: "129",
+    currentVersion: "130",
     downloadUrl: "https://brave.com/download",
     oses: [
       {
@@ -168,15 +168,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-05T15:07:57Z",
     _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
-    _rev: "s3areAWIHNM6gh733qJY0v",
+    _rev: "ypLT1CVemI7KHCcDBVihRi",
     _type: "release",
-    _updatedAt: "2024-09-20T03:24:22Z",
+    _updatedAt: "2024-10-26T03:24:41Z",
     browser: {
       _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
       _type: "reference",
     },
     currentUsage: 21.143300999999997,
-    currentVersion: "129",
+    currentVersion: "130",
     downloadUrl: "https://www.google.com/chrome/",
     oses: [
       {
@@ -243,15 +243,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:50:30Z",
     _id: "2e7a7bed-6a90-4ffc-8230-32bd93fa28d9",
-    _rev: "CcPIHBbx9PhhD7XlXQSdsN",
+    _rev: "ypLT1CVemI7KHCcDBVihUu",
     _type: "release",
-    _updatedAt: "2024-10-03T03:24:57Z",
+    _updatedAt: "2024-10-26T03:24:42Z",
     browser: {
       _ref: "e2ebb783-874b-497f-b90f-0d17956d8842",
       _type: "reference",
     },
     currentUsage: 4.980375,
-    currentVersion: "129",
+    currentVersion: "130",
     downloadUrl: "https://www.microsoft.com/edge/download",
     oses: [
       {
