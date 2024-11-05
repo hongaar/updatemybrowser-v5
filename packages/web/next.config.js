@@ -2,11 +2,11 @@
 const nextConfig = {
   async redirects() {
     return [
-      {
-        source: "/",
-        destination: "https://v1.updatemybrowser.org",
-        permanent: false,
-      },
+      // {
+      //   source: "/",
+      //   destination: "https://v1.updatemybrowser.org",
+      //   permanent: false,
+      // },
       { source: "/browser", destination: "/en/check", permanent: true },
       { source: "/about", destination: "/en/check", permanent: true },
       { source: "/about/docs", destination: "/en/widget", permanent: true },
