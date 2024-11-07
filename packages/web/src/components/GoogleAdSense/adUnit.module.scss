@@ -56,7 +56,7 @@
   border-radius: var(--border-radius);
 
   &::after {
-    content: "Not showing advertisements locally";
+    content: "Not showing advertisements locally (" attr(data-render-id) ")";
     vertical-align: middle;
     text-align: center;
     position: absolute;

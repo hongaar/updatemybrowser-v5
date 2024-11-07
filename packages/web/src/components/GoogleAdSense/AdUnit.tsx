@@ -3,7 +3,7 @@
 import { unsafeRandomId } from "@updatemybrowser/core";
 import { usePathname } from "next/navigation";
 import Script from "next/script";
-import { useCallback, useEffect, useState } from "react";
+import { Fragment, useCallback, useEffect, useState } from "react";
 import type { Dict } from "../../dictionaries/en";
 import styles from "./adUnit.module.scss";
 
@@ -30,8 +30,8 @@ export function AdUnit({
   format = "auto",
   fullWidth = true,
 }: Props) {
-  const [, updateState] = useState<any>();
-  const forceUpdate = useCallback(() => updateState({}), []);
+  const [randomId, updateRandomId] = useState(unsafeRandomId());
+  const forceUpdate = useCallback(() => updateRandomId(unsafeRandomId()), []);
   const pathname = usePathname();
 
   // Refresh ads every minute
@@ -53,7 +53,7 @@ export function AdUnit({
   }
 
   return (
-    <>
+    <Fragment key={randomId}>
       <ins
         className={`${styles.ad} ${isProduction ? "" : styles.local} ${
           !publisherId ? styles.dummy : ""
@@ -63,7 +63,7 @@ export function AdUnit({
           textAlign: layout === "in-article" ? "center" : undefined,
           height: !publisherId ? "200px" : undefined,
         }}
-        data-render-id={unsafeRandomId()}
+        data-render-id={randomId}
         // data-label={dict.Advertisement}
         data-ad-client={publisherId}
         data-ad-slot={slot}
@@ -80,6 +80,6 @@ try {
   console.error(error);
 }
 `}</Script>
-    </>
+    </Fragment>
   );
 }
