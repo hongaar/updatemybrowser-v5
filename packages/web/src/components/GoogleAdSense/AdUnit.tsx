@@ -36,7 +36,7 @@ export function AdUnit({
 
   // Refresh ads every minute
   useEffect(() => {
-    const refreshAdInterval = setInterval(forceUpdate, 1000 * 5);
+    const refreshAdInterval = setInterval(forceUpdate, 1000 * 60);
 
     return () => {
       clearInterval(refreshAdInterval);
