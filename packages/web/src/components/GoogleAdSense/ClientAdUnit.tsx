@@ -1,9 +1,5 @@
-"use client";
-
 import { unsafeRandomId } from "@updatemybrowser/core";
-import { usePathname } from "next/navigation";
 import Script from "next/script";
-import { useCallback, useEffect, useState } from "react";
 import type { Dict } from "../../dictionaries/en";
 import styles from "./adUnit.module.scss";
 
@@ -30,24 +26,6 @@ export function AdUnit({
   format = "auto",
   fullWidth = true,
 }: Props) {
-  const [, updateState] = useState<any>();
-  const forceUpdate = useCallback(() => updateState({}), []);
-  const pathname = usePathname();
-
-  // Refresh ads every minute
-  useEffect(() => {
-    const refreshAdInterval = setInterval(forceUpdate, 1000 * 5);
-
-    return () => {
-      clearInterval(refreshAdInterval);
-    };
-  }, [forceUpdate]);
-
-  // Refresh ads when the pathname changes
-  useEffect(() => {
-    forceUpdate();
-  }, [forceUpdate, pathname]);
-
   if (!publisherId) {
     console.log("NEXT_PUBLIC_GOOGLE_ADSENSE_ID not set");
   }

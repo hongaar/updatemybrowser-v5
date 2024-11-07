@@ -7,7 +7,7 @@
   // box-shadow: var(--box-shadow);
 
   &:not(:last-child) {
-    margin-bottom: calc(var(--spacing) * 2);
+    margin-bottom: calc(var(--spacing) * 1);
   }
 
   &[href] {

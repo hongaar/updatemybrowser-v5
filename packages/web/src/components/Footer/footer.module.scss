@@ -8,6 +8,7 @@
   // !important due to bug with container padding from loading.tsx taking precedence
   padding: 0 !important;
   overflow: hidden;
+  margin-bottom: calc(var(--spacing) * 1);
 }
 
 .improve {

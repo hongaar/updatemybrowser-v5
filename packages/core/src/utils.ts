@@ -37,3 +37,13 @@ export function deepEqual(a: any, b: any): boolean {
 
   return false;
 }
+
+export function unsafeRandomId(length = 8) {
+  const ALPHABET =
+    "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  let rtn = "";
+  for (var i = 0; i < length; i++) {
+    rtn += ALPHABET.charAt(Math.floor(Math.random() * ALPHABET.length));
+  }
+  return rtn;
+}
