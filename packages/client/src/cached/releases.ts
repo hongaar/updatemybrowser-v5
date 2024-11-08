@@ -310,15 +310,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:54Z",
     _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _rev: "s8Rni2w48dz4YJz6Vf7FTo",
+    _rev: "oFYNk4o3QxNuLDnVKiLPIt",
     _type: "release",
-    _updatedAt: "2024-11-03T03:26:03Z",
+    _updatedAt: "2024-11-08T03:24:32Z",
     browser: {
       _ref: "c384ba9c-d502-4946-99a2-734b295088aa",
       _type: "reference",
     },
     currentUsage: 3.2275909999999994,
-    currentVersion: "18",
+    currentVersion: "18.1",
     downloadUrl: "https://support.apple.com/downloads/safari",
     oses: [
       {
@@ -344,6 +344,42 @@ export const releases: Release[] = [
         _key: "1ea1a0d5b513",
         _type: "versionSource",
         caniuse_agent: "safari",
+        caniuse_contribute_usage: true,
+        source: "caniuse",
+      },
+    ],
+  },
+  {
+    _createdAt: "2023-10-18T15:25:24Z",
+    _id: "fb782fe5-1a48-46a0-ac53-2388dd571903",
+    _rev: "oFYNk4o3QxNuLDnVKiLPiL",
+    _type: "release",
+    _updatedAt: "2024-11-08T03:24:33Z",
+    browser: {
+      _ref: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
+      _type: "reference",
+    },
+    currentUsage: 2.4649685,
+    currentVersion: "26",
+    downloadUrl:
+      "https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en",
+    oses: [
+      {
+        _key: "f2b070fa2538",
+        _type: "osVersion",
+        os: {
+          _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
+          _type: "reference",
+        },
+      },
+    ],
+    updateUrl:
+      "https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en",
+    versionSource: [
+      {
+        _key: "ea8e62bc6b25",
+        _type: "versionSource",
+        caniuse_agent: "samsung",
         caniuse_contribute_usage: true,
         source: "caniuse",
       },
@@ -484,42 +520,6 @@ export const releases: Release[] = [
         _key: "f9af09e9b994",
         _type: "versionSource",
         caniuse_agent: "opera",
-        caniuse_contribute_usage: true,
-        source: "caniuse",
-      },
-    ],
-  },
-  {
-    _createdAt: "2023-10-18T15:25:24Z",
-    _id: "fb782fe5-1a48-46a0-ac53-2388dd571903",
-    _rev: "SV5UKGhybMbaE0NiuX3X03",
-    _type: "release",
-    _updatedAt: "2024-11-03T03:26:05Z",
-    browser: {
-      _ref: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-      _type: "reference",
-    },
-    currentUsage: 0.5972385000000001,
-    currentVersion: "26",
-    downloadUrl:
-      "https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en",
-    oses: [
-      {
-        _key: "f2b070fa2538",
-        _type: "osVersion",
-        os: {
-          _ref: "2495a35b-5efd-49e6-8999-d248d5285125",
-          _type: "reference",
-        },
-      },
-    ],
-    updateUrl:
-      "https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en",
-    versionSource: [
-      {
-        _key: "ea8e62bc6b25",
-        _type: "versionSource",
-        caniuse_agent: "samsung",
         caniuse_contribute_usage: true,
         source: "caniuse",
       },
