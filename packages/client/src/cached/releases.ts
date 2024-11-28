@@ -168,9 +168,9 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-05T15:07:57Z",
     _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
-    _rev: "smnDWIqPOl1nZOxDdPUGxG",
+    _rev: "XpxzI1DTBKcMV3eDgaUEIY",
     _type: "release",
-    _updatedAt: "2024-11-22T03:26:22Z",
+    _updatedAt: "2024-11-28T10:35:03Z",
     browser: {
       _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
       _type: "reference",
@@ -210,7 +210,6 @@ export const releases: Release[] = [
           _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
           _type: "reference",
         },
-        versionConstraint: ">=10.15",
       },
       {
         _key: "6d10e046deeb",
