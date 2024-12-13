@@ -309,15 +309,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:54Z",
     _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _rev: "zGoOhrVQZLzwh7QVfoaBaj",
+    _rev: "WQIMo6JlW4j5XICf96g7QU",
     _type: "release",
-    _updatedAt: "2024-12-07T03:27:22Z",
+    _updatedAt: "2024-12-13T03:28:15Z",
     browser: {
       _ref: "c384ba9c-d502-4946-99a2-734b295088aa",
       _type: "reference",
     },
     currentUsage: 2.953584,
-    currentVersion: "18.1",
+    currentVersion: "18.2",
     downloadUrl: "https://support.apple.com/downloads/safari",
     oses: [
       {

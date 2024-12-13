@@ -663,9 +663,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "l60dAdPeP64frBXuV32IZm",
+    _rev: "bdbxlDH9IRHABQxxpQLiFS",
     _type: "browser",
-    _updatedAt: "2024-09-21T03:24:07Z",
+    _updatedAt: "2024-12-13T03:28:19Z",
     description: [
       {
         _key: "en",
@@ -1003,7 +1003,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "The Samsung Internet Browser is a web browser developed by Samsung Electronics. It was first released in 2012 as a basic mobile browser on Samsung Galaxy devices. Now, it is a feature-rich application that is available on Android and was available on Windows.",
+          "Samsung Internet is a Chromium-based web browser for Android smartphones developed by Samsung Electronics. It was first released in 2012 as a basic mobile browser for Samsung Galaxy devices.",
       },
       {
         _key: "ru",
@@ -1429,9 +1429,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "842bO5VvZyRJC3VKrAsFsc",
+    _rev: "27IdYXOVe1PEc0ZOAycqvQ",
     _type: "browser",
-    _updatedAt: "2024-12-04T03:27:57Z",
+    _updatedAt: "2024-12-10T03:28:50Z",
     description: [
       {
         _key: "en",
@@ -1831,7 +1831,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox is a free and open source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 and later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD,, and other operating systems, such as reactOS. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
+          "Mozilla Firefox is a free and open source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 and later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other operating systems, such as reactOS. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
       },
       {
         _key: "sw",
