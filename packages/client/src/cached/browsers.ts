@@ -663,9 +663,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "l60dAdPeP64frBXuV32IZm",
+    _rev: "Gq1P9kp3mVo0yyjjfBUeps",
     _type: "browser",
-    _updatedAt: "2024-09-21T03:24:07Z",
+    _updatedAt: "2025-01-11T03:24:57Z",
     description: [
       {
         _key: "en",
@@ -1003,13 +1003,13 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "The Samsung Internet Browser is a web browser developed by Samsung Electronics. It was first released in 2012 as a basic mobile browser on Samsung Galaxy devices. Now, it is a feature-rich application that is available on Android and was available on Windows.",
+          "Samsung Internet is a Chromium-based web browser for Android smartphones developed by Samsung Electronics. It was first released in 2012 as a basic mobile browser for Samsung Galaxy devices.",
       },
       {
         _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Samsung Internet Browser — разработанный компанией Samsung мобильный веб-браузер для смартфонов и планшетов, основанный на проекте Chromium с открытым исходным кодом. Предварительно установлен на устройствах Samsung Galaxy, а с 2015 года доступен для загрузки из Google Play. Samsung оценил, что в 2016 году у него было около 400 миллионов активных пользователей. Согласно StatCounter, в декабря 2022 года доля рынка составляла около 5,06%.",
+          "Samsung Internet Browser — разработанный компанией Samsung мобильный веб-браузер для смартфонов и планшетов, основанный на проекте Chromium с открытым исходным кодом. Предварительно установлен на устройствах Samsung Galaxy.",
       },
       {
         _key: "id",
@@ -1429,9 +1429,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "842bO5VvZyRJC3VKrAsFsc",
+    _rev: "EGiEQHkBQkssdtUM9tbpgT",
     _type: "browser",
-    _updatedAt: "2024-12-04T03:27:57Z",
+    _updatedAt: "2025-01-13T03:25:44Z",
     description: [
       {
         _key: "en",
@@ -1831,7 +1831,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox is a free and open source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 and later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD,, and other operating systems, such as reactOS. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
+          "Mozilla Firefox, or simply Firefox, is a free and open source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 and later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other operating systems, such as reactOS. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
       },
       {
         _key: "sw",
@@ -1914,9 +1914,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "gALCA3HubPkInWqqIE0W5Z",
+    _rev: "Y8rJHoU3kXS3JUZUGrY8uD",
     _type: "browser",
-    _updatedAt: "2024-08-14T03:24:19Z",
+    _updatedAt: "2024-12-28T03:24:21Z",
     description: [
       {
         _key: "en",
@@ -2157,7 +2157,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave ist ein Open-Source-Webbrowser für die gängigen Betriebssystemen, der auf Chromium basiert. Das 2015 gegründete US-amerikanische Unternehmen Brave Software Inc. dahinter wird von Brendan Eich geleitet.",
+          "Brave ist ein freier Webbrowser für die gängigen Betriebssysteme, der auf Chromium basiert. Das 2015 gegründete US-amerikanische Unternehmen Brave Software Inc. dahinter wird von Brendan Eich geleitet.",
       },
       {
         _key: "hi",
@@ -2559,9 +2559,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "KXvy2YJ8LiHvygPMdcWgeD",
+    _rev: "CsGuwmQ5PMpgptIBIHaXGu",
     _type: "browser",
-    _updatedAt: "2024-10-10T03:25:00Z",
+    _updatedAt: "2024-12-27T03:24:41Z",
     description: [
       {
         _key: "en",
@@ -2977,7 +2977,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS ab der Version Mac OS X Panther (2003) sowie von iOS und iPadOS und ersetzte den vorher mitgelieferten Microsoft Internet Explorer für Mac als Standard-Browser. Safari verwendet Apples Open-Source-Browser-Engine WebKit.",
+          "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS, iOS und iPadOS. Safari verwendet Apples Open-Source-Browser-Engine WebKit.",
       },
       {
         _key: "nl",
@@ -3710,9 +3710,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "Oy94vU2jFurlBL0rmCR1Pd",
+    _rev: "gcULefrXbNYLxV3ybaXspu",
     _type: "browser",
-    _updatedAt: "2024-08-04T03:23:47Z",
+    _updatedAt: "2025-01-09T03:29:38Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -4044,7 +4044,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge is a proprietary cross-platform web browser created by Microsoft. Released in 2015 along with both Windows 10 and Xbox One, it was initially built with Microsoft's own proprietary browser engine, EdgeHTML, and their Chakra JavaScript engine. Later on, it was ported to Android and iOS as a fork of Google's Chromium open-source project. In late 2018, Microsoft announced it would completely rebuild Edge as a Chromium-based browser with Blink and V8 engines, which allowed the browser to be ported to macOS. The new Edge was publicly released in January 2020, and on Xbox platforms in 2021. Microsoft has since terminated security support for the original browser. Edge is also available on older Windows versions until early 2023, as well as Linux.",
+          "Microsoft Edge, based on the Chromium open-source project, also known as The New Microsoft Edge or New Edge, is a proprietary cross-platform web browser created by Microsoft, superseding Edge Legacy. In Windows 11, Edge is the only browser available from Microsoft.",
       },
       {
         _key: "ru",
