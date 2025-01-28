@@ -1914,9 +1914,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "Y8rJHoU3kXS3JUZUGrY8uD",
+    _rev: "CpL9FWqkqp36faTVGAH75s",
     _type: "browser",
-    _updatedAt: "2024-12-28T03:24:21Z",
+    _updatedAt: "2025-01-21T03:24:11Z",
     description: [
       {
         _key: "en",
@@ -2145,7 +2145,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser. Brave is a privacy-focused browser, which automatically blocks most advertisements and website trackers in its default settings. Users can turn on optional ads that reward them for their attention in the form of Basic Attention Tokens (BAT), which can be used as a cryptocurrency or to make donations to registered websites and content creators.",
+          "Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser.",
       },
       {
         _key: "nl",
