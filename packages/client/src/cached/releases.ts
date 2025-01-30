@@ -242,15 +242,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:50:30Z",
     _id: "2e7a7bed-6a90-4ffc-8230-32bd93fa28d9",
-    _rev: "EnZkLwzUV1Otzj4gTVIOvn",
+    _rev: "JlvX4zqRuimUTpXwEhV4vF",
     _type: "release",
-    _updatedAt: "2025-01-10T03:25:26Z",
+    _updatedAt: "2025-01-30T03:24:24Z",
     browser: {
       _ref: "e2ebb783-874b-497f-b90f-0d17956d8842",
       _type: "reference",
     },
     currentUsage: 4.6829279999999995,
-    currentVersion: "131",
+    currentVersion: "132",
     downloadUrl: "https://www.microsoft.com/edge/download",
     oses: [
       {
@@ -309,15 +309,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:54Z",
     _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _rev: "F14F0iG2rSSApO3G8gDBI9",
+    _rev: "JlvX4zqRuimUTpXwEhV5Sv",
     _type: "release",
-    _updatedAt: "2025-01-10T03:25:28Z",
+    _updatedAt: "2025-01-30T03:24:25Z",
     browser: {
       _ref: "c384ba9c-d502-4946-99a2-734b295088aa",
       _type: "reference",
     },
     currentUsage: 2.735818,
-    currentVersion: "18.2",
+    currentVersion: "18.3",
     downloadUrl: "https://support.apple.com/downloads/safari",
     oses: [
       {
