@@ -3710,9 +3710,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "gcULefrXbNYLxV3ybaXspu",
+    _rev: "aB2tdqzwZwh0hKQ4Ah6mtg",
     _type: "browser",
-    _updatedAt: "2025-01-09T03:29:38Z",
+    _updatedAt: "2025-03-13T03:26:21Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -4047,16 +4047,10 @@ export const browsers: Browser[] = [
           "Microsoft Edge, based on the Chromium open-source project, also known as The New Microsoft Edge or New Edge, is a proprietary cross-platform web browser created by Microsoft, superseding Edge Legacy. In Windows 11, Edge is the only browser available from Microsoft.",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge — браузер компании Microsoft, впервые выпущенный в 2015 году одновременно с первой версией Windows 10. Пришёл на замену Internet Explorer, который тем не менее, остался в составе ОС для обеспечения совместимости корпоративных приложений. Поначалу работал на собственном движке EdgeHTML, однако позднее Microsoft решила перейти на решения предоставляемые Chromium, в надежде нарастить рыночную долю браузера и обеспечить совместимость с его богатой библиотекой расширений.",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Microsoft Edge, awalnya dikembangkan di bawah nama kode Project Spartan, adalah peramban web yang dikembangkan oleh Microsoft dan termasuk dalam sistem operasi Windows. Resmi dirilis pada tanggal 29 Juli 2015, peramban ini menggantikan Internet Explorer sebagai peramban baku pada Windows 10. Hal ini juga akan menjadi peramban baku dari rilis yang akan datang dari Windows 10 untuk telepon cerdas dan tablet kecil. Microsoft Edge kini juga sudah tersedia untuk platform Android dan iOS.",
+          "Microsoft Edge is een webbrowser ontwikkeld door Microsoft en inbegrepen in Windows 10, Windows 10 Mobile en Xbox One. Microsoft Edge is de opvolger van Internet Explorer en vervangt deze als de standaard webbrowser op alle apparaten. Volgens Microsoft is het een lichtgewicht webbrowser met een layout-engine die gebouwd is overeenkomstig met de webstandaarden. De browser bevat nieuwe features, waaronder integratie met Cortana, notitiehulpmiddelen en een leesmodus.",
       },
       {
         _key: "de",
@@ -4065,16 +4059,22 @@ export const browsers: Browser[] = [
           "Microsoft Edge ist ein Webbrowser des Softwareherstellers Microsoft. Er wurde am 29. Juli 2015 mit Windows 10 veröffentlicht und hat dort den Internet Explorer als Standardbrowser ersetzt; der mittlerweile Chromium basierte Edge ist der vorinstallierte Standard-Browser in Windows 10 ab Version 20H2 und Windows 11, sowie durch automatische Updates vom April 2021 auch in früheren Windows-Versionen.",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Microsoft Edge is een webbrowser ontwikkeld door Microsoft en inbegrepen in Windows 10, Windows 10 Mobile en Xbox One. Microsoft Edge is de opvolger van Internet Explorer en vervangt deze als de standaard webbrowser op alle apparaten. Volgens Microsoft is het een lichtgewicht webbrowser met een layout-engine die gebouwd is overeenkomstig met de webstandaarden. De browser bevat nieuwe features, waaronder integratie met Cortana, notitiehulpmiddelen en een leesmodus.",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayTextValue",
         value:
           'माइक्रोसॉफ्ट ने अपने नए वेब ब्राउजर का नाम एज रखा है। माइक्रोसॉफ्ट एज "(या बस एज)" एक मालिकाना, क्रॉस-प्लेटफॉर्म वेब ब्राउज़र द्वारा बनाया गया है माइक्रोसॉफ्ट। इसे पहली बार 2015 में विंडोज 10 और एक्सबॉक्स वन के हिस्से के रूप में जारी किया गया था और बाद में पोर्टेड को Google के क्रोमियम ओपन-सोर्स प्रोजेक्ट: एंड्रॉइड और आईओएस',
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Microsoft Edge, awalnya dikembangkan di bawah nama kode Project Spartan, adalah peramban web yang dikembangkan oleh Microsoft dan termasuk dalam sistem operasi Windows. Resmi dirilis pada tanggal 29 Juli 2015, peramban ini menggantikan Internet Explorer sebagai peramban baku pada Windows 10. Hal ini juga akan menjadi peramban baku dari rilis yang akan datang dari Windows 10 untuk telepon cerdas dan tablet kecil. Microsoft Edge kini juga sudah tersedia untuk platform Android dan iOS.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Microsoft Edge — браузер компании Microsoft, впервые выпущенный в 2015 году одновременно с первой версией Windows 10. Пришёл на замену Internet Explorer, который тем не менее, остался в составе ОС для обеспечения совместимости корпоративных приложений. Поначалу работал на собственном движке EdgeHTML, однако позднее Microsoft решила перейти на решения предоставляемые Chromium, в надежде нарастить рыночную долю браузера и обеспечить совместимость с его богатой библиотекой расширений.",
       },
     ],
     vendor: "Microsoft",
@@ -4085,14 +4085,9 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Microsoft_Edge",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Microsoft_Edge",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Microsoft_Edge",
+        value: "https://nl.wikipedia.org/wiki/Microsoft_Edge",
       },
       {
         _key: "de",
@@ -4100,14 +4095,19 @@ export const browsers: Browser[] = [
         value: "https://de.wikipedia.org/wiki/Microsoft_Edge",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Microsoft_Edge",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayUrlValue",
         value: "https://hi.wikipedia.org/wiki/%E0%A4%8F%E0%A4%9C",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Microsoft_Edge",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://ru.wikipedia.org/wiki/Microsoft_Edge",
       },
     ],
     youtubeId: "Yuo15bhxryc",
