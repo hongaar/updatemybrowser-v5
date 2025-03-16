@@ -5,9 +5,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-13T10:35:40Z",
     _id: "30d67e62-0f8c-4648-ab91-dfca41410412",
-    _rev: "P8iX8yLNzdMX2eS89iB4I6",
+    _rev: "7kaIE0fx1bl03pWpFuW00g",
     _type: "feature",
-    _updatedAt: "2023-11-15T10:02:44Z",
+    _updatedAt: "2025-03-16T10:23:33Z",
     category: {
       _ref: "9fc60c51-bd38-40f9-8714-0295719eae1a",
       _type: "reference",
@@ -22,6 +22,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Ondersteuning voor plugins",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Prise en charge des plugins",
       },
       {
         _key: "de",
@@ -44,6 +49,11 @@ export const features: Feature[] = [
         value: "Поддержка плагинов",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Soporte de plugins",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Msaada wa programu zinazoweza kuongezwa",
@@ -57,9 +67,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-12T10:59:32Z",
     _id: "3c42fbee-fa58-4c34-82b4-07324a097635",
-    _rev: "g4WGtXEJHMGyIQGoBzvVGM",
+    _rev: "o6EKSRmXrHYie9DfoEIsMm",
     _type: "feature",
-    _updatedAt: "2023-11-15T10:06:03Z",
+    _updatedAt: "2025-03-16T10:23:39Z",
     category: {
       _ref: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
       _type: "reference",
@@ -74,6 +84,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Blokkeert advertenties die op websites verschijnen",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Bloque les publicités qui apparaissent sur les sites web.",
       },
       {
         _key: "de",
@@ -96,6 +111,11 @@ export const features: Feature[] = [
         value: "Блокирует появление рекламы на веб-сайтах",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Bloquea los anuncios que aparecen en los sitios web.",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Inazuia matangazo kuonekana kwenye tovuti.",
@@ -108,19 +128,14 @@ export const features: Feature[] = [
         value: "Block ads",
       },
       {
-        _key: "sw",
+        _key: "nl",
         _type: "internationalizedArrayStringValue",
-        value: "Zuia matangazo",
+        value: "Blokkeer advertenties",
       },
       {
-        _key: "ru",
+        _key: "fr",
         _type: "internationalizedArrayStringValue",
-        value: "Блокировать рекламу",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayStringValue",
-        value: "Blokir iklan",
+        value: "Bloquer les publicités",
       },
       {
         _key: "de",
@@ -128,14 +143,29 @@ export const features: Feature[] = [
         value: "Werbung blockieren",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayStringValue",
-        value: "Blokkeer advertenties",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayStringValue",
         value: "विज्ञापनों को ब्लॉक करें",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Blokir iklan",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Блокировать рекламу",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Bloquear anuncios",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Zuia matangazo",
       },
     ],
     slug: {
@@ -146,9 +176,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-13T10:34:48Z",
     _id: "4a4fce62-dc7d-40d9-b1a5-84e6a92366e2",
-    _rev: "P8iX8yLNzdMX2eS89iBE4s",
+    _rev: "7kaIE0fx1bl03pWpFuW0Da",
     _type: "feature",
-    _updatedAt: "2023-11-15T10:06:38Z",
+    _updatedAt: "2025-03-16T10:23:41Z",
     category: {
       _ref: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
       _type: "reference",
@@ -163,6 +193,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Privé browsen",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Navigation privée",
       },
       {
         _key: "de",
@@ -185,6 +220,11 @@ export const features: Feature[] = [
         value: "Приватный режим просмотра",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Navegación privada",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Kuvinjari faragha",
@@ -198,9 +238,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-18T21:07:39Z",
     _id: "5f610b9c-edab-4ced-a6f2-fec473db5c82",
-    _rev: "Uckd0KyIppGAIvpptSbbhp",
+    _rev: "7kaIE0fx1bl03pWpFuW0K2",
     _type: "feature",
-    _updatedAt: "2023-11-19T01:33:55Z",
+    _updatedAt: "2025-03-16T10:23:43Z",
     category: {
       _ref: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
       _type: "reference",
@@ -215,6 +255,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Donkere modus",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Mode sombre",
       },
       {
         _key: "de",
@@ -237,6 +282,11 @@ export const features: Feature[] = [
         value: "Темный режим",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Modo oscuro",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Njia ya giza",
@@ -250,9 +300,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-18T21:06:07Z",
     _id: "7dd7c5a3-4a52-4eb0-b24c-fe99c08359e1",
-    _rev: "Uckd0KyIppGAIvpptSbbx3",
+    _rev: "yf6YE3Avm57l7p1xz1cv5h",
     _type: "feature",
-    _updatedAt: "2023-11-19T01:34:19Z",
+    _updatedAt: "2025-03-16T10:23:45Z",
     category: {
       _ref: "c6589281-e38e-41ac-b49e-124d1eab39e0",
       _type: "reference",
@@ -267,6 +317,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Automatisch invullen van formulieren",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Remplir automatiquement les formulaires",
       },
       {
         _key: "de",
@@ -289,6 +344,11 @@ export const features: Feature[] = [
         value: "Автозаполнение форм",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Rellenar formularios automáticamente",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Jaza fomu kiotomatiki",
@@ -302,9 +362,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-18T21:06:56Z",
     _id: "9aaeeeb8-0124-424c-9d76-1cb34a7d79bc",
-    _rev: "01fz37KtvhMj2e8zIIMWOe",
+    _rev: "o6EKSRmXrHYie9DfoEIt58",
     _type: "feature",
-    _updatedAt: "2023-11-19T01:35:02Z",
+    _updatedAt: "2025-03-16T10:23:46Z",
     category: {
       _ref: "c6589281-e38e-41ac-b49e-124d1eab39e0",
       _type: "reference",
@@ -319,6 +379,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Meerdere profielen",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Profils multiples",
       },
       {
         _key: "de",
@@ -341,6 +406,11 @@ export const features: Feature[] = [
         value: "Несколько профилей",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Perfiles múltiples",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Profaili nyingi",
@@ -354,9 +424,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-13T10:33:28Z",
     _id: "a32cbcd7-c281-45f5-9041-a6d2e1e26767",
-    _rev: "6tBtT7HSXJBZgGx8QxKt8j",
+    _rev: "o6EKSRmXrHYie9DfoEIupM",
     _type: "feature",
-    _updatedAt: "2023-11-15T10:08:13Z",
+    _updatedAt: "2025-03-16T10:23:48Z",
     category: {
       _ref: "c6589281-e38e-41ac-b49e-124d1eab39e0",
       _type: "reference",
@@ -371,6 +441,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Wachtwoordbeheerder",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Gestionnaire de mots de passe",
       },
       {
         _key: "de",
@@ -393,6 +468,11 @@ export const features: Feature[] = [
         value: "Менеджер паролей",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Gestor de contraseñas",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Meneja wa nywila",
@@ -406,9 +486,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-18T21:08:16Z",
     _id: "ae11cc57-7376-42c2-82fc-a65da2c5fe14",
-    _rev: "Uckd0KyIppGAIvpptSbdBB",
+    _rev: "7kaIE0fx1bl03pWpFuW7cw",
     _type: "feature",
-    _updatedAt: "2023-11-19T01:35:21Z",
+    _updatedAt: "2025-03-16T10:23:50Z",
     category: {
       _ref: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
       _type: "reference",
@@ -423,6 +503,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Leesmodus",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Mode lecture",
       },
       {
         _key: "de",
@@ -445,6 +530,11 @@ export const features: Feature[] = [
         value: "Режим чтения",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Modo de lectura",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Mode ya kusoma",
@@ -458,9 +548,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-18T21:04:16Z",
     _id: "ae398af0-f21a-4ccf-a7e9-0527e05e436d",
-    _rev: "tdSEgP3G53V2majpbc8U6y",
+    _rev: "yf6YE3Avm57l7p1xz1d56L",
     _type: "feature",
-    _updatedAt: "2023-11-19T01:35:33Z",
+    _updatedAt: "2025-03-16T10:23:52Z",
     category: {
       _ref: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
       _type: "reference",
@@ -475,6 +565,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Tabgroepen",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Groupes d'onglets",
       },
       {
         _key: "de",
@@ -497,6 +592,11 @@ export const features: Feature[] = [
         value: "Группы вкладок",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Grupos de pestañas",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Vikundi vya tab",
@@ -510,9 +610,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-13T23:34:38Z",
     _id: "bb5f2721-c9ca-4421-a8ba-d6cd023e7617",
-    _rev: "P8iX8yLNzdMX2eS89iBGo8",
+    _rev: "yf6YE3Avm57l7p1xz1d8tB",
     _type: "feature",
-    _updatedAt: "2023-11-15T10:08:54Z",
+    _updatedAt: "2025-03-16T10:23:54Z",
     category: {
       _ref: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
       _type: "reference",
@@ -527,6 +627,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Beeld-in-beeld",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Image dans l'image",
       },
       {
         _key: "de",
@@ -549,6 +654,11 @@ export const features: Feature[] = [
         value: "Картинка в картинке",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Imagen en imagen",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Picha-ndani-ya-Picha",
@@ -562,9 +672,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-13T10:36:23Z",
     _id: "bd5e7853-c514-4498-9b92-82ec06c78122",
-    _rev: "6tBtT7HSXJBZgGx8QxKylV",
+    _rev: "yf6YE3Avm57l7p1xz1dA6f",
     _type: "feature",
-    _updatedAt: "2023-11-15T10:09:10Z",
+    _updatedAt: "2025-03-16T10:23:56Z",
     category: {
       _ref: "9fc60c51-bd38-40f9-8714-0295719eae1a",
       _type: "reference",
@@ -579,6 +689,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Ondersteuning voor de Chrome webwinkel",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Support de Chrome Web Store",
       },
       {
         _key: "de",
@@ -601,6 +716,11 @@ export const features: Feature[] = [
         value: "Поддержка Chrome веб-магазина",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Soporte de la tienda web de Chrome",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Msaada wa duka la wavuti la Chrome",
@@ -614,9 +734,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-13T10:35:21Z",
     _id: "e5ec9ff5-d466-4d4c-976c-48b3bf104e3f",
-    _rev: "P8iX8yLNzdMX2eS89iBKar",
+    _rev: "7kaIE0fx1bl03pWpFuW8i2",
     _type: "feature",
-    _updatedAt: "2023-11-15T10:09:48Z",
+    _updatedAt: "2025-03-16T10:23:58Z",
     category: {
       _ref: "9fc60c51-bd38-40f9-8714-0295719eae1a",
       _type: "reference",
@@ -631,6 +751,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Ondersteuning voor Firefox-add-ons",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Prise en charge des extensions Firefox",
       },
       {
         _key: "de",
@@ -653,6 +778,11 @@ export const features: Feature[] = [
         value: "Поддержка дополнений для Firefox",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Soporte de complementos de Firefox",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Msaada wa nyongeza za Firefox",
@@ -666,9 +796,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-13T10:33:04Z",
     _id: "f90318ae-0fb2-487c-a384-bc3cfb534c57",
-    _rev: "P8iX8yLNzdMX2eS89iBN8w",
+    _rev: "yf6YE3Avm57l7p1xz1dX2H",
     _type: "feature",
-    _updatedAt: "2023-11-15T10:11:12Z",
+    _updatedAt: "2025-03-16T10:24:00Z",
     category: {
       _ref: "c6589281-e38e-41ac-b49e-124d1eab39e0",
       _type: "reference",
@@ -683,6 +813,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Cloud synchronisatie",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Synchronisation dans le cloud",
       },
       {
         _key: "de",
@@ -705,6 +840,11 @@ export const features: Feature[] = [
         value: "Синхронизация в облаке",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Sincronización en la nube",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Sawia ya wingu",
@@ -718,9 +858,9 @@ export const features: Feature[] = [
   {
     _createdAt: "2023-11-13T10:32:04Z",
     _id: "f9f67163-4f2c-4a96-902a-9829a990601a",
-    _rev: "01fz37KtvhMj2e8zIIMX5K",
+    _rev: "o6EKSRmXrHYie9DfoEJ1mU",
     _type: "feature",
-    _updatedAt: "2023-11-19T01:36:36Z",
+    _updatedAt: "2025-03-16T10:24:04Z",
     category: {
       _ref: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
       _type: "reference",
@@ -735,6 +875,11 @@ export const features: Feature[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Blokkeer cookies van derden en sociale trackers",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Bloquez les cookies tiers et les traceurs sociaux.",
       },
       {
         _key: "de",
@@ -757,6 +902,11 @@ export const features: Feature[] = [
         value: "Блокировать сторонние файлы cookie и социальные трекеры",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Bloquear cookies de terceros y rastreadores sociales.",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Zuia kuki za watu wengine na wafuatiliaji wa kijamii",
@@ -769,19 +919,14 @@ export const features: Feature[] = [
         value: "Block trackers",
       },
       {
-        _key: "sw",
+        _key: "nl",
         _type: "internationalizedArrayStringValue",
-        value: "Zuia wafuatiliaji",
+        value: "Blokkeer trackers",
       },
       {
-        _key: "ru",
+        _key: "fr",
         _type: "internationalizedArrayStringValue",
-        value: "Блокировать трекеры",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayStringValue",
-        value: "Blokir pelacak",
+        value: "Bloquer les traceurs",
       },
       {
         _key: "de",
@@ -789,14 +934,29 @@ export const features: Feature[] = [
         value: "Tracker blockieren",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayStringValue",
-        value: "Blokkeer trackers",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayStringValue",
         value: "ट्रैकर्स को ब्लॉक करें।",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Blokir pelacak",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Блокировать трекеры",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Bloquear rastreadores",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Zuia wafuatiliaji",
       },
     ],
     slug: {
