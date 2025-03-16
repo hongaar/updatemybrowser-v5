@@ -3,6 +3,8 @@ import "server-only";
 import { notFound } from "next/navigation";
 import de from "./de";
 import en from "./en";
+import es from "./es";
+import fr from "./fr";
 import hi from "./hi";
 import id from "./id";
 import nl from "./nl";
@@ -12,6 +14,8 @@ import sw from "./sw";
 const dictionaries = {
   de,
   en,
+  es,
+  fr,
   hi,
   id,
   nl,
