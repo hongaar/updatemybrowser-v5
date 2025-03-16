@@ -5,14 +5,14 @@ export const featureCategories: FeatureCategory[] = [
   {
     _createdAt: "2023-11-12T10:54:19Z",
     _id: "645f3d5f-3eae-4e8a-956e-151b7cc36fe4",
-    _rev: "tdSEgP3G53V2majpbc8TE4",
+    _rev: "yf6YE3Avm57l7p1xz1csBN",
     _type: "featureCategory",
-    _updatedAt: "2023-11-19T01:33:43Z",
+    _updatedAt: "2025-03-16T10:23:27Z",
     icon: {
       _type: "icon",
       predefined: {
         _type: "icon.manager",
-        icon: "ic:baseline-privacy-tip",
+        icon: "ic:baseline-security",
         metadata: {
           author: {
             name: "Material Design Authors",
@@ -21,12 +21,12 @@ export const featureCategories: FeatureCategory[] = [
           collectionId: "ic",
           collectionName: "Google Material Icons",
           downloadUrl:
-            "https://api.iconify.design/ic:baseline-privacy-tip.svg?width=20&height=20&download=1",
+            "https://api.iconify.design/ic:baseline-security.svg?width=20&height=20&download=1",
           flip: "",
           hFlip: false,
-          iconName: "baseline-privacy-tip",
+          iconName: "baseline-security",
           inlineSvg:
-            '<svg viewBox="0 0 24 24" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5l-9-4zm-1 6h2v2h-2V7zm0 4h2v6h-2v-6z" fill="currentColor"></path></svg>',
+            '<svg viewBox="0 0 24 24" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11z" fill="currentColor"></path></svg>',
           license: {
             name: "Apache 2.0",
             url: "https://github.com/material-icons/material-icons/blob/master/LICENSE",
@@ -37,7 +37,7 @@ export const featureCategories: FeatureCategory[] = [
             height: 20,
             width: 20,
           },
-          url: "https://api.iconify.design/ic:baseline-privacy-tip.svg?width=20&height=20",
+          url: "https://api.iconify.design/ic:baseline-security.svg?width=20&height=20",
           vFlip: false,
         },
       },
@@ -52,6 +52,11 @@ export const featureCategories: FeatureCategory[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Privacy & Veiligheid",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Confidentialité et sécurité",
       },
       {
         _key: "de",
@@ -74,6 +79,11 @@ export const featureCategories: FeatureCategory[] = [
         value: "Конфиденциальность и безопасность",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Privacidad y Seguridad",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Faragha na Usalama",
@@ -87,9 +97,9 @@ export const featureCategories: FeatureCategory[] = [
   {
     _createdAt: "2023-11-13T10:26:14Z",
     _id: "9fc60c51-bd38-40f9-8714-0295719eae1a",
-    _rev: "6tBtT7HSXJBZgGx8QxJnnh",
+    _rev: "yf6YE3Avm57l7p1xz1csJl",
     _type: "featureCategory",
-    _updatedAt: "2023-11-15T10:00:21Z",
+    _updatedAt: "2025-03-16T10:23:28Z",
     icon: {
       _type: "icon",
       predefined: {
@@ -135,6 +145,11 @@ export const featureCategories: FeatureCategory[] = [
         value: "Plugins",
       },
       {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Extensions",
+      },
+      {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value: "Plugins",
@@ -155,6 +170,11 @@ export const featureCategories: FeatureCategory[] = [
         value: "Плагины",
       },
       {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Complementos",
+      },
+      {
         _key: "sw",
         _type: "internationalizedArrayStringValue",
         value: "Vifaa vya ziada",
@@ -168,9 +188,9 @@ export const featureCategories: FeatureCategory[] = [
   {
     _createdAt: "2023-11-13T10:30:25Z",
     _id: "c6589281-e38e-41ac-b49e-124d1eab39e0",
-    _rev: "g4WGtXEJHMGyIQGoBzvMyS",
+    _rev: "7kaIE0fx1bl03pWpFuVzuE",
     _type: "featureCategory",
-    _updatedAt: "2023-11-15T10:03:34Z",
+    _updatedAt: "2025-03-16T10:23:30Z",
     icon: {
       _type: "icon",
       predefined: {
@@ -211,19 +231,14 @@ export const featureCategories: FeatureCategory[] = [
         value: "Productivity",
       },
       {
-        _key: "sw",
+        _key: "nl",
         _type: "internationalizedArrayStringValue",
-        value: "Ufanisi",
+        value: "Productiviteit",
       },
       {
-        _key: "ru",
+        _key: "fr",
         _type: "internationalizedArrayStringValue",
-        value: "Продуктивность",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayStringValue",
-        value: "Produktivitas",
+        value: "Productivité",
       },
       {
         _key: "de",
@@ -231,14 +246,29 @@ export const featureCategories: FeatureCategory[] = [
         value: "Produktivität",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayStringValue",
-        value: "Productiviteit",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayStringValue",
         value: "उत्पादकता",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Produktivitas",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Продуктивность",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Productividad",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Ufanisi",
       },
     ],
     slug: {
@@ -249,9 +279,9 @@ export const featureCategories: FeatureCategory[] = [
   {
     _createdAt: "2023-11-13T10:24:00Z",
     _id: "dc26e05f-38e2-4a4a-9fd6-6c0e1b2cdda7",
-    _rev: "g4WGtXEJHMGyIQGoBzvNlX",
+    _rev: "o6EKSRmXrHYie9DfoEIs52",
     _type: "featureCategory",
-    _updatedAt: "2023-11-15T10:03:40Z",
+    _updatedAt: "2025-03-16T10:23:31Z",
     icon: {
       _type: "icon",
       predefined: {
@@ -293,19 +323,14 @@ export const featureCategories: FeatureCategory[] = [
         value: "Interface",
       },
       {
-        _key: "sw",
+        _key: "nl",
         _type: "internationalizedArrayStringValue",
-        value: "Kiolesura",
+        value: "Interface",
       },
       {
-        _key: "ru",
+        _key: "fr",
         _type: "internationalizedArrayStringValue",
-        value: "Интерфейс",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayStringValue",
-        value: "Antarmuka",
+        value: "Interface",
       },
       {
         _key: "de",
@@ -313,101 +338,34 @@ export const featureCategories: FeatureCategory[] = [
         value: "Schnittstelle",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayStringValue",
-        value: "Interface",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayStringValue",
         value: "इंटरफेस",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayStringValue",
+        value: "Antarmuka",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayStringValue",
+        value: "Интерфейс",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Interfaz",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayStringValue",
+        value: "Kiolesura",
       },
     ],
     slug: {
       _type: "slug",
       current: "interface",
-    },
-  },
-  {
-    _createdAt: "2023-11-13T10:20:34Z",
-    _id: "f77b7ce5-70cb-4956-84ab-12ea1ce7cc6c",
-    _rev: "g4WGtXEJHMGyIQGoBzvF9Q",
-    _type: "featureCategory",
-    _updatedAt: "2023-11-15T10:02:29Z",
-    icon: {
-      _type: "icon",
-      predefined: {
-        _type: "icon.manager",
-        icon: "ic:baseline-security",
-        metadata: {
-          author: {
-            name: "Material Design Authors",
-            url: "https://github.com/material-icons/material-icons",
-          },
-          collectionId: "ic",
-          collectionName: "Google Material Icons",
-          downloadUrl:
-            "https://api.iconify.design/ic:baseline-security.svg?width=20&height=20&download=1",
-          flip: "",
-          hFlip: false,
-          iconName: "baseline-security",
-          inlineSvg:
-            '<svg viewBox="0 0 24 24" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" fill="currentColor"></path></svg>',
-          license: {
-            name: "Apache 2.0",
-            url: "https://github.com/material-icons/material-icons/blob/master/LICENSE",
-          },
-          palette: false,
-          rotate: 0,
-          size: {
-            height: 20,
-            width: 20,
-          },
-          url: "https://api.iconify.design/ic:baseline-security.svg?width=20&height=20",
-          vFlip: false,
-        },
-      },
-    },
-    name: [
-      {
-        _key: "en",
-        _type: "internationalizedArrayStringValue",
-        value: "Security",
-      },
-      {
-        _key: "nl",
-        _type: "internationalizedArrayStringValue",
-        value: "Veiligheid",
-      },
-      {
-        _key: "de",
-        _type: "internationalizedArrayStringValue",
-        value: "Sicherheit",
-      },
-      {
-        _key: "hi",
-        _type: "internationalizedArrayStringValue",
-        value: "सुरक्षा",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayStringValue",
-        value: "Keamanan",
-      },
-      {
-        _key: "ru",
-        _type: "internationalizedArrayStringValue",
-        value: "Безопасность",
-      },
-      {
-        _key: "sw",
-        _type: "internationalizedArrayStringValue",
-        value: "Usalama",
-      },
-    ],
-    slug: {
-      _type: "slug",
-      current: "security",
     },
   },
 ];

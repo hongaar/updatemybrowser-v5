@@ -81,6 +81,46 @@ export const languages: Language[] = [
     name: "English",
   },
   {
+    _createdAt: "2025-03-16T09:47:46Z",
+    _id: "6d298c9f-7028-4742-aa61-87279d2ce878",
+    _rev: "o6EKSRmXrHYie9DfoE1c2c",
+    _type: "language",
+    _updatedAt: "2025-03-16T09:49:46Z",
+    flag: {
+      _type: "icon.manager",
+      icon: "flag:fr-4x3",
+      metadata: {
+        author: {
+          name: "Panayiotis Lipiridis",
+          url: "https://github.com/lipis/flag-icons",
+        },
+        collectionId: "flag",
+        collectionName: "Flag Icons",
+        downloadUrl:
+          "https://api.iconify.design/flag:fr-4x3.svg?width=20&height=20&download=1",
+        flip: "",
+        hFlip: false,
+        iconName: "fr-4x3",
+        inlineSvg:
+          '<svg viewBox="0 0 640 480" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h640v480H0z" fill="#fff"></path><path d="M0 0h213.3v480H0z" fill="#000091"></path><path d="M426.7 0H640v480H426.7z" fill="#e1000f"></path></svg>',
+        license: {
+          name: "MIT",
+          url: "https://github.com/lipis/flag-icons/blob/main/LICENSE",
+        },
+        palette: true,
+        rotate: 0,
+        size: {
+          height: 20,
+          width: 20,
+        },
+        url: "https://api.iconify.design/flag:fr-4x3.svg?width=20&height=20",
+        vFlip: false,
+      },
+    },
+    id: "fr",
+    name: "French",
+  },
+  {
     _createdAt: "2023-10-23T14:39:09Z",
     _id: "bf1dee63-2cf3-4bb2-8500-120d6017cccf",
     _rev: "7V6W77YnYTSXWZozOaBuyR",
@@ -239,6 +279,44 @@ export const languages: Language[] = [
     },
     id: "ru",
     name: "Russian",
+  },
+  {
+    _createdAt: "2025-03-16T09:48:15Z",
+    _id: "85af5894-8654-4bb3-82f9-e0b65aa700b5",
+    _rev: "Rmu4YGFGd1lnbD7ir13eD1",
+    _type: "language",
+    _updatedAt: "2025-03-16T09:48:15Z",
+    flag: {
+      _type: "icon.manager",
+      icon: "flag:es-4x3",
+      metadata: {
+        author: {
+          name: "Panayiotis Lipiridis",
+          url: "https://github.com/lipis/flag-icons",
+        },
+        collectionId: "flag",
+        collectionName: "Flag Icons",
+        downloadUrl:
+          "https://api.iconify.design/flag:es-4x3.svg?width=20&height=20&download=1",
+        flip: "",
+        hFlip: false,
+        iconName: "es-4x3",
+        license: {
+          name: "MIT",
+          url: "https://github.com/lipis/flag-icons/blob/main/LICENSE",
+        },
+        palette: true,
+        rotate: 0,
+        size: {
+          height: 20,
+          width: 20,
+        },
+        url: "https://api.iconify.design/flag:es-4x3.svg?width=20&height=20",
+        vFlip: false,
+      },
+    },
+    id: "es",
+    name: "Spanish",
   },
   {
     _createdAt: "2023-11-02T06:20:11Z",

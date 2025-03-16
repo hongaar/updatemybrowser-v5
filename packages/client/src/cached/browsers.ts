@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "I5fnOPTC27yxzyG5iejR5V",
+    _rev: "yf6YE3Avm57l7p1xz1cpsn",
     _type: "browser",
-    _updatedAt: "2025-02-26T03:25:18Z",
+    _updatedAt: "2025-03-16T10:23:15Z",
     description: [
       {
         _key: "en",
@@ -18,6 +18,12 @@ export const browsers: Browser[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Snel, veilig, aanpasbaar, met ingebouwde adblocker en VPN.",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Rapide, sécurisé, personnalisable, avec bloqueur de publicités et VPN intégré.",
       },
       {
         _key: "de",
@@ -41,6 +47,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Быстрый, безопасный, настраиваемый, с встроенным блокировщиком рек",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Rápido, seguro, personalizable, con bloqueador de anuncios y VPN integrado.",
       },
       {
         _key: "sw",
@@ -583,22 +595,16 @@ export const browsers: Browser[] = [
           "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. Two mobile versions are still active, called Opera Mobile and Opera Mini.",
       },
       {
-        _key: "sw",
+        _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera ni kivinjari cha wavuti kwa Windows, MacOS, na Linux ambacho ni mifumo ya uendeshaji iliyoandaliwa na Opera Software. Inatumia injini ya mpangilio wa Blink.",
+          "Opera is een webbrowser en internet suite die is ontwikkeld door het Noorse bedrijf Opera Software.",
       },
       {
-        _key: "ru",
+        _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera — веб-браузер и пакет прикладных программ для работы в Интернете, выпускаемый компанией Opera Software. Разработан в 1994 году группой исследователей из норвежской компании Telenor. С 1995 года — продукт компании Opera Software, образованной авторами первой версии браузера. Суммарная рыночная доля браузеров Opera в январе 2021 года составила 2,17 % — шестое место в мире. В России процент пользователей браузера выше среднемирового. В январе 2021 года доля браузеров Opera в Рунете составила 5,55%.",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Opera adalah peramban web dan paket perangkat lunak Internet lintas platform. Opera terdiri dari kumpulan perangkat lunak untuk Internet seperti peramban web, serta perangkat lunak untuk membaca dan mengirim surat elektronik. Opera dibuat oleh Opera Software yang bermarkas di Oslo, Norwegia. Opera dapat dijalankan di berbagai sistem operasi, termasuk Microsoft Windows, Mac OS, Solaris, FreeBSD dan Linux.",
+          "Opera est un navigateur web gratuit développé initialement par la société norvégienne Opera Software et détenu depuis 2016 par le consortium chinois Golden Brick. Le navigateur est disponible sur PC et mobiles.",
       },
       {
         _key: "de",
@@ -607,16 +613,34 @@ export const browsers: Browser[] = [
           "Opera ist ein kostenloser proprietärer Webbrowser. Er basierte bis einschließlich Version 12.18 auf einem eigenen HTML-Renderer. Seit der 2013 freigegebenen Version 15 nutzt er den Renderer der jeweils aktuellen Version des Webbrowsers Chromium. Opera ist für viele Plattformen verfügbar. Alleiniger Entwickler der geschlossenen Softwarekomponenten ist das norwegische Unternehmen Opera Software, das sich auch an der Fortentwicklung der quelloffenen Rendering-Engine beteiligt. Opera Software wurde 1995 in Norwegen von dem Isländer Jon Stephenson von Tetzchner und Geir Ivarsøy gegründet.",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Opera is een webbrowser en internet suite die is ontwikkeld door het Noorse bedrijf Opera Software.",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayTextValue",
         value:
           "ऑपेरा एक वेब ब्राउज़र होता है। इसमें संपूर्ण इंटरनेट सूट है जिसका विकास ऑपेरा सॉफ्टवेअर कंपनी ने किया है। यह ब्राउज़र निःशुल्क वितरण हेतु उपलब्ध है।",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Opera adalah peramban web dan paket perangkat lunak Internet lintas platform. Opera terdiri dari kumpulan perangkat lunak untuk Internet seperti peramban web, serta perangkat lunak untuk membaca dan mengirim surat elektronik. Opera dibuat oleh Opera Software yang bermarkas di Oslo, Norwegia. Opera dapat dijalankan di berbagai sistem operasi, termasuk Microsoft Windows, Mac OS, Solaris, FreeBSD dan Linux.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Opera — веб-браузер и пакет прикладных программ для работы в Интернете, выпускаемый компанией Opera Software. Разработан в 1994 году группой исследователей из норвежской компании Telenor. С 1995 года — продукт компании Opera Software, образованной авторами первой версии браузера. Суммарная рыночная доля браузеров Opera в январе 2021 года составила 2,17 % — шестое место в мире. В России процент пользователей браузера выше среднемирового. В январе 2021 года доля браузеров Opera в Рунете составила 5,55%.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Opera es un navegador web creado por la empresa noruega Opera Software. Actualmente propiedad de Golden Brick Capital, empresa China de inversión. Usa el motor de renderizado Blink. Tiene versiones para computadoras de escritorio, teléfonos móviles y tabletas.",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Opera ni kivinjari cha wavuti kwa Windows, MacOS, na Linux ambacho ni mifumo ya uendeshaji iliyoandaliwa na Opera Software. Inatumia injini ya mpangilio wa Blink.",
       },
     ],
     vendor: "Opera",
@@ -627,19 +651,14 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Opera_(web_browser)",
       },
       {
-        _key: "sw",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value: "https://sw.wikipedia.org/wiki/Opera_(wavuti)",
+        value: "https://nl.wikipedia.org/wiki/Opera_(webbrowser)",
       },
       {
-        _key: "ru",
+        _key: "fr",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Opera",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Opera_(peramban_web)",
+        value: "https://fr.wikipedia.org/wiki/Opera",
       },
       {
         _key: "de",
@@ -647,15 +666,30 @@ export const browsers: Browser[] = [
         value: "https://de.wikipedia.org/wiki/Opera_(Browser)",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Opera_(webbrowser)",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayUrlValue",
         value:
           "https://hi.wikipedia.org/wiki/%E0%A4%91%E0%A4%AA%E0%A5%87%E0%A4%B0%E0%A4%BE_%E0%A4%B5%E0%A5%87%E0%A4%AC_%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%89%E0%A4%9C%E0%A4%BC%E0%A4%B0",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Opera_(peramban_web)",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://ru.wikipedia.org/wiki/Opera",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://es.wikipedia.org/wiki/Opera_(navegador)",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://sw.wikipedia.org/wiki/Opera_(wavuti)",
       },
     ],
     youtubeId: "FxBBuxE6XTI",
@@ -663,9 +697,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "Gq1P9kp3mVo0yyjjfBUeps",
+    _rev: "yf6YE3Avm57l7p1xz1cq5N",
     _type: "browser",
-    _updatedAt: "2025-01-11T03:24:57Z",
+    _updatedAt: "2025-03-16T10:23:17Z",
     description: [
       {
         _key: "en",
@@ -676,6 +710,11 @@ export const browsers: Browser[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Android browser van Samsung.",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Navigateur Android par Samsung.",
       },
       {
         _key: "de",
@@ -696,6 +735,11 @@ export const browsers: Browser[] = [
         _key: "ru",
         _type: "internationalizedArrayStringValue",
         value: "Браузер Android от Samsung.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Navegador de Android de Samsung.",
       },
       {
         _key: "sw",
@@ -1006,10 +1050,16 @@ export const browsers: Browser[] = [
           "Samsung Internet is a Chromium-based web browser for Android smartphones developed by Samsung Electronics. It was first released in 2012 as a basic mobile browser for Samsung Galaxy devices.",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
-          "Samsung Internet Browser — разработанный компанией Samsung мобильный веб-браузер для смартфонов и планшетов, основанный на проекте Chromium с открытым исходным кодом. Предварительно установлен на устройствах Samsung Galaxy.",
+          "Samsung Internet Browser is een mobiele webbrowser voor smartphones en tablets, ontwikkeld door Samsung Electronics. De browser, die gebaseerd is op het open-source Chromium-project, wordt voor-geïnstalleerd op Samsung Galaxy-apparaten en kan sinds 2015 gedownload worden vanuit de Google Play.",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Samsung Internet pour Android est un navigateur web mobile pour les smartphones et les tablettes développé par Samsung. Il est basé sur le projet open-source Chromium et est préinstallé sur les appareils Samsung Galaxy. Il est disponible au téléchargement sur le Google Play Store depuis 2015. Samsung a estimé qu'il avait autour de 400 millions d'utilisateurs actifs par mois en 2016. Selon StatCounter, il avait une part de marché de près de 4.98% autour de mai 2018.",
       },
       {
         _key: "id",
@@ -1018,10 +1068,16 @@ export const browsers: Browser[] = [
           "Samsung Internet Browser adalah peramban web seluler untuk ponsel pintar dan tablet yang dikembangkan oleh Samsung Electronics. Sejak 2015, peramban ini tersedia untuk diunduh dari Google Play. Samsung memperkirakan terdapat 400 juta pengguna aktif bulanan pada 2016.",
       },
       {
-        _key: "nl",
+        _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Samsung Internet Browser is een mobiele webbrowser voor smartphones en tablets, ontwikkeld door Samsung Electronics. De browser, die gebaseerd is op het open-source Chromium-project, wordt voor-geïnstalleerd op Samsung Galaxy-apparaten en kan sinds 2015 gedownload worden vanuit de Google Play.",
+          "Samsung Internet Browser — разработанный компанией Samsung мобильный веб-браузер для смартфонов и планшетов, основанный на проекте Chromium с открытым исходным кодом. Предварительно установлен на устройствах Samsung Galaxy.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Samsung Internet Browser es un navegador web móvil para teléfonos inteligentes y tabletas desarrollado por Samsung Electronics. Se basa en el proyecto Chromium de código abierto. Está preinstalado en dispositivos Samsung Galaxy. Desde 2015, ha estado disponible para su descarga desde Google Play, y recientemente también está disponible para su reloj inteligente basado en Tizen a través de Samsung Galaxy Store. Samsung estimó que tenía alrededor de 400 millones de usuarios activos mensuales en 2016. Según StatCounter, tenía una cuota de mercado de alrededor del 4,98% alrededor de mayo de 2018.",
       },
     ],
     vendor: "Samsung",
@@ -1032,9 +1088,14 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Samsung_Internet",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Samsung_Internet_Browser",
+        value: "https://nl.wikipedia.org/wiki/Samsung_Internet",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://fr.wikipedia.org/wiki/Samsung_Internet",
       },
       {
         _key: "id",
@@ -1042,18 +1103,23 @@ export const browsers: Browser[] = [
         value: "https://id.wikipedia.org/wiki/Samsung_Internet",
       },
       {
-        _key: "nl",
+        _key: "ru",
         _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Samsung_Internet",
+        value: "https://ru.wikipedia.org/wiki/Samsung_Internet_Browser",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://es.wikipedia.org/wiki/Samsung_Internet",
       },
     ],
   },
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "27IdYXOVe1PEc0ZOAm8Cfy",
+    _rev: "7kaIE0fx1bl03pWpFuVzcA",
     _type: "browser",
-    _updatedAt: "2024-12-09T03:29:39Z",
+    _updatedAt: "2025-03-16T10:23:18Z",
     description: [
       {
         _key: "en",
@@ -1064,6 +1130,12 @@ export const browsers: Browser[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Moderne open-source browser ondersteunt meerdere platforms.",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Navigateur open-source moderne prend en charge plusieurs plateformes.",
       },
       {
         _key: "de",
@@ -1085,6 +1157,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Современный браузер с открытым исходным кодом поддерживает множество п",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "El navegador de código abierto moderno es compatible con múltiples plataformas.",
       },
       {
         _key: "sw",
@@ -1361,16 +1439,16 @@ export const browsers: Browser[] = [
           "Chromium is a free and open-source web browser project, primarily developed and maintained by Google. It is a widely-used codebase, providing the vast majority of code for Google Chrome and many other browsers, including Microsoft Edge, Samsung Internet, and Opera. The code is also used by several app frameworks.",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
-          "Chromium — веб-браузер с открытым исходным кодом, разрабатываемый сообществом The Chromium Authors, компанией Google и некоторыми другими компаниями. По утверждению разработчиков, Chromium предназначен для предоставления пользователям быстрого, безопасного и надёжного доступа в Интернет, а также удобной платформы для веб-приложений. На основе Chromium создан браузер Google Chrome, а также ряд других альтернативных веб-обозревателей.",
+          "Chromium is een opensourceproject dat de broncode voor Google Chrome en afgeleiden levert. De broncode wordt vrijgegeven onder de BSD-licentie. De layout-engine is Blink, een fork van WebKit. Op basis van de broncode kan er een browser worden gecompileerd, die dan de naam Chromium meekrijgt. Er is echter geen officiële en stabiele download, wel gemeenschapsuitgaven en andere toepassingen van Chromium. Testversies worden wel beschikbaar gesteld in gecompileerde vorm.",
       },
       {
-        _key: "id",
+        _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          "Chromium adalah proyek peramban web sumber terbuka di mana Google Chrome yang mengambil kode sumbernya. Penjelajah ini berbagi mayoritas kode dan fitur, meskipun ada beberapa perbedaan kecil dalam fitur dan mereka memiliki lisensi yang berbeda.",
+          "Chromium est un navigateur web libre développé par l’organisation Chromium Project créée par Google en 2008. Chromium sert de base à plusieurs autres navigateurs, dont certains open-source (Brave…) et d'autres propriétaires.",
       },
       {
         _key: "de",
@@ -1379,16 +1457,28 @@ export const browsers: Browser[] = [
           "Unter dem Namen Chromium wird der Großteil des Quelltextes des Webbrowsers Google Chrome unter der BSD-Lizenz als freie Software zur Verfügung gestellt. Das Projekt wurde am 2. September 2008 gestartet. Viele weitere Browser basieren auf der Code-Basis von Chromium, darunter Microsoft Edge, Opera, Vivaldi und Brave.",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Chromium is een opensourceproject dat de broncode voor Google Chrome en afgeleiden levert. De broncode wordt vrijgegeven onder de BSD-licentie. De layout-engine is Blink, een fork van WebKit. Op basis van de broncode kan er een browser worden gecompileerd, die dan de naam Chromium meekrijgt. Er is echter geen officiële en stabiele download, wel gemeenschapsuitgaven en andere toepassingen van Chromium. Testversies worden wel beschikbaar gesteld in gecompileerde vorm.",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayTextValue",
         value:
           "क्रोमियम  एक निःशुल्क और मुक्तस्रोत सॉफ्टवेयर और वेब ब्राउज़र है, जिसे गूगल द्वारा विकसित और अनुरक्षित किया जाता है।",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Chromium adalah proyek peramban web sumber terbuka di mana Google Chrome yang mengambil kode sumbernya. Penjelajah ini berbagi mayoritas kode dan fitur, meskipun ada beberapa perbedaan kecil dalam fitur dan mereka memiliki lisensi yang berbeda.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Chromium — веб-браузер с открытым исходным кодом, разрабатываемый сообществом The Chromium Authors, компанией Google и некоторыми другими компаниями. По утверждению разработчиков, Chromium предназначен для предоставления пользователям быстрого, безопасного и надёжного доступа в Интернет, а также удобной платформы для веб-приложений. На основе Chromium создан браузер Google Chrome, а также ряд других альтернативных веб-обозревателей.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Chromium es una base de código abierto para desarrollar un navegador web, mantenida por diversas compañías que posteriormente usan el código fuente para crear su propia versión de navegador con características adicionales.",
       },
     ],
     vendor: "The Chromium Authors",
@@ -1399,14 +1489,14 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Chromium_(web_browser)",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Chromium",
+        value: "https://nl.wikipedia.org/wiki/Chromium_(software)",
       },
       {
-        _key: "id",
+        _key: "fr",
         _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Chromium_(peramban_web)",
+        value: "https://fr.wikipedia.org/wiki/Chromium",
       },
       {
         _key: "de",
@@ -1414,24 +1504,34 @@ export const browsers: Browser[] = [
         value: "https://de.wikipedia.org/wiki/Chromium_(Browser)",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Chromium_(software)",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayUrlValue",
         value:
           "https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%AE%E0%A4%BF%E0%A4%AF%E0%A4%AE_(%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%89%E0%A4%9C%E0%A4%BC%E0%A4%B0)",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Chromium_(peramban_web)",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://ru.wikipedia.org/wiki/Chromium",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://es.wikipedia.org/wiki/Chromium_(navegador)",
       },
     ],
   },
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "7UEpSYYZ3JI9JZHh7hiOC6",
+    _rev: "yf6YE3Avm57l7p1xz1crEf",
     _type: "browser",
-    _updatedAt: "2025-02-11T03:24:42Z",
+    _updatedAt: "2025-03-16T10:23:19Z",
     description: [
       {
         _key: "en",
@@ -1442,6 +1542,12 @@ export const browsers: Browser[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Open-source, veilige en aanpasbare browser van Mozilla.",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Navigateur open-source, sécurisé et personnalisable par Mozilla.",
       },
       {
         _key: "de",
@@ -1464,6 +1570,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Браузер с открытым исходным кодом, безопасный и настраиваемый от Mozilla.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Navegador de código abierto, seguro y personalizable por Mozilla.",
       },
       {
         _key: "sw",
@@ -1834,22 +1946,16 @@ export const browsers: Browser[] = [
           "Mozilla Firefox, or simply Firefox, is a free and open source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other operating systems, such as reactOS. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
       },
       {
-        _key: "sw",
+        _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox ni kivinjari cha kompyuta. Inafanywa na Maanzilisho ya Mozilla. Inatumika kwenye mifumo yote ya kawaida ya uendeshaji, kama vile Windows, MacOS na Linux, na kwa Firefox pia inapatikana kwa Android.",
+          "Mozilla Firefox is een gratis, vrije en opensource-webbrowser ontwikkeld door het Mozilla-project en vrijwilligers. Firefox is gebaseerd op de Gecko-layout-engine uit het Mozilla-project. De naam is een Engelse bijnaam voor de rode of kleine panda.",
       },
       {
-        _key: "ru",
+        _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox — свободный браузер на движке Gecko, разработкой и распространением которого занимается Mozilla Corporation. Четвёртый по популярности браузер в мире и первый среди свободного ПО — в марте 2021 года его рыночная доля составила ▼7,49 %.\nВ России Firefox занимает четвёртое место по популярности среди браузеров для ПК с долей 5,26 % пользователей на март 2021 года.",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Mozilla Firefox, atau Firefox adalah peramban web lintas platform bebas dan sumber terbuka yang dikembangkan oleh Yayasan Mozilla dan ratusan sukarelawan.",
+          "Mozilla Firefox [mɒˈzɪlə ˈfaɪɚfɑks] est un navigateur web libre et gratuit disponible pour PC et mobiles, développé et distribué par la Mozilla Foundation depuis 2003, avec l'aide de milliers de bénévoles. L'entreprise Mozilla Corporation est créée en 2005 pour se charger du développement.",
       },
       {
         _key: "de",
@@ -1858,16 +1964,34 @@ export const browsers: Browser[] = [
           "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Die Marktanteile von Firefox sind seit ca. 2007 beständig gefallen; sie sanken von ehemals über 70 % auf etwa 2,9 % im Jahr 2024 weltweit.",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Mozilla Firefox is een gratis, vrije en opensource-webbrowser ontwikkeld door het Mozilla-project en vrijwilligers. Firefox is gebaseerd op de Gecko-layout-engine uit het Mozilla-project. De naam is een Engelse bijnaam voor de rode of kleine panda.",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayTextValue",
         value:
           "मोज़िला फ़ायरफ़ॉक्स मोज़िला फ़ाउण्डेशन और उसकी सहायक, मोज़िला निगम, द्वारा विण्डोज,मैक ओएस, लिनक्स और एण्ड्रॉयड के लिए विकसित किया गया एक स्वतंत्र और खुला स्रोत वेब ब्राउज़र है। मोज़िला कॉर्पोरेशन एक मुक्त स्रोत सॉफ़्टवेयर समुदाय है जो फ़ायरफ़ॉक्स को प्रबन्धित करती है।यह वेब पेजों को प्रदर्शित करने के लिए गीको प्रतिपादन इंजन का उपयोग करता है, जो वर्तमान और प्रत्याशित वेब मानकों को लागू करता है।",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Mozilla Firefox, atau Firefox adalah peramban web lintas platform bebas dan sumber terbuka yang dikembangkan oleh Yayasan Mozilla dan ratusan sukarelawan.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Mozilla Firefox — свободный браузер на движке Gecko, разработкой и распространением которого занимается Mozilla Corporation. Четвёртый по популярности браузер в мире и первый среди свободного ПО — в марте 2021 года его рыночная доля составила ▼7,49 %.\nВ России Firefox занимает четвёртое место по популярности среди браузеров для ПК с долей 5,26 % пользователей на март 2021 года.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Mozilla Firefox es un navegador web libre y de código abierto desarrollado para distintas plataformas, está coordinado por la Corporación Mozilla y la Fundación Mozilla. Usa el motor Gecko para renderizar páginas web, el cual implementa actuales y futuros estándares web.",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Mozilla Firefox ni kivinjari cha kompyuta. Inafanywa na Maanzilisho ya Mozilla. Inatumika kwenye mifumo yote ya kawaida ya uendeshaji, kama vile Windows, MacOS na Linux, na kwa Firefox pia inapatikana kwa Android.",
       },
     ],
     vendor: "Mozilla",
@@ -1878,19 +2002,14 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Firefox",
       },
       {
-        _key: "sw",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value: "https://sw.wikipedia.org/wiki/Mozilla_Firefox",
+        value: "https://nl.wikipedia.org/wiki/Mozilla_Firefox",
       },
       {
-        _key: "ru",
+        _key: "fr",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Mozilla_Firefox",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Firefox",
+        value: "https://fr.wikipedia.org/wiki/Mozilla_Firefox",
       },
       {
         _key: "de",
@@ -1898,15 +2017,30 @@ export const browsers: Browser[] = [
         value: "https://de.wikipedia.org/wiki/Mozilla_Firefox",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Mozilla_Firefox",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayUrlValue",
         value:
           "https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A5%8B%E0%A4%9C%E0%A4%BC%E0%A4%BF%E0%A4%B2%E0%A4%BE_%E0%A4%AB%E0%A4%BC%E0%A4%BE%E0%A4%AF%E0%A4%B0%E0%A4%AB%E0%A4%BC%E0%A5%89%E0%A4%95%E0%A5%8D%E0%A4%B8",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Firefox",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://ru.wikipedia.org/wiki/Mozilla_Firefox",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://es.wikipedia.org/wiki/Mozilla_Firefox",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://sw.wikipedia.org/wiki/Mozilla_Firefox",
       },
     ],
     youtubeId: "pU1hR5tUBT0",
@@ -1914,9 +2048,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "CpL9FWqkqp36faTVGAH75s",
+    _rev: "7kaIE0fx1bl03pWpFuVzek",
     _type: "browser",
-    _updatedAt: "2025-01-21T03:24:11Z",
+    _updatedAt: "2025-03-16T10:23:20Z",
     description: [
       {
         _key: "en",
@@ -1928,6 +2062,11 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Privacygericht, blokkeert advertenties en trackers, veilig surfen.",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Navigation sécurisée, bloque les publicités et les traqueurs.",
       },
       {
         _key: "de",
@@ -1951,6 +2090,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Защита конфиденциальности, блокировка рекламы и трекеров, безопасный",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Navegación segura, bloquea anuncios y rastreadores, protege la privacidad.",
       },
       {
         _key: "sw",
@@ -2154,6 +2299,12 @@ export const browsers: Browser[] = [
           "Brave is een opensource-webbrowser van Brave Software Inc. Brave is beschikbaar voor Microsoft Windows, macOS, iOS, Linux en Android. De op Chromium gebaseerde browser blokkeert automatisch trackers en advertenties, waarmee er een grote focus op privacy ligt.",
       },
       {
+        _key: "fr",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Brave est un navigateur web open source gratuit disponible sur Windows, macOS et Linux ainsi que sur iOS et Android. Il a pour objectif de protéger la vie privée de ses utilisateurs en bloquant par défaut les pisteurs et en permettant la navigation privée via le réseau Tor. Le logiciel, fondé sur Chromium, est développé par l’entreprise Brave Software depuis 2016.",
+      },
+      {
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
@@ -2177,6 +2328,12 @@ export const browsers: Browser[] = [
         value:
           "Brave — веб-браузер со свободным и открытым исходным кодом на основе веб-браузера Chromium на движке Blink, анонсированный соучредителем корпорации Mozilla Project и создателем JavaScript Бренданом Эйхом. Создатели утверждают, что Brave блокирует трекеры сайтов и удаляет навязчивую интернет-рекламу, повышает уровень приватности в интернете и уменьшает количество передаваемых о потребителях рекламы данных. По данным на 2021-й год, стабильный релиз доступен для iOS, Android, Windows, macOS и Linux.",
       },
+      {
+        _key: "es",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Brave es un navegador web de código abierto basado en Chromium, creado por la compañía Brave Software en el año 2016, fundada por el cofundador del Proyecto Mozilla y creador de JavaScript, Brendan Eich.",
+      },
     ],
     vendor: "Brave Software",
     wikipediaUrl: [
@@ -2189,6 +2346,11 @@ export const browsers: Browser[] = [
         _key: "nl",
         _type: "internationalizedArrayUrlValue",
         value: "https://nl.wikipedia.org/wiki/Brave_(webbrowser)",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://fr.wikipedia.org/wiki/Brave_(navigateur_web)",
       },
       {
         _key: "de",
@@ -2212,15 +2374,20 @@ export const browsers: Browser[] = [
         value:
           "https://ru.wikipedia.org/wiki/Brave_(%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80)",
       },
+      {
+        _key: "es",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://es.wikipedia.org/wiki/Brave_(navegador_web)",
+      },
     ],
     youtubeId: "fiXaHv_9rmQ",
   },
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "GVHi05WSZKwfby06pvfgQi",
+    _rev: "7kaIE0fx1bl03pWpFuVzhK",
     _type: "browser",
-    _updatedAt: "2024-02-17T03:21:33Z",
+    _updatedAt: "2025-03-16T10:23:21Z",
     description: [
       {
         _key: "en",
@@ -2231,6 +2398,11 @@ export const browsers: Browser[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Verouderde browser die standaard was op Windows.",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Navigateur obsolète qui était le choix par défaut sur Windows.",
       },
       {
         _key: "de",
@@ -2253,6 +2425,11 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Устаревший браузер, который был установлен по умолчанию в Windows.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Navegador heredado que era el predeterminado en Windows.",
       },
       {
         _key: "sw",
@@ -2491,16 +2668,16 @@ export const browsers: Browser[] = [
           "Internet Explorer is a retired series of graphical web browsers developed by Microsoft that were used in the Windows line of operating systems. While IE has been discontinued on most Windows editions, it remains supported on certain editions of Windows, such as Windows 10 LTSB/LTSC. Starting in 1995, it was first released as part of the add-on package Plus! for Windows 95 that year. Later versions were available as free downloads or in-service packs and included in the original equipment manufacturer (OEM) service releases of Windows 95 and later versions of Windows. Microsoft spent over US$100 million per year on Internet Explorer in the late 1990s, with over 1,000 people involved in the project by 1999. New feature development for the browser was discontinued in 2016 and ended support on June 15, 2022 for Windows 10 Semi-Annual Channel (SAC), in favor of its successor, Microsoft Edge.",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
-          "Internet Explorer — семейство интернет-браузеров, разрабатывавшихся корпорацией Microsoft с 1995 по 2016 год. Релиз первой версии браузера для Windows 95 в составе пакета Microsoft Plus! состоялся 24 августа 1995 года. Последняя стабильная версия браузера, одиннадцатая, вышла 17 октября 2013 года для Windows 8.1 и Windows Server 2012 R2. В основе Internet Explorer лежат браузерные движки Trident (MSHTML) для отображения веб-страниц и Chakra для обработки скриптов JavaScript, а сам браузер был создан на основе Spyglass Mosaic.",
+          "Internet Explorer is een reeks grafische webbrowsers ontwikkeld door Microsoft en is onderdeel van Microsoft Windows, een reeks besturingssystemen. De ontwikkeling is gestart in 1995. Internet Explorer is voor het eerst gelanceerd als onderdeel van Plus! for Windows 95 later dat jaar. Latere versies waren beschikbaar als gratis downloads of Service Packs. Ook was Internet Explorer onderdeel van de OEM-versies van Windows 95 en later.",
       },
       {
-        _key: "id",
+        _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          "Windows Internet Explorer adalah sebuah peramban web dan perangkat lunak tak bebas yang gratis dari Microsoft, dan disertakan dalam setiap rilis sistem operasi Microsoft Windows sejak 1995. Pada mulanya, Internet Explorer dirilis sebagai bagian dari paket Plus! for Windows 95 (Inggris) pada saat itu.",
+          "Internet Explorer, souvent abrégé IE, est un navigateur web ancien développé par la société américaine Microsoft, qui était préinstallé par défaut sur Windows. À partir de la fin des années 1990, il a surpassé Netscape Navigator et a été le navigateur le plus utilisé au monde jusqu'en 2012, atteignant plus de 95 % de part de marché en 2004. Cependant, sa popularité a chuté, atteignant moins de 1 % de part de marché en mars 2021, et il n'est plus activement développé. Microsoft a remplacé Internet Explorer par Microsoft Edge, dont le développement a débuté en 2015, d'abord basé sur EdgeHTML, puis, depuis 2020, sur Chromium.",
       },
       {
         _key: "de",
@@ -2509,16 +2686,28 @@ export const browsers: Browser[] = [
           "Internet Explorer ist ein inzwischen abgelöster Webbrowser des Softwareherstellers Microsoft für verschiedene Plattformen.",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Internet Explorer is een reeks grafische webbrowsers ontwikkeld door Microsoft en is onderdeel van Microsoft Windows, een reeks besturingssystemen. De ontwikkeling is gestart in 1995. Internet Explorer is voor het eerst gelanceerd als onderdeel van Plus! for Windows 95 later dat jaar. Latere versies waren beschikbaar als gratis downloads of Service Packs. Ook was Internet Explorer onderdeel van de OEM-versies van Windows 95 en later.",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayTextValue",
         value:
           "विण्डोज़ इण्टरनेट ऍक्सप्लोरर ग्राफ़िकल वेब ब्राउज़रों की एक श्रेणी है, जिसका विकास माइक्रोसॉफ्ट कंपनी ने किया है। यह माइक्रोसॉफ्ट द्वारा १९९५ से जारी व चालू विंडोज़ ऑपरेटिंग सिस्टम लाइन का एक सॉफ्टवेयर है। १९९९ से बहुप्रचलित ये ब्राउज़र २००२-०३ के बीच प्रयोग का ९५% प्रतिशत श्रेय लेता रहा है। उस समय आइ॰ ई॰-५ एवं आइ॰ ई॰-६ प्रचलन में रहे थे।",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Windows Internet Explorer adalah sebuah peramban web dan perangkat lunak tak bebas yang gratis dari Microsoft, dan disertakan dalam setiap rilis sistem operasi Microsoft Windows sejak 1995. Pada mulanya, Internet Explorer dirilis sebagai bagian dari paket Plus! for Windows 95 (Inggris) pada saat itu.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Internet Explorer — семейство интернет-браузеров, разрабатывавшихся корпорацией Microsoft с 1995 по 2016 год. Релиз первой версии браузера для Windows 95 в составе пакета Microsoft Plus! состоялся 24 августа 1995 года. Последняя стабильная версия браузера, одиннадцатая, вышла 17 октября 2013 года для Windows 8.1 и Windows Server 2012 R2. В основе Internet Explorer лежат браузерные движки Trident (MSHTML) для отображения веб-страниц и Chakra для обработки скриптов JavaScript, а сам браузер был создан на основе Spyglass Mosaic.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayTextValue",
+        value:
+          'Internet Explorer es una serie descontinuada de navegadores web gráficos desarrollado por Microsoft para el sistema operativo Microsoft Windows desde 1995. Se lanzó por primera vez como parte del paquete complementario "Plus!" para Windows 95 ese año.',
       },
     ],
     vendor: "Microsoft",
@@ -2529,14 +2718,14 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Internet_Explorer",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Internet_Explorer",
+        value: "https://nl.wikipedia.org/wiki/Internet_Explorer",
       },
       {
-        _key: "id",
+        _key: "fr",
         _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Internet_Explorer",
+        value: "https://fr.wikipedia.org/wiki/Internet_Explorer",
       },
       {
         _key: "de",
@@ -2544,24 +2733,34 @@ export const browsers: Browser[] = [
         value: "https://de.wikipedia.org/wiki/Internet_Explorer",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Internet_Explorer",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayUrlValue",
         value:
           "https://hi.wikipedia.org/wiki/%E0%A4%87%E0%A4%A3%E0%A5%8D%E0%A4%9F%E0%A4%B0%E0%A4%A8%E0%A5%87%E0%A4%9F_%E0%A4%8D%E0%A4%95%E0%A5%8D%E0%A4%B8%E0%A4%AA%E0%A5%8D%E0%A4%B2%E0%A5%8B%E0%A4%B0%E0%A4%B0",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Internet_Explorer",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://ru.wikipedia.org/wiki/Internet_Explorer",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://es.wikipedia.org/wiki/Internet_Explorer",
       },
     ],
   },
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "CsGuwmQ5PMpgptIBIHaXGu",
+    _rev: "yf6YE3Avm57l7p1xz1cri1",
     _type: "browser",
-    _updatedAt: "2024-12-27T03:24:41Z",
+    _updatedAt: "2025-03-16T10:23:22Z",
     description: [
       {
         _key: "en",
@@ -2574,6 +2773,11 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "De snelle en privé standaardbrowser van Apple op Mac- en iOS-apparaten.",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Navigateur rapide et privé par défaut sur Mac et iOS.",
       },
       {
         _key: "de",
@@ -2597,6 +2801,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Быстрый и конфиденциальный браузер Apple по умолчанию на устройствах Mac и iOS",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Navegador predeterminado rápido y privado de Apple en dispositivos Mac e iOS.",
       },
       {
         _key: "sw",
@@ -2962,16 +3172,16 @@ export const browsers: Browser[] = [
           "Safari is a web browser developed by Apple. It is built into several of Apple's operating systems, including macOS, iOS, iPadOS and visionOS, and uses Apple's open-source browser engine WebKit, which was derived from KHTML.",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
-          "Safari — веб-браузер, разработанный корпорацией Apple и входящий в состав macOS и iOS. По состоянию на февраль 2019, занимает второе место по числу пользователей в мире. В России браузер менее популярен: он занимает третью позицию c ▲ 9,01 % пользователей.",
+          "Safari is een webbrowser die ontwikkeld is door Apple en beschikbaar is voor de besturingssystemen macOS, iOS en iPadOS.",
       },
       {
-        _key: "id",
+        _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          "Safari adalah sebuah peramban web buatan Apple Inc. yang awalnya ditujukan khusus bagi sistem operasi Mac OS. Safari dipasang bersama Mac OS X dan merupakan peramban web bawaan di sistem operasi tersebut sejak Mac OS X v10.3. Sebelumnya dari tahun 1997 hingga 2003, Mac OS X menggunakan Internet Explorer for Mac sebagai peramban web bawaan. Pada 11 Juni 2007, versi pratayang untuk Windows baik yang cocok untuk Windows XP dan Windows Vista dari Safari diperkenalkan pada Muktamar Pengembang Sedunia Apple di San Francisco.",
+          "Safari est un navigateur web pour macOS, iPadOS et iOS développé par Apple, dont le moteur de rendu HTML WebKit est fondé sur KHTML.",
       },
       {
         _key: "de",
@@ -2980,16 +3190,28 @@ export const browsers: Browser[] = [
           "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS, iOS und iPadOS. Safari verwendet Apples Open-Source-Browser-Engine WebKit.",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Safari is een webbrowser die ontwikkeld is door Apple en beschikbaar is voor de besturingssystemen macOS, iOS en iPadOS.",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayTextValue",
         value:
           "सफारी एप्पल कंपनी का वेब ब्राउज़र है। एप्पल ने हाल ही में सफारी का नया संस्करण सफारी ४ लाँच किया है। इस ब्राउजर में नया नाइट्रो इंजिन लगाया गया है। एप्पल के अनुसार यह ब्राउज़र सबसे तेज़ है। वैसे इसमें सुरक्षा की दृष्टि से कोई नया फीचर जोड़ा नहीं गया है। लेकिन फिशिंग और मेलावेयर सुरक्षा संबंधित पुराने सभी फीचर इसमें पहले ही उपलब्ध है। सफारी का टेब सिस्टम अब सबसे ऊपर लगा दिया गया है। इसके अलावा टोप साइट सुविधा मनवांछित साइटें सरलतम तरीक़े से खोलने देती है। सफारी की एक नई सुविधा है कवर फ्लो। यह सुविधा पिछली बार सर्फ की गई साइटों की जानकारियाँ और प्रिव्यू प्रदान करता है। कवर फ्लो साइटों को उसी क्रम में समायोजित करता है जिस क्रम में वे सर्फ की गई थी।",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Safari adalah sebuah peramban web buatan Apple Inc. yang awalnya ditujukan khusus bagi sistem operasi Mac OS. Safari dipasang bersama Mac OS X dan merupakan peramban web bawaan di sistem operasi tersebut sejak Mac OS X v10.3. Sebelumnya dari tahun 1997 hingga 2003, Mac OS X menggunakan Internet Explorer for Mac sebagai peramban web bawaan. Pada 11 Juni 2007, versi pratayang untuk Windows baik yang cocok untuk Windows XP dan Windows Vista dari Safari diperkenalkan pada Muktamar Pengembang Sedunia Apple di San Francisco.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Safari — веб-браузер, разработанный корпорацией Apple и входящий в состав macOS и iOS. По состоянию на февраль 2019, занимает второе место по числу пользователей в мире. В России браузер менее популярен: он занимает третью позицию c ▲ 9,01 % пользователей.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Safari es un navegador web de código cerrado desarrollado por Apple Inc. Está disponible para macOS, iPadOS e iOS, y de 2007 a 2012, estuvo disponible para Windows.",
       },
     ],
     vendor: "Apple",
@@ -3000,14 +3222,14 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Safari_(web_browser)",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Safari",
+        value: "https://nl.wikipedia.org/wiki/Safari_(webbrowser)",
       },
       {
-        _key: "id",
+        _key: "fr",
         _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Safari_(peramban_web)",
+        value: "https://fr.wikipedia.org/wiki/Safari_(navigateur_web)",
       },
       {
         _key: "de",
@@ -3015,24 +3237,34 @@ export const browsers: Browser[] = [
         value: "https://de.wikipedia.org/wiki/Safari_(Browser)",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Safari_(webbrowser)",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayUrlValue",
         value:
           "https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%AB%E0%A4%BC%E0%A4%BE%E0%A4%B0%E0%A5%80_%E0%A4%B5%E0%A5%87%E0%A4%AC_%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%89%E0%A4%9C%E0%A4%BC%E0%A4%B0",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Safari_(peramban_web)",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://ru.wikipedia.org/wiki/Safari",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://es.wikipedia.org/wiki/Safari_(navegador)",
       },
     ],
   },
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "DhXUHjo1pBqkOz5GHfVHsG",
+    _rev: "o6EKSRmXrHYie9DfoEIrhy",
     _type: "browser",
-    _updatedAt: "2024-11-01T03:26:57Z",
+    _updatedAt: "2025-03-16T10:23:23Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -3071,6 +3303,11 @@ export const browsers: Browser[] = [
         value: "Populaire, gebruiksvriendelijke en veilige browser van Google.",
       },
       {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value: "Navigateur populaire, convivial et sécurisé de Google.",
+      },
+      {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
@@ -3090,6 +3327,11 @@ export const browsers: Browser[] = [
         _key: "ru",
         _type: "internationalizedArrayStringValue",
         value: "Популярный, удобный и безопасный браузер от Google.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value: "Navegador popular, fácil de usar y seguro de Google.",
       },
       {
         _key: "sw",
@@ -3630,22 +3872,16 @@ export const browsers: Browser[] = [
           "Google Chrome is a web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, iPadOS, and also for Android, where it is the default browser. The browser is also the main component of ChromeOS, where it serves as the platform for web applications.",
       },
       {
-        _key: "sw",
+        _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
-          "Google Chrome ni kivinjari wavuti kilichotengenezwa na Google LLC. Iliyotolewa mara ya kwanza mwezi Septemba 2008, kwa ajili ya Microsoft Windows, na baadaye ikafikishwa kwenye Linux, MacOS, iOS na Android.",
+          "Google Chrome is een webbrowser ontwikkeld door Google. Google Chrome maakt gebruik van het op WebKit gebaseerde Blink en ook van andere openbronsoftware, vooral die van Mozilla. Google Chrome is gebaseerd op Chromium, een openbronproject van Google. Google Chrome is voor verschillende besturingssystemen geschikt, waarvan de laatste versies niet steeds tegelijk worden uitgebracht. De updates zijn recent.",
       },
       {
-        _key: "ru",
+        _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          "Google Chrome — браузер, разрабатываемый компанией Google на основе свободного браузера Chromium и движка Blink. Первая публичная бета-версия для Windows вышла 2 сентября 2008 года, а первая стабильная — 11 декабря 2008 года. По данным StatCounter, рыночная доля Chrome на июль 2024 года составляет ▲65,69 %.",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Google Chrome adalah peramban web lintas platform yang dikembangkan oleh Google. Peramban ini pertama kali dirilis pada tahun 2008 untuk Microsoft Windows, kemudian diporting ke Android, iOS, Linux, dan macOS yang menjadikannya sebagai peramban bawaan dalam sistem operasi. Peramban ini juga merupakan komponen utama Chrome OS, yang berfungsi sebagai platform untuk aplikasi web.",
+          "Chrome est un navigateur web propriétaire développé par Google depuis 2008, basé sur le projet libre Chromium fonctionnant sous Windows, MacOS, Linux, Android et iOS.",
       },
       {
         _key: "de",
@@ -3654,16 +3890,34 @@ export const browsers: Browser[] = [
           "Google Chrome ist ein Webbrowser des US-amerikanischen Unternehmens Google LLC. Er ist seit Mai 2012 der weltweit am weitesten verbreitete Browser.",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayTextValue",
-        value:
-          "Google Chrome is een webbrowser ontwikkeld door Google. Google Chrome maakt gebruik van het op WebKit gebaseerde Blink en ook van andere openbronsoftware, vooral die van Mozilla. Google Chrome is gebaseerd op Chromium, een openbronproject van Google. Google Chrome is voor verschillende besturingssystemen geschikt, waarvan de laatste versies niet steeds tegelijk worden uitgebracht. De updates zijn recent.",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayTextValue",
         value:
           "गूगल क्रोम एक वेब ब्राउज़र है जिसे गूगल द्वारा मुक्त स्रोत कोड द्वारा निर्मित किया गया है। इसका नाम ग्राफिकल यूज़र इंटरफ़ेस (GUI) के फ्रेम यानि क्रोम पर रखा गया है। इस प्रकल्प का नाम क्रोमियम है तथा इसे बीएसडी लाईसेंस के तहत जारी किया गया है। २ सितंबर, २००८ को गूगल क्रोम का ४३ भाषाओं में माइक्रोसॉफ्ट विंडोज़ प्रचालन तंत्र हेतु बीटा संस्करण जारी किया गया। यह नया ब्राउज़र मुक्त स्रोत लाइनक्स कोड पर आधारित होगा, जिसमें तृतीय पार्टी विकासकर्ता को भी उसके अनुकूल अनुप्रयोग बनाने की सुविधा मिल सकेगी।",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Google Chrome adalah peramban web lintas platform yang dikembangkan oleh Google. Peramban ini pertama kali dirilis pada tahun 2008 untuk Microsoft Windows, kemudian diporting ke Android, iOS, Linux, dan macOS yang menjadikannya sebagai peramban bawaan dalam sistem operasi. Peramban ini juga merupakan komponen utama Chrome OS, yang berfungsi sebagai platform untuk aplikasi web.",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Google Chrome — браузер, разрабатываемый компанией Google на основе свободного браузера Chromium и движка Blink. Первая публичная бета-версия для Windows вышла 2 сентября 2008 года, а первая стабильная — 11 декабря 2008 года. По данным StatCounter, рыночная доля Chrome на июль 2024 года составляет ▲65,69 %.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Google Chrome es un navegador web de código cerrado desarrollado por Google, aunque derivado de proyectos de código abierto. Está disponible gratuitamente. El nombre del navegador deriva del término en inglés usado para el marco de la interfaz gráfica de usuario («chrome»).",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Google Chrome ni kivinjari wavuti kilichotengenezwa na Google LLC. Iliyotolewa mara ya kwanza mwezi Septemba 2008, kwa ajili ya Microsoft Windows, na baadaye ikafikishwa kwenye Linux, MacOS, iOS na Android.",
       },
     ],
     vendor: "Google",
@@ -3674,19 +3928,14 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Google_Chrome",
       },
       {
-        _key: "sw",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value: "https://sw.wikipedia.org/wiki/Google_Chrome",
+        value: "https://nl.wikipedia.org/wiki/Google_Chrome",
       },
       {
-        _key: "ru",
+        _key: "fr",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Google_Chrome",
-      },
-      {
-        _key: "id",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Google_Chrome",
+        value: "https://fr.wikipedia.org/wiki/Google_Chrome",
       },
       {
         _key: "de",
@@ -3694,15 +3943,30 @@ export const browsers: Browser[] = [
         value: "https://de.wikipedia.org/wiki/Google_Chrome",
       },
       {
-        _key: "nl",
-        _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Google_Chrome",
-      },
-      {
         _key: "hi",
         _type: "internationalizedArrayUrlValue",
         value:
           "https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A5%82%E0%A4%97%E0%A4%B2_%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%AE",
+      },
+      {
+        _key: "id",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://id.wikipedia.org/wiki/Google_Chrome",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://ru.wikipedia.org/wiki/Google_Chrome",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://es.wikipedia.org/wiki/Google_Chrome",
+      },
+      {
+        _key: "sw",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://sw.wikipedia.org/wiki/Google_Chrome",
       },
     ],
     youtubeId: "https://www.youtube.com/watch?v=SlGuvC5nnTA",
@@ -3710,9 +3974,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "aB2tdqzwZwh0hKQ4Ah6mtg",
+    _rev: "yf6YE3Avm57l7p1xz1crub",
     _type: "browser",
-    _updatedAt: "2025-03-13T03:26:21Z",
+    _updatedAt: "2025-03-16T10:23:24Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -3753,6 +4017,12 @@ export const browsers: Browser[] = [
           "De browser van Microsoft met ingebouwde Cortana en annotatietools.",
       },
       {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Navigateur de Microsoft avec Cortana intégré et outils d'annotation.",
+      },
+      {
         _key: "de",
         _type: "internationalizedArrayStringValue",
         value:
@@ -3774,6 +4044,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Браузер Microsoft с встроенной Cortana и инструментами для аннотаций.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Navegador de Microsoft con Cortana y herramientas de anotación integradas.",
       },
       {
         _key: "sw",
@@ -4053,6 +4329,12 @@ export const browsers: Browser[] = [
           "Microsoft Edge is een webbrowser ontwikkeld door Microsoft en inbegrepen in Windows 10, Windows 10 Mobile en Xbox One. Microsoft Edge is de opvolger van Internet Explorer en vervangt deze als de standaard webbrowser op alle apparaten. Volgens Microsoft is het een lichtgewicht webbrowser met een layout-engine die gebouwd is overeenkomstig met de webstandaarden. De browser bevat nieuwe features, waaronder integratie met Cortana, notitiehulpmiddelen en een leesmodus.",
       },
       {
+        _key: "fr",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Microsoft Edge est un navigateur web propriétaire développé par la société américaine Microsoft depuis 2015, et basé sur Chromium depuis 2020. Il fut conçu pour remplacer Internet Explorer. Edge est installé par défaut avec Windows 10 et Windows 11, et est disponible également sur MacOS et Linux, ainsi que sur mobile avec des versions Android et IOS.",
+      },
+      {
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
@@ -4076,6 +4358,12 @@ export const browsers: Browser[] = [
         value:
           "Microsoft Edge — браузер компании Microsoft, впервые выпущенный в 2015 году одновременно с первой версией Windows 10. Пришёл на замену Internet Explorer, который тем не менее, остался в составе ОС для обеспечения совместимости корпоративных приложений. Поначалу работал на собственном движке EdgeHTML, однако позднее Microsoft решила перейти на решения предоставляемые Chromium, в надежде нарастить рыночную долю браузера и обеспечить совместимость с его богатой библиотекой расширений.",
       },
+      {
+        _key: "es",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Microsoft Edge es un navegador web de código cerrado desarrollado por Microsoft, basado en Chromium de Google. Fue lanzado por primera vez para Windows 10 y Xbox One en julio de 2015, luego para Android e iOS en octubre de 2017, para macOS en mayo de 2019, en Windows 7, 8 y 8.1 en enero de 2020 y para GNU/Linux en octubre de 2020.",
+      },
     ],
     vendor: "Microsoft",
     wikipediaUrl: [
@@ -4088,6 +4376,11 @@ export const browsers: Browser[] = [
         _key: "nl",
         _type: "internationalizedArrayUrlValue",
         value: "https://nl.wikipedia.org/wiki/Microsoft_Edge",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://fr.wikipedia.org/wiki/Microsoft_Edge",
       },
       {
         _key: "de",
@@ -4109,15 +4402,20 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayUrlValue",
         value: "https://ru.wikipedia.org/wiki/Microsoft_Edge",
       },
+      {
+        _key: "es",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://es.wikipedia.org/wiki/Microsoft_Edge",
+      },
     ],
     youtubeId: "Yuo15bhxryc",
   },
   {
     _createdAt: "2023-10-19T15:50:38Z",
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "emBvI4m5emNGezC8UZEyUD",
+    _rev: "o6EKSRmXrHYie9DfoEIrwA",
     _type: "browser",
-    _updatedAt: "2023-12-19T03:22:19Z",
+    _updatedAt: "2025-03-16T10:23:25Z",
     description: [
       {
         _key: "en",
@@ -4128,6 +4426,12 @@ export const browsers: Browser[] = [
         _key: "nl",
         _type: "internationalizedArrayStringValue",
         value: "Aanpasbare interface, tabbladbeheer en privacyopties.",
+      },
+      {
+        _key: "fr",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Interface personnalisable, gestion des onglets et options de confidentialité.",
       },
       {
         _key: "de",
@@ -4151,6 +4455,12 @@ export const browsers: Browser[] = [
         _type: "internationalizedArrayStringValue",
         value:
           "Настроенный интерфейс, управление вкладками и варианты конфиденциальности.",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayStringValue",
+        value:
+          "Interfaz personalizable, gestión de pestañas y opciones de privacidad.",
       },
       {
         _key: "sw",
@@ -4629,16 +4939,16 @@ export const browsers: Browser[] = [
           "Vivaldi is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies, a company founded by Tatsuki Tomita and Jon Stephenson von Tetzchner, who was the co-founder and CEO of Opera Software. Vivaldi was initially released on 27 January 2015.",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayTextValue",
         value:
-          "Vivaldi — интернет-браузер, созданный компанией Vivaldi Technologies на основе движка Blink. Первая тестовая версия стала доступна 27 января 2015 года. В браузер включены многие возможности, присутствовавшие в браузере Opera до 12 версии (включительно).",
+          "Vivaldi is een webbrowser die ontwikkeld wordt door het Noorse Vivaldi Technologies. Dit bedrijf werd in 2014 opgericht door twee voormalige topmensen van Opera Software: Jon Stephenson von Tetzchner en Tatsuki Tomita. De browser is geïnspireerd op Opera en zet zich af tegen de keuzes die Opera toen maakte door over te stappen van de layout-engine Presto naar Blink, waarmee veel populaire onderdelen verloren gingen. Ook Vivaldi maakt gebruik van de layout-engine Blink, die afgeleid is van Chromium.",
       },
       {
-        _key: "id",
+        _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          'Vivaldi merupakan peramban web gratis yang dikembangkan oleh Vivaldi Technologies, sebuah perusahaan yang didirikan oleh pendiri dan mantan CEO Opera Software Jon Stephenson von Tetzchner, dan Tatsuki Tomita. Peramban ini ditujukan kepada pengguna Opera yang tidak menyukai transisi dari Presto ke Blink, yang menyebabkan hilangnya fitur populer dalam peramban itu. Vivaldi ditujukan untuk menghidupkan kembali fitur populer Opera 12 dan memperkenalkan fitur inovatif terbaru. Peramban ini dimutakhirkan setiap minggu, dalam bentuk "Snapshots", dan telah memperoleh ketenaran sejak versi pratayang teknis.',
+          "Vivaldi est un navigateur web propriétaire disponible sur Windows, MacOS, IOS, Linux, Android et Android Automotive, développé depuis 2015 par l’entreprise norvégienne Vivaldi Technologies, fondée par le co-créateur d'Opera, Jon Stephenson von Tetzchner. Il est construit sur Chromium.",
       },
       {
         _key: "de",
@@ -4647,10 +4957,22 @@ export const browsers: Browser[] = [
           "Vivaldi ist ein Webbrowser des norwegischen Unternehmens Vivaldi Technologies, das Jon Stephenson von Tetzchner, Mitgründer und langjähriger Leiter von Opera Software, nach seinem Ausscheiden dort zur Entwicklung eines neuen Browsers 2013 gründete.",
       },
       {
-        _key: "nl",
+        _key: "id",
         _type: "internationalizedArrayTextValue",
         value:
-          "Vivaldi is een webbrowser die ontwikkeld wordt door het Noorse Vivaldi Technologies. Dit bedrijf werd in 2014 opgericht door twee voormalige topmensen van Opera Software: Jon Stephenson von Tetzchner en Tatsuki Tomita. De browser is geïnspireerd op Opera en zet zich af tegen de keuzes die Opera toen maakte door over te stappen van de layout-engine Presto naar Blink, waarmee veel populaire onderdelen verloren gingen. Ook Vivaldi maakt gebruik van de layout-engine Blink, die afgeleid is van Chromium.",
+          'Vivaldi merupakan peramban web gratis yang dikembangkan oleh Vivaldi Technologies, sebuah perusahaan yang didirikan oleh pendiri dan mantan CEO Opera Software Jon Stephenson von Tetzchner, dan Tatsuki Tomita. Peramban ini ditujukan kepada pengguna Opera yang tidak menyukai transisi dari Presto ke Blink, yang menyebabkan hilangnya fitur populer dalam peramban itu. Vivaldi ditujukan untuk menghidupkan kembali fitur populer Opera 12 dan memperkenalkan fitur inovatif terbaru. Peramban ini dimutakhirkan setiap minggu, dalam bentuk "Snapshots", dan telah memperoleh ketenaran sejak versi pratayang teknis.',
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Vivaldi — интернет-браузер, созданный компанией Vivaldi Technologies на основе движка Blink. Первая тестовая версия стала доступна 27 января 2015 года. В браузер включены многие возможности, присутствовавшие в браузере Opera до 12 версии (включительно).",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayTextValue",
+        value:
+          "Vivaldi es un navegador web freeware desarrollado por Vivaldi Technologies, una compañía fundada por el cofundador y anterior CEO de Opera, Jon Stephenson von Tetzchner. El eslogan del proyecto es Un nuevo navegador para nosotros y nuestros amigos. El navegador está dirigido a los entusiastas de la tecnología, usuarios frecuentes de internet y usuarios previos del navegador Opera, quienes quedaron disgustados por la transición de Presto a Blink, debido a que muchas características nativas de Opera dejaron de funcionar.",
       },
     ],
     vendor: "Vivaldi Technologies",
@@ -4661,14 +4983,14 @@ export const browsers: Browser[] = [
         value: "https://en.wikipedia.org/wiki/Vivaldi_(web_browser)",
       },
       {
-        _key: "ru",
+        _key: "nl",
         _type: "internationalizedArrayUrlValue",
-        value: "https://ru.wikipedia.org/wiki/Vivaldi",
+        value: "https://nl.wikipedia.org/wiki/Vivaldi_(webbrowser)",
       },
       {
-        _key: "id",
+        _key: "fr",
         _type: "internationalizedArrayUrlValue",
-        value: "https://id.wikipedia.org/wiki/Vivaldi_(peramban_web)",
+        value: "https://fr.wikipedia.org/wiki/Vivaldi_(navigateur_web)",
       },
       {
         _key: "de",
@@ -4676,9 +4998,19 @@ export const browsers: Browser[] = [
         value: "https://de.wikipedia.org/wiki/Vivaldi_(Browser)",
       },
       {
-        _key: "nl",
+        _key: "id",
         _type: "internationalizedArrayUrlValue",
-        value: "https://nl.wikipedia.org/wiki/Vivaldi_(webbrowser)",
+        value: "https://id.wikipedia.org/wiki/Vivaldi_(peramban_web)",
+      },
+      {
+        _key: "ru",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://ru.wikipedia.org/wiki/Vivaldi",
+      },
+      {
+        _key: "es",
+        _type: "internationalizedArrayUrlValue",
+        value: "https://es.wikipedia.org/wiki/Vivaldi_(navegador)",
       },
     ],
     youtubeId: "fqCSlLGiP38",
