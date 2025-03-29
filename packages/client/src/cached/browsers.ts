@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "yf6YE3Avm57l7p1xz1cpsn",
+    _rev: "0zHogpjcHGd3bKInzZnlXm",
     _type: "browser",
-    _updatedAt: "2025-03-16T10:23:15Z",
+    _updatedAt: "2025-03-27T03:27:18Z",
     description: [
       {
         _key: "en",
@@ -592,7 +592,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. Two mobile versions are still active, called Opera Mobile and Opera Mini.",
+          "Opera is a multi-platform web browser developed by its namesake company Opera. The current edition of the browser is based on Chromium. Opera is available on Windows, macOS, Linux, Android, and iOS. Opera offers two mobile versions, called Opera Mobile and Opera Mini.",
       },
       {
         _key: "nl",
@@ -2048,9 +2048,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "7kaIE0fx1bl03pWpFuVzek",
+    _rev: "Nu2s0pFYOZ1lbzjK70oFzr",
     _type: "browser",
-    _updatedAt: "2025-03-16T10:23:20Z",
+    _updatedAt: "2025-03-29T03:26:17Z",
     description: [
       {
         _key: "en",
@@ -2290,7 +2290,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser.",
+          "Brave is a web browser which was first released in 2016. It is developed by California-based Brave Software, Inc. It is based on the Chromium web browser, and is free and open-source.",
       },
       {
         _key: "nl",
@@ -2308,7 +2308,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave ist ein freier Webbrowser für die gängigen Betriebssysteme, der auf Chromium basiert. Das 2015 gegründete US-amerikanische Unternehmen Brave Software Inc. dahinter wird von Brendan Eich geleitet.",
+          "Brave ist ein auf Chromium basierender, quelloffener Webbrowser, der kostenlos für alle gängigen Plattformen verfügbar ist. Sein Fokus liegt auf dem Schutz der Privatsphäre des Nutzers, indem Phishing, Tracking und Fingerprinting gezielt blockiert werden. Das 2015 gegründete US-amerikanische Unternehmen Brave Software Inc. dahinter wird von Brendan Eich geleitet. Die deutsche Zeitschrift c’t prüfte im Juni 2021 den Schutz der Privatsphäre in mehreren Browsern. Dabei schnitt Brave mit Abstand am besten ab.",
       },
       {
         _key: "hi",
