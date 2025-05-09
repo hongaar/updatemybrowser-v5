@@ -62,14 +62,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-23T06:52:17Z",
     _id: "df47bd5d-957d-470f-b972-dc79e44b6ec3",
-    _rev: "rAgni52qy64I34buVwr7qZ",
+    _rev: "6XwkF4mzTMKN6Ehkrp4gvl",
     _type: "release",
-    _updatedAt: "2025-04-05T03:26:33Z",
+    _updatedAt: "2025-05-01T03:35:58Z",
     browser: {
       _ref: "278c02c3-76d4-4011-a543-39ca003ff1ee",
       _type: "reference",
     },
-    currentVersion: "135",
+    currentVersion: "136",
     downloadUrl: "https://www.chromium.org/getting-involved/download-chromium/",
     oses: [
       {
@@ -103,14 +103,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-14T02:45:47Z",
     _id: "f3feab0b-20a2-4397-9458-bf579d5fd7ea",
-    _rev: "Oks1fihBzHq0KNvbkRy5GN",
+    _rev: "wsbY3uiTgAB66quHJ8l8wF",
     _type: "release",
-    _updatedAt: "2025-04-05T03:26:34Z",
+    _updatedAt: "2025-05-01T03:35:59Z",
     browser: {
       _ref: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
       _type: "reference",
     },
-    currentVersion: "135",
+    currentVersion: "136",
     downloadUrl: "https://brave.com/download",
     oses: [
       {
@@ -168,15 +168,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-05T15:07:57Z",
     _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
-    _rev: "Oks1fihBzHq0KNvbkRy5RY",
+    _rev: "xxgKgF2Ofe1Q2eErhsAxvI",
     _type: "release",
-    _updatedAt: "2025-04-05T03:26:35Z",
+    _updatedAt: "2025-05-01T03:36:00Z",
     browser: {
       _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
       _type: "reference",
     },
     currentUsage: 21.748862,
-    currentVersion: "135",
+    currentVersion: "136",
     downloadUrl: "https://www.google.com/chrome/",
     oses: [
       {
@@ -387,15 +387,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-08T06:17:00Z",
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _rev: "Oks1fihBzHq0KNvbkRy6Dz",
+    _rev: "6XwkF4mzTMKN6Ehkrp4hK2",
     _type: "release",
-    _updatedAt: "2025-04-05T03:26:40Z",
+    _updatedAt: "2025-05-01T03:36:01Z",
     browser: {
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
     currentUsage: 2.079605,
-    currentVersion: "137",
+    currentVersion: "138",
     downloadUrl: "https://www.mozilla.org/firefox/all",
     oses: [
       {
