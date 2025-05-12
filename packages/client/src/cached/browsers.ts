@@ -1529,9 +1529,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "yf6YE3Avm57l7p1xz1crEf",
+    _rev: "lG04VKB0MM2b5UaKWr1g7r",
     _type: "browser",
-    _updatedAt: "2025-03-16T10:23:19Z",
+    _updatedAt: "2025-05-09T03:32:21Z",
     description: [
       {
         _key: "en",
@@ -1943,7 +1943,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox, or simply Firefox, is a free and open source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other operating systems, such as reactOS. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
+          "Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other operating systems, such as reactOS. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
       },
       {
         _key: "nl",
@@ -1979,7 +1979,7 @@ export const browsers: Browser[] = [
         _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox — свободный браузер на движке Gecko, разработкой и распространением которого занимается Mozilla Corporation. Четвёртый по популярности браузер в мире и первый среди свободного ПО — в марте 2021 года его рыночная доля составила ▼7,49 %.\nВ России Firefox занимает четвёртое место по популярности среди браузеров для ПК с долей 5,26 % пользователей на март 2021 года.",
+          "Mozilla Firefox — свободный браузер на движке Gecko, разработкой и распространением которого занимается Mozilla Corporation. Четвёртый по популярности браузер в мире и первый среди свободного ПО — в марте 2021 года его рыночная доля составила ▼7,49 %.\nВ России Firefox занимает четвёртое место по популярности среди браузеров для ПК с долей 5,26 % пользователей на март 2021 года.",
       },
       {
         _key: "es",
@@ -3974,9 +3974,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "rAgni52qy64I34buVfnuTu",
+    _rev: "k4xMn1x7b53KEhFEQiAvfy",
     _type: "browser",
-    _updatedAt: "2025-04-03T03:27:38Z",
+    _updatedAt: "2025-04-23T03:28:45Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -4320,7 +4320,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge, based on the Chromium open-source project, also known as The New Microsoft Edge or New Edge, is a proprietary cross-platform web browser created by Microsoft, superseding Edge Legacy. In Windows 11, Edge is the only browser available from Microsoft.",
+          "Microsoft Edge, also known as The New Microsoft Edge or New Edge, is a proprietary cross-platform web browser created by Microsoft and based on the Chromium open-source project, superseding Edge Legacy. In Windows 11, Edge is the only browser available from Microsoft.",
       },
       {
         _key: "nl",
