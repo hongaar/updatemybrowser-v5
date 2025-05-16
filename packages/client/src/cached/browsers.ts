@@ -2385,9 +2385,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "7kaIE0fx1bl03pWpFuVzhK",
+    _rev: "2kDu0nKRJtxb1wtcs8k94S",
     _type: "browser",
-    _updatedAt: "2025-03-16T10:23:21Z",
+    _updatedAt: "2025-05-14T03:32:53Z",
     description: [
       {
         _key: "en",
@@ -2665,7 +2665,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Internet Explorer is a retired series of graphical web browsers developed by Microsoft that were used in the Windows line of operating systems. While IE has been discontinued on most Windows editions, it remains supported on certain editions of Windows, such as Windows 10 LTSB/LTSC. Starting in 1995, it was first released as part of the add-on package Plus! for Windows 95 that year. Later versions were available as free downloads or in-service packs and included in the original equipment manufacturer (OEM) service releases of Windows 95 and later versions of Windows. Microsoft spent over US$100 million per year on Internet Explorer in the late 1990s, with over 1,000 people involved in the project by 1999. New feature development for the browser was discontinued in 2016 and ended support on June 15, 2022 for Windows 10 Semi-Annual Channel (SAC), in favor of its successor, Microsoft Edge.",
+          "Internet Explorer is a retired series of graphical web browsers developed by Microsoft that were used in the Windows line of operating systems. While IE has been discontinued on most Windows editions, it remains supported on certain editions of Windows, such as Windows 10 LTSB/LTSC. Starting in 1995, it was first released as part of the add-on package Plus! for Windows 95 that year. Later versions were available as free downloads or in-service packs and included in the original equipment manufacturer (OEM) service releases of Windows 95 and later versions of Windows. Microsoft spent over US$100 million per year on Internet Explorer in the late 1990s, with over 1,000 people involved in the project by 1999. In 2016, Microsoft Edge was released to succeed Internet Explorer 11 as Microsoft's primary web browser. New feature development for Internet Explorer was discontinued that same year, and support for the browser officially ended on June 15, 2022, for Windows 10 Semi-Annual Channel (SAC) editions.",
       },
       {
         _key: "nl",
@@ -2758,9 +2758,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "yf6YE3Avm57l7p1xz1cri1",
+    _rev: "6KrDgA579wxVSyGl10NqAy",
     _type: "browser",
-    _updatedAt: "2025-03-16T10:23:22Z",
+    _updatedAt: "2025-05-16T03:34:00Z",
     description: [
       {
         _key: "en",
@@ -3169,7 +3169,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Safari is a web browser developed by Apple. It is built into several of Apple's operating systems, including macOS, iOS, iPadOS and visionOS, and uses Apple's open-source browser engine WebKit, which was derived from KHTML.",
+          "Safari is a web browser developed by Apple. It is built into several of Apple's operating systems, including macOS, iOS, iPadOS, and visionOS, and uses Apple's open-source browser engine WebKit, which was derived from KHTML.",
       },
       {
         _key: "nl",
@@ -3187,7 +3187,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS, iOS und iPadOS. Safari verwendet Apples Open-Source-Browser-Engine WebKit.",
+          "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS, iOS, iPadOS and visionOS. Safari verwendet Apples Open-Source-Browser-Engine WebKit.",
       },
       {
         _key: "hi",
