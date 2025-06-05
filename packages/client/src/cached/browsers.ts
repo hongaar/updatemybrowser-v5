@@ -1117,9 +1117,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "7kaIE0fx1bl03pWpFuVzcA",
+    _rev: "LH8TF7oPyAFc60LAYIE97O",
     _type: "browser",
-    _updatedAt: "2025-03-16T10:23:18Z",
+    _updatedAt: "2025-06-02T03:39:39Z",
     description: [
       {
         _key: "en",
@@ -1529,9 +1529,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "lG04VKB0MM2b5UaKWr1g7r",
+    _rev: "D9h4VcG4y1AjroAoqz7tUI",
     _type: "browser",
-    _updatedAt: "2025-05-09T03:32:21Z",
+    _updatedAt: "2025-06-04T03:36:45Z",
     description: [
       {
         _key: "en",
@@ -1985,7 +1985,7 @@ export const browsers: Browser[] = [
         _key: "es",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox es un navegador web libre y de código abierto desarrollado para distintas plataformas, está coordinado por la Corporación Mozilla y la Fundación Mozilla. Usa el motor Gecko para renderizar páginas web, el cual implementa actuales y futuros estándares web.",
+          "Firefox es un navegador web libre y de código abierto desarrollado para distintas plataformas, está coordinado por la Corporación Mozilla y la Fundación Mozilla. Usa el motor Gecko para renderizar páginas web, el cual implementa actuales y futuros estándares web.",
       },
       {
         _key: "sw",
@@ -2048,9 +2048,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "oVl5bhA7NME6oJPTtjO6sM",
+    _rev: "AKV8IRqkATs4C4Bi9vgpH8",
     _type: "browser",
-    _updatedAt: "2025-04-07T03:28:13Z",
+    _updatedAt: "2025-06-03T03:36:26Z",
     description: [
       {
         _key: "en",
@@ -2290,7 +2290,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave is a web browser which was first released in 2016. It is developed by California-based Brave Software, Inc. It is based on the Chromium web browser, and is free and open-source.",
+          "Brave is a web browser which was first released in 2016. It is developed by US-based Brave Software, Inc. It is based on the Chromium web browser, and is free and open-source.",
       },
       {
         _key: "nl",
@@ -3974,9 +3974,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "k4xMn1x7b53KEhFEQiAvfy",
+    _rev: "k5NiO9u2rLDNyM6w01o37R",
     _type: "browser",
-    _updatedAt: "2025-04-23T03:28:45Z",
+    _updatedAt: "2025-06-01T03:46:34Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -4320,7 +4320,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge, also known as The New Microsoft Edge or New Edge, is a proprietary cross-platform web browser created by Microsoft and based on the Chromium open-source project, superseding Edge Legacy. In Windows 11, Edge is the only browser available from Microsoft.",
+          "Microsoft Edge is a proprietary cross-platform web browser created by Microsoft and based on the Chromium open-source project, superseding Edge Legacy. In Windows 11, Edge is the only browser available from Microsoft.",
       },
       {
         _key: "nl",
