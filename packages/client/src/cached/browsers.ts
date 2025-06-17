@@ -1529,9 +1529,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "D9h4VcG4y1AjroAoqz7tUI",
+    _rev: "NIzRYl8X8jVaDXIsqzU00s",
     _type: "browser",
-    _updatedAt: "2025-06-04T03:36:45Z",
+    _updatedAt: "2025-06-12T03:36:46Z",
     description: [
       {
         _key: "en",
@@ -1943,7 +1943,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other operating systems, such as reactOS. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
+          "Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other operating systems, such as ReactOS. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
       },
       {
         _key: "nl",
@@ -1985,7 +1985,7 @@ export const browsers: Browser[] = [
         _key: "es",
         _type: "internationalizedArrayTextValue",
         value:
-          "Firefox es un navegador web libre y de código abierto desarrollado para distintas plataformas, está coordinado por la Corporación Mozilla y la Fundación Mozilla. Usa el motor Gecko para renderizar páginas web, el cual implementa actuales y futuros estándares web.",
+          "Mozilla Firefox es un navegador web libre y de código abierto desarrollado para distintas plataformas, está coordinado por la Corporación Mozilla y la Fundación Mozilla. Usa el motor Gecko para renderizar páginas web, el cual implementa actuales y futuros estándares web.",
       },
       {
         _key: "sw",
@@ -2048,9 +2048,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "AKV8IRqkATs4C4Bi9vgpH8",
+    _rev: "CSWQIp9q8OOrzGk4CR8VoJ",
     _type: "browser",
-    _updatedAt: "2025-06-03T03:36:26Z",
+    _updatedAt: "2025-06-17T03:37:19Z",
     description: [
       {
         _key: "en",
@@ -2290,7 +2290,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave is a web browser which was first released in 2016. It is developed by US-based Brave Software, Inc. It is based on the Chromium web browser, and is free and open-source.",
+          "Brave is a free and open-source web browser which was first released in 2016. It is developed by US-based Brave Software, Inc. and based on the Chromium web browser. The browser is marketed as a privacy-focused web browser and includes features such as built-in advertisment blocking, protections against browser fingerprinting and a private browsing mode that integrates the Tor anonymity network. Brave also incorporates its own advertising through a rewards system based on cryptocurrency, which allows users to earn Basic Attention Tokens (BAT) by opting-in to view ads served through its own ad network. While Brave has been praised for its privacy protections and features, it has faced criticism over early plans of replacing publisher's ads with its own and missteps surrounding its handling of affiliate links and privacy vulnerabilities in its private browsing mode.",
       },
       {
         _key: "nl",
