@@ -1117,9 +1117,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "LH8TF7oPyAFc60LAYIE97O",
+    _rev: "TRv8g5Dp3L2r790KIBOYAP",
     _type: "browser",
-    _updatedAt: "2025-06-02T03:39:39Z",
+    _updatedAt: "2025-06-23T03:41:44Z",
     description: [
       {
         _key: "en",
@@ -1436,7 +1436,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Chromium is a free and open-source web browser project, primarily developed and maintained by Google. It is a widely-used codebase, providing the vast majority of code for Google Chrome and many other browsers, including Microsoft Edge, Samsung Internet, and Opera. The code is also used by several app frameworks.",
+          "Chromium is a free and open-source web browser project, primarily developed and maintained by Google. It is a widely used codebase, providing the vast majority of code for Google Chrome and many other browsers, including Microsoft Edge, Samsung Internet, and Opera. The code is also used by several app frameworks.",
       },
       {
         _key: "nl",
@@ -2048,9 +2048,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "CSWQIp9q8OOrzGk4CR8VoJ",
+    _rev: "b6UvhobYL1sx7x666IwhGo",
     _type: "browser",
-    _updatedAt: "2025-06-17T03:37:19Z",
+    _updatedAt: "2025-06-23T03:41:46Z",
     description: [
       {
         _key: "en",
@@ -2290,7 +2290,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave is a free and open-source web browser which was first released in 2016. It is developed by US-based Brave Software, Inc. and based on the Chromium web browser. The browser is marketed as a privacy-focused web browser and includes features such as built-in advertisment blocking, protections against browser fingerprinting and a private browsing mode that integrates the Tor anonymity network. Brave also incorporates its own advertising through a rewards system based on cryptocurrency, which allows users to earn Basic Attention Tokens (BAT) by opting-in to view ads served through its own ad network. While Brave has been praised for its privacy protections and features, it has faced criticism over early plans of replacing publisher's ads with its own and missteps surrounding its handling of affiliate links and privacy vulnerabilities in its private browsing mode.",
+          "Brave is a free and open-source web browser which was first released in 2016. It is developed by US-based Brave Software, Inc. and based on the Chromium web browser. The browser is marketed as a privacy-focused web browser and includes features such as built-in advertisement blocking, protections against browser fingerprinting and a private browsing mode that integrates the Tor anonymity network. Brave also incorporates its own advertising through a rewards system based on cryptocurrency, which allows users to earn Basic Attention Tokens (BAT) by opting-in to view ads served through its own ad network. While Brave has been praised for its privacy protections and features, it has faced criticism over early plans of replacing publisher's ads with its own and missteps surrounding its handling of affiliate links and privacy vulnerabilities in its private browsing mode.",
       },
       {
         _key: "nl",
