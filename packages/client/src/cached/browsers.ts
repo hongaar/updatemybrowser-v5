@@ -2048,9 +2048,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "b6UvhobYL1sx7x666IwhGo",
+    _rev: "i5t5RbBCFwNL8rUiR8KQNL",
     _type: "browser",
-    _updatedAt: "2025-06-23T03:41:46Z",
+    _updatedAt: "2025-06-28T03:35:04Z",
     description: [
       {
         _key: "en",
@@ -2290,7 +2290,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave is a free and open-source web browser which was first released in 2016. It is developed by US-based Brave Software, Inc. and based on the Chromium web browser. The browser is marketed as a privacy-focused web browser and includes features such as built-in advertisement blocking, protections against browser fingerprinting and a private browsing mode that integrates the Tor anonymity network. Brave also incorporates its own advertising through a rewards system based on cryptocurrency, which allows users to earn Basic Attention Tokens (BAT) by opting-in to view ads served through its own ad network. While Brave has been praised for its privacy protections and features, it has faced criticism over early plans of replacing publisher's ads with its own and missteps surrounding its handling of affiliate links and privacy vulnerabilities in its private browsing mode.",
+          "Brave is a free and open-source web browser which was first released in 2016. It is developed by US-based Brave Software, Inc. and based on the Chromium web browser. The browser is marketed as a privacy-focused web browser and includes features such as built-in advertisement blocking, protections against browser fingerprinting and a private browsing mode that integrates the Tor anonymity network. Brave also incorporates its own advertising through a rewards system based on cryptocurrency, which allows users to earn Basic Attention Tokens (BAT) by opting-in to view ads served through its ad network. While Brave has been praised for its privacy protections and features, it has faced criticism over early plans of replacing publisher's ads with its own and missteps surrounding its handling of affiliate links and privacy vulnerabilities in its private browsing mode.",
       },
       {
         _key: "nl",
@@ -2758,9 +2758,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "6KrDgA579wxVSyGl10NqAy",
+    _rev: "i5t5RbBCFwNL8rUiRK25yh",
     _type: "browser",
-    _updatedAt: "2025-05-16T03:34:00Z",
+    _updatedAt: "2025-06-29T03:43:06Z",
     description: [
       {
         _key: "en",
@@ -3187,7 +3187,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS, iOS, iPadOS and visionOS. Safari verwendet Apples Open-Source-Browser-Engine WebKit.",
+          "Safari ist ein Webbrowser des Unternehmens Apple. Er gehört zum Lieferumfang von macOS, iOS, iPadOS und visionOS. Safari verwendet Apples Open-Source-Browser-Engine WebKit.",
       },
       {
         _key: "hi",
