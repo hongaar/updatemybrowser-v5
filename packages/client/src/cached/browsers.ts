@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "0zHogpjcHGd3bKInzZnlXm",
+    _rev: "TErrISLPjz1kwp8q07JqZX",
     _type: "browser",
-    _updatedAt: "2025-03-27T03:27:18Z",
+    _updatedAt: "2025-07-13T03:46:20Z",
     description: [
       {
         _key: "en",
@@ -610,7 +610,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera ist ein kostenloser proprietärer Webbrowser. Er basierte bis einschließlich Version 12.18 auf einem eigenen HTML-Renderer. Seit der 2013 freigegebenen Version 15 nutzt er den Renderer der jeweils aktuellen Version des Webbrowsers Chromium. Opera ist für viele Plattformen verfügbar. Alleiniger Entwickler der geschlossenen Softwarekomponenten ist das norwegische Unternehmen Opera Software, das sich auch an der Fortentwicklung der quelloffenen Rendering-Engine beteiligt. Opera Software wurde 1995 in Norwegen von dem Isländer Jon Stephenson von Tetzchner und Geir Ivarsøy gegründet.",
+          "Opera ist ein kostenloser proprietärer Webbrowser. Er basierte bis einschließlich Version 12.18 auf der eigenen Browser-Engine Presto. Seit der 2013 freigegebenen Version 15 nutzt er die Browser-Engine der jeweils aktuellen Version des Webbrowsers Chromium. Opera ist für viele Plattformen verfügbar. Alleiniger Entwickler der geschlossenen Softwarekomponenten ist das norwegische Unternehmen Opera Software, das sich auch an der Fortentwicklung der quelloffenen Rendering-Engine beteiligt. Opera Software wurde 1995 in Norwegen von dem Isländer Jon Stephenson von Tetzchner und Geir Ivarsøy gegründet.",
       },
       {
         _key: "hi",
@@ -1529,9 +1529,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "NIzRYl8X8jVaDXIsqzU00s",
+    _rev: "BS480k3TNtcUIiGVL70XeJ",
     _type: "browser",
-    _updatedAt: "2025-06-12T03:36:46Z",
+    _updatedAt: "2025-07-23T03:46:19Z",
     description: [
       {
         _key: "en",
@@ -1961,7 +1961,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Die Marktanteile von Firefox sind seit ca. 2007 beständig gefallen; sie sanken von ehemals über 70 % auf etwa 2,9 % im Jahr 2024 weltweit.",
+          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Die Marktanteile von Firefox sind seit 2009 beständig gefallen; sie sanken weltweit von ehemals 32,2 % auf etwa 2,4 % im Jahr 2025.",
       },
       {
         _key: "hi",
