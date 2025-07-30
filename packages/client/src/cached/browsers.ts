@@ -1529,9 +1529,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "BS480k3TNtcUIiGVL70XeJ",
+    _rev: "aRLdVXqaZRdNyTt5edpuSH",
     _type: "browser",
-    _updatedAt: "2025-07-23T03:46:19Z",
+    _updatedAt: "2025-07-30T03:49:07Z",
     description: [
       {
         _key: "en",
@@ -1961,7 +1961,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Die Marktanteile von Firefox sind seit 2009 beständig gefallen; sie sanken weltweit von ehemals 32,2 % auf etwa 2,4 % im Jahr 2025.",
+          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Firefox hatte seinen höchsten weltweiten Marktanteil 2009 mit etwa 32 %, seitdem ist er auf etwa 2,4 % im Juni 2025 gefallen.",
       },
       {
         _key: "hi",
