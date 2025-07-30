@@ -387,15 +387,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-08T06:17:00Z",
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _rev: "WqU571zt2Dmze14jVAaDXD",
+    _rev: "7pueunOd2UocdnJawajFjj",
     _type: "release",
-    _updatedAt: "2025-07-07T03:41:38Z",
+    _updatedAt: "2025-07-30T03:48:49Z",
     browser: {
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
     currentUsage: 1.9723380000000001,
-    currentVersion: "140",
+    currentVersion: "141",
     downloadUrl: "https://www.mozilla.org/firefox/all",
     oses: [
       {
