@@ -48,13 +48,14 @@ jobs:
           echo "Single line condition result: test"
         if: ${{ github.actor == 'dependabot[bot]' || (github.actor == 'github-actions[bot]' && (github.head_ref == 'browserslist-update' || github.head_ref == 'chore/update')) }}
       
-      - name: Conditional merge (original logic) - SHOULD NOT RUN
+      - name: Auto-merge PR (with debug logging)
         if: ${{ github.actor == 'dependabot[bot]' || (github.actor == 'github-actions[bot]' && (github.head_ref == 'browserslist-update' || github.head_ref == 'chore/update')) }}
         run: |
-          echo "=== WOULD EXECUTE MERGE ==="
+          echo "=== EXECUTING AUTO-MERGE ==="
           echo "This PR meets the conditions for auto-merge"
-          echo "Command that would run: gh pr merge --auto --squash \"$PR_URL\""
-          echo "=== MERGE DISABLED FOR DEBUGGING ==="
+          echo "Executing: gh pr merge --auto --squash \"$PR_URL\""
+          gh pr merge --auto --squash "$PR_URL"
+          echo "=== AUTO-MERGE ENABLED ==="
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GH_TOKEN: ${{ github.token }}
