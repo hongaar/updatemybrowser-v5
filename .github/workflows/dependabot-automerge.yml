@@ -19,7 +19,7 @@ jobs:
           echo "github.event.pull_request.user.login: ${{ github.event.pull_request.user.login }}"
           echo "PR URL: ${{ github.event.pull_request.html_url }}"
           echo "=== END DEBUG ==="
-      
+
       - name: Debug - Evaluate conditions
         run: |
           echo "=== DEBUG: Condition Evaluation ==="
@@ -29,27 +29,12 @@ jobs:
           echo "Is chore/update branch: ${{ github.head_ref == 'chore/update' }}"
           echo "Overall condition result: ${{ github.actor == 'dependabot[bot]' || (github.actor == 'github-actions[bot]' && (github.head_ref == 'browserslist-update' || github.head_ref == 'chore/update')) }}"
           echo "=== END DEBUG ==="
-      
-      - name: Debug - Test exact multiline condition
-        run: |
-          echo "=== DEBUG: Testing multiline condition ==="
-          echo "Multiline condition result: test"
-        if: >
-          ${{ 
-            github.actor == 'dependabot[bot]' || 
-            (github.actor == 'github-actions[bot]' && 
-             (github.head_ref == 'browserslist-update' || 
-              github.head_ref == 'chore/update'))
-          }}
-      
-      - name: Debug - Test single line condition  
-        run: |
-          echo "=== DEBUG: Testing single line condition ==="
-          echo "Single line condition result: test"
-        if: ${{ github.actor == 'dependabot[bot]' || (github.actor == 'github-actions[bot]' && (github.head_ref == 'browserslist-update' || github.head_ref == 'chore/update')) }}
-      
+
       - name: Auto-merge PR (with debug logging)
-        if: ${{ github.actor == 'dependabot[bot]' || (github.actor == 'github-actions[bot]' && (github.head_ref == 'browserslist-update' || github.head_ref == 'chore/update')) }}
+        if:
+          ${{ github.actor == 'dependabot[bot]' || (github.actor ==
+          'github-actions[bot]' && (github.head_ref == 'browserslist-update' ||
+          github.head_ref == 'chore/update')) }}
         run: |
           echo "=== EXECUTING AUTO-MERGE ==="
           echo "This PR meets the conditions for auto-merge"
