@@ -12,10 +12,14 @@ jobs:
     runs-on: ubuntu-latest
     if: >
       ${{ 
-        github.actor == 'dependabot[bot]' || 
-        (github.actor == 'github-actions[bot]' && 
-         (github.head_ref == 'browserslist-update' || 
-          github.head_ref == 'chore/update'))
+        github.actor != 'Copilot' &&
+        !startsWith(github.head_ref, 'copilot/') &&
+        (
+          github.actor == 'dependabot[bot]' || 
+          (github.actor == 'github-actions[bot]' && 
+           (github.head_ref == 'browserslist-update' || 
+            github.head_ref == 'chore/update'))
+        )
       }}
     steps:
       - run: gh pr merge --auto --squash "$PR_URL"
