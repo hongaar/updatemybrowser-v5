@@ -1,7 +1,7 @@
 import { defaultLanguage } from "@updatemybrowser/client";
-import { Fira_Sans } from "next/font/google";
 import type { ReactNode } from "react";
 import "../../styles/index.scss";
+import { fira } from "../../utils/fonts";
 import { Footer } from "../Footer";
 import { GoogleAdSense } from "../GoogleAdSense";
 import { GoogleTagManager } from "../GoogleTagManager";
@@ -13,12 +13,6 @@ type Props = {
   language?: string;
   children: ReactNode;
 };
-
-const fira = Fira_Sans({
-  subsets: ["latin"],
-  weight: ["400", "600"],
-  variable: "--font-text",
-});
 
 export function Document({ language = defaultLanguage, children }: Props) {
   return (

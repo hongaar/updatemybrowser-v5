@@ -1,11 +1,9 @@
-import { Courgette } from "next/font/google";
 import Image from "next/image";
 import { getDictionary } from "../../dictionaries";
+import { courgette } from "../../utils/fonts";
 import { Container } from "../Container";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 import styles from "./header.module.scss";
-
-const courgette = Courgette({ subsets: ["latin"], weight: ["400"] });
 
 const logoRatio = 73 / 100;
 
