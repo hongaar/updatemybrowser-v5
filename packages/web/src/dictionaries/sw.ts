@@ -41,6 +41,8 @@ const dict: Dict = {
     "Tafadhali bonyeza kitufe hapa chini ili ufungue kichupo kipya ambapo unaweza kupakua",
   AvailableOnYourOs: "Inapatikana kwenye kifaa chako",
   AvailableOnYourOsDescription: "Hivi sasa hauitumii %s, lakini ipo kwenye %s.",
+  AvailableOnYourOsDescriptionMaybeDisguised:
+    "Pengine hivi sasa hauitumii %s (au inaweza kuwa imejificha kama kivinjari kingine), lakini ipo kwenye %s.",
   AvailableOnYourOsClickButtonToDownload:
     "Tafadhali bonyeza kitufe hapa chini ili kupakua kivinjari hiki.",
   DownloadNow: "Pakua sasa",

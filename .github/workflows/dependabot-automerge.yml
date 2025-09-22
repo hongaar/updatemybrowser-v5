@@ -1,4 +1,4 @@
-name: dependabot-automerge
+name: automated-automerge
 
 on:
   pull_request:
@@ -8,11 +8,17 @@ permissions:
   contents: write
 
 jobs:
-  dependabot-automerge:
+  automated-automerge:
     runs-on: ubuntu-latest
-    if: ${{ github.actor == 'dependabot[bot]' }}
+    if: >
+      ${{ 
+        github.actor == 'dependabot[bot]' || 
+        (github.actor == 'github-actions[bot]' && 
+         (github.head_ref == 'browserslist-update' || 
+          github.head_ref == 'chore/update'))
+      }}
     steps:
       - run: gh pr merge --auto --squash "$PR_URL"
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ github.token }}

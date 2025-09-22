@@ -7,7 +7,9 @@ const dict: Dict = {
   AvailableOnYourOsClickButtonToDownload:
     "Verfügbar auf deinem Betriebssystem. Klicke auf den Button um es herunterzuladen",
   AvailableOnYourOsDescription:
-    "Verfügbar für Windows, Linux und MacOS. Klicke auf den Button um es herunterzuladen",
+    "Du verwendest derzeit nicht %s, aber es ist verfügbar auf %s.",
+  AvailableOnYourOsDescriptionMaybeDisguised:
+    "Du verwendest möglicherweise nicht %s (oder es tarnt sich als ein anderer Browser), aber es ist verfügbar auf %s.",
   BrowserCheck: "Browser Check",
   BrowserIdentity: "Browser Identität",
   BrowserNotDetected: "Browser nicht erkannt",
