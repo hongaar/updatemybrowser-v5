@@ -30,7 +30,10 @@ jobs:
           echo "Overall condition result: ${{ github.actor == 'dependabot[bot]' || (github.actor == 'github-actions[bot]' && (github.head_ref == 'browserslist-update' || github.head_ref == 'chore/update')) }}"
           echo "=== END DEBUG ==="
       
-      - name: Conditional merge (original logic)
+      - name: Debug - Test exact multiline condition
+        run: |
+          echo "=== DEBUG: Testing multiline condition ==="
+          echo "Multiline condition result: test"
         if: >
           ${{ 
             github.actor == 'dependabot[bot]' || 
@@ -38,6 +41,15 @@ jobs:
              (github.head_ref == 'browserslist-update' || 
               github.head_ref == 'chore/update'))
           }}
+      
+      - name: Debug - Test single line condition  
+        run: |
+          echo "=== DEBUG: Testing single line condition ==="
+          echo "Single line condition result: test"
+        if: ${{ github.actor == 'dependabot[bot]' || (github.actor == 'github-actions[bot]' && (github.head_ref == 'browserslist-update' || github.head_ref == 'chore/update')) }}
+      
+      - name: Conditional merge (original logic) - SHOULD NOT RUN
+        if: ${{ github.actor == 'dependabot[bot]' || (github.actor == 'github-actions[bot]' && (github.head_ref == 'browserslist-update' || github.head_ref == 'chore/update')) }}
         run: |
           echo "=== WOULD EXECUTE MERGE ==="
           echo "This PR meets the conditions for auto-merge"
