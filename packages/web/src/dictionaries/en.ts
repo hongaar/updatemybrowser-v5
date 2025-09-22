@@ -48,6 +48,8 @@ const english = {
   AvailableOnYourOs: "Available on your device",
   AvailableOnYourOsDescription:
     "You are not currently using %s, but it is available on %s.",
+  AvailableOnYourOsDescriptionMaybeDisguised:
+    "You may not be currently using %s (or it may be disguised as another browser), but it is available on %s.",
   AvailableOnYourOsClickButtonToDownload:
     "Please click the button below to download this browser.",
   DownloadNow: "Download now",

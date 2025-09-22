@@ -79,7 +79,12 @@ export function BrowserPage({
           <LoadingBanners language={language} dict={dict} />
           <UpdateAvailable language={language} dict={dict} browser={browser} />
           <LatestVersion language={language} dict={dict} browser={browser} />
-          <TryBanner language={language} dict={dict} browser={browser} />
+          <TryBanner
+            language={language}
+            dict={dict}
+            browser={browser}
+            browsers={browsers}
+          />
           <NotAvailable language={language} dict={dict} browser={browser} />
           <AdUnit language={language} dict={dict} slot={Slots.BrowserPage} />
           <BrowserGallery language={language} dict={dict} browser={browser} />
