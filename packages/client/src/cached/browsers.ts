@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "TErrISLPjz1kwp8q07JqZX",
+    _rev: "8tvTxoeHx528yc6gEVziDu",
     _type: "browser",
-    _updatedAt: "2025-07-13T03:46:20Z",
+    _updatedAt: "2025-08-04T03:55:50Z",
     description: [
       {
         _key: "en",
@@ -610,7 +610,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera ist ein kostenloser proprietärer Webbrowser. Er basierte bis einschließlich Version 12.18 auf der eigenen Browser-Engine Presto. Seit der 2013 freigegebenen Version 15 nutzt er die Browser-Engine der jeweils aktuellen Version des Webbrowsers Chromium. Opera ist für viele Plattformen verfügbar. Alleiniger Entwickler der geschlossenen Softwarekomponenten ist das norwegische Unternehmen Opera Software, das sich auch an der Fortentwicklung der quelloffenen Rendering-Engine beteiligt. Opera Software wurde 1995 in Norwegen von dem Isländer Jon Stephenson von Tetzchner und Geir Ivarsøy gegründet.",
+          "Opera ist ein kostenloser proprietärer Webbrowser des norwegischen Unternehmens Opera Software. Opera basierte bis einschließlich Version 12.18 auf der eigenen Browser-Engine Presto. Seit der 2013 freigegebenen Version 15 nutzt er die Browser-Engine der jeweils aktuellen Version des Webbrowsers Chromium. Opera ist für viele Plattformen verfügbar. Opera Software wurde 1995 in Norwegen von dem Isländer Jon Stephenson von Tetzchner und Geir Ivarsøy gegründet.",
       },
       {
         _key: "hi",
@@ -1529,9 +1529,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "BS480k3TNtcUIiGVL70XeJ",
+    _rev: "XzviKc6ApcqmvLmTzdH3FG",
     _type: "browser",
-    _updatedAt: "2025-07-23T03:46:19Z",
+    _updatedAt: "2025-09-17T03:26:13Z",
     description: [
       {
         _key: "en",
@@ -1961,7 +1961,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Die Marktanteile von Firefox sind seit 2009 beständig gefallen; sie sanken weltweit von ehemals 32,2 % auf etwa 2,4 % im Jahr 2025.",
+          "Mozilla Firefox, kurz Firefox genannt, ist ein freier Webbrowser des Mozilla-Projektes. Er wurde im September 2002 veröffentlicht. Firefox hatte seinen höchsten weltweiten Marktanteil 2009 mit etwa 32 %, seitdem ist er auf etwa 2,4 % im Juni 2025 gefallen.",
       },
       {
         _key: "hi",
@@ -2758,9 +2758,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:27:41Z",
     _id: "c384ba9c-d502-4946-99a2-734b295088aa",
-    _rev: "i5t5RbBCFwNL8rUiRK25yh",
+    _rev: "3SXpP2peasnamEPCScEZOT",
     _type: "browser",
-    _updatedAt: "2025-06-29T03:43:06Z",
+    _updatedAt: "2025-09-17T03:26:17Z",
     description: [
       {
         _key: "en",
@@ -3262,9 +3262,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "o6EKSRmXrHYie9DfoEIrhy",
+    _rev: "3SXpP2peasnamEPCScEZc7",
     _type: "browser",
-    _updatedAt: "2025-03-16T10:23:23Z",
+    _updatedAt: "2025-09-17T03:26:21Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -3881,7 +3881,7 @@ export const browsers: Browser[] = [
         _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          "Chrome est un navigateur web propriétaire développé par Google depuis 2008, basé sur le projet libre Chromium fonctionnant sous Windows, MacOS, Linux, Android et iOS.",
+          "Chrome est un navigateur web propriétaire développé par Google depuis 2008, basé sur le projet libre Chromium fonctionnant sous Windows, macOS, Linux, Android et iOS.",
       },
       {
         _key: "de",
@@ -4413,9 +4413,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:50:38Z",
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "WqU571zt2Dmze14jUcgQJQ",
+    _rev: "n73s3PlPuC6MMWGp2hwsC8",
     _type: "browser",
-    _updatedAt: "2025-07-03T03:39:42Z",
+    _updatedAt: "2025-08-09T03:39:27Z",
     description: [
       {
         _key: "en",
@@ -4936,7 +4936,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Vivaldi is a freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies; the company was founded by Tatsuki Tomita and Jon Stephenson von Tetzchner, who was the co-founder and CEO of Opera Software. Vivaldi was initially released on 27 January 2015.",
+          "Vivaldi is a Norwegian freeware, cross-platform web browser with a built-in email client developed by Vivaldi Technologies; the company was founded by Tatsuki Tomita and Jon Stephenson von Tetzchner, who was the co-founder and CEO of Opera Software. Vivaldi was initially released on 27 January 2015.",
       },
       {
         _key: "nl",
