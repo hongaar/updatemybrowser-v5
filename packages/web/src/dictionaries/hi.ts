@@ -34,7 +34,10 @@ const dict: Dict = {
   UpdateLinkDescription: "कृपया नीचे दिए गए बटन पर क्ल",
   DownloadLinkDescription: "कृपया नीचे दिए गए बटन पर क्ल",
   AvailableOnYourOs: "आपके डिवाइस पर उपलब्ध है।",
-  AvailableOnYourOsDescription: "आप वर्तमान में %s का उपयोग नहीं क",
+  AvailableOnYourOsDescription:
+    "आप वर्तमान में %s का उपयोग नहीं कर रहे हैं, लेकिन यह %s पर उपलब्ध है।",
+  AvailableOnYourOsDescriptionMaybeDisguised:
+    "आप वर्तमान में %s का उपयोग नहीं कर रहे हैं (या यह दूसरे ब्राउज़र के रूप में छुपा हो सकता है), लेकिन यह %s पर उपलब्ध है।",
   AvailableOnYourOsClickButtonToDownload: "कृपया इस ब्राउज़र को डाउनलोड क",
   DownloadNow: "अभी डाउनलोड करें",
   Download: "डाउनलोड करें",

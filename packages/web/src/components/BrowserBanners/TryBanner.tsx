@@ -16,15 +16,16 @@ type Props = {
   language: string;
   dict: Dict;
   browser: FlatBrowser;
+  browsers?: FlatBrowser[];
 };
 
-export function TryBanner({ language, dict, browser }: Props) {
+export function TryBanner({ language, dict, browser, browsers }: Props) {
   const [hydratedBrowser, setHydratedBrowser] =
     useState<MaybeHydratedBrowserWithFlatReleases>(browser);
 
   useEffect(
-    () => setHydratedBrowser(hydrateBrowserWithFlatReleases(browser)),
-    [browser],
+    () => setHydratedBrowser(hydrateBrowserWithFlatReleases(browser, browsers)),
+    [browser, browsers],
   );
 
   if (
@@ -39,7 +40,9 @@ export function TryBanner({ language, dict, browser }: Props) {
       <h3>{dict.AvailableOnYourOs}</h3>
       <p>
         {sprintf(
-          dict.AvailableOnYourOsDescription,
+          hydratedBrowser.match?.mightBeDisguised
+            ? dict.AvailableOnYourOsDescriptionMaybeDisguised
+            : dict.AvailableOnYourOsDescription,
           hydratedBrowser.name,
           hydratedBrowser.match?.currentOsRelease.os.os.name,
         )}

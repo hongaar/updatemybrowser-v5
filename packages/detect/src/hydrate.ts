@@ -20,6 +20,11 @@ export type MaybeHydratedBrowserWithFlatReleases = FlatBrowser & {
      */
     browserMatch: boolean;
 
+    /**
+     * Whether the current page browser might be disguised as the detected browser
+     */
+    mightBeDisguised: boolean;
+
     currentOsRelease: FlatExpandedRelease;
     availableOnCurrentOs: boolean;
     highestAvailableVersion: string;
@@ -63,10 +68,13 @@ export function matchesOs(osVersion: OsVersion<OS>, os?: DetectedOs) {
 }
 
 export function hydrateBrowsersWithFlatReleases(browsers: FlatBrowser[]) {
-  return browsers.map((item) => hydrateBrowserWithFlatReleases(item));
+  return browsers.map((item) => hydrateBrowserWithFlatReleases(item, browsers));
 }
 
-export function hydrateBrowserWithFlatReleases(browser: FlatBrowser) {
+export function hydrateBrowserWithFlatReleases(
+  browser: FlatBrowser,
+  allBrowsers?: FlatBrowser[],
+) {
   const { os, browser: detectedBrowser } = detect();
 
   const currentOsRelease = browser.releases?.find((release) =>
@@ -80,11 +88,29 @@ export function hydrateBrowserWithFlatReleases(browser: FlatBrowser) {
     detectedBrowser?.name || "no-browser",
   );
 
+  // Check if the current page browser might be disguised as the detected browser
+  let mightBeDisguised = false;
+  if (allBrowsers && detectedBrowser?.name) {
+    // Find browsers that have maybeDetectedAs pointing to the detected browser
+    const disguisedBrowsers = allBrowsers.filter(
+      (b) =>
+        b.maybeDetectedAs?.some(
+          (ref) =>
+            allBrowsers
+              .find((browser) => browser._id === ref._ref)
+              ?.matchBrowserName?.includes(detectedBrowser.name || ""),
+        ),
+    );
+    // If the current page browser is one of those disguised browsers, it might be disguised
+    mightBeDisguised = disguisedBrowsers.some((b) => b._id === browser._id);
+  }
+
   return {
     ...browser,
     match: {
       currentBrowser: availableOnCurrentOs && browserMatch,
       browserMatch,
+      mightBeDisguised,
       currentOsRelease,
       availableOnCurrentOs,
       highestAvailableVersion,

@@ -53,6 +53,8 @@ const dict: Dict = {
   AvailableOnYourOs: "Disponible en tu dispositivo.",
   AvailableOnYourOsDescription:
     "Actualmente no estás utilizando %s, pero está disponible en %s.",
+  AvailableOnYourOsDescriptionMaybeDisguised:
+    "Puede que no estés utilizando actualmente %s (o puede estar disfrazado como otro navegador), pero está disponible en %s.",
   AvailableOnYourOsClickButtonToDownload:
     "Por favor, haz clic en el botón de abajo para descargar este navegador.",
   DownloadNow: "Descargar ahora",

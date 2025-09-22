@@ -41,6 +41,8 @@ const dict: Dict = {
     "Klik op de knop hieronder om deze browser te downloaden.",
   AvailableOnYourOsDescription:
     "Je gebruikt momenteel geen %s, maar deze browser is beschikbaar op %s.",
+  AvailableOnYourOsDescriptionMaybeDisguised:
+    "Je gebruikt mogelijk momenteel geen %s (of deze kan vermommd zijn als een andere browser), maar deze browser is beschikbaar op %s.",
   DownloadNow: "Download nu",
   Download: "Download",
   Version: "Versie",
