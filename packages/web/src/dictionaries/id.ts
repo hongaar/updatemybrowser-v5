@@ -44,6 +44,8 @@ const dict: Dict = {
   Update: "Perbarui",
   AvailableOnYourOsDescription:
     "Anda saat ini tidak menggunakan %s, tetapi tersedia di %s.",
+  AvailableOnYourOsDescriptionMaybeDisguised:
+    "Anda mungkin saat ini tidak menggunakan %s (atau mungkin menyamar sebagai browser lain), tetapi tersedia di %s.",
   UnderConstruction:
     "Halaman ini sedang dalam konstruksi. Silakan kembali lagi nanti.",
   CheckDetails: "Periksa detail",
