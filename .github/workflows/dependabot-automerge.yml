@@ -10,19 +10,39 @@ permissions:
 jobs:
   automated-automerge:
     runs-on: ubuntu-latest
-    if: >
-      ${{ 
-        github.actor != 'Copilot' &&
-        !startsWith(github.head_ref, 'copilot/') &&
-        (
-          github.actor == 'dependabot[bot]' || 
-          (github.actor == 'github-actions[bot]' && 
-           (github.head_ref == 'browserslist-update' || 
-            github.head_ref == 'chore/update'))
-        )
-      }}
     steps:
-      - run: gh pr merge --auto --squash "$PR_URL"
+      - name: Debug - Print PR information
+        run: |
+          echo "=== DEBUG: PR Information ==="
+          echo "github.actor: ${{ github.actor }}"
+          echo "github.head_ref: ${{ github.head_ref }}"
+          echo "github.event.pull_request.user.login: ${{ github.event.pull_request.user.login }}"
+          echo "PR URL: ${{ github.event.pull_request.html_url }}"
+          echo "=== END DEBUG ==="
+      
+      - name: Debug - Evaluate conditions
+        run: |
+          echo "=== DEBUG: Condition Evaluation ==="
+          echo "Is dependabot: ${{ github.actor == 'dependabot[bot]' }}"
+          echo "Is github-actions: ${{ github.actor == 'github-actions[bot]' }}"
+          echo "Is browserslist-update branch: ${{ github.head_ref == 'browserslist-update' }}"
+          echo "Is chore/update branch: ${{ github.head_ref == 'chore/update' }}"
+          echo "Overall condition result: ${{ github.actor == 'dependabot[bot]' || (github.actor == 'github-actions[bot]' && (github.head_ref == 'browserslist-update' || github.head_ref == 'chore/update')) }}"
+          echo "=== END DEBUG ==="
+      
+      - name: Conditional merge (original logic)
+        if: >
+          ${{ 
+            github.actor == 'dependabot[bot]' || 
+            (github.actor == 'github-actions[bot]' && 
+             (github.head_ref == 'browserslist-update' || 
+              github.head_ref == 'chore/update'))
+          }}
+        run: |
+          echo "=== WOULD EXECUTE MERGE ==="
+          echo "This PR meets the conditions for auto-merge"
+          echo "Command that would run: gh pr merge --auto --squash \"$PR_URL\""
+          echo "=== MERGE DISABLED FOR DEBUGGING ==="
         env:
           PR_URL: ${{ github.event.pull_request.html_url }}
           GH_TOKEN: ${{ github.token }}
