@@ -3262,9 +3262,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "3SXpP2peasnamEPCScEZc7",
+    _rev: "vXC5044Ki12DOAyM8Q1YhV",
     _type: "browser",
-    _updatedAt: "2025-09-17T03:26:21Z",
+    _updatedAt: "2025-09-26T03:27:31Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -3869,7 +3869,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Google Chrome is a web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, iPadOS, and also for Android, where it is the default browser. The browser is also the main component of ChromeOS, where it serves as the platform for web applications.",
+          "Google Chrome is a web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, iPadOS, and also for Android, where it is the default browser. The browser is also the main component of ChromeOS, on which it serves as the platform for web applications.",
       },
       {
         _key: "nl",
