@@ -62,9 +62,9 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-23T06:52:17Z",
     _id: "df47bd5d-957d-470f-b972-dc79e44b6ec3",
-    _rev: "MirE1BP5LZnAEHAHT0LZme",
+    _rev: "BxcO24SyTzg3flaR7ESdLz",
     _type: "release",
-    _updatedAt: "2025-09-06T03:25:48Z",
+    _updatedAt: "2025-09-22T12:11:46Z",
     browser: {
       _ref: "278c02c3-76d4-4011-a543-39ca003ff1ee",
       _type: "reference",
@@ -85,6 +85,14 @@ export const releases: Release[] = [
         _type: "osVersion",
         os: {
           _ref: "27cf9d5b-7cb9-4555-9cee-54b2ee4847fc",
+          _type: "reference",
+        },
+      },
+      {
+        _key: "e519c7b21ab9",
+        _type: "osVersion",
+        os: {
+          _ref: "ffebb051-7321-4379-aeaa-ef1c726c92b4",
           _type: "reference",
         },
       },
@@ -345,15 +353,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-08T06:17:00Z",
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _rev: "K1UD2HYgjqILUJ1etywlug",
+    _rev: "N49R87StLCedgcysfzIqot",
     _type: "release",
-    _updatedAt: "2025-09-12T03:26:03Z",
+    _updatedAt: "2025-09-26T03:27:20Z",
     browser: {
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
     currentUsage: 1.851972,
-    currentVersion: "142",
+    currentVersion: "143",
     downloadUrl: "https://www.mozilla.org/firefox/all",
     oses: [
       {
@@ -452,15 +460,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:48:43Z",
     _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _rev: "qYYGLTh5s9q6PKEQd4PLxF",
+    _rev: "N49R87StLCedgcysfzIqxj",
     _type: "release",
-    _updatedAt: "2025-09-12T03:26:05Z",
+    _updatedAt: "2025-09-26T03:27:22Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
     currentUsage: 0.7588760000000001,
-    currentVersion: "121",
+    currentVersion: "122",
     downloadUrl: "https://www.opera.com/download",
     oses: [
       {
