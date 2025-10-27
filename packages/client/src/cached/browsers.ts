@@ -1117,9 +1117,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:54:10Z",
     _id: "278c02c3-76d4-4011-a543-39ca003ff1ee",
-    _rev: "TRv8g5Dp3L2r790KIBOYAP",
+    _rev: "Aw9MlzIyUdmV3ABBZYmwzD",
     _type: "browser",
-    _updatedAt: "2025-06-23T03:41:44Z",
+    _updatedAt: "2025-10-23T03:28:57Z",
     description: [
       {
         _key: "en",
@@ -1454,7 +1454,7 @@ export const browsers: Browser[] = [
         _key: "de",
         _type: "internationalizedArrayTextValue",
         value:
-          "Unter dem Namen Chromium wird der Großteil des Quelltextes des Webbrowsers Google Chrome unter der BSD-Lizenz als freie Software zur Verfügung gestellt. Das Projekt wurde am 2. September 2008 gestartet. Viele weitere Browser basieren auf der Code-Basis von Chromium, darunter Microsoft Edge, Opera, Vivaldi und Brave.",
+          "Unter dem Namen Chromium wird der Großteil des Quelltextes des Webbrowsers Google Chrome unter der BSD-Lizenz als freie Software zur Verfügung gestellt. Das Projekt wurde am 2. September 2008 gestartet. Viele weitere Browser basieren auf der Code-Basis von Chromium, darunter Microsoft Edge, Opera, Vivaldi, ChatGPT Atlas und Brave.",
       },
       {
         _key: "hi",
