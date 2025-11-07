@@ -697,9 +697,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:38:17Z",
     _id: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
-    _rev: "yf6YE3Avm57l7p1xz1cq5N",
+    _rev: "QtTvpLJc1hsKCELKLzhm7d",
     _type: "browser",
-    _updatedAt: "2025-03-16T10:23:17Z",
+    _updatedAt: "2025-11-04T03:33:23Z",
     description: [
       {
         _key: "en",
@@ -1047,7 +1047,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Samsung Internet is a Chromium-based web browser for Android smartphones developed by Samsung Electronics. It was first released in 2012 as a basic mobile browser for Samsung Galaxy devices.",
+          "Samsung Internet is a web browser developed by Samsung Electronics. It was made by the company as a basic mobile browser for the Samsung Galaxy Android-based devices, and it has also been released for Windows. The browser is based on Chromium.",
       },
       {
         _key: "nl",
@@ -2385,9 +2385,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "WqU571zt2Dmze14jVAaFzd",
+    _rev: "rZzgp26nG8ZymWlZK4Z0Ma",
     _type: "browser",
-    _updatedAt: "2025-07-07T03:41:52Z",
+    _updatedAt: "2025-11-03T03:39:14Z",
     description: [
       {
         _key: "en",
@@ -2707,7 +2707,7 @@ export const browsers: Browser[] = [
         _key: "es",
         _type: "internationalizedArrayTextValue",
         value:
-          'Internet Explorer es una serie descontinuada de navegadores web gráficos desarrollado por Microsoft para el sistema operativo Microsoft Windows desde 1995. Se lanzó por primera vez como parte del paquete complementario "Plus!" para Windows 95 ese año.',
+          'Internet Explorer fue una serie de navegadores web gráficos desarrollado por Microsoft para el sistema operativo Microsoft Windows desde 1995. Se lanzó por primera vez como parte del paquete complementario "Plus!" para Windows 95 ese año.',
       },
     ],
     vendor: "Microsoft",
