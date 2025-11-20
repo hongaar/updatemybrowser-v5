@@ -1529,9 +1529,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "XzviKc6ApcqmvLmTzdH3FG",
+    _rev: "P8wOZ9kagaSlA6ZoW7fc2r",
     _type: "browser",
-    _updatedAt: "2025-09-17T03:26:13Z",
+    _updatedAt: "2025-11-15T03:32:29Z",
     description: [
       {
         _key: "en",
@@ -1943,7 +1943,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other operating systems, such as ReactOS. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
+          'Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other operating systems, such as ReactOS. It is the default, pre-installed browser on Debian, Ubuntu, and other Linux distros. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version was also available on the Amazon Fire TV as one of the two main browsers available with Amazon\'s Silk Browser, until April 30, 2021, when Firefox would be discontinued on that platform. Firefox is the spiritual successor of Netscape Navigator, as the Mozilla community was created by Netscape in 1998, before its acquisition by AOL. Firefox was created in 2002 under the codename "Phoenix" by members of the Mozilla community who desired a standalone browser rather than the Mozilla Application Suite bundle. During its beta phase, it proved to be popular with its testers and was praised for its speed, security, and add-ons compared to Microsoft\'s then-dominant Internet Explorer 6. It was released on November 9, 2004, and challenged Internet Explorer\'s dominance with 60 million downloads within nine months. In November 2017, Firefox began incorporating new technology under the code name "Quantum" to promote parallelism and a more intuitive user interface.',
       },
       {
         _key: "nl",
