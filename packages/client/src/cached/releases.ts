@@ -62,14 +62,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-23T06:52:17Z",
     _id: "df47bd5d-957d-470f-b972-dc79e44b6ec3",
-    _rev: "IPS2Hxs0BsqTcEw0HZWBUd",
+    _rev: "Z9IslyWkQUmSzBFY4wUWbp",
     _type: "release",
-    _updatedAt: "2025-11-03T03:39:06Z",
+    _updatedAt: "2025-12-04T03:40:44Z",
     browser: {
       _ref: "278c02c3-76d4-4011-a543-39ca003ff1ee",
       _type: "reference",
     },
-    currentVersion: "142",
+    currentVersion: "143",
     downloadUrl: "https://www.chromium.org/getting-involved/download-chromium/",
     oses: [
       {
@@ -111,14 +111,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-14T02:45:47Z",
     _id: "f3feab0b-20a2-4397-9458-bf579d5fd7ea",
-    _rev: "tSanPbsSNsL1ZUpraAQ6Lb",
+    _rev: "Z9IslyWkQUmSzBFY4wUXqT",
     _type: "release",
-    _updatedAt: "2025-11-03T03:39:07Z",
+    _updatedAt: "2025-12-04T03:40:45Z",
     browser: {
       _ref: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
       _type: "reference",
     },
-    currentVersion: "142",
+    currentVersion: "143",
     downloadUrl: "https://brave.com/download",
     oses: [
       {
@@ -176,15 +176,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-05T15:07:57Z",
     _id: "fbc81068-bd70-434f-a3cf-4c6a8b0a5bac",
-    _rev: "vxYPnjzbBuz9qX6uhApyg6",
+    _rev: "kOTnyjIH1b2lIev2mX2p35",
     _type: "release",
-    _updatedAt: "2025-11-07T03:34:10Z",
+    _updatedAt: "2025-12-10T03:42:28Z",
     browser: {
       _ref: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
       _type: "reference",
     },
-    currentUsage: 34.32557800000001,
-    currentVersion: "142",
+    currentUsage: 29.510986,
+    currentVersion: "143",
     downloadUrl: "https://www.google.com/chrome/",
     oses: [
       {
@@ -250,15 +250,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:50:30Z",
     _id: "2e7a7bed-6a90-4ffc-8230-32bd93fa28d9",
-    _rev: "vxYPnjzbBuz9qX6uhApyxm",
+    _rev: "oFB9wYvKrs2R4L9rOhUU95",
     _type: "release",
-    _updatedAt: "2025-11-07T03:34:12Z",
+    _updatedAt: "2025-12-10T03:42:29Z",
     browser: {
       _ref: "e2ebb783-874b-497f-b90f-0d17956d8842",
       _type: "reference",
     },
-    currentUsage: 4.282614,
-    currentVersion: "142",
+    currentUsage: 4.617678,
+    currentVersion: "143",
     downloadUrl: "https://www.microsoft.com/edge/download",
     oses: [
       {
@@ -317,15 +317,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-08T06:17:00Z",
     _id: "1c22de35-cd2a-42b5-9f1a-1dd4a604e0fc",
-    _rev: "dYnIS9ECphjjgmGWPtizpi",
+    _rev: "fqs0fFI029IEWdNLdwD1qb",
     _type: "release",
-    _updatedAt: "2025-11-07T03:34:14Z",
+    _updatedAt: "2025-12-10T03:42:30Z",
     browser: {
       _ref: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
       _type: "reference",
     },
-    currentUsage: 1.8503280000000002,
-    currentVersion: "144",
+    currentUsage: 1.92208,
+    currentVersion: "145",
     downloadUrl: "https://www.mozilla.org/firefox/all",
     oses: [
       {
@@ -382,14 +382,14 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-18T15:25:24Z",
     _id: "fb782fe5-1a48-46a0-ac53-2388dd571903",
-    _rev: "YmuWwRyRc6ts1XHKSGXKaQ",
+    _rev: "oFB9wYvKrs2R4L9rOhUUEF",
     _type: "release",
-    _updatedAt: "2025-11-07T03:34:13Z",
+    _updatedAt: "2025-12-10T03:42:31Z",
     browser: {
       _ref: "25be1aa6-c771-4b3f-b5f9-6bdcf391cb7b",
       _type: "reference",
     },
-    currentUsage: 1.7845854,
+    currentUsage: 1.9176355,
     currentVersion: "29",
     downloadUrl:
       "https://play.google.com/store/apps/details?id=com.sec.android.app.sbrowser&hl=en",
@@ -418,15 +418,15 @@ export const releases: Release[] = [
   {
     _createdAt: "2023-10-19T15:49:54Z",
     _id: "8ffd40de-2359-4baa-bfba-90a5c37d920e",
-    _rev: "YmuWwRyRc6ts1XHKSGXLKa",
+    _rev: "fqs0fFI029IEWdNLdwD2B7",
     _type: "release",
-    _updatedAt: "2025-11-07T03:34:15Z",
+    _updatedAt: "2025-12-10T03:42:32Z",
     browser: {
       _ref: "c384ba9c-d502-4946-99a2-734b295088aa",
       _type: "reference",
     },
-    currentUsage: 1.208682,
-    currentVersion: "26.1",
+    currentUsage: 1.3782719999999997,
+    currentVersion: "26.2",
     downloadUrl: "https://support.apple.com/downloads/safari",
     oses: [
       {
@@ -458,16 +458,52 @@ export const releases: Release[] = [
     ],
   },
   {
+    _createdAt: "2023-10-19T15:49:20Z",
+    _id: "9f482aff-b73c-45bb-bf10-a4ea19668029",
+    _rev: "fqs0fFI029IEWdNLdwD2ft",
+    _type: "release",
+    _updatedAt: "2025-12-10T03:42:34Z",
+    browser: {
+      _ref: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
+      _type: "reference",
+    },
+    currentUsage: 0.4172323,
+    currentVersion: "11",
+    downloadUrl: "https://www.microsoft.com/download/internet-explorer",
+    oses: [
+      {
+        _key: "570091bd0121",
+        _type: "osVersion",
+        os: {
+          _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
+          _type: "reference",
+        },
+        versionConstraint: "<8",
+      },
+    ],
+    updateUrl:
+      "https://support.microsoft.com/windows/run-the-latest-version-of-internet-explorer-11-ea628df4-50ce-8019-f9f4-468e39685cea",
+    versionSource: [
+      {
+        _key: "56a76b3ab658",
+        _type: "versionSource",
+        caniuse_agent: "ie",
+        caniuse_contribute_usage: true,
+        source: "caniuse",
+      },
+    ],
+  },
+  {
     _createdAt: "2023-10-19T15:48:43Z",
     _id: "408db807-e80b-4de9-bc66-0924050c066d",
-    _rev: "vxYPnjzbBuz9qX6uhAq2sq",
+    _rev: "kOTnyjIH1b2lIev2mX2pfq",
     _type: "release",
-    _updatedAt: "2025-11-07T03:34:16Z",
+    _updatedAt: "2025-12-10T03:42:33Z",
     browser: {
       _ref: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
       _type: "reference",
     },
-    currentUsage: 0.950034,
+    currentUsage: 0.412544,
     currentVersion: "122",
     downloadUrl: "https://www.opera.com/download",
     oses: [
@@ -527,42 +563,6 @@ export const releases: Release[] = [
         _key: "f9af09e9b994",
         _type: "versionSource",
         caniuse_agent: "opera",
-        caniuse_contribute_usage: true,
-        source: "caniuse",
-      },
-    ],
-  },
-  {
-    _createdAt: "2023-10-19T15:49:20Z",
-    _id: "9f482aff-b73c-45bb-bf10-a4ea19668029",
-    _rev: "vxYPnjzbBuz9qX6uhAq3SC",
-    _type: "release",
-    _updatedAt: "2025-11-07T03:34:17Z",
-    browser: {
-      _ref: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-      _type: "reference",
-    },
-    currentUsage: 0.3680761,
-    currentVersion: "11",
-    downloadUrl: "https://www.microsoft.com/download/internet-explorer",
-    oses: [
-      {
-        _key: "570091bd0121",
-        _type: "osVersion",
-        os: {
-          _ref: "a569493f-7ef2-414a-9b06-d8bba525dcd8",
-          _type: "reference",
-        },
-        versionConstraint: "<8",
-      },
-    ],
-    updateUrl:
-      "https://support.microsoft.com/windows/run-the-latest-version-of-internet-explorer-11-ea628df4-50ce-8019-f9f4-468e39685cea",
-    versionSource: [
-      {
-        _key: "56a76b3ab658",
-        _type: "versionSource",
-        caniuse_agent: "ie",
         caniuse_contribute_usage: true,
         source: "caniuse",
       },
