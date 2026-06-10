@@ -5,9 +5,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:31:26Z",
     _id: "07a00872-21f9-4a4d-81d4-51d42cf2491f",
-    _rev: "ifTYNy1gn03ESJ9tCsmoJx",
+    _rev: "ookNLRdALho2ZtyjdrNadz",
     _type: "browser",
-    _updatedAt: "2025-10-04T03:25:13Z",
+    _updatedAt: "2025-12-16T03:43:43Z",
     description: [
       {
         _key: "en",
@@ -604,7 +604,7 @@ export const browsers: Browser[] = [
         _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera est un navigateur web gratuit développé initialement par la société norvégienne Opera Software et détenu depuis 2016 par le consortium chinois Golden Brick. Le navigateur est disponible sur PC et mobiles.",
+          "Opera est un navigateur web développé initialement par la société norvégienne Opera et détenu depuis 2016 par le consortium chinois Golden Brick. Le navigateur est disponible sur PC et mobiles.",
       },
       {
         _key: "de",
@@ -628,7 +628,7 @@ export const browsers: Browser[] = [
         _key: "ru",
         _type: "internationalizedArrayTextValue",
         value:
-          "Opera — веб-браузер и пакет прикладных программ для работы в Интернете, выпускаемый компанией Opera Software. Разработан в 1994 году группой исследователей из норвежской компании Telenor. С 1995 года — продукт компании Opera Software, образованной авторами первой версии браузера. Суммарная рыночная доля браузеров Opera в январе 2021 года составила 2,17 % — шестое место в мире. В России процент пользователей браузера выше среднемирового. В январе 2021 года доля браузеров Opera в Рунете составила 5,55 %.",
+          "Opera — браузер и пакет прикладных программ для работы в Интернете, выпускаемый компанией Opera Software. Разработан в 1994 году группой исследователей из норвежской компании Telenor. С 1995 года — продукт компании Opera Software, образованной авторами первой версии браузера. Суммарная рыночная доля браузеров Opera в январе 2021 года составила 2,17 % — шестое место в мире. В России процент пользователей браузера выше среднемирового. В январе 2021 года доля браузеров Opera в Рунете составила 5,55 %.",
       },
       {
         _key: "es",
@@ -1529,9 +1529,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T15:24:58Z",
     _id: "5bf6e125-2a7f-4912-8dfb-bdf9e521b5e0",
-    _rev: "XzviKc6ApcqmvLmTzdH3FG",
+    _rev: "P8wOZ9kagaSlA6ZoW7fc2r",
     _type: "browser",
-    _updatedAt: "2025-09-17T03:26:13Z",
+    _updatedAt: "2025-11-15T03:32:29Z",
     description: [
       {
         _key: "en",
@@ -1943,7 +1943,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other operating systems, such as ReactOS. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version is also available on the Amazon Fire TV as one of the two main browsers available with Amazon's Silk Browser.",
+          'Mozilla Firefox, or simply Firefox, is a free and open-source web browser developed by the Mozilla Foundation and its subsidiary, the Mozilla Corporation. It uses the Gecko rendering engine to display web pages, which implements current and anticipated web standards. Firefox is available for Windows 10 or later versions of Windows, macOS, and Linux. Its unofficial ports are available for various Unix and Unix-like operating systems, including FreeBSD, OpenBSD, NetBSD, and other operating systems, such as ReactOS. It is the default, pre-installed browser on Debian, Ubuntu, and other Linux distros. Firefox is also available for Android and iOS. However, as with all other iOS web browsers, the iOS version uses the WebKit layout engine instead of Gecko due to platform requirements. An optimized version was also available on the Amazon Fire TV as one of the two main browsers available with Amazon\'s Silk Browser, until April 30, 2021, when Firefox would be discontinued on that platform. Firefox is the spiritual successor of Netscape Navigator, as the Mozilla community was created by Netscape in 1998, before its acquisition by AOL. Firefox was created in 2002 under the codename "Phoenix" by members of the Mozilla community who desired a standalone browser rather than the Mozilla Application Suite bundle. During its beta phase, it proved to be popular with its testers and was praised for its speed, security, and add-ons compared to Microsoft\'s then-dominant Internet Explorer 6. It was released on November 9, 2004, and challenged Internet Explorer\'s dominance with 60 million downloads within nine months. In November 2017, Firefox began incorporating new technology under the code name "Quantum" to promote parallelism and a more intuitive user interface.',
       },
       {
         _key: "nl",
@@ -2048,9 +2048,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-14T02:43:20Z",
     _id: "88fe33e4-5b79-43f8-ac01-ed8a4ac68b1b",
-    _rev: "i5t5RbBCFwNL8rUiR8KQNL",
+    _rev: "Yys53yHfRp51esCpqKiwst",
     _type: "browser",
-    _updatedAt: "2025-06-28T03:35:04Z",
+    _updatedAt: "2025-11-28T03:35:52Z",
     description: [
       {
         _key: "en",
@@ -2302,7 +2302,7 @@ export const browsers: Browser[] = [
         _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          "Brave est un navigateur web open source gratuit disponible sur Windows, macOS et Linux ainsi que sur iOS et Android. Il a pour objectif de protéger la vie privée de ses utilisateurs en bloquant par défaut les pisteurs et en permettant la navigation privée via le réseau Tor. Le logiciel, fondé sur Chromium, est développé par l’entreprise Brave Software depuis 2016.",
+          "Brave est un navigateur web open source gratuit disponible sur Windows, macOS et Linux ainsi que sur iOS et Android. Il a pour objectif de protéger la vie privée de ses utilisateurs en bloquant par défaut les pisteurs et en permettant la navigation privée via le réseau Tor. Le logiciel, fondé sur Chromium, est développé par l’entreprise américaine Brave Software depuis 2016.",
       },
       {
         _key: "de",
@@ -2385,9 +2385,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-07T14:58:45Z",
     _id: "9d3f404f-75ac-4a4f-b72a-aa6189a2a11c",
-    _rev: "rZzgp26nG8ZymWlZK4Z0Ma",
+    _rev: "ddCziRH2Fm886tLDwkFLSJ",
     _type: "browser",
-    _updatedAt: "2025-11-03T03:39:14Z",
+    _updatedAt: "2025-12-05T03:39:56Z",
     description: [
       {
         _key: "en",
@@ -2665,7 +2665,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Internet Explorer is a retired series of graphical web browsers developed by Microsoft that were used in the Windows line of operating systems. While IE has been discontinued on most Windows editions, it remains supported on certain editions of Windows, such as Windows 10 LTSB/LTSC. Starting in 1995, it was first released as part of the add-on package Plus! for Windows 95 that year. Later versions were available as free downloads or in-service packs and included in the original equipment manufacturer (OEM) service releases of Windows 95 and later versions of Windows. Microsoft spent over US$100 million per year on Internet Explorer in the late 1990s, with over 1,000 people involved in the project by 1999. In 2016, Microsoft Edge was released to succeed Internet Explorer 11 as Microsoft's primary web browser. New feature development for Internet Explorer was discontinued that same year, and support for the browser officially ended on June 15, 2022, for Windows 10 Semi-Annual Channel (SAC) editions.",
+          "Internet Explorer is a retired series of graphical web browsers developed by Microsoft that were used in the Windows line of operating systems. While IE has been discontinued on most Windows editions, it remains supported on certain editions of Windows, such as Windows 10 LTSB/LTSC. Starting in 1995, it was first released as part of the add-on package Plus! for Windows 95 that year. Later versions were available as free downloads or in-service packs and included in the original equipment manufacturer (OEM) service releases of Windows 95 and later versions of Windows. Microsoft spent over US$100 million per year on Internet Explorer in the late 1990s, with over 1,000 people involved in the project by 1999. In 2015, Microsoft Edge was released to succeed Internet Explorer 11 as Microsoft's primary web browser. New feature development for Internet Explorer was discontinued the following year year, and support for the browser officially ended on June 15, 2022, for Windows 10 Semi-Annual Channel (SAC) editions.",
       },
       {
         _key: "nl",
@@ -3262,9 +3262,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:12:32Z",
     _id: "c4aa2b42-df97-48ff-a80a-7c08653965b3",
-    _rev: "vXC5044Ki12DOAyM96fES4",
+    _rev: "gqpUrOYcDmwy6M0j0Z7wVu",
     _type: "browser",
-    _updatedAt: "2025-09-29T03:29:36Z",
+    _updatedAt: "2025-12-05T03:39:59Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -3869,7 +3869,7 @@ export const browsers: Browser[] = [
         _key: "en",
         _type: "internationalizedArrayTextValue",
         value:
-          "Google Chrome is a cross-platform web browser developed by Google. It was first released in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, iPadOS, and also for Android, where it is the default browser. The browser is also the main component of ChromeOS, on which it serves as the platform for web applications.",
+          "Google Chrome is a cross-platform web browser developed by Google. It was launched in 2008 for Microsoft Windows, built with free software components from Apple WebKit and Mozilla Firefox. Versions were later released for Linux, macOS, iOS, iPadOS, and also for Android, where it is the default browser. The browser is also the main component of ChromeOS, on which it serves as the platform for web applications.",
       },
       {
         _key: "nl",
@@ -3974,9 +3974,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-09-27T09:26:18Z",
     _id: "e2ebb783-874b-497f-b90f-0d17956d8842",
-    _rev: "WqU571zt2Dmze14jUmOqiy",
+    _rev: "Ohfw11ZYE0auC97uNRiwqc",
     _type: "browser",
-    _updatedAt: "2025-07-04T03:37:52Z",
+    _updatedAt: "2025-12-02T03:40:32Z",
     color: {
       _type: "color",
       alpha: 1,
@@ -4332,7 +4332,7 @@ export const browsers: Browser[] = [
         _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          "Microsoft Edge est un navigateur web propriétaire développé par la société américaine Microsoft depuis 2015, et basé sur Chromium depuis 2020. Il fut conçu pour remplacer Internet Explorer. Edge est installé par défaut avec Windows 10 et Windows 11, et est disponible également sur MacOS et Linux, ainsi que sur mobile avec des versions Android et IOS.",
+          "Microsoft Edge est un navigateur web propriétaire développé par la société américaine Microsoft depuis 2015, et basé sur Chromium depuis 2020. Il fut conçu pour remplacer Internet Explorer. Edge est installé par défaut avec Windows 10 et Windows 11, et est disponible également sur macOS et Linux, ainsi que sur mobile avec des versions Android et iOS.",
       },
       {
         _key: "de",
@@ -4413,9 +4413,9 @@ export const browsers: Browser[] = [
   {
     _createdAt: "2023-10-19T15:50:38Z",
     _id: "f093178f-bfba-4391-8078-6f979c75630d",
-    _rev: "n73s3PlPuC6MMWGp2hwsC8",
+    _rev: "eW5Qyj8mJaXpnFmnCxQp5F",
     _type: "browser",
-    _updatedAt: "2025-08-09T03:39:27Z",
+    _updatedAt: "2025-12-13T03:38:15Z",
     description: [
       {
         _key: "en",
@@ -4948,7 +4948,7 @@ export const browsers: Browser[] = [
         _key: "fr",
         _type: "internationalizedArrayTextValue",
         value:
-          "Vivaldi est un navigateur web propriétaire disponible sur Windows, MacOS, IOS, Linux, Android et Android Automotive, développé depuis 2015 par l’entreprise norvégienne Vivaldi Technologies, fondée par le co-créateur d'Opera, Jon Stephenson von Tetzchner. Il est construit sur Chromium.",
+          "Vivaldi est un navigateur web propriétaire disponible sur Windows, macOS, iOS, Linux, Android et Android Automotive, développé depuis 2015 par l’entreprise norvégienne Vivaldi Technologies, fondée par le co-créateur d'Opera, Jon Stephenson von Tetzchner. Il est construit sur Chromium.",
       },
       {
         _key: "de",
