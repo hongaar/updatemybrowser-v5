@@ -4158,10 +4158,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/semver@npm:^7.5.5":
-  version: 7.5.5
-  resolution: "@types/semver@npm:7.5.5"
-  checksum: 10/1b0be2c4d830f5ef002a305308e06e3616fc38a41c9a2c5b4267df82a038d9bd0ba32ec1da82a52db84a720be7e4b69bac7593797d8dc1400a69069af8f19219
+"@types/semver@npm:^7.8.0":
+  version: 7.8.0
+  resolution: "@types/semver@npm:7.8.0"
+  checksum: 10/bbb33a88cdbc72759cf6b2750f1a28468f4470a61a1543061f494c21a53ad53bb85976e5282d79c811579e7073db0ecb6643ee0bcbf0466e8b5b3cb57ea97de0
   languageName: node
   linkType: hard
 
@@ -4541,7 +4541,7 @@ __metadata:
   resolution: "@updatemybrowser/detect@workspace:packages/detect"
   dependencies:
     "@types/node": "npm:20.9.2"
-    "@types/semver": "npm:^7.5.5"
+    "@types/semver": "npm:^7.8.0"
     "@types/ua-parser-js": "npm:0.7.39"
     "@updatemybrowser/client": "workspace:*"
     "@updatemybrowser/core": "workspace:*"
@@ -4588,7 +4588,7 @@ __metadata:
   resolution: "@updatemybrowser/updater@workspace:packages/updater"
   dependencies:
     "@types/node": "npm:20.9.2"
-    "@types/semver": "npm:^7.5.5"
+    "@types/semver": "npm:^7.8.0"
     "@updatemybrowser/client": "workspace:*"
     "@updatemybrowser/core": "workspace:*"
     "@updatemybrowser/web": "workspace:*"
