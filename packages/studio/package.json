@@ -36,7 +36,7 @@
     "sanity-plugin-internationalized-array": "1.10.3",
     "sanity-plugin-markdown": "4.1.0",
     "sanity-plugin-media": "2.2.4",
-    "styled-components": "^6.1.1"
+    "styled-components": "^6.6.0"
   },
   "devDependencies": {
     "@sanity/eslint-config-studio": "3.0.1",
