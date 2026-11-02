@@ -24,7 +24,7 @@ jobs:
         env:
           SANITY_TOKEN: ${{ secrets.SANITY_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      - uses: peter-evans/create-pull-request@v7
+      - uses: peter-evans/create-pull-request@v8
         with:
           branch: chore/update
           title: "chore: apply update result"
